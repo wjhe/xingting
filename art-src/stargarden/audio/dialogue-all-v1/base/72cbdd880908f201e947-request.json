@@ -1,0 +1,260 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "b78e476a-abff-4ecd-83f4-924741ace027",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“艾莉收到了城外交流会的邀请。她沿着地图找了很久：“如果我想去的地方，这上面没有呢？””\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110504571771B4971376201672B878",
+  "response": {
+    "duration": 10.18,
+    "original_duration": 10.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2880,
+          "start_time": 320,
+          "text": "艾莉收到了城外交流会的邀请。",
+          "words": [
+            {
+              "end_time": 440,
+              "start_time": 320,
+              "text": "艾"
+            },
+            {
+              "end_time": 680,
+              "start_time": 600,
+              "text": "莉"
+            },
+            {
+              "end_time": 960,
+              "start_time": 840,
+              "text": "收"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 960,
+              "text": "到"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1080,
+              "text": "了"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1280,
+              "text": "城"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1480,
+              "text": "外"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1720,
+              "text": "交"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1880,
+              "text": "流"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2120,
+              "text": "会"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2320,
+              "text": "的"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2480,
+              "text": "邀"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2680,
+              "text": "请"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2880,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9760,
+          "start_time": 3440,
+          "text": "她沿着地图找了很久：‘如果我想去的地方，这上面没有呢？",
+          "words": [
+            {
+              "end_time": 3600,
+              "start_time": 3440,
+              "text": "她"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3760,
+              "text": "沿"
+            },
+            {
+              "end_time": 4120,
+              "start_time": 3920,
+              "text": "着"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4120,
+              "text": "地"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4320,
+              "text": "图"
+            },
+            {
+              "end_time": 5040,
+              "start_time": 4720,
+              "text": "找"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 5040,
+              "text": "了"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5200,
+              "text": "很"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5360,
+              "text": "久"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5680,
+              "text": "："
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5680,
+              "text": "‘"
+            },
+            {
+              "end_time": 6880,
+              "start_time": 6720,
+              "text": "如"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6880,
+              "text": "果"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7000,
+              "text": "我"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7160,
+              "text": "想"
+            },
+            {
+              "end_time": 7640,
+              "start_time": 7400,
+              "text": "去"
+            },
+            {
+              "end_time": 7800,
+              "start_time": 7640,
+              "text": "的"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7800,
+              "text": "地"
+            },
+            {
+              "end_time": 8200,
+              "start_time": 7960,
+              "text": "方"
+            },
+            {
+              "end_time": 8200,
+              "start_time": 8200,
+              "text": "，"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8440,
+              "text": "这"
+            },
+            {
+              "end_time": 8920,
+              "start_time": 8760,
+              "text": "上"
+            },
+            {
+              "end_time": 9120,
+              "start_time": 8920,
+              "text": "面"
+            },
+            {
+              "end_time": 9280,
+              "start_time": 9120,
+              "text": "没"
+            },
+            {
+              "end_time": 9480,
+              "start_time": 9280,
+              "text": "有"
+            },
+            {
+              "end_time": 9760,
+              "start_time": 9480,
+              "text": "呢"
+            },
+            {
+              "end_time": 9760,
+              "start_time": 9760,
+              "text": "？"
+            }
+          ]
+        },
+        {
+          "end_time": 9760,
+          "start_time": 9760,
+          "text": "’",
+          "words": [
+            {
+              "end_time": 9760,
+              "start_time": 9760,
+              "text": "’"
+            }
+          ]
+        }
+      ],
+      "text": "艾莉收到了城外交流会的邀请。她沿着地图找了很久：‘如果我想去的地方，这上面没有呢？’"
+    }
+  }
+}

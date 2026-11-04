@@ -1,0 +1,218 @@
+/* 2026-11 界面统一：所有页面共用庭院顶栏，页面标题压缩为一行，新结构使用 pg- 前缀以避开旧样式层叠。 */
+
+/* ---------- 统一顶栏 ---------- */
+#header.unified-header{display:flex;align-items:center;gap:8px;padding:11px 12px 8px;background:#faf5e5;flex-shrink:0;height:auto;border:0;box-shadow:none}
+#header.unified-header:before,#header.unified-header:after{display:none}
+#header.unified-header>.icon-btn{border:1px solid #cec6a0;border-radius:50%;background:#fff8e3;width:42px;height:42px;flex-shrink:0}
+.unified-header .gold-pill{padding:8px;gap:4px;min-width:0}
+.unified-header .gold-pill b{font-size:18px;font-variant-numeric:tabular-nums}
+.unified-header .gold-pill small{display:none}
+@media(max-height:740px){
+  #header.unified-header{padding:7px 10px 5px}
+  .unified-header .home-date{padding:4px 9px}
+  .unified-header .home-date b{font-size:15px;line-height:1.5}
+  .unified-header .home-date small{display:none}
+  #header.unified-header>.icon-btn{width:38px;height:38px}
+  .unified-header .gold-pill{padding:5px 8px}
+}
+@media(max-width:400px){.unified-header .date-era{display:none}}
+@media(max-width:355px){
+  #header.unified-header{gap:5px;padding-left:8px;padding-right:8px}
+  .unified-header .home-moon{display:none}
+  .unified-header .gold-pill b{font-size:16px}
+}
+#nav [data-page]{transform:none}
+
+/* ---------- 通用页面 ---------- */
+.page-pad.pg{padding:6px 14px 22px}
+.pg-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:2px 0 12px;padding-bottom:8px;border-bottom:1px solid #ddd5b4}
+.pg-head h1{margin:0;font:600 21px/1.4 var(--serif);color:#5a7050;letter-spacing:1px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pg-chip{flex-shrink:0;padding:3px 10px;border-radius:13px;background:#e8edcf;color:#6c7a55;font-size:13px;line-height:1.6;white-space:nowrap}
+.pg-card{margin:0 0 12px;padding:12px 14px;border:1px solid #d6cca5;border-radius:18px 6px 18px 6px;background:linear-gradient(115deg,#fffbeb,#f4f0da);box-shadow:inset 0 0 0 3px #fffbee}
+.pg-card h3{display:flex;align-items:baseline;justify-content:space-between;margin:0 0 8px;font:600 17px/1.5 var(--serif);color:#5f7153}
+.pg-card h3 small{font:13px var(--sans,inherit);color:#8a8364}
+.pg-card>p{margin:6px 0 0;font-size:14px;line-height:1.7;color:#7d775c}
+.page-pad.pg .story-notice{font-size:15px;line-height:1.6;color:#9a6f5f}
+.page-pad.pg .quiet-note{font-size:13px;color:#99937a;text-align:center;margin-top:6px}
+
+/* ---------- 日程 ---------- */
+.pg-slots{display:flex;flex-direction:column;gap:9px;margin-bottom:10px}
+.pg-slots .plan-slot{display:block;margin:0;position:relative}
+.pg-slot{display:flex;align-items:center;gap:10px;width:100%;min-height:72px;padding:8px 12px 8px 10px;text-align:left;border:1px solid #d6cca5;border-radius:16px 5px 16px 5px;background:#fffbee;box-shadow:inset 0 0 0 2px #f1efdc}
+.plan-slot.filled .pg-slot{background:linear-gradient(100deg,#f3f5e2,#fffbee);border-color:#bfca9c}
+.pg-when{display:flex;flex-direction:column;align-items:center;width:44px;flex-shrink:0}
+.pg-when b{font:600 16px/1.4 var(--serif);color:#6b7d55}
+.pg-when small{font-size:11px;color:#9a9479;white-space:nowrap}
+.pg-thumb{width:52px;height:52px;flex-shrink:0;border-radius:12px 4px 12px 4px;object-fit:cover;border:1px solid #d6cca5}
+.pg-thumb.empty{display:grid;place-items:center;border-style:dashed;color:#a3ac84;background:#faf7e6}
+.pg-thumb.empty .icon{width:22px;height:22px}
+.pg-slot-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.pg-slot-text b{font-size:17px;line-height:1.4;color:#56664a}
+.pg-slot-text small{display:flex;flex-wrap:wrap;gap:3px 6px;font-size:13px;line-height:1.5;color:#8f8a6f}
+.pg-slot-text small i{font-style:normal}
+.pg-slot>em{flex-shrink:0;font:600 14px/1.4 Georgia,serif;font-style:normal}
+.pg-slot>.icon{width:18px;height:18px;color:#aaa58a;flex-shrink:0}
+.pg-slots .slot-remove{position:absolute;top:-8px;right:-6px;width:30px;height:30px;min-width:30px;min-height:30px;display:grid;place-items:center;border:1px solid #d9d0b4;border-radius:50%;background:#fffbed}
+.pg-tools{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 12px}
+.pg-tools button{display:flex;align-items:center;justify-content:center;gap:5px;min-height:42px;border:1px solid #d3c9a2;border-radius:21px;background:#fffbee;color:#66764f;font-size:14px}
+.pg-tools button:disabled{opacity:.45}
+.pg-tools .icon{width:16px;height:16px}
+.pg-forecast>div{display:flex;align-items:center;justify-content:space-between;padding:5px 0;font-size:15px;color:#77735a;border-bottom:1px dashed #e0d8ba}
+.pg-forecast>div span{display:flex;align-items:center;gap:5px}
+.pg-forecast>div .icon{width:16px;height:16px;color:#a2976b}
+.pg-forecast>div b{font:500 15px Georgia,serif;color:#6f6c55}
+.pg-forecast>div strong{font-size:18px;color:#56704a}
+.pg-gains{display:flex;flex-wrap:wrap;gap:5px;margin:9px 0 0!important}
+.pg-gains i{font-style:normal;padding:3px 8px;border-radius:10px 3px 10px 3px;background:#e1e9cc;color:#557044;font-size:13px}
+.pg-forecast>small{display:block;margin-top:8px;font-size:12px;line-height:1.6;color:#9a947b}
+.pg-tip{display:flex;gap:8px;align-items:flex-start;margin:0 0 10px;padding:10px 12px;border-radius:14px;background:#f7ead9;color:#93704f;font-size:14px;line-height:1.6}
+.pg-tip p{margin:0}
+.pg-tip .icon{width:18px;height:18px;flex-shrink:0;margin-top:2px}
+
+/* ---------- 选活动弹窗 ---------- */
+.pg-picker-status{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;gap:6px;margin:-2px 0 8px;padding:7px 10px;border-radius:14px;background:#f1eed6;font-size:13px;color:#7b7559;white-space:nowrap}
+.pg-picker-status span{display:flex;align-items:center;gap:3px}
+.pg-picker-status b{font:600 15px Georgia,serif;color:#5d6f4f}
+.pg-picker-status .icon{width:14px;height:14px}
+.activity-card.current{background:#eaf0d6!important;box-shadow:inset 3px 0 #9bb07a!important}
+
+/* ---------- 城镇 ---------- */
+.page-pad.pg .town-map{height:215px;margin-bottom:12px}
+.pg-places{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.pg-place{display:flex;align-items:center;gap:9px;min-height:62px;padding:8px 10px;text-align:left;border:1px solid #d6cca5;border-radius:16px 5px 16px 5px;background:#fffbee;box-shadow:inset 0 0 0 2px #f1efdc}
+.pg-place .location-icon{width:36px;height:36px}
+.pg-place b{display:block;font-size:16px;line-height:1.4;color:#56664a}
+.pg-place small{display:block;font-size:13px;line-height:1.5;color:#8f8a6f}
+.pg-place:active{transform:translateY(1px)}
+.pg-hint{margin:8px 2px 12px;font-size:13px;color:#99937a}
+.pg-people .person-entry{display:flex;align-items:center;gap:10px;padding:5px 0;font-size:15px;color:#6b6650}
+.pg-people .person-entry>span{width:48px}
+.pg-people .person-entry>div{flex:1;height:6px;border-radius:6px;background:#e1e4cc;overflow:hidden}
+.pg-people .person-entry i{display:block;height:100%;background:#91a17c}
+.pg-people .person-entry small{width:64px;text-align:right;font-size:13px;color:#9a8058}
+
+/* ---------- 手账 ---------- */
+.page-pad.pg .story-progress{margin-bottom:12px}
+
+/* ---------- 衣橱 ---------- */
+.pg-wardrobe{display:flex;gap:12px;align-items:stretch;margin-bottom:12px}
+.pg-wardrobe .wardrobe-layers{position:relative;inset:auto;width:44%;flex-shrink:0;height:250px;border-radius:40% 40% 14px 14px/24px 24px 14px 14px;border:1px solid #d6cca5;background:#efe9d4}
+.pg-wardrobe-caption{display:flex;flex-direction:column;justify-content:flex-end;min-width:0;padding-bottom:6px}
+.pg-wardrobe-caption small{font-size:13px;color:#99937a}
+.pg-wardrobe-caption b{font:600 22px/1.4 var(--serif);color:#5a7050;margin:2px 0 6px}
+.pg-wardrobe-caption p{margin:0;font-size:14px;line-height:1.7;color:#7d775c}
+.page-pad.pg .outfit-card{flex-wrap:nowrap;align-items:center;padding:10px 8px}
+.page-pad.pg .outfit-card>span:nth-child(2){min-width:0}
+.page-pad.pg .outfit-card small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.page-pad.pg .outfit-card em{flex-shrink:0;white-space:nowrap;font-style:normal}
+.outfit-card.not-owned em{color:#a47c55}
+@media(max-height:740px){.pg-wardrobe .wardrobe-layers{height:210px}.page-pad.pg .town-map{height:180px}}
+
+/* ---------- 事件结果 ---------- */
+.pg-choice-diff{justify-content:center;margin:4px 0 14px}
+
+/* ---------- 设置 ---------- */
+.pg-settings h4{margin:12px 4px 6px;font-size:13px;font-weight:500;color:#99937a;letter-spacing:1px}
+.pg-settings-group{border:1px solid #ddd3b0;border-radius:14px;background:#fffbee;overflow:hidden}
+.pg-settings-group>button{display:flex;align-items:center;gap:10px;width:100%;min-height:50px;padding:0 14px;text-align:left;font-size:16px;color:#5f6b4c;border-bottom:1px solid #ebe4c9}
+.pg-settings-group>button:last-child{border-bottom:0}
+.pg-settings-group>button>span{flex:1}
+.pg-settings-group>button>b{font-weight:400;font-size:14px;color:#8f8a6f}
+.pg-settings-group .icon{width:18px;height:18px;color:#a2976b}
+.pg-settings+.settings-footer{margin-top:14px}
+
+/* ---------- 月度总结：先看合计，逐项用小图横排，继续按钮常驻底部 ---------- */
+.pg-month-total{margin:0 0 10px;padding:10px 12px;border-radius:16px 5px 16px 5px;background:#eef1dc}
+.pg-month-total>b{font:600 15px var(--serif);color:#5f7153}
+.pg-month-total .replay-rewards{margin-top:6px}
+.pg-month-total .replay-rewards>span{animation:none;font-size:13px;padding:4px 7px}
+.pg-month-total .replay-rewards b{font-size:16px}
+.pg-summary .result-row{padding:10px 0;border-bottom:1px dashed #e0d8ba}
+.pg-summary .result-row:has(.result-art)>.result-icon{display:none}
+.pg-summary .result-row>div:has(.result-art){display:grid;grid-template-columns:84px 1fr;column-gap:11px;align-items:start}
+.pg-summary .result-art{grid-row:1 / span 4;width:84px!important;height:84px!important;object-fit:cover;border-radius:14px 4px 14px 4px;margin:0!important}
+.pg-summary .result-row h3{margin:0;font-size:16px;line-height:1.5}
+.pg-summary .result-row p{margin:2px 0 4px;font-size:14px;line-height:1.6}
+.pg-summary .battle-review{grid-column:2;justify-self:start;font-size:14px}
+.pg-sticky-cta{position:sticky;bottom:0;z-index:2;margin-top:10px;box-shadow:0 -8px 14px #faf3df}
+
+/* ---------- 商店 ---------- */
+.pg-shop .shop-balance{min-height:0;padding:8px 14px}
+.pg-shop-h{display:flex;align-items:baseline;gap:8px;margin:14px 2px 4px;font:600 16px var(--serif);color:#5f7153}
+.pg-shop-h small{font:13px inherit;color:#99937a}
+.pg-shop-wardrobe{margin-top:14px}
+
+/* ---------- 矮屏弹窗：缩小插画，让选项与“下一项”留在首屏 ---------- */
+@media(max-height:740px){
+  .story-art,.story-art.layered-story{height:138px!important;margin-bottom:8px}
+  .story-speaker{margin-bottom:2px;font-size:15px}
+  .story-speaker>img{width:40px;height:40px}
+  .event-copy h3{font-size:18px;margin-bottom:4px}
+  .event-copy p{font-size:15px;line-height:1.7}
+  .event-choices .outline-button{min-height:44px}
+  .talk-portrait{width:96px;height:96px;margin-bottom:6px}
+  .replay-scene{height:140px!important}
+  .replay-track{padding-bottom:18px!important}
+  .replay-track>span small{font-size:11px}
+  .replay-outcome p{font-size:14px;line-height:1.6;margin:0}
+  .replay-rewards>span{padding:4px 7px}
+  .replay-rewards b{font-size:16px}
+  .replay-controls .outline-button,.replay-controls .primary-button{min-height:44px}
+  .sheet-header{padding-top:10px!important;padding-bottom:8px!important}
+  .sheet-header h2{font-size:20px!important}
+}
+/* 衣橱预览按年龄身高缩放，脚底对齐。 */
+.pg-wardrobe .wardrobe-character{top:calc(8px + (1 - var(--grow,1)) * 100%)}
+/* 竖构图房间放进横向画框时，截取人物身后的墙面与家具段；衣橱竖框以地板为准。 */
+.story-art.layered-story>img:first-child{object-position:50% 52%}
+.replay-scene .replay-background[src*="home-room"]{object-position:50% 60%}
+.wardrobe-room{object-position:50% 85%}
+
+/* ---------- 日程演出里的即时交锋 ---------- */
+.replay-battle{position:relative}
+.replay-battle .battle-picture{position:absolute;inset:0;height:auto;border:0;border-radius:inherit}
+.replay-battle .battle-fighter{animation:rb-in-left .5s ease-out both}
+.replay-battle .battle-enemy{animation:rb-in-right .5s ease-out both}
+.rb-hp{position:absolute;left:8px;right:8px;top:34px;display:flex;align-items:center;gap:8px;z-index:3}
+.rb-side{flex:1;min-width:0;padding:4px 8px;border-radius:10px;background:#fffbedde}
+.rb-side b{display:block;font-size:13px;line-height:1.4;color:#56664a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rb-side.enemy b{color:#9a6f55;text-align:right}
+.rb-hp>span{font:italic 13px Georgia,serif;color:#fffbed;text-shadow:0 1px 3px #0006}
+.rb-hp .battle-hp{height:6px}
+.rb-hp .battle-hp>i{width:100%;transition:width .3s}
+.rb-line{position:absolute;left:8px;right:8px;bottom:8px;z-index:3;margin:0;padding:6px 10px;border-radius:12px;background:#fffbede8;font-size:14px;line-height:1.5;color:#5f6b4c;text-align:center}
+.rb-line b{font:600 16px Georgia,serif;color:#a0603f}
+.rb-verdict{position:absolute;left:0;right:0;top:42%;z-index:4;text-align:center;font:600 28px/1.3 var(--serif);letter-spacing:4px;color:#fffbed;text-shadow:0 2px 0 #7b8f5f,0 0 14px #3c4a2c88;opacity:0;transform:scale(.7);transition:opacity .3s,transform .3s}
+.replay-battle[data-fighting=false] .rb-verdict{opacity:1;transform:scale(1)}
+.replay-battle[data-result=retreat] .rb-verdict{text-shadow:0 2px 0 #9a7a58,0 0 14px #4a3a2c88}
+.replay-battle[data-result=victory] .battle-enemy{opacity:.35;filter:grayscale(.6);transition:opacity .6s,filter .6s}
+.replay-battle[data-result=retreat] .battle-fighter{opacity:.55;transition:opacity .6s}
+@keyframes rb-in-left{from{transform:translateX(-30%);opacity:0}to{transform:none;opacity:1}}
+@keyframes rb-in-right{from{transform:translateX(30%);opacity:0}to{transform:none;opacity:1}}
+@media(prefers-reduced-motion:reduce){.replay-battle .battle-fighter,.replay-battle .battle-enemy{animation:none}}
+.replay-scene.replay-battle{height:clamp(250px,36dvh,320px)!important}
+.replay-battle .battle-fighter{left:2%;bottom:0;width:50%;height:72%}
+.replay-battle .battle-enemy{right:3%;bottom:8%;width:44%;height:52%}
+.replay-battle .battle-fighter,.replay-battle .battle-enemy{bottom:44px}
+@media(max-height:740px){.replay-scene.replay-battle{height:220px!important}}
+.pg-volume{display:flex;align-items:center;gap:12px;min-height:50px;padding:0 14px;font-size:15px;color:#6f6c55;border-top:1px solid #ebe4c9}
+.pg-volume>span{width:32px;flex-shrink:0}
+.pg-volume input{flex:1;min-width:0;height:28px;accent-color:#7f9663;cursor:pointer}
+.pg-volume b{width:42px;text-align:right;font-weight:400;font-size:14px;color:#8f8a6f;font-variant-numeric:tabular-nums}
+.pg-volume.off{opacity:.45}
+.pg-volume input[type=range]{-webkit-appearance:none;appearance:none;height:28px;background:transparent}
+.pg-volume input[type=range]::-webkit-slider-runnable-track{height:6px;border-radius:6px;background:linear-gradient(90deg,#8ea36f var(--fill,50%),#e4e0c8 var(--fill,50%))}
+.pg-volume input[type=range]::-moz-range-track{height:6px;border-radius:6px;background:linear-gradient(90deg,#8ea36f var(--fill,50%),#e4e0c8 var(--fill,50%))}
+.pg-volume input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;margin-top:-8px;border-radius:50%;background:#fffbee;border:2px solid #7f9663;box-shadow:0 1px 3px #5b704533}
+.pg-volume input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:#fffbee;border:2px solid #7f9663}
+/* 衣橱预览：脚下柔和投影 */
+.pg-wardrobe .wardrobe-character:before{content:"";position:absolute;left:50%;bottom:-1%;width:calc(34% * var(--grow,1));height:5%;transform:translateX(-50%);border-radius:50%;background:radial-gradient(ellipse at center,rgba(70,52,34,.42),rgba(70,52,34,.18) 45%,transparent 72%)}
+
+/* ---------- 2026-11 新素材 ---------- */
+.story-npc{display:inline-flex;align-items:center;gap:6px;margin-left:auto;font-size:15px;color:#7a6650}
+.story-npc img{width:40px;height:40px;border-radius:50%;object-fit:cover;background:#edf0d8;border:1px solid #d6cca5}
+.pg-people .person-entry .pg-avatar{width:34px;height:34px;flex-shrink:0;border-radius:50%;object-fit:cover;background:#edf0d8;border:1px solid #d6cca5}
+.pg-place-art{width:48px;height:48px;flex-shrink:0;border-radius:12px 4px 12px 4px;object-fit:cover;border:1px solid #d6cca5}
+.pg-shop-banner{display:block;width:100%;height:120px;object-fit:cover;border-radius:16px 5px 16px 5px;margin:0 0 10px}
+.rb-retreat{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2;animation:op-fade-in .8s ease both}
+@keyframes op-fade-in{from{opacity:0}to{opacity:1}}

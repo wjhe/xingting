@@ -1,0 +1,84 @@
+{
+  "src": "c43d4c51e56ab538db53.wav",
+  "duration": 3.9,
+  "gain": 1.4646881732781958,
+  "source_sha256": "3409d2148e8f249fb6aa7c3d80e2d53c6f7f3b4204d55c17815d00f4a3b480f6",
+  "id": "event.main_6_1.choice.0",
+  "text": "告诉她勇气不由距离决定",
+  "group": "event:main_6_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3320,
+        "start_time": 40,
+        "text": "告诉她勇气不由距离决定",
+        "words": [
+          {
+            "end_time": 240,
+            "start_time": 40,
+            "text": "告"
+          },
+          {
+            "end_time": 440,
+            "start_time": 240,
+            "text": "诉"
+          },
+          {
+            "end_time": 600,
+            "start_time": 440,
+            "text": "她"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1320,
+            "text": "勇"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1640,
+            "text": "气"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "不"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2160,
+            "text": "由"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2400,
+            "text": "距"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2600,
+            "text": "离"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2840,
+            "text": "决"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3080,
+            "text": "定"
+          }
+        ]
+      }
+    ],
+    "text": "告诉她勇气不由距离决定"
+  }
+}

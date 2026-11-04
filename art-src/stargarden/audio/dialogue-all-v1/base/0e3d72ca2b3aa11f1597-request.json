@@ -1,0 +1,213 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "b861e8ce-66a1-45da-9074-2ef6898dc2e7",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她讲到忘词时看了你一眼，你轻轻点头。很快，她用自己的话把故事讲完了。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050503492CE92B9C77AFD91F34A7",
+  "response": {
+    "duration": 9.5,
+    "original_duration": 9.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5200,
+          "start_time": 160,
+          "text": "她讲到忘词时看了你一眼，你轻轻点头。",
+          "words": [
+            {
+              "end_time": 400,
+              "start_time": 160,
+              "text": "她"
+            },
+            {
+              "end_time": 680,
+              "start_time": 440,
+              "text": "讲"
+            },
+            {
+              "end_time": 840,
+              "start_time": 680,
+              "text": "到"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 1000,
+              "text": "忘"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1240,
+              "text": "词"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1600,
+              "text": "时"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 1960,
+              "text": "看"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2240,
+              "text": "了"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2400,
+              "text": "你"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2640,
+              "text": "一"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2800,
+              "text": "眼"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 3040,
+              "text": "，"
+            },
+            {
+              "end_time": 4080,
+              "start_time": 3800,
+              "text": "你"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4080,
+              "text": "轻"
+            },
+            {
+              "end_time": 4520,
+              "start_time": 4360,
+              "text": "轻"
+            },
+            {
+              "end_time": 4840,
+              "start_time": 4560,
+              "text": "点"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 4840,
+              "text": "头"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 5200,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9400,
+          "start_time": 6080,
+          "text": "很快，她用自己的话把故事讲完了。",
+          "words": [
+            {
+              "end_time": 6280,
+              "start_time": 6080,
+              "text": "很"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6280,
+              "text": "快"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6560,
+              "text": "，"
+            },
+            {
+              "end_time": 7080,
+              "start_time": 6920,
+              "text": "她"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7160,
+              "text": "用"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7400,
+              "text": "自"
+            },
+            {
+              "end_time": 7640,
+              "start_time": 7520,
+              "text": "己"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7640,
+              "text": "的"
+            },
+            {
+              "end_time": 8120,
+              "start_time": 7760,
+              "text": "话"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8160,
+              "text": "把"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8360,
+              "text": "故"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8600,
+              "text": "事"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 8800,
+              "text": "讲"
+            },
+            {
+              "end_time": 9240,
+              "start_time": 9040,
+              "text": "完"
+            },
+            {
+              "end_time": 9400,
+              "start_time": 9240,
+              "text": "了"
+            },
+            {
+              "end_time": 9400,
+              "start_time": 9400,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她讲到忘词时看了你一眼，你轻轻点头。很快，她用自己的话把故事讲完了。"
+    }
+  }
+}

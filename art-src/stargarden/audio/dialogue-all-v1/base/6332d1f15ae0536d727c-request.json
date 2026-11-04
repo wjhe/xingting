@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "ad0afe6d-b68b-42f4-bfc4-f5181e39d0a7",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“请她写下还想学会的东西”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050158C3B56DE0BBFB10E31411",
+  "response": {
+    "duration": 2.173925,
+    "original_duration": 2.173925,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 1760,
+          "start_time": 0,
+          "text": "请她写下还想学会的东西。",
+          "words": [
+            {
+              "end_time": 80,
+              "start_time": 0,
+              "text": "请"
+            },
+            {
+              "end_time": 280,
+              "start_time": 240,
+              "text": "她"
+            },
+            {
+              "end_time": 520,
+              "start_time": 400,
+              "text": "写"
+            },
+            {
+              "end_time": 720,
+              "start_time": 600,
+              "text": "下"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 840,
+              "text": "还"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1000,
+              "text": "想"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1160,
+              "text": "学"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1320,
+              "text": "会"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1440,
+              "text": "的"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1560,
+              "text": "东"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1680,
+              "text": "西"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1760,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "请她写下还想学会的东西。"
+    }
+  }
+}

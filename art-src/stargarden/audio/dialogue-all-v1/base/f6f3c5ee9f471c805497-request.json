@@ -1,0 +1,66 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "1c6ed2e6-964d-4753-af51-b31171f6d942",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“郑重为她戴上”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105045936CA3AD9F74072FA1E967B",
+  "response": {
+    "duration": 2.78,
+    "original_duration": 2.78,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2320,
+          "start_time": 480,
+          "text": "郑重为她戴上",
+          "words": [
+            {
+              "end_time": 560,
+              "start_time": 480,
+              "text": "郑"
+            },
+            {
+              "end_time": 880,
+              "start_time": 800,
+              "text": "重"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1160,
+              "text": "为"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1560,
+              "text": "她"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1880,
+              "text": "戴"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2120,
+              "text": "上"
+            }
+          ]
+        }
+      ],
+      "text": "郑重为她戴上"
+    }
+  }
+}

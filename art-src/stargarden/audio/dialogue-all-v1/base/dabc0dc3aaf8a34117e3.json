@@ -1,0 +1,79 @@
+{
+  "src": "dabc0dc3aaf8a34117e3.wav",
+  "duration": 3.9,
+  "gain": 1.445551133642854,
+  "source_sha256": "317f58cb08d4691644d2c938b0572ec86b1dd38a1e11f9b7a1cc84c0dec4952b",
+  "id": "event.main_1_0.choice.1",
+  "text": "列出最想尝试的三件事",
+  "group": "event:main_1_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3440,
+        "start_time": 280,
+        "text": "列出最想尝试的三件事",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 280,
+            "text": "列"
+          },
+          {
+            "end_time": 920,
+            "start_time": 600,
+            "text": "出"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1320,
+            "text": "最"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1600,
+            "text": "想"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1920,
+            "text": "尝"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "试"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2480,
+            "text": "的"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2760,
+            "text": "三"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 2960,
+            "text": "件"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3240,
+            "text": "事"
+          }
+        ]
+      }
+    ],
+    "text": "列出最想尝试的三件事"
+  }
+}

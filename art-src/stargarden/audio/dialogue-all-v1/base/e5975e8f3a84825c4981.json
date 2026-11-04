@@ -1,0 +1,74 @@
+{
+  "src": "e5975e8f3a84825c4981.wav",
+  "duration": 3.28,
+  "gain": 1.8193486904328346,
+  "source_sha256": "9634fcead2e6a604de314f778e795b149ecccb2626a41247767e9579cab7614a",
+  "id": "event.main_2_2.choice.1",
+  "text": "也做一枚自己的奖章",
+  "group": "event:main_2_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1880,
+        "start_time": 120,
+        "text": "也做一枚自己的奖章",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 120,
+            "text": "也"
+          },
+          {
+            "end_time": 640,
+            "start_time": 400,
+            "text": "做"
+          },
+          {
+            "end_time": 840,
+            "start_time": 640,
+            "text": "一"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 840,
+            "text": "枚"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1080,
+            "text": "自"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1200,
+            "text": "己"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "的"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1560,
+            "text": "奖"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1840,
+            "text": "章"
+          }
+        ]
+      }
+    ],
+    "text": "也做一枚自己的奖章"
+  }
+}

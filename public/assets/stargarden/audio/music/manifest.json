@@ -1,0 +1,136 @@
+{
+  "bgm_battle": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_battle_runninghub_2117878657535148034.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -19.9,
+    "bytes": 1658879
+  },
+  "bgm_explore": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_explore_runninghub_2117878662266322945.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.5,
+    "bytes": 3008887
+  },
+  "bgm_festival": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_festival_runninghub_2117881268057374722.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.2,
+    "bytes": 2932818
+  },
+  "bgm_growing": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_growing_runninghub_2117881269026250754.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.5,
+    "bytes": 3171891
+  },
+  "bgm_home": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_home_runninghub_2117876511850856450.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.5,
+    "bytes": 2936580
+  },
+  "bgm_home_winter": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_home_winter_runninghub_2117881270817214465.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.2,
+    "bytes": 2240678
+  },
+  "bgm_night": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_night_runninghub_2117881265230413826.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.6,
+    "bytes": 2318418
+  },
+  "bgm_opening_morning": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_opening_morning_runninghub_2117918935000240129.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.1,
+    "bytes": 3326536
+  },
+  "bgm_opening_night": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_opening_night_runninghub_2117918932684984322.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -19.8,
+    "bytes": 3156426
+  },
+  "bgm_rain": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_rain_runninghub_2117881267218501634.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.5,
+    "bytes": 3418905
+  },
+  "bgm_schedule": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_schedule_runninghub_2117878644209836033.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.1,
+    "bytes": 2452583
+  },
+  "bgm_story": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_story_runninghub_2117881263498153985.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.4,
+    "bytes": 3240018
+  },
+  "bgm_town": {
+    "source": "art-src/stargarden/audio/music-tests/bgm_town_runninghub_2117878651273052161.flac",
+    "target_lufs": -20.0,
+    "measured_lufs": -20.0,
+    "bytes": 2516531
+  },
+  "jingle_birthday": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_birthday_runninghub_2117881277213532161.flac",
+    "cut_seconds": 7.0,
+    "target_lufs": -16.0,
+    "measured_lufs": -15.8,
+    "bytes": 112848
+  },
+  "jingle_chapter": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_chapter_runninghub_2117918936128512002.flac",
+    "cut_seconds": 4.1,
+    "target_lufs": -16.0,
+    "measured_lufs": -16.3,
+    "bytes": 66454
+  },
+  "jingle_ending": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_ending_runninghub_2117881279155494913.flac",
+    "cut_seconds": 8.05,
+    "target_lufs": -16.0,
+    "measured_lufs": -17.1,
+    "bytes": 129984
+  },
+  "jingle_festival_award": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_festival_award_runninghub_2117881278266310658.flac",
+    "cut_seconds": 6.9,
+    "target_lufs": -16.0,
+    "measured_lufs": -14.6,
+    "bytes": 111594
+  },
+  "jingle_letter": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_letter_runninghub_2117881275841994754.flac",
+    "cut_seconds": 2.5,
+    "target_lufs": -16.0,
+    "measured_lufs": -16.4,
+    "bytes": 40959
+  },
+  "jingle_month_end": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_month_end_runninghub_2117881274264936449.flac",
+    "cut_seconds": 3.7,
+    "target_lufs": -16.0,
+    "measured_lufs": -16.4,
+    "bytes": 60185
+  },
+  "jingle_retreat": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_retreat_runninghub_2117881273379934210.flac",
+    "cut_seconds": 3.2,
+    "target_lufs": -16.0,
+    "measured_lufs": -16.1,
+    "bytes": 52243
+  },
+  "jingle_victory": {
+    "source": "art-src/stargarden/audio/music-tests/jingle_victory_runninghub_2117881271869988866.flac",
+    "cut_seconds": 3.4,
+    "target_lufs": -16.0,
+    "measured_lufs": -16.5,
+    "bytes": 55587
+  }
+}

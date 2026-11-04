@@ -1,0 +1,79 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional",
+  "resource_id": "seed-tts-2.0",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "request_id": "d33e9cc1-79e0-43b9-84c3-a04783e11ec4",
+  "request": {
+    "req_params": {
+      "text": "爸爸，你回来啦！我一直在等你。",
+      "speaker": "zh_female_roumeinvyou_uranus_bigtts",
+      "audio_params": {
+        "format": "mp3",
+        "sample_rate": 24000,
+        "bit_rate": 160000
+      }
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611040414547606E24B7E6136C42E6F",
+  "events": [
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": "",
+      "sentence": {
+        "phonemes": [],
+        "text": "爸爸，你回来啦！我一直在等你。",
+        "words": []
+      }
+    },
+    {
+      "code": 20000000,
+      "message": "OK"
+    }
+  ],
+  "audio": {
+    "src": "builtin-neutral.wav",
+    "duration": 3.648,
+    "gain": 1.0496506608366036,
+    "source_sha256": "dffea765986b6f8d25a46c91f584ad3feff97651f67791fe1d80257a189b4192",
+    "label": "官方 TTS 直出",
+    "instruction": "",
+    "speaker_id": "zh_female_roumeinvyou_uranus_bigtts"
+  }
+}

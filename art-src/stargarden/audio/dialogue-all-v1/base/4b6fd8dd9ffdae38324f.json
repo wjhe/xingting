@@ -1,0 +1,99 @@
+{
+  "src": "4b6fd8dd9ffdae38324f.wav",
+  "duration": 4.4,
+  "gain": 1.786606173179907,
+  "source_sha256": "6a97ba182ffd2144bb88b5d2a54aea09e2a64cff72e07b8d187759ef84d0c79c",
+  "id": "opening.1.0",
+  "text": "你听见庭院里传来很轻的声响。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3920,
+        "start_time": 1080,
+        "text": "你听见庭院里传来很轻的声响。",
+        "words": [
+          {
+            "end_time": 1360,
+            "start_time": 1080,
+            "text": "你"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "听"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "见"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1960,
+            "text": "庭"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2280,
+            "text": "院"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2480,
+            "text": "里"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2680,
+            "text": "传"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2840,
+            "text": "来"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3000,
+            "text": "很"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3160,
+            "text": "轻"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3360,
+            "text": "的"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3560,
+            "text": "声"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3880,
+            "text": "响"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3920,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你听见庭院里传来很轻的声响。"
+  }
+}

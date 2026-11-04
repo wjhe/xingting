@@ -1,0 +1,243 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "8a2e1374-52e4-4ca4-97d2-27b2a4c98e9a",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“桌上摆着她种的花、练习纸和找到的石头。邻居们停下来，认真听完了每件小东西的故事。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050302E4715B8A23DE1A196A23",
+  "response": {
+    "duration": 10.8,
+    "original_duration": 10.8,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5520,
+          "start_time": 560,
+          "text": "桌上摆着她种的花、练习纸和找到的石头。",
+          "words": [
+            {
+              "end_time": 840,
+              "start_time": 560,
+              "text": "桌"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 840,
+              "text": "上"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1200,
+              "text": "摆"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1440,
+              "text": "着"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1640,
+              "text": "她"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1840,
+              "text": "种"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2080,
+              "text": "的"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2280,
+              "text": "花"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2640,
+              "text": "、"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3080,
+              "text": "练"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3320,
+              "text": "习"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3800,
+              "text": "纸"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4200,
+              "text": "和"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4440,
+              "text": "找"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4680,
+              "text": "到"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4920,
+              "text": "的"
+            },
+            {
+              "end_time": 5280,
+              "start_time": 5120,
+              "text": "石"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5280,
+              "text": "头"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5520,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10520,
+          "start_time": 6280,
+          "text": "邻居们停下来，认真听完了每件小东西的故事。",
+          "words": [
+            {
+              "end_time": 6520,
+              "start_time": 6280,
+              "text": "邻"
+            },
+            {
+              "end_time": 6720,
+              "start_time": 6520,
+              "text": "居"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6800,
+              "text": "们"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7000,
+              "text": "停"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7240,
+              "text": "下"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7440,
+              "text": "来"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7680,
+              "text": "，"
+            },
+            {
+              "end_time": 8200,
+              "start_time": 7960,
+              "text": "认"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8200,
+              "text": "真"
+            },
+            {
+              "end_time": 8680,
+              "start_time": 8440,
+              "text": "听"
+            },
+            {
+              "end_time": 8880,
+              "start_time": 8680,
+              "text": "完"
+            },
+            {
+              "end_time": 9080,
+              "start_time": 8880,
+              "text": "了"
+            },
+            {
+              "end_time": 9320,
+              "start_time": 9080,
+              "text": "每"
+            },
+            {
+              "end_time": 9480,
+              "start_time": 9320,
+              "text": "件"
+            },
+            {
+              "end_time": 9760,
+              "start_time": 9600,
+              "text": "小"
+            },
+            {
+              "end_time": 9920,
+              "start_time": 9760,
+              "text": "东"
+            },
+            {
+              "end_time": 10040,
+              "start_time": 9920,
+              "text": "西"
+            },
+            {
+              "end_time": 10240,
+              "start_time": 10040,
+              "text": "的"
+            },
+            {
+              "end_time": 10400,
+              "start_time": 10240,
+              "text": "故"
+            },
+            {
+              "end_time": 10520,
+              "start_time": 10400,
+              "text": "事"
+            },
+            {
+              "end_time": 10520,
+              "start_time": 10520,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "桌上摆着她种的花、练习纸和找到的石头。邻居们停下来，认真听完了每件小东西的故事。"
+    }
+  }
+}

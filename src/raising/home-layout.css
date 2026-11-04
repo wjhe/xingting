@@ -1,0 +1,99 @@
+/* Layout reference only: upper status, central full figure, side rails, lower console. */
+.home-layout #header{display:flex;align-items:center;gap:8px;padding:11px 12px 8px;background:#faf5e5;flex-shrink:0}.home-layout #header:before,.home-layout #header:after{display:none}.home-date{display:flex;align-items:center;gap:8px;flex:1;min-width:0;padding:7px 10px;border:1px solid #d1c79e;border-radius:21px 6px 21px 6px;background:linear-gradient(#fffbeb,#f0edd5);box-shadow:inset 0 0 0 3px #fffbed80}.home-date>div{min-width:0}.home-date b{display:block;font:600 16px/1.6 var(--serif);color:#5a7050;white-space:nowrap}.home-date small{display:block;font-size:12px;color:#8a8364;white-space:nowrap;letter-spacing:0}.home-moon{color:#a89b59;display:grid;place-items:center}.home-moon .icon{width:27px;height:27px}.home-layout #header>.icon-btn{border:1px solid #cec6a0;border-radius:50%;background:#fff8e3;width:42px;height:42px;flex-shrink:0}.home-layout .gold-pill{padding:8px;gap:4px;min-width:0}.home-layout .gold-pill b{font-size:18px;font-variant-numeric:tabular-nums}.home-layout .gold-pill small{display:none}
+.home-layout #main{padding:0;display:flex;flex-direction:column;background:#faf5e5}.home-screen{display:flex;flex-direction:column;flex:1;min-height:650px;position:relative}.home-layout .home-hero{flex:1;min-height:450px;height:auto!important;border:0;border-radius:26px 26px 0 0;margin:0 5px;overflow:hidden;background:#edead9}.home-layout .home-hero:after{inset:4px;border:1px solid #fff8dd80;border-bottom:0;border-radius:22px 22px 0 0}.home-layout #portrait-stage{inset:0}.home-layout .hero-shade{background:linear-gradient(180deg,#faf5e5e0,transparent 38%,transparent 85%,#faf5e5),linear-gradient(90deg,#faf5e533,transparent 25%,transparent 75%,#faf5e533)}
+.home-layout .hero-profile{top:4px;left:14px;right:14px;bottom:auto;display:flex;align-items:center;justify-content:center;gap:10px;min-height:42px;background:linear-gradient(90deg,transparent,#f7f2ddf5 15%,#f7f2ddf5 85%,transparent);border:0}.home-layout .hero-profile h1{font-size:21px;letter-spacing:1px;line-height:1.5;min-width:0}.home-layout .hero-profile h1>span{font-size:18px;margin-left:7px;white-space:nowrap}.home-layout .hero-profile h1>span>small{font-size:14px}.home-layout .profile-seal{font-size:12px;letter-spacing:0;padding:3px 7px;line-height:1.6;background:#e8edcfaa;border:0;border-radius:14px;margin:0;white-space:nowrap}.home-layout .music-btn{width:36px;height:36px;flex-shrink:0}.home-layout .music-btn .icon{width:17px;height:17px}
+.home-layout .vitals{position:absolute;left:10px;right:10px;top:52px;display:grid;grid-template-columns:1fr 1fr 1.05fr;align-items:stretch;gap:6px;border:0;padding:0;z-index:2}.home-layout .vitals>div{border:1px solid #d4cba5;border-radius:14px 4px 14px 4px;background:#fffbeded;padding:7px 7px 6px;min-width:0}.home-layout .vitals>div>span{font-size:13px;line-height:1.5;color:#6f7756;gap:3px;white-space:nowrap}.home-layout .vitals b{font-size:15px;margin-left:auto}.home-layout .vitals .icon{width:14px;height:14px}.home-layout .vitals .meter{height:4px;margin-top:4px}.home-layout .home-mood{display:flex;align-items:center;justify-content:center}.home-layout .vitals .home-mood>span{white-space:normal;line-height:1.6;font-size:13px}
+.home-layout .hero-speech{top:113px;bottom:auto;left:50%;right:auto;transform:translateX(-50%);width:64%;max-width:270px;border-radius:21px 21px 6px 21px;padding:10px 12px;background:#fffbedf5;animation:home-bubble-in .4s ease both;z-index:3}.home-layout .hero-speech>span{font-size:16px;line-height:1.7;text-align:center}.home-layout .hero-speech small{display:none}.home-layout .hero-speech:after{right:46%;bottom:-8px;transform:rotate(0)}.home-layout .hero-speech:active{transform:translateX(-50%) translateY(1px)}
+.home-rail{position:absolute;top:187px;display:flex;flex-direction:column;gap:12px;z-index:3}.home-rail-left{left:10px}.home-rail-right{right:10px}.home-rail button{position:relative;display:flex;align-items:center;flex-direction:column;gap:4px;min-height:66px;min-width:52px;padding:0;color:#6a7453;font-size:14px;line-height:1.4;letter-spacing:1px;text-shadow:0 1px #fffbed}.home-rail .icon{width:44px;height:44px;padding:10px;border:1px solid #c1bc8c;border-radius:50% 50% 43% 43%;background:radial-gradient(circle at 35% 25%,#fffbeb,#e3e6c5);box-shadow:inset 0 0 0 3px #fffbea,0 2px 5px #5b70451a;color:#889662;stroke-width:1.8}.home-rail-right .icon{background:radial-gradient(circle at 35% 25%,#fff9ec,#eaddc6);color:#a78c68;border-color:#cfbd96}.home-rail button i{position:absolute;top:0;right:3px;width:9px;height:9px;border:2px solid #fffbed;border-radius:50%;background:#cc9695}.home-chapter{position:absolute;left:65px;right:65px;bottom:3px;text-align:center;font-size:12px;color:#7f815b;text-shadow:0 1px #fffbed;background:linear-gradient(90deg,transparent,#faf5e5b0,transparent);padding:3px 0;z-index:2}
+.home-console{position:relative;flex-shrink:0;margin:0 10px 6px;padding:10px 12px 11px;border:1px solid #c5bd91;border-radius:26px 7px 26px 7px;background:linear-gradient(115deg,#fffbeb,#f3efd8);box-shadow:inset 0 0 0 3px #fffbee,0 -2px 10px #6474460a}.home-console:before,.home-console:after{content:"";position:absolute;width:14px;height:22px;border:1px solid #a8b583;border-radius:80% 5%;background:#dbe3bd;transform:rotate(30deg);pointer-events:none}.home-console:before{left:-4px;top:-6px}.home-console:after{right:-4px;bottom:-6px;transform:rotate(210deg)}.home-attributes{display:grid;grid-template-columns:1fr 1fr;gap:0 14px;margin-bottom:8px}.home-attributes>button{display:flex;align-items:center;gap:7px;min-width:0;min-height:30px;padding:2px 0;font-size:14px;color:#7a765b}.home-attributes>button>span{flex-shrink:0}.home-attributes b{font:600 17px/1.5 Georgia,serif;min-width:29px;text-align:right;color:#5f7153;font-variant-numeric:tabular-nums}.home-stat-track{flex:1;min-width:12px;height:6px;border-radius:8px;background:color-mix(in srgb,var(--stat-color) 17%,#faf5e5);overflow:hidden}.home-stat-track i{display:block;height:100%;min-width:3px;border-radius:8px;background:var(--stat-color)}
+.home-month-controls{display:flex;align-items:stretch;gap:10px}.home-plan-slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;flex:1;min-width:0}.home-plan-slots button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:5px 2px;border:1px solid #d0c79e;border-radius:13px 4px 13px 4px;background:#fffbee;min-width:0;min-height:77px;box-shadow:inset 0 0 0 2px #edeed7}.home-plan-slots small{font-size:12px;line-height:1.4;color:#93906c}.home-plan-slots .icon{width:20px;height:20px;color:#8b9c6d}.home-plan-slots span{font-size:14px;line-height:1.5;color:#657552;word-break:break-all}.home-layout .plan-cta{width:118px;flex-shrink:0;flex-direction:column;justify-content:center;gap:2px;padding:10px 5px;letter-spacing:.5px;border-radius:25px 8px 25px 8px;font-size:18px;line-height:1.5}.home-layout .plan-cta small{font-size:12px;color:#fffbe6;letter-spacing:0}.home-layout .plan-cta>span{white-space:nowrap}.home-story-link{display:flex;align-items:center;gap:6px;text-align:left;width:100%;font-size:14px;line-height:1.6;color:#a0805c;margin:0 0 8px;padding:6px 0;border-top:1px solid #dacfaa}.home-story-link>span{flex:1}.home-story-link .icon{width:16px;height:16px}.home-save-warning{font-size:13px;color:#aa756b;margin-top:7px}
+.home-layout #nav{height:calc(78px + env(safe-area-inset-bottom));flex-shrink:0;border-top:1px solid #d5ccaa}.home-layout #nav [data-page=schedule]{transform:translateY(-10px);border-radius:50% 50% 15px 15px;background:#f6f3dd;box-shadow:0 -2px 0 #ced2ac;min-height:69px}.home-layout #nav [data-page=schedule]>.icon{width:35px;height:35px;color:#819565}.home-layout #nav [data-page=schedule]:active{transform:translateY(-8px)}
+@keyframes home-bubble-in{from{opacity:0;translate:0 5px}to{opacity:1;translate:0 0}}
+@media(max-width:355px){.home-layout #header{gap:5px;padding:9px 8px 7px}.home-date{padding:7px 8px;gap:5px}.home-date b{font-size:14px}.home-date small{font-size:12px}.home-moon{display:none}.home-layout .gold-pill{padding:8px 6px}.home-layout .gold-pill b{font-size:16px}.home-layout #header>.icon-btn{width:40px;height:40px}.home-layout .hero-profile{left:9px;right:9px;gap:7px}.home-layout .hero-profile h1{font-size:20px}.home-layout .profile-seal{padding:3px 5px}.home-layout .vitals{left:7px;right:7px;gap:4px}.home-layout .vitals>div{padding:6px}.home-layout .vitals>div>span{font-size:13px}.home-layout .vitals .icon{width:12px;height:12px}.home-layout .hero-speech{width:66%;padding:9px}.home-rail-left{left:6px}.home-rail-right{right:6px}.home-rail button{min-width:47px}.home-rail .icon{width:42px;height:42px}.home-console{margin-left:8px;margin-right:8px;padding:9px}.home-attributes{gap:0 10px}.home-attributes>button{gap:5px;font-size:14px}.home-stat-track{min-width:8px}.home-layout .plan-cta{width:102px;font-size:17px}.home-plan-slots{gap:4px}.home-month-controls{gap:7px}.home-plan-slots span{font-size:14px}.home-plan-slots button{min-height:79px}.home-screen{min-height:660px}}
+@media(prefers-reduced-motion:reduce){.home-layout .hero-speech{animation:none}}
+.home-layout .hero-speech{top:105px;padding-top:9px;padding-bottom:9px}.home-layout .hero-speech>span{line-height:1.6}
+.home-layout .hero-shade{background:linear-gradient(180deg,transparent 96%,#faf5e5 100%)}
+.home-layout .hero-speech{top:96px;padding-top:6px;padding-bottom:6px}.home-layout .hero-speech>span{line-height:1.5}
+
+/* Keep monthly confirmation outside scrolling content, directly above navigation. */
+#page-actions{flex-shrink:0;position:relative;background:#faf5e5;z-index:9}#page-actions:empty{display:none}
+.schedule-confirm{padding:10px 15px 15px;border-top:1px solid #d6cda9;background:linear-gradient(#faf5e5,#f1efd8);box-shadow:0 -5px 15px #65784b0a}
+.schedule-confirm-info{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px;font-size:14px;line-height:1.6;color:#7d795d}.schedule-confirm-info b{font-weight:500;color:#61774f}.schedule-confirm-info strong{font-weight:600}.schedule-confirm .primary-button{min-height:50px;justify-content:space-between}
+.home-layout .home-screen{min-height:450px}.home-layout #page-actions .home-console{margin-top:0;margin-bottom:10px}.home-layout #page-actions{padding-top:3px}
+@media(max-width:355px){.schedule-confirm{padding:9px 12px 14px}.schedule-confirm-info{font-size:14px}.schedule-confirm .primary-button{font-size:16px}.home-layout .home-screen{min-height:450px}}
+
+/* 2026-11 主界面精简：两侧入口移除，女儿脚边只留互动；场景随屏幕高度伸缩，矮屏压缩面板而不是盖住人物。 */
+.home-layout .home-screen,.home-layout .home-screen{min-height:0}
+.home-layout .home-hero{min-height:220px}
+.home-layout #nav [data-page=schedule]{transform:none}
+
+.home-layout .vitals{grid-template-columns:1fr 1fr auto}
+.home-layout .vitals>.home-mood{border:0;background:transparent;padding:0 2px}
+.home-layout .vitals .home-mood>span{white-space:nowrap;color:#8a8364}
+
+/* 台词放到人物右上，不再压住脸；保留“轻触谈心”提示。 */
+.home-layout .hero-speech{top:auto;bottom:62%;left:auto;right:10px;transform:none;width:auto;max-width:44%;border-radius:18px 18px 18px 5px;padding:8px 11px}
+.home-layout .hero-speech>span{font-size:15px;line-height:1.55;text-align:left}
+.home-layout .hero-speech small{display:block;font-size:12px;margin-top:2px;color:#a09a7d}
+.home-layout .hero-speech:after{display:none}
+.home-layout .hero-speech:active{transform:translateY(1px)}
+
+.hero-actions{position:absolute;left:10px;right:10px;bottom:30px;display:flex;justify-content:space-between;pointer-events:none;z-index:3}
+.hero-actions button{pointer-events:auto;display:flex;align-items:center;gap:6px;min-height:46px;padding:0 16px 0 10px;border:1px solid #c9bd92;border-radius:23px 23px 23px 8px;background:#fffbedf2;box-shadow:inset 0 0 0 2px #fffbee,0 2px 6px #5b70451c;font-size:16px;letter-spacing:1px;color:#5f7153}
+.hero-actions button+button{border-radius:23px 23px 8px 23px;color:#9a7a55;border-color:#d4bf98}
+.hero-actions .icon{width:22px;height:22px}
+.hero-actions button:disabled{opacity:.55}
+.hero-actions button:active{transform:translateY(1px)}
+.home-layout .home-chapter{left:120px;right:120px;bottom:6px}
+
+.gift-confirm>p{font-size:15px;line-height:1.7;color:#6f6c55;margin:0 0 12px}
+.gift-confirm .gift-balance{font-size:14px;color:#8a8364;margin:12px 0}
+.gift-confirm .replay-controls{margin-top:6px}
+
+/* 矮屏（如 360×640）：日期单行、属性三列、旬格变矮，把高度让给场景。 */
+@media(max-height:740px){
+  .home-layout #header{padding:7px 10px 5px}
+  .home-date{padding:4px 9px}
+  .home-date b{font-size:15px;line-height:1.5}
+  .home-date small{display:none}
+  .home-layout #header>.icon-btn{width:38px;height:38px}
+  .home-layout .gold-pill{padding:5px 8px}
+  .home-layout .hero-profile{min-height:36px;top:2px}
+  .home-layout .hero-profile h1{font-size:19px}
+  .home-layout .music-btn{width:32px;height:32px}
+  .home-layout .vitals{top:40px}
+  .home-layout .vitals>div{padding:4px 7px}
+  .home-layout .hero-speech{bottom:auto;top:86px;max-width:46%;padding:6px 9px}
+  .home-layout .hero-speech>span{font-size:14px}
+  .home-layout .hero-speech small{display:none}
+  .hero-actions{bottom:24px}
+  .hero-actions button{min-height:42px;font-size:15px;padding:0 13px 0 9px}
+  .home-layout .home-chapter{display:none}
+  .home-console{padding:7px 10px 8px;margin-bottom:6px}
+  .home-attributes{grid-template-columns:repeat(3,1fr);gap:0 9px;margin-bottom:6px}
+  .home-attributes>button{min-height:26px;font-size:13px;gap:4px}
+  .home-attributes b{font-size:15px;min-width:24px}
+  .home-plan-slots button,.home-plan-slots button{min-height:58px;padding:3px 2px}
+  .home-plan-slots .icon{width:17px;height:17px}
+  .home-layout .plan-cta{font-size:17px;padding:6px 5px}
+  .home-layout #nav{height:calc(64px + env(safe-area-inset-bottom));padding-top:5px}
+}
+@media(max-width:355px){
+  .home-layout .vitals{grid-template-columns:1fr 1fr}
+  .home-layout .vitals>.home-mood{display:none}
+  .hero-actions button{padding:0 11px 0 8px}
+}
+.home-layout .hero-speech small{display:none}
+@media(max-width:400px){.home-layout .date-era{display:none}}
+@media(max-width:355px){
+  .home-layout .hero-speech{max-width:38%;padding:6px 8px}
+  .home-layout .hero-speech>span{font-size:13px}
+}
+
+/* 2026-11 推近镜头：舞台从状态栏下方开始，房间铺满舞台，不再在人物头顶留出渐隐空墙。 */
+.home-layout #portrait-stage{top:98px;bottom:0;left:0;right:0;height:auto}
+@media(max-height:740px){.home-layout #portrait-stage{top:80px}}
+.home-layout .hero-speech{top:106px;bottom:auto;right:8px;max-width:40%}
+@media(max-height:740px){.home-layout .hero-speech{top:86px}}
+/* 章节字样压在女儿脚下、遮住投影；章节信息在手账页顶部已有，主界面不再显示 */
+.home-layout .home-chapter{display:none}

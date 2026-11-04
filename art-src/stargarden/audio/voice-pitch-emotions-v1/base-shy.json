@@ -1,0 +1,104 @@
+{
+  "src": "base-shy.wav",
+  "duration": 4.58,
+  "gain": 1.4069550746972719,
+  "source_sha256": "07079eafe88402b341e720dc6af7d19a530e31bee46641aa8b1af10414931631",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "label": "害羞",
+  "instruction": "有点不好意思地迎接爸爸，声音轻柔，带着克制的笑意。",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2160,
+        "start_time": 360,
+        "text": "爸爸，你回来啦！",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 360,
+            "text": "爸"
+          },
+          {
+            "end_time": 880,
+            "start_time": 760,
+            "text": "爸"
+          },
+          {
+            "end_time": 880,
+            "start_time": 880,
+            "text": "，"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1240,
+            "text": "你"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "回"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1760,
+            "text": "来"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2000,
+            "text": "啦"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2160,
+            "text": "！"
+          }
+        ]
+      },
+      {
+        "end_time": 4320,
+        "start_time": 3080,
+        "text": "我一直在等你。",
+        "words": [
+          {
+            "end_time": 3360,
+            "start_time": 3080,
+            "text": "我"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3360,
+            "text": "一"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3440,
+            "text": "直"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "在"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3840,
+            "text": "等"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4080,
+            "text": "你"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4320,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "爸爸，你回来啦！我一直在等你。"
+  },
+  "source_kind": "new seed-audio-1.0 prompt"
+}

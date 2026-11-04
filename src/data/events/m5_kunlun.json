@@ -1,0 +1,1664 @@
+[
+  {
+    "id": "kunlun_busi_tree",
+    "title": "不死树",
+    "art": "kunlun_tree",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "断崖上探出一株不死树，金叶万年不落。树下铺着薄薄一层白骨，都朝着枝头的方向。枝头悬着一枚将熟未熟的种子，你一抬手，满树金叶便齐齐转向了你。",
+    "options": [
+      {
+        "text": "以寿元喂树，换它松手",
+        "result": "你掌心贴上树干，只觉岁月一年一年从指缝里流走。数到第八十年，枝头那枚种子轻轻落进了你手里。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -80
+          },
+          {
+            "type": "item",
+            "id": "busi_seed",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "趁金叶转向的一瞬，强取",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 13
+        },
+        "success": {
+          "result": "金叶扫过的一瞬，你已摘下种子退出十丈。树没有追，只是那截空了的枝头，又慢慢鼓起一个芽。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "busi_seed",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -20
+            }
+          ]
+        },
+        "fail": {
+          "result": "金叶如刀，你被抽下断崖，坠了三百丈才稳住身形，折损了元气。回头望去，种子还挂在那里，像什么都没发生过。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            },
+            {
+              "type": "lifespan",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "数一数那些白骨，转身离开",
+        "result": "你数到第四十七具，便不再数了。有些东西，不急在这一世。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_luwu_pass",
+    "title": "陆吾",
+    "art": "kunlun_beast",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "昆仑山心的玉髓矿脉外，横卧着一头虎身九尾的神兽。陆吾司掌昆仑九部，万年来没放一个活人进去。它睁开一只眼看了看你，尾巴在雪地上扫出一道深沟：“化神？上一个化神，就埋在你脚下。”",
+    "options": [
+      {
+        "text": "拔剑闯关",
+        "result": "陆吾慢吞吞地站起身，九条尾巴在身后一条条竖了起来。",
+        "battle": {
+          "enemy": "luwu",
+          "win": {
+            "result": "九尾一条条垂下，陆吾伏在雪里喘息，终于让开了路。你在山心凿下一块昆仑玉髓，回头时它已经睡着了，像是从没醒过。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "kunlun_jade",
+                "count": 1
+              },
+              {
+                "type": "hp",
+                "value": -30
+              }
+            ]
+          },
+          "lose": {
+            "result": "一尾横扫，你撞穿了三道冰崖，伤及本源。陆吾没有追，只在你身后懒懒地说：“下回早些来，趁我还没睡醒。”",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -70
+              },
+              {
+                "type": "lifespan",
+                "value": -50
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "收敛神识，贴着它的鼻尖绕过去",
+        "check": {
+          "attr": "shenshi",
+          "dc": 14
+        },
+        "success": {
+          "result": "你把神识收成一缕山风，从它鼻尖掠过，凿下一块玉髓。山心寒气侵骨，出来时你鬓角白了一片；回头一看，它那只眼睛自始至终都睁着。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "kunlun_jade",
+              "count": 1
+            },
+            {
+              "type": "lifespan",
+              "value": -30
+            }
+          ]
+        },
+        "fail": {
+          "result": "神识才探出三尺，九条尾巴同时竖了起来。你掉头就走，背上还是挨了一记，一身修为被震散了一截。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "cultivation",
+              "value": -1000000
+            }
+          ]
+        }
+      },
+      {
+        "text": "拱手退走",
+        "result": "你拱了拱手，原路退了回去。陆吾打了个哈欠，把脑袋埋回尾巴里。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_pillar_climb",
+    "title": "断柱引雷",
+    "art": "kunlun_pillar",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "天柱的断口悬在雷云正中，离地九千丈。断面上的石头被雷劈了一万年，黑里透紫，隔着老远都听得见它噼啪作响。每隔一刻便有一道天雷落下，从不落空。",
+    "options": [
+      {
+        "text": "掐准两道雷的间隙攀上去",
+        "check": {
+          "attr": "gengu",
+          "dc": 13
+        },
+        "success": {
+          "result": "你在下一道雷落下前抠下了一块天雷石，被余波掀下天柱，一路上衣襟都冒着青烟。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "tianlei_stone",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        },
+        "fail": {
+          "result": "第三道雷正劈在你头顶。你从九千丈高处一路坠下，砸进雪里，半天没能爬起来。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -70
+            },
+            {
+              "type": "lifespan",
+              "value": -50
+            }
+          ]
+        }
+      },
+      {
+        "text": "不躲，一步一步硬扛上去",
+        "result": "九道雷依次劈在你身上，每一道都削去一截寿元。走到断口时你已满头白发，手里攥着一块还在发麻的天雷石。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -100
+          },
+          {
+            "type": "hp",
+            "value": -30
+          },
+          {
+            "type": "item",
+            "id": "tianlei_stone",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "在柱下听一夜雷",
+        "result": "雷声一下一下砸在心口。天亮时你什么也没带走，耳朵里嗡嗡响了好几天。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_yaochi_dive",
+    "title": "瑶池",
+    "art": "kunlun_pool",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "瑶池水色如碧，平得没有一丝波纹，池底沉着一层乳白的昆仑玉髓。这水有个怪处：照得出人影，照不出年纪。下去的人，常常忘了自己还要上来。",
+    "options": [
+      {
+        "text": "潜下池底采髓",
+        "check": {
+          "attr": "xinjing",
+          "dc": 13
+        },
+        "success": {
+          "result": "水里浮出许多张脸，有的叫你留下，有的叫你回头。你只记着一件事：上去。浮出水面时掌中多了一捧玉髓，岸上却已过了四十年。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "kunlun_jade",
+              "count": 1
+            },
+            {
+              "type": "lifespan",
+              "value": -40
+            }
+          ]
+        },
+        "fail": {
+          "result": "你在池底看见一张很熟的脸，便停下来看，一看就是七十年。等你回过神挣扎上岸，手里什么也没有。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -70
+            },
+            {
+              "type": "hp",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "只掬一捧水洗把脸",
+        "result": "池水冰得刺骨，洗去了一路风尘，也洗清了几分识海里的浊气。水面上那张脸，看上去年轻了一点。",
+        "effects": [
+          {
+            "type": "hp",
+            "value": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_kaiming_gate",
+    "title": "开明问",
+    "art": "kunlun_beast",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "昆仑九门，最后一门由开明兽把守。它身大如山，九颗头颅各望一方，门缝里透出金光，是不死树林。九颗头同时开口，声音叠在一起：“来者，答我一问——你求长生，长生之后呢？”",
+    "options": [
+      {
+        "text": "不答，出剑",
+        "battle": {
+          "enemy": "kaiming",
+          "win": {
+            "result": "九颗头颅一颗接一颗低下，门开了。你在林中拾得一枚不死树种和满身灵气。回头看时，开明兽九双眼睛里竟有一点失望。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "busi_seed",
+                "count": 1
+              },
+              {
+                "type": "cultivation",
+                "value": 2000000
+              }
+            ]
+          },
+          "lose": {
+            "result": "九首齐噬，你连门槛都没碰到。开明兽把你吐在山道上：“剑倒是快，答案慢了。”",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -70
+              },
+              {
+                "type": "lifespan",
+                "value": -60
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "认真想一想，再作答",
+        "check": {
+          "attr": "wuxing",
+          "dc": 13
+        },
+        "success": {
+          "result": "你说：“长生之后，接着活。”九颗头沉默了很久，有一颗先笑了，然后九颗一起笑了。门开了一条缝，刚好够一枚种子滚出来。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "busi_seed",
+              "count": 1
+            },
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你说了很多，九颗头各听了九分之一，然后一齐摇头。门没有开。你在门外又想了三个月，修为倒是长进了一些。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 1500000
+            }
+          ]
+        }
+      },
+      {
+        "text": "“我不知道。”",
+        "result": "九颗头齐齐看着你。“不知道，”其中一颗说，“倒比前头那些都老实。”门没有开，你转身下了山。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_sword_spirit",
+    "title": "昆仑剑冢",
+    "art": "sword_tomb",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "仙阙后山是昆仑剑冢，万剑插雪，剑柄上积着一万年的冰。你一踏进来，所有的剑同时嗡鸣。一道剑光从最深处升起，聚成没有面目的人影，横剑拦住你：“昆仑的剑，只给昆仑的人。”",
+    "options": [
+      {
+        "text": "拔剑应战",
+        "battle": {
+          "enemy": "sword_spirit",
+          "win": {
+            "result": "剑灵散作万点光，落回各自的剑里。最深处那柄剑自己飞进你手中，剑身上刻着两个字：斩天。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "sword_zhantian",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "万道剑光过身，护体灵光碎了一地，修为也被削去一层。剑灵收剑而立，像从没动过。",
+            "effects": [
+              {
+                "type": "cultivation",
+                "value": -3000000
+              },
+              {
+                "type": "hp",
+                "value": -50
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "解剑，对万剑行礼",
+        "check": {
+          "attr": "xinjing",
+          "dc": 12
+        },
+        "success": {
+          "result": "剑灵看了你很久，收剑让开，剑鸣渐渐平息。你在剑冢里坐了一个月，满山剑意都往你身上涌。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 4000000
+            }
+          ]
+        },
+        "fail": {
+          "result": "剑灵不为所动，一剑削断了你的发冠：“拜得不诚。”你被剑气逼出剑冢，胸口闷了好几天。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "“我是太初。”",
+        "requires": {
+          "meta_flags": [
+            "truth_known"
+          ],
+          "hint": "你还不知道自己是谁"
+        },
+        "result": "剑尖停在你眉心前一寸。剑灵看了你许久，收剑，单膝跪下，跪到一半便化作了光。万剑齐鸣，一缕上古剑意落进你识海。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 5000000
+          },
+          {
+            "type": "attr",
+            "key": "shenshi",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_demon_mirror",
+    "title": "天魔照影",
+    "art": "kunlun_demon",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "你在废墟里打坐，身后的影子忽然自己站了起来，越长越高，生出许多条手臂。它用你的声音说话，说的全是你不敢想的事：没救下的人，没走完的路。最后它俯下身问：“你真以为，这一世和前几世有什么不同？”",
+    "options": [
+      {
+        "text": "回身斩它",
+        "battle": {
+          "enemy": "heaven_demon",
+          "win": {
+            "result": "天魔被一剑劈散，留下几缕清冷的气，凝成两枚清心丹落在你膝前。识海里静得出奇，像下过一场大雪。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "qingxin_dan",
+                "count": 2
+              },
+              {
+                "type": "cultivation",
+                "value": 3000000
+              }
+            ]
+          },
+          "lose": {
+            "result": "它钻进你的识海，把这一世的记忆翻了个遍，才心满意足地散去。你枯坐半年才缓过来，心里总像缺了一角。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -60
+              },
+              {
+                "type": "lifespan",
+                "value": -80
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "不理它，继续打坐",
+        "check": {
+          "attr": "xinjing",
+          "dc": 14
+        },
+        "success": {
+          "result": "它说了七天七夜，你一句也没回。第八天，它的声音越来越小，缩回了你的影子里，再也没出来。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "第三天，它说出了一个名字，你睁开了眼。就这一眼，它笑着散了，你却气血翻涌，伤了元神。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "lifespan",
+              "value": -50
+            }
+          ]
+        }
+      },
+      {
+        "text": "回答它：“没什么不同。”",
+        "result": "“没什么不同，”你说，“我还是会往前走。”天魔愣了一下，像是头一回听见这个答案，身形淡了几分，悄悄退回了暗处。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 1000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_thunder_sea",
+    "title": "雷海孤石",
+    "art": "kunlun_pillar",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "你御风穿过雷云，一头扎进了雷海——上下四方全是雷，找不到一寸安静的地方。雷海正中浮着一块拳头大的石头，万道雷霆都绕着它转，像在护着它，又像在磨它。",
+    "options": [
+      {
+        "text": "冲进雷心夺石",
+        "check": {
+          "attr": "gengu",
+          "dc": 12
+        },
+        "success": {
+          "result": "你顶着雷光扑进中央，一把攥住那块天雷石。雷海霎时散了，像是终于等到有人把它拿走。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "tianlei_stone",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        },
+        "fail": {
+          "result": "离那块石头只差一丈，你被雷光生生推了出去，满身焦黑地摔在云外，折了元寿。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -70
+            },
+            {
+              "type": "lifespan",
+              "value": -60
+            }
+          ]
+        }
+      },
+      {
+        "text": "祭出九霄避雷符开路",
+        "requires": {
+          "items": {
+            "jiuxiao_fu": 1
+          }
+        },
+        "result": "符箓在雷海里燃成一道金光，替你挡下所有雷霆。你从容取走天雷石，符纸烧得只剩一角，随风散了。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "jiuxiao_fu",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "tianlei_stone",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "不取石头，借雷海淬体",
+        "result": "你在雷海里站了三个月，任万雷加身。出来时满头焦发，修为实实在在涨了一截，却也耗去了六十年元气。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 3000000
+          },
+          {
+            "type": "lifespan",
+            "value": -60
+          },
+          {
+            "type": "hp",
+            "value": -40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_sweeper",
+    "title": "扫阶人",
+    "art": "stone_sweeper",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "仙阙前的九千级玉阶，扫得一尘不染。扫地的是一具石傀，石身被风雪磨得只剩个人形。它看见你，停下扫帚，嘎吱嘎吱地弯了弯腰：“掌门出关了吗？弟子扫好了。”",
+    "options": [
+      {
+        "text": "“掌门不会回来了。”",
+        "result": "石傀站了很久，久到雪落满了肩头。它胸口裂开一道缝，露出一副玄武甲：“掌门吩咐过，他若不回来，就交给下一个上山的人。”它把甲递给你，坐在最高一级台阶上，再也不动了。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "armor_xuanwu",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "接过扫帚，替它扫一回",
+        "result": "你从山门扫到山脚，九千级，扫了一个月。扫完最后一级回头望去，石傀站在山门口朝你鞠了一躬，又把扫帚要了回去。你下山时，脚步轻了许多。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          },
+          {
+            "type": "cultivation",
+            "value": 1500000
+          }
+        ]
+      },
+      {
+        "text": "“掌门还在闭关，你接着扫吧。”",
+        "result": "石傀点点头，嘎吱嘎吱地扫了下去。你走出很远还听得见扫帚声，一下，一下，像在数日子。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_snow_guest",
+    "title": "雪中客",
+    "art": "snow_guest",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "风雪里有个老人在生火，火苗小得可怜。他也是化神，活了一千九百年，寿元只剩最后一个冬天。“我这辈子，为了长生什么都扔了，”他往火里添了根枯枝，“长生到手了，却不知道拿它做什么。你呢？”",
+    "options": [
+      {
+        "text": "陪他坐到天亮",
+        "result": "你们谁也没说话，只是添柴。天快亮时他说了句“原来就是这样”，就不动了，火还没灭。他身边留着一只储物袋，里头是五十万灵石。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 500000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "告诉他你的答案",
+        "check": {
+          "attr": "wuxing",
+          "dc": 12
+        },
+        "success": {
+          "result": "你说：长生不是拿来做什么的，是为了还能再遇见些什么——比如今夜，比如你。老人笑出了眼泪，把一卷手札塞给你，是他一千九百年的修行心得。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 5000000
+            }
+          ]
+        },
+        "fail": {
+          "result": "你说了很多，说到后来连自己都不信了。老人拍拍你的肩：“没关系，我也说不出来。”"
+        }
+      },
+      {
+        "text": "递给他一枚万寿丹",
+        "requires": {
+          "items": {
+            "wanshou_dan": 1
+          }
+        },
+        "result": "他把丹药推了回来：“再活五十年，也还是想不明白。”又从袖中摸出一枚神元丹放进你手里，“这个我用不上了，你还用得上。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "shenyuan_dan",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_fallen_immortal",
+    "title": "坠仙",
+    "art": "tribulation",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "一道光从天上直直坠下，砸穿了三座雪峰。坑底躺着一个人，穿着你从没见过的衣裳，气息已绝，神情却很平静。他手里攥着一张纸，纸上只有一行字：“上面也一样。”",
+    "options": [
+      {
+        "text": "就地葬了他",
+        "result": "坑是现成的坟。那张纸你没扔，夹进了随身的玉简。往后每想起飞升，你都会想起那一行字，想得多了，心反倒定了。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "搜他的遗物",
+        "result": "他身上的东西大多在坠落时烧尽了，只剩一枚还温着的丹丸。你认不出丹方，吞了下去，一股陌生而纯净的灵力在经脉里化开。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 6000000
+          }
+        ]
+      },
+      {
+        "text": "以神识探他残存的记忆",
+        "check": {
+          "attr": "shenshi",
+          "dc": 13
+        },
+        "success": {
+          "result": "你只看见一个画面：一扇门，门后又是一扇门，再往后还是门。他推了九千年，最后松开了手。你收回神识，久久不语，修为却像被那九千年推了一把。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 4000000
+            },
+            {
+              "type": "break_bonus",
+              "value": 0.05
+            }
+          ]
+        },
+        "fail": {
+          "result": "他的记忆像一面碎镜，割伤了你的识海。你在坑边躺了三天才爬起来。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "lifespan",
+              "value": -50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "kunlun_taixu",
+    "title": "神游太虚",
+    "art": "meditation_cave",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "昆仑之巅离天最近。你元神出窍，一念万里：东海潮生，北冥冰裂，青石村口的老槐树又开了一季花。只是游得越远越难回来——肉身在雪里坐久了，会一点一点冷下去。",
+    "options": [
+      {
+        "text": "游得再远些，去天地尽头",
+        "check": {
+          "attr": "shenshi",
+          "dc": 12
+        },
+        "success": {
+          "result": "你的元神一直飘到天地尽头，看了一眼，回来了。肉身上积了三尺雪，识海却比去时开阔了许多。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 4000000
+            }
+          ]
+        },
+        "fail": {
+          "result": "你飘得太远，回来时找了三天才找到自己的身子。手脚冻得发青，元气大伤。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "lifespan",
+              "value": -50
+            }
+          ]
+        }
+      },
+      {
+        "text": "只去看一眼青石村",
+        "result": "你在老槐树梢停了一会儿，看村里的孩子追着一条黄狗跑。回来时天还没黑，心里满满的。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 1000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_bell",
+    "title": "仙门古钟",
+    "art": "kunlun_gate",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "仙阙正殿塌了，殿前的铜钟却还挂着。钟身上铸满了名字，是昆仑仙门历代飞升的弟子。最后一行只刻了一半，刀痕停在半个字上。钟槌搁在一旁，落了一万年的灰。",
+    "options": [
+      {
+        "text": "敲响它",
+        "result": "钟声一响，满山积雪都落了一层。余音传了三天，天上有什么回应了一声，很远，很轻。你在钟下坐了三天，像被那声回应托着往上走了一截。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 3000000
+          },
+          {
+            "type": "break_bonus",
+            "value": 0.05
+          }
+        ]
+      },
+      {
+        "text": "替它把那半个字刻完",
+        "check": {
+          "attr": "wuxing",
+          "dc": 12
+        },
+        "success": {
+          "result": "你顺着刀痕揣摩了七天，补出了那个字：“初”。前面那个字是“太”。原来最后一行刻的，是一个本该飞升、却没有走的人。你望着那两个字，心里像推开了一扇窗。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 3000000
+            },
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你刻了一笔，觉得不对；再刻一笔，更不对。最后你放下刻刀，那半个字还是半个字。"
+        }
+      },
+      {
+        "text": "拂去钟上的灰，离开",
+        "result": "你用袖子擦净了钟身，没有敲。有些钟，留着不响，也是一种念想。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_rare_cub",
+    "title": "九首幼兽",
+    "art": "kunlun_beast",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 1,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "雪窝里蹲着一只小兽，九颗脑袋只有拳头大，正为一块冰吵得不可开交。见了你，九颗头一起往后缩，又一起探出来——是开明兽的幼崽，迷了路。昆仑深处传来一声低沉的吼叫，整座山都在找它。",
+    "options": [
+      {
+        "text": "抱它回家",
+        "result": "你循着吼声把它送到山门前。开明兽低下九颗头嗅了嗅它，又嗅了嗅你，转身进了林子，再出来时嘴里衔着一枚不死树种，轻轻放在你脚边。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "busi_seed",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "陪它在雪地里玩几天",
+        "result": "你陪它滚了七天雪，九颗头轮流睡在你怀里。第八天开明兽寻来，看了你很久，没有动手，只把它叼走了。那七天你一次也没想修炼的事，回过神来，心境却通透了许多。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 2000000
+          }
+        ]
+      },
+      {
+        "text": "绕开雪窝",
+        "result": "你绕了过去。走出很远，还听见九个细细的声音在吵架。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_kl_names",
+    "title": "遗刻·同门",
+    "art": "kunlun_pillar",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 8,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "断天柱的底座围着一圈石壁，壁上刻着三百个名字，每个名字上都划了一道。最后一行写着：“同门三百，今唯吾一人。修道三千年，未尝一败，亦未尝留住一人。”落款被雷火烧去大半，只剩一个“初”字。",
+    "options": [
+      {
+        "text": "一个一个读完那些名字",
+        "result": "有的名字旁刻着一朵花，有的刻着一壶酒——刻字的人记得他们每一个的喜好。读完第三百个，石壁深处传来一声轻响，像是有扇门松动了。你在壁前站了很久，心有所得。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 1500000
+          },
+          {
+            "type": "flag",
+            "key": "kl_s1"
+          }
+        ]
+      },
+      {
+        "text": "这个“初”字，你认得",
+        "requires": {
+          "meta_flags": [
+            "truth_known"
+          ],
+          "hint": "你不认得这笔迹"
+        },
+        "result": "泽底玉碑上，太初的字就是这样起笔的。你把手按在那个字上，石壁微微发烫，一缕残存的神念顺着掌心流进识海。石壁深处，有扇门松动了。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 3000000
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          },
+          {
+            "type": "flag",
+            "key": "kl_s1"
+          }
+        ]
+      },
+      {
+        "text": "不看了，转身离开",
+        "result": "你走出几步，身后的石壁上，有个名字悄悄亮了一下。你没有回头。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_kl_seats",
+    "title": "遗刻·蒲团",
+    "art": "meditation_cave",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 20,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen",
+      "flags": [
+        "kl_s1"
+      ]
+    },
+    "text": "石壁后是一条通往天柱腹中的暗道，尽头一座圆殿，地上环列着八十一个蒲团，每个都被坐出了浅浅的凹痕。殿心石碑上刻着：“天门开时，吾未登。登则又三千年，又三百人。吾不知长生为何，故分一念入轮回，以凡人之身，一世一世，替吾去问。”",
+    "options": [
+      {
+        "text": "在圆心的空地上坐下",
+        "result": "八十一个蒲团围着的正中，还空着一块地方。你坐下的一瞬，四面的凹痕仿佛同时有人坐了进来，陪你静坐了一夜，谁也没说话。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 3000000
+          },
+          {
+            "type": "flag",
+            "key": "kl_s2"
+          }
+        ]
+      },
+      {
+        "text": "这些坐姿，你在壁画上见过",
+        "requires": {
+          "meta_flags": [
+            "ruins_mural"
+          ],
+          "hint": "你没见过这样的身影"
+        },
+        "result": "黑风谷壁画上那层层叠叠的身影，坐的就是这些蒲团。你一个个看过去，坐姿各不相同，却都望着圆心——望着此刻的你。识海里，有什么东西对上了。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 3000000
+          },
+          {
+            "type": "attr",
+            "key": "shenshi",
+            "value": 1
+          },
+          {
+            "type": "flag",
+            "key": "kl_s2"
+          }
+        ]
+      },
+      {
+        "text": "找槐树下那位老者坐过的位置",
+        "requires": {
+          "meta_flags": [
+            "old_man_truth"
+          ],
+          "hint": "还有人的来历你不清楚"
+        },
+        "result": "第八十一个蒲团边落着一片槐叶，还是青的。他在这里坐过，然后起身，走回青石村，在村口等下一个你。你在他的位置坐了一会儿，心里很酸，也很稳。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          },
+          {
+            "type": "flag",
+            "key": "kl_s2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_kl_blank",
+    "title": "遗刻·未竟",
+    "art": "kunlun_pillar",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 20,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen",
+      "flags": [
+        "kl_s2"
+      ]
+    },
+    "text": "圆殿后还有一间斗室，室中只有一面石壁。太初最后的刻字停在半句：“长生为何？吾问之万年，未得。后来者若得其答，便刻于此，吾自——”后面是空的。刻刀就搁在壁下，刀柄上还留着他的指痕。",
+    "options": [
+      {
+        "text": "刻下：为了再见一面",
+        "result": "你想起这一世，也想起那些记不清的前世里，一张张想再见的脸。刻完，石壁上的字一个接一个亮起又暗下，像是有人读了很多遍。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          },
+          {
+            "type": "break_bonus",
+            "value": 0.1
+          }
+        ]
+      },
+      {
+        "text": "刻下：为了走下去",
+        "result": "你刻得很慢，一笔一划。刻完，斗室里起了一阵风，吹散了万年的灰。风里有人轻轻叹了口气，不知是满意，还是不满意。那阵风过后，你的修为也跟着往前走了一截。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 5000000
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "刻下：你问的人，就是我",
+        "requires": {
+          "meta_flags": [
+            "truth_known"
+          ],
+          "hint": "你还不知道他在问谁"
+        },
+        "result": "刻刀落下的一瞬，你分不清是自己在刻，还是一万年前的那只手在刻。最后一笔收住，那半句话自己续上了：“……吾自归来。”原来他从没想困住谁，他只是在等自己回家。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 5000000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          },
+          {
+            "type": "break_bonus",
+            "value": 0.1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_dj_legacy",
+    "title": "留传承",
+    "art": "kunlun_gate",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "渡过此劫，便是飞升。你在昆仑山门外选了一面向阳的石壁，想把一身所学留给后来人。石壁很大，你的道却不知从哪一句说起。山下有个采药的筑基少年，已经躲在石头后面偷看了你三天。",
+    "options": [
+      {
+        "text": "把一身功法尽数刻上石壁",
+        "result": "你刻了整整一年，从引气入体刻到渡劫。刻完最后一字，你才发觉，自己对这条路从没看得这样清楚过。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 15000000
+          }
+        ]
+      },
+      {
+        "text": "只刻一句话，把少年叫上来",
+        "result": "你只刻了一句：“慢些走，路上的人比山顶的风景要紧。”然后你教了那少年三个月。他下山那天，回头冲你磕了三个头，你笑着摆了摆手。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "一个字也不留",
+        "result": "你在石壁前站了很久，一个字也没刻。该走的路，后来人自己会走；该吃的苦，你替不了他们。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_dj_farewell",
+    "title": "辞山河",
+    "art": "summit_farewell",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "飞升前最后一个春天，你站在昆仑之巅往下看。云海底下是你走过的路：青石村、落霞山、黑风谷、云梦泽、北冥海，一程一程，都小得像掌纹。劫云已经在天边聚了，你还有一点时间，够去一个地方。",
+    "options": [
+      {
+        "text": "回青石村看一眼",
+        "result": "老槐树还在，树下坐着几个晒太阳的老人，没有一个认得你。你在树下站了一炷香，折了一枝槐花带走。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "把一世积蓄散给人间",
+        "requires": {
+          "stones": 2000000
+        },
+        "result": "你把两百万灵石分作百份，散给一路上遇见的散修、渔民和孩子，没人知道是谁给的。回到昆仑时你两手空空，心里也空空的，空得很干净。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -2000000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "哪里也不去，坐等劫云",
+        "result": "你在雪中坐定，任人间一程一程地在识海里过了一遍，没有挽留其中任何一处。一年后睁眼，修为又沉了一层。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 20000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_dj_omen",
+    "title": "劫云",
+    "art": "tribulation",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 4,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "劫云比你预想的来得早。昆仑上空的雷云一夜之间沉了三千丈，云底翻出一道道紫金色的纹路——那是九九天劫在试探你的气机。每一道纹路，都对应着一道还没落下的雷。",
+    "options": [
+      {
+        "text": "以神识逆探劫云",
+        "check": {
+          "attr": "shenshi",
+          "dc": 14
+        },
+        "success": {
+          "result": "你的神识顺着雷纹逆流而上，记下了其中三道雷的走势。回来后你把它们反刻在符纸上，成了一张九霄避雷符。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jiuxiao_fu",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "劫云察觉了你的窥探，提前劈下一道雷，正落在你头顶，劈去了一百年寿元。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            },
+            {
+              "type": "lifespan",
+              "value": -100
+            }
+          ]
+        }
+      },
+      {
+        "text": "敛息藏锋，不去惊动它",
+        "result": "你收敛全身气机，在雪里坐了一年，借着劫云的压迫打磨修为。劫云在头顶盘了一年，终于缓缓散去——它只是走远了，还会回来。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 8000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_dj_remnant",
+    "title": "残念",
+    "art": "kunlun_gate",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "仙阙最高处，一道淡淡的人影背手立在风里，已经立了九千年。他是昆仑仙门最后一个渡劫的人，倒在第十二道雷下，一缕残念不肯散。他转过头看看你，又看看天：“你也要去？那我问你，你想好上去做什么了吗？”",
+    "options": [
+      {
+        "text": "“还没想好，但我想去看看。”",
+        "result": "残念笑了：“我当年想得太好，反倒没去成。”他解下身上的仙衣披在你肩上，衣上的云霞还在流动。“替我看看。”风一吹，他就散了。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "armor_jiuxiao",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "“上去，也不过是换个地方活着。”",
+        "check": {
+          "attr": "wuxing",
+          "dc": 14
+        },
+        "success": {
+          "result": "残念愣了很久：“九千年，我怎么就没想到。”他把毕生对天劫的体悟化作一道灵光，送进了你的识海。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 30000000
+            }
+          ]
+        },
+        "fail": {
+          "result": "残念摇摇头：“说得轻巧。”他不再理你，转身望着天，又站成了一尊石像。"
+        }
+      },
+      {
+        "text": "问他，第十二道雷是什么样子",
+        "result": "他沉默了很久，只说了一句：“那道雷里，有你最放不下的人。”然后背过身去，再不开口。你在仙阙下坐了一夜，把这句话想了一千遍。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunlun_dj_demon",
+    "title": "天魔叩关",
+    "art": "heart_demon",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 4,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "渡劫将至，天魔闻着味就来了。这一回它不变成你的样子，而是变成你这一世亏欠过的人，一个接一个坐到你对面。它们不骂你，只是看着你，一言不发。",
+    "options": [
+      {
+        "text": "出剑斩之",
+        "battle": {
+          "enemy": "heaven_demon",
+          "win": {
+            "result": "最后一张脸散去时，你的剑也在发抖。天魔散尽的地方凝出两枚清心丹——它吞下去的那些心念，原样吐了回来。你的修为也跟着沉了一层。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "qingxin_dan",
+                "count": 2
+              },
+              {
+                "type": "cultivation",
+                "value": 15000000
+              }
+            ]
+          },
+          "lose": {
+            "result": "你的剑落不下去。天魔趁虚而入，在你识海里坐了整整一个月才肯走，带走了一百五十年寿元。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -70
+              },
+              {
+                "type": "lifespan",
+                "value": -150
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "一张一张，看回去",
+        "check": {
+          "attr": "xinjing",
+          "dc": 15
+        },
+        "success": {
+          "result": "你对每一张脸都看了很久，有的点头，有的道歉，有的只是笑一笑。最后一张看完，对面空了。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "看到第七张脸，你别开了眼睛。天魔低低笑了一声，带走了你一百年寿元。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -100
+            }
+          ]
+        }
+      },
+      {
+        "text": "起身离开此地",
+        "result": "你起身就走，那些脸没有跟上来。可你知道，它们会在天劫那一夜等你。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_dj_patriarch",
+    "title": "魔祖",
+    "art": "kunlun_demon",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "昆仑北麓的冰窟里坐着一位魔道老祖，比你早三千年到了渡劫，却一直不敢迎劫——他杀过的人太多，九九天劫会把每一条命都算进去。他看见你，眼睛一亮：“借你的劫气一用。你渡你的，我躲在你的雷里，一道上去。”",
+    "options": [
+      {
+        "text": "“你的债，自己还。”",
+        "battle": {
+          "enemy": "demon_patriarch",
+          "win": {
+            "result": "万魂幡被一剑劈碎，无数魂魄从幡中涌出，在冰窟里盘旋一圈，各自散去。老祖倒在冰上喃喃：“也好，也好……”他身后的宝库里，有一枚太清丹和三百万灵石。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "taiqing_dan",
+                "count": 1
+              },
+              {
+                "type": "stone",
+                "value": 3000000
+              }
+            ]
+          },
+          "lose": {
+            "result": "万魂幡兜头罩下，你挣了三天三夜才挣出来，元气大损。老祖没有追，只在你身后喊：“想好了再来！”",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -80
+              },
+              {
+                "type": "lifespan",
+                "value": -200
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "答应他",
+        "result": "老祖大喜，送你一枚太清丹作定钱，说渡劫那日自会来寻你。你揣着丹药走出冰窟，背后那股寒意一直跟到了山口，跟进了心里。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "taiqing_dan",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "text": "劝他自己去迎劫",
+        "check": {
+          "attr": "xinjing",
+          "dc": 14
+        },
+        "success": {
+          "result": "你说：“躲了三千年，你也没躲过去。”老祖沉默良久，把万魂幡一根根折断。三个月后，北麓落了一夜的雷。第二天冰窟里空空荡荡，只留下一只装着两百万灵石的储物袋，压着一张纸：“谢了。”",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 2000000
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "老祖大笑：“你自己还没渡，倒教起我来了。”一挥袖，把你扫出了冰窟。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "kunlun_dj_sword",
+    "title": "太初剑",
+    "art": "kunlun_pillar",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "weight": 1,
+    "once": true,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "断天柱的断口深处，插着一柄古剑。剑身不见锈迹，剑柄上的布条早已风化，却还看得出系的是个笨拙的结。你往前走了一步，剑就轻轻颤了一下，像一条老狗听见了熟悉的脚步声。",
+    "options": [
+      {
+        "text": "握住它",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 13
+        },
+        "success": {
+          "result": "剑自己从石中滑了出来，剑身上浮出两个古字：太初。剑柄上那个笨拙的结，和你系剑穗的手法一模一样。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "sword_taichu",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "剑没有动，只是不再颤了。一股剑气震得你倒退三步，掌心麻了好几天。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "叫它的名字",
+        "requires": {
+          "meta_flags": [
+            "truth_known"
+          ],
+          "hint": "你不知道它的名字"
+        },
+        "result": "你还没开口，剑已出石，落进你手里，剑柄温热，像刚被人握过。“太初”两个字在剑身上亮了一下——不是在告诉你它叫什么，是在叫你。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "sword_taichu",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "不拔，替它重新系好那个结",
+        "result": "你把布条解下，照着原样又系了一遍，转身走了。身后的剑颤了很久，才慢慢静下来。你下山的一路上，心里一直很安静。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  }
+]

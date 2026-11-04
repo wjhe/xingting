@@ -1,0 +1,196 @@
+{
+  "src": "601e3269dd8af5855005.wav",
+  "duration": 8.6,
+  "gain": 1.5275499496267002,
+  "source_sha256": "63d374ba8fec108b189348f77982689a6fb26d8871e9d13ef0e5c9d07e67b4ea",
+  "id": "event.main_1_1.outcome.0",
+  "text": "你们把划掉的字保留下来。它证明她试过，也证明她有权作出新的选择。",
+  "group": "event:main_1_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2360,
+        "start_time": 80,
+        "text": "你们把划掉的字保留下来。",
+        "words": [
+          {
+            "end_time": 240,
+            "start_time": 80,
+            "text": "你"
+          },
+          {
+            "end_time": 400,
+            "start_time": 240,
+            "text": "们"
+          },
+          {
+            "end_time": 560,
+            "start_time": 400,
+            "text": "把"
+          },
+          {
+            "end_time": 720,
+            "start_time": 600,
+            "text": "划"
+          },
+          {
+            "end_time": 960,
+            "start_time": 880,
+            "text": "掉"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1040,
+            "text": "的"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1200,
+            "text": "字"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "保"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "留"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "下"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2080,
+            "text": "来"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2360,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8400,
+        "start_time": 3320,
+        "text": "它证明她试过，也证明她有权作出新的选择。",
+        "words": [
+          {
+            "end_time": 3560,
+            "start_time": 3320,
+            "text": "它"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3600,
+            "text": "证"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3800,
+            "text": "明"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4120,
+            "text": "她"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4560,
+            "text": "试"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4800,
+            "text": "过"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 5080,
+            "text": "，"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5680,
+            "text": "也"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6000,
+            "text": "证"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6200,
+            "text": "明"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6480,
+            "text": "她"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6720,
+            "text": "有"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7000,
+            "text": "权"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7360,
+            "text": "作"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7520,
+            "text": "出"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7760,
+            "text": "新"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7920,
+            "text": "的"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8120,
+            "text": "选"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8240,
+            "text": "择"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8400,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你们把划掉的字保留下来。它证明她试过，也证明她有权作出新的选择。"
+  }
+}

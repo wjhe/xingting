@@ -1,0 +1,11 @@
+{
+  "appid": "touristappid",
+  "projectname": "wendao-changsheng",
+  "compileType": "game",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "minified": true,
+    "urlCheck": false
+  }
+}

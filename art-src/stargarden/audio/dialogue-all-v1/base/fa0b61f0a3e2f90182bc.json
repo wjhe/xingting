@@ -1,0 +1,311 @@
+{
+  "src": "fa0b61f0a3e2f90182bc.wav",
+  "duration": 13.271875,
+  "gain": 1.3139638205915236,
+  "source_sha256": "0e1de411e86c5d77b1191ed0b0c14cc2a846c6d66fe650e8003e41a4f6a24aec",
+  "id": "ending.healer",
+  "text": "小小的诊所在春天开了门，她认真照顾每一位来访的人。门旁收养的小猫伸着懒腰，阳光照着那块写着“愿你安好”的木牌。",
+  "group": "ending",
+  "role": "ending",
+  "emotion": "18岁，成熟自然，温柔而有希望",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5760,
+        "start_time": 320,
+        "text": "小小的诊所在春天开了门，她认真照顾每一位来访的人。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 320,
+            "text": "小"
+          },
+          {
+            "end_time": 720,
+            "start_time": 520,
+            "text": "小"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "的"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 960,
+            "text": "诊"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1240,
+            "text": "所"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "在"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1720,
+            "text": "春"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "天"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2200,
+            "text": "开"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2440,
+            "text": "了"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2560,
+            "text": "门"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2840,
+            "text": "，"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3280,
+            "text": "她"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "认"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3680,
+            "text": "真"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3840,
+            "text": "照"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4040,
+            "text": "顾"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4280,
+            "text": "每"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4440,
+            "text": "一"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4560,
+            "text": "位"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4720,
+            "text": "来"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4960,
+            "text": "访"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5200,
+            "text": "的"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5440,
+            "text": "人"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5760,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 13000,
+        "start_time": 6080,
+        "text": "门旁收养的小猫伸着懒腰，阳光照着那块写着‘愿你安好’的木牌。",
+        "words": [
+          {
+            "end_time": 6280,
+            "start_time": 6080,
+            "text": "门"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6280,
+            "text": "旁"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6560,
+            "text": "收"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6800,
+            "text": "养"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 6960,
+            "text": "的"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7160,
+            "text": "小"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7320,
+            "text": "猫"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7800,
+            "text": "伸"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7960,
+            "text": "着"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8160,
+            "text": "懒"
+          },
+          {
+            "end_time": 8560,
+            "start_time": 8440,
+            "text": "腰"
+          },
+          {
+            "end_time": 8560,
+            "start_time": 8560,
+            "text": "，"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9280,
+            "text": "阳"
+          },
+          {
+            "end_time": 9840,
+            "start_time": 9520,
+            "text": "光"
+          },
+          {
+            "end_time": 10120,
+            "start_time": 10000,
+            "text": "照"
+          },
+          {
+            "end_time": 10400,
+            "start_time": 10240,
+            "text": "着"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10400,
+            "text": "那"
+          },
+          {
+            "end_time": 10800,
+            "start_time": 10600,
+            "text": "块"
+          },
+          {
+            "end_time": 11080,
+            "start_time": 10840,
+            "text": "写"
+          },
+          {
+            "end_time": 11360,
+            "start_time": 11080,
+            "text": "着"
+          },
+          {
+            "end_time": 11360,
+            "start_time": 11360,
+            "text": "‘"
+          },
+          {
+            "end_time": 11800,
+            "start_time": 11480,
+            "text": "愿"
+          },
+          {
+            "end_time": 12000,
+            "start_time": 11800,
+            "text": "你"
+          },
+          {
+            "end_time": 12240,
+            "start_time": 12000,
+            "text": "安"
+          },
+          {
+            "end_time": 12400,
+            "start_time": 12240,
+            "text": "好"
+          },
+          {
+            "end_time": 12400,
+            "start_time": 12400,
+            "text": "’"
+          },
+          {
+            "end_time": 12560,
+            "start_time": 12400,
+            "text": "的"
+          },
+          {
+            "end_time": 12680,
+            "start_time": 12560,
+            "text": "木"
+          },
+          {
+            "end_time": 13000,
+            "start_time": 12800,
+            "text": "牌"
+          },
+          {
+            "end_time": 13000,
+            "start_time": 13000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "小小的诊所在春天开了门，她认真照顾每一位来访的人。门旁收养的小猫伸着懒腰，阳光照着那块写着‘愿你安好’的木牌。"
+  }
+}

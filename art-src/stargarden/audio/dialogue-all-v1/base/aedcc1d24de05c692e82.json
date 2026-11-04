@@ -1,0 +1,79 @@
+{
+  "src": "aedcc1d24de05c692e82.wav",
+  "duration": 3.7,
+  "gain": 1.6619550156076939,
+  "source_sha256": "76ffc0fcb769e1936e7e2da6d28330b8502a9883e3f2c6d25e99d8ea381dc3fc",
+  "id": "event.main_5_1.choice.1",
+  "text": "支持她让对方亲自补救",
+  "group": "event:main_5_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3560,
+        "start_time": 1400,
+        "text": "支持她让对方亲自补救",
+        "words": [
+          {
+            "end_time": 1640,
+            "start_time": 1400,
+            "text": "支"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1640,
+            "text": "持"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "她"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2200,
+            "text": "让"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2440,
+            "text": "对"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2560,
+            "text": "方"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2800,
+            "text": "亲"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "自"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3280,
+            "text": "补"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3480,
+            "text": "救"
+          }
+        ]
+      }
+    ],
+    "text": "支持她让对方亲自补救"
+  }
+}

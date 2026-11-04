@@ -1,0 +1,211 @@
+{
+  "src": "156b580ec7eeb54af595.wav",
+  "duration": 9.88,
+  "gain": 1.4814394605103012,
+  "source_sha256": "ea3a2626d1976482ee8ca9580ebc2f61355303c60383835b99a6ef33be1a119c",
+  "id": "event.main_1_2.outcome.1",
+  "text": "你请来熟悉的面包店老板。有人认真提问后，她终于忘记了纸稿，越讲越投入。",
+  "group": "event:main_1_2",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2520,
+        "start_time": 120,
+        "text": "你请来熟悉的面包店老板。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 120,
+            "text": "你"
+          },
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "请"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "来"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 800,
+            "text": "熟"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1040,
+            "text": "悉"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1240,
+            "text": "的"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "面"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "包"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "店"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "老"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2280,
+            "text": "板"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2520,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9520,
+        "start_time": 3240,
+        "text": "有人认真提问后，她终于忘记了纸稿，越讲越投入。",
+        "words": [
+          {
+            "end_time": 3440,
+            "start_time": 3240,
+            "text": "有"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3440,
+            "text": "人"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3600,
+            "text": "认"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3800,
+            "text": "真"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4040,
+            "text": "提"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4240,
+            "text": "问"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4560,
+            "text": "后"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4920,
+            "text": "，"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5520,
+            "text": "她"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5840,
+            "text": "终"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 5960,
+            "text": "于"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6120,
+            "text": "忘"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6360,
+            "text": "记"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6520,
+            "text": "了"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6800,
+            "text": "纸"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7080,
+            "text": "稿"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7160,
+            "text": "，"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 7880,
+            "text": "越"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8280,
+            "text": "讲"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8720,
+            "text": "越"
+          },
+          {
+            "end_time": 9240,
+            "start_time": 9000,
+            "text": "投"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9240,
+            "text": "入"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9520,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你请来熟悉的面包店老板。有人认真提问后，她终于忘记了纸稿，越讲越投入。"
+  }
+}

@@ -1,0 +1,737 @@
+[
+  {
+    "id": "e2e_bell_fog",
+    "title": "雾中钟声",
+    "art": "marsh_boat_oldman",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "大雾第七日，你在泽心听见了钟声。声音不是从天上来的，而是从脚下的水里一圈圈荡上来，每隔一个时辰响一回，一回十二下，从没错过。渔民说，这钟已经响了三百年。",
+    "options": [
+      {
+        "text": "循着钟声找过去",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "你以神识追着余音，在一片死水中央找到一座没入泽底的钟楼，只剩飞檐还露在水面上。檐角上坐着一个浑身湿透的人，正低头看着水下。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 3000
+            },
+            {
+              "type": "flag",
+              "key": "e2e_bell_found"
+            }
+          ]
+        },
+        "fail": {
+          "result": "钟声一会儿在左，一会儿在右。你在雾里绕了半个月，最后撞上的还是自己系在芦苇上的那截布条。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -15
+            }
+          ]
+        }
+      },
+      {
+        "text": "数着钟声打坐",
+        "result": "你泊舟入定，一下，两下……十二下。钟声沉稳，一圈圈压住了你心头的浮躁。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 6000
+          },
+          {
+            "type": "lifespan",
+            "value": -5
+          }
+        ]
+      },
+      {
+        "text": "雾太重，掉头离开",
+        "result": "你调转船头。身后的钟声又响了，十二下，不多不少。"
+      }
+    ]
+  },
+  {
+    "id": "e2e_bell_keeper",
+    "title": "守钟人",
+    "art": "bell_tower",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 18,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying",
+      "flags": [
+        "e2e_bell_found"
+      ]
+    },
+    "text": "檐角上那人自称姓陆，三百年前也是金丹修士。当年泽底一株老水柳成了妖，根须缠住过往船只，他与同门合力把它镇在钟楼之下，同门都走了，只剩他留下敲钟。“钟停一个时辰，它就长一丈。”他笑了笑，“我已经很久没睡过觉了。”",
+    "options": [
+      {
+        "text": "替他敲一夜钟，让他睡一觉",
+        "check": {
+          "attr": "xinjing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你守着钟楼，一个时辰十二下，一夜不曾分神。天亮时陆姓修士醒来，怔怔看了你很久，把当年师门传下的一段静心口诀，一字一句念给你听。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 12000
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            },
+            {
+              "type": "flag",
+              "key": "e2e_bell_rested"
+            }
+          ]
+        },
+        "fail": {
+          "result": "后半夜你打了个盹，钟声迟了片刻。水底轰然一震，钟楼被扯得歪了半寸。陆姓修士惊醒过来，一把接过钟槌，没有怪你，只是不再说话。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            },
+            {
+              "type": "flag",
+              "key": "e2e_bell_rested"
+            }
+          ]
+        }
+      },
+      {
+        "text": "劝他放下，随你离开",
+        "result": "他摇摇头：“我走了，这泽里的渔船怎么办？”你只好独自离开。驶出很远，钟声还在身后响着。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2e_bell_last",
+    "title": "末钟",
+    "art": "tree_demon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 16,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying",
+      "flags": [
+        "e2e_bell_rested"
+      ]
+    },
+    "text": "钟声断了。你赶到钟楼时，泽水正一圈圈往下陷，那口铜钟裂成两半，陆姓修士抱着钟槌坐在檐角，脸色像纸一样白：“寿元到头了，比我算的早了三年。”水底下，无数根须正缓缓抬起头来。",
+    "options": [
+      {
+        "text": "斩了这株水柳妖，一了百了",
+        "result": "你纵身跃入水中，迎着漫天根须斩了过去。",
+        "battle": {
+          "enemy": "tree_demon",
+          "win": {
+            "result": "老水柳的根须一寸寸断开，心核浮出水面。陆姓修士看着平静下来的泽水，笑出了声，把一卷丹方交到你手里：“三百年了，终于可以不敲了。”第二天，他坐在檐角，再也没有醒来。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "tree_heart",
+                "count": 1
+              },
+              {
+                "type": "item",
+                "id": "danfang_qingxin",
+                "count": 1
+              },
+              {
+                "type": "cultivation",
+                "value": 20000
+              }
+            ]
+          },
+          "lose": {
+            "result": "根须把你拖进泽底，你燃了二十年寿元才挣脱出来。等你浮上水面，钟楼已经不见了，只有半截钟槌漂在水上。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -60
+              },
+              {
+                "type": "lifespan",
+                "value": -10
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "接过钟槌，和他一起敲完最后一回",
+        "check": {
+          "attr": "xinjing",
+          "dc": 10
+        },
+        "success": {
+          "result": "你们一人握一半钟槌，对着裂钟敲了十二下。钟声里，你将自己的灵力连同十五年寿元一并灌了进去，根须缓缓沉回泽底。陆姓修士把丹方递给你，靠着钟楼睡着了，这一回睡得很安稳。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -7
+            },
+            {
+              "type": "cultivation",
+              "value": 25000
+            },
+            {
+              "type": "item",
+              "id": "danfang_qingxin",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "敲到第九下，裂钟彻底碎了。根须没有沉下去，你只能背起陆姓修士退出泽心。他伏在你背上，轻声说：“够了，够了。”",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -12
+            },
+            {
+              "type": "hp",
+              "value": -50
+            }
+          ]
+        }
+      },
+      {
+        "text": "这已不是你能管的事，离开",
+        "result": "你转身离开。身后再没有钟声，只有泽水一圈圈下陷的声音。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2e_caoling_song",
+    "title": "采菱歌",
+    "art": "marsh_fishing",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "菱塘里漂着一只木盆，盆里坐着个采菱的姑娘，一边剥菱一边唱歌。那调子起起落落，暗合吐纳的节拍，你听着听着，丹田里的金丹竟跟着转了起来。",
+    "options": [
+      {
+        "text": "请她再唱一遍，跟着学",
+        "check": {
+          "attr": "wuxing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你跟着她哼了三天，终于听懂了调子里藏着的那口气。她说这歌是奶奶的奶奶跟一位过路的仙人学的，“他说会回来听，我们家就一直唱着。”",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 9000
+            },
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你学会了调子，却没学会那口气。姑娘笑得直不起腰，说你唱得像鸭子叫。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 3000
+            }
+          ]
+        }
+      },
+      {
+        "text": "买下她一盆菱角，坐在岸边听",
+        "requires": {
+          "stones": 2000
+        },
+        "result": "她吓了一跳，说一盆菱角哪值这么多。你只说是听歌的钱。歌声里坐了一下午，心里一片清净。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -2000
+          },
+          {
+            "type": "cultivation",
+            "value": 5000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "不打扰她，撑船过去",
+        "result": "歌声跟着你的船尾走了很远，才散在雾里。"
+      }
+    ]
+  },
+  {
+    "id": "e2e_water_ghost",
+    "title": "水中人",
+    "art": "water_child",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "夜里泊舟，船舷边浮上来一个小孩，嘴唇冻得发紫，扒着船沿喊冷：“仙长，拉我一把。”月光照在他身上，水面上却没有他的影子。",
+    "options": [
+      {
+        "text": "伸手拉他上来",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "你握住他的手，神识一扫便看清了：那是六十年前溺死在这里的孩子，困在水里等一个替身。你没有松手，以灵力一点点化开他身上的阴寒。天亮前，他说了一声“不冷了”，便散成了一片水雾。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 8000
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "那只小手骤然变得冰冷刺骨，一把将你拖进水里。你在泽底挣了半夜才浮上来，护体灵光被阴气蚀得千疮百孔。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "lifespan",
+              "value": -5
+            }
+          ]
+        }
+      },
+      {
+        "text": "以真火逼退他",
+        "result": "你指尖燃起一缕丹火，那孩子尖叫一声沉了下去。水面很快平了，你却一夜没睡着。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 2000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "text": "解缆，把船撑远些",
+        "result": "你连夜换了个地方泊船。身后那声“仙长”喊了很久，一声比一声小。"
+      }
+    ]
+  },
+  {
+    "id": "e2e_carp_wedding",
+    "title": "水妖娶亲",
+    "art": "carp_wedding",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "三更时分，泽面上锣鼓喧天，一队虾兵蟹将抬着花轿踏水而来。岸上一个老渔夫扑通跪在你面前：“仙长，那鲤鱼精要把我儿子娶进泽底，求你救救他！”",
+    "options": [
+      {
+        "text": "拦下花轿，把人抢回来",
+        "check": {
+          "attr": "gengu",
+          "dc": 9
+        },
+        "success": {
+          "result": "你一袖子掀翻了迎亲的队伍，把渔夫的儿子拎上了岸。老渔夫千恩万谢，硬塞给你一包攒了半辈子的灵石。那年轻人却一直望着泽面，水底的鲤鱼精再也没有浮上来。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 2500
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            }
+          ]
+        },
+        "fail": {
+          "result": "虾兵蟹将看着不起眼，结起水阵来却密不透风。你被浪头打得一身狼狈，花轿已经没入了水下。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "先掀开轿帘问一问",
+        "result": "轿里坐着的正是渔夫的儿子，一身红衣，脸也是红的：“是我自己要嫁……要娶，不对，要去的。”鲤鱼精从水里探出头，送了你两株泽底长的紫芝作谢礼，求你替他们给老人家带句话。你回去说了，老渔夫骂了一夜，天亮时却在岸边摆了两副碗筷。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_zizhi",
+            "count": 2
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "妖人之间的家事，不便插手",
+        "result": "你扶起老渔夫，说你帮不上忙。锣鼓声渐渐沉进了水里，泽面上只剩几片漂着的红纸。"
+      }
+    ]
+  },
+  {
+    "id": "e2e_reed_sword",
+    "title": "苇中剑意",
+    "art": "valley_sword_tomb",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "这片芦苇荡里的每一根苇杆，都在离水三尺处齐齐断开，断口平滑如镜。不知多少年前，有人在这里出过一剑，剑意至今未散。风一吹，满荡的断苇都在低低作响，像剑在鞘中轻鸣。",
+    "options": [
+      {
+        "text": "走进苇荡，迎着剑意参悟",
+        "check": {
+          "attr": "wuxing",
+          "dc": 10
+        },
+        "success": {
+          "result": "剑意割破了你的衣袖，也割开了你心里的一层窗纸。你在荡中站了七天，终于看清了那一剑是怎么出的。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 15000
+            },
+            {
+              "type": "hp",
+              "value": -25
+            }
+          ]
+        },
+        "fail": {
+          "result": "你只看清了剑意的影子，那影子便回身斩了你一剑。你踉跄退出苇荡，伤口过了半个月才愈合。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "lifespan",
+              "value": -5
+            }
+          ]
+        }
+      },
+      {
+        "text": "在荡外静坐，远远感悟",
+        "result": "隔着一层水雾，剑意只剩几分锋芒。你坐了三天，略有所得。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 5000
+          }
+        ]
+      },
+      {
+        "text": "绕开这片苇荡",
+        "result": "你撑船绕了个大圈。身后的断苇沙沙作响，像有人在笑。"
+      }
+    ]
+  },
+  {
+    "id": "e2e_lundao_boat",
+    "title": "舟上论道",
+    "art": "mountain_pine_chess",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "两条小船并排泊在泽心，船头各坐一位金丹修士，正吵得面红耳赤。一个说泽中的雾是水生的，一个说水是雾落的，据说已经吵了四十年。见你过来，两人齐声道：“道友来评评理！”",
+    "options": [
+      {
+        "text": "认真想一想，说出自己的见解",
+        "check": {
+          "attr": "wuxing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你说，雾是水，水也是雾，你们吵的是同一样东西。两人愣了半晌，同时大笑，各自把这些年的心得倾囊相授，说是谢你一言。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 12000
+            },
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你说了一通，两人都不服，转头一起骂你。你被骂了整整一天，倒也从他们的争吵里听出了一点门道。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 4000
+            }
+          ]
+        }
+      },
+      {
+        "text": "向两位各请教一番",
+        "result": "你谁也不帮，只是请教。两人争着给你讲，讲了三个月还意犹未尽。你修为大进，却也在船上耽搁了些年月。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 15000
+          },
+          {
+            "type": "lifespan",
+            "value": -5
+          }
+        ]
+      },
+      {
+        "text": "拱拱手，撑船走开",
+        "result": "你还没走远，身后便又吵了起来。看样子，再吵四十年也不成问题。"
+      }
+    ]
+  },
+  {
+    "id": "e2e_ghost_market",
+    "title": "泽底夜市",
+    "art": "marsh_palace",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "子夜，泽底亮起一条长街的灯笼，摆摊的都是历年溺死在泽里的修士残魂。他们不收灵石，只收寿元。一个戴斗笠的摊主朝你招手，摊上摆着一卷金边丹方：“三十年，换不换？”",
+    "options": [
+      {
+        "text": "用三十年寿元换下丹方",
+        "result": "你点了点头。一股寒意从心口流走，手里多了一卷沉甸甸的丹方。摊主把三十年寿元揣进怀里，喃喃说：“够我再看一回岸上的桃花了。”",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -15
+          },
+          {
+            "type": "item",
+            "id": "danfang_jinsui",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "讨价还价",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 10
+        },
+        "success": {
+          "result": "你和他磨了一夜，说岸上的事给他听，说到故乡春天的槐花时，他沉默了很久，把丹方推给你：“十五年吧，剩下的，算你讲的故事钱。”",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -7
+            },
+            {
+              "type": "item",
+              "id": "danfang_jinsui",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "摊主冷笑一声，吹灭了灯笼。整条长街的灯一盏接一盏地熄下去，你在漆黑的泽底摸了很久才浮上水面。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            },
+            {
+              "type": "lifespan",
+              "value": -2
+            }
+          ]
+        }
+      },
+      {
+        "text": "活人不做死人的买卖",
+        "result": "你转身离开。斗笠下的摊主没有挽留，只是低声说：“下回见。”"
+      }
+    ]
+  },
+  {
+    "id": "e2e_sunken_boat",
+    "title": "沉舟",
+    "art": "marsh_dragon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "realm_max": "yuanying"
+    },
+    "text": "水下三十丈卧着一艘楼船，船头挂着某家丹宗的旗号，船舱里隐隐透出丹香。可船腹的破洞里盘着一条蛟，正把那里当成了窝，鼻息吹得船板一张一合。",
+    "options": [
+      {
+        "text": "把蛟引出来，夺下沉船",
+        "result": "你一剑劈在船舷上，蛟龙怒吼着冲了出来。",
+        "battle": {
+          "enemy": "jiao_dragon",
+          "win": {
+            "result": "蛟龙负伤遁入深渊。你在船舱里翻出一只锦匣，匣中是一卷保存完好的丹方，旁边还有几块被水泡得发白的灵石。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "danfang_pojing",
+                "count": 1
+              },
+              {
+                "type": "stone",
+                "value": 3000
+              },
+              {
+                "type": "cultivation",
+                "value": 8000
+              }
+            ]
+          },
+          "lose": {
+            "result": "蛟尾把你连人带船板一起拍出了水面，你在泽边躺了一个多月。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -60
+              },
+              {
+                "type": "lifespan",
+                "value": -7
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "等它出去觅食，悄悄摸进船舱",
+        "check": {
+          "attr": "shenshi",
+          "dc": 10
+        },
+        "success": {
+          "result": "你在水下藏了半个月，终于等到蛟龙离窝。你钻进船舱，取了锦匣就走，出水时还听见远处传来一声愤怒的长吟。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_pojing",
+              "count": 1
+            },
+            {
+              "type": "lifespan",
+              "value": -5
+            }
+          ]
+        },
+        "fail": {
+          "result": "你刚摸到船舱，蛟龙就回来了。你拼死冲出水面，背上挨了一记，锦匣也没拿到。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            }
+          ]
+        }
+      },
+      {
+        "text": "不与蛟龙争窝",
+        "result": "你记下了这处位置，浮上水面离开。也许过些年，它会自己搬走。"
+      }
+    ]
+  }
+]

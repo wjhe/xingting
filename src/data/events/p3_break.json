@@ -1,0 +1,324 @@
+[
+  {
+    "id": "break_disturb_enemy",
+    "title": "仇家叩关",
+    "art": "valley_rogue",
+    "weight": 5,
+    "text": "闭关正到紧要处，洞府外忽然传来一声冷笑：“听说你在冲关？好得很，我等这一天很久了。”禁制被人一下一下地撞着，每一下都震得你丹田发颤。",
+    "options": [
+      {
+        "text": "分出一缕神识，加固禁制",
+        "check": {
+          "attr": "shenshi",
+          "dc": 13
+        },
+        "success": {
+          "result": "你以神识为线，把禁制一层层补牢。外头的人撞了半日，悻悻而去，你的心神反倒比先前更凝。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.05
+            }
+          ]
+        },
+        "fail": {
+          "result": "禁制被撞开一角，余波冲进洞府，你强行压下翻腾的气血，冲关的势头弱了几分。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": -0.1
+            },
+            {
+              "type": "hp",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "不理会，一心冲关",
+        "check": {
+          "attr": "xinjing",
+          "dc": 13
+        },
+        "success": {
+          "result": "外面的叫骂越来越远，像隔着一层水。你心无旁骛，冲关的势头反而更足了。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.08
+            }
+          ]
+        },
+        "fail": {
+          "result": "那冷笑一下一下钻进耳朵，你终究分了心，灵力在经脉里乱窜了一阵。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": -0.12
+            }
+          ]
+        }
+      },
+      {
+        "text": "暂停冲关，出去打发了他",
+        "result": "你收功出关，与来人斗了一场，把他打出了百里。回到洞府重新入定时，那股冲关的气已经散了一半。",
+        "effects": [
+          {
+            "type": "break_bonus",
+            "value": -0.06
+          },
+          {
+            "type": "hp",
+            "value": -25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "break_disturb_vein",
+    "title": "灵脉暴走",
+    "art": "meditation_cave",
+    "weight": 5,
+    "text": "洞府底下的灵脉忽然沸腾起来，灵气像决堤的江水一样往你身上灌。来得太多、太急，经脉胀得生疼——可若能吞下去，这是天大的机缘。",
+    "options": [
+      {
+        "text": "引灵入体，照单全收",
+        "check": {
+          "attr": "gengu",
+          "dc": 13
+        },
+        "success": {
+          "result": "你咬牙把奔涌的灵气一股股炼化，经脉被撑宽了一圈。冲关的底气足了许多。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.12
+            }
+          ]
+        },
+        "fail": {
+          "result": "灵气太猛，冲伤了两条经脉。你吐了一口血，硬生生把它们导了出去。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": -0.08
+            },
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "截断灵脉，按部就班",
+        "result": "你封住地脉，洞府里重归平静。白白错过一场机缘，好在冲关的节奏没乱。"
+      }
+    ]
+  },
+  {
+    "id": "break_disturb_mirage",
+    "title": "故人幻影",
+    "art": "heart_demon",
+    "weight": 5,
+    "text": "入定到第七日，洞府里多了一个人。是你这一世最放不下的那个人，就坐在蒲团对面，轻声问你：“修了这么久，你还记得我长什么样吗？”",
+    "options": [
+      {
+        "text": "看清那是幻象，不答",
+        "check": {
+          "attr": "xinjing",
+          "dc": 14
+        },
+        "success": {
+          "result": "你闭着眼，一句也没答。那人坐了很久，渐渐淡去了。你的心像被雪洗过一遍。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.1
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你还是睁开了眼。那人笑了一下就散了，你的心却乱成一团，好几日都定不下来。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": -0.12
+            }
+          ]
+        }
+      },
+      {
+        "text": "答他：“记得。”",
+        "check": {
+          "attr": "wuxing",
+          "dc": 13
+        },
+        "success": {
+          "result": "说出口的一瞬，心里那点执念也跟着放下了。幻象朝你点点头，散了。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.08
+            }
+          ]
+        },
+        "fail": {
+          "result": "你说完便后悔了，越想越多，越想越乱。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": -0.1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "break_disturb_beast",
+    "title": "妖兽寻香",
+    "art": "mountain_wolf",
+    "weight": 5,
+    "text": "冲关时外溢的灵气飘出了洞府，引来了山中的妖兽。洞口传来沉重的喘息和爪子刨石头的声音，越来越近。",
+    "options": [
+      {
+        "text": "隔空一道剑气逼退它",
+        "check": {
+          "attr": "shenshi",
+          "dc": 12
+        },
+        "success": {
+          "result": "剑气擦着它的鼻尖斩在石壁上。妖兽呜咽一声逃了，你几乎没分心。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.02
+            }
+          ]
+        },
+        "fail": {
+          "result": "剑气偏了，妖兽被激怒，一头撞进洞府。你仓促出手把它打跑，自己也受了些伤。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": -0.08
+            },
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "收敛气息，等它自己离开",
+        "result": "你把外溢的灵气全收回体内，憋得胸口发闷。妖兽在洞口转了半夜，悻悻走了。",
+        "effects": [
+          {
+            "type": "break_bonus",
+            "value": -0.04
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "break_disturb_insight",
+    "title": "顿悟一线",
+    "art": "master_teach",
+    "weight": 5,
+    "text": "闭关第三个月，你忽然想通了一件很久以前的小事：某个午后，师父随口说过的一句话。那句话里，好像藏着这道关的钥匙。",
+    "options": [
+      {
+        "text": "顺着这一线灵光参下去",
+        "check": {
+          "attr": "wuxing",
+          "dc": 13
+        },
+        "success": {
+          "result": "你沿着那句话一路想下去，许多卡住的地方豁然贯通。这一关，你多了几分把握。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.15
+            }
+          ]
+        },
+        "fail": {
+          "result": "灵光一闪就没了，再想抓已经抓不住。好在也没耽误什么。",
+          "effects": []
+        }
+      },
+      {
+        "text": "不贪，按原定的法子冲关",
+        "result": "你把那念头记在心里，没去深究。冲关稳稳当当地往下走。",
+        "effects": [
+          {
+            "type": "break_bonus",
+            "value": 0.03
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "break_disturb_cave_in",
+    "title": "洞府塌方",
+    "art": "mountain_cave",
+    "weight": 5,
+    "text": "地底一声闷响，洞府顶上簌簌往下掉碎石，一道裂缝正沿着石壁朝你蔓延过来。冲关正到一半，此刻挪动，前功尽弃；不动，就要被埋在里面。",
+    "options": [
+      {
+        "text": "以护体灵光硬扛",
+        "check": {
+          "attr": "gengu",
+          "dc": 13
+        },
+        "success": {
+          "result": "落石砸在灵光上，一块块弹开。等尘埃落定，你还坐在原处，冲关的气也没断。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.05
+            },
+            {
+              "type": "hp",
+              "value": -15
+            }
+          ]
+        },
+        "fail": {
+          "result": "灵光被砸碎，你被埋在碎石下，挣出来时满身是伤，冲关的气也泄了不少。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": -0.1
+            },
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      },
+      {
+        "text": "一边冲关，一边分神撑住洞顶",
+        "result": "你分出一半灵力托住石壁，冲关走得磕磕绊绊，好歹没出大事。",
+        "effects": [
+          {
+            "type": "break_bonus",
+            "value": -0.05
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "e04e7f0c-627d-4801-90ab-6e5cfc5176a5",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：18岁，成熟自然，温柔而有希望。以成年后自然、成熟而温暖的声音总结这段成长。\n请完整念出以下文本：“授勋那天，她把骑士徽章放进你的掌心。那个曾经握不稳木剑的孩子，已经能够保护一整座城。“这一次，换我来保护你。””\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105045442378EE22E71AA0AB91867",
+  "response": {
+    "duration": 13.3,
+    "original_duration": 13.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4160,
+          "start_time": 440,
+          "text": "授勋那天，她把骑士徽章放进你的掌心。",
+          "words": [
+            {
+              "end_time": 560,
+              "start_time": 440,
+              "text": "授"
+            },
+            {
+              "end_time": 880,
+              "start_time": 800,
+              "text": "勋"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "那"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1240,
+              "text": "天"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1480,
+              "text": "，"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1600,
+              "text": "她"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1840,
+              "text": "把"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2120,
+              "text": "骑"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2360,
+              "text": "士"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2640,
+              "text": "徽"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2840,
+              "text": "章"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3120,
+              "text": "放"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3320,
+              "text": "进"
+            },
+            {
+              "end_time": 3600,
+              "start_time": 3440,
+              "text": "你"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3600,
+              "text": "的"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3720,
+              "text": "掌"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4000,
+              "text": "心"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4160,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9680,
+          "start_time": 5000,
+          "text": "那个曾经握不稳木剑的孩子，已经能够保护一整座城。",
+          "words": [
+            {
+              "end_time": 5160,
+              "start_time": 5000,
+              "text": "那"
+            },
+            {
+              "end_time": 5280,
+              "start_time": 5160,
+              "text": "个"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5280,
+              "text": "曾"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5480,
+              "text": "经"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5800,
+              "text": "握"
+            },
+            {
+              "end_time": 6200,
+              "start_time": 6040,
+              "text": "不"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6200,
+              "text": "稳"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6440,
+              "text": "木"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6720,
+              "text": "剑"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 6920,
+              "text": "的"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 7120,
+              "text": "孩"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7280,
+              "text": "子"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7480,
+              "text": "，"
+            },
+            {
+              "end_time": 8080,
+              "start_time": 7920,
+              "text": "已"
+            },
+            {
+              "end_time": 8160,
+              "start_time": 8080,
+              "text": "经"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8160,
+              "text": "能"
+            },
+            {
+              "end_time": 8440,
+              "start_time": 8360,
+              "text": "够"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8480,
+              "text": "保"
+            },
+            {
+              "end_time": 8840,
+              "start_time": 8600,
+              "text": "护"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 8840,
+              "text": "一"
+            },
+            {
+              "end_time": 9200,
+              "start_time": 9040,
+              "text": "整"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9200,
+              "text": "座"
+            },
+            {
+              "end_time": 9680,
+              "start_time": 9640,
+              "text": "城"
+            },
+            {
+              "end_time": 9680,
+              "start_time": 9680,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 12920,
+          "start_time": 9680,
+          "text": "‘这一次，换我来保护你。",
+          "words": [
+            {
+              "end_time": 9680,
+              "start_time": 9680,
+              "text": "‘"
+            },
+            {
+              "end_time": 11000,
+              "start_time": 10760,
+              "text": "这"
+            },
+            {
+              "end_time": 11120,
+              "start_time": 11000,
+              "text": "一"
+            },
+            {
+              "end_time": 11360,
+              "start_time": 11120,
+              "text": "次"
+            },
+            {
+              "end_time": 11360,
+              "start_time": 11360,
+              "text": "，"
+            },
+            {
+              "end_time": 12040,
+              "start_time": 11760,
+              "text": "换"
+            },
+            {
+              "end_time": 12240,
+              "start_time": 12040,
+              "text": "我"
+            },
+            {
+              "end_time": 12440,
+              "start_time": 12240,
+              "text": "来"
+            },
+            {
+              "end_time": 12560,
+              "start_time": 12440,
+              "text": "保"
+            },
+            {
+              "end_time": 12680,
+              "start_time": 12560,
+              "text": "护"
+            },
+            {
+              "end_time": 12920,
+              "start_time": 12680,
+              "text": "你"
+            },
+            {
+              "end_time": 12920,
+              "start_time": 12920,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 12920,
+          "start_time": 12920,
+          "text": "’",
+          "words": [
+            {
+              "end_time": 12920,
+              "start_time": 12920,
+              "text": "’"
+            }
+          ]
+        }
+      ],
+      "text": "授勋那天，她把骑士徽章放进你的掌心。那个曾经握不稳木剑的孩子，已经能够保护一整座城。‘这一次，换我来保护你。’"
+    }
+  }
+}

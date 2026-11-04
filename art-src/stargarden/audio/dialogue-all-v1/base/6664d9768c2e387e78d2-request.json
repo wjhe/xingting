@@ -1,0 +1,300 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "9e05f367-3516-4e8e-a865-ce4e69c6cf86",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：18岁，成熟自然，温柔而有希望。以成年后自然、成熟而温暖的声音总结这段成长。\n请完整念出以下文本：“她成为学院里最年轻的讲师。学生们说，她讲故事时眼睛会发光。她笑着说，那是因为从小就有人认真听她说话。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050454571655C08913470A203758",
+  "response": {
+    "duration": 13.5,
+    "original_duration": 13.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2920,
+          "start_time": 240,
+          "text": "她成为学院里最年轻的讲师。",
+          "words": [
+            {
+              "end_time": 440,
+              "start_time": 240,
+              "text": "她"
+            },
+            {
+              "end_time": 640,
+              "start_time": 520,
+              "text": "成"
+            },
+            {
+              "end_time": 800,
+              "start_time": 640,
+              "text": "为"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 800,
+              "text": "学"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1080,
+              "text": "院"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1320,
+              "text": "里"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1600,
+              "text": "最"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1800,
+              "text": "年"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 2000,
+              "text": "轻"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2160,
+              "text": "的"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2440,
+              "text": "讲"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2760,
+              "text": "师"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2920,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7440,
+          "start_time": 3840,
+          "text": "学生们说，她讲故事时眼睛会发光。",
+          "words": [
+            {
+              "end_time": 4120,
+              "start_time": 3840,
+              "text": "学"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4120,
+              "text": "生"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4320,
+              "text": "们"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4560,
+              "text": "说"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4920,
+              "text": "，"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 4960,
+              "text": "她"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5240,
+              "text": "讲"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5520,
+              "text": "故"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5720,
+              "text": "事"
+            },
+            {
+              "end_time": 6240,
+              "start_time": 5960,
+              "text": "时"
+            },
+            {
+              "end_time": 6480,
+              "start_time": 6240,
+              "text": "眼"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6480,
+              "text": "睛"
+            },
+            {
+              "end_time": 6920,
+              "start_time": 6680,
+              "text": "会"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 6920,
+              "text": "发"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7160,
+              "text": "光"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7440,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 13080,
+          "start_time": 8080,
+          "text": "她笑着说，那是因为从小就有人认真听她说话。",
+          "words": [
+            {
+              "end_time": 8280,
+              "start_time": 8080,
+              "text": "她"
+            },
+            {
+              "end_time": 8560,
+              "start_time": 8320,
+              "text": "笑"
+            },
+            {
+              "end_time": 8840,
+              "start_time": 8560,
+              "text": "着"
+            },
+            {
+              "end_time": 9160,
+              "start_time": 8840,
+              "text": "说"
+            },
+            {
+              "end_time": 9160,
+              "start_time": 9160,
+              "text": "，"
+            },
+            {
+              "end_time": 10080,
+              "start_time": 9840,
+              "text": "那"
+            },
+            {
+              "end_time": 10240,
+              "start_time": 10080,
+              "text": "是"
+            },
+            {
+              "end_time": 10400,
+              "start_time": 10240,
+              "text": "因"
+            },
+            {
+              "end_time": 10560,
+              "start_time": 10400,
+              "text": "为"
+            },
+            {
+              "end_time": 11000,
+              "start_time": 10680,
+              "text": "从"
+            },
+            {
+              "end_time": 11240,
+              "start_time": 11000,
+              "text": "小"
+            },
+            {
+              "end_time": 11440,
+              "start_time": 11240,
+              "text": "就"
+            },
+            {
+              "end_time": 11640,
+              "start_time": 11440,
+              "text": "有"
+            },
+            {
+              "end_time": 11840,
+              "start_time": 11640,
+              "text": "人"
+            },
+            {
+              "end_time": 12040,
+              "start_time": 11840,
+              "text": "认"
+            },
+            {
+              "end_time": 12240,
+              "start_time": 12040,
+              "text": "真"
+            },
+            {
+              "end_time": 12480,
+              "start_time": 12240,
+              "text": "听"
+            },
+            {
+              "end_time": 12680,
+              "start_time": 12520,
+              "text": "她"
+            },
+            {
+              "end_time": 12880,
+              "start_time": 12720,
+              "text": "说"
+            },
+            {
+              "end_time": 13080,
+              "start_time": 12880,
+              "text": "话"
+            },
+            {
+              "end_time": 13080,
+              "start_time": 13080,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她成为学院里最年轻的讲师。学生们说，她讲故事时眼睛会发光。她笑着说，那是因为从小就有人认真听她说话。"
+    }
+  }
+}

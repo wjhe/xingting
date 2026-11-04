@@ -1,0 +1,89 @@
+{
+  "src": "5b65846880d9ad2646b2.wav",
+  "duration": 4.4,
+  "gain": 1.5793283333982084,
+  "source_sha256": "aea64720855e4aa8dc60041683bd2ae54b0b883d20ba4dcc23b1d1c7e4262666",
+  "id": "event.main_6_2.choice.0",
+  "text": "请她加上一件真正珍惜的事",
+  "group": "event:main_6_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4000,
+        "start_time": 360,
+        "text": "请她加上一件真正珍惜的事",
+        "words": [
+          {
+            "end_time": 760,
+            "start_time": 360,
+            "text": "请"
+          },
+          {
+            "end_time": 920,
+            "start_time": 760,
+            "text": "她"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1360,
+            "text": "加"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "上"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "一"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2040,
+            "text": "件"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2480,
+            "text": "真"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2720,
+            "text": "正"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "珍"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3240,
+            "text": "惜"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3520,
+            "text": "的"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3760,
+            "text": "事"
+          }
+        ]
+      }
+    ],
+    "text": "请她加上一件真正珍惜的事"
+  }
+}

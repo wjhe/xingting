@@ -1,0 +1,1151 @@
+{
+  "fragments": {
+    "pre": "A traditional Chinese ink wash painting (shuimo) on aged off-white rice paper, loose xieyi brushwork painted with a brush, NOT a photograph, NOT digital art, NOT 3D.",
+    "post": "Mostly monochrome black and grey ink with only light muted color washes, soft edges, few details, sparse vermilion accent. No text, no calligraphy, no characters, no seal, no signature, no border."
+  },
+  "categories": {
+    "regions": {
+      "folder": "regions",
+      "size": "1536x1024",
+      "template": "{pre} Subject: {subject} Large areas of blank paper, soft mist. {post}",
+      "items": [
+        {
+          "id": "qingshi_village",
+          "subject": "a small mountain village at the foot of hills, thatched cottages, kitchen smoke, an old pagoda tree at the village entrance, distant green mountains."
+        },
+        {
+          "id": "luoxia_mountain",
+          "subject": "layered mountains wrapped in clouds and rosy sunset glow, ancient pines on cliffs, a narrow mountain path winding up."
+        },
+        {
+          "id": "qingyun_market",
+          "subject": "a small market town on a mountainside, a few pavilions with upturned eaves, stone steps, a couple of red lanterns, tiny figures of travelers, clouds around the cliffs."
+        },
+        {
+          "id": "heifeng_valley",
+          "subject": "a desolate gorge, swirling black wind drawn as bold dry ink strokes, withered trees, a few broken swords stuck in the ground, a ruined cave entrance in the distance. Ominous mood but the rice paper background stays light and visible."
+        },
+        {
+          "id": "yunmeng_marsh",
+          "subject": "a vast misty marsh, reeds drawn with quick brush strokes, a lone small boat with a tiny figure, the faint shadow of a huge dragon beneath the water suggested by a pale ink wash."
+        },
+        {
+          "id": "beiming_sea",
+          "subject": "the vast northern ocean under a pale sky, scattered misty immortal islands on the horizon, the shadow of a giant fish beneath the waves."
+        },
+        {
+          "id": "kunlun_ruins",
+          "subject": "the snowy Kunlun mountain range, ruins of ancient immortal palaces on the peaks, a broken sky pillar with thunderclouds."
+        }
+      ]
+    },
+    "endings": {
+      "folder": "endings",
+      "size": "1024x1536",
+      "template": "{pre} Vertical composition. Subject: {subject} Large areas of blank paper, soft mist. {post}",
+      "items": [
+        {
+          "id": "ending_patriarch",
+          "subject": "an old cultivator in robes sitting peacefully under a lone pine tree in front of a cave abode on a cliff, watching a sea of clouds."
+        },
+        {
+          "id": "ending_break",
+          "subject": "a single figure raising a sword, one bright stroke of sword light cutting through countless faint overlapping silhouettes of the same person behind, the silhouettes dissolving into floating specks of light."
+        },
+        {
+          "id": "ending_inherit",
+          "subject": "under an old gnarled pagoda tree at a village entrance, an old man handing a small formation banner flag to a young person, falling leaves."
+        },
+        {
+          "id": "ending_ascend",
+          "subject": "a cultivator stepping through a radiant gate among the clouds, the world below small and distant."
+        },
+        {
+          "id": "ending_together",
+          "subject": "an old couple walking hand in hand along a lakeside path at sunset, reeds and a small cottage."
+        }
+      ]
+    },
+    "icons": {
+      "folder": "icons",
+      "size": "1024x1024",
+      "template": "{pre} A single object icon: {subject}, centered, occupying about 60 percent of the frame, isolated on a plain empty off-white rice paper background with nothing else around it. {post}",
+      "items": [
+        {
+          "id": "juqi_dan",
+          "subject": "a small round pale-gold elixir pill with a faint glowing aura of qi"
+        },
+        {
+          "id": "huichun_dan",
+          "subject": "a round jade-green healing elixir pill"
+        },
+        {
+          "id": "pozhang_dan",
+          "subject": "a round crimson elixir pill with a thin crack of light across it"
+        },
+        {
+          "id": "yanshou_dan",
+          "subject": "a round elixir pill with a faint peach-blossom pattern and a soft pink glow"
+        },
+        {
+          "id": "ningyuan_dan",
+          "subject": "a deep blue crystalline elixir pill"
+        },
+        {
+          "id": "zhuji_dan",
+          "subject": "a precious golden elixir pill resting in a small open jade box"
+        },
+        {
+          "id": "jiedan_lingguo",
+          "subject": "a glowing golden-red spirit fruit hanging on a short branch with two leaves"
+        },
+        {
+          "id": "boar_meat",
+          "subject": "a roasted chunk of boar meat on a bone"
+        },
+        {
+          "id": "monkey_wine",
+          "subject": "a gourd-shaped wine bottle tied with a red string"
+        },
+        {
+          "id": "lotus_seed",
+          "subject": "a white lotus seed pod with a few luminous seeds"
+        },
+        {
+          "id": "jiao_core",
+          "subject": "a dark green dragon pearl with swirling light inside"
+        },
+        {
+          "id": "book_changchun",
+          "subject": "an old thread-bound book with a plain green cover, closed"
+        },
+        {
+          "id": "scroll_broken",
+          "subject": "an ancient cracked jade slip scroll made of bound jade strips"
+        },
+        {
+          "id": "book_lihuo",
+          "subject": "an old thread-bound book with a plain red cover and faint flames rising from it"
+        },
+        {
+          "id": "book_xuanshui",
+          "subject": "an ancient thread-bound book encased in a thin layer of pale blue ice"
+        },
+        {
+          "id": "sword_iron",
+          "subject": "a plain iron straight sword (jian), drawn diagonally"
+        },
+        {
+          "id": "sword_qingfeng",
+          "subject": "a slender straight sword (jian) with a cyan glowing blade, drawn diagonally"
+        },
+        {
+          "id": "sword_chixia",
+          "subject": "a straight sword (jian) with a crimson glowing blade, drawn diagonally"
+        },
+        {
+          "id": "sword_hanpo",
+          "subject": "a straight sword (jian) covered in frost with icy mist around it, drawn diagonally"
+        },
+        {
+          "id": "amulet_peace",
+          "subject": "a small handmade cloth amulet pouch with a red string"
+        },
+        {
+          "id": "armor_leather",
+          "subject": "a dark wolf-fur leather vest"
+        },
+        {
+          "id": "armor_xuantie",
+          "subject": "a dark iron chainmail robe"
+        },
+        {
+          "id": "armor_jiaolin",
+          "subject": "an armor vest made of green dragon scales"
+        },
+        {
+          "id": "fire_talisman",
+          "subject": "a vertical strip of yellow paper talisman with abstract red swirling rune lines and small flames at the edge"
+        },
+        {
+          "id": "thunder_talisman",
+          "subject": "a vertical strip of yellow paper talisman with abstract red rune lines and small lightning sparks"
+        },
+        {
+          "id": "guard_talisman",
+          "subject": "a vertical strip of yellow paper talisman with abstract golden circular rune lines and a faint protective glow"
+        },
+        {
+          "id": "escape_talisman",
+          "subject": "a vertical strip of yellow paper talisman with abstract brown rune lines and swirling dust"
+        },
+        {
+          "id": "herb_qingling",
+          "subject": "a small bundle of glowing green spirit herbs tied with grass"
+        },
+        {
+          "id": "wolf_pelt",
+          "subject": "a folded black wolf pelt"
+        },
+        {
+          "id": "bear_gall",
+          "subject": "a dark green demonic bear gall bladder, a single organ"
+        },
+        {
+          "id": "ancient_fragment",
+          "subject": "a broken bronze artifact fragment with faint abstract rune grooves"
+        },
+        {
+          "id": "fake_pill",
+          "subject": "a lumpy grey dough ball pretending to be an elixir pill"
+        },
+        {
+          "id": "miasma_herb",
+          "subject": "a poisonous dark herb plant with black mist curling around it"
+        },
+        {
+          "id": "jiao_scale",
+          "subject": "a single large green dragon scale"
+        },
+        {
+          "id": "xisui_dan",
+          "subject": "a milky white elixir pill with faint golden veins"
+        },
+        {
+          "id": "qingxin_dan",
+          "subject": "a pale sky-blue elixir pill on a small lotus leaf"
+        },
+        {
+          "id": "wudao_tea",
+          "subject": "a celadon teacup of clear tea with a single tea leaf and rising steam"
+        },
+        {
+          "id": "lingye",
+          "subject": "a small crystal vial of glowing milky spirit liquid"
+        },
+        {
+          "id": "jinsui_dan",
+          "subject": "a brilliant golden elixir pill radiating light"
+        },
+        {
+          "id": "book_taiyi",
+          "subject": "an ancient thread-bound book with a dark cover and a small sword ornament on it"
+        },
+        {
+          "id": "whip_zidian",
+          "subject": "a coiled long whip crackling with purple lightning"
+        },
+        {
+          "id": "armor_tiancan",
+          "subject": "a shimmering white silk robe neatly folded"
+        },
+        {
+          "id": "wulei_talisman",
+          "subject": "a vertical strip of golden talisman paper with abstract red rune lines and five small lightning bolts"
+        },
+        {
+          "id": "spider_silk",
+          "subject": "a spool of shiny pale green spider silk thread"
+        },
+        {
+          "id": "python_gall",
+          "subject": "a deep red serpent gall bladder, a single organ"
+        },
+        {
+          "id": "roc_feather",
+          "subject": "a single large feather with tiny lightning sparks along its edge"
+        },
+        {
+          "id": "tree_heart",
+          "subject": "a glowing green wooden heart-shaped core with tiny roots"
+        },
+        {
+          "id": "jiao_nilin",
+          "subject": "a single reverse-growing dragon scale, dark green with a faint golden glow along its edge"
+        },
+        {
+          "id": "lian_xin",
+          "subject": "a tiny glowing jade-green lotus heart resting in an open lotus pod"
+        },
+        {
+          "id": "roc_jingpo",
+          "subject": "a small sphere of crackling purple lightning shaped like a bird spirit"
+        },
+        {
+          "id": "huaying_dan",
+          "subject": "a large round golden elixir pill with the faint shape of a tiny meditating figure inside"
+        },
+        {
+          "id": "kun_feather",
+          "subject": "a single enormous grey-blue feather with ocean-wave patterns"
+        },
+        {
+          "id": "xuanbing",
+          "subject": "a block of ancient deep-blue ice with frost mist, never melting"
+        },
+        {
+          "id": "haiyan_pearl",
+          "subject": "a luminous sea pearl with swirling tides visible inside"
+        },
+        {
+          "id": "huashen_dan",
+          "subject": "a pure white translucent elixir pill radiating a soft halo"
+        },
+        {
+          "id": "busi_seed",
+          "subject": "a single golden tree seed glowing with life, tiny sprout of light"
+        },
+        {
+          "id": "kunlun_jade",
+          "subject": "a lump of creamy white jade marrow, glistening like fat"
+        },
+        {
+          "id": "tianlei_stone",
+          "subject": "a black stone cracked with glowing violet lightning veins"
+        },
+        {
+          "id": "due_lotus",
+          "subject": "a radiant golden lotus flower in full bloom, faint reflection of a face in its center"
+        },
+        {
+          "id": "pojing_dan",
+          "subject": "a small elixir pill with a single bright crack of light splitting it"
+        },
+        {
+          "id": "yingyuan_dan",
+          "subject": "a soft amber elixir pill with a warm glow"
+        },
+        {
+          "id": "shenyuan_dan",
+          "subject": "a silver elixir pill with starlight inside"
+        },
+        {
+          "id": "taiqing_dan",
+          "subject": "a pale violet elixir pill surrounded by drifting clouds"
+        },
+        {
+          "id": "wanshou_dan",
+          "subject": "an elixir pill carved with a longevity peach pattern, faint pink glow"
+        },
+        {
+          "id": "bilei_fu",
+          "subject": "a yellow paper talisman with red runes that bend lightning away"
+        },
+        {
+          "id": "jiuxiao_fu",
+          "subject": "a purple-gold paper talisman with intricate thunder-repelling runes, glowing"
+        },
+        {
+          "id": "sword_qingming",
+          "subject": "a straight sword with a blade like deep sea water, blue-black"
+        },
+        {
+          "id": "armor_jiaoxiao",
+          "subject": "a shimmering silver-blue robe-armor woven from moonlit silk"
+        },
+        {
+          "id": "sword_zhantian",
+          "subject": "a fierce long straight sword with a cold white blade and clouds parting around it"
+        },
+        {
+          "id": "armor_xuanwu",
+          "subject": "heavy dark armor made from a giant tortoise shell, carved with runes"
+        },
+        {
+          "id": "sword_taichu",
+          "subject": "an ancient simple straight sword of plain grey metal, humming with faint golden light"
+        },
+        {
+          "id": "armor_jiuxiao",
+          "subject": "an ethereal immortal robe woven from rosy clouds and light"
+        },
+        {
+          "id": "herb_chixue",
+          "subject": "a length of dark red climbing vine with a broken end oozing red sap, a few small leaves"
+        },
+        {
+          "id": "herb_zhuguo",
+          "subject": "a short twig bearing three small glossy vermilion fruits"
+        },
+        {
+          "id": "herb_zizhi",
+          "subject": "a purple lingzhi mushroom with concentric growth rings on its cap"
+        },
+        {
+          "id": "herb_haixin",
+          "subject": "a clump of translucent sea grass glowing faintly, growing from a small rock with droplets"
+        },
+        {
+          "id": "herb_wuse",
+          "subject": "a lingzhi mushroom whose cap shimmers in five soft colors, wisps of mist around it"
+        },
+        {
+          "id": "danfang",
+          "subject": "an old half-unrolled bamboo-paper scroll with a small round pill drawn on it, tied with a red cord"
+        },
+        {
+          "id": "ningjin_dan",
+          "subject": "a single round golden pill with a faint metallic sheen in a small celadon dish"
+        },
+        {
+          "id": "lianying_dan",
+          "subject": "a pale jade-white pill with a tiny curled infant-like glow inside, on a lotus leaf"
+        },
+        {
+          "id": "heshen_dan",
+          "subject": "a deep violet pill wrapped in a thin wisp of spiritual mist"
+        },
+        {
+          "id": "huanxu_dan",
+          "subject": "a translucent crystal-clear pill almost dissolving into void, faint starlight inside"
+        },
+        {
+          "id": "jiangchen_dan",
+          "subject": "a small grey-brown pill with dust-like speckles in an old clay cup"
+        },
+        {
+          "id": "yanghun_dan",
+          "subject": "a soft blue pill with a calm glowing aura, resting on silk"
+        },
+        {
+          "id": "jiuqu_lingshen",
+          "subject": "a ginseng root with nine twisting coiled roots, wet with sea droplets"
+        },
+        {
+          "id": "xuantian_guo",
+          "subject": "a single luminous golden-green fruit hanging from a short twig with two leaves"
+        },
+        {
+          "id": "huzhen_qi",
+          "subject": "a set of three small triangular formation flags on thin poles, painted with simple ink patterns"
+        }
+      ]
+    },
+    "title": {
+      "folder": "ui",
+      "size": "1536x1024",
+      "template": "{subject}",
+      "items": [
+        {
+          "id": "title",
+          "subject": "Chinese calligraphy of exactly four characters 问道长生 (wen dao chang sheng), written left to right in one horizontal row, bold expressive running script (xingshu) with dry brush texture, solid black ink on a pure flat white background, centered, generous empty margin, nothing else in the image: no seal, no stamp, no signature, no other characters, no border."
+        }
+      ]
+    },
+    "vignettes": {
+      "folder": "vignettes",
+      "size": "1536x1024",
+      "template": "{pre} Wide horizontal scene, the main subject placed in the middle horizontal band of the picture with empty paper above and below. Subject: {subject} Soft mist. {post}",
+      "items": [
+        {
+          "id": "village_gate",
+          "subject": "an old gnarled pagoda tree at a village entrance, a few villagers chatting beneath it, thatched roofs behind."
+        },
+        {
+          "id": "village_farm",
+          "subject": "a wild boar rampaging through a vegetable field, frightened villagers holding hoes at the fence."
+        },
+        {
+          "id": "village_eaves_rain",
+          "subject": "rain dripping from tiled eaves, a young person sitting quietly under the roof listening to the rain."
+        },
+        {
+          "id": "village_well",
+          "subject": "an old stone well in a village courtyard at night under a pale moon."
+        },
+        {
+          "id": "village_farewell",
+          "subject": "a young girl waving goodbye on a village road to a young traveler carrying a bundle, willow branches."
+        },
+        {
+          "id": "peddler",
+          "subject": "a traveling peddler carrying goods on a shoulder pole, holding a small rattle drum, walking on a country road."
+        },
+        {
+          "id": "mountain_cliff_herb",
+          "subject": "a glowing spirit herb growing at the very edge of a steep cliff, a hand reaching toward it."
+        },
+        {
+          "id": "mountain_wolf",
+          "subject": "a large black wolf leaping out of a dark pine forest, fangs bared."
+        },
+        {
+          "id": "mountain_bandit",
+          "subject": "a scarred bandit with a broad blade blocking a narrow mountain path."
+        },
+        {
+          "id": "mountain_cave",
+          "subject": "the inside of a mountain cave, faint light at the back, the skeleton of a seated ancient cultivator holding a jade slip."
+        },
+        {
+          "id": "mountain_spring",
+          "subject": "a clear spring bubbling up in a deep forest clearing, white mist floating on the water."
+        },
+        {
+          "id": "mountain_storm",
+          "subject": "a lightning storm over a mountain peak, a tiny figure meditating on the summit rock."
+        },
+        {
+          "id": "mountain_fox",
+          "subject": "a small white fox caught in a hunter trap in the snowy forest, looking up with wet eyes."
+        },
+        {
+          "id": "mountain_pine_chess",
+          "subject": "a scruffy old taoist sitting under an ancient pine playing a game of go chess alone on a stone table."
+        },
+        {
+          "id": "mountain_dying",
+          "subject": "a wounded middle-aged cultivator lying against a tree in the forest, holding out a small jade bottle."
+        },
+        {
+          "id": "mountain_monkey",
+          "subject": "a mischievous mountain baboon sitting on a branch hugging a wine gourd."
+        },
+        {
+          "id": "spider_cave",
+          "subject": "a giant green-scaled spider in a huge web across a dark cave mouth."
+        },
+        {
+          "id": "market_street",
+          "subject": "a lively cultivator market street with stalls, cloth awnings, hanging lanterns and many small figures."
+        },
+        {
+          "id": "market_auction",
+          "subject": "the interior of an auction pavilion with red lanterns, an auctioneer on a platform presenting a glowing treasure to a seated crowd."
+        },
+        {
+          "id": "market_teahouse",
+          "subject": "a storyteller with a folding fan in a busy teahouse, listeners around wooden tables with teacups."
+        },
+        {
+          "id": "market_forge",
+          "subject": "a muscular blacksmith hammering a glowing sword on an anvil, sparks flying."
+        },
+        {
+          "id": "market_alchemy",
+          "subject": "an alchemist tending a large bronze pill cauldron with fire and smoke, shelves of medicine jars behind."
+        },
+        {
+          "id": "rival_youth",
+          "subject": "an arrogant young cultivator in a fine brocade robe standing with arms crossed, a flying sword hovering beside him, two followers behind."
+        },
+        {
+          "id": "sect_gate",
+          "subject": "a grand sect mountain gate with an enormous stone archway and endless stairs climbing into clouds."
+        },
+        {
+          "id": "valley_wind",
+          "subject": "a gorge filled with swirling black wind, withered trees bending."
+        },
+        {
+          "id": "valley_bear",
+          "subject": "a huge black bear demon standing upright roaring, red eyes."
+        },
+        {
+          "id": "valley_ruins",
+          "subject": "a weathered rock wall inside a ruined cave, engraved with a faded line-drawing mural: one young cultivator in plain robes with hair tied in a topknot sitting in meditation, behind him many faint identical copies of the same young cultivator standing in rows fading into the distance. Not a Buddha, no halo, no niches, no religious statues, no temple."
+        },
+        {
+          "id": "valley_sword_tomb",
+          "subject": "a narrow canyon floor with countless old swords stuck in the ground, one crimson sword glowing at the center."
+        },
+        {
+          "id": "valley_battlefield",
+          "subject": "an ancient battlefield with scattered broken armor and spears under a gray sky."
+        },
+        {
+          "id": "valley_rogue",
+          "subject": "a black-robed cultivator holding a bone banner emerging from dark mist."
+        },
+        {
+          "id": "valley_python",
+          "subject": "a giant red-scaled python coiled around a rock, head raised."
+        },
+        {
+          "id": "evil_rite",
+          "subject": "a hooded evil cultivator performing a ritual at a stone altar with pale wisps of ghostly souls swirling around (no blood, no gore)."
+        },
+        {
+          "id": "marsh_dragon",
+          "subject": "a dark green flood dragon bursting out of a misty lake, water splashing."
+        },
+        {
+          "id": "marsh_lotus",
+          "subject": "a single luminous white lotus standing on the water surface in fog."
+        },
+        {
+          "id": "marsh_palace",
+          "subject": "a sunken ancient palace at the bottom of a lake, a jade stele glowing in its hall."
+        },
+        {
+          "id": "marsh_boat_oldman",
+          "subject": "an old man poling a small boat out of the mist toward the viewer."
+        },
+        {
+          "id": "marsh_demon",
+          "subject": "a blood-robed demonic cultivator standing among reeds holding a crimson banner (no blood, no gore)."
+        },
+        {
+          "id": "marsh_fishing",
+          "subject": "a small fishing village on wooden stilts at the edge of a vast marsh, nets drying, boats moored."
+        },
+        {
+          "id": "heart_demon",
+          "subject": "a cultivator meditating face to face with a dark mirror-image of themself made of ink smoke."
+        },
+        {
+          "id": "thunder_roc",
+          "subject": "a giant roc bird with spread wings crackling with lightning above a sea of clouds."
+        },
+        {
+          "id": "tree_demon",
+          "subject": "a colossal ancient demonic tree with a face in its bark and writhing vines."
+        },
+        {
+          "id": "tribulation",
+          "subject": "heavenly thunder tribulation, enormous lightning bolts striking down on a tiny figure sitting on a mountain peak."
+        },
+        {
+          "id": "night_camp",
+          "subject": "a lone traveler resting by a small campfire under a starry sky in the mountains."
+        },
+        {
+          "id": "meditation_cave",
+          "subject": "a cultivator meditating cross-legged in a quiet cave, faint glowing qi circling around them."
+        },
+        {
+          "id": "master_teach",
+          "subject": "an elderly white-bearded master in a pavilion on a cliff, teaching a kneeling disciple."
+        },
+        {
+          "id": "sect_duel",
+          "subject": "two young cultivators dueling with swords on a stone platform surrounded by spectators in sect robes."
+        },
+        {
+          "id": "beiming_isle",
+          "subject": "a misty immortal island rising from a vast dark ocean, pavilions half hidden among pines on its cliffs."
+        },
+        {
+          "id": "beiming_kun",
+          "subject": "a colossal whale-like fish breaching from the northern sea, waves crashing, a tiny cultivator on a cloud watching."
+        },
+        {
+          "id": "beiming_mirage",
+          "subject": "a shimmering mirage city floating above the sea horizon, towers and lanterns made of mist."
+        },
+        {
+          "id": "beiming_ice",
+          "subject": "an endless frozen ice field at the edge of the northern sea, a deep blue crevasse glowing faintly."
+        },
+        {
+          "id": "beiming_mermaid",
+          "subject": "a mermaid sitting on a dark reef under moonlight, long hair flowing, singing."
+        },
+        {
+          "id": "beiming_storm",
+          "subject": "a raging stormy sea with giant waves and a tiny boat, black clouds and lightning."
+        },
+        {
+          "id": "kunlun_gate",
+          "subject": "the ruins of an ancient immortal palace gate on a snowy mountain peak, broken jade steps, clouds below."
+        },
+        {
+          "id": "kunlun_pillar",
+          "subject": "a colossal broken stone pillar reaching into the sky, eternal thunderclouds swirling around its jagged top."
+        },
+        {
+          "id": "kunlun_beast",
+          "subject": "a majestic mythical beast with nine tails and a tiger body guarding a mountain pass."
+        },
+        {
+          "id": "kunlun_tree",
+          "subject": "a giant ancient tree of immortality with golden leaves growing from a cliff, glowing fruit."
+        },
+        {
+          "id": "kunlun_demon",
+          "subject": "a towering shadowy heavenly demon with many arms rising behind a meditating cultivator."
+        },
+        {
+          "id": "kunlun_pool",
+          "subject": "a serene jade pool on a high mountain plateau, white mist, peach blossom trees around it."
+        },
+        {
+          "id": "alchemy_room",
+          "subject": "inside a quiet cave abode, a three-legged bronze alchemy cauldron over a glowing fire, smoke curling up, a cultivator sitting before it fanning the flames, herb baskets on a stone shelf."
+        },
+        {
+          "id": "old_man_tree",
+          "subject": "a mysterious white-haired old man in plain grey robes sitting alone at the foot of a huge gnarled old pagoda tree at a village entrance, gazing into the far distance, a few fallen leaves drifting."
+        },
+        {
+          "id": "village_toll",
+          "subject": "two rough bandits barring a village road with a long wooden pole, a machete chopped into the trunk of an old pagoda tree, frightened villagers with baskets and carrying poles crowded behind the barrier."
+        },
+        {
+          "id": "village_shrine",
+          "subject": "a tiny new wooden roadside shrine beneath an old pagoda tree holding a single memorial tablet, a stooped old woman offering incense, thin smoke curling upward."
+        },
+        {
+          "id": "jar_under_tree",
+          "subject": "a young person kneeling at the thick roots of an old pagoda tree, digging a small sealed clay wine jar out of the dark soil with bare hands."
+        },
+        {
+          "id": "ajiu_herbs",
+          "subject": "a small village girl squatting under a tree beside an herb basket taller than herself, holding up a torn scrap of paper with a puzzled face."
+        },
+        {
+          "id": "village_drought",
+          "subject": "villagers with shovels digging a new well in cracked dry earth under a harsh white sun, an empty old stone well nearby, withered crops."
+        },
+        {
+          "id": "village_storyteller",
+          "subject": "a wandering storyteller with a folding fan and a wooden clapper performing beneath a big village tree, a crowd of villagers and children listening intently."
+        },
+        {
+          "id": "child_question",
+          "subject": "a small child with a single upright tuft of hair tugging at the sleeve of a young robed cultivator and looking up to ask a question, other children playing under a tree behind."
+        },
+        {
+          "id": "snow_fox",
+          "subject": "the first snow in the mountains at night, a small campfire under pines, a tiny white fox cub curled up against a sitting traveller's boot to keep warm."
+        },
+        {
+          "id": "blood_bats",
+          "subject": "a swarm of black bats with small glowing red eyes circling over a dimming campfire in a mountain hollow at night, a lone cultivator rising to his feet."
+        },
+        {
+          "id": "bronze_lamp",
+          "subject": "an ancient bronze oil lamp glowing on a stone altar in a dark carved stone chamber, its warm light casting a huge shadow of a seated person in a breathing-exercise pose onto the rock wall."
+        },
+        {
+          "id": "drunk_swordsman",
+          "subject": "a dishevelled middle-aged swordsman sitting by a night campfire in a mountain hollow, hugging half of a broken sword, a wine gourd tipped beside him."
+        },
+        {
+          "id": "hermit_farewell",
+          "subject": "an old hermit in a faded washed-out Taoist robe waiting in a bamboo grove before a thatched hut, an old rolled scroll and a cup of tea on a low stone table."
+        },
+        {
+          "id": "nameless_grave",
+          "subject": "a small heap-of-stones grave inside a shallow mountain cave with a blank weathered headstone, a bunch of long-dried wildflowers laid before it."
+        },
+        {
+          "id": "letter_shop",
+          "subject": "inside a small talisman shop with paper talismans hanging from strings, an old shopkeeper reading a letter with reddened eyes while a young traveller waits quietly at the counter."
+        },
+        {
+          "id": "apprentice_kneeling",
+          "subject": "a thin little girl kneeling at the door of a herbal medicine hall with her herb basket set beside her, a stern shopkeeper standing in the doorway with folded arms."
+        },
+        {
+          "id": "debtors",
+          "subject": "a crowd of angry creditors grabbing a very skinny man by the collar at a market entrance, curious onlookers gathering, an abacus dropped on the ground."
+        },
+        {
+          "id": "chen_stall",
+          "subject": "a poor thin scholar at a tiny stall against a market wall, copying talisman drafts with a brush, clutching one sheet with trembling hands."
+        },
+        {
+          "id": "first_pill",
+          "subject": "a young girl with soot smudged on her face running out of an herbal medicine hall, proudly holding up one lumpy pill in her open palm, a faint wisp of furnace smoke behind her."
+        },
+        {
+          "id": "old_beggar",
+          "subject": "an old beggar huddled in a corner at the foot of a market wall, lifting cloudy eyes toward a passing cultivator, a cracked bowl beside him."
+        },
+        {
+          "id": "stone_gamble",
+          "subject": "a crowd jostling around a street stone-gambling stall, the vendor sawing open a rough boulder to reveal a gleam of green jade inside, piles of uncut rocks."
+        },
+        {
+          "id": "pawn_shop",
+          "subject": "a pawnshop with a high counter, a young mother holding a small child pleading with the pawnbroker, a sheathed sword lying on the counter, the child reaching out toward it."
+        },
+        {
+          "id": "sect_gift",
+          "subject": "a small thin old sect elder squatting in an herb garden pulling weeds, three wooden boxes set behind him, sect buildings on a mountain slope in the distance."
+        },
+        {
+          "id": "sad_news",
+          "subject": "a lonely cloth bundle and a small crooked hand-sewn amulet pouch lying on a rock in a dark windswept valley, dead grass bending in the black wind."
+        },
+        {
+          "id": "siblings_fire",
+          "subject": "a young woman and her older brother reunited by a campfire at night at the mouth of a dark valley, she pounds his chest with her fist, a fine sword laid beside the fire."
+        },
+        {
+          "id": "sect_trial",
+          "subject": "a sect examiner sitting cross-legged on a huge boulder at the mouth of a dark windswept valley, a single stick of incense burning before him, a tiny flag on a distant ridge."
+        },
+        {
+          "id": "swordsman_wind",
+          "subject": "a lean swordsman standing in a howling black wind inside a rocky valley, his re-forged sword showing a visible weld seam, cloak whipping behind him."
+        },
+        {
+          "id": "stone_forest",
+          "subject": "a maze of tall wind-eroded stone pillars in a dark valley, black wind swirling between them, one pillar marked with a crude carved arrow pointing deeper in."
+        },
+        {
+          "id": "smugglers",
+          "subject": "a caravan of heavily laden pack beasts sneaking through a dark valley floor at night, bulging saddlebags leaking faint glints of light, a scarred escort with his hand on his saber."
+        },
+        {
+          "id": "cliff_carving",
+          "subject": "a lone cultivator carving tiny marks into a vast wind-polished cliff wall in a sheltered corner of a deep gorge."
+        },
+        {
+          "id": "water_child",
+          "subject": "night on a misty marsh, a small pale child clinging to the side of a moored fishing boat in the moonlight, the water beneath him showing no reflection."
+        },
+        {
+          "id": "ghost_lanterns",
+          "subject": "a long procession of eerie green lantern lights floating over a misty marsh at night, fishermen's stilt huts on the shore with doors and windows shut tight."
+        },
+        {
+          "id": "carp_wedding",
+          "subject": "at midnight a procession of shrimp soldiers and crab warriors carrying a red bridal sedan chair across the surface of a marsh, banners and drums, reeds on the shore."
+        },
+        {
+          "id": "bell_tower",
+          "subject": "an old cultivator sitting on the upturned eave of an old bell tower standing in a marsh, striking a huge bronze bell, enormous willow roots coiled around the tower base under the water."
+        },
+        {
+          "id": "mirror_lake",
+          "subject": "a mirror-flat small lake in a marsh, a cultivator standing at the shore, but the reflection in the water shows an old white-haired man sitting under house eaves surrounded by grandchildren."
+        },
+        {
+          "id": "penglai_palace",
+          "subject": "a fog-locked immortal island in a cold northern sea with an ancient alchemy palace on it, a small white-bearded boy attendant dozing beside a huge bronze furnace at the gate."
+        },
+        {
+          "id": "palm_furnace",
+          "subject": "a small white-haired boy attendant wiping a faint handprint on the body of an enormous ancient bronze alchemy furnace with an old cloth, glowing embers inside the furnace."
+        },
+        {
+          "id": "island_seclusion",
+          "subject": "a cultivator stepping out of a cave on a rocky sea island, a pine tree beside the cave mouth grown thick and tall, an unfamiliar fishing village far down by the shore."
+        },
+        {
+          "id": "sword_tomb",
+          "subject": "ten thousand ancient swords planted in deep snow on a mountain slope, hilts crusted with ice, a tall faceless figure formed of pale sword light rising from among them."
+        },
+        {
+          "id": "stone_sweeper",
+          "subject": "a weathered stone puppet in roughly human shape sweeping an endless flight of white jade stairs leading up to ruined immortal gates in falling snow."
+        },
+        {
+          "id": "snow_guest",
+          "subject": "an old man hunched over a tiny campfire in a blizzard on a high snowy mountain ledge, adding a dry twig to the weak flame."
+        },
+        {
+          "id": "summit_farewell",
+          "subject": "a lone figure standing on the summit of a towering snow peak looking down at an endless sea of clouds, dark tribulation clouds gathering on the far horizon."
+        },
+        {
+          "id": "lotus_altar",
+          "subject": "a radiant golden lotus sprouting from a white jade altar amid ruined immortal palace terraces, faint glowing light rising, snowy peaks behind."
+        }
+      ]
+    },
+    "realms": {
+      "folder": "realms",
+      "size": "1536x1024",
+      "template": "{pre} Subject: {subject} Large areas of blank paper, soft mist. {post}",
+      "items": [
+        {
+          "id": "realm_lianqi",
+          "subject": "a young person sitting cross-legged as the first faint threads of glowing qi flow into their body from the surrounding mountains."
+        },
+        {
+          "id": "realm_zhuji",
+          "subject": "a cultivator standing on a mountaintop as a pillar of golden light rises from beneath their feet into the sky."
+        },
+        {
+          "id": "realm_jindan",
+          "subject": "a cultivator floating above the clouds, a radiant golden sphere shining at the center of their body."
+        },
+        {
+          "id": "realm_yuanying",
+          "subject": "a meditating cultivator with a small luminous infant-shaped spirit of light emerging above their head, the sky splitting open."
+        },
+        {
+          "id": "death",
+          "subject": "a lone seated figure dissolving into drifting ink smoke and scattered petals, an extinguished candle beside them."
+        },
+        {
+          "id": "rebirth",
+          "subject": "a vast spiral of flowing mist and water like a great wheel, countless tiny lights of souls drifting along it toward a distant glow."
+        },
+        {
+          "id": "realm_huashen",
+          "subject": "a cultivator whose spirit leaves the body as a giant translucent figure spanning mountains and rivers, serene."
+        },
+        {
+          "id": "realm_dujie",
+          "subject": "a cultivator meditating on a mountain peak under a gathering tribulation cloud, golden lotus floating before them."
+        },
+        {
+          "id": "realm_ascend",
+          "subject": "a cultivator ascending into a radiant celestial gate in the clouds, beams of light, the mortal world far below."
+        }
+      ]
+    },
+    "cover": {
+      "folder": "ui",
+      "size": "1024x1536",
+      "template": "{pre} Vertical key art. Subject: {subject} The upper third of the picture is mostly empty sky for a title. {post}",
+      "items": [
+        {
+          "id": "cover",
+          "subject": "a lone young cultivator in flowing robes standing at the edge of a cliff with a sword on their back, looking out over an endless sea of clouds and distant peaks at sunrise, a winding stone path behind."
+        }
+      ]
+    },
+    "boot": {
+      "folder": "ui",
+      "size": "1024x1536",
+      "template": "{pre} Vertical key art for a loading screen. Subject: {subject} The upper third of the picture is empty pale sky with a faint mist for a title. All important content stays in the central vertical band; the left and right edges are only mist and blank paper. The bottom fifth dissolves into blank paper and soft mist. {post}",
+      "items": [
+        {
+          "id": "boot",
+          "subject": "an ancient stone stairway winding up through layers of drifting cloud toward a tiny mountain-gate pavilion on a distant towering peak; a tiny lone traveler with a bamboo hat and a walking staff climbing the first steps far below; a few pines clinging to the cliffs; a pale sun disc half hidden in the mist."
+        }
+      ]
+    },
+    "portraits": {
+      "folder": "portraits",
+      "size": "1024x1024",
+      "template": "{pre} Head-and-shoulders portrait, the face centered in the frame on a plain empty off-white rice paper background. Subject: {subject} {post}",
+      "items": [
+        {
+          "id": "male",
+          "subject": "a young male cultivator about sixteen years old with long hair tied up, plain grey-blue robe, calm determined eyes."
+        },
+        {
+          "id": "female",
+          "subject": "a young female cultivator about sixteen years old with long hair partly tied with a ribbon, plain light green robe, calm determined eyes."
+        }
+      ]
+    },
+    "ui_icons": {
+      "folder": "ui_icons",
+      "size": "1024x1024",
+      "template": "{subject} Drawn as a single traditional Chinese ink brush illustration in solid black ink on a pure flat white background, centered with generous empty margin, bold confident brush strokes, simple and instantly readable at small size. No text, no characters, no seal, no signature, no frame, no gray background, no shadow.",
+      "items": [
+        {
+          "id": "nav_home",
+          "subject": "An icon of a small mountain cave dwelling with a round meditation cushion inside."
+        },
+        {
+          "id": "nav_bag",
+          "subject": "An icon of a cloth bundle tied with a knot, a traveler's bag."
+        },
+        {
+          "id": "nav_shop",
+          "subject": "An icon of a hanging paper lantern with a small shop awning."
+        },
+        {
+          "id": "nav_char",
+          "subject": "An icon of a head-and-shoulders bust of a young cultivator with hair in a topknot, seen from the front."
+        },
+        {
+          "id": "act_door",
+          "subject": "An icon of a person sitting cross-legged in meditation, seen from the front."
+        },
+        {
+          "id": "act_explore",
+          "subject": "An icon of a walking traveler with a staff and a bamboo hat, seen from the side."
+        },
+        {
+          "id": "act_travel",
+          "subject": "An icon of a small boat sailing past a mountain peak."
+        },
+        {
+          "id": "act_break",
+          "subject": "An icon of a bolt of lightning striking down and shattering a stone."
+        },
+        {
+          "id": "nav_dan",
+          "subject": "An icon of a small three-legged alchemy cauldron with a wisp of smoke rising from its lid."
+        },
+        {
+          "id": "stat_stone",
+          "subject": "An icon of a single faceted spirit crystal gemstone, small and simple."
+        },
+        {
+          "id": "stat_hp",
+          "subject": "An icon of a single drop of blood shaped like a teardrop."
+        },
+        {
+          "id": "stat_gain",
+          "subject": "An icon of a small swirl of rising qi energy, a spiral wisp of mist."
+        },
+        {
+          "id": "gear",
+          "subject": "An icon of a simple round gear wheel with eight teeth."
+        }
+      ]
+    },
+    "ui_frames": {
+      "folder": "ui_frames",
+      "size": "1536x1024",
+      "template": "{subject} Solid black ink on a pure flat white background. The inside of the rectangle is completely empty white. No text, no characters, no seal, no decorations inside, no shadow.",
+      "items": [
+        {
+          "id": "frame_brush",
+          "subject": "A plain rectangular border drawn with a single dry Chinese calligraphy brush, about the thickness of a finger, slightly uneven organic ink edges with dry-brush texture, square corners, the rectangle fills most of the image with a small white margin around it."
+        },
+        {
+          "id": "cloud_ornament",
+          "subject": "A single small traditional Chinese auspicious cloud (xiangyun) scroll motif, horizontal, symmetrical, drawn with clean ink brush lines, centered with a large white margin."
+        }
+      ]
+    },
+    "ui_paint": {
+      "folder": "ui_paint",
+      "size": "1536x1024",
+      "template": "{pre} Subject: {subject} {post}",
+      "items": [
+        {
+          "id": "header_mist",
+          "subject": "only a faint band of distant misty mountain ridges along the very bottom edge of the picture, the top two thirds completely empty blank rice paper, extremely light and airy."
+        }
+      ]
+    },
+    "enemies": {
+      "folder": "enemies",
+      "size": "1024x1024",
+      "template": "{pre} A dramatic portrait of an enemy, the subject centered and filling most of the frame on a plain empty off-white rice paper background: {subject}. Dynamic bold brushwork, menacing mood. {post}",
+      "items": [
+        {
+          "id": "wild_boar",
+          "subject": "a bristling wild boar with curved tusks, charging pose, front three-quarter view"
+        },
+        {
+          "id": "black_wolf",
+          "subject": "a large black wolf with bared fangs and glowing eyes, snarling"
+        },
+        {
+          "id": "bandit",
+          "subject": "a scarred rogue cultivator bandit holding a broad blade, menacing grin"
+        },
+        {
+          "id": "bear_demon",
+          "subject": "a huge black bear demon standing upright, roaring, red eyes"
+        },
+        {
+          "id": "rogue_cultivator",
+          "subject": "a black-robed sinister cultivator holding a bone banner, half of the face hidden in dark mist"
+        },
+        {
+          "id": "mountain_monkey",
+          "subject": "a mischievous mountain baboon with a wine gourd, bared teeth"
+        },
+        {
+          "id": "rival_lianqi",
+          "subject": "an arrogant young cultivator in a fine brocade robe holding a sword, sneering"
+        },
+        {
+          "id": "corpse_puppet",
+          "subject": "a stiff corpse puppet in a tattered ancient robe with a paper talisman on its forehead and glowing hollow eyes (no gore)"
+        },
+        {
+          "id": "rival_zhuji",
+          "subject": "an arrogant young cultivator in a fine brocade robe with a glowing flying sword hovering beside him, cold expression"
+        },
+        {
+          "id": "jiao_dragon",
+          "subject": "a dark green flood dragon head and coiled body rising from water, fierce eyes"
+        },
+        {
+          "id": "demon_cultivator",
+          "subject": "a blood-robed demonic cultivator holding a crimson banner, cruel smile (no blood, no gore)"
+        },
+        {
+          "id": "village_thug",
+          "subject": "a rough unshaven village thug holding a chopping knife"
+        },
+        {
+          "id": "poison_spider",
+          "subject": "a giant green-scaled spider with long legs, front view"
+        },
+        {
+          "id": "blood_bats",
+          "subject": "a swarm of red-eyed bats with spread wings"
+        },
+        {
+          "id": "fox_spirit",
+          "subject": "a red fox spirit with three tails, sly eyes, wisps of illusion around it"
+        },
+        {
+          "id": "red_python",
+          "subject": "a giant red-scaled python coiled and raising its head, forked tongue"
+        },
+        {
+          "id": "evil_cultivator",
+          "subject": "a hooded evil cultivator holding a bronze soul lantern with pale ghostly wisps (no gore)"
+        },
+        {
+          "id": "sect_enforcer",
+          "subject": "a stern sect enforcer disciple in uniform robes wielding iron chains"
+        },
+        {
+          "id": "thunder_roc",
+          "subject": "a giant roc bird with spread wings crackling with lightning"
+        },
+        {
+          "id": "tree_demon",
+          "subject": "a colossal ancient demonic tree with a face in its bark and writhing vines"
+        },
+        {
+          "id": "demon_elder",
+          "subject": "a white-haired demonic sect elder in a blood-red robe with a calm terrifying gaze, a sea of red mist behind (no gore)"
+        },
+        {
+          "id": "jiao_guard",
+          "subject": "a fierce merman warrior with a long water spear, scales on his arms"
+        },
+        {
+          "id": "sea_witch",
+          "subject": "a beautiful but eerie sea witch with flowing hair made of seaweed, singing, glowing eyes (no nudity)"
+        },
+        {
+          "id": "kun",
+          "subject": "a giant young kun whale-fish rising from waves, ancient eyes"
+        },
+        {
+          "id": "rogue_immortal",
+          "subject": "an arrogant overseas immortal in white robes with a floating treasure seal, cold smile"
+        },
+        {
+          "id": "shen_dragon",
+          "subject": "a mirage dragon exhaling shimmering fog, clam-shell patterns on its body"
+        },
+        {
+          "id": "sword_spirit",
+          "subject": "a translucent sword spirit made of countless flying swords forming a human shape"
+        },
+        {
+          "id": "luwu",
+          "subject": "the mythical guardian beast Luwu with a tiger body, human face and nine tails"
+        },
+        {
+          "id": "kaiming",
+          "subject": "the mythical nine-headed beast Kaiming guarding a mountain gate"
+        },
+        {
+          "id": "heaven_demon",
+          "subject": "a heavenly demon avatar made of black smoke with countless whispering faces (no gore)"
+        },
+        {
+          "id": "demon_patriarch",
+          "subject": "an ancient demonic patriarch on a throne of skulls holding a banner of ten thousand souls, terrifying calm (no gore)"
+        },
+        {
+          "id": "tribulation",
+          "subject": "a massive heavenly tribulation storm cloud with a giant bolt of purple-white lightning striking down"
+        }
+      ]
+    }
+  }
+}

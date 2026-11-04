@@ -1,0 +1,74 @@
+{
+  "src": "4297849b1573e9ccb56e.wav",
+  "duration": 3.5,
+  "gain": 1.391082689645439,
+  "source_sha256": "173408a16da94a8c288a5e856a995abe95ddea02bac0ef277b8bb304e21a3970",
+  "id": "event.main_0_1.choice.1",
+  "text": "让她画出第一个愿望",
+  "group": "event:main_0_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2960,
+        "start_time": 360,
+        "text": "让她画出第一个愿望",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 360,
+            "text": "让"
+          },
+          {
+            "end_time": 880,
+            "start_time": 680,
+            "text": "她"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "画"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1280,
+            "text": "出"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "第"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2080,
+            "text": "一"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "个"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2520,
+            "text": "愿"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2840,
+            "text": "望"
+          }
+        ]
+      }
+    ],
+    "text": "让她画出第一个愿望"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "6c9e4b58-25ed-4011-ae41-7d3c4e7e9f27",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“请她也邀请曾经帮助过的人”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050502235C627F3F6CE46118BCDA",
+  "response": {
+    "duration": 4.4,
+    "original_duration": 4.4,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2800,
+          "start_time": 40,
+          "text": "请她也邀请曾经帮助过的人",
+          "words": [
+            {
+              "end_time": 320,
+              "start_time": 40,
+              "text": "请"
+            },
+            {
+              "end_time": 560,
+              "start_time": 360,
+              "text": "她"
+            },
+            {
+              "end_time": 800,
+              "start_time": 560,
+              "text": "也"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 840,
+              "text": "邀"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1040,
+              "text": "请"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1400,
+              "text": "曾"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1600,
+              "text": "经"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1760,
+              "text": "帮"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1960,
+              "text": "助"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2120,
+              "text": "过"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2320,
+              "text": "的"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2520,
+              "text": "人"
+            }
+          ]
+        }
+      ],
+      "text": "请她也邀请曾经帮助过的人"
+    }
+  }
+}

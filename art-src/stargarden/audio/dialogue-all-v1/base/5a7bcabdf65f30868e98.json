@@ -1,0 +1,283 @@
+{
+  "src": "5a7bcabdf65f30868e98.wav",
+  "duration": 12.18,
+  "gain": 1.4868815129256652,
+  "source_sha256": "6a14c6ce53c73d6cc11f102b1d0e60f75db3f3184c4fb58653bf4421be8f3c5f",
+  "id": "event.main_7_0.text",
+  "text": "新手账只剩下最后几页。艾莉把十岁时的木钥匙牌放在桌上：“那时候的字，怎么这么小？”你们同时笑了。",
+  "group": "event:main_7_0",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2320,
+        "start_time": 120,
+        "text": "新手账只剩下最后几页。",
+        "words": [
+          {
+            "end_time": 360,
+            "start_time": 120,
+            "text": "新"
+          },
+          {
+            "end_time": 600,
+            "start_time": 440,
+            "text": "手"
+          },
+          {
+            "end_time": 800,
+            "start_time": 760,
+            "text": "账"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "只"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "剩"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1440,
+            "text": "下"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1680,
+            "text": "最"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1800,
+            "text": "后"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "几"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2240,
+            "text": "页"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2320,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9520,
+        "start_time": 3200,
+        "text": "艾莉把十岁时的木钥匙牌放在桌上：‘那时候的字，怎么这么小？",
+        "words": [
+          {
+            "end_time": 3280,
+            "start_time": 3200,
+            "text": "艾"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3480,
+            "text": "莉"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3680,
+            "text": "把"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3880,
+            "text": "十"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4120,
+            "text": "岁"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4360,
+            "text": "时"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4440,
+            "text": "的"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4600,
+            "text": "木"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4880,
+            "text": "钥"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "匙"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5320,
+            "text": "牌"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5720,
+            "text": "放"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5880,
+            "text": "在"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6000,
+            "text": "桌"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6280,
+            "text": "上"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6600,
+            "text": "："
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6600,
+            "text": "‘"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7360,
+            "text": "那"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7600,
+            "text": "时"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7720,
+            "text": "候"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7880,
+            "text": "的"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8080,
+            "text": "字"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8440,
+            "text": "，"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8600,
+            "text": "怎"
+          },
+          {
+            "end_time": 8880,
+            "start_time": 8760,
+            "text": "么"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8880,
+            "text": "这"
+          },
+          {
+            "end_time": 9120,
+            "start_time": 9040,
+            "text": "么"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9120,
+            "text": "小"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9520,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 11800,
+        "start_time": 9520,
+        "text": "’你们同时笑了。",
+        "words": [
+          {
+            "end_time": 9520,
+            "start_time": 9520,
+            "text": "’"
+          },
+          {
+            "end_time": 10560,
+            "start_time": 10360,
+            "text": "你"
+          },
+          {
+            "end_time": 10720,
+            "start_time": 10560,
+            "text": "们"
+          },
+          {
+            "end_time": 10960,
+            "start_time": 10720,
+            "text": "同"
+          },
+          {
+            "end_time": 11120,
+            "start_time": 10960,
+            "text": "时"
+          },
+          {
+            "end_time": 11520,
+            "start_time": 11240,
+            "text": "笑"
+          },
+          {
+            "end_time": 11800,
+            "start_time": 11520,
+            "text": "了"
+          },
+          {
+            "end_time": 11800,
+            "start_time": 11800,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "新手账只剩下最后几页。艾莉把十岁时的木钥匙牌放在桌上：‘那时候的字，怎么这么小？’你们同时笑了。"
+  }
+}

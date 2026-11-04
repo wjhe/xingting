@@ -1,0 +1,251 @@
+{
+  "src": "0c1ce936f2bb20a0c60b.wav",
+  "duration": 11.68,
+  "gain": 1.546194603838343,
+  "source_sha256": "17cbc69701117333dbd89eedac25163cd76abe8f8d3d9ec6f4dd1978b1daff37",
+  "id": "event.main_6_2.text",
+  "text": "她准备向外面的世界介绍自己，草稿里却全是成绩和经历。翻到手账第一页时，她忽然停下了笔。",
+  "group": "event:main_6_2",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7160,
+        "start_time": 960,
+        "text": "她准备向外面的世界介绍自己，草稿里却全是成绩和经历。",
+        "words": [
+          {
+            "end_time": 1280,
+            "start_time": 960,
+            "text": "她"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "准"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1480,
+            "text": "备"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1640,
+            "text": "向"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "外"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2120,
+            "text": "面"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "的"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "世"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "界"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2840,
+            "text": "介"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3000,
+            "text": "绍"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3200,
+            "text": "自"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3360,
+            "text": "己"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3560,
+            "text": "，"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4240,
+            "text": "草"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4520,
+            "text": "稿"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4840,
+            "text": "里"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5160,
+            "text": "却"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5440,
+            "text": "全"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5720,
+            "text": "是"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 5960,
+            "text": "成"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6200,
+            "text": "绩"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6520,
+            "text": "和"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6800,
+            "text": "经"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7080,
+            "text": "历"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7160,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11560,
+        "start_time": 7840,
+        "text": "翻到手账第一页时，她忽然停下了笔。",
+        "words": [
+          {
+            "end_time": 8080,
+            "start_time": 7840,
+            "text": "翻"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8080,
+            "text": "到"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8240,
+            "text": "手"
+          },
+          {
+            "end_time": 8600,
+            "start_time": 8520,
+            "text": "账"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8760,
+            "text": "第"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 8920,
+            "text": "一"
+          },
+          {
+            "end_time": 9240,
+            "start_time": 9200,
+            "text": "页"
+          },
+          {
+            "end_time": 9720,
+            "start_time": 9440,
+            "text": "时"
+          },
+          {
+            "end_time": 9720,
+            "start_time": 9720,
+            "text": "，"
+          },
+          {
+            "end_time": 10280,
+            "start_time": 10120,
+            "text": "她"
+          },
+          {
+            "end_time": 10480,
+            "start_time": 10320,
+            "text": "忽"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10480,
+            "text": "然"
+          },
+          {
+            "end_time": 11040,
+            "start_time": 10760,
+            "text": "停"
+          },
+          {
+            "end_time": 11240,
+            "start_time": 11040,
+            "text": "下"
+          },
+          {
+            "end_time": 11360,
+            "start_time": 11240,
+            "text": "了"
+          },
+          {
+            "end_time": 11560,
+            "start_time": 11400,
+            "text": "笔"
+          },
+          {
+            "end_time": 11560,
+            "start_time": 11560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她准备向外面的世界介绍自己，草稿里却全是成绩和经历。翻到手账第一页时，她忽然停下了笔。"
+  }
+}

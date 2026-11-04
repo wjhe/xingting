@@ -1,0 +1,73 @@
+{
+  "text": "爸爸，你回来啦！我一直在等你。",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "source_model": "seed-audio-1.0",
+  "age_pitch_semitones": {
+    "child": 1,
+    "teen": 0,
+    "grown": -1
+  },
+  "emotions": {
+    "calm": {
+      "label": "平静",
+      "instruction": "平静自然地说，像普通的一天在家里迎接爸爸。",
+      "base_source": "reused existing audition",
+      "clips": {
+        "child": "derived/calm-child.wav",
+        "teen": "derived/calm-teen.wav",
+        "grown": "derived/calm-grown.wav"
+      }
+    },
+    "happy": {
+      "label": "开心",
+      "instruction": "终于等到爸爸回家，开心地笑着迎接，语气轻快。",
+      "base_source": "reused existing audition",
+      "clips": {
+        "child": "derived/happy-child.wav",
+        "teen": "derived/happy-teen.wav",
+        "grown": "derived/happy-grown.wav"
+      }
+    },
+    "sad": {
+      "label": "难过",
+      "instruction": "等了很久、心里委屈，声音低落，但仍把话说完。",
+      "base_source": "reused existing audition",
+      "clips": {
+        "child": "derived/sad-child.wav",
+        "teen": "derived/sad-teen.wav",
+        "grown": "derived/sad-grown.wav"
+      }
+    },
+    "shy": {
+      "label": "害羞",
+      "instruction": "有点不好意思地迎接爸爸，声音轻柔，带着克制的笑意。",
+      "base_source": "new seed-audio-1.0 prompt",
+      "clips": {
+        "child": "derived/shy-child.wav",
+        "teen": "derived/shy-teen.wav",
+        "grown": "derived/shy-grown.wav"
+      }
+    },
+    "angry": {
+      "label": "生气",
+      "instruction": "爸爸来晚了，她明明担心却故作生气，语气有不满但不喊叫。",
+      "base_source": "new seed-audio-1.0 prompt",
+      "clips": {
+        "child": "derived/angry-child.wav",
+        "teen": "derived/angry-teen.wav",
+        "grown": "derived/angry-grown.wav"
+      }
+    },
+    "tired": {
+      "label": "疲累",
+      "instruction": "刚结束一整天的练习，已经很累了，仍温柔地迎接爸爸。",
+      "base_source": "new seed-audio-1.0 prompt",
+      "clips": {
+        "child": "derived/tired-child.wav",
+        "teen": "derived/tired-teen.wav",
+        "grown": "derived/tired-grown.wav"
+      }
+    }
+  },
+  "status": "audition_pending"
+}

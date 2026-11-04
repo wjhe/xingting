@@ -1,0 +1,26 @@
+{
+  "author": "Kenney",
+  "packs": [
+    "Interface Sounds 1.0",
+    "Impact Sounds 1.0"
+  ],
+  "sources": [
+    "https://kenney.nl/assets/interface-sounds",
+    "https://kenney.nl/assets/impact-sounds"
+  ],
+  "license": "CC0-1.0",
+  "downloaded": "2026-11-01",
+  "processing": "RMS target 0.06; peak cap 0.7; trim silence; 2ms edge fades; OGG Vorbis and PCM16 WAV fallback",
+  "interfaceFiles": {
+    "click": "click_003",
+    "back": "back_001",
+    "buy": "confirmation_001",
+    "dress": "maximize_001",
+    "event": "open_001",
+    "victory": "confirmation_004"
+  },
+  "impactFiles": {
+    "hit": "impactWood_medium_000",
+    "hurt": "impactPunch_medium_000"
+  }
+}

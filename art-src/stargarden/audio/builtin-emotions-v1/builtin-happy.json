@@ -1,0 +1,9 @@
+{
+  "src": "builtin-happy.wav",
+  "duration": 5.472,
+  "gain": 0.6920252283611362,
+  "source_sha256": "0f8f5435d0d58c2d650a53f8b64e9601c7b629144b4fb3e1897da2d20a218b76",
+  "label": "开心",
+  "instruction": "开心而充满期待地说，带自然的笑意和轻快感，但不要尖叫或夸张撒娇。",
+  "speaker_id": "zh_female_vv_uranus_bigtts"
+}

@@ -1,0 +1,79 @@
+{
+  "src": "5cbdf23ab9e29d47e57d.wav",
+  "duration": 3.9,
+  "gain": 2.085634917128557,
+  "source_sha256": "eb834ee679ba858dd11e6ffbb532eb7ddeaee6196438ca3d4e60839145c747d4",
+  "id": "event.main_1_1.choice.1",
+  "text": "一起找找不喜欢的原因",
+  "group": "event:main_1_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2200,
+        "start_time": 200,
+        "text": "一起找找不喜欢的原因",
+        "words": [
+          {
+            "end_time": 360,
+            "start_time": 200,
+            "text": "一"
+          },
+          {
+            "end_time": 560,
+            "start_time": 360,
+            "text": "起"
+          },
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "找"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 840,
+            "text": "找"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1120,
+            "text": "不"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1320,
+            "text": "喜"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1440,
+            "text": "欢"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "的"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1760,
+            "text": "原"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "因"
+          }
+        ]
+      }
+    ],
+    "text": "一起找找不喜欢的原因"
+  }
+}

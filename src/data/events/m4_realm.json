@@ -1,0 +1,618 @@
+[
+  {
+    "id": "market_jd_appraise",
+    "title": "掌眼",
+    "art": "market_auction",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "jindan" },
+    "text": "万宝楼请你为今夜的压轴重宝掌眼：一面“上古照妖镜”。灯下你一眼便看出，镜背的古纹是新刻的。送拍的白发老散修就站在台侧，攥着衣角——听说他卖这面镜子，是要给孙子换一枚筑基丹。",
+    "options": [
+      {
+        "text": "当众直言：是赝品",
+        "result": "满堂哗然。万宝楼奉上三千灵石的掌眼礼，谢你保住了招牌；散场时，你看见老人抱着那面镜子，一个人走进了夜色里。",
+        "effects": [{ "type": "stone", "value": 3000 }]
+      },
+      {
+        "text": "不说破，自己出价买下",
+        "requires": { "stones": 2000 },
+        "result": "你开口两千灵石，满堂无人敢跟。老人捧着灵石朝你连连作揖；回到洞府你照了照那面假镜——镜子是假的，照出来的人倒是真的。",
+        "effects": [{ "type": "stone", "value": -2000 }, { "type": "attr", "key": "xinjing", "value": 1 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "推说眼拙，看不准",
+        "result": "镜子拍出了天价。管事送你出门时陪着笑，眼底却多了几分轻慢。如今你一句话能定一桩买卖的生死，不说话，也是一种说法。"
+      }
+    ]
+  },
+  {
+    "id": "market_jd_recruit",
+    "title": "客卿",
+    "art": "sect_gate",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "jindan" },
+    "text": "一位白须长老带着两名弟子登门，双手奉上丹霞宗的客卿玉牒：年俸五千灵石，只求宗门有难时，你肯出手一次。你记得这张脸。很多年前你还在青石村砍柴，他御剑从村口掠过，连头都没低一下。",
+    "options": [
+      {
+        "text": "接下玉牒",
+        "result": "你在玉牒上落了名，头一年的五千灵石俸禄当天便送到了。从此请帖多了，酒宴多了，能说真心话的人，却一个也没多。",
+        "effects": [{ "type": "stone", "value": 5000 }, { "type": "attr", "key": "xinjing", "value": -1 }]
+      },
+      {
+        "text": "提起当年村口那一眼",
+        "check": { "attr": "xinjing", "dc": 9 },
+        "success": { "result": "他愣了半晌，赔着笑说记不得了。你也笑了：那一眼你记了几十年，他转身就忘了。原来许多放不下的东西，本就轻得很。", "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }] },
+        "fail": { "result": "话一出口你便后悔了。长老额上见汗，连声赔罪，当场把年俸加到八千灵石；你要的不是这个，却再也推不掉了。", "effects": [{ "type": "stone", "value": 8000 }, { "type": "attr", "key": "xinjing", "value": -1 }] }
+      },
+      {
+        "text": "婉拒，送客",
+        "result": "长老客客气气地告辞，出了门才长叹一声。第二天坊市里便传开了：那位金丹真人，不好相与。"
+      }
+    ]
+  },
+  {
+    "id": "market_jd_disciple",
+    "title": "拜师",
+    "art": "master_teach",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "jindan" },
+    "text": "你在坊市赁下的小院门外，跪着一个少年，已经跪了三天，雨水顺着发梢往下淌。他是四灵根，在坊市卖了五年符，攒下的灵石全捧在手里：“弟子不敢求别的，只求前辈指点一句。”你从他身上，看见了很多年前的自己。",
+    "options": [
+      {
+        "text": "收他为徒，亲自教三个月",
+        "result": "三个月里你没顾上自己修炼，一招一式地教，他笨，却从不叫苦。后来坊市里多了个卖符的小修士，逢人便说：“我师父是金丹真人。”",
+        "effects": [{ "type": "cultivation", "value": -3000 }, { "type": "attr", "key": "xinjing", "value": 2 }]
+      },
+      {
+        "text": "送他一枚筑基丹",
+        "requires": { "items": { "zhuji_dan": 1 } },
+        "result": "他捧着丹药，半天说不出话。你没告诉他，这东西当年你求了多少年。",
+        "effects": [{ "type": "item", "id": "zhuji_dan", "count": -1 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "让他回去",
+        "result": "你说仙路太苦。少年抬起头：“前辈当年，也有人这么劝过您吗？”你没有答话，关上了门。"
+      }
+    ]
+  },
+  {
+    "id": "market_jd_pill_judge",
+    "title": "丹会评判",
+    "art": "market_alchemy",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "jindan" },
+    "text": "十年一度的丹道大会，你坐上了评判席。最后两枚丹：一枚出自百草谷嫡传，丹成九纹；一枚出自摆摊三十年的老丹师，只有七纹，药香却清得出奇。开评前，百草谷的人往你袖中塞了一只储物袋。",
+    "options": [
+      {
+        "text": "收下储物袋，判九纹丹胜",
+        "result": "满堂喝彩，储物袋里是四千灵石。老丹师收拾丹炉时，背影比来时又佝偻了几分。",
+        "effects": [{ "type": "stone", "value": 4000 }, { "type": "attr", "key": "xinjing", "value": -1 }]
+      },
+      {
+        "text": "原样退回，判七纹丹胜",
+        "result": "百草谷的人拂袖而去。老丹师抱着头名的匾额，偷偷塞给你一枚清心丹：“前辈，这一枚，是我这辈子炼得最好的。”",
+        "effects": [{ "type": "item", "id": "qingxin_dan", "count": 1 }]
+      },
+      {
+        "text": "两枚都服下，以身试丹",
+        "check": { "attr": "wuxing", "dc": 9 },
+        "success": { "result": "九纹丹入口三息，你便尝出里头掺了催纹的虎狼药，当众点破。老丹师那枚丹里，你又品出一段失传的古方，修为随之一涨。", "effects": [{ "type": "cultivation", "value": 6000 }] },
+        "fail": { "result": "两枚丹在你腹中斗了一整夜。你脸色发青地坐完了全场，什么也没尝出来。", "effects": [{ "type": "hp", "value": -40 }] }
+      }
+    ]
+  },
+  {
+    "id": "market_jd_impostor",
+    "title": "冒名",
+    "art": "market_street",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "jindan" },
+    "text": "坊市东头新开了一间丹铺，招牌上赫然写着你的名号：“真人亲炼，吃了包筑基。”已有两个散修吃坏了经脉。你推门进去，柜台后是个面黄肌瘦的炼气少年，一见你，手里的药碾“当啷”掉在了地上。",
+    "options": [
+      {
+        "text": "押他去执法堂",
+        "result": "执法堂追回了赃款，又给你府上送去两千灵石的谢礼。少年被押走时回头喊：“我娘的药钱……”后半句淹没在了满街的叫好声里。",
+        "effects": [{ "type": "stone", "value": 2000 }]
+      },
+      {
+        "text": "替他赔给受骗的散修",
+        "requires": { "stones": 3000 },
+        "result": "你赔出三千灵石，又摘了招牌。少年跪在地上说他娘病了三年，你只留下一句：“往后要借名号，借去做件好事。”",
+        "effects": [{ "type": "stone", "value": -3000 }, { "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "撕下招牌，放他走",
+        "result": "你扯下招牌，一句话也没多说。三个月后，你在坊市西头又看见了自己的名号——这回卖的是符。"
+      }
+    ]
+  },
+  {
+    "id": "market_jd_arbiter",
+    "title": "主持公道",
+    "art": "rival_youth",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "jindan" },
+    "text": "街口围了一圈人。一个独臂老散修跪在地上，说赵家少主为夺一株灵草，打死了他的徒弟；锦衣少年抱着胳膊冷笑，叫他拿出证据来。满街的筑基、炼气，不约而同地看向你——在场的，只有你一个金丹。",
+    "options": [
+      {
+        "text": "以神识探他记忆，查个明白",
+        "check": { "attr": "shenshi", "dc": 10 },
+        "success": { "result": "真相在神识里一览无余。你当众废了赵家少主的修为，赵家老祖登门赔罪，一句硬话也不敢说。那一夜，老散修在徒弟坟前坐到了天亮。", "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }] },
+        "fail": { "result": "少主识海里竟有长辈布下的禁制，反震得你闷哼一声。没有证据，你只能放他走；老散修看了你一眼，再没说话。", "effects": [{ "type": "hp", "value": -30 }] }
+      },
+      {
+        "text": "收下赵家的赔礼，劝两边和解",
+        "result": "赵家奉上五千灵石，说是“给前辈的茶钱”，你分了一半给老散修。他接过灵石，抱着徒弟的灵位走了，从此再没来过坊市。",
+        "effects": [{ "type": "stone", "value": 2500 }, { "type": "attr", "key": "xinjing", "value": -1 }]
+      },
+      {
+        "text": "不掺和别人的恩怨",
+        "result": "你转身离开，走出很远，还能感觉到背后那一街的目光。原来站得高了，袖手旁观也会被所有人看见。"
+      }
+    ]
+  },
+  {
+    "id": "village_home_house",
+    "title": "旧屋",
+    "art": "village_eaves_rain",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "儿时的屋子还在，换了户人家住，檐下晒着陌生的衣裳。门框上那几道刻痕却还在，是你小时候量个头刻的。最高那道往上，又多出一道，刀痕更深，比你离家时高了一大截。",
+    "options": [
+      {
+        "text": "叩门，问问那道刻痕",
+        "result": "女主人说，前一户的老汉临终前嘱咐过，门框不许刷漆：“他说儿子修仙去了，那一道，是他估摸着儿子长成的个头。”你站过去比了比，他估得很准。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "留下灵石，请他们修修屋顶",
+        "requires": { "stones": 500 },
+        "result": "女主人推了半天才收下那五百灵石。你没说自己是谁，临走又看了一眼门框——往后那里会刻上别家孩子的个头了。",
+        "effects": [{ "type": "stone", "value": -500 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "隔着篱笆看一会儿，走了",
+        "result": "院里一个孩子正踮着脚，让他娘在门框上替他刻今年的一道。你没有进去。"
+      }
+    ]
+  },
+  {
+    "id": "village_home_grave",
+    "title": "坟前",
+    "art": "village_farewell",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "爹娘的坟在后山坡上，比你想的要小。碑是村里人凑钱立的，立碑人那一栏刻着你的名字，名字底下，还有一行小一号的字：修仙未归。",
+    "options": [
+      {
+        "text": "跪下，磕三个头",
+        "result": "你跪了很久，把这些年的事从头到尾说了一遍。山风把纸灰吹到你膝上，像有人拍了拍你。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "以指为刀，改去那两个字",
+        "result": "你抹去“未归”，一笔一划刻上“已归”。刻完了才想起来，他们已经看不见了。",
+        "effects": [{ "type": "attr", "key": "wuxing", "value": 1 }]
+      },
+      {
+        "text": "在坟旁结庐，守孝一年",
+        "result": "这一年你没有修炼，每日扫墓、劈柴、看山。下山那天，你觉得自己像个凡人，心却从没这样静过。",
+        "effects": [{ "type": "lifespan", "value": -1 }, { "type": "attr", "key": "xinjing", "value": 2 }]
+      }
+    ]
+  },
+  {
+    "id": "village_home_shrine",
+    "title": "长生牌位",
+    "art": "village_shrine",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "老槐树下新起了一座小祠，供着一块长生牌位，上头写的是你的名字。一个老婆婆正颤巍巍地上香，求“仙人”保佑她在外头当兵的孙子平安。她没认出你，还招呼你也来拜一拜：“灵得很哩。”",
+    "options": [
+      {
+        "text": "表明身份",
+        "result": "老婆婆愣了半晌，扑通跪下。消息传开，全村人都跪在了槐树下，你扶起一个，又跪下一个。那天夜里，没有一户人家敢留你吃饭。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }]
+      },
+      {
+        "text": "在祠下悄悄埋一座聚灵小阵",
+        "requires": { "stones": 1500 },
+        "result": "你用一千五百灵石的灵材布下小阵。此后青石村旱不过三月，涝不过三日，村里人都说，牌位灵验。",
+        "effects": [{ "type": "stone", "value": -1500 }, { "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "陪她上一炷香",
+        "result": "你给自己上了一炷香。香灰落下来，烫了一下手背，你没有躲。"
+      }
+    ]
+  },
+  {
+    "id": "village_home_children",
+    "title": "井边村童",
+    "art": "village_well",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "村里的孩子听说来了个会飞的仙人，夜里全挤到古井边堵你，嚷着要学仙法。你随手一探，竟有个瘦小的丫头身怀灵根。她娘站在人群后头，攥着围裙望着你，眼里全是哀求：“别告诉她……求您。”",
+    "options": [
+      {
+        "text": "告诉丫头，她能修仙",
+        "result": "丫头高兴得原地转了三圈，她娘转过身去，肩膀一抽一抽的。你知道这条路有多远，也知道走上去的人，大多回不了家。"
+      },
+      {
+        "text": "答应她娘，只教孩子们一套强身拳",
+        "result": "孩子们学得有模有样，那丫头打得最好。你走时她追到村口，问仙人还回不回来；你说回来，她便信了。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "封一缕灵力进玉符，留给她娘",
+        "result": "“等她十六岁，若还想修仙，就让她捏碎它。”你耗去些许修为，把路留给她长大了自己选。",
+        "effects": [{ "type": "cultivation", "value": -800 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "village_home_drought",
+    "title": "河神使者",
+    "art": "evil_rite",
+    "region": ["qingshi_village"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "青石村大旱，河床裂得能塞进拳头。一个自称“河神使者”的黑袍法师来了，要村里献一对童男童女祭河，才肯降雨。你一眼便看出他身上缠着炼魂的阴气。祭台上那两个孩子，正睁大眼睛看着你。",
+    "options": [
+      {
+        "text": "当场斩了这妖人",
+        "result": "你一步踏上祭台。黑袍法师怪笑一声，袖中飞出一盏阴火幽幽的青铜灯。",
+        "battle": {
+          "enemy": "evil_cultivator",
+          "win": { "result": "邪修伏诛，你从他身上搜出八百灵石。当夜你又引来一场透雨，全村人跪在雨里哭，没有人在意这雨是谁下的。", "effects": [{ "type": "stone", "value": 800 }, { "type": "attr", "key": "xinjing", "value": 1 }] },
+          "lose": { "result": "阴火灼伤了你的神魂，好在村里的汉子们一拥而上，趁乱抢回了孩子。", "effects": [{ "type": "lifespan", "value": -8 }] }
+        }
+      },
+      {
+        "text": "先求一场雨，当众揭穿他",
+        "check": { "attr": "wuxing", "dc": 9 },
+        "success": { "result": "你引动方圆百里的水汽，乌云压顶，大雨倾盆。黑袍法师扔下法器就跑，你也从这场云雨里悟到了几分天地变化。", "effects": [{ "type": "cultivation", "value": 800 }, { "type": "attr", "key": "xinjing", "value": 1 }] },
+        "fail": { "result": "水汽聚了又散，你被灵力反噬，咳出一口血。邪修见你有些本事，连夜卷了村里的供奉逃走，孩子总算保住了。", "effects": [{ "type": "hp", "value": -40 }] }
+      },
+      {
+        "text": "连夜把孩子送出村去",
+        "result": "你把孩子们送去了山外的亲戚家。邪修扑了个空，骂骂咧咧地走了；可直到你离开，天上也没落下一滴雨。"
+      }
+    ]
+  },
+  {
+    "id": "mountain_return_vein",
+    "title": "山腹灵脉",
+    "art": "mountain_spring",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "当年要爬半天的山梁，你如今一步便跨了过去。神识沉入地底，你才发觉整座落霞山的灵气，都来自山腹深处一条沉睡的灵脉。当年你采的每一株灵草、喝的每一口灵泉，都是它养大的。",
+    "options": [
+      {
+        "text": "破开山腹，吸纳灵脉",
+        "result": "灵气如潮涌入经脉，修为大涨。出山时，溪边的青灵草一片片枯黄下去，几个炼气小修士蹲在那里，一脸茫然。",
+        "effects": [{ "type": "cultivation", "value": 2000 }, { "type": "attr", "key": "xinjing", "value": -1 }]
+      },
+      {
+        "text": "只取一缕，不伤根本",
+        "check": { "attr": "shenshi", "dc": 9 },
+        "success": { "result": "你以神识小心剥下一缕灵脉精华，凝成一瓶千年灵液。灵脉翻了个身，又沉沉睡去。", "effects": [{ "type": "item", "id": "lingye", "count": 1 }] },
+        "fail": { "result": "灵脉被你惊动，地气翻涌，震得你气血翻腾，只得罢手。", "effects": [{ "type": "hp", "value": -30 }] }
+      },
+      {
+        "text": "布一道护脉阵，留给后来人",
+        "result": "你在山腹布下阵法，不让后来者轻易惊动它。往后还会有许多个当年的你，在这座山上采下第一株灵草。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "mountain_return_seal",
+    "title": "洞中禁制",
+    "art": "mountain_cave",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "炼气时你避过雨的那个山洞，如今在你眼里满壁都是禁制，一层套着一层，当年根本看不见。禁制最深处镇着一具古修尸身，指甲已长过了膝，正一下一下地撞着最后一道封印。",
+    "options": [
+      {
+        "text": "破开禁制，送它往生",
+        "result": "你一指点碎封印。古尸睁开眼，眼眶里两团绿火猛地蹿了起来。",
+        "battle": {
+          "enemy": "corpse_puppet",
+          "win": { "result": "古尸倒下，化作一捧飞灰。灰里埋着一块法器残片，还有一袋古灵石，折下来约莫六百。", "effects": [{ "type": "item", "id": "ancient_fragment", "count": 1 }, { "type": "stone", "value": 600 }] },
+          "lose": { "result": "古尸力大无穷，一爪撕开你的护体灵光。你狼狈逃出，回头补好封印时，手还在抖。", "effects": [{ "type": "lifespan", "value": -6 }] }
+        }
+      },
+      {
+        "text": "顺着前人阵纹，修补禁制",
+        "check": { "attr": "wuxing", "dc": 9 },
+        "success": { "result": "你一路补下去，越补越心惊：布阵之人的手法，竟与你如出一辙。补完最后一笔，你对阵道的领悟又深了一层。", "effects": [{ "type": "cultivation", "value": 1500 }] },
+        "fail": { "result": "阵纹太过繁复，你补错了一笔，禁制反噬，震得你虎口发麻。", "effects": [{ "type": "hp", "value": -30 }] }
+      },
+      {
+        "text": "悄悄退出去",
+        "result": "你退出山洞，忽然想起：当年那一夜，你就枕着一具古尸的头顶，睡得很香。"
+      }
+    ]
+  },
+  {
+    "id": "mountain_return_stone",
+    "title": "石上字",
+    "art": "mountain_cliff_herb",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "崖边那块大青石还在，石上有你炼气时刻下的一行字：“到此一游，誓要筑基。”那天你刚被黑风狼追了半座山。可你的字底下又多出十几行，笔迹各不相同，每一行都只有三个字：我也是。",
+    "options": [
+      {
+        "text": "在最底下刻一行：后来我做到了",
+        "result": "你刻得很慢。希望下一个蹲在这里喘气的孩子，能看见。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "在石下埋三枚聚气丹",
+        "requires": { "items": { "juqi_dan": 3 } },
+        "result": "你埋下三枚聚气丹，又在石上添了个小小的箭头。往后哪个走投无路的孩子找到了，能多撑一阵。",
+        "effects": [{ "type": "item", "id": "juqi_dan", "count": -3 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "一行一行读完",
+        "result": "最早的几行已风化得看不清了，刻字的人多半早已不在。你在石前坐到天黑，初心一点点回到了胸口。",
+        "effects": [{ "type": "cultivation", "value": 800 }]
+      }
+    ]
+  },
+  {
+    "id": "mountain_return_robber",
+    "title": "山道劫修",
+    "art": "mountain_bandit",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "山道上，一个筑基劫修把三个炼气少年堵在崖边，挨个搜他们的储物袋。最小的那个死死护着一株青灵草，挨了一巴掌也不撒手。你想起当年，自己也是这样被人堵过。",
+    "options": [
+      {
+        "text": "出手",
+        "result": "你从树后走出。劫修骨刀一横：“同道中人，莫管闲事。”",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": { "result": "劫修倒地。你把搜刮来的东西还给少年们，他身上剩下的九百灵石归了你。最小的那个看着你，眼睛亮得吓人。", "effects": [{ "type": "stone", "value": 900 }, { "type": "attr", "key": "xinjing", "value": 1 }] },
+          "lose": { "result": "他比你想的更狠，你挨了一刀才将他逼退。少年们趁乱跑了，那株青灵草终究没丢。", "effects": [{ "type": "lifespan", "value": -5 }] }
+        }
+      },
+      {
+        "text": "放出威压，吓退他",
+        "check": { "attr": "shenshi", "dc": 8 },
+        "success": { "result": "你一缕气息压过去，劫修脸色煞白，扔下储物袋就跑。少年们看着你，像在看一座山。", "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }] },
+        "fail": { "result": "劫修竟扛住了你的威压，冷笑一声，拎着少年们的储物袋遁走了。", "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }] }
+      },
+      {
+        "text": "这是他们自己的劫",
+        "result": "你转身离开。仙路上谁不是这样过来的？可你走出很远，耳边还是那一巴掌的声音。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }]
+      }
+    ]
+  },
+  {
+    "id": "valley_rare_meteor",
+    "title": "天外陨铁",
+    "art": "valley_wind",
+    "region": ["heifeng_valley"],
+    "weight": 2,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "夜里天边一亮，一颗火流星拖着长尾砸进黑风谷，满谷黑风都停了一瞬。你赶到时，坑中的陨铁还烧得通红，里头裹着一团星火，一跳一跳的，像一颗心。坑沿另一头，一头熊妖也闻着味儿来了。",
+    "options": [
+      {
+        "text": "先赶走熊妖",
+        "result": "你跃入坑中。熊妖人立而起，冲你发出一声震耳的咆哮。",
+        "battle": {
+          "enemy": "bear_demon",
+          "win": { "result": "熊妖逃回了山里。你等陨铁凉透，剥出一块拳头大的星铁，器宗的人出价一千五百灵石，眼都没眨。", "effects": [{ "type": "stone", "value": 1500 }] },
+          "lose": { "result": "熊妖一掌把你拍进坑里，星火燎了你半身。等你爬出来，陨铁早被叼走了。", "effects": [{ "type": "lifespan", "value": -5 }, { "type": "hp", "value": -40 }] }
+        }
+      },
+      {
+        "text": "趁热以星火淬体",
+        "check": { "attr": "gengu", "dc": 9 },
+        "success": { "result": "你盘坐在烧红的陨铁上，任星火一遍遍冲刷经脉。天亮时，你的骨头里多了一点亮晶晶的东西，修为也涨了一截。", "effects": [{ "type": "attr", "key": "gengu", "value": 1 }, { "type": "cultivation", "value": 1500 }] },
+        "fail": { "result": "星火太烈，你被烧得衣衫焦黑、浑身滚烫。熊妖倒是被你的惨叫吓跑了。", "effects": [{ "type": "hp", "value": -60 }] }
+      },
+      {
+        "text": "让给熊妖",
+        "result": "你退开几步。熊妖叼起陨铁，烫得嗷嗷直叫，一路扔一路捡，跑远了。"
+      }
+    ]
+  },
+  {
+    "id": "mountain_rare_lanke",
+    "title": "观棋烂柯",
+    "art": "mountain_pine_chess",
+    "region": ["luoxia_mountain"],
+    "weight": 2,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "山涧边，两个童子对坐下棋，一个穿红，一个穿白，棋子落在石上没有一点声音。穿红的递给你一枚枣子：“饿了吧？吃了，坐下看。”你这才发觉，涧水是倒着流的。",
+    "options": [
+      {
+        "text": "吃下枣子，坐下观棋",
+        "result": "你看完了一局，起身时背后的药篓一碰就碎了。下山才知山外已过了五年，可那一局棋，你看懂了七八分。",
+        "effects": [{ "type": "lifespan", "value": -5 }, { "type": "cultivation", "value": 200 }, { "type": "attr", "key": "wuxing", "value": 1 }]
+      },
+      {
+        "text": "忍不住开口，指点一步",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": { "result": "白衣童子瞪了你一眼，红衣童子却笑了，把一枚棋子塞进你手心。棋子入手即化，一股清气直入丹田。", "effects": [{ "type": "cultivation", "value": 200 }, { "type": "attr", "key": "jiyuan", "value": 1 }] },
+        "fail": { "result": "你一开口，山涧、棋盘、童子一齐不见了，嘴里只剩半颗枣核。问过樵夫才知，已过去一年。", "effects": [{ "type": "lifespan", "value": -1 }] }
+      },
+      {
+        "text": "谢过童子，下山",
+        "result": "你推辞了枣子。走出十几步回头，涧边只剩两块长满青苔的石头，石上刻着一副残局。"
+      }
+    ]
+  },
+  {
+    "id": "market_rare_rusty_sword",
+    "title": "锈剑开口",
+    "art": "market_forge",
+    "region": ["qingyun_market"],
+    "weight": 2,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "铁匠铺门口堆着一捆锈剑，十灵石一把随便挑。你刚伸手，最底下那把开口了：“拿开你的手！本座当年随主人斩过蛟龙！”老铁匠掏了掏耳朵，好像什么也没听见。",
+    "options": [
+      {
+        "text": "花十灵石买下它",
+        "requires": { "stones": 10 },
+        "result": "你擦了三天三夜，锈迹底下露出一截青光凛凛的剑身。它从此再没闭过嘴，你每出一剑它都要点评一句，倒也真被它骂出了几分长进。",
+        "effects": [{ "type": "stone", "value": -10 }, { "type": "item", "id": "sword_qingfeng", "count": 1 }, { "type": "cultivation", "value": 150 }]
+      },
+      {
+        "text": "问它，当年的主人是谁",
+        "check": { "attr": "shenshi", "dc": 8 },
+        "success": { "result": "剑沉默了很久，才说主人死在云梦泽，它在泥里躺了三百年。它把主人的一段剑诀念给你听，谢你肯听它说完。", "effects": [{ "type": "cultivation", "value": 200 }, { "type": "attr", "key": "wuxing", "value": 1 }] },
+        "fail": { "result": "它把你从头骂到了脚。满街的人都奇怪地看着你——除了你，谁也听不见它。你只好讪讪走开。" }
+      },
+      {
+        "text": "装作没听见",
+        "result": "身后传来一声冷哼：“有眼无珠！”老铁匠奇怪地看了你一眼。"
+      }
+    ]
+  },
+  {
+    "id": "mountain_rare_past_self",
+    "title": "篝火少年",
+    "art": "night_camp",
+    "region": ["luoxia_mountain"],
+    "weight": 2,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "life_min": 3, "meta_flags": ["met_old_man"] },
+    "text": "夜里一个炼气少年凑到你的火堆边，背着一柄木剑，剑上刻着“将来要当剑仙”。他说他来自青石村，说起爹娘、说起村口的老槐树，每一句你都熟。他烤着手，小心翼翼地问：“前辈，修仙……真能修成吗？”",
+    "options": [
+      {
+        "text": "告诉他：能",
+        "result": "少年笑得很开心，抱着木剑睡着了，天亮时火堆边只剩一串脚印，走到崖边就断了。你忽然想起，第一世的你，也曾在某个夜里听一位陌生前辈说过：“能。”",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 2 }]
+      },
+      {
+        "text": "告诉他：会失败很多次",
+        "result": "少年沉默了很久，把木剑往背上一甩：“那就多试几次。”天亮他不见了。你这才想起，这句话，你第一世常挂在嘴边。",
+        "effects": [{ "type": "attr", "key": "wuxing", "value": 1 }, { "type": "break_bonus", "value": 0.05 }]
+      },
+      {
+        "text": "什么也不说，替他守夜",
+        "result": "少年睡得很沉，梦里还在念叨着筑基。晨雾散时，火堆边空空的，只有你一个人，你却觉得心里被什么填满了。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_rare_invite",
+    "title": "龙宫请帖",
+    "art": "marsh_palace",
+    "region": ["yunmeng_marsh"],
+    "weight": 2,
+    "once": true,
+    "conditions": { "realm_min": "jindan" },
+    "text": "一尾红鲤跃上你的船头，吐出一张湿漉漉的请帖：泽底龙宫老龙王八千岁寿宴，敬请道友赏光。帖子末尾还有一行歪斜的小字：“贺礼随意，千万别带蛟鳞。”",
+    "options": [
+      {
+        "text": "备一份厚礼赴宴",
+        "requires": { "stones": 3000 },
+        "result": "你带着三千灵石的贺礼入了龙宫，吃了一顿这辈子最长的宴席。散席时，老龙王亲手回赠你一颗千年莲子：“小友，多活几年，常来。”",
+        "effects": [{ "type": "stone", "value": -3000 }, { "type": "item", "id": "lotus_seed", "count": 1 }]
+      },
+      {
+        "text": "空手赴宴，应蛟将之邀比武助兴",
+        "result": "席间一名蛟将起身抱拳：“久闻人族金丹了得，可敢与末将过几招？”满殿龙族都放下了酒杯。",
+        "battle": {
+          "enemy": "jiao_dragon",
+          "win": { "result": "你一剑挑落蛟将的头盔，满殿喝彩。老龙王大笑，命人抬来五千灵石，又赐你一杯龙涎酒，饮下后修为大进。", "effects": [{ "type": "stone", "value": 5000 }, { "type": "cultivation", "value": 8000 }] },
+          "lose": { "result": "蛟将一尾把你扫出了大殿。你在宫门外的珊瑚丛里醒来，满嘴泥沙，寿宴早散了。", "effects": [{ "type": "hp", "value": -60 }, { "type": "lifespan", "value": -10 }] }
+        }
+      },
+      {
+        "text": "婉拒",
+        "result": "你把请帖塞回红鲤嘴里。它看了你一眼，像是有点失望，一甩尾巴沉了下去。"
+      }
+    ]
+  },
+  {
+    "id": "market_rare_same_day",
+    "title": "同一天",
+    "art": "market_teahouse",
+    "region": ["qingyun_market"],
+    "weight": 2,
+    "once": true,
+    "conditions": { "realm_min": "zhuji" },
+    "text": "茶馆里，说书人一拍醒木，讲的和昨天一字不差。街口赌石摊喊着同一句吆喝，卖糖人的老汉又在同一块青石板上摔了一跤。你试了三回，这一天总在子时归零，从头再来。",
+    "options": [
+      {
+        "text": "把赌石摊上的石头挨个切一遍",
+        "result": "你花了十几个“今天”，记下了每块石头里藏着什么。最后一个今天，你只买了一块，转手卖了一千五百灵石。",
+        "effects": [{ "type": "stone", "value": 1500 }]
+      },
+      {
+        "text": "把同一卷经文读上一百遍",
+        "result": "第一百遍读到同一句时，你忽然懂了。第二天的太阳终于升起来，那一句还在你心里亮着。",
+        "effects": [{ "type": "attr", "key": "wuxing", "value": 1 }]
+      },
+      {
+        "text": "扶住那个卖糖人的老汉",
+        "result": "这一回老汉没摔着，笑呵呵地塞给你一只糖凤凰。当夜子时一过，天亮了——原来这一天，只是在等有人扶他一把。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "village_rare_crane",
+    "title": "仙鹤衔信",
+    "art": "village_eaves_rain",
+    "region": ["qingshi_village", "luoxia_mountain", "qingyun_market"],
+    "weight": 1,
+    "once": true,
+    "conditions": { "realm_min": "lianqi", "life_min": 2 },
+    "text": "一只仙鹤落在你面前，羽毛都旧了，嘴里衔着一封泛黄的信。信封上的名字不是你，它却认定了你，怎么赶也不走。拆开来，是一个女子的字：“等你回来。院里的梅花，我替你种到第三百株了。”",
+    "options": [
+      {
+        "text": "提笔回信",
+        "result": "你不知该写什么，最后只写了“回来了”三个字。仙鹤衔信冲天而起，再没回头；那一夜你梦见满院梅花，醒来时枕边湿了一片。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "取出信中夹着的锦囊",
+        "result": "锦囊里是一枚延寿丹，丹上刻着三个小字：留给他。你攥着它，心口莫名地疼。",
+        "effects": [{ "type": "item", "id": "yanshou_dan", "count": 1 }]
+      },
+      {
+        "text": "把信放回鹤嘴，让它接着找",
+        "result": "仙鹤歪着头看了你很久，衔起信飞走了。你站在原地，总觉得自己弄丢了什么。"
+      }
+    ]
+  }
+]

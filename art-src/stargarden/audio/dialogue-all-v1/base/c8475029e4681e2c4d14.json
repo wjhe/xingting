@@ -1,0 +1,268 @@
+{
+  "src": "c8475029e4681e2c4d14.wav",
+  "duration": 8.066875,
+  "gain": 1.3945902786197075,
+  "source_sha256": "534280e6aceac02cb20ff1293461449e970bff25106f20477335e32a0b2fd382",
+  "id": "event.main_5_0.text",
+  "text": "图书馆员把旧展览室钥匙交给艾莉，请她照顾新来的孩子。她回家后问：“他们不听我的话怎么办？”",
+  "group": "event:main_5_0",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4320,
+        "start_time": 40,
+        "text": "图书馆员把旧展览室钥匙交给艾莉，请她照顾新来的孩子。",
+        "words": [
+          {
+            "end_time": 200,
+            "start_time": 40,
+            "text": "图"
+          },
+          {
+            "end_time": 360,
+            "start_time": 200,
+            "text": "书"
+          },
+          {
+            "end_time": 520,
+            "start_time": 440,
+            "text": "馆"
+          },
+          {
+            "end_time": 680,
+            "start_time": 640,
+            "text": "员"
+          },
+          {
+            "end_time": 880,
+            "start_time": 760,
+            "text": "把"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 960,
+            "text": "旧"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1160,
+            "text": "展"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1360,
+            "text": "览"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1560,
+            "text": "室"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1720,
+            "text": "钥"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1880,
+            "text": "匙"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2040,
+            "text": "交"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2160,
+            "text": "给"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2320,
+            "text": "艾"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2560,
+            "text": "莉"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2600,
+            "text": "，"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2800,
+            "text": "请"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "她"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3120,
+            "text": "照"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3280,
+            "text": "顾"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3480,
+            "text": "新"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3680,
+            "text": "来"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3880,
+            "text": "的"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4040,
+            "text": "孩"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4160,
+            "text": "子"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4320,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7680,
+        "start_time": 4840,
+        "text": "她回家后问：‘他们不听我的话怎么办？",
+        "words": [
+          {
+            "end_time": 5000,
+            "start_time": 4840,
+            "text": "她"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "回"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5160,
+            "text": "家"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5320,
+            "text": "后"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5520,
+            "text": "问"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5800,
+            "text": "："
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5800,
+            "text": "‘"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6200,
+            "text": "他"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6400,
+            "text": "们"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6560,
+            "text": "不"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6720,
+            "text": "听"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6920,
+            "text": "我"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 7040,
+            "text": "的"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7120,
+            "text": "话"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7320,
+            "text": "怎"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7440,
+            "text": "么"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7520,
+            "text": "办"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7680,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 7680,
+        "start_time": 7680,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 7680,
+            "start_time": 7680,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "图书馆员把旧展览室钥匙交给艾莉，请她照顾新来的孩子。她回家后问：‘他们不听我的话怎么办？’"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "艾莉 · 三个年龄的基准音色",
+  "status": "audition_pending_approval",
+  "text": "今天的阳光很好。我想把窗边的花画下来，等画好了，就拿给你看。谢谢你一直陪着我。",
+  "samples": [
+    {
+      "id": "ellie-child-neutral-v1",
+      "age": "10—13 岁",
+      "direction": "10岁女孩，声音清亮、轻软，带自然童真。发音清楚，语气平静亲切，略带好奇。不要夸张幼儿腔、捏嗓子、撒娇腔或婴儿声。",
+      "src": "ellie-child-neutral-v1.wav",
+      "duration": 10.5,
+      "source_sha256": "0fadc6f28aacba727b08fa9dc44460d745cec016e17ab6494068b11b2030d5da",
+      "preview": {
+        "gain": 1.058541091382897,
+        "target_rms": 0.065,
+        "preview_sha256": "9507dc8acd13e29b8483c800b3b458308acdb5926c1ededdf3c701bcddd7d510"
+      }
+    },
+    {
+      "id": "ellie-teen-neutral-v2",
+      "age": "14—15 岁",
+      "direction": "14岁少女，清澈的少女中高音，已经告别童声，声线比10岁儿童明显更沉稳，气息更稳定，咬字更利落。以自然中音区说话，不刻意抬高声线，保留柔和清亮的质地。语气平静亲切，有一点含蓄和自己的想法。不要幼儿腔、娃娃音、撒娇感、假声或成熟御姐腔。",
+      "src": "ellie-teen-neutral-v2.wav",
+      "duration": 10.88,
+      "source_sha256": "6a04b73d258916f9122a462c7de19c3eb2bf58ee6c004e2e632b87258886d0a2",
+      "preview": {
+        "gain": 4.599066189016195,
+        "target_rms": 0.065,
+        "preview_sha256": "64872a84688392788574e9315ac7d0a0ea6cc3d110e44c55fde916440e63d76f"
+      }
+    },
+    {
+      "id": "ellie-grown-neutral-v2",
+      "age": "16—18 岁",
+      "direction": "17岁少女，温柔清澈的年轻女性中音声线，声音位置自然放松，胸腔共鸣比女孩更充实，音高明显低于儿童，尾音稳而干净。语气平静亲切、从容而有主见，有温暖真实的生活感。不要刻意抬高声线，不要幼儿腔、娃娃音、气泡音、低沉中年声或夸张播音腔。",
+      "src": "ellie-grown-neutral-v2.wav",
+      "duration": 10.5,
+      "source_sha256": "c245e19ffe532215cbccf656158e5951b1b4b1087e8f66c8099526c15228c24f",
+      "preview": {
+        "gain": 2.133540647847929,
+        "target_rms": 0.065,
+        "preview_sha256": "ccd7d88d21195f5b3146c49f347e0231cd6faa972e07755adb098f5db98e1a9e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "text": "爸爸，你回来啦！我一直在等你。",
+  "expression": "neutral",
+  "clips": [
+    {
+      "label": "10—13岁 · 童年",
+      "src": "../voice-emotions-v2/neutral.wav",
+      "speaker_id": "S_jPukgGbk2",
+      "duration": 5.08,
+      "note": "清亮、自然的童年声音"
+    },
+    {
+      "label": "14—15岁 · 少女",
+      "src": "../voice-emotions-teen-v1/neutral.wav",
+      "speaker_id": "S_yknZmKn32",
+      "duration": 4.8,
+      "note": "已设计的少女期声音"
+    },
+    {
+      "label": "16—18岁 · 成长",
+      "src": "../voice-grown-diagnosis-v1/explicit-age.wav",
+      "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+      "duration": 4.8,
+      "note": "官方音色，采用明确17岁提示的修正版"
+    }
+  ]
+}

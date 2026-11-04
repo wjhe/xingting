@@ -1,0 +1,317 @@
+[
+  {
+    "id": "valley_su_rescue",
+    "title": "瘴心草",
+    "art": "valley_bear",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 30,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "flags": [
+        "su_quest"
+      ]
+    },
+    "text": "你和苏晚晴找到那株瘴心草时，一头黑风熊妖从瘴气中扑出，一掌拍向她的后心！",
+    "options": [
+      {
+        "text": "挡在她身前",
+        "battle": {
+          "enemy": "bear_demon",
+          "win": {
+            "result": "熊妖倒地。苏晚晴扑进你怀里，哭得说不出话来。良久，她低声说：“不管下辈子去到哪里，我都会找到你。”",
+            "effects": [
+              {
+                "type": "flag",
+                "key": "su_saved"
+              },
+              {
+                "type": "meta_flag",
+                "key": "su_bond"
+              },
+              {
+                "type": "item",
+                "id": "ningyuan_dan",
+                "count": 2
+              },
+              {
+                "type": "item",
+                "id": "miasma_herb",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "你被熊妖拍飞，眼睁睁看着苏晚晴倒在血泊之中。你抱着她冲出黑风谷，她却再也没有醒来。",
+            "effects": [
+              {
+                "type": "flag",
+                "key": "su_dead"
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": -3
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "valley_su_alone",
+    "title": "噩耗",
+    "art": "sad_news",
+    "region": [
+      "qingyun_market",
+      "heifeng_valley"
+    ],
+    "weight": 30,
+    "once": true,
+    "conditions": {
+      "flags": [
+        "su_alone"
+      ]
+    },
+    "text": "你听说，青云宗一名外门女弟子在黑风谷采药时遇上熊妖，尸骨无存。宗门只寻回了她的一个布包，里面装着一个歪歪扭扭的平安符。",
+    "options": [
+      {
+        "text": "……",
+        "result": "你在谷口站了很久很久。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -2
+          },
+          {
+            "type": "flag",
+            "key": "su_dead"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valley_sword_tomb",
+    "title": "剑冢",
+    "art": "valley_sword_tomb",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "峡谷尽头插满了锈迹斑斑的断剑，阵阵剑鸣在风中呜咽。最深处，一柄赤红长剑仍完好如初，剑身微微颤动，仿佛在等待什么。",
+    "options": [
+      {
+        "text": "以神识沟通剑灵",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "剑鸣骤止。那柄长剑自行飞起，落入你的掌心。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "sword_chixia",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "万剑齐鸣，剑气纵横。你被逼退出峡谷，浑身剑伤。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            }
+          ]
+        }
+      },
+      {
+        "text": "向剑冢一拜，离开",
+        "result": "风中的剑鸣似乎柔和了些。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valley_miasma_herb",
+    "title": "瘴气深处",
+    "art": "valley_wind",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "黑风最浓处，几株墨绿的瘴心草在岩缝中摇曳。这东西毒性极强，坊市却开出了高价。",
+    "options": [
+      {
+        "text": "运功护体，深入采摘",
+        "check": {
+          "attr": "gengu",
+          "dc": 8
+        },
+        "success": {
+          "result": "你屏息采下两株，毫发无伤。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "miasma_herb",
+              "count": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "瘴毒侵入经脉，你逼了三个月才把毒逼出来，只采到一株。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "miasma_herb",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "lifespan",
+              "value": -2
+            }
+          ]
+        }
+      },
+      {
+        "text": "不值得冒险",
+        "result": "你绕开了那片岩壁。"
+      }
+    ]
+  },
+  {
+    "id": "valley_corpse",
+    "title": "尸傀",
+    "art": "valley_battlefield",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "一具披着残破法袍的尸体从泥沼中站了起来，眼眶里燃着幽绿的鬼火——是被魔修炼成傀儡的古修。",
+    "options": [
+      {
+        "text": "斩了它",
+        "battle": {
+          "enemy": "corpse_puppet",
+          "win": {
+            "result": "尸傀轰然散架。它生前的储物戒指还戴在指骨上。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 250
+              },
+              {
+                "type": "item",
+                "id": "ancient_fragment",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -3
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "尸傀行动迟缓，绕开它",
+        "check": {
+          "attr": "shenshi",
+          "dc": 5
+        },
+        "success": {
+          "result": "你轻松甩开了它。"
+        },
+        "fail": {
+          "result": "泥沼拖慢了你的脚步，尸傀一爪抓在你肩上。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "valley_war_spirit",
+    "title": "战魂",
+    "art": "valley_battlefield",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 3,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "古战场的上空，一道虚影持戟而立，日复一日地重复着最后一战的招式。它察觉到你，空洞的目光转了过来：“来者……可愿与我一战？”",
+    "options": [
+      {
+        "text": "以心神与它论道",
+        "check": {
+          "attr": "xinjing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你陪它把那一战打完。战魂最后朝你一揖，化作漫天光点，涌入你的体内。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 1500
+            }
+          ]
+        },
+        "fail": {
+          "result": "战魂的杀意冲入你的识海，你抱头惨叫，许久才回过神来。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "text": "躬身行礼，悄然退去",
+        "result": "战魂的目光追随你良久，又转回了虚空。"
+      }
+    ]
+  }
+]

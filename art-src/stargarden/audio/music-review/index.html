@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>星庭物语 · 音乐选曲试听</title>
+<style>
+  body{margin:0;padding:20px 16px 80px;font:15px/1.7 system-ui,"Microsoft YaHei",sans-serif;background:#faf5e5;color:#4f5d42;max-width:860px;margin:auto}
+  h1{font-size:22px;margin:0 0 4px}
+  .note{color:#8a8364;font-size:14px;margin:0 0 18px}
+  section{background:#fffbee;border:1px solid #d6cca5;border-radius:14px;padding:12px 14px;margin:0 0 12px}
+  h2{font-size:17px;margin:0 0 2px;display:flex;justify-content:space-between;gap:8px}
+  h2 small{font-weight:400;color:#8a8364;font-size:13px}
+  .use{color:#8a8364;font-size:13px;margin:0 0 8px}
+  label{display:flex;align-items:center;gap:10px;padding:6px 0;border-top:1px dashed #e4dcbd}
+  label:first-of-type{border-top:0}
+  label span{width:64px;flex-shrink:0;font-size:14px}
+  audio{flex:1;min-width:0;height:36px}
+  input{accent-color:#7f9663;width:18px;height:18px}
+  .bar{position:fixed;left:0;right:0;bottom:0;padding:12px 16px;background:#eef1dc;border-top:1px solid #c9bd92;display:flex;gap:10px;justify-content:center;align-items:center}
+  button{min-height:42px;padding:0 18px;border-radius:21px;border:1px solid #7f9663;background:#8ea36f;color:#fff;font-size:15px}
+  .changed{color:#a0603f;font-size:14px}
+</style>
+</head>
+<body>
+<h1>星庭物语 · 音乐选曲试听</h1>
+<p class="note">仅供开发环境使用（npm run dev 后打开 /art-src/stargarden/audio/music-review/index.html），不会打包进游戏。短乐句播放的是自动剪辑后的版本。选好后点底部按钮下载 music-selection.json，替换 art-src/stargarden/audio/ 下的同名文件，再运行 python scripts/stargarden-music-build.py。</p>
+<div id="list">加载中……</div>
+<div class="bar"><span class="changed" id="changed"></span><button id="save">下载选曲清单</button></div>
+<script>
+const USE = {
+  bgm_opening_night:'开场第 1–4 幕（星落、庭院、伸手、灯下）', bgm_opening_morning:'开场第 5 幕（清晨窗边）',
+  bgm_home:'庭院主界面、衣橱', bgm_home_winter:'冬季的庭院', bgm_schedule:'日程逐项演出', bgm_town:'城镇、日程页、商店',
+  bgm_story:'剧情事件', bgm_rain:'难过、挫折的事件', bgm_night:'谈心', bgm_explore:'演出中的探索', bgm_battle:'演出中的交锋',
+  bgm_festival:'生日、收获祭', bgm_growing:'最后一年、结局',
+  jingle_victory:'交锋胜利', jingle_retreat:'交锋撤退', jingle_month_end:'月度总结出现', jingle_letter:'新来信 / 事件出现',
+  jingle_chapter:'开场章节卡', jingle_birthday:'生日', jingle_festival_award:'收获祭', jingle_ending:'结局揭晓',
+};
+const ORDER = Object.keys(USE);
+Promise.all([fetch('review.json').then(r => r.json()), fetch('../music-selection.json').then(r => r.json())]).then(([review, selection]) => {
+  const original = { ...selection };
+  const list = document.getElementById('list');
+  list.innerHTML = ORDER.filter(t => review[t]).map(track => `<section><h2>${track}<small>${review[track].length} 个候选</small></h2><p class="use">${USE[track]}</p>${review[track].map((c, i) => `<label><input type="radio" name="${track}" value="${c.file}" ${selection[track] === c.file ? 'checked' : ''}><span>候选 ${i + 1}${c.cut_seconds ? `<br><small>${c.cut_seconds} 秒</small>` : ''}</span><audio controls preload="none" src="${c.preview}"></audio></label>`).join('')}</section>`).join('');
+  // 同一时间只播放一个
+  list.addEventListener('play', e => { for (const a of list.querySelectorAll('audio')) if (a !== e.target) a.pause(); }, true);
+  const changed = () => { const n = ORDER.filter(t => selection[t] !== original[t]).length; document.getElementById('changed').textContent = n ? `已修改 ${n} 个曲目` : ''; };
+  list.addEventListener('change', e => { selection[e.target.name] = e.target.value; changed(); });
+  document.getElementById('save').onclick = () => {
+    const blob = new Blob([JSON.stringify(selection, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'music-selection.json'; a.click();
+  };
+});
+</script>
+</body>
+</html>

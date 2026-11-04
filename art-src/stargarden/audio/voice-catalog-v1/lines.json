@@ -1,0 +1,6144 @@
+{
+  "version": 1,
+  "text": "全部正式剧情与游戏演出文本",
+  "parentVariants": "角色选择为爸爸或妈妈时播放对应录音",
+  "count": 505,
+  "ageSemitones": {
+    "child": 1,
+    "teen": 0,
+    "grown": -1
+  },
+  "lines": [
+    {
+      "id": "opening.0.0",
+      "text": "星历 1000 年，冬至的夜晚。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.0.1",
+      "text": "星庭小城的人们都睡了。只有一颗星，悄悄离开了天空。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.1.0",
+      "text": "你听见庭院里传来很轻的声响。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.1.1",
+      "text": "花丛中间，坐着一个抱着旧旅行包的小女孩。她身边的星光，正一点一点熄灭。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.1.2",
+      "text": "……这里，是哪里？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.2.0",
+      "text": "她不记得自己从哪里来，也说不出自己的名字。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.2.1",
+      "text": "我只记得……要找一个，有灯亮着的地方。",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.2.2",
+      "text": "你蹲下来，向她伸出手。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.2.3",
+      "text": "……可以吗？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.3.0",
+      "text": "那一晚，屋里的灯一直亮着。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.3.1",
+      "text": "好暖和。",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.3.2",
+      "text": "她捧着汤，一小口一小口地喝完了，却始终把旅行包放在脚边。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.0",
+      "text": "天亮了。她站在窗边，看着星庭小城慢慢醒来。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.1",
+      "text": "我……没有名字。",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.10",
+      "text": "你点了点头。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.2",
+      "text": "你可以，给我一个吗？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.3",
+      "text": "你想起昨夜，她说自己在找一个有灯亮着的地方。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.4",
+      "text": "在星庭的老话里，“艾莉”的意思是——被灯光找到的人。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.5",
+      "text": "“艾莉。”你说。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.6",
+      "text": "艾莉……艾莉。",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.7",
+      "text": "她小声念了两遍，然后笑了。",
+      "group": "opening",
+      "role": "story",
+      "emotion": "轻柔、有电影感的旁白",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.8",
+      "text": "那，我该怎么称呼你呢？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.9.dad",
+      "text": "爸爸。……从今天起，这里就是我的家了吗？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "parent": "爸爸",
+      "priority": 0
+    },
+    {
+      "id": "opening.4.9.mom",
+      "text": "妈妈。……从今天起，这里就是我的家了吗？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "parent": "妈妈",
+      "priority": 0
+    },
+    {
+      "id": "ending.artist",
+      "text": "她的画作挂进了王宫，但最珍视的作品，仍是小时候画下的那幅庭院。她说，世上最难画的不是风景，而是回家的心情。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.dancer",
+      "text": "剧院的灯光亮起，所有目光都追随着她。但在谢幕的时候，她先看向了你坐着的那个位置，像小时候第一次跳舞时那样。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.explorer",
+      "text": "她背上行囊走向远方，去见地图上尚未命名的山海。每一封寄回家的信里，都夹着一朵来自异乡的花。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.gardener",
+      "text": "她种出了城里最美的花园，每个季节都有新的颜色。她把第一束自己培育的蔷薇送给你，说：“谢谢你，耐心等我长大。”",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.healer",
+      "text": "小小的诊所在春天开了门，她认真照顾每一位来访的人。门旁收养的小猫伸着懒腰，阳光照着那块写着“愿你安好”的木牌。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.home",
+      "text": "她没有成为传说中的人物，却长成了一个善良、独立、热爱生活的人。晚饭后你们依旧在花园里散步。那些一起度过的普通日子，就是最好的结局。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.host",
+      "text": "她在庭院旁开了一间茶屋。熟客说这里的茶有家的味道，她总是笑着望向窗外——你正坐在那张熟悉的藤椅上。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.knight",
+      "text": "授勋那天，她把骑士徽章放进你的掌心。那个曾经握不稳木剑的孩子，已经能够保护一整座城。“这一次，换我来保护你。”",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.sage",
+      "text": "她带着亲手绘制的星图进入高塔，成为了研究星辰魔法的年轻贤者。每当发现一颗新星，她总会给家里写一封很长的信。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.scholar",
+      "text": "她成为学院里最年轻的讲师。学生们说，她讲故事时眼睛会发光。她笑着说，那是因为从小就有人认真听她说话。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.star",
+      "text": "王宫的邀请函送到时，她正在庭院里浇花。多年积累的学识、优雅与善意，让她成为王国年轻的执政官。她没有搬走窗台上的那盆花——那是故事开始的地方。",
+      "group": "ending",
+      "role": "ending",
+      "emotion": "18岁，成熟自然，温柔而有希望",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "event.main_0_0.text",
+      "text": "来到这个家的第一个月，艾莉总把行李放在门边。今晚你发现，她把小小的房门钥匙系在了手腕上。“如果我弄丢了，还能回来吗？”",
+      "group": "event:main_0_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_0_1.text",
+      "text": "图书馆整理旧物时，艾莉找到一本空白手账。扉页写着：把想做的事留给明天。她问：“没有很厉害的愿望，也可以写吗？”",
+      "group": "event:main_0_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_0_2.text",
+      "text": "收获祭给每个孩子留了一张桌子。有人摆奖牌，有人摆漂亮的画。艾莉把手账抱得很紧：“我的东西，好像不值得别人看。”",
+      "group": "event:main_0_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_1_0.text",
+      "text": "艾莉重新翻开去年的手账，发现不少愿望已经实现。她想写信给一年后的自己，却在“我希望成为”后面停住了。",
+      "group": "event:main_1_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_1_1.text",
+      "text": "第一次尝试没有想象中顺利，艾莉悄悄划掉了清单上的一项。“以前说喜欢，现在又不喜欢了，是不是很没用？”",
+      "group": "event:main_1_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_1_2.text",
+      "text": "今年的展台前来了比去年更多的人。艾莉请你坐在一旁：“这次，我想自己讲。”你看见她握着纸稿的手还在发抖。",
+      "group": "event:main_1_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_2_0.text",
+      "text": "邻居的孩子带回一张奖状。艾莉真心替朋友高兴，回家却盯着自己的空墙发呆。“我是不是学得太慢了？”",
+      "group": "event:main_2_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_2_1.text",
+      "text": "准备合作展品时，朋友希望照老师的范例做，艾莉却有自己的想法。她不愿伤害朋友，也不想再把意见藏起来。",
+      "group": "event:main_2_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_2_2.text",
+      "text": "收获祭结束后，艾莉用木片做了一枚奖章，写着“今年没有放弃”。她把绳子递给你：“能帮我戴上吗？”",
+      "group": "event:main_2_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_3_0.text",
+      "text": "一场突来的雨毁掉了她准备许久的展示材料。艾莉站在门口，没有哭，只说：“没关系。”湿透的纸却被她攥得很紧。",
+      "group": "event:main_3_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_3_1.text",
+      "text": "雨后的几周，艾莉不再提展览。她问你能不能暂时什么都不做。桌边那本手账已经很久没有翻开。",
+      "group": "event:main_3_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_3_2.text",
+      "text": "今年她只带了一页展品：雨水晕开的旧稿，旁边贴着重新完成的一小块。“这次，我想讲失败以后发生的事。”",
+      "group": "event:main_3_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_4_0.text",
+      "text": "艾莉递来一份亲手写的计划。它和你原先的安排并不一样。“我知道你是为我好，但这一次，可以先听我说完吗？”",
+      "group": "event:main_4_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_4_1.text",
+      "text": "她答应替朋友承担一项任务，却没有先与你商量。当天的安排被打乱了，厨房里第一次有了长久的沉默。",
+      "group": "event:main_4_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_4_2.text",
+      "text": "展览登记表有一栏写着“负责人”。她把笔停在你面前：“今年可以写我的名字吗？”你发现，她已经准备了很久。",
+      "group": "event:main_4_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_5_0.text",
+      "text": "图书馆员把旧展览室钥匙交给艾莉，请她照顾新来的孩子。她回家后问：“他们不听我的话怎么办？”",
+      "group": "event:main_5_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_5_1.text",
+      "text": "一个孩子弄坏了借来的工具，又因为害怕而撒了谎。艾莉很生气，却记得自己也曾经不敢承认错误。",
+      "group": "event:main_5_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_5_2.text",
+      "text": "今年有个孩子因为紧张躲在桌子下面。艾莉蹲下来，说了与你多年前相似的话。你站在不远处，没有打断。",
+      "group": "event:main_5_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_6_0.text",
+      "text": "艾莉收到了城外交流会的邀请。她沿着地图找了很久：“如果我想去的地方，这上面没有呢？”",
+      "group": "event:main_6_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_6_1.text",
+      "text": "朋友们开始谈论各自的去处。有人想留下，有人想远行。艾莉问：“留下会不会显得不够勇敢？”",
+      "group": "event:main_6_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_6_2.text",
+      "text": "她准备向外面的世界介绍自己，草稿里却全是成绩和经历。翻到手账第一页时，她忽然停下了笔。",
+      "group": "event:main_6_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_7_0.text",
+      "text": "新手账只剩下最后几页。艾莉把十岁时的木钥匙牌放在桌上：“那时候的字，怎么这么小？”你们同时笑了。",
+      "group": "event:main_7_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_7_1.text",
+      "text": "今年收获祭的邀请函是艾莉亲手写的。她把你放在第一位：“不管最后做得怎样，你会来吗？”",
+      "group": "event:main_7_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_7_2.text",
+      "text": "最后一次展览结束，艾莉把手账交给你。最后一页写着：“我已经知道自己要往哪里走，但这里永远是回家的方向。”",
+      "group": "event:main_7_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "event.main_0_0.choice.0",
+      "text": "告诉她这里永远是她的家",
+      "group": "event:main_0_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_0_0.choice.1",
+      "text": "一起做一枚钥匙牌",
+      "group": "event:main_0_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_0_1.choice.0",
+      "text": "先写一件今天开心的事",
+      "group": "event:main_0_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_0_1.choice.1",
+      "text": "让她画出第一个愿望",
+      "group": "event:main_0_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_0_2.choice.0",
+      "text": "一起布置生活小展台",
+      "group": "event:main_0_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_0_2.choice.1",
+      "text": "让她决定要不要参加",
+      "group": "event:main_0_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_1_0.choice.0",
+      "text": "先写希望怎样度过每一天",
+      "group": "event:main_1_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_1_0.choice.1",
+      "text": "列出最想尝试的三件事",
+      "group": "event:main_1_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_1_1.choice.0",
+      "text": "告诉她可以重新认识自己",
+      "group": "event:main_1_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_1_1.choice.1",
+      "text": "一起找找不喜欢的原因",
+      "group": "event:main_1_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_1_2.choice.0",
+      "text": "坐在她看得见的地方",
+      "group": "event:main_1_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_1_2.choice.1",
+      "text": "帮她邀请第一位观众",
+      "group": "event:main_1_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_2_0.choice.0",
+      "text": "一起翻看她这一年的进步",
+      "group": "event:main_2_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_2_0.choice.1",
+      "text": "问问她真正羡慕的是什么",
+      "group": "event:main_2_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_2_1.choice.0",
+      "text": "练习清楚地说出自己的理由",
+      "group": "event:main_2_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_2_1.choice.1",
+      "text": "建议各做一份再放在一起",
+      "group": "event:main_2_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_2_2.choice.0",
+      "text": "郑重为她戴上",
+      "group": "event:main_2_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_2_2.choice.1",
+      "text": "也做一枚自己的奖章",
+      "group": "event:main_2_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_3_0.choice.0",
+      "text": "先陪她难过一会儿",
+      "group": "event:main_3_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_3_0.choice.1",
+      "text": "一起抢救还能留下的部分",
+      "group": "event:main_3_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_3_1.choice.0",
+      "text": "给她一个不用证明自己的假日",
+      "group": "event:main_3_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_3_1.choice.1",
+      "text": "邀请她做一件很小的事",
+      "group": "event:main_3_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_3_2.choice.0",
+      "text": "把介绍的机会交给她",
+      "group": "event:main_3_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_3_2.choice.1",
+      "text": "写一张家人的留言",
+      "group": "event:main_3_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_4_0.choice.0",
+      "text": "听完她的安排与理由",
+      "group": "event:main_4_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_4_0.choice.1",
+      "text": "约定先试一个月再讨论",
+      "group": "event:main_4_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_4_1.choice.0",
+      "text": "说明担心，也听她解释",
+      "group": "event:main_4_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_4_1.choice.1",
+      "text": "一起承担后果，再谈规则",
+      "group": "event:main_4_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_4_2.choice.0",
+      "text": "让她签下自己的名字",
+      "group": "event:main_4_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_4_2.choice.1",
+      "text": "在协助人一栏留下名字",
+      "group": "event:main_4_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_5_0.choice.0",
+      "text": "提醒她先记住被帮助的感觉",
+      "group": "event:main_5_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_5_0.choice.1",
+      "text": "一起整理一份简单的约定",
+      "group": "event:main_5_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_5_1.choice.0",
+      "text": "陪她区分错误和犯错的人",
+      "group": "event:main_5_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_5_1.choice.1",
+      "text": "支持她让对方亲自补救",
+      "group": "event:main_5_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_5_2.choice.0",
+      "text": "等她忙完，告诉她你看见了",
+      "group": "event:main_5_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_5_2.choice.1",
+      "text": "替她照看身后的准备工作",
+      "group": "event:main_5_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_6_0.choice.0",
+      "text": "鼓励她画上自己的路线",
+      "group": "event:main_6_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_6_0.choice.1",
+      "text": "一起讨论远行需要的准备",
+      "group": "event:main_6_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_6_1.choice.0",
+      "text": "告诉她勇气不由距离决定",
+      "group": "event:main_6_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_6_1.choice.1",
+      "text": "让她分别写下两种生活",
+      "group": "event:main_6_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_6_2.choice.0",
+      "text": "请她加上一件真正珍惜的事",
+      "group": "event:main_6_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_6_2.choice.1",
+      "text": "请她写下还想学会的东西",
+      "group": "event:main_6_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_7_0.choice.0",
+      "text": "一起重读最早的愿望",
+      "group": "event:main_7_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_7_0.choice.1",
+      "text": "给最后几页留一点空白",
+      "group": "event:main_7_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_7_1.choice.0",
+      "text": "答应她，提前留好那一天",
+      "group": "event:main_7_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_7_1.choice.1",
+      "text": "请她也邀请曾经帮助过的人",
+      "group": "event:main_7_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_7_2.choice.0",
+      "text": "把钥匙交还给她",
+      "group": "event:main_7_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_7_2.choice.1",
+      "text": "约好明年春天再一起种花",
+      "group": "event:main_7_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 11
+    },
+    {
+      "id": "event.main_0_0.outcome.0",
+      "text": "你把备用钥匙放进她掌心。“门会等你，我们也会。”那晚，她终于把行李收进了柜子。",
+      "group": "event:main_0_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_0_0.outcome.1",
+      "text": "她在木牌上刻下一颗歪歪的星星，又在背面写下了你们的姓氏。",
+      "group": "event:main_0_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_0_1.outcome.0",
+      "text": "她写下“今天的汤很好喝”。你在旁边补了一句：“今天有人等我吃饭。”",
+      "group": "event:main_0_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_0_1.outcome.1",
+      "text": "纸上出现了一间有窗台和小花的房子。原来她想留下的，正是眼前的日常。",
+      "group": "event:main_0_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_0_2.outcome.0",
+      "text": "桌上摆着她种的花、练习纸和找到的石头。邻居们停下来，认真听完了每件小东西的故事。",
+      "group": "event:main_0_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_0_2.outcome.1",
+      "text": "她犹豫到午后，终于自己搬出了桌子。“我想先讲给一个人听。”你成为了第一位观众。",
+      "group": "event:main_0_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_1_0.outcome.0",
+      "text": "她写下“睡得好、学一点新东西，还有记得回家”。未来第一次显得不那么遥远。",
+      "group": "event:main_1_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_1_0.outcome.1",
+      "text": "她把想学的、想去的、想见的人分开写好，还为每一项留了一个小方框。",
+      "group": "event:main_1_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_1_1.outcome.0",
+      "text": "你们把划掉的字保留下来。它证明她试过，也证明她有权作出新的选择。",
+      "group": "event:main_1_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_1_1.outcome.1",
+      "text": "原来她害怕的并不是这件事，而是当众做不好。你们约定先从一个小练习开始。",
+      "group": "event:main_1_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_1_2.outcome.0",
+      "text": "她讲到忘词时看了你一眼，你轻轻点头。很快，她用自己的话把故事讲完了。",
+      "group": "event:main_1_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_1_2.outcome.1",
+      "text": "你请来熟悉的面包店老板。有人认真提问后，她终于忘记了纸稿，越讲越投入。",
+      "group": "event:main_1_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_2_0.outcome.0",
+      "text": "从第一张练习到今天，她发现变化其实一直存在，只是每天都太靠近自己。",
+      "group": "event:main_2_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_2_0.outcome.1",
+      "text": "她想要的原来不是奖状，而是被认真肯定。你告诉她，你一直看得见她的努力。",
+      "group": "event:main_2_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_2_1.outcome.0",
+      "text": "她没有争输赢，而是带着草图去讨论。两个人留下了彼此最喜欢的部分。",
+      "group": "event:main_2_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_2_1.outcome.1",
+      "text": "两份作品看起来很不同，观众却从中看到了两个人的性格。她们第一次欣赏起差异。",
+      "group": "event:main_2_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_2_2.outcome.0",
+      "text": "你为她整理绳结。她抬头时没有看向评奖台，而是看向了明年还想尝试的地方。",
+      "group": "event:main_2_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_2_2.outcome.1",
+      "text": "你的奖章上写着“学会听完再说”。她笑着给你戴好，你们都在这一年长大了一点。",
+      "group": "event:main_2_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_3_0.outcome.0",
+      "text": "你没有立刻谈补救。她终于靠过来，小声说出了那句忍了很久的“我很难过”。",
+      "group": "event:main_3_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_3_0.outcome.1",
+      "text": "你们把纸一张张铺开。能留下的不多，但有一页草稿让她想起了最初为什么要做这件事。",
+      "group": "event:main_3_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_3_1.outcome.0",
+      "text": "你们在家煮汤、听雨。她没有突然振作，只是在晚上主动把窗台的花浇好了。",
+      "group": "event:main_3_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_3_1.outcome.1",
+      "text": "你请她帮忙修好松动的书架。完成以后，她终于愿意翻开手账，先记下一行字。",
+      "group": "event:main_3_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_3_2.outcome.0",
+      "text": "她讲得很慢，台下却格外安静。有人告诉她，自己也经历过这样的雨天。",
+      "group": "event:main_3_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_3_2.outcome.1",
+      "text": "你把“你回家就好”写在角落。她读到时停了一下，然后继续讲完了自己的故事。",
+      "group": "event:main_3_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_4_0.outcome.0",
+      "text": "她连费用和休息时间都算过了。你们保留了她的主意，也一起补上了遗漏的地方。",
+      "group": "event:main_4_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_4_0.outcome.1",
+      "text": "一个月不是终身承诺。她把约定写在纸上，认真地签下自己的名字。",
+      "group": "event:main_4_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_4_1.outcome.0",
+      "text": "你们争论过，最终约定重要决定要提前说。信任没有消失，只是多了一条清楚的边界。",
+      "group": "event:main_4_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_4_1.outcome.1",
+      "text": "你没有替她取消承诺，而是陪她重新安排剩下的事情。她明白了自由也包括兑现答应过的话。",
+      "group": "event:main_4_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_4_2.outcome.0",
+      "text": "她一笔一画写得郑重。你把备用胶带放进她的包里，像过去一样准备好，却退到了观众席。",
+      "group": "event:main_4_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_4_2.outcome.1",
+      "text": "两个名字各有自己的位置。她没有离你更远，只是开始站在你身旁。",
+      "group": "event:main_4_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_5_0.outcome.0",
+      "text": "她想起自己第一次站在桌子后面的样子。第二天，她先去听每个孩子想做什么。",
+      "group": "event:main_5_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_5_0.outcome.1",
+      "text": "你们写下开放时间、安全和收拾工具的方法。规则不是为了命令别人，而是让大家安心。",
+      "group": "event:main_5_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_5_1.outcome.0",
+      "text": "她要求一起修理工具，也为那个孩子留了回来帮忙的机会。责任与温柔终于能同时存在。",
+      "group": "event:main_5_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_5_1.outcome.1",
+      "text": "她没有独自承担损失，而是和孩子商定了能做到的补救。那份约定后来被认真完成了。",
+      "group": "event:main_5_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_5_2.outcome.0",
+      "text": "她红着脸说只是想起了以前。那些曾被给予的耐心，如今正被她传给别人。",
+      "group": "event:main_5_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_5_2.outcome.1",
+      "text": "你默默整理好散落的材料。她回头时，你朝她点了点头，就像第一年那样。",
+      "group": "event:main_5_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_6_0.outcome.0",
+      "text": "她在地图边缘补了一条线。那里还没有确定的目的地，但已经有了出发的方向。",
+      "group": "event:main_6_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_6_0.outcome.1",
+      "text": "行李、费用、住处与回信地址被一项项写下。认真准备让憧憬有了可以落脚的地方。",
+      "group": "event:main_6_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_6_1.outcome.0",
+      "text": "她把“别人会怎么看”划掉，留下“我想怎样生活”。这一次，答案更像她自己。",
+      "group": "event:main_6_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_6_1.outcome.1",
+      "text": "两张纸写满以后，她发现每条路都有值得珍惜的事，也都有需要承担的代价。",
+      "group": "event:main_6_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_6_2.outcome.0",
+      "text": "她写进了窗台的花和第一次展览。那些看似普通的日子，原来同样组成了现在的她。",
+      "group": "event:main_6_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_6_2.outcome.1",
+      "text": "介绍信末尾，她坦率留下了自己的不足。她开始相信，不必成为完美的人才能出发。",
+      "group": "event:main_6_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_7_0.outcome.0",
+      "text": "很多愿望换了模样，有些依然没有完成。她却不再急着划掉，愿意带着它们继续生活。",
+      "group": "event:main_7_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_7_0.outcome.1",
+      "text": "你说未来还会发生没有安排好的事。她合上本子，第一次不觉得空白意味着缺少什么。",
+      "group": "event:main_7_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_7_1.outcome.0",
+      "text": "她郑重地在日历上画了星星。你知道，她需要的从来不只是掌声，还有那个会到场的人。",
+      "group": "event:main_7_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_7_1.outcome.1",
+      "text": "一封封信寄了出去。她发现自己的成长并不孤单，许多温柔都留在了沿途。",
+      "group": "event:main_7_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_7_2.outcome.0",
+      "text": "她把钥匙收进随身的小袋。长大不是归还家的资格，而是能够带着它走得更远。",
+      "group": "event:main_7_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_7_2.outcome.1",
+      "text": "你们在空白处画下一颗种子。故事即将翻过一页，那个约定却会继续发芽。",
+      "group": "event:main_7_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "event.main_0_1.callback.independent",
+      "text": "那枚亲手刻过的钥匙牌就放在手账旁，星星形状的刻痕还很新。",
+      "group": "event:main_0_1",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_0_1.callback.warm",
+      "text": "她把你交给她的备用钥匙放在桌边，终于敢把明天也想得远一点。",
+      "group": "event:main_0_1",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_1_0.callback.independent",
+      "text": "她想起自己最后决定搬出桌子的那个午后，这次也想亲手写下一个开始。",
+      "group": "event:main_1_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_1_0.callback.warm",
+      "text": "她还记得第一年展台前停下脚步的邻居，原来普通生活也值得被认真讲述。",
+      "group": "event:main_1_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_2_0.callback.independent",
+      "text": "她想起第一位观众问过的问题，原来被认真倾听的感觉并不只来自奖状。",
+      "group": "event:main_2_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_2_0.callback.warm",
+      "text": "她说去年忘词时看见了你点头，知道自己可以慢一点再继续。",
+      "group": "event:main_2_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_3_1.callback.independent",
+      "text": "抢救回来的那页草稿还压在书下，提醒她有些东西没有被雨带走。",
+      "group": "event:main_3_1",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_3_1.callback.warm",
+      "text": "你们已经一起难过过一次，她这回终于不再假装什么都没发生。",
+      "group": "event:main_3_1",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "child"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_4_0.callback.independent",
+      "text": "那次一起修书架的经历，让她把大目标拆成了一件件做得到的小事。",
+      "group": "event:main_4_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "teen"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_4_0.callback.warm",
+      "text": "她在计划里特意留出了不用证明自己的休息日。",
+      "group": "event:main_4_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "teen"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_4_1.callback.independent",
+      "text": "她翻出你们写下的试行约定，第一次主动提出一起检查哪里需要调整。",
+      "group": "event:main_4_1",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "teen"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_4_1.callback.warm",
+      "text": "她还记得你认真听完计划的样子，明白这次也应该给你同样的尊重。",
+      "group": "event:main_4_1",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "teen"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_5_0.callback.independent",
+      "text": "她想起自己兑现承诺时的忙乱，希望新来的孩子能少走一点弯路。",
+      "group": "event:main_5_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "teen"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_5_0.callback.warm",
+      "text": "她把你们约定过的“提前说清楚”写在了准备清单的第一行。",
+      "group": "event:main_5_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "teen"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_6_0.callback.independent",
+      "text": "从一起制定开放规则开始，她就知道每一个新地方都需要认真准备。",
+      "group": "event:main_6_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "grown"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_6_0.callback.warm",
+      "text": "那把展览室钥匙已经被她交接妥当，她学会了带着责任去向往远方。",
+      "group": "event:main_6_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "grown"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_7_0.callback.independent",
+      "text": "留下与远行的两张草稿还夹在书里，每种生活的代价都曾被她认真想过。",
+      "group": "event:main_7_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "grown"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_7_0.callback.warm",
+      "text": "她在手账末页写着：勇气不由离家的距离决定。",
+      "group": "event:main_7_0",
+      "role": "story",
+      "emotion": "温柔地补充一段与过往选择有关的回忆",
+      "ages": [
+        "grown"
+      ],
+      "priority": 14
+    },
+    {
+      "id": "event.main_7_2.memory.1",
+      "text": "翻过第一页的生活展台，她轻轻说：“这些，我都记得。”",
+      "group": "event:main_7_2",
+      "role": "dialogue",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "event.main_7_2.memory.2",
+      "text": "翻过那张被雨淋湿又修补过的纸，她轻轻说：“这些，我都记得。”",
+      "group": "event:main_7_2",
+      "role": "dialogue",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "event.main_7_2.memory.3",
+      "text": "翻过第一页的生活展台、那张被雨淋湿又修补过的纸，她轻轻说：“这些，我都记得。”",
+      "group": "event:main_7_2",
+      "role": "dialogue",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "event.main_7_2.memory.4",
+      "text": "翻过她亲手签下的第一个月计划，她轻轻说：“这些，我都记得。”",
+      "group": "event:main_7_2",
+      "role": "dialogue",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "event.main_7_2.memory.5",
+      "text": "翻过第一页的生活展台、她亲手签下的第一个月计划，她轻轻说：“这些，我都记得。”",
+      "group": "event:main_7_2",
+      "role": "dialogue",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "event.main_7_2.memory.6",
+      "text": "翻过那张被雨淋湿又修补过的纸、她亲手签下的第一个月计划，她轻轻说：“这些，我都记得。”",
+      "group": "event:main_7_2",
+      "role": "dialogue",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "event.main_7_2.memory.7",
+      "text": "翻过第一页的生活展台、那张被雨淋湿又修补过的纸、她亲手签下的第一个月计划，她轻轻说：“这些，我都记得。”",
+      "group": "event:main_7_2",
+      "role": "dialogue",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 16
+    },
+    {
+      "id": "event.side_fern_0.text",
+      "text": "森林入口，一个叫菲恩的采集学徒找不到背包。艾莉想帮忙，又怕耽误回家的时间。",
+      "group": "event:side_fern_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_fern_1.text",
+      "text": "菲恩拿来两片几乎相同的叶子，请艾莉判断哪一种能采。她盯了很久，仍不敢确定。",
+      "group": "event:side_fern_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_fern_2.text",
+      "text": "菲恩想赶在日落前找到一片花谷，艾莉却发现回程时间已经不够。对方不愿就此放弃。",
+      "group": "event:side_fern_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_fern_3.text",
+      "text": "沿途多了被折断的幼树，菲恩气得想立刻追上前面的采集者。艾莉握住了她的袖口。",
+      "group": "event:side_fern_3",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_fern_4.text",
+      "text": "菲恩画好了一张新手路线图，想在角落写上两个人的名字。艾莉想起她们第一次相遇时丢失的背包。",
+      "group": "event:side_fern_4",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_mira_0.text",
+      "text": "文学课上，米拉总是一个人坐在窗边。艾莉发现她的笔尖断了，却不知道该不该打扰。",
+      "group": "event:side_mira_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_mira_1.text",
+      "text": "米拉借来的书有一页折了角。她以为艾莉会生气，整节课都没有说话。",
+      "group": "event:side_mira_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_mira_2.text",
+      "text": "米拉喜欢故事里的冒险者，艾莉却更在意留在家里的人。两个人第一次争论起一本书。",
+      "group": "event:side_mira_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_mira_3.text",
+      "text": "米拉请假许久，艾莉写好的邀请信一直放在抽屉。她担心朋友已经有了新的伙伴。",
+      "group": "event:side_mira_3",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_mira_4.text",
+      "text": "米拉带来一个小木架，想和艾莉一起建立交换书角。第一层只能放下六本书。",
+      "group": "event:side_mira_4",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_nora_0.text",
+      "text": "茶屋老板诺拉让她尝试烤饼干。形状歪了，味道却很好，艾莉想把它们全部藏起来。",
+      "group": "event:side_nora_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_nora_1.text",
+      "text": "艾莉把茶送错了桌，听见客人的叹气，整个人僵在原地。诺拉轻轻把托盘接了过去。",
+      "group": "event:side_nora_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_nora_2.text",
+      "text": "总坐在窗边的老客人几天没来。艾莉一边擦桌子，一边看向街口。",
+      "group": "event:side_nora_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_nora_3.text",
+      "text": "诺拉让她设计一款新点心。艾莉试了几次都不满意，担心浪费食材。",
+      "group": "event:side_nora_3",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_nora_4.text",
+      "text": "新点心卖得很好，诺拉让她把名字写进菜单。她犹豫了一会儿，想起一路帮过自己的人。",
+      "group": "event:side_nora_4",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_rowan_0.text",
+      "text": "老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。",
+      "group": "event:side_rowan_0",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_rowan_1.text",
+      "text": "练习对打时，她下意识躲开了木剑。艾莉为自己不够勇敢而脸红，罗恩却没有责怪。",
+      "group": "event:side_rowan_1",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_rowan_2.text",
+      "text": "她第一次输给了比自己年纪小的学员。回家的路上，她把木剑藏进包底。",
+      "group": "event:side_rowan_2",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_rowan_3.text",
+      "text": "集市上有人为摊位争吵，艾莉想到罗恩教过的话，却不确定该不该站出来。",
+      "group": "event:side_rowan_3",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_rowan_4.text",
+      "text": "罗恩请她把旧木剑交给新学员。握柄上还有她早年留下的划痕，她忽然有些舍不得。",
+      "group": "event:side_rowan_4",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "event.side_fern_0.choice.0",
+      "text": "约定范围，一起寻找",
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_0.choice.1",
+      "text": "先把消息告诉巡林员",
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_1.choice.0",
+      "text": "承认不知道，查阅图册",
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_1.choice.1",
+      "text": "带回给老师辨认",
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_2.choice.0",
+      "text": "坚持今天先安全返回",
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_2.choice.1",
+      "text": "记下路线，另定出发时间",
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_3.choice.0",
+      "text": "先记录位置并报告巡林员",
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_3.choice.1",
+      "text": "先照顾受损的幼树",
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_4.choice.0",
+      "text": "一起检查每个安全标记",
+      "group": "event:side_fern_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_4.choice.1",
+      "text": "把地图送给第一次探索的人",
+      "group": "event:side_fern_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_0.choice.0",
+      "text": "借给她一支笔",
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_0.choice.1",
+      "text": "先问她需不需要帮忙",
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_1.choice.0",
+      "text": "告诉她书比不上朋友重要",
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_1.choice.1",
+      "text": "一起学会保护借来的东西",
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_2.choice.0",
+      "text": "交换理由，听完再回答",
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_2.choice.1",
+      "text": "一起找老师讨论",
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_3.choice.0",
+      "text": "寄出信，把想念说清楚",
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_3.choice.1",
+      "text": "先问问老师她的近况",
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_4.choice.0",
+      "text": "每人挑三本喜欢的书",
+      "group": "event:side_mira_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_mira_4.choice.1",
+      "text": "留一格给后来的人",
+      "group": "event:side_mira_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_0.choice.0",
+      "text": "问问客人的真实感受",
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_0.choice.1",
+      "text": "留一块自己尝，再继续练习",
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_1.choice.0",
+      "text": "陪她道歉并重新送茶",
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_1.choice.1",
+      "text": "请诺拉教她记订单的方法",
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_2.choice.0",
+      "text": "请诺拉帮忙问候",
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_2.choice.1",
+      "text": "为他留下一张问候卡",
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_3.choice.0",
+      "text": "限定小份试做，慢慢调整",
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_3.choice.1",
+      "text": "从家里熟悉的味道开始",
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_4.choice.0",
+      "text": "大方写下自己的名字",
+      "group": "event:side_nora_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_nora_4.choice.1",
+      "text": "加上一句送给大家的感谢",
+      "group": "event:side_nora_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_0.choice.0",
+      "text": "认真完成基础练习",
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_0.choice.1",
+      "text": "请教这项练习的用处",
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_1.choice.0",
+      "text": "肯定保护自己的判断",
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_1.choice.1",
+      "text": "陪她慢慢重新练习",
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_2.choice.0",
+      "text": "请她复盘做得最好的一招",
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_2.choice.1",
+      "text": "给她时间，再问要不要继续",
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_3.choice.0",
+      "text": "先请守卫与摊主一起商量",
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_3.choice.1",
+      "text": "保持距离，帮助旁边的小孩",
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_4.choice.0",
+      "text": "把划痕的故事讲给新人听",
+      "group": "event:side_rowan_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_rowan_4.choice.1",
+      "text": "留下木剑，另做一把送给新人",
+      "group": "event:side_rowan_4",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "event.side_fern_0.outcome.0",
+      "text": "背包就在第一块路标后。菲恩感谢她，也记住了出发前确认物品的习惯。",
+      "group": "event:side_fern_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_0.outcome.1",
+      "text": "巡林员很快找到背包，还教她们如何描述准确位置。",
+      "group": "event:side_fern_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_1.outcome.0",
+      "text": "图册上的叶脉差别救了她们一次冒失。菲恩说不知道时停下也是本领。",
+      "group": "event:side_fern_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_1.outcome.1",
+      "text": "老师仔细讲解了区别。她们把新知识画进各自的采集本。",
+      "group": "event:side_fern_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_2.outcome.0",
+      "text": "第二天她们从容抵达花谷。那些花没有离开，约定也没有因为等待而变少。",
+      "group": "event:side_fern_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_2.outcome.1",
+      "text": "菲恩起初失望，看到详细路线后又兴奋起来。她们有了更可靠的计划。",
+      "group": "event:side_fern_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_3.outcome.0",
+      "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。生气终于变成了能做的事。",
+      "group": "event:side_fern_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_3.outcome.1",
+      "text": "她们为能救回的小树支起木架。回程时，菲恩的脚步没有那么急了。",
+      "group": "event:side_fern_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_4.outcome.0",
+      "text": "图上补上了水源、避雨处和回程时间。她们把可靠放在了好看之前。",
+      "group": "event:side_fern_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_fern_4.outcome.1",
+      "text": "新手认真收好地图。那些走过的弯路，成了别人平安回家的帮助。",
+      "group": "event:side_fern_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_0.outcome.0",
+      "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。",
+      "group": "event:side_mira_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_0.outcome.1",
+      "text": "米拉点点头，第一次主动告诉艾莉自己的名字。",
+      "group": "event:side_mira_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_1.outcome.0",
+      "text": "你们一起把书页压平。米拉终于把憋着的道歉说了出来。",
+      "group": "event:side_mira_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_1.outcome.1",
+      "text": "她们做了两枚书签，一人一枚，也约定有事直接说。",
+      "group": "event:side_mira_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_2.outcome.0",
+      "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。",
+      "group": "event:side_mira_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_2.outcome.1",
+      "text": "老师没有评出谁对，只请她们分别续写结尾。两个人都迫不及待想读对方的故事。",
+      "group": "event:side_mira_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_3.outcome.0",
+      "text": "回信来得很快。原来米拉也一直担心打扰她，两封信把沉默填满了。",
+      "group": "event:side_mira_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_3.outcome.1",
+      "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。",
+      "group": "event:side_mira_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_4.outcome.0",
+      "text": "她们在扉页写下推荐理由。小书角慢慢成了大家停下来聊天的地方。",
+      "group": "event:side_mira_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_mira_4.outcome.1",
+      "text": "第六格先空着。几天后，一位害羞的新同学放进了自己的第一本书。",
+      "group": "event:side_mira_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_0.outcome.0",
+      "text": "客人说看起来像小云朵。诺拉教她分清做得不完美和做得不好。",
+      "group": "event:side_nora_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_0.outcome.1",
+      "text": "她认真记下烘烤时间，最后一盘终于有了整齐的边缘。",
+      "group": "event:side_nora_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_1.outcome.0",
+      "text": "客人接受了道歉。诺拉说服务不是从不犯错，而是愿意好好补救。",
+      "group": "event:side_nora_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_1.outcome.1",
+      "text": "她给每张桌子画了小记号。忙起来时，纸条成了可靠的帮手。",
+      "group": "event:side_nora_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_2.outcome.0",
+      "text": "原来老人只是扭伤了脚。你们送去一小袋饼干，他笑着说茶屋还记得自己。",
+      "group": "event:side_nora_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_2.outcome.1",
+      "text": "几天后卡片被带走，桌上多了一篮自家种的苹果。",
+      "group": "event:side_nora_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_3.outcome.0",
+      "text": "她学会先写配方再动手。失败的成本变小了，试新想法也不再那么可怕。",
+      "group": "event:side_nora_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_3.outcome.1",
+      "text": "她把蜂蜜饼改成小小星形。尝到第一口时，她想起了家中的餐桌。",
+      "group": "event:side_nora_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_4.outcome.0",
+      "text": "她学会承认付出的价值，也在介绍时认真感谢了诺拉。",
+      "group": "event:side_nora_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_nora_4.outcome.1",
+      "text": "菜单背面多了小小一行字。熟客们发现以后，都特意翻过去读了一遍。",
+      "group": "event:side_nora_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_0.outcome.0",
+      "text": "罗恩说守护别人先要站得稳。她第一次理解训练不是只有挥剑。",
+      "group": "event:side_rowan_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_0.outcome.1",
+      "text": "得到解释以后，她不再赌气。罗恩也学会先把理由讲清楚。",
+      "group": "event:side_rowan_0",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_1.outcome.0",
+      "text": "罗恩教她把后退接成防守。她发现谨慎与勇气并不冲突。",
+      "group": "event:side_rowan_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_1.outcome.1",
+      "text": "一次、两次，她终于能看清对手动作，不再只顾闭眼冲上去。",
+      "group": "event:side_rowan_1",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_2.outcome.0",
+      "text": "她记起自己成功挡住过一次进攻。罗恩第二天从那一招继续教起。",
+      "group": "event:side_rowan_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_2.outcome.1",
+      "text": "休息以后，她自己把木剑拿了出来。这次她想学会的不是证明自己。",
+      "group": "event:side_rowan_2",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_3.outcome.0",
+      "text": "争执在几句话后平息。罗恩说她已经学会了木剑教不了的事。",
+      "group": "event:side_rowan_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_3.outcome.1",
+      "text": "她把孩子带离拥挤处。没有挥剑，也有人因为她而安全。",
+      "group": "event:side_rowan_3",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_4.outcome.0",
+      "text": "新人听得认真。她第一次站到了教人的位置，声音像当年的罗恩一样耐心。",
+      "group": "event:side_rowan_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "event.side_rowan_4.outcome.1",
+      "text": "旧剑成为纪念，新剑成为开始。罗恩笑着帮她磨平了最后一点毛刺。",
+      "group": "event:side_rowan_4",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "side.relationship.fern",
+      "text": "菲恩已经习惯把重要的想法先讲给她听，见到她时，神情也比初识那年自在许多。",
+      "group": "side-relationship",
+      "role": "story",
+      "emotion": "自然、熟稔，表现朋友关系已经变得亲近",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 24
+    },
+    {
+      "id": "side.relationship.mira",
+      "text": "米拉已经习惯把重要的想法先讲给她听，见到她时，神情也比初识那年自在许多。",
+      "group": "side-relationship",
+      "role": "story",
+      "emotion": "自然、熟稔，表现朋友关系已经变得亲近",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 24
+    },
+    {
+      "id": "side.relationship.nora",
+      "text": "诺拉已经习惯把重要的想法先讲给她听，见到她时，神情也比初识那年自在许多。",
+      "group": "side-relationship",
+      "role": "story",
+      "emotion": "自然、熟稔，表现朋友关系已经变得亲近",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 24
+    },
+    {
+      "id": "side.relationship.rowan",
+      "text": "罗恩已经习惯把重要的想法先讲给她听，见到她时，神情也比初识那年自在许多。",
+      "group": "side-relationship",
+      "role": "story",
+      "emotion": "自然、熟稔，表现朋友关系已经变得亲近",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 24
+    },
+    {
+      "id": "event.book.text",
+      "text": "旧书店老板送来一本缺了封面的星图。她趴在桌边翻了一整晚：“原来，天上的星星也有名字。”",
+      "group": "event:book",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.choice.text",
+      "text": "她在窗边写了很久，最后把日记递给你。上面列着许多未来，最后一句是：“我想选一条属于自己的路。”",
+      "group": "event:choice",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_church_seed.text",
+      "text": "义工照料的花盆里，只有她那盆还没有动静。她每天都去看，却始终等不到一片叶子。",
+      "group": "event:daily_church_seed",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_dance_steps.text",
+      "text": "她在厨房外悄悄练舞，脚步声总在第三拍慢下来。发现你在听，她不好意思地停住了。",
+      "group": "event:daily_dance_steps",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_dress_mirror.text",
+      "text": "换上新礼服后，她在镜子前练习行礼，又忍不住偷偷转了一圈。看到你时，她立刻站得笔直。",
+      "group": "event:daily_dress_mirror",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_first_wage.text",
+      "text": "农场帮工回来，她一遍遍清点工资，把钱袋的绳结系得很紧。",
+      "group": "event:daily_first_wage",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_guard_gate.text",
+      "text": "见习时，她遇到一位听不清指路的老人。队伍越来越长，她有点着急。",
+      "group": "event:daily_guard_gate",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_library_note.text",
+      "text": "整理图书时，她找到一张写着“读到这里请不要放弃”的旧便签。",
+      "group": "event:daily_library_note",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_magic_lamp.text",
+      "text": "魔法练习用的小灯总不亮，她已经检查了三遍，开始怀疑自己没有天分。",
+      "group": "event:daily_magic_lamp",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_mountain_cloud.text",
+      "text": "登上山路的高处，她第一次看见城镇变成那么小的一点。她指着家的方向，忽然不再说话。",
+      "group": "event:daily_mountain_cloud",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_paint_wall.text",
+      "text": "绘画课回来，她想给房间画一张四季图，又担心把墙面弄脏。",
+      "group": "event:daily_paint_wall",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_quiet_trust.text",
+      "text": "她端着两杯热水坐到你身边。今晚没有烦恼要问，也没有愿望要讨论，只想在这里待一会儿。",
+      "group": "event:daily_quiet_trust",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_ruins_mark.text",
+      "text": "古塔墙上有一排陌生刻痕。她想临摹，又担心损伤原来的石壁。",
+      "group": "event:daily_ruins_mark",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_sea_shell.text",
+      "text": "海边回来，她把一枚贝壳贴在耳边，问里面的声音会不会在冬天消失。",
+      "group": "event:daily_sea_shell",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_spring_shoot.text",
+      "text": "春天到了，去年一直没有动静的花盆冒出一小点绿。她把你叫来，声音压得很轻，仿佛怕惊醒它。",
+      "group": "event:daily_spring_shoot",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_summer_hat.text",
+      "text": "夏天的风吹走了她的帽子。追到花坛边时，她看见一个更小的孩子正替她举着它。",
+      "group": "event:daily_summer_hat",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_tired_cup.text",
+      "text": "她端着茶杯睡着了，桌上的练习还没有写完。你轻轻叫醒她时，她先问明天是不是还要早起。",
+      "group": "event:daily_tired_cup",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.daily_winter_pocket.text",
+      "text": "她把一袋热栗子塞进你的手里，说新披肩的口袋刚好能装下两份。",
+      "group": "event:daily_winter_pocket",
+      "role": "story",
+      "emotion": "温和、自然、像在回忆生活小事",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.dream.text",
+      "text": "睡前，她忽然问你：“长大以后，我一定要成为很厉害的人吗？”窗外的月光落在被子上。",
+      "group": "event:dream",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.exam.text",
+      "text": "她把试卷藏在身后，眼睛红红的。“我明明很努力了，为什么还是做不好？”",
+      "group": "event:exam",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.flowers.text",
+      "text": "窗台上的种子终于开花了。她从清晨一直守到午后，只为让你看到花瓣完全展开的一刻。",
+      "group": "event:flowers",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.friend.text",
+      "text": "邻居的孩子送来一封带着干花的信，邀请她参加庭院茶会。她有些期待，也有些不知所措。",
+      "group": "event:friend",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.friendship.text",
+      "text": "茶会回来的路上，她一直低着头。原来，最好的朋友误会了她。她想解释，却又有些生气。",
+      "group": "event:friendship",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.independent.text",
+      "text": "她把一小袋金币放在餐桌上，推到你面前：“这次的晚餐，我来请。”",
+      "group": "event:independent",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.kitten.text",
+      "text": "回家的路上下起了雨。艾莉在屋檐下发现了一只发抖的小猫，抬头小声问你：“我们可以帮帮它吗？”",
+      "group": "event:kitten",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.letter.text",
+      "text": "城外学院寄来一封介绍信。她看了很久，问你：“如果以后离家很远，你会想我吗？”",
+      "group": "event:letter",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.lost.text",
+      "text": "采蘑菇时，她发现一条没走过的小路。树枝上系着褪色的缎带，像是有人留下的路标。",
+      "group": "event:lost",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.market.text",
+      "text": "买面包回来后，她发现老板多找了二十枚金币。她把硬币放在掌心，安静地等着你的回答。",
+      "group": "event:market",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.mentor.text",
+      "text": "老骑士又来到城里。这次，他邀请她参加一次正式的训练。“愿不愿意走得更远一点？”",
+      "group": "event:mentor",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.music.text",
+      "text": "傍晚的广场，有位旅人拉起了小提琴。她情不自禁地转了个圈，裙摆像花一样散开。",
+      "group": "event:music",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.painting.text",
+      "text": "整理房间时，你看到一幅藏在抽屉里的画。画上的你站在花园里，笑得特别灿烂。",
+      "group": "event:painting",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.portrait.text",
+      "text": "整理旧物时，她翻出了十岁那年的画像。她笑着比了比自己的身高：“原来，真的长大了好多。”",
+      "group": "event:portrait",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.promise.text",
+      "text": "她在庭院里种下了一棵小树，说想看它长成能遮阴的模样。风吹过来，她的声音温柔又坚定。",
+      "group": "event:promise",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.sewing.text",
+      "text": "旧裙子的袖口磨破了。她拿着针线，想把破洞绣成一朵小小的雏菊。",
+      "group": "event:sewing",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.stage.text",
+      "text": "小剧院缺一位临时演员，她意外地得到了邀请。上台前，她握着你的手，掌心都是汗。",
+      "group": "event:stage",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.sword.text",
+      "text": "广场上，一位退役骑士正在教孩子们挥剑。她站在旁边看了好久，悄悄握紧了自己的手。",
+      "group": "event:sword",
+      "role": "story",
+      "emotion": "带入情节，清楚而自然",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 30
+    },
+    {
+      "id": "event.book.choice.0",
+      "text": "陪她一起认识星空",
+      "group": "event:book",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.book.choice.1",
+      "text": "鼓励她自己研究",
+      "group": "event:book",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.choice.choice.0",
+      "text": "无论选哪条路，我都会支持你",
+      "group": "event:choice",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.choice.choice.1",
+      "text": "一起认真分析每个选择",
+      "group": "event:choice",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_church_seed.choice.0",
+      "text": "一起确认水和阳光是否合适",
+      "group": "event:daily_church_seed",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_church_seed.choice.1",
+      "text": "请教照顾花圃的人",
+      "group": "event:daily_church_seed",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_dance_steps.choice.0",
+      "text": "替她轻轻打拍子",
+      "group": "event:daily_dance_steps",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_dance_steps.choice.1",
+      "text": "请她教你最简单的一段",
+      "group": "event:daily_dance_steps",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_dress_mirror.choice.0",
+      "text": "夸她刚才笑起来的样子",
+      "group": "event:daily_dress_mirror",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_dress_mirror.choice.1",
+      "text": "陪她练习第一次入场",
+      "group": "event:daily_dress_mirror",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_first_wage.choice.0",
+      "text": "请她决定留多少作零用",
+      "group": "event:daily_first_wage",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_first_wage.choice.1",
+      "text": "一起记进家庭账本",
+      "group": "event:daily_first_wage",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_guard_gate.choice.0",
+      "text": "画一张简单的路线图",
+      "group": "event:daily_guard_gate",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_guard_gate.choice.1",
+      "text": "请同伴暂时代班，陪老人走一段",
+      "group": "event:daily_guard_gate",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_library_note.choice.0",
+      "text": "把便签留给下一位读者",
+      "group": "event:daily_library_note",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_library_note.choice.1",
+      "text": "问问馆员能否收藏下来",
+      "group": "event:daily_library_note",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_magic_lamp.choice.0",
+      "text": "陪她把步骤从头理一遍",
+      "group": "event:daily_magic_lamp",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_magic_lamp.choice.1",
+      "text": "请老师解释原理",
+      "group": "event:daily_magic_lamp",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_mountain_cloud.choice.0",
+      "text": "一起找找熟悉的屋顶",
+      "group": "event:daily_mountain_cloud",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_mountain_cloud.choice.1",
+      "text": "给她安静看风景的时间",
+      "group": "event:daily_mountain_cloud",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_paint_wall.choice.0",
+      "text": "先在纸上完成草图",
+      "group": "event:daily_paint_wall",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_paint_wall.choice.1",
+      "text": "帮她找一块可以悬挂的画板",
+      "group": "event:daily_paint_wall",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_quiet_trust.choice.0",
+      "text": "陪她看窗外的灯",
+      "group": "event:daily_quiet_trust",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_quiet_trust.choice.1",
+      "text": "一起整理桌上的旧照片",
+      "group": "event:daily_quiet_trust",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_ruins_mark.choice.0",
+      "text": "用纸笔在旁边记录",
+      "group": "event:daily_ruins_mark",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_ruins_mark.choice.1",
+      "text": "先向看守询问允许的做法",
+      "group": "event:daily_ruins_mark",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_sea_shell.choice.0",
+      "text": "一起记住这一天的声音",
+      "group": "event:daily_sea_shell",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_sea_shell.choice.1",
+      "text": "告诉她声音的来由",
+      "group": "event:daily_sea_shell",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_spring_shoot.choice.0",
+      "text": "为新芽记下今天的日期",
+      "group": "event:daily_spring_shoot",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_spring_shoot.choice.1",
+      "text": "一起给花盆换一个位置",
+      "group": "event:daily_spring_shoot",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_summer_hat.choice.0",
+      "text": "认真向孩子道谢",
+      "group": "event:daily_summer_hat",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_summer_hat.choice.1",
+      "text": "邀请孩子一起在树荫下休息",
+      "group": "event:daily_summer_hat",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_tired_cup.choice.0",
+      "text": "今晚先睡，练习明天再说",
+      "group": "event:daily_tired_cup",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_tired_cup.choice.1",
+      "text": "一起把明天的事情减少一点",
+      "group": "event:daily_tired_cup",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_winter_pocket.choice.0",
+      "text": "一起坐下来慢慢吃",
+      "group": "event:daily_winter_pocket",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.daily_winter_pocket.choice.1",
+      "text": "留几颗带给茶屋的朋友",
+      "group": "event:daily_winter_pocket",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.dream.choice.0",
+      "text": "你快乐，就已经很好了",
+      "group": "event:dream",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.dream.choice.1",
+      "text": "找到你真正喜欢的事就好",
+      "group": "event:dream",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.exam.choice.0",
+      "text": "先抱抱她，再一起看看题目",
+      "group": "event:exam",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.exam.choice.1",
+      "text": "告诉她，犯错也是成长的一部分",
+      "group": "event:exam",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.flowers.choice.0",
+      "text": "为这朵花画一张纪念画",
+      "group": "event:flowers",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.flowers.choice.1",
+      "text": "一起种下更多的种子",
+      "group": "event:flowers",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.friend.choice.0",
+      "text": "一起准备小点心",
+      "group": "event:friend",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.friend.choice.1",
+      "text": "教她大方地介绍自己",
+      "group": "event:friend",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.friendship.choice.0",
+      "text": "陪她写一封真诚的信",
+      "group": "event:friendship",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.friendship.choice.1",
+      "text": "给她一点时间，自己理清心情",
+      "group": "event:friendship",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.independent.choice.0",
+      "text": "郑重地谢谢她，请她决定菜单",
+      "group": "event:independent",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.independent.choice.1",
+      "text": "留一半，帮她存下另一半",
+      "group": "event:independent",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.kitten.choice.0",
+      "text": "把它抱回家照顾",
+      "group": "event:kitten",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.kitten.choice.1",
+      "text": "一起为它寻找主人",
+      "group": "event:kitten",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.letter.choice.0",
+      "text": "当然会，但我更想看见你快乐",
+      "group": "event:letter",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.letter.choice.1",
+      "text": "约定每个月都给彼此写信",
+      "group": "event:letter",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.lost.choice.0",
+      "text": "做好标记，勇敢探索",
+      "group": "event:lost",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.lost.choice.1",
+      "text": "记下位置，改天再来",
+      "group": "event:lost",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.market.choice.0",
+      "text": "一起把钱送回去",
+      "group": "event:market",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.market.choice.1",
+      "text": "让她自己做决定",
+      "group": "event:market",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.mentor.choice.0",
+      "text": "支持她，接受新的挑战",
+      "group": "event:mentor",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.mentor.choice.1",
+      "text": "先听听她自己的想法",
+      "group": "event:mentor",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.music.choice.0",
+      "text": "鼓掌，陪她跳完这一曲",
+      "group": "event:music",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.music.choice.1",
+      "text": "请旅人教她一点乐理",
+      "group": "event:music",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.painting.choice.0",
+      "text": "认真把画挂在墙上",
+      "group": "event:painting",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.painting.choice.1",
+      "text": "送她一套新的画笔",
+      "group": "event:painting",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.portrait.choice.0",
+      "text": "再为她画一幅现在的画像",
+      "group": "event:portrait",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.portrait.choice.1",
+      "text": "一起重走小时候的花园小径",
+      "group": "event:portrait",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.promise.choice.0",
+      "text": "约好以后每个春天都回来看看",
+      "group": "event:promise",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.promise.choice.1",
+      "text": "把这份心意画进成长手账",
+      "group": "event:promise",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.sewing.choice.0",
+      "text": "坐下来，陪她一针一线地缝",
+      "group": "event:sewing",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.sewing.choice.1",
+      "text": "夸夸她，把创意放心交给她",
+      "group": "event:sewing",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.stage.choice.0",
+      "text": "告诉她：我会坐在第一排",
+      "group": "event:stage",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.stage.choice.1",
+      "text": "陪她再练最后一遍",
+      "group": "event:stage",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.sword.choice.0",
+      "text": "鼓励她上前试一试",
+      "group": "event:sword",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.sword.choice.1",
+      "text": "听老骑士讲冒险故事",
+      "group": "event:sword",
+      "role": "choice",
+      "emotion": "清楚、平静地读出养育者可以选择的行动",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 31
+    },
+    {
+      "id": "event.book.outcome.0",
+      "text": "这个夜晚，你们给窗外最亮的星星取了一个只有彼此知道的名字。",
+      "group": "event:book",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.book.outcome.1",
+      "text": "她认真写满了三页笔记，兴奋地把新发现讲给你听。",
+      "group": "event:book",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.choice.outcome.0",
+      "text": "她没有再问你哪一个答案正确。她知道，自己终于可以带着爱，勇敢走向远方。",
+      "group": "event:choice",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.choice.outcome.1",
+      "text": "你们聊到月亮升起。未来仍有未知，但地图上的线条已经渐渐清晰。",
+      "group": "event:choice",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_church_seed.outcome.0",
+      "text": "调整位置后，你们继续等待。她学会了照顾，也学会不是每件事都立刻有答案。",
+      "group": "event:daily_church_seed",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_church_seed.outcome.1",
+      "text": "对方告诉她种子各有自己的季节。她在花盆旁放下一张写着日期的小牌。",
+      "group": "event:daily_church_seed",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_dance_steps.outcome.0",
+      "text": "她跟着节奏又试了一次，最后那一步终于自然地落下。",
+      "group": "event:daily_dance_steps",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_dance_steps.outcome.1",
+      "text": "你总踩错方向，她笑着重新示范，自己也不知不觉记熟了。",
+      "group": "event:daily_dance_steps",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_dress_mirror.outcome.0",
+      "text": "她终于又转了一圈。裙摆展开时，笑容也不再需要练习。",
+      "group": "event:daily_dress_mirror",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_dress_mirror.outcome.1",
+      "text": "你们轮流扮演来宾，把紧张的开场练成了一段笑声。",
+      "group": "event:daily_dress_mirror",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_first_wage.outcome.0",
+      "text": "她分出一小份，又把其余认真收好。挣来的金币有了具体的打算。",
+      "group": "event:daily_first_wage",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_first_wage.outcome.1",
+      "text": "数字旁边，她写下了今天学会辨认的一种蔬菜。",
+      "group": "event:daily_first_wage",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_guard_gate.outcome.0",
+      "text": "老人终于看明白了，临走认真向她道谢。她也学会换一种方式解释。",
+      "group": "event:daily_guard_gate",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_guard_gate.outcome.1",
+      "text": "她说明情况后得到同伴支持，回程时也主动接下了对方的一项任务。",
+      "group": "event:daily_guard_gate",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_library_note.outcome.0",
+      "text": "她又加了一句自己的鼓励。小小的接力安静地留在了书页里。",
+      "group": "event:daily_library_note",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_library_note.outcome.1",
+      "text": "馆员给她一本留言册，让每一段鼓励都有可以留下的位置。",
+      "group": "event:daily_library_note",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_magic_lamp.outcome.0",
+      "text": "原来只是忘了一处小小的连接。灯亮起时，她长长地松了一口气。",
+      "group": "event:daily_magic_lamp",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_magic_lamp.outcome.1",
+      "text": "知道每一步为什么这样做以后，她终于不再只凭记忆尝试。",
+      "group": "event:daily_magic_lamp",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_mountain_cloud.outcome.0",
+      "text": "你们认了很久，她说看不清也没关系，自己知道回去的路。",
+      "group": "event:daily_mountain_cloud",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_mountain_cloud.outcome.1",
+      "text": "下山时，她主动说起以后还想去的地方。远方开始有了真实的形状。",
+      "group": "event:daily_mountain_cloud",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_paint_wall.outcome.0",
+      "text": "一张小画变成了四张，她已经开始期待下一季的颜色。",
+      "group": "event:daily_paint_wall",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_paint_wall.outcome.1",
+      "text": "画板有了自己的位置，房间也多了一块属于她的风景。",
+      "group": "event:daily_paint_wall",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_quiet_trust.outcome.0",
+      "text": "有些亲近不需要解释。灯一盏盏熄灭，你们才想起已经很晚了。",
+      "group": "event:daily_quiet_trust",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_quiet_trust.outcome.1",
+      "text": "照片背后的小字引出好多旧事，热水放凉了，你们也没有察觉。",
+      "group": "event:daily_quiet_trust",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_ruins_mark.outcome.0",
+      "text": "她没有触碰石壁，却把每个位置都画得仔细。回来后，馆员认出了其中的年代。",
+      "group": "event:daily_ruins_mark",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_ruins_mark.outcome.1",
+      "text": "看守借给她适合记录的工具，也赞许她先问再做。",
+      "group": "event:daily_ruins_mark",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_sea_shell.outcome.0",
+      "text": "她把海浪、风和你说话的样子写进手账。冬天也能从纸上找到这次旅行。",
+      "group": "event:daily_sea_shell",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_sea_shell.outcome.1",
+      "text": "她听懂后仍把贝壳留在床头。知道原理并不妨碍珍惜回忆。",
+      "group": "event:daily_sea_shell",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_spring_shoot.outcome.0",
+      "text": "手账上多了一枚小小绿点。等待终于有了可以看见的形状。",
+      "group": "event:daily_spring_shoot",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_spring_shoot.outcome.1",
+      "text": "新芽靠近了阳光。她说以后每天都要来看看，又认真补了一句：也不能浇太多水。",
+      "group": "event:daily_spring_shoot",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_summer_hat.outcome.0",
+      "text": "她蹲下来道谢，孩子笑着跑开。那顶帽子忽然成了今天最喜欢的东西。",
+      "group": "event:daily_summer_hat",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_summer_hat.outcome.1",
+      "text": "你们分了水壶里的水。炎热的午后多了一位短暂的小伙伴。",
+      "group": "event:daily_summer_hat",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_tired_cup.outcome.0",
+      "text": "你替她收好练习。第二天，她终于吃完了一顿不慌不忙的早餐。",
+      "group": "event:daily_tired_cup",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_tired_cup.outcome.1",
+      "text": "她划去不必要的安排，小声说原来计划也可以为休息让路。",
+      "group": "event:daily_tired_cup",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_winter_pocket.outcome.0",
+      "text": "你们在避风处剥栗子，手掌和心都渐渐暖了起来。",
+      "group": "event:daily_winter_pocket",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.daily_winter_pocket.outcome.1",
+      "text": "她认真包好另一份。冬天的温暖被分成了不止两份。",
+      "group": "event:daily_winter_pocket",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.dream.outcome.0",
+      "text": "她轻轻靠过来。“那我也希望你一直快乐。”",
+      "group": "event:dream",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.dream.outcome.1",
+      "text": "她认真想了想，在日记本上写下了一个新的愿望。",
+      "group": "event:dream",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.exam.outcome.0",
+      "text": "眼泪干了以后，那道题似乎也没有那么难了。她知道，成绩之外还有一个永远支持自己的人。",
+      "group": "event:exam",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.exam.outcome.1",
+      "text": "她把错题认真抄进本子，写下了“下次再试一次”。",
+      "group": "event:exam",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.flowers.outcome.0",
+      "text": "画纸上有花、有阳光，还有你们并肩坐着的影子。",
+      "group": "event:flowers",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.flowers.outcome.1",
+      "text": "她把新的花盆排得整整齐齐。“明年这里会是一座小花园。”",
+      "group": "event:flowers",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.friend.outcome.0",
+      "text": "带着微微烤焦的小饼干，她收获了第一个真正的朋友。",
+      "group": "event:friend",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.friend.outcome.1",
+      "text": "她在镜子前练习了许多次。茶会上，那个自信的笑容恰到好处。",
+      "group": "event:friend",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.friendship.outcome.0",
+      "text": "第二天，回信里夹着一朵小花。有些友谊经过雨天，反而更加明亮。",
+      "group": "event:friendship",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.friendship.outcome.1",
+      "text": "她在花园里坐了一下午，最终决定先说出那句“我们聊聊吧”。",
+      "group": "event:friendship",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.independent.outcome.0",
+      "text": "晚餐并不昂贵，但她一整晚都笑得很开心。付出被看见的感觉，像阳光一样温暖。",
+      "group": "event:independent",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.independent.outcome.1",
+      "text": "你们给储蓄罐贴上“未来的冒险”标签。她第一次认真计算起自己的梦想。",
+      "group": "event:independent",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.kitten.outcome.0",
+      "text": "小猫在壁炉旁睡着了。她望着你笑，眼睛亮得像星星。",
+      "group": "event:kitten",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.kitten.outcome.1",
+      "text": "你们敲开一扇扇门，终于找到了焦急的主人。她学会了责任。",
+      "group": "event:kitten",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.letter.outcome.0",
+      "text": "她把信仔细收好，又在背面写下了回家的地址。有些牵挂，让远行也变得温柔。",
+      "group": "event:letter",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.letter.outcome.1",
+      "text": "她认真选了一叠淡绿色的信纸。“第一封，就从出发那天开始写。”",
+      "group": "event:letter",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.lost.outcome.0",
+      "text": "小路尽头是一片铺满蓝色野花的山谷。她拾到一枚古老的银币。",
+      "group": "event:lost",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.lost.outcome.1",
+      "text": "谨慎也是勇气的一部分。她画了一张歪歪扭扭、但准确的小地图。",
+      "group": "event:lost",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.market.outcome.0",
+      "text": "老板笑着送了她一块蜂蜜饼。“诚实的心，比金币更珍贵。”",
+      "group": "event:market",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.market.outcome.1",
+      "text": "想了很久，她还是跑回了面包店。这是她自己的选择。",
+      "group": "event:market",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.mentor.outcome.0",
+      "text": "日落时，她带着一身尘土回来，眼神却格外坚定。木剑早已不再沉重。",
+      "group": "event:mentor",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.mentor.outcome.1",
+      "text": "她认真说完自己的担忧与期待。你发现，她已经能够为自己的选择负责。",
+      "group": "event:mentor",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.music.outcome.0",
+      "text": "她跳错了好几步，你们却笑得停不下来。这是很普通，也很珍贵的一天。",
+      "group": "event:music",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.music.outcome.1",
+      "text": "她学会了第一个音阶，也记住了旅人说的：音乐要先听见自己的心。",
+      "group": "event:music",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.painting.outcome.0",
+      "text": "“其实画得还不够好……”她红了脸，但一整天都在偷偷微笑。",
+      "group": "event:painting",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.painting.outcome.1",
+      "text": "她用新画笔，在画上又添了一个牵着你的自己。",
+      "group": "event:painting",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.portrait.outcome.0",
+      "text": "两幅画并排放着，中间隔着的，是许许多多个被认真度过的日子。",
+      "group": "event:portrait",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.portrait.outcome.1",
+      "text": "小径似乎变短了，蔷薇却开得和从前一样。她自然地挽起你的手。",
+      "group": "event:portrait",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.promise.outcome.0",
+      "text": "她在树旁埋下一只装着信的盒子。等到树长大，你们再一起打开它。",
+      "group": "event:promise",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.promise.outcome.1",
+      "text": "手账的最后几页还空着。她拿起画笔，画下了你、她，以及未来茂盛的树。",
+      "group": "event:promise",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.sewing.outcome.0",
+      "text": "花瓣有些歪，她却穿得格外骄傲。这件裙子，又多了一层回忆。",
+      "group": "event:sewing",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.sewing.outcome.1",
+      "text": "她不仅绣好了袖口，还在你的手帕上也绣了一朵。",
+      "group": "event:sewing",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.stage.outcome.0",
+      "text": "聚光灯下，她看见了你的笑容。那一瞬间，台词和勇气都回来了。",
+      "group": "event:stage",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.stage.outcome.1",
+      "text": "一遍又一遍的练习，终于变成了舞台上自然舒展的姿态。",
+      "group": "event:stage",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.sword.outcome.0",
+      "text": "手心磨出了小水泡，她却舍不得放下木剑。“我也想保护重要的人。”",
+      "group": "event:sword",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "event.sword.outcome.1",
+      "text": "勇气、承诺、回家的路。她把这些故事认真地记在了心里。",
+      "group": "event:sword",
+      "role": "result",
+      "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 32
+    },
+    {
+      "id": "birthday.girl",
+      "text": "明年也要一起过生日。",
+      "group": "birthday",
+      "role": "dialogue",
+      "emotion": "温暖、开心，带着一点期待",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 35
+    },
+    {
+      "id": "festival.loss",
+      "text": "你们一起参加了收获祭，吃了热乎乎的南瓜派，还收到了纪念礼物。",
+      "group": "festival",
+      "role": "story",
+      "emotion": "温暖、平和",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 38
+    },
+    {
+      "id": "festival.win",
+      "text": "她在收获祭的展示赛中获得优胜！笑着向你挥手的那一刻，整个秋天都亮了。",
+      "group": "festival",
+      "role": "story",
+      "emotion": "开心、明亮而克制",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 38
+    },
+    {
+      "id": "talk.0",
+      "text": "今天路过花店，我看到一朵和你笑起来很像的花。",
+      "group": "talk",
+      "role": "dialogue",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 40
+    },
+    {
+      "id": "talk.1",
+      "text": "长大以后，我想住在能看到星星的地方……最好也有你。",
+      "group": "talk",
+      "role": "dialogue",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 40
+    },
+    {
+      "id": "talk.2",
+      "text": "我有在认真努力哦！不过偶尔，也想和你一起发呆。",
+      "group": "talk",
+      "role": "dialogue",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 40
+    },
+    {
+      "id": "talk.3",
+      "text": "如果愿望可以装进口袋，我想把每一天都带在身上。",
+      "group": "talk",
+      "role": "dialogue",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 40
+    },
+    {
+      "id": "talk.4",
+      "text": "今天也辛苦啦。等我学会做点心，就做给你吃。",
+      "group": "talk",
+      "role": "dialogue",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 40
+    },
+    {
+      "id": "gift.girl",
+      "text": "是我最喜欢的蜂蜜饼干！谢谢你。",
+      "group": "gift",
+      "role": "dialogue",
+      "emotion": "开心而亲近，不夸张",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 42
+    },
+    {
+      "id": "battle.古塔石像.retreat",
+      "text": "遇到了古塔石像，她选择安全撤退。带回了沿途采集的小物，也积累了经验。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "平稳、安慰，承认撤退也是成长",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.古塔石像.win",
+      "text": "遇到了古塔石像，她勇敢地赢下交锋！采集收益与额外奖励已收入行囊。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "有精神但不过度激烈，像冒险结束后的讲述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.空心盔甲守卫.retreat",
+      "text": "遇到了空心盔甲守卫，她选择安全撤退。带回了沿途采集的小物，也积累了经验。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "平稳、安慰，承认撤退也是成长",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.空心盔甲守卫.win",
+      "text": "遇到了空心盔甲守卫，她勇敢地赢下交锋！采集收益与额外奖励已收入行囊。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "有精神但不过度激烈，像冒险结束后的讲述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.林间灰狼.retreat",
+      "text": "遇到了林间灰狼，她选择安全撤退。带回了沿途采集的小物，也积累了经验。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "平稳、安慰，承认撤退也是成长",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.林间灰狼.win",
+      "text": "遇到了林间灰狼，她勇敢地赢下交锋！采集收益与额外奖励已收入行囊。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "有精神但不过度激烈，像冒险结束后的讲述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.山巅风灵.retreat",
+      "text": "遇到了山巅风灵，她选择安全撤退。带回了沿途采集的小物，也积累了经验。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "平稳、安慰，承认撤退也是成长",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.山巅风灵.win",
+      "text": "遇到了山巅风灵，她勇敢地赢下交锋！采集收益与额外奖励已收入行囊。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "有精神但不过度激烈，像冒险结束后的讲述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.山野大野猪.retreat",
+      "text": "遇到了山野大野猪，她选择安全撤退。带回了沿途采集的小物，也积累了经验。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "平稳、安慰，承认撤退也是成长",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.山野大野猪.win",
+      "text": "遇到了山野大野猪，她勇敢地赢下交锋！采集收益与额外奖励已收入行囊。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "有精神但不过度激烈，像冒险结束后的讲述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.雪羽山鸟.retreat",
+      "text": "遇到了雪羽山鸟，她选择安全撤退。带回了沿途采集的小物，也积累了经验。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "平稳、安慰，承认撤退也是成长",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "battle.雪羽山鸟.win",
+      "text": "遇到了雪羽山鸟，她勇敢地赢下交锋！采集收益与额外奖励已收入行囊。",
+      "group": "battle",
+      "role": "result",
+      "emotion": "有精神但不过度激烈，像冒险结束后的讲述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 44
+    },
+    {
+      "id": "activity.cafe",
+      "text": "一杯热茶，一份认真招待的心意。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.church",
+      "text": "帮修女照顾花圃，也照顾需要的人。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.dance",
+      "text": "随着琴声，让脚步轻盈起来。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.etiquette",
+      "text": "优雅是待人温柔，也是心有分寸。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.farm",
+      "text": "播种、浇水，收获泥土的馈赠。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.forest",
+      "text": "沿着林间小径，寻找萤火与奇遇。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.free",
+      "text": "不追赶目标，把今天留给她自己的小世界。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.guard",
+      "text": "守望城门，向真正的骑士学习。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.home",
+      "text": "睡个懒觉，让日子慢一点也没关系。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.library",
+      "text": "在旧书与故事之间整理时光。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.literature",
+      "text": "在书页之间，认识更广阔的世界。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.magic",
+      "text": "倾听星辰低语，点亮第一束魔法。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.mountain",
+      "text": "越过云层的勇者，才能看见星海。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.painting",
+      "text": "把心中的小小风景，画成一幅画。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.ruins",
+      "text": "残旧的石壁上，刻着失落的知识。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.sword",
+      "text": "勇气不只在剑锋，也在守护之心。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.vacation",
+      "text": "带上野餐篮，去看远方的海。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "activity.walk",
+      "text": "看花开，听风来，给心情放个假。",
+      "group": "activity",
+      "role": "result",
+      "emotion": "轻快、清楚，适合日程结算",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 45
+    },
+    {
+      "id": "result.tired",
+      "text": "有些疲惫，基础能力收获减半。",
+      "group": "result",
+      "role": "result",
+      "emotion": "温和提醒，不责怪，也不夸张",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 46
+    },
+    {
+      "id": "ledger.monthly",
+      "text": "家庭补贴八十金币，日常生活费四十金币。",
+      "group": "ledger",
+      "role": "result",
+      "emotion": "简洁、温和地念出月度账本",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 55
+    }
+  ]
+}

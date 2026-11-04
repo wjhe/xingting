@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "village_woodcutter",
+    "title": "樵夫指路",
+    "art": "village_gate",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 8,
+    "text": "村口的老樵夫放下柴担，眯眼打量你：“娃子，听说你测出了灵根？落霞山上灵气足，只是近来常有狼群出没，可要当心。”",
+    "options": [
+      {
+        "text": "拱手道谢，帮他把柴担挑回家",
+        "result": "老樵夫乐呵呵地塞给你一把晒干的草叶：“山上采的，说是什么灵草，你拿去罢。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_qingling",
+            "count": 2
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "点头记下，转身离去",
+        "result": "你把落霞山的名字记在了心里。"
+      }
+    ]
+  },
+  {
+    "id": "village_rain",
+    "title": "檐下听雨",
+    "art": "village_eaves_rain",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 6,
+    "text": "一场春雨不期而至。你坐在檐下，看雨水顺着瓦片滴落，心中忽有所感。",
+    "options": [
+      {
+        "text": "静心感悟",
+        "check": {
+          "attr": "wuxing",
+          "dc": 8
+        },
+        "success": {
+          "result": "雨声渐渐与呼吸融为一体，你对天地灵气的感应清晰了几分。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 20
+            }
+          ]
+        },
+        "fail": {
+          "result": "思绪纷乱，那一丝感悟终究没能抓住。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "village_boar",
+    "title": "野猪下山",
+    "art": "village_farm",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 8,
+    "text": "村东头传来一阵惊叫——一头獠牙外翻的野猪冲进了菜地，几个村民拿着锄头不敢上前。",
+    "options": [
+      {
+        "text": "抄起扁担上前",
+        "result": "你大喝一声，挡在村民身前。",
+        "battle": {
+          "enemy": "wild_boar",
+          "win": {
+            "result": "村民们欢呼着围上来，分了你两大块猪肉，又凑了些铜钱换成的碎灵石。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "boar_meat",
+                "count": 2
+              },
+              {
+                "type": "stone",
+                "value": 15
+              }
+            ]
+          },
+          "lose": {
+            "result": "野猪撞翻了你，扬长而去。你在床上躺了好些日子。"
+          }
+        }
+      },
+      {
+        "text": "帮村民加固篱笆",
+        "result": "野猪啃了几口白菜便自行离去。村长感激你帮忙，送来一点心意。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "village_peddler",
+    "title": "走村货郎",
+    "art": "peddler",
+    "region": [
+      "qingshi_village",
+      "luoxia_mountain"
+    ],
+    "weight": 5,
+    "text": "一个挑着担子的货郎摇着拨浪鼓走来：“小仙师，看看？坊市进的好货，便宜卖了！”",
+    "options": [
+      {
+        "text": "买一枚聚气丹（35 灵石）",
+        "requires": {
+          "stones": 35
+        },
+        "result": "货郎笑眯眯地收下灵石，递过一只小瓷瓶。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -35
+          },
+          {
+            "type": "item",
+            "id": "juqi_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "买一枚回春丹（25 灵石）",
+        "requires": {
+          "stones": 25
+        },
+        "result": "货郎麻利地包好丹药。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -25
+          },
+          {
+            "type": "item",
+            "id": "huichun_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "摆摆手离开",
+        "result": "货郎也不纠缠，摇着拨浪鼓走远了。"
+      }
+    ]
+  },
+  {
+    "id": "village_recruiter",
+    "title": "仙门执事",
+    "art": "sect_gate",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_max": "lianqi"
+    },
+    "text": "一名身着青衫的仙门执事途经村子，在村口歇脚。他瞥了你一眼，似乎察觉到你身上微弱的灵气波动。",
+    "options": [
+      {
+        "text": "上前请教修行之道",
+        "check": {
+          "attr": "wuxing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你几句话问到了点子上。执事颇为意外，随手扔给你一本册子：“资质尚可，这本拿去，好自为之。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "book_changchun",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "执事听了两句便摇摇头，起身离去了。"
+        }
+      },
+      {
+        "text": "远远看着，不去打扰",
+        "result": "执事歇了片刻，御剑而去，转眼消失在天际。你心中生出无限向往。"
+      }
+    ]
+  },
+  {
+    "id": "village_old_man",
+    "title": "槐树下的老者",
+    "art": "old_man_tree",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 20,
+    "once": true,
+    "conditions": {
+      "life_min": 2
+    },
+    "text": "村口老槐树下，坐着一位你从未见过的白发老者。他抬起头，目光穿过你，仿佛在看很远的地方：“又见面了。”",
+    "options": [
+      {
+        "text": "“老丈认得我？”",
+        "result": "老者只是笑：“你身上的因果，比上一回又重了些。”你再要追问，眼前一花，槐树下已空无一人。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          },
+          {
+            "type": "meta_flag",
+            "key": "met_old_man"
+          }
+        ]
+      },
+      {
+        "text": "装作没听见，快步走开",
+        "result": "走出很远，你回头望去，老者仍静静坐在那里，像是已经等了很多年。"
+      }
+    ]
+  },
+  {
+    "id": "mountain_herb",
+    "title": "崖边灵草",
+    "art": "mountain_cliff_herb",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 10,
+    "text": "山道转角处，一株青灵草长在峭壁边缘，叶尖凝着露珠，灵气氤氲。",
+    "options": [
+      {
+        "text": "攀上崖边采摘",
+        "check": {
+          "attr": "gengu",
+          "dc": 6
+        },
+        "success": {
+          "result": "你稳稳攀上崖边，将灵草连根采下，还在石缝里发现了几株。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_qingling",
+              "count": 3
+            }
+          ]
+        },
+        "fail": {
+          "result": "脚下碎石松动，你险些坠崖，好不容易才爬回山道，浑身擦伤。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "太过危险，放弃",
+        "result": "你摇摇头，继续赶路。"
+      }
+    ]
+  },
+  {
+    "id": "mountain_wolf",
+    "title": "黑风狼",
+    "art": "mountain_wolf",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "忽有腥风扑面，一头黑风狼自林中窜出，獠牙森森，低吼着向你逼近！",
+    "options": [
+      {
+        "text": "运转灵力，迎战",
+        "battle": {
+          "enemy": "black_wolf",
+          "win": {
+            "result": "你剥下狼皮，又在狼尸旁调息片刻，竟有所得。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "wolf_pelt",
+                "count": 1
+              },
+              {
+                "type": "cultivation",
+                "value": 30
+              }
+            ]
+          },
+          "lose": {
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "转身就跑",
+        "check": {
+          "attr": "shenshi",
+          "dc": 6
+        },
+        "success": {
+          "result": "你辨明地势，钻入一条狭窄石缝，甩掉了黑风狼。"
+        },
+        "fail": {
+          "result": "黑风狼紧追不舍，你被咬伤后才侥幸脱身。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "mountain_spring",
+    "title": "林间灵泉",
+    "art": "mountain_spring",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "密林深处，一汪清泉汩汩涌出，泉面上浮着淡淡的白雾，灵气比别处浓郁许多。",
+    "options": [
+      {
+        "text": "在泉边打坐吐纳",
+        "result": "你在泉边静坐了几日，灵力运转越发顺畅。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 60
+          }
+        ]
+      },
+      {
+        "text": "掬一捧泉水饮下",
+        "result": "泉水清冽，一股暖流散入四肢百骸。",
+        "effects": [
+          {
+            "type": "hp",
+            "value": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mountain_bandit",
+    "title": "拦路散修",
+    "art": "mountain_bandit",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "一名面带刀疤的散修从树后转出，横刀拦住去路：“小子，把储物袋留下，饶你一命。”",
+    "options": [
+      {
+        "text": "交出 30 灵石",
+        "requires": {
+          "stones": 30
+        },
+        "result": "散修掂了掂灵石，冷笑一声让开了路。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -30
+          }
+        ]
+      },
+      {
+        "text": "拔剑迎战",
+        "battle": {
+          "enemy": "bandit",
+          "win": {
+            "result": "散修倒地，你从他身上搜出一只储物袋。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 120
+              },
+              {
+                "type": "item",
+                "id": "huichun_dan",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "散修搜走了你身上的灵石。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": -60
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "施展身法逃走",
+        "check": {
+          "attr": "shenshi",
+          "dc": 8
+        },
+        "success": {
+          "result": "你虚晃一招，借着山势几个起落，把散修远远甩在身后。"
+        },
+        "fail": {
+          "result": "飞刀擦着你的后背飞过，你带着伤逃了出来，储物袋也丢了。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            },
+            {
+              "type": "stone",
+              "value": -40
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "mountain_fellow",
+    "title": "结伴采药",
+    "art": "mountain_spring",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "一名年纪相仿的散修拱手道：“道友，前面山谷里有片药田，只是有些凶险，可愿结伴同去？所得五五分账。”",
+    "options": [
+      {
+        "text": "欣然同往",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 7
+        },
+        "success": {
+          "result": "二人配合默契，满载而归。临别时，对方还多分了你一份。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_qingling",
+              "count": 4
+            },
+            {
+              "type": "stone",
+              "value": 30
+            }
+          ]
+        },
+        "fail": {
+          "result": "采到一半，那人趁你不备卷走了药篓，还顺走了你几块灵石。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "婉言谢绝",
+        "result": "那人也不勉强，拱拱手独自去了。"
+      }
+    ]
+  },
+  {
+    "id": "cave_scroll_01",
+    "title": "山洞残卷",
+    "art": "mountain_cave",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "你避雨躲进一处山洞，石壁深处隐约透出微光。走近一看，是一具早已化作白骨的修士，手中紧握一卷残破玉简。",
+    "options": [
+      {
+        "text": "恭敬叩拜，然后取走玉简",
+        "result": "你拜了三拜，取下玉简。冥冥之中，心境似乎平和了几分。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "scroll_broken",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "搜刮遗物",
+        "check": {
+          "attr": "shenshi",
+          "dc": 6
+        },
+        "success": {
+          "result": "你在白骨下发现了一只暗藏的储物袋，玉简也一并收下。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 120
+            },
+            {
+              "type": "item",
+              "id": "scroll_broken",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "next": "cave_scroll_02_trap"
+        }
+      },
+      {
+        "text": "此地诡异，速速离去",
+        "result": "你退出山洞，冒雨继续赶路。"
+      }
+    ]
+  },
+  {
+    "id": "cave_scroll_02_trap",
+    "title": "洞中机关",
+    "art": "mountain_cave",
+    "text": "你的手刚触到白骨，洞壁上的符文骤然亮起，一道道风刃向你激射而来！",
+    "options": [
+      {
+        "text": "护住要害，强行后撤",
+        "check": {
+          "attr": "gengu",
+          "dc": 6
+        },
+        "success": {
+          "result": "你硬扛几道风刃退出洞外，虽然狼狈，所幸伤势不重。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        },
+        "fail": {
+          "result": "风刃割破经脉，你足足调养了数年才恢复元气。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -5
+            },
+            {
+              "type": "cultivation",
+              "value": -50
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "mountain_dying_cultivator",
+    "title": "垂死散修",
+    "art": "mountain_dying",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 3,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "林间躺着一名浑身是血的中年修士，气若游丝。他见你走近，艰难地从怀中摸出一只玉瓶：“小友……替我把这封信送到青云坊市……这枚丹药，便是酬谢……”",
+    "options": [
+      {
+        "text": "郑重应下",
+        "result": "修士露出一丝笑意，随即气绝。玉瓶中是一枚圆润的丹药，药香扑鼻。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "zhuji_dan",
+            "count": 1
+          },
+          {
+            "type": "flag",
+            "key": "promise_letter"
+          }
+        ]
+      },
+      {
+        "text": "怕惹上麻烦，悄然离开",
+        "result": "你走出很远，那声微弱的呼唤仍在耳边回响。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "market_odd_job",
+    "title": "丹铺招工",
+    "art": "market_alchemy",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 10,
+    "text": "百草堂门口贴着告示：招短工一名，看火、研药，工钱日结。",
+    "options": [
+      {
+        "text": "进去应征",
+        "result": "你在丹炉边忙了一个多月，掌柜很是满意，结了工钱。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 80
+          }
+        ]
+      },
+      {
+        "text": "随便逛逛",
+        "result": "你在坊市里转了一圈，见识了不少稀奇玩意儿。"
+      }
+    ]
+  },
+  {
+    "id": "market_scam",
+    "title": "祖传仙丹",
+    "art": "market_street",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 5,
+    "text": "一个干瘦老头拽住你的袖子，神秘兮兮地掏出一颗灰丸：“祖传仙丹，吃了立地筑基！只要一百灵石！”",
+    "options": [
+      {
+        "text": "仔细端详",
+        "check": {
+          "attr": "shenshi",
+          "dc": 7
+        },
+        "success": {
+          "result": "你一眼看出那是面粉搓的丸子。老头见被识破，一溜烟跑了。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "shenshi",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你越看越觉得有灵光流转，咬咬牙买了下来。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -100
+            },
+            {
+              "type": "item",
+              "id": "fake_pill",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "甩开他走人",
+        "result": "老头在身后嘟囔：“有眼不识泰山……”"
+      }
+    ]
+  },
+  {
+    "id": "market_letter",
+    "title": "遗信",
+    "art": "letter_shop",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 30,
+    "once": true,
+    "conditions": {
+      "flags": [
+        "promise_letter"
+      ]
+    },
+    "text": "你按信封上的地址找到一间不起眼的符箓铺。掌柜读完信，沉默良久，眼眶微红：“师兄他……终究没能回来。多谢小友千里送信。”",
+    "options": [
+      {
+        "text": "“前辈节哀。”",
+        "result": "掌柜取出一只锦盒相赠：“师兄的遗物，留着也是睹物思人。小友收下罢。”",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 400
+          },
+          {
+            "type": "item",
+            "id": "pozhang_dan",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "flag",
+            "key": "letter_done"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "market_rumor",
+    "title": "茶馆传闻",
+    "art": "market_teahouse",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 6,
+    "once": true,
+    "text": "茶馆里几个散修压低声音议论：“听说黑风谷深处塌出一座古修洞府，进去的人十个回来三个……”“回来的那三个，可都发了大财！”",
+    "options": [
+      {
+        "text": "默默记下",
+        "result": "黑风谷……你暗暗记下了这个名字。",
+        "effects": [
+          {
+            "type": "flag",
+            "key": "heard_ruins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valley_miasma",
+    "title": "黑风瘴气",
+    "art": "valley_wind",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_max": "lianqi"
+    },
+    "text": "才进谷口，裹挟着瘴气的黑风便扑面而来，你只觉灵力运转滞涩，胸口发闷。以你的修为，在这里寸步难行。",
+    "options": [
+      {
+        "text": "屏住呼吸，硬闯进去",
+        "check": {
+          "attr": "gengu",
+          "dc": 10
+        },
+        "success": {
+          "result": "你咬牙走了一段，在背风的岩缝里摸到一只烂了半边的储物袋，里面还剩几块灵石，便赶紧退了出来。这一趟，你见识到了筑基修士的地盘是什么样子。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 120
+            },
+            {
+              "type": "cultivation",
+              "value": 40
+            },
+            {
+              "type": "hp",
+              "value": -60
+            }
+          ]
+        },
+        "fail": {
+          "result": "瘴气入体，你踉跄着逃出谷外，大病一场。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -80
+            },
+            {
+              "type": "lifespan",
+              "value": -3
+            }
+          ]
+        }
+      },
+      {
+        "text": "退出谷外",
+        "result": "你退出谷外，心想等筑基之后再来不迟。"
+      }
+    ],
+    "once": true
+  },
+  {
+    "id": "valley_bear",
+    "title": "黑风熊妖",
+    "art": "valley_bear",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "地面隆隆震动，一头小山般的黑熊人立而起，双目赤红，已然开了灵智。",
+    "options": [
+      {
+        "text": "迎战熊妖",
+        "battle": {
+          "enemy": "bear_demon",
+          "win": {
+            "result": "熊妖轰然倒地。你取下熊胆，又借着残留的妖气打坐调息。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "bear_gall",
+                "count": 1
+              },
+              {
+                "type": "cultivation",
+                "value": 300
+              }
+            ]
+          },
+          "lose": {
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -3
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "收敛气息，绕道而行",
+        "check": {
+          "attr": "shenshi",
+          "dc": 7
+        },
+        "success": {
+          "result": "你屏息贴着岩壁挪过，熊妖嗅了嗅，终究没有发现你。"
+        },
+        "fail": {
+          "result": "熊妖一掌拍碎了你藏身的巨石，你被余波震伤。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "valley_rogue",
+    "title": "谷中劫修",
+    "art": "valley_rogue",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "一道阴冷的神识锁定了你。黑雾中走出一名黑袍修士，手中骨幡猎猎作响：“又来一个送死的。”",
+    "options": [
+      {
+        "text": "交出 300 灵石买路",
+        "requires": {
+          "stones": 300
+        },
+        "result": "黑袍修士收了灵石，阴恻恻一笑，隐入黑雾。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -300
+          }
+        ]
+      },
+      {
+        "text": "生死相搏",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": {
+            "result": "劫修身死道消。他的储物袋里，竟有不少好东西。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 600
+              },
+              {
+                "type": "item",
+                "id": "ningyuan_dan",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "劫修夺走了你的储物袋，大概是嫌你太穷，懒得补刀。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": -200
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "燃烧精血遁走",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "你化作一道血光，瞬息间遁出百里。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        },
+        "fail": {
+          "result": "遁光被骨幡一卷击散，你重伤逃出，元气大损。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            },
+            {
+              "type": "lifespan",
+              "value": -5
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "valley_ruins",
+    "title": "古修遗迹",
+    "art": "valley_ruins",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "黑风深处，半座洞府从塌陷的山体中露了出来。洞口石壁上刻着一幅壁画：一名修士盘坐于天地之间，身后是无数个模糊的身影，层层叠叠，望不到尽头……你越看越心惊——那些身影的面容，竟都与你一模一样。",
+    "options": [
+      {
+        "text": "定了定神，深入洞府",
+        "check": {
+          "attr": "shenshi",
+          "dc": 8
+        },
+        "success": {
+          "result": "你避开重重禁制，在洞府最深处的石台上，找到一部以玄冰封存的典籍。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "book_xuanshui",
+              "count": 1
+            },
+            {
+              "type": "meta_flag",
+              "key": "ruins_mural"
+            }
+          ]
+        },
+        "fail": {
+          "result": "禁制骤然发动，你只来得及抓起地上的一块残片，便被震出洞外。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "ancient_fragment",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "meta_flag",
+              "key": "ruins_mural"
+            }
+          ]
+        }
+      },
+      {
+        "text": "拓下壁画，就此离开",
+        "result": "你将壁画拓在绢上，小心收好。每次展开，都觉得画中有一道目光在看着你。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          },
+          {
+            "type": "meta_flag",
+            "key": "ruins_mural"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valley_fruit",
+    "title": "灵果树",
+    "art": "valley_bear",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "山坳里一株矮树挂着三枚金红的果子，异香扑鼻——是结丹灵果！树下却趴着一头打盹的黑风熊妖。",
+    "options": [
+      {
+        "text": "斩杀熊妖，夺取灵果",
+        "battle": {
+          "enemy": "bear_demon",
+          "win": {
+            "result": "你摘下灵果，可惜另外两枚已在打斗中被震落、化作一滩汁水。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "jiedan_lingguo",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -3
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "悄悄摘一枚就跑",
+        "check": {
+          "attr": "shenshi",
+          "dc": 10
+        },
+        "success": {
+          "result": "你屏住呼吸，指尖一勾，灵果入手，熊妖兀自酣睡。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jiedan_lingguo",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "枝叶一响，熊妖猛然惊醒，你被一掌拍飞出去。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -70
+            }
+          ]
+        }
+      },
+      {
+        "text": "不冒这个险",
+        "result": "你恋恋不舍地看了几眼，悄然退走。"
+      }
+    ]
+  },
+  {
+    "id": "valley_fragments",
+    "title": "古战场",
+    "art": "valley_battlefield",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "一片焦黑的谷地上散落着断剑残甲，不知是多少年前的古修战场。",
+    "options": [
+      {
+        "text": "仔细搜寻",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 7
+        },
+        "success": {
+          "result": "你在一具残甲下翻出一块仍有灵光的法器碎片。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "ancient_fragment",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "翻找了半日，只找到一堆废铁。"
+        }
+      },
+      {
+        "text": "凭吊片刻后离开",
+        "result": "你对着战场默立片刻。不知这些前辈，可曾求得长生。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "src": "d01b2d83476f92bdb1f0.wav",
+  "duration": 4.4,
+  "gain": 1.7521557741454612,
+  "source_sha256": "2edeb3c22e1cad8b089f15eae64e8ab516c410532ed691e20e5fd66314edb6ac",
+  "id": "event.main_7_1.choice.1",
+  "text": "请她也邀请曾经帮助过的人",
+  "group": "event:main_7_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 40,
+        "text": "请她也邀请曾经帮助过的人",
+        "words": [
+          {
+            "end_time": 320,
+            "start_time": 40,
+            "text": "请"
+          },
+          {
+            "end_time": 560,
+            "start_time": 360,
+            "text": "她"
+          },
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "也"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "邀"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "请"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "曾"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "经"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1760,
+            "text": "帮"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1960,
+            "text": "助"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "过"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "的"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2520,
+            "text": "人"
+          }
+        ]
+      }
+    ],
+    "text": "请她也邀请曾经帮助过的人"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "408b4279-5154-4061-95fa-11ed70596eac",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：轻柔、有电影感的旁白。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“她小声念了两遍，然后笑了。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110504532395C14A07A55A7D19624A",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3720,
+          "start_time": 720,
+          "text": "她小声念了两遍，然后笑了。",
+          "words": [
+            {
+              "end_time": 960,
+              "start_time": 720,
+              "text": "她"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1000,
+              "text": "小"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1200,
+              "text": "声"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1560,
+              "text": "念"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1800,
+              "text": "了"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1920,
+              "text": "两"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2080,
+              "text": "遍"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2360,
+              "text": "，"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2880,
+              "text": "然"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 3080,
+              "text": "后"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3200,
+              "text": "笑"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3480,
+              "text": "了"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3720,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她小声念了两遍，然后笑了。"
+    }
+  }
+}

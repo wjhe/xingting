@@ -1,0 +1,89 @@
+{
+  "src": "6332d1f15ae0536d727c.wav",
+  "duration": 2.1739166666666665,
+  "gain": 2.066912102843328,
+  "source_sha256": "6057b0bb128654d23a3b2f676b5b6eee13713b5e45edb700b499d691179954dd",
+  "id": "event.main_6_2.choice.1",
+  "text": "请她写下还想学会的东西",
+  "group": "event:main_6_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1760,
+        "start_time": 0,
+        "text": "请她写下还想学会的东西。",
+        "words": [
+          {
+            "end_time": 80,
+            "start_time": 0,
+            "text": "请"
+          },
+          {
+            "end_time": 280,
+            "start_time": 240,
+            "text": "她"
+          },
+          {
+            "end_time": 520,
+            "start_time": 400,
+            "text": "写"
+          },
+          {
+            "end_time": 720,
+            "start_time": 600,
+            "text": "下"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 840,
+            "text": "还"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "想"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "学"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1320,
+            "text": "会"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1440,
+            "text": "的"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1560,
+            "text": "东"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1680,
+            "text": "西"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1760,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "请她写下还想学会的东西。"
+  }
+}

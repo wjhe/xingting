@@ -1,0 +1,94 @@
+{
+  "src": "c1d087689c9019db9be7.wav",
+  "duration": 3.9,
+  "gain": 1.8120814146332027,
+  "source_sha256": "581289ec59c7ad2215f6b61475f0e032c1a50fdd83a0eb775b721bd428bf2ca1",
+  "id": "opening.4.7",
+  "text": "她小声念了两遍，然后笑了。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3720,
+        "start_time": 720,
+        "text": "她小声念了两遍，然后笑了。",
+        "words": [
+          {
+            "end_time": 960,
+            "start_time": 720,
+            "text": "她"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "小"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1200,
+            "text": "声"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1560,
+            "text": "念"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1800,
+            "text": "了"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "两"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2080,
+            "text": "遍"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2360,
+            "text": "，"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "然"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3080,
+            "text": "后"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3200,
+            "text": "笑"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3480,
+            "text": "了"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3720,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她小声念了两遍，然后笑了。"
+  }
+}

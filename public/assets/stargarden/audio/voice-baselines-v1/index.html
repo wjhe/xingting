@@ -1,0 +1,24 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>艾莉的声音 · 音色试听</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f7f3e5;color:#4f6047;font:16px/1.8 system-ui,sans-serif}main{max-width:760px;margin:auto;padding:28px 18px 48px}h1{font-size:28px;font-weight:600;line-height:1.5}.intro{color:#73755e}blockquote{margin:24px 0;padding:18px 20px;background:#e8edda;border-radius:22px 5px;border-left:3px solid #a8b78a}article{margin:20px 0;padding:22px;background:#fffbed;border:1px solid #d4d7b9;border-radius:24px 7px}h2{font-size:22px;margin:8px 0}article p{color:#73755e}.age{font-size:15px;color:#8b956d}audio{display:block;width:100%;margin:16px 0}a{display:inline-block;color:#557146;min-height:44px;padding:6px 0}footer{color:#7c7a64;font-size:14px}button{font:inherit;padding:12px 20px;border:0;border-radius:22px 6px;background:#7d9566;color:#fffbed;min-height:48px}button:focus-visible,a:focus-visible{outline:3px solid #a5b981;outline-offset:3px}</style></head>
+<body><main><p class="age">星庭物语 · 女儿配音测试</p><h1>同一个她，慢慢长大的声音</h1>
+<p class="intro">三个年龄用同一句台词、平静亲切的语气，试听音量已统一。重点比较年龄差异、自然程度，以及是否像同一个女孩逐渐长大。</p>
+<blockquote>今天的阳光很好。我想把窗边的花画下来，等画好了，就拿给你看。谢谢你一直陪着我。</blockquote><button id="sequence">依次试听三个年龄</button><p id="status" aria-live="polite"></p><article><span class="age">10—13 岁</span>
+      <h2>童年 · 清亮自然</h2>
+      <p>10岁女孩，声音清亮、轻软，带自然童真。发音清楚，语气平静亲切，略带好奇。不要夸张幼儿腔、捏嗓子、撒娇腔或婴儿声。</p>
+      <audio controls preload="metadata" src="ellie-child-neutral-v1.wav"></audio>
+      <a href="ellie-child-neutral-v1.wav" download>下载 WAV · 10.5 秒</a></article><article><span class="age">14—15 岁</span>
+      <h2>成长 · 清澈含蓄</h2>
+      <p>14岁少女，清澈的少女中高音，已经告别童声，声线比10岁儿童明显更沉稳，气息更稳定，咬字更利落。以自然中音区说话，不刻意抬高声线，保留柔和清亮的质地。语气平静亲切，有一点含蓄和自己的想法。不要幼儿腔、娃娃音、撒娇感、假声或成熟御姐腔。</p>
+      <audio controls preload="metadata" src="ellie-teen-neutral-v2.wav"></audio>
+      <a href="ellie-teen-neutral-v2.wav" download>下载 WAV · 10.9 秒</a></article><article><span class="age">16—18 岁</span>
+      <h2>将来 · 温柔从容</h2>
+      <p>17岁少女，温柔清澈的年轻女性中音声线，声音位置自然放松，胸腔共鸣比女孩更充实，音高明显低于儿童，尾音稳而干净。语气平静亲切、从容而有主见，有温暖真实的生活感。不要刻意抬高声线，不要幼儿腔、娃娃音、气泡音、低沉中年声或夸张播音腔。</p>
+      <audio controls preload="metadata" src="ellie-grown-neutral-v2.wav"></audio>
+      <a href="ellie-grown-neutral-v2.wav" download>下载 WAV · 10.5 秒</a></article>
+<footer>当前为待确认的基准小样，尚未注册固定音色 ID。三个阶段分别设计，保留清楚、柔和的普通话表达，重点拉开年龄成熟度。选定后固定参考原文件与校验值，再生成情绪和剧情台词。第一轮引用童年声音的候选也已保留在源素材目录。</footer>
+</main><script>const audios=[...document.querySelectorAll('audio')];let sequence=false;
+const status=document.querySelector('#status');
+audios.forEach((audio,i)=>{audio.addEventListener('play',()=>{audios.forEach(other=>{if(other!==audio)other.pause()});status.textContent='正在试听：'+audio.closest('article').querySelector('h2').textContent});audio.addEventListener('ended',()=>{if(sequence&&i<audios.length-1){audios[i+1].currentTime=0;audios[i+1].play().catch(()=>{sequence=false;status.textContent='请点击下一条音频继续试听'})}else{sequence=false;status.textContent='试听完成'}});audio.addEventListener('error',()=>{status.textContent='音频加载失败，请刷新或下载 WAV 试听'})});
+document.querySelector('#sequence').addEventListener('click',()=>{sequence=true;audios.forEach(a=>a.pause());audios[0].currentTime=0;audios[0].play().catch(()=>{sequence=false;status.textContent='请点击音频播放器试听'})});
+</script></body></html>

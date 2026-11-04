@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "xinmo_jindan",
+    "title": "结丹心魔",
+    "art": "heart_demon",
+    "text": "灵果入腹，道基开始一寸寸收缩。就在金丹将凝未凝之际，识海里浮出一个人影，是你自己，炼气时那个被人踢翻药篓、攥紧拳头的少年。他问你：“你修仙，是为了不再被人欺负，还是为了有朝一日去欺负别人？”",
+    "options": [
+      {
+        "text": "守住本心，不答不辩",
+        "check": {
+          "attr": "xinjing",
+          "dc": 14
+        },
+        "success": {
+          "result": "你任他问了一遍又一遍，心湖始终不起波澜。少年慢慢笑了，化作一缕金光，没入丹田。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "那个问题像根刺扎进心里，你越想越乱，丹田里的灵液骤然逆流。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "想清楚了再回答他",
+        "check": {
+          "attr": "wuxing",
+          "dc": 12
+        },
+        "success": {
+          "result": "“都不是。”你说，“是为了看看这条路的尽头。”少年愣了愣，点点头，散去了。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "你给了一个答案，又推翻它，再给一个，再推翻。心神就在这一来一回间溃散了。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "服下清心丹，压住心神",
+        "requires": {
+          "items": {
+            "qingxin_dan": 1
+          }
+        },
+        "check": {
+          "attr": "xinjing",
+          "dc": 10
+        },
+        "success": {
+          "result": "一股清凉从舌底化开，少年的声音越来越远。金丹凝成的那一刻，你听见他说：“别忘了。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -1
+            },
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "丹药压住了心神，却压不住那个问题。你还是乱了。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -1
+            },
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "xinmo_yuanying",
+    "title": "碎丹心魔",
+    "art": "heart_demon",
+    "text": "天雷散尽，金丹上爬满了裂纹。碎丹成婴，要先亲手打碎自己。识海里，所有你辜负过的人站成一排：没救下的、没还上的、没回头去看的。他们不说话，只是看着你。",
+    "options": [
+      {
+        "text": "一个一个看过去，认下",
+        "check": {
+          "attr": "xinjing",
+          "dc": 21
+        },
+        "success": {
+          "result": "你没有移开目光。看到最后一个人时，金丹轰然碎开，一个小小的你，在碎片中睁开了眼睛。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "看到第三个人，你就转开了头。金丹裂到一半，卡住了，反噬的灵力冲进经脉。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "告诉自己：那时只能如此",
+        "check": {
+          "attr": "wuxing",
+          "dc": 14
+        },
+        "success": {
+          "result": "你想通了：那些都是当时的你能做到的全部。人影一个个淡去，金丹应声而碎，元婴初成。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "这话你自己都不信。人影们还站在那里，金丹却已经撑不住了。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "服下清心丹，压住心神（2 枚）",
+        "requires": {
+          "items": {
+            "qingxin_dan": 2
+          }
+        },
+        "check": {
+          "attr": "xinjing",
+          "dc": 17
+        },
+        "success": {
+          "result": "药力化开，人影退到了很远的地方。你趁着这一瞬清明，碎丹，成婴。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -2
+            },
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "人影们退开了一步，又走了回来。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -2
+            },
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "xinmo_huashen",
+    "title": "化神心魔",
+    "art": "heart_demon",
+    "text": "九重雷劫过后，元婴在丹田里缓缓舒展，神识随之铺开，覆住了千里山河。你看见无数凡人生老病死，一茬接一茬，像田里的稻子。识海深处有个声音问：“你也曾是其中一株。现在，他们与你还有什么关系？”",
+    "options": [
+      {
+        "text": "“我还是那一株稻子。”",
+        "check": {
+          "attr": "xinjing",
+          "dc": 24
+        },
+        "success": {
+          "result": "神识缓缓收回，落在一个哄孩子睡觉的农妇身上。你记起了自己的来处，元婴化神，神游太虚，却始终有根线拴在人间。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "话出口时你自己也犹豫了。那一丝犹豫被心魔抓住，撕开，元神险些散去。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "“没有关系，也不必有关系。”",
+        "check": {
+          "attr": "wuxing",
+          "dc": 16
+        },
+        "success": {
+          "result": "你斩断了那根线。神识冰冷而辽阔，元婴化神。你变得很强，也很安静。",
+          "effects": [
+            {
+              "type": "realm_up"
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你以为斩断了，那根线却缠住了你的元神，越收越紧。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "服下清心丹，压住心神（3 枚）",
+        "requires": {
+          "items": {
+            "qingxin_dan": 3
+          }
+        },
+        "check": {
+          "attr": "xinjing",
+          "dc": 20
+        },
+        "success": {
+          "result": "药力托住了摇晃的元婴。你在一片清明中化神，那个问题却留了下来，等着你以后回答。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -3
+            },
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "化神之劫，一枚清心丹压不住。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -3
+            },
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "xinmo_dujie",
+    "title": "问心关",
+    "art": "heart_demon",
+    "text": "渡厄金莲在掌中缓缓绽开，莲心里坐着另一个你：白衣，面容平静，比你老得多。他说：“我是你的第一世。我走到这里时，答错了一个问题，于是轮回了很多次。现在，我把它再问一遍——你求长生，究竟想用这么长的命，去做什么？”",
+    "options": [
+      {
+        "text": "“去把没做完的事，一件件做完。”",
+        "check": {
+          "attr": "xinjing",
+          "dc": 26
+        },
+        "success": {
+          "result": "白衣的你沉默了很久，叹了口气：“我当年答的是，‘去看看天上有什么’。”他化作金光，没入莲心。问心关破。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "你说出口时，眼前闪过许多没做完的事，太多了，多到你一时站不稳。金莲在掌中合拢。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "“我不知道。所以才要活下去找答案。”",
+        "check": {
+          "attr": "wuxing",
+          "dc": 17
+        },
+        "success": {
+          "result": "白衣的你笑了：“这个答案，我轮回了那么多次都没想到。”问心关破，你踏入渡劫之境。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "“那你便再去找吧。”他轻轻一推，你从莲心里跌了出来，元神剧震。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "服下清心丹，压住心神（4 枚）",
+        "requires": {
+          "items": {
+            "qingxin_dan": 4
+          }
+        },
+        "check": {
+          "attr": "xinjing",
+          "dc": 22
+        },
+        "success": {
+          "result": "药力让你的声音很稳。白衣的你听完答案，点了点头，不置可否地散去了。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -4
+            },
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "“药压得住心，压不住问题。”他说。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -4
+            },
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "xinmo_feisheng",
+    "title": "飞升心魔",
+    "art": "tribulation",
+    "text": "九九天劫散尽，一道仙光自九天垂落，照在你身上。仙门就在头顶，可你脚下的大地忽然变得很重：青石村的老槐树、落霞山的那块青石、坊市里的叫卖声……所有你走过的地方，都在拽着你的衣角。",
+    "options": [
+      {
+        "text": "一一道别，然后松手",
+        "check": {
+          "attr": "xinjing",
+          "dc": 28
+        },
+        "success": {
+          "result": "你对着脚下的人间深深一揖。衣角上的分量一点点轻了，仙光托着你，缓缓升起。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "你松开了一只手，另一只却怎么也松不开。仙光开始摇晃，元神被硬生生扯回了人间。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "看破：来处即是归处",
+        "check": {
+          "attr": "wuxing",
+          "dc": 18
+        },
+        "success": {
+          "result": "你忽然明白，这些都不必放下，也放不下，它们本就是你。仙光大盛，你带着整个人间，飞升而去。",
+          "effects": [
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "你想看破，却只看见了更多舍不得的东西。",
+          "effects": [
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      },
+      {
+        "text": "服下清心丹，压住心神（5 枚）",
+        "requires": {
+          "items": {
+            "qingxin_dan": 5
+          }
+        },
+        "check": {
+          "attr": "xinjing",
+          "dc": 24
+        },
+        "success": {
+          "result": "一点清凉压住了翻涌的念头。你闭上眼，任仙光把你带走。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -5
+            },
+            {
+              "type": "realm_up"
+            }
+          ]
+        },
+        "fail": {
+          "result": "飞升之际，凡药终究压不住凡心。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": -5
+            },
+            {
+              "type": "qi_deviation"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "market_danwang_intro",
+    "title": "丹王",
+    "region": [
+      "qingyun_market"
+    ],
+    "art": "market_alchemy",
+    "weight": 30,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "百草堂后院住着一个不收徒、不卖丹的怪老头，坊市里都叫他丹王。听说你结了金丹，他破天荒地递来一张方子：“碎丹成婴，要化婴丹。蛟龙逆鳞、千年莲心、雷鹏精魄，三样凑齐了来找我。都在云梦泽，就看你命够不够硬。”",
+    "options": [
+      {
+        "text": "收下丹方",
+        "result": "你把三样东西的名字记在心里。云梦泽里的蛟龙、灵莲、雷鹏，从此不只是传说了。"
+      }
+    ]
+  },
+  {
+    "id": "market_craft_huaying",
+    "title": "丹王开炉",
+    "region": [
+      "qingyun_market"
+    ],
+    "art": "market_alchemy",
+    "weight": 60,
+    "conditions": {
+      "realm_min": "jindan",
+      "has_items": [
+        "jiao_nilin",
+        "lian_xin",
+        "roc_jingpo"
+      ]
+    },
+    "text": "丹王捏着蛟龙逆鳞看了半天，又凑近闻了闻千年莲心，最后把雷鹏精魄举到眼前，眯起眼：“成色不错。开炉要七七四十九天，火钱五千灵石。要不要老夫动手？”",
+    "options": [
+      {
+        "text": "请丹王开炉（5000 灵石）",
+        "requires": {
+          "stones": 5000
+        },
+        "result": "四十九天后，炉盖掀开，一枚婴儿拳头大的丹药静静躺在炉底，丹纹里隐隐有个盘坐的小人。丹王擦了把汗：“去吧，别糟蹋了。”",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -5000
+          },
+          {
+            "type": "item",
+            "id": "jiao_nilin",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "lian_xin",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "roc_jingpo",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "huaying_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "借他的丹炉，自己守火",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "你以神识控火四十九天，一刻不敢分心。开炉那天，丹王在旁边看了一眼，哼了一声：“倒是省了老夫的事。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jiao_nilin",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "lian_xin",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "roc_jingpo",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "huaying_dan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "第三十天，你的神识一晃，炉火蹿起三尺。千年莲心化成了一缕青烟，另外两样总算抢了出来。丹王摇头：“莲心再去寻吧。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "lian_xin",
+              "count": -1
+            }
+          ]
+        }
+      },
+      {
+        "text": "灵石不够，改日再来",
+        "result": "丹王摆摆手：“材料替你存着心里，跑不了。”"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_nilin",
+    "title": "逆鳞",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "art": "marsh_dragon",
+    "weight": 8,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽心翻起一道白浪，一条蛟龙正在浅滩上蜕鳞，颔下那片倒生的逆鳞在月光里一闪一闪。蜕鳞时的蛟龙最虚弱，也最凶。",
+    "options": [
+      {
+        "text": "趁它蜕鳞，夺下逆鳞",
+        "battle": {
+          "enemy": "jiao_dragon",
+          "win": {
+            "result": "蛟龙负痛沉入泽底，那片逆鳞落在了你手里，还带着它的体温。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "jiao_nilin",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "蛟尾一扫，你被抽进泽里，喝了一肚子泥水才爬上岸。",
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -15
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "等它蜕完，去浅滩上捡",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 10
+        },
+        "success": {
+          "result": "蛟龙游走后，你在泥里摸了半夜，竟真摸到了那片逆鳞。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jiao_nilin",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "浅滩上只剩一堆普通的蛟鳞，逆鳞被它一口吞回去了。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jiao_scale",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "不惊扰它",
+        "result": "你远远看着蛟龙蜕完鳞，翻身没入深水。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_lianxin",
+    "title": "莲心",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "art": "marsh_lotus",
+    "weight": 8,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "一株千年灵莲开到了最盛，莲蓬里却没有莲子，只有正中一点青碧的莲心，微微发着光。守莲的是一群拇指大的水灵，看见你，齐齐竖起了身子。",
+    "options": [
+      {
+        "text": "以灵力温养灵莲，换它一点莲心",
+        "check": {
+          "attr": "xinjing",
+          "dc": 10
+        },
+        "success": {
+          "result": "你在莲边坐了七天，灵力一丝丝渡进莲茎。第八天清晨，莲心自己落进了你的掌心，水灵们绕着你转了三圈。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "lian_xin",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "第五天，你分了心，灵力一乱，灵莲合上了花瓣。水灵们把你推下了水。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "直接摘",
+        "check": {
+          "attr": "shenshi",
+          "dc": 11
+        },
+        "success": {
+          "result": "你快得连水灵都没反应过来。莲心到手，灵莲却在你身后迅速枯萎了。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "lian_xin",
+              "count": 1
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            }
+          ]
+        },
+        "fail": {
+          "result": "水灵们扑上来咬了你一身包，莲心早已缩回了莲蓬深处。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      },
+      {
+        "text": "离开",
+        "result": "你退开了。水灵们盯着你，直到你走远。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_roc_soul",
+    "title": "雷鹏坠处",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "art": "thunder_roc",
+    "weight": 8,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "一头老雷鹏从云里坠下，砸进了泽边的芦苇荡。它已经快死了，羽毛焦黑，胸口却还亮着一团不肯散去的雷光——那是它的精魄。远处的天上，几个修士正御剑赶来。",
+    "options": [
+      {
+        "text": "抢在他们前面取走精魄",
+        "battle": {
+          "enemy": "thunder_roc",
+          "win": {
+            "result": "垂死的雷鹏拼尽最后一击，终于倒下。你取出那团雷光，转身就走，身后传来那几个修士的骂声。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "roc_jingpo",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "雷鹏临死的反扑比你想的更狠。等你爬起来，精魄已经被那几个修士抢走了。",
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -10
+              },
+              {
+                "type": "hp",
+                "value": -50
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "守在它身边，等它自己咽气",
+        "check": {
+          "attr": "xinjing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你挡下了赶来的修士，陪雷鹏到了最后。它咽气前，把那团精魄轻轻推到了你面前。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "roc_jingpo",
+              "count": 1
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "那几个修士不肯退，你们在芦苇荡里斗了一场。混乱中，精魄散在了风里。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      },
+      {
+        "text": "让给他们",
+        "result": "你转身离开。走出很远，听见身后一声凄厉的鹏鸣，然后再也没有声音了。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_xiandao_intro",
+    "title": "蓬莱丹宫",
+    "region": [
+      "beiming_sea"
+    ],
+    "art": "penglai_palace",
+    "weight": 30,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying"
+    },
+    "text": "北冥深处有座终年雾锁的仙岛，岛上一座丹宫，只有一个看炉的白须童子，说他等主人等了三千年。他看了看你，伸出三根手指：“元婴化神，要化神丹。鲲鹏羽、万年玄冰、海眼灵珠，都在这片海里。凑齐了，我替主人开一次炉。”",
+    "options": [
+      {
+        "text": "记下",
+        "result": "童子打了个哈欠，又靠着丹炉睡着了。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_craft_huashen",
+    "title": "丹宫开炉",
+    "region": [
+      "beiming_sea"
+    ],
+    "art": "penglai_palace",
+    "weight": 60,
+    "conditions": {
+      "realm_min": "yuanying",
+      "has_items": [
+        "kun_feather",
+        "xuanbing",
+        "haiyan_pearl"
+      ]
+    },
+    "text": "白须童子揉着眼睛接过三样东西，一样一样投进了那尊三千年没熄过的丹炉。“炉火是主人留下的，我只管看着。”他顿了顿，“不过这一炉，得有人以神识护着丹胎。你来，还是我来？”",
+    "options": [
+      {
+        "text": "请童子护炉（50000 灵石作香火）",
+        "requires": {
+          "stones": 50000
+        },
+        "result": "童子收下灵石，盘腿坐在炉前，一坐就是九年。开炉那天，满室异香，一枚通体莹白的化神丹落进了你的掌心。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -50000
+          },
+          {
+            "type": "item",
+            "id": "kun_feather",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "xuanbing",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "haiyan_pearl",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "huashen_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "自己以神识护炉",
+        "check": {
+          "attr": "shenshi",
+          "dc": 12
+        },
+        "success": {
+          "result": "九年里，你的神识与丹胎同起同落。开炉时，童子第一次睁大了眼睛：“你护炉的手法，和主人一模一样。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "kun_feather",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "xuanbing",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "haiyan_pearl",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "huashen_dan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "丹胎在第七年躁动起来，你压住了，万年玄冰却在炉中化成了一摊水。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "xuanbing",
+              "count": -1
+            },
+            {
+              "type": "lifespan",
+              "value": -9
+            }
+          ]
+        }
+      },
+      {
+        "text": "改日再来",
+        "result": "童子“嗯”了一声，又睡了。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_xianque_intro",
+    "title": "残碑",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "art": "valley_ruins",
+    "weight": 30,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "昆仑墟的仙阙废墟前立着一块残碑，碑上刻着上古修士留给后人的话：“化神问心，需渡厄金莲镇之。不死树种为根，昆仑玉髓为水，天雷石为火，于仙阙旧址培之。”碑文的笔迹，你越看越眼熟。",
+    "options": [
+      {
+        "text": "把碑文记下",
+        "result": "你把碑文一字一字抄下。最后一行被人刮掉了，只剩半个“太”字。"
+      }
+    ]
+  },
+  {
+    "id": "kunlun_craft_due",
+    "title": "仙阙培莲",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "art": "lotus_altar",
+    "weight": 60,
+    "conditions": {
+      "realm_min": "huashen",
+      "has_items": [
+        "busi_seed",
+        "kunlun_jade",
+        "tianlei_stone"
+      ]
+    },
+    "text": "你在仙阙旧址的玉台上种下不死树种，浇上昆仑玉髓，又把天雷石埋在台下作火。三样东西各自发出微光，像是认得这个地方。接下来，只需要等，或者帮它一把。",
+    "options": [
+      {
+        "text": "耐心等它自己长成",
+        "result": "你在玉台边守了三十年。某个雷雨夜，一朵金莲在玉台上悄然绽开，莲心里映着你的脸。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -30
+          },
+          {
+            "type": "item",
+            "id": "busi_seed",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "kunlun_jade",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "tianlei_stone",
+            "count": -1
+          },
+          {
+            "type": "item",
+            "id": "due_lotus",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "以自身灵力催生",
+        "check": {
+          "attr": "gengu",
+          "dc": 13
+        },
+        "success": {
+          "result": "你把灵力一股股灌进玉台，七日七夜，金莲破土而出，开得比碑文上说的还要盛。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "busi_seed",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "kunlun_jade",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "tianlei_stone",
+              "count": -1
+            },
+            {
+              "type": "item",
+              "id": "due_lotus",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -50
+            }
+          ]
+        },
+        "fail": {
+          "result": "灵力冲得太猛，天雷石炸裂开来，玉台塌了一角。树种和玉髓还在，天雷石得重新去找了。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "tianlei_stone",
+              "count": -1
+            },
+            {
+              "type": "hp",
+              "value": -60
+            }
+          ]
+        }
+      },
+      {
+        "text": "时机未到，离开",
+        "result": "你把三样东西收好，离开了玉台。"
+      }
+    ]
+  },
+  {
+    "id": "common_insight_bell",
+    "title": "暮鼓",
+    "region": [
+      "heifeng_valley",
+      "yunmeng_marsh",
+      "beiming_sea",
+      "kunlun_ruins",
+      "qingyun_market",
+      "luoxia_mountain"
+    ],
+    "art": "meditation_cave",
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji",
+      "stuck": true
+    },
+    "text": "你被瓶颈困得心烦意乱，信步走着，远处不知哪座山寺传来一声暮鼓。鼓声很慢，一声，又一声，每一声之间都隔着很长的寂静。",
+    "options": [
+      {
+        "text": "停下来，数鼓声",
+        "check": {
+          "attr": "wuxing",
+          "dc": 8
+        },
+        "success": {
+          "result": "数到第一百零八声时，鼓停了，瓶颈也在那片寂静里悄然化开。原来要过去，得先停下来。",
+          "effects": [
+            {
+              "type": "unstuck"
+            }
+          ]
+        },
+        "fail": {
+          "result": "数着数着就乱了。不过心里那团火，到底是灭了一些。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "没心情听",
+        "result": "你加快脚步，把鼓声甩在了身后。"
+      }
+    ]
+  },
+  {
+    "id": "common_insight_child",
+    "title": "童言",
+    "region": [
+      "qingshi_village",
+      "qingyun_market",
+      "yunmeng_marsh",
+      "beiming_sea"
+    ],
+    "art": "village_gate",
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji",
+      "stuck": true
+    },
+    "text": "一个小孩蹲在路边，拿木棍拼命往一个小洞里捅，想把卡在里面的石子捅出来，越捅卡得越紧。你看了一会儿，他抬头问你：“它为什么出不来呀？”",
+    "options": [
+      {
+        "text": "教他把洞挖大一点",
+        "check": {
+          "attr": "wuxing",
+          "dc": 7
+        },
+        "success": {
+          "result": "石子滚了出来，孩子欢呼着跑了。你还蹲在那里，忽然笑出了声：你也一直在拿木棍捅。当天夜里，瓶颈贯通。",
+          "effects": [
+            {
+              "type": "unstuck"
+            }
+          ]
+        },
+        "fail": {
+          "result": "孩子学会了，你却还没想明白自己的事。",
+          "effects": []
+        }
+      },
+      {
+        "text": "“它自己会出来的。”",
+        "result": "孩子将信将疑地看着你。你走远了，才觉得这话像是在说自己。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "common_insight_tide",
+    "title": "观潮",
+    "region": [
+      "yunmeng_marsh",
+      "beiming_sea",
+      "kunlun_ruins",
+      "heifeng_valley"
+    ],
+    "art": "marsh_boat_oldman",
+    "weight": 5,
+    "conditions": {
+      "realm_min": "zhuji",
+      "stuck": true
+    },
+    "text": "潮水涨到了礁石下，一次一次撞上去，碎成白沫，退下，再来。礁石纹丝不动。可你知道，百年之后，这块礁石会被磨成一粒沙。",
+    "options": [
+      {
+        "text": "坐在礁石上，看一整夜潮水",
+        "check": {
+          "attr": "xinjing",
+          "dc": 8
+        },
+        "success": {
+          "result": "天亮时，潮水退了。你起身时听见体内轻轻一声响，像是某块礁石，终于裂开了。",
+          "effects": [
+            {
+              "type": "unstuck"
+            }
+          ]
+        },
+        "fail": {
+          "result": "你看了一夜，只看出潮水很冷。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -10
+            }
+          ]
+        }
+      },
+      {
+        "text": "离开",
+        "result": "潮声在身后一阵一阵，追了你很远。"
+      }
+    ]
+  }
+]

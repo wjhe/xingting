@@ -1,0 +1,498 @@
+[
+  {
+    "id": "mountain_meng_drunk",
+    "title": "断剑醉客",
+    "art": "drunk_swordsman",
+    "region": ["luoxia_mountain"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_min": "lianqi", "realm_max": "lianqi" },
+    "text": "夜里你在山坳生了堆火，一个酒气冲天的中年人摇摇晃晃坐到对面，怀里抱着半截断剑。他自称孟寒秋，灌了口酒，冲你咧嘴一笑：“剑断了，人还没断——呵，罢了，喝酒。”",
+    "options": [
+      {
+        "text": "陪他喝，听他讲那把剑",
+        "result": "酒过三巡，他说起二十年前，师兄段沧盗走师门剑经，一剑斩断了他的“寒秋”。天亮时他已不见，火堆边的沙地上留着几道剑痕，你看了半晌，若有所悟。",
+        "effects": [{ "type": "cultivation", "value": 80 }, { "type": "flag", "key": "p4_meng_met" }, { "type": "flag", "key": "p4_meng_kind" }]
+      },
+      {
+        "text": "一把夺下他的酒葫芦",
+        "check": { "attr": "xinjing", "dc": 7 },
+        "success": {
+          "result": "孟寒秋盯着你看了许久，忽然把葫芦里的酒全泼进火里，火苗蹿起三尺高。“二十年了，头一个敢抢我酒的，竟是个炼气小子。罢了，戒一戒试试。”",
+          "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }, { "type": "flag", "key": "p4_meng_met" }, { "type": "flag", "key": "p4_meng_kind" }, { "type": "flag", "key": "p4_meng_sober" }]
+        },
+        "fail": {
+          "result": "你的手刚伸过去，就被断剑的剑脊敲在腕上，疼得直甩手。他抱着葫芦笑出了眼泪：“小子，再练二十年。”",
+          "effects": [{ "type": "hp", "value": -10 }, { "type": "flag", "key": "p4_meng_met" }]
+        }
+      },
+      {
+        "text": "嫌他酒气熏人，挪个地方",
+        "result": "你抱着铺盖走远了些。身后传来他含混的嘟囔：“罢了，喝酒。”",
+        "effects": [{ "type": "flag", "key": "p4_meng_met" }]
+      }
+    ]
+  },
+  {
+    "id": "valley_meng_trail",
+    "title": "黑风寻仇",
+    "art": "swordsman_wind",
+    "region": ["heifeng_valley"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "flags": ["p4_meng_kind"] },
+    "text": "黑风里有人喊你的名字。是孟寒秋，那半截断剑接上了新铸的剑身，接口处还看得见焊痕。他说追了半年，终于查到一伙劫修知道段沧的下落：“我一个人进去，十成里能出来三成。你来，能有五成。”",
+    "options": [
+      {
+        "text": "随他闯进劫修窝",
+        "result": "你们一前一后杀进山洞。",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": {
+            "result": "劫修头目跪地求饶，供出段沧早已投了血魔宗，藏身云梦泽。孟寒秋把搜出的灵石全推给你：“我只要消息。”",
+            "effects": [{ "type": "stone", "value": 600 }, { "type": "flag", "key": "p4_meng_ally" }, { "type": "flag", "key": "p4_meng_s2" }]
+          },
+          "lose": {
+            "result": "你被法器震飞出去，是孟寒秋背着你杀出来的。他喘着粗气说：“是我拉你下的水，这笔账记我头上。”",
+            "effects": [{ "type": "hp", "value": -40 }, { "type": "lifespan", "value": -3 }, { "type": "flag", "key": "p4_meng_ally" }, { "type": "flag", "key": "p4_meng_s2" }]
+          }
+        }
+      },
+      {
+        "text": "先用神识替他探探底",
+        "check": { "attr": "shenshi", "dc": 9 },
+        "success": {
+          "result": "你的神识贴着岩壁探进去，摸清了每个劫修的位置。孟寒秋照你说的路线进出，拿到了口供：段沧投了血魔宗，藏在云梦泽。他把劫修的储物袋扔给你：“你出力最多。”",
+          "effects": [{ "type": "stone", "value": 400 }, { "type": "flag", "key": "p4_meng_ally" }, { "type": "flag", "key": "p4_meng_s2" }]
+        },
+        "fail": {
+          "result": "神识被劫修察觉，洞中法器齐发。孟寒秋硬挡在你身前挨了两下，骂骂咧咧地带你撤了出来。",
+          "effects": [{ "type": "hp", "value": -30 }, { "type": "flag", "key": "p4_meng_ally" }, { "type": "flag", "key": "p4_meng_s2" }]
+        }
+      },
+      {
+        "text": "推说有事，不掺和",
+        "result": "孟寒秋点点头，也不多说，提着剑独自走进了黑风里：“罢了，本就是我自己的事。”",
+        "effects": [{ "type": "flag", "key": "p4_meng_s2" }]
+      }
+    ]
+  },
+  {
+    "id": "valley_meng_ambush",
+    "title": "困兽",
+    "art": "valley_rogue",
+    "region": ["heifeng_valley"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "flags": ["p4_meng_met"], "not_flags": ["p4_meng_kind"] },
+    "text": "乱石后头传来兵刃声。一个中年剑修背靠岩壁，断剑横在胸前，身上挂了好几处彩，三个黑袍劫修正慢慢围上去。他瞥见你，眯了眯眼：“落霞山那个……罢了，记不清了，脸熟。”",
+    "options": [
+      {
+        "text": "拔剑救人",
+        "result": "你从劫修背后杀了进去。",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": {
+            "result": "劫修死的死、逃的逃。孟寒秋拄着断剑喘了半天，把劫修的储物袋丢给你：“落霞山那晚，我想起来了。今天这份情，我记住了。”",
+            "effects": [{ "type": "stone", "value": 500 }, { "type": "flag", "key": "p4_meng_ally" }, { "type": "flag", "key": "p4_meng_s2" }]
+          },
+          "lose": {
+            "result": "你们俩被打得滚下山坡，劫修搜走了你身上的灵石。孟寒秋躺在乱石堆里笑了：“难兄难弟。行，这份情我记住了。”",
+            "effects": [{ "type": "hp", "value": -40 }, { "type": "stone", "value": -200 }, { "type": "flag", "key": "p4_meng_ally" }, { "type": "flag", "key": "p4_meng_s2" }]
+          }
+        }
+      },
+      {
+        "text": "抛给他一颗回春丹",
+        "requires": { "items": { "huichun_dan": 1 } },
+        "result": "他接住丹药一口吞下，断剑一抖，硬生生杀开了一条路。临走前他回头冲你抱了抱拳：“这颗丹，我记下了。”",
+        "effects": [{ "type": "item", "id": "huichun_dan", "count": -1 }, { "type": "flag", "key": "p4_meng_ally" }, { "type": "flag", "key": "p4_meng_s2" }]
+      },
+      {
+        "text": "绕道走开",
+        "result": "你绕过那片乱石。身后的兵刃声响了很久，然后忽然停了。",
+        "effects": [{ "type": "flag", "key": "p4_meng_s2" }]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_meng_duel",
+    "title": "泽上决剑",
+    "art": "marsh_demon",
+    "region": ["yunmeng_marsh"],
+    "weight": 25,
+    "once": true,
+    "conditions": { "realm_min": "jindan", "flags": ["p4_meng_ally"] },
+    "text": "孟寒秋托人捎来口信，约你泽心相见。两条船隔水相对，对面船头立着个血袍人，正是段沧。他面色灰败，每咳一声，袍上的血纹就暗一分。孟寒秋拔出那柄接过的剑，声音很平：“二十年了，今天了结。”",
+    "options": [
+      {
+        "text": "与他并肩出剑",
+        "result": "你踏上船头，与孟寒秋一左一右。",
+        "battle": {
+          "enemy": "demon_cultivator",
+          "win": {
+            "result": "段沧沉入泽底。孟寒秋从他的储物袋里翻出剑经和一袋灵石，一并塞给你：“剑经我背得出来，留着也是压箱底。你拿去，别学我把剑弄断。”",
+            "effects": [{ "type": "item", "id": "book_taiyi", "count": 1 }, { "type": "stone", "value": 2500 }, { "type": "flag", "key": "p4_meng_done" }]
+          },
+          "lose": {
+            "result": "血幡卷来，孟寒秋拼着硬挨一记把你推出了战圈。段沧趁乱遁走，你们在渔村养了大半年的伤。",
+            "effects": [{ "type": "hp", "value": -50 }, { "type": "lifespan", "value": -15 }, { "type": "flag", "key": "p4_meng_done" }]
+          }
+        }
+      },
+      {
+        "text": "抱剑旁观，这是他的仗",
+        "result": "孟寒秋独自踏水而去，攒了二十年的一剑斩落，段沧应声坠入泽中。他回来时左袖空了，却笑得像个少年：“剑断过一回，手再断一只，也就那么回事。”那一剑你只看了一遍，却再也忘不掉。",
+        "effects": [{ "type": "cultivation", "value": 8000 }, { "type": "flag", "key": "p4_meng_done" }]
+      },
+      {
+        "text": "按住他的剑：“他已经快死了。”",
+        "requires": { "flags": ["p4_meng_sober"], "hint": "他眼里只剩仇人，听不进劝" },
+        "result": "剑停在半空。段沧怔了半晌，从怀里摸出剑经抛过来：“偷了你二十年，一页也没练成。”孟寒秋接住，这回没去摸酒葫芦，转手把剑经递给你：“剑断了，人还没断。这东西困了我二十年，交给你，我就自在了。”",
+        "effects": [{ "type": "item", "id": "book_taiyi", "count": 1 }, { "type": "attr", "key": "xinjing", "value": 1 }, { "type": "flag", "key": "p4_meng_done" }]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_meng_sword",
+    "title": "断剑归泽",
+    "art": "marsh_boat_oldman",
+    "region": ["yunmeng_marsh"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "jindan", "flags": ["p4_meng_s2"], "not_flags": ["p4_meng_ally"] },
+    "text": "老渔翁撑船经过，船舱里搁着半截断剑，剑脊上刻着“寒秋”二字。他说上个月，一个使断剑的剑客和一个血袍人在泽心斗了一夜，天亮时只有血袍人上了岸。“那剑客沉下去前还在笑，说什么剑断了，人还没断。”",
+    "options": [
+      {
+        "text": "要来断剑，插在岸边",
+        "result": "你把断剑插进泽边的软泥里，倒了一壶酒。风吹过芦苇，像有人在含混地嘟囔：“罢了，喝酒。”",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "去替他补上这一剑",
+        "result": "你循着渔翁指的方向，在芦苇深处找到了那个血袍人。",
+        "battle": {
+          "enemy": "demon_cultivator",
+          "win": {
+            "result": "段沧伏诛。他怀里那卷剑经早已残破，只剩几页能看，你逐字读完，剑意入心；他搜刮来的灵石，也一并归了你。",
+            "effects": [{ "type": "cultivation", "value": 6000 }, { "type": "stone", "value": 2000 }]
+          },
+          "lose": {
+            "result": "段沧的血幡比你想的更狠，你重伤遁走，回头时芦苇荡里只剩他的冷笑。",
+            "effects": [{ "type": "hp", "value": -50 }, { "type": "lifespan", "value": -15 }]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "market_qian_pitch",
+    "title": "胖少东家",
+    "art": "market_street",
+    "region": ["qingyun_market"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_min": "lianqi", "realm_max": "lianqi" },
+    "text": "一个圆滚滚的少年拦住你，噼里啪啦拨着一把比他脸还大的算盘：“道友天庭饱满，一看就是大东家的命！在下钱记杂货铺少东家钱满仓，借我一百灵石，在坊市口支个烤灵薯摊，三年翻倍——亏不了！”",
+    "options": [
+      {
+        "text": "借他一百灵石",
+        "requires": { "stones": 100 },
+        "result": "钱满仓双手接过灵石，郑重写了张借据，字和他人一样圆。“大东家，您就等着收钱吧！”",
+        "effects": [{ "type": "stone", "value": -100 }, { "type": "flag", "key": "p4_qian_met" }, { "type": "flag", "key": "p4_qian_invest" }]
+      },
+      {
+        "text": "“你先烤一个我尝尝。”",
+        "result": "他真烤了一个，焦得像块炭，自己捧着啃得津津有味：“火候还在摸索，亏不了！”见你不掏钱，他也不恼，转身拦下了一位路人。",
+        "effects": [{ "type": "flag", "key": "p4_qian_met" }]
+      }
+    ]
+  },
+  {
+    "id": "market_qian_boom",
+    "title": "满仓灵食",
+    "art": "market_teahouse",
+    "region": ["qingyun_market"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "flags": ["p4_qian_invest"] },
+    "text": "坊市口开了三间铺面，招牌上写着“满仓灵食”。钱满仓又胖了一圈，一把将你拽进茶馆，压低声音：“大东家，黑风谷的瘴心草下月要涨三倍，我想把铺子全押进去囤货。本利我都备好了，您说——亏不了吧？”",
+    "options": [
+      {
+        "text": "劝他别把身家全押上",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": {
+          "result": "你掰着手指给他算了一下午，他的脸越听越白，最后一拍大腿：“不囤了！”说完把本钱和利钱一并塞给你：“一百六，一块不少。”",
+          "effects": [{ "type": "stone", "value": 160 }, { "type": "flag", "key": "p4_qian_rich" }]
+        },
+        "fail": {
+          "result": "他听得连连点头，转头还是把铺子押了出去：“富贵险中求嘛！”本钱和利钱倒是一块没少你的。",
+          "effects": [{ "type": "stone", "value": 160 }, { "type": "flag", "key": "p4_qian_broke" }]
+        }
+      },
+      {
+        "text": "本利都不要了，算我入伙",
+        "check": { "attr": "jiyuan", "dc": 8 },
+        "success": {
+          "result": "瘴心草果然涨了，钱满仓一口气又盘下五间铺面。他在契书上郑重写下你的名字：“两成干股，大东家！”",
+          "effects": [{ "type": "flag", "key": "p4_qian_partner" }, { "type": "flag", "key": "p4_qian_rich" }]
+        },
+        "fail": {
+          "result": "一场黑风封谷半年，囤的瘴心草全烂在了库里。钱满仓抱着空账本哭：“大东家，咱俩一块儿亏了……”",
+          "effects": [{ "type": "flag", "key": "p4_qian_partner" }, { "type": "flag", "key": "p4_qian_broke" }]
+        }
+      }
+    ]
+  },
+  {
+    "id": "market_qian_hawker",
+    "title": "烧饼摊",
+    "art": "peddler",
+    "region": ["qingyun_market"],
+    "weight": 18,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "flags": ["p4_qian_met"], "not_flags": ["p4_qian_invest"] },
+    "text": "街角推车卖烧饼的胖子一眼认出了你：“道友！当年没借我钱的那位！”钱满仓的灵薯摊早黄了，改卖烧饼，算盘还挂在车把上：“这回不一样，黑风谷的瘴心草要涨，三百灵石入伙，亏不了！”",
+    "options": [
+      {
+        "text": "帮他把账算清楚",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": {
+          "result": "你帮他把账一笔笔捋清，他听完收了囤货的心思，老老实实攒钱开铺子。临走他非拉着你吃了两个烧饼：“大东家，这顿算谢礼。”",
+          "effects": [{ "type": "flag", "key": "p4_qian_rich" }]
+        },
+        "fail": {
+          "result": "你说得口干舌燥，他嘴上连连称是，转身就把推车都押了出去。",
+          "effects": [{ "type": "flag", "key": "p4_qian_broke" }]
+        }
+      },
+      {
+        "text": "掏三百灵石入伙",
+        "requires": { "stones": 300 },
+        "check": { "attr": "jiyuan", "dc": 8 },
+        "success": {
+          "result": "瘴心草涨了三倍。钱满仓用这笔钱盘下了坊市口的铺面，契书上写着你的名字：“两成干股，大东家！”",
+          "effects": [{ "type": "stone", "value": -300 }, { "type": "flag", "key": "p4_qian_partner" }, { "type": "flag", "key": "p4_qian_rich" }]
+        },
+        "fail": {
+          "result": "黑风封谷半年，囤的瘴心草全烂在了库里。钱满仓连推车都卖了，抱着算盘冲你直作揖：“三百灵石我记着，一定还！”",
+          "effects": [{ "type": "stone", "value": -300 }, { "type": "flag", "key": "p4_qian_partner" }, { "type": "flag", "key": "p4_qian_broke" }]
+        }
+      },
+      {
+        "text": "买两个烧饼就走",
+        "result": "烧饼烤得不错，就是他找钱时又少找了你一块灵石。你回头看了一眼，他正冲着下一个路人拨算盘。",
+        "effects": [{ "type": "stone", "value": -3 }, { "type": "flag", "key": "p4_qian_broke" }]
+      }
+    ]
+  },
+  {
+    "id": "market_qian_tycoon",
+    "title": "钱半城",
+    "art": "market_auction",
+    "region": ["qingyun_market"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "jindan", "flags": ["p4_qian_rich"] },
+    "text": "万宝楼换了东家。拍卖开场前，一个穿金戴玉的胖子从楼上一路小跑下来，当着满堂宾客冲你深深一揖：“诸位，这位就是我钱满仓的大东家！”如今坊市里人人叫他“钱半城”，可他腰上挂的，还是那把旧算盘。",
+    "options": [
+      {
+        "text": "“来分红了。”",
+        "requires": { "flags": ["p4_qian_partner"], "hint": "你在他那儿没有股份" },
+        "result": "钱满仓亲自捧出账本，两成干股，连本带利算得清清楚楚：“五千灵石，大东家，亏不了吧？”",
+        "effects": [{ "type": "stone", "value": 5000 }]
+      },
+      {
+        "text": "叙叙旧就好",
+        "result": "他拉着你喝到半夜，说起当年的灵薯摊，笑得直打嗝。临别他塞给你一只锦盒：“生意人走夜路，这个比算盘管用。”盒里是一张五雷符。",
+        "effects": [{ "type": "item", "id": "wulei_talisman", "count": 1 }]
+      },
+      {
+        "text": "被他拉去楼前当招牌",
+        "result": "第二天，万宝楼门口挂出一幅你的画像，题着“金丹大东家在此，童叟无欺”。生意好了三成，钱满仓硬塞给你三千灵石，你每回路过都想找条地缝钻进去。",
+        "effects": [{ "type": "stone", "value": 3000 }, { "type": "attr", "key": "xinjing", "value": -1 }]
+      }
+    ]
+  },
+  {
+    "id": "market_qian_ruin",
+    "title": "债主上门",
+    "art": "debtors",
+    "region": ["qingyun_market"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "jindan", "flags": ["p4_qian_broke"] },
+    "text": "坊市口围了一圈人。几个债主揪着个瘦得像竹竿的汉子，你认了半天，才认出是钱满仓。债主一见你，眼睛亮了：“你就是他嘴里那位金丹大东家？他赊账时报的全是你的名号，两千灵石，你看着办！”",
+    "options": [
+      {
+        "text": "替他还了",
+        "requires": { "stones": 2000 },
+        "result": "你把灵石往桌上一放，债主们一哄而散。钱满仓蹲在地上哭了半天，抹干眼泪又拨起了算盘：“大东家，这笔我从头还起，亏不了……这回真亏不了。”",
+        "effects": [{ "type": "stone", "value": -2000 }, { "type": "attr", "key": "xinjing", "value": 1 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "把账本要来，一笔笔对",
+        "check": { "attr": "wuxing", "dc": 9 },
+        "success": {
+          "result": "你竟查出债主多算了一倍利钱。债主们灰溜溜地认了：只找钱满仓本人，与你无关。钱满仓扛起麻袋去码头做苦力，说要从头再来。"
+        },
+        "fail": {
+          "result": "债主嗓门比你大，围观的人越聚越多。你脸上挂不住，到底掏了一千灵石才把这群人打发走。",
+          "effects": [{ "type": "stone", "value": -1000 }]
+        }
+      },
+      {
+        "text": "“我不认识他。”",
+        "result": "你转身就走。没几天，满坊市都贴着告示：“某金丹真人欠债不还”，底下还画了你的像，画得倒挺像。",
+        "effects": [{ "type": "attr", "key": "jiyuan", "value": -1 }]
+      }
+    ]
+  },
+  {
+    "id": "village_ajiu_herbs",
+    "title": "药童阿九",
+    "art": "ajiu_herbs",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "采药婆婆家的小丫头阿九背着个比她还高的药篓，蹲在老槐树下对着半张破纸发愁。见你过来，她把纸举得高高的：“你识字吗？婆婆咳了一冬，货郎说这是治咳的方子，可我一个字也不认得。”",
+    "options": [
+      {
+        "text": "蹲下来，一个字一个字教她",
+        "result": "你教了她整整一下午。她学得极快，临走时用树枝在地上写你的名字，笔画歪歪扭扭，一笔也没漏。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }, { "type": "flag", "key": "p4_ajiu_met" }, { "type": "flag", "key": "p4_ajiu_kind" }]
+      },
+      {
+        "text": "把身上的回春丹给她",
+        "requires": { "items": { "huichun_dan": 1 } },
+        "result": "阿九攥着丹药一路跑回了家。第二天一早，你家门槛上多了一小捆洗得干干净净的青灵草，捆草的麻绳打了个笨拙的蝴蝶结。",
+        "effects": [{ "type": "item", "id": "huichun_dan", "count": -1 }, { "type": "item", "id": "herb_qingling", "count": 2 }, { "type": "attr", "key": "jiyuan", "value": 1 }, { "type": "flag", "key": "p4_ajiu_met" }, { "type": "flag", "key": "p4_ajiu_kind" }]
+      },
+      {
+        "text": "“我赶路呢，你问别人吧。”",
+        "result": "你走出老远回头看，她还蹲在树下，把那半张纸翻来覆去地看。",
+        "effects": [{ "type": "flag", "key": "p4_ajiu_met" }]
+      }
+    ]
+  },
+  {
+    "id": "market_ajiu_apprentice",
+    "title": "百草堂前",
+    "art": "apprentice_kneeling",
+    "region": ["qingyun_market"],
+    "weight": 18,
+    "once": true,
+    "conditions": { "realm_min": "lianqi", "flags": ["p4_ajiu_kind"] },
+    "text": "百草堂门口跪着个瘦小的丫头，药篓搁在一边，是阿九。她说婆婆去年冬天走了，走前让她来坊市学炼丹。掌柜抄着手：“没有保人，没有一百五十灵石的拜师礼，跪到明年也没用。”她看见你，眼圈一下子红了。",
+    "options": [
+      {
+        "text": "“我来作保，拜师礼我出。”",
+        "requires": { "stones": 150 },
+        "result": "掌柜收了灵石，脸色立刻好看了。阿九冲你磕了个头，抬起脸时满脸是泪，却在笑。",
+        "effects": [{ "type": "stone", "value": -150 }, { "type": "attr", "key": "jiyuan", "value": 1 }, { "type": "flag", "key": "p4_ajiu_disciple" }]
+      },
+      {
+        "text": "让她闭着眼辨满屋的药",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": {
+          "result": "阿九闭着眼一嗅一个准，连掌柜藏在柜底的陈年老参都被她闻了出来。掌柜愣了半天，亲自把她扶起来：“这孩子，我收了。”",
+          "effects": [{ "type": "flag", "key": "p4_ajiu_disciple" }]
+        },
+        "fail": {
+          "result": "她认得出药，却叫不全药名，掌柜只是摇头。最后掌柜松了口：后院缺个烧火丫头，管饭，不给工钱。阿九欢欢喜喜地应了。",
+          "effects": [{ "type": "flag", "key": "p4_ajiu_disciple" }]
+        }
+      },
+      {
+        "text": "“这条路，得你自己走。”",
+        "result": "阿九咬着嘴唇点点头，又跪了回去。后来你听说，她在百草堂门口跪了三天，掌柜终于收她做了烧火丫头。",
+        "effects": [{ "type": "flag", "key": "p4_ajiu_disciple" }]
+      }
+    ]
+  },
+  {
+    "id": "market_ajiu_first_pill",
+    "title": "第一炉丹",
+    "art": "first_pill",
+    "region": ["qingyun_market"],
+    "weight": 18,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "flags": ["p4_ajiu_disciple"] },
+    "text": "阿九从百草堂里冲出来，脸上还沾着炉灰，手心托着一颗疙疙瘩瘩的丹药：“凝元丹！我自己炼成的头一炉！”她把丹药往你手里一塞，“婆婆说，头一炉丹要给最想谢的人。丑是丑了点——婆婆还说，药不看脸。”",
+    "options": [
+      {
+        "text": "当着她的面吞下去",
+        "check": { "attr": "gengu", "dc": 8 },
+        "success": {
+          "result": "丹药入腹，一股暖流直冲丹田。阿九盯着你的脸看了半天，突然蹦了起来：“成了！真成了！”",
+          "effects": [{ "type": "cultivation", "value": 800 }, { "type": "flag", "key": "p4_ajiu_pill" }, { "type": "flag", "key": "p4_ajiu_trust" }]
+        },
+        "fail": {
+          "result": "药力是有的，就是火候冲了些，你捂着肚子在墙根蹲了半个时辰。阿九红着脸掏出小本子记下：“头一炉，火大了。”",
+          "effects": [{ "type": "hp", "value": -20 }, { "type": "cultivation", "value": 200 }, { "type": "flag", "key": "p4_ajiu_pill" }, { "type": "flag", "key": "p4_ajiu_trust" }]
+        }
+      },
+      {
+        "text": "小心收好，说留到要紧时再吃",
+        "result": "你把丹药收进玉瓶。阿九有点失望，很快又笑起来：“那你可别忘了吃，放久了药性要散的。”",
+        "effects": [{ "type": "item", "id": "ningyuan_dan", "count": 1 }, { "type": "flag", "key": "p4_ajiu_pill" }]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_ajiu_reunion",
+    "title": "莲畔重逢",
+    "art": "marsh_lotus",
+    "region": ["yunmeng_marsh"],
+    "weight": 22,
+    "once": true,
+    "conditions": { "realm_min": "jindan", "flags": ["p4_ajiu_pill"] },
+    "text": "灵莲丛中泊着一艘画舫，十几个丹堂弟子正小心翼翼地采莲，都说船上那位是名动一方的丹道大家“九姑”。舫帘一掀，一个素衣女子探出身来，愣了愣，提起裙摆就跳上了你的船：“真的是你！”她身上还是那股草药味，和小时候一样。",
+    "options": [
+      {
+        "text": "收下她备好的谢礼",
+        "result": "她早备好了，是一枚金灿灿的金髓丹：“我炼成的头一颗金髓丹，没给师父，也没给宗主，就等着给你。”",
+        "effects": [{ "type": "item", "id": "jinsui_dan", "count": 1 }]
+      },
+      {
+        "text": "“当年那颗丑丹，后来还丑吗？”",
+        "requires": { "flags": ["p4_ajiu_trust"], "hint": "你们之间还差一点交情" },
+        "result": "阿九笑出了眼泪，从袖中取出一颗莹白的莲子：“千年灵莲结的，我守了三年。你是头一个敢吃我丹的人，我得让你活得长长久久的。”",
+        "effects": [{ "type": "item", "id": "lotus_seed", "count": 1 }]
+      },
+      {
+        "text": "什么都不要，只问她过得好不好",
+        "result": "她絮絮叨叨说了一夜：丹炉、徒弟、婆婆坟前那棵树。分别时你才发现，袖子里不知何时多了个小玉瓶，里头是一颗延寿丹。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }, { "type": "item", "id": "yanshou_dan", "count": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_ajiu_stranger",
+    "title": "渔村义诊",
+    "art": "marsh_fishing",
+    "region": ["yunmeng_marsh"],
+    "weight": 18,
+    "once": true,
+    "conditions": { "realm_min": "jindan", "flags": ["p4_ajiu_met"], "not_flags": ["p4_ajiu_kind"] },
+    "text": "渔村晒网的空地上排着长队，名动一方的丹道大家“九姑”在给渔民义诊，分文不取。她低头嗅药的样子，让你想起青石村老槐树下那个对着破纸发愁的小丫头。轮到你时，她抬眼一笑：“这位前辈，哪里不适？”",
+    "options": [
+      {
+        "text": "按价求一颗延寿丹",
+        "requires": { "stones": 1500 },
+        "result": "她点点头，取丹、收钱、道谢，客客气气，和对每个人都一样。",
+        "effects": [{ "type": "stone", "value": -1500 }, { "type": "item", "id": "yanshou_dan", "count": 1 }]
+      },
+      {
+        "text": "“你……是青石村人吧？”",
+        "result": "她怔了怔，笑了：“小时候在那儿。那年婆婆病着，我拿着方子求遍了过路的人，没一个肯停下。所以如今，我谁都看。”见你脸色发白，她顺手塞给你一颗清心丹。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }, { "type": "item", "id": "qingxin_dan", "count": 1 }]
+      },
+      {
+        "text": "默默离开",
+        "result": "你没有排队。走出很远，回头还能看见那条长长的队伍，和队伍尽头那个低头嗅药的身影。"
+      }
+    ]
+  }
+]

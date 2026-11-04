@@ -1,0 +1,89 @@
+{
+  "src": "1e99214df8ecf38ea494.wav",
+  "duration": 3.9,
+  "gain": 1.5356305072782914,
+  "source_sha256": "dc6e53dbc6279b817ce347615ed912827c26ca6ddc88a16b4f78c2fb2fab201d",
+  "id": "event.main_7_1.choice.0",
+  "text": "答应她，提前留好那一天",
+  "group": "event:main_7_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3480,
+        "start_time": 1080,
+        "text": "答应她，提前留好那一天。",
+        "words": [
+          {
+            "end_time": 1320,
+            "start_time": 1080,
+            "text": "答"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1320,
+            "text": "应"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1600,
+            "text": "她"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1720,
+            "text": "，"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "提"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "前"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2520,
+            "text": "留"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2760,
+            "text": "好"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "那"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3120,
+            "text": "一"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3280,
+            "text": "天"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3480,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "答应她，提前留好那一天。"
+  }
+}

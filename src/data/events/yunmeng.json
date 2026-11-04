@@ -1,0 +1,369 @@
+[
+  {
+    "id": "yunmeng_fog",
+    "title": "泽中迷雾",
+    "art": "marsh_boat_oldman",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_max": "zhuji"
+    },
+    "text": "白茫茫的水雾遮天蔽日，你在泽中转了几个月，始终找不到方向。偶尔有巨大的黑影从水下掠过，令人毛骨悚然。以你的修为，还不足以深入云梦泽。",
+    "options": [
+      {
+        "text": "继续往深处走",
+        "check": {
+          "attr": "shenshi",
+          "dc": 11
+        },
+        "success": {
+          "result": "你凭着神识找到一条水道，在浅滩边的芦苇里打坐了几日。泽中灵气之浓，让你暗暗心惊，等结成金丹再来不迟。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 600
+            },
+            {
+              "type": "stone",
+              "value": 300
+            }
+          ]
+        },
+        "fail": {
+          "result": "水下的黑影骤然暴起，你拼死逃出泽外，元气大伤。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -80
+            },
+            {
+              "type": "lifespan",
+              "value": -5
+            }
+          ]
+        }
+      },
+      {
+        "text": "退出泽外",
+        "result": "你退了出来。还是等结成金丹再来吧。"
+      }
+    ],
+    "once": true
+  },
+  {
+    "id": "yunmeng_jiao",
+    "title": "蛟龙出水",
+    "art": "marsh_dragon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 11,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽面忽然炸开一道水柱，一条通体青黑的蛟龙破水而出，竖瞳冰冷地锁定了你。",
+    "options": [
+      {
+        "text": "屠蛟",
+        "battle": {
+          "enemy": "jiao_dragon",
+          "win": {
+            "result": "蛟龙巨大的身躯砸入泽中，激起滔天巨浪。你剖出它的内丹，又剥下几片完整的鳞甲。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "jiao_core",
+                "count": 1
+              },
+              {
+                "type": "item",
+                "id": "jiao_scale",
+                "count": 2
+              },
+              {
+                "type": "item",
+                "id": "jiao_nilin",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -15
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "潜入水底避开",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "你屏息沉入泽底，蛟龙在水面盘旋良久，终于离去。"
+        },
+        "fail": {
+          "result": "蛟尾扫过，你被抽飞出去，撞断了好几根肋骨。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_demon",
+    "title": "血袍魔修",
+    "art": "marsh_demon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "芦苇荡里飘来浓重的血腥气。一名血袍修士正把一个渔民炼成血雾，他舔了舔嘴唇，看向你：“金丹修士的精血，更补。”",
+    "options": [
+      {
+        "text": "替天行道",
+        "battle": {
+          "enemy": "demon_cultivator",
+          "win": {
+            "result": "魔修化作一滩血水。你在他的储物袋里找到一柄寒气逼人的长剑，还有大量灵石。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "sword_hanpo",
+                "count": 1
+              },
+              {
+                "type": "stone",
+                "value": 3000
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": 1
+              }
+            ]
+          },
+          "lose": {
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "此人凶戾，避其锋芒",
+        "result": "你远远绕开。身后传来一声凄厉的惨叫，又归于寂静。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_lotus",
+    "title": "千年灵莲",
+    "art": "marsh_lotus",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "雾气散开处，一株通体莹白的莲花亭亭立于水面，莲蓬里结着几颗饱满的莲子，异香扑鼻。",
+    "options": [
+      {
+        "text": "小心采摘",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 9
+        },
+        "success": {
+          "result": "你采下一颗莲子，灵莲轻轻摇曳，并未凋零。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "lotus_seed",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "lian_xin",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "指尖刚触到莲蓬，整株灵莲便化作点点荧光，消散在雾中。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_heart_demon",
+    "title": "心魔",
+    "art": "heart_demon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "打坐时，一道与你一模一样的身影从识海深处走了出来，冷冷地看着你：“你修了这么多世，又有什么用？还不是一次次死去。”",
+    "options": [
+      {
+        "text": "直面心魔",
+        "check": {
+          "attr": "xinjing",
+          "dc": 10
+        },
+        "success": {
+          "result": "“正因为一次次死去，我才一次次走得更远。”心魔沉默片刻，碎成了光。你的道心前所未有地澄澈。",
+          "effects": [
+            {
+              "type": "break_bonus",
+              "value": 0.1
+            }
+          ]
+        },
+        "fail": {
+          "result": "心魔的话像毒蛇一样钻进心里。你枯坐了二十年，才勉强把它压下去。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_fishing_village",
+    "title": "泽畔渔村",
+    "art": "marsh_fishing",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "text": "泽边有个小渔村，渔民们世代与蛟龙、魔修为邻，却依旧日出撒网、日落归家。一个老渔翁递给你一碗鱼汤。",
+    "options": [
+      {
+        "text": "坐下喝汤，听他讲泽里的故事",
+        "result": "鱼汤很鲜。老渔翁说，泽底有座发光的宫殿，他爷爷的爷爷就见过。",
+        "effects": [
+          {
+            "type": "hp",
+            "value": 100
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_ancient_palace",
+    "title": "泽底遗府",
+    "art": "marsh_palace",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 10,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "你潜入泽底，找到了那座发光的宫殿。殿中只有一块玉碑，你的手刚触到碑面，一道苍老的声音便在识海中响起：“吾乃太初。吾参不透生死，便以毕生修为布下这轮回大阵，将一缕神魂投入其中，一世又一世，寻一条走得出去的路……后来者，你也是那缕神魂吗？”",
+    "options": [
+      {
+        "text": "“我是。”",
+        "result": "玉碑上的字迹一个个亮起，又一个个熄灭。你终于明白了：那个反复回响的声音，那些壁画上的身影，都是你自己。",
+        "effects": [
+          {
+            "type": "meta_flag",
+            "key": "truth_known"
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "“我不知道。”",
+        "result": "玉碑沉默了。你在殿中坐了三天三夜，隐约触到了什么，却又抓不住。",
+        "effects": [
+          {
+            "type": "meta_flag",
+            "key": "truth_known"
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_old_man",
+    "title": "泽上舟",
+    "art": "marsh_boat_oldman",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 20,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "meta_flags": [
+        "met_old_man",
+        "truth_known"
+      ]
+    },
+    "text": "一叶扁舟从雾中驶来，撑船的正是槐树下那位老者。他把船停在你面前：“你终于走到这里了。我等了很多世。”“你是……太初？”老者摇头：“我是上一个走到这里的人。”",
+    "options": [
+      {
+        "text": "“那我该怎么做？”",
+        "result": "“结婴之时，你自会知道。”老者递给你一枚温润的玉珏，“这个，能帮你过心魔那一关。”",
+        "effects": [
+          {
+            "type": "meta_flag",
+            "key": "old_man_truth"
+          },
+          {
+            "type": "break_bonus",
+            "value": 0.15
+          }
+        ]
+      }
+    ]
+  }
+]

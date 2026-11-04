@@ -1,0 +1,232 @@
+{
+  "bgm_battle": [
+    {
+      "file": "bgm_battle_runninghub_2117878657535148034.flac",
+      "preview": "bgm_battle_runninghub_2117878657535148034.mp3",
+      "measured_lufs": -19.9
+    },
+    {
+      "file": "bgm_battle_runninghub_2117878659590348801.flac",
+      "preview": "bgm_battle_runninghub_2117878659590348801.mp3",
+      "measured_lufs": -19.9
+    },
+    {
+      "file": "bgm_battle_runninghub_2117878660634738690.flac",
+      "preview": "bgm_battle_runninghub_2117878660634738690.mp3",
+      "measured_lufs": -19.6
+    },
+    {
+      "file": "bgm_battle_runninghub_2117878661544902658.flac",
+      "preview": "bgm_battle_runninghub_2117878661544902658.mp3",
+      "measured_lufs": -19.9
+    }
+  ],
+  "bgm_explore": [
+    {
+      "file": "bgm_explore_runninghub_2117878662266322945.flac",
+      "preview": "bgm_explore_runninghub_2117878662266322945.mp3",
+      "measured_lufs": -20.5
+    },
+    {
+      "file": "bgm_explore_runninghub_2117878663642046465.flac",
+      "preview": "bgm_explore_runninghub_2117878663642046465.mp3",
+      "measured_lufs": -20.1
+    },
+    {
+      "file": "bgm_explore_runninghub_2117878665802108930.flac",
+      "preview": "bgm_explore_runninghub_2117878665802108930.mp3",
+      "measured_lufs": -19.9
+    },
+    {
+      "file": "bgm_explore_runninghub_2117878666611609602.flac",
+      "preview": "bgm_explore_runninghub_2117878666611609602.mp3",
+      "measured_lufs": -20.2
+    }
+  ],
+  "bgm_festival": [
+    {
+      "file": "bgm_festival_runninghub_2117881268057374722.flac",
+      "preview": "bgm_festival_runninghub_2117881268057374722.mp3",
+      "measured_lufs": -20.2
+    }
+  ],
+  "bgm_growing": [
+    {
+      "file": "bgm_growing_runninghub_2117881269026250754.flac",
+      "preview": "bgm_growing_runninghub_2117881269026250754.mp3",
+      "measured_lufs": -20.5
+    }
+  ],
+  "bgm_home": [
+    {
+      "file": "bgm_home_runninghub_2117876511850856450.flac",
+      "preview": "bgm_home_runninghub_2117876511850856450.mp3",
+      "measured_lufs": -20.5
+    },
+    {
+      "file": "bgm_home_runninghub_2117877897095237634.flac",
+      "preview": "bgm_home_runninghub_2117877897095237634.mp3",
+      "measured_lufs": -19.9
+    },
+    {
+      "file": "bgm_home_runninghub_2117877898580033538.flac",
+      "preview": "bgm_home_runninghub_2117877898580033538.mp3",
+      "measured_lufs": -20.2
+    },
+    {
+      "file": "bgm_home_runninghub_2117877899582472193.flac",
+      "preview": "bgm_home_runninghub_2117877899582472193.mp3",
+      "measured_lufs": -20.7
+    }
+  ],
+  "bgm_home_winter": [
+    {
+      "file": "bgm_home_winter_runninghub_2117881270817214465.flac",
+      "preview": "bgm_home_winter_runninghub_2117881270817214465.mp3",
+      "measured_lufs": -20.2
+    }
+  ],
+  "bgm_night": [
+    {
+      "file": "bgm_night_runninghub_2117881265230413826.flac",
+      "preview": "bgm_night_runninghub_2117881265230413826.mp3",
+      "measured_lufs": -20.6
+    }
+  ],
+  "bgm_opening_morning": [
+    {
+      "file": "bgm_opening_morning_runninghub_2117918935000240129.flac",
+      "preview": "bgm_opening_morning_runninghub_2117918935000240129.mp3",
+      "measured_lufs": -20.1
+    }
+  ],
+  "bgm_opening_night": [
+    {
+      "file": "bgm_opening_night_runninghub_2117918932684984322.flac",
+      "preview": "bgm_opening_night_runninghub_2117918932684984322.mp3",
+      "measured_lufs": -19.8
+    }
+  ],
+  "bgm_rain": [
+    {
+      "file": "bgm_rain_runninghub_2117881267218501634.flac",
+      "preview": "bgm_rain_runninghub_2117881267218501634.mp3",
+      "measured_lufs": -20.5
+    }
+  ],
+  "bgm_schedule": [
+    {
+      "file": "bgm_schedule_runninghub_2117878644209836033.flac",
+      "preview": "bgm_schedule_runninghub_2117878644209836033.mp3",
+      "measured_lufs": -20.1
+    },
+    {
+      "file": "bgm_schedule_runninghub_2117878647074541569.flac",
+      "preview": "bgm_schedule_runninghub_2117878647074541569.mp3",
+      "measured_lufs": -20.0
+    },
+    {
+      "file": "bgm_schedule_runninghub_2117878648362205186.flac",
+      "preview": "bgm_schedule_runninghub_2117878648362205186.mp3",
+      "measured_lufs": -20.7
+    },
+    {
+      "file": "bgm_schedule_runninghub_2117878649045876737.flac",
+      "preview": "bgm_schedule_runninghub_2117878649045876737.mp3",
+      "measured_lufs": -20.2
+    }
+  ],
+  "bgm_story": [
+    {
+      "file": "bgm_story_runninghub_2117881263498153985.flac",
+      "preview": "bgm_story_runninghub_2117881263498153985.mp3",
+      "measured_lufs": -20.4
+    }
+  ],
+  "bgm_town": [
+    {
+      "file": "bgm_town_runninghub_2117878651273052161.flac",
+      "preview": "bgm_town_runninghub_2117878651273052161.mp3",
+      "measured_lufs": -20.0
+    },
+    {
+      "file": "bgm_town_runninghub_2117878652304850946.flac",
+      "preview": "bgm_town_runninghub_2117878652304850946.mp3",
+      "measured_lufs": -20.4
+    },
+    {
+      "file": "bgm_town_runninghub_2117878653722525698.flac",
+      "preview": "bgm_town_runninghub_2117878653722525698.mp3",
+      "measured_lufs": -20.7
+    },
+    {
+      "file": "bgm_town_runninghub_2117878654494269441.flac",
+      "preview": "bgm_town_runninghub_2117878654494269441.mp3",
+      "measured_lufs": -20.5
+    }
+  ],
+  "jingle_birthday": [
+    {
+      "file": "jingle_birthday_runninghub_2117881277213532161.flac",
+      "preview": "jingle_birthday_runninghub_2117881277213532161.mp3",
+      "measured_lufs": -15.8,
+      "cut_seconds": 7.0
+    }
+  ],
+  "jingle_chapter": [
+    {
+      "file": "jingle_chapter_runninghub_2117918936128512002.flac",
+      "preview": "jingle_chapter_runninghub_2117918936128512002.mp3",
+      "measured_lufs": -16.3,
+      "cut_seconds": 4.1
+    }
+  ],
+  "jingle_ending": [
+    {
+      "file": "jingle_ending_runninghub_2117881279155494913.flac",
+      "preview": "jingle_ending_runninghub_2117881279155494913.mp3",
+      "measured_lufs": -17.1,
+      "cut_seconds": 8.05
+    }
+  ],
+  "jingle_festival_award": [
+    {
+      "file": "jingle_festival_award_runninghub_2117881278266310658.flac",
+      "preview": "jingle_festival_award_runninghub_2117881278266310658.mp3",
+      "measured_lufs": -14.6,
+      "cut_seconds": 6.9
+    }
+  ],
+  "jingle_letter": [
+    {
+      "file": "jingle_letter_runninghub_2117881275841994754.flac",
+      "preview": "jingle_letter_runninghub_2117881275841994754.mp3",
+      "measured_lufs": -16.4,
+      "cut_seconds": 2.5
+    }
+  ],
+  "jingle_month_end": [
+    {
+      "file": "jingle_month_end_runninghub_2117881274264936449.flac",
+      "preview": "jingle_month_end_runninghub_2117881274264936449.mp3",
+      "measured_lufs": -16.4,
+      "cut_seconds": 3.7
+    }
+  ],
+  "jingle_retreat": [
+    {
+      "file": "jingle_retreat_runninghub_2117881273379934210.flac",
+      "preview": "jingle_retreat_runninghub_2117881273379934210.mp3",
+      "measured_lufs": -16.1,
+      "cut_seconds": 3.2
+    }
+  ],
+  "jingle_victory": [
+    {
+      "file": "jingle_victory_runninghub_2117881271869988866.flac",
+      "preview": "jingle_victory_runninghub_2117881271869988866.mp3",
+      "measured_lufs": -16.5,
+      "cut_seconds": 3.4
+    }
+  ]
+}

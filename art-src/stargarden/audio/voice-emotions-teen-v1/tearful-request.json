@@ -1,0 +1,118 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "27130a5e-8f7e-4563-a383-9315bdd1efab",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段游戏角色的中文配音，只有一个女孩的人声。角色音色使用@音频1，保持同一个女孩的声音身份。表演场景：女孩独自等了很久，害怕爸爸再也不回来。终于见到爸爸时，积累的委屈涌出来，难过得快要哭了。用明显的哭腔、颤抖的气息、哽咽和停顿演出，语速慢，尾音低落，忍着眼泪说完。情绪强度很高。\n女孩说：“爸爸，你回来啦！我一直在等你。”\n只演出台词及相应的人声表情，不读场景说明。干净录音，无音乐，无环境声，无其他角色。",
+    "references": [
+      {
+        "speaker": "S_yknZmKn32"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261104040117450E463E3784E4F814D6",
+  "response": {
+    "duration": 7.68,
+    "original_duration": 7.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4800,
+          "start_time": 1520,
+          "text": "爸爸，你回来啦！",
+          "words": [
+            {
+              "end_time": 1840,
+              "start_time": 1520,
+              "text": "爸"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1880,
+              "text": "爸"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 2040,
+              "text": "，"
+            },
+            {
+              "end_time": 3960,
+              "start_time": 3520,
+              "text": "你"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3960,
+              "text": "回"
+            },
+            {
+              "end_time": 4400,
+              "start_time": 4160,
+              "text": "来"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4400,
+              "text": "啦"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4800,
+              "text": "！"
+            }
+          ]
+        },
+        {
+          "end_time": 7280,
+          "start_time": 5880,
+          "text": "我一直在等你。",
+          "words": [
+            {
+              "end_time": 6200,
+              "start_time": 5880,
+              "text": "我"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6200,
+              "text": "一"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6320,
+              "text": "直"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6520,
+              "text": "在"
+            },
+            {
+              "end_time": 7040,
+              "start_time": 6760,
+              "text": "等"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 7040,
+              "text": "你"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 7280,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "爸爸，你回来啦！我一直在等你。"
+    }
+  }
+}

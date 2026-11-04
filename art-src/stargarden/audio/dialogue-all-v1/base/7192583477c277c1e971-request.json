@@ -1,0 +1,91 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "523730df-dc12-463a-8442-7c88b54aca9c",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：轻柔、有电影感的旁白。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“你蹲下来，向她伸出手。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105045203773593AB9C1045F23D0C",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2880,
+          "start_time": 400,
+          "text": "你蹲下来，向她伸出手。",
+          "words": [
+            {
+              "end_time": 720,
+              "start_time": 400,
+              "text": "你"
+            },
+            {
+              "end_time": 880,
+              "start_time": 720,
+              "text": "蹲"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1000,
+              "text": "下"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1160,
+              "text": "来"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1400,
+              "text": "，"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1520,
+              "text": "向"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1840,
+              "text": "她"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2120,
+              "text": "伸"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2320,
+              "text": "出"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2560,
+              "text": "手"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2880,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "你蹲下来，向她伸出手。"
+    }
+  }
+}

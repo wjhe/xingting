@@ -1,0 +1,894 @@
+[
+  {
+    "id": "dan_village_doctor",
+    "title": "赤脚郎中",
+    "region": [
+      "qingshi_village"
+    ],
+    "art": "village_gate",
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_max": "lianqi"
+    },
+    "text": "村口来了个赤脚郎中，药篓里塞满了青灵草。他见你身上有灵气，眯眼笑道：“修仙的？那你该会炼丹。不会？可惜了，这一篓子草，凡人吃了治风寒，到你们手里能炼出回春丹来。”",
+    "options": [
+      {
+        "text": "买下他半篓青灵草（20 灵石）",
+        "result": "郎中数了数灵石，把半篓青灵草倒进你怀里：“回春丹，两株一炉，火别太急。”",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -20
+          },
+          {
+            "type": "item",
+            "id": "herb_qingling",
+            "count": 4
+          }
+        ],
+        "requires": {
+          "stones": 20
+        }
+      },
+      {
+        "text": "请教他认药",
+        "result": "他蹲在地上给你讲了一下午，哪株老、哪株嫩、哪株只是长得像。临走送了你两株：“认准了，以后山里到处都是。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_qingling",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "text": "摆摆手走开",
+        "result": "郎中也不恼，背起药篓，晃晃悠悠地往下一个村子去了。"
+      }
+    ]
+  },
+  {
+    "id": "dan_luoxia_herb_cliff",
+    "title": "崖上赤藤",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "art": "mountain_cliff_herb",
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji"
+    },
+    "text": "落霞山一处绝壁上垂下几丈长的赤血藤，藤叶在风里红得像火。藤根扎在崖缝深处，要采，只能攀上去。崖底散落着几只断了带子的药篓。",
+    "options": [
+      {
+        "text": "攀上去采藤",
+        "check": {
+          "attr": "gengu",
+          "dc": 7
+        },
+        "success": {
+          "result": "你手脚并用攀到藤根处，割下一大截赤血藤，又顺手摘了几株崖缝里的青灵草。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_chixue",
+              "count": 3
+            },
+            {
+              "type": "item",
+              "id": "herb_qingling",
+              "count": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "攀到一半脚下一滑，你抓着藤蔓荡了出去，撞在崖壁上，手里只剩一小截藤。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_chixue",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -25
+            }
+          ]
+        }
+      },
+      {
+        "text": "在崖底捡些掉落的藤叶",
+        "result": "崖底的藤叶多半枯了，你挑挑拣拣，凑出一截还能用的。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_chixue",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dan_luoxia_old_furnace",
+    "title": "破庙丹炉",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "art": "mountain_cave",
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "lianqi"
+    },
+    "text": "山腰破庙里供着一尊早已无人祭拜的神像，神像脚边却搁着一只小小的铜丹炉，炉底积着焦黑的药渣。炉里压着一卷油纸包，纸角写着“筑基”二字。",
+    "options": [
+      {
+        "text": "取走油纸包",
+        "result": "油纸包里是一页残旧的丹方，记的正是筑基丹的炼法，字迹工整，旁边还批了几行火候心得。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_zhuji",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "细看炉底的药渣",
+        "check": {
+          "attr": "shenshi",
+          "dc": 8
+        },
+        "success": {
+          "result": "你从药渣里辨出了几味药的火候，再去读那页丹方，便觉得句句都通。你把丹方和几味剩下的药一并收起。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_zhuji",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "herb_chixue",
+              "count": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "药渣糊成一团，看不出名堂。你还是取走了那页丹方。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_zhuji",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "给神像上一炷香，原样放回",
+        "result": "你上了香，什么也没动。出庙时山风正好，吹得人神清气爽。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dan_market_apprentice",
+    "title": "丹铺学徒",
+    "region": [
+      "qingyun_market"
+    ],
+    "art": "market_alchemy",
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "坊市丹铺门口，一个小学徒被掌柜赶了出来，抱着一摞丹方抄本蹲在台阶上抹眼泪——他抄错了一味药，整摞都成了废纸。你随手翻了翻，大半其实没错。",
+    "options": [
+      {
+        "text": "花 300 灵石买下这摞抄本",
+        "result": "学徒破涕为笑。你回去对着一页页核了，挑出一份凝元丹方是全对的。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -300
+          },
+          {
+            "type": "item",
+            "id": "danfang_ningyuan",
+            "count": 1
+          }
+        ],
+        "requires": {
+          "stones": 300
+        }
+      },
+      {
+        "text": "帮他找出抄错的那一处",
+        "check": {
+          "attr": "wuxing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你指出了错处。学徒感激不尽，偷偷把掌柜压箱底的一页破障丹方抄了一份给你。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_pozhang",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你翻来覆去也没找出错在哪儿。学徒叹了口气，抱着抄本走了。"
+        }
+      },
+      {
+        "text": "拍拍他的肩，走开",
+        "result": "你走出几步回头，他已经在一张张重抄了。"
+      }
+    ]
+  },
+  {
+    "id": "dan_valley_burnt_lab",
+    "title": "炸毁的丹房",
+    "region": [
+      "heifeng_valley"
+    ],
+    "art": "valley_ruins",
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "黑风谷深处有一座塌了半边的石屋，四壁熏得乌黑，屋顶被炸开一个大洞——一看就是炸了炉。焦黑的石桌上还压着两卷丹方，一卷写着“延寿”，一卷写着“破境”。屋角的药柜里，有什么东西在窸窸窣窣地动。",
+    "options": [
+      {
+        "text": "只拿延寿丹方",
+        "result": "你拿起延寿丹方就走，没有惊动屋角的东西。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_yanshou",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "两卷都拿，再翻翻屋角的药柜",
+        "result": "药柜里钻出一头被药气熏得发了狂的黑熊。",
+        "battle": {
+          "enemy": "bear_demon",
+          "win": {
+            "result": "黑熊倒地。药柜里还剩几颗朱果和一截瘴心草，你连同两卷丹方一并收起。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "danfang_yanshou",
+                "count": 1
+              },
+              {
+                "type": "item",
+                "id": "danfang_pojing",
+                "count": 1
+              },
+              {
+                "type": "item",
+                "id": "herb_zhuguo",
+                "count": 2
+              },
+              {
+                "type": "item",
+                "id": "miasma_herb",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "你被黑熊拍出石屋，慌乱中只抓住了一卷丹方。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "danfang_yanshou",
+                "count": 1
+              },
+              {
+                "type": "hp",
+                "value": -40
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "这屋子的主人就是炸炉死的，不碰",
+        "result": "你在门口站了一会儿。石桌上，那两卷丹方被风吹得翻了一页。"
+      }
+    ]
+  },
+  {
+    "id": "dan_valley_zhuguo_tree",
+    "title": "朱果树",
+    "region": [
+      "heifeng_valley"
+    ],
+    "art": "valley_wind",
+    "weight": 4,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "背阴的石缝里长着一棵矮小的朱果树，枝头挂着七八颗红得发亮的果子。树下盘着一条手腕粗的赤蛇，正吐着信子打量你。",
+    "options": [
+      {
+        "text": "趁它不备，摘了就走",
+        "check": {
+          "attr": "shenshi",
+          "dc": 10
+        },
+        "success": {
+          "result": "你看准赤蛇转头的一瞬出手，摘下四颗朱果，退得干干净净。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_zhuguo",
+              "count": 4
+            }
+          ]
+        },
+        "fail": {
+          "result": "赤蛇比你快，一口咬在你手背上。你忍着麻痒摘下一颗，手肿了半个月。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_zhuguo",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "只摘最外面那一颗",
+        "result": "赤蛇懒懒地看着你摘走一颗，没有动。也许它也知道，剩下的够它守下一个三十年。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_zhuguo",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dan_market_contest",
+    "title": "斗丹会",
+    "region": [
+      "qingyun_market"
+    ],
+    "art": "market_alchemy",
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "坊市里摆起了擂台，丹铺掌柜办斗丹会：一炉清心丹，谁炼得快、炼得好，谁就拿走彩头——一卷清心丹方。台下围满了人，掌柜看见你，招手道：“这位道友，上来试试？”",
+    "options": [
+      {
+        "text": "上台斗丹",
+        "check": {
+          "attr": "shenshi",
+          "dc": 11
+        },
+        "success": {
+          "result": "你一炉三枚，枚枚圆润。掌柜愣了半晌，把丹方双手奉上：“道友这手火候，该去开丹铺。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_qingxin",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "火候差了一线，你那炉丹碎了两枚。掌柜笑着给了你一枚安慰：“下回再来。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "qingxin_dan",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "花 6000 灵石直接买下彩头",
+        "result": "掌柜打了个哈哈，收了灵石，把丹方塞给你：“道友爽快，不过斗丹会还是要办的。”",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -6000
+          },
+          {
+            "type": "item",
+            "id": "danfang_qingxin",
+            "count": 1
+          }
+        ],
+        "requires": {
+          "stones": 6000
+        }
+      },
+      {
+        "text": "在台下看个热闹",
+        "result": "你看了一下午。别人怎么控火、怎么投药，你都记在心里。"
+      }
+    ]
+  },
+  {
+    "id": "dan_valley_dead_alchemist",
+    "title": "背篓尸骨",
+    "region": [
+      "heifeng_valley"
+    ],
+    "art": "valley_battlefield",
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "乱石堆里卧着一具白骨，身边一只烂了的药篓，篓里还卡着一只玉瓶。骨头的手指扣在一卷油布上，扣得很紧，像是死前最后一件放不下的事。",
+    "options": [
+      {
+        "text": "取走玉瓶和油布",
+        "result": "玉瓶里是两枚洗髓丹。油布里裹着一卷洗髓丹方，边上用血写着一行字：“传给下一个人。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "xisui_dan",
+            "count": 2
+          },
+          {
+            "type": "item",
+            "id": "danfang_xisui",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "掩埋尸骨，再取油布",
+        "result": "你把他埋了，取了油布，玉瓶留在了坟前。走的时候，风停了。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_xisui",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dan_marsh_yaowang",
+    "title": "药王遗庐",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "art": "marsh_palace",
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽心小岛上有一间茅庐，门楣上挂着“药王”二字的旧匾。庐里没有人，药圃却长得极好：紫芝一丛丛冒出头，像是有人刚浇过水。案上一卷丹方压着一张字条：“取一方，留一方。”",
+    "options": [
+      {
+        "text": "取走金髓丹方，留下你知道的一张丹方",
+        "result": "你默写了一张你最熟的丹方压在案上，取走金髓丹方。出门时药圃里的紫芝轻轻摇了摇。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_jinsui",
+            "count": 1
+          },
+          {
+            "type": "item",
+            "id": "herb_zizhi",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "text": "在药圃里采几株紫芝",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 11
+        },
+        "success": {
+          "result": "你采了四株最老的紫芝，药圃里立刻又冒出了新芽。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_zizhi",
+              "count": 4
+            }
+          ]
+        },
+        "fail": {
+          "result": "你刚伸手，满圃紫芝齐齐缩回了泥里。你只来得及拔起一株。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_zizhi",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "拜一拜，空手离开",
+        "result": "你对着空屋拜了一拜。出门时，那块旧匾上的灰掉了一层。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dan_beiming_garden",
+    "title": "丹宫药圃",
+    "region": [
+      "beiming_sea"
+    ],
+    "art": "beiming_isle",
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying"
+    },
+    "text": "蓬莱丹宫后有一片海上药圃，海心草沿着礁石一圈圈长着，随潮水一明一灭。看炉的童子蹲在圃边，拿一卷婴元丹方扇风：“这方子主人写的，我看不懂，你要拿去也行——帮我把今年的海心草收了。”",
+    "options": [
+      {
+        "text": "替他收一季海心草",
+        "result": "你在药圃里忙了半年，收了满满一篓。童子把丹方给了你，又从篓里分了你三株：“主人说，干活的人要分一份。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_yingyuan",
+            "count": 1
+          },
+          {
+            "type": "item",
+            "id": "herb_haixin",
+            "count": 3
+          },
+          {
+            "type": "lifespan",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "text": "跟他讲讲丹方上写的是什么",
+        "check": {
+          "attr": "wuxing",
+          "dc": 13
+        },
+        "success": {
+          "result": "你讲到第三页，童子忽然说：“主人当年也是这么讲的。”他把丹方塞给你，转身擦炉去了。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_yingyuan",
+              "count": 1
+            },
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你讲得磕磕绊绊，童子听着听着睡着了。你把丹方轻轻抽走，在他身边留了一株海心草。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_yingyuan",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "不打扰他",
+        "result": "你从药圃边走过。童子还在扇风，扇着扇着，打了个哈欠。"
+      }
+    ]
+  },
+  {
+    "id": "dan_beiming_sea_immortal",
+    "title": "海外丹仙",
+    "region": [
+      "beiming_sea"
+    ],
+    "art": "beiming_mirage",
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying"
+    },
+    "text": "一座只在退潮时露出的小岛上，住着个须发皆白的丹仙。他守着一炉万寿丹炼了三百年，丹没成，人倒先老了。“方子没错，是我火候不够，”他把丹方推给你，“你年轻，替我把这炉炼成。”",
+    "options": [
+      {
+        "text": "接下丹方，答应他",
+        "result": "老人笑着点点头，把丹方和一截千年树心一起交给你。第二次退潮时你再去，岛上只剩一炉冷掉的灰。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_wanshou",
+            "count": 1
+          },
+          {
+            "type": "item",
+            "id": "tree_heart",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "当场替他看火",
+        "check": {
+          "attr": "shenshi",
+          "dc": 14
+        },
+        "success": {
+          "result": "你守了三个月，丹炉开时，一枚万寿丹滚了出来。老人捧着丹药哭了，把丹方塞给你：“原来差的是这一点。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_wanshou",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "wanshou_dan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "第三个月，火还是偏了一线。老人摆摆手：“不怪你。方子拿去吧，以后总有人能炼成。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_wanshou",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "拱手告辞",
+        "result": "你离开时潮水正涨。回头看去，岛上那缕炉烟细得像一根线。"
+      }
+    ]
+  },
+  {
+    "id": "dan_kunlun_danque",
+    "title": "仙门丹阁",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "art": "kunlun_gate",
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "昆仑仙门的丹阁塌了一半，丹炉倒扣在瓦砾里，炉身上铸着九条龙，龙口里还衔着烧了一万年没灭的火。炉底压着一块玉简，刻着“神元”二字。",
+    "options": [
+      {
+        "text": "扶正丹炉，取出玉简",
+        "check": {
+          "attr": "gengu",
+          "dc": 13
+        },
+        "success": {
+          "result": "丹炉重得像一座山。你把它扶正的一瞬，九条龙口里的火同时亮了一下。玉简落进你手里，是一卷完整的神元丹方。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_shenyuan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你扶到一半，丹炉又压了回去，砸得你吐了一口血。玉简倒是被震了出来。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_shenyuan",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      },
+      {
+        "text": "以神识探入炉底，读出玉简",
+        "result": "你读完了玉简，没有去碰它。那卷丹方从此刻在你识海里，比写在纸上还清楚。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_shenyuan",
+            "count": 1
+          },
+          {
+            "type": "lifespan",
+            "value": -20
+          }
+        ]
+      },
+      {
+        "text": "对着九龙炉行一礼，离开",
+        "result": "你行了一礼。龙口里的火晃了晃，又安静下来。"
+      }
+    ]
+  },
+  {
+    "id": "dan_kunlun_wuse",
+    "title": "仙圃遗种",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "art": "kunlun_tree",
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "雪线之上有一片荒废的仙圃，石栏围着，里头的东西早已枯死，只有角落里一株五色灵芝还活着，伞盖上五色流转，像是在等什么人回来浇水。",
+    "options": [
+      {
+        "text": "小心掘出它",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 13
+        },
+        "success": {
+          "result": "你连着冻土把它挖了出来，根须完好。灵芝在你掌心里慢慢转着颜色，像是认了新主人。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_wuse",
+              "count": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "冻土太硬，你挖断了一半根须，只保下一小块。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_wuse",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "给它浇些雪水，留它在这里",
+        "result": "你化了些雪水浇下去。灵芝伞盖上的颜色亮了亮。你离开时，觉得自己像是替谁把一件事做完了。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 500000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dan_kunlun_taiqing_furnace",
+    "title": "太清炉",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "art": "alchemy_room",
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "天柱腹中有一间密室，正中立着一尊八卦炉，炉火是冷的，炉身却温着。炉门内侧刻满了字，是太清丹的炼法，最后一行写着：“此丹成，可抵三千年苦修。吾炼九炉，炸九炉。”",
+    "options": [
+      {
+        "text": "把炉门上的丹方拓下来",
+        "check": {
+          "attr": "shenshi",
+          "dc": 14
+        },
+        "success": {
+          "result": "你把每一个字都拓了下来，连那九次炸炉的心得也一并记下。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_taiqing",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "herb_wuse",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "炉门上的字一碰就往深处缩。你只拓下一半，剩下的凭记忆补全，也不知对不对。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_taiqing",
+              "count": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "在炉前静坐，读一遍就走",
+        "result": "你读完了，闭眼又默了一遍。炉身上的温度慢慢退了下去，像是终于等到了有人来读。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_taiqing",
+            "count": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 3000000
+          }
+        ]
+      }
+    ]
+  }
+]

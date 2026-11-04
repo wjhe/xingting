@@ -1,0 +1,316 @@
+{
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "text": "爸爸，你回来啦！我一直在等你。",
+  "method": "seed-audio-1.0 scene and acting prompts",
+  "clips": [
+    {
+      "src": "neutral.wav",
+      "duration": 4.4,
+      "gain": 1.4306480306365723,
+      "source_sha256": "389b0cdaa23e71a969ae674c826389ce89a7298d55c01ea2ec4f6b927fef96fa",
+      "label": "平静 · 日常迎接",
+      "instruction": "普通的一天，女孩在家里迎接爸爸，心情平和。平稳自然地说话，语速中等。",
+      "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+      "subtitle": {
+        "sentences": [
+          {
+            "end_time": 1960,
+            "start_time": 440,
+            "text": "爸爸，你回来啦！",
+            "words": [
+              {
+                "end_time": 760,
+                "start_time": 440,
+                "text": "爸"
+              },
+              {
+                "end_time": 960,
+                "start_time": 800,
+                "text": "爸"
+              },
+              {
+                "end_time": 960,
+                "start_time": 960,
+                "text": "，"
+              },
+              {
+                "end_time": 1400,
+                "start_time": 1080,
+                "text": "你"
+              },
+              {
+                "end_time": 1560,
+                "start_time": 1400,
+                "text": "回"
+              },
+              {
+                "end_time": 1760,
+                "start_time": 1560,
+                "text": "来"
+              },
+              {
+                "end_time": 1960,
+                "start_time": 1840,
+                "text": "啦"
+              },
+              {
+                "end_time": 1960,
+                "start_time": 1960,
+                "text": "！"
+              }
+            ]
+          },
+          {
+            "end_time": 3960,
+            "start_time": 2680,
+            "text": "我一直在等你。",
+            "words": [
+              {
+                "end_time": 2960,
+                "start_time": 2680,
+                "text": "我"
+              },
+              {
+                "end_time": 3040,
+                "start_time": 2960,
+                "text": "一"
+              },
+              {
+                "end_time": 3240,
+                "start_time": 3040,
+                "text": "直"
+              },
+              {
+                "end_time": 3400,
+                "start_time": 3240,
+                "text": "在"
+              },
+              {
+                "end_time": 3680,
+                "start_time": 3400,
+                "text": "等"
+              },
+              {
+                "end_time": 3960,
+                "start_time": 3680,
+                "text": "你"
+              },
+              {
+                "end_time": 3960,
+                "start_time": 3960,
+                "text": "。"
+              }
+            ]
+          }
+        ],
+        "text": "爸爸，你回来啦！我一直在等你。"
+      }
+    },
+    {
+      "src": "excited.wav",
+      "duration": 4.5,
+      "gain": 0.8950487946985686,
+      "source_sha256": "fcfe17879becad97c7e7f50d249dc80f088a9866d639c3ab3f7945a3bdfd8e02",
+      "label": "兴奋 · 惊喜重逢",
+      "instruction": "女孩终于等到久别的爸爸回家，瞬间喜出望外，兴奋地笑着扑过去。用非常开心、惊喜、雀跃的语气演出，开头明显扬起，节奏轻快，带真实可闻的笑意和短促笑声。情绪强度很高。",
+      "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+      "subtitle": {
+        "sentences": [
+          {
+            "end_time": 2600,
+            "start_time": 1000,
+            "text": "爸爸，你回来啦！",
+            "words": [
+              {
+                "end_time": 1320,
+                "start_time": 1000,
+                "text": "爸"
+              },
+              {
+                "end_time": 1560,
+                "start_time": 1360,
+                "text": "爸"
+              },
+              {
+                "end_time": 1560,
+                "start_time": 1560,
+                "text": "，"
+              },
+              {
+                "end_time": 2000,
+                "start_time": 1720,
+                "text": "你"
+              },
+              {
+                "end_time": 2200,
+                "start_time": 2000,
+                "text": "回"
+              },
+              {
+                "end_time": 2360,
+                "start_time": 2200,
+                "text": "来"
+              },
+              {
+                "end_time": 2600,
+                "start_time": 2400,
+                "text": "啦"
+              },
+              {
+                "end_time": 2600,
+                "start_time": 2600,
+                "text": "！"
+              }
+            ]
+          },
+          {
+            "end_time": 4280,
+            "start_time": 3240,
+            "text": "我一直在等你。",
+            "words": [
+              {
+                "end_time": 3440,
+                "start_time": 3240,
+                "text": "我"
+              },
+              {
+                "end_time": 3520,
+                "start_time": 3440,
+                "text": "一"
+              },
+              {
+                "end_time": 3680,
+                "start_time": 3520,
+                "text": "直"
+              },
+              {
+                "end_time": 3840,
+                "start_time": 3680,
+                "text": "在"
+              },
+              {
+                "end_time": 4080,
+                "start_time": 3840,
+                "text": "等"
+              },
+              {
+                "end_time": 4280,
+                "start_time": 4080,
+                "text": "你"
+              },
+              {
+                "end_time": 4280,
+                "start_time": 4280,
+                "text": "。"
+              }
+            ]
+          }
+        ],
+        "text": "爸爸，你回来啦！我一直在等你。"
+      }
+    },
+    {
+      "src": "tearful.wav",
+      "duration": 5.9,
+      "gain": 1.8734378970912307,
+      "source_sha256": "f5d06e22dffac77915070f2cd6e52cc2317f69e37aaf20c89d0f522bf66273ac",
+      "label": "委屈 · 忍着眼泪",
+      "instruction": "女孩独自等了很久，害怕爸爸再也不回来。终于见到爸爸时，积累的委屈涌出来，难过得快要哭了。用明显的哭腔、颤抖的气息、哽咽和停顿演出，语速慢，尾音低落，忍着眼泪说完。情绪强度很高。",
+      "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+      "subtitle": {
+        "sentences": [
+          {
+            "end_time": 2840,
+            "start_time": 400,
+            "text": "爸爸，你回来啦！",
+            "words": [
+              {
+                "end_time": 880,
+                "start_time": 400,
+                "text": "爸"
+              },
+              {
+                "end_time": 960,
+                "start_time": 920,
+                "text": "爸"
+              },
+              {
+                "end_time": 960,
+                "start_time": 960,
+                "text": "，"
+              },
+              {
+                "end_time": 2080,
+                "start_time": 1640,
+                "text": "你"
+              },
+              {
+                "end_time": 2360,
+                "start_time": 2080,
+                "text": "回"
+              },
+              {
+                "end_time": 2600,
+                "start_time": 2360,
+                "text": "来"
+              },
+              {
+                "end_time": 2840,
+                "start_time": 2600,
+                "text": "啦"
+              },
+              {
+                "end_time": 2840,
+                "start_time": 2840,
+                "text": "！"
+              }
+            ]
+          },
+          {
+            "end_time": 5640,
+            "start_time": 4120,
+            "text": "我一直在等你。",
+            "words": [
+              {
+                "end_time": 4480,
+                "start_time": 4120,
+                "text": "我"
+              },
+              {
+                "end_time": 4600,
+                "start_time": 4480,
+                "text": "一"
+              },
+              {
+                "end_time": 4800,
+                "start_time": 4600,
+                "text": "直"
+              },
+              {
+                "end_time": 5040,
+                "start_time": 4800,
+                "text": "在"
+              },
+              {
+                "end_time": 5400,
+                "start_time": 5040,
+                "text": "等"
+              },
+              {
+                "end_time": 5640,
+                "start_time": 5400,
+                "text": "你"
+              },
+              {
+                "end_time": 5640,
+                "start_time": 5640,
+                "text": "。"
+              }
+            ]
+          }
+        ],
+        "text": "爸爸，你回来啦！我一直在等你。"
+      }
+    }
+  ]
+}

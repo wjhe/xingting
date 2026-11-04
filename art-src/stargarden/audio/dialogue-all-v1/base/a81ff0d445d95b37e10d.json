@@ -1,0 +1,74 @@
+{
+  "src": "a81ff0d445d95b37e10d.wav",
+  "duration": 3.5,
+  "gain": 1.9257622585651657,
+  "source_sha256": "e022c57340512e205e3e755046ea7b50d96844c2754de9d160d5f4e936dda44d",
+  "id": "event.main_4_2.choice.0",
+  "text": "让她签下自己的名字",
+  "group": "event:main_4_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2880,
+        "start_time": 920,
+        "text": "让她签下自己的名字",
+        "words": [
+          {
+            "end_time": 1280,
+            "start_time": 920,
+            "text": "让"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1280,
+            "text": "她"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1640,
+            "text": "签"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1920,
+            "text": "下"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2160,
+            "text": "自"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2280,
+            "text": "己"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2400,
+            "text": "的"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2520,
+            "text": "名"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2680,
+            "text": "字"
+          }
+        ]
+      }
+    ],
+    "text": "让她签下自己的名字"
+  }
+}

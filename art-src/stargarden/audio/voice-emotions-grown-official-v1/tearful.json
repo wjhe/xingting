@@ -1,0 +1,103 @@
+{
+  "src": "tearful.wav",
+  "duration": 5.9,
+  "gain": 1.8734378970912307,
+  "source_sha256": "f5d06e22dffac77915070f2cd6e52cc2317f69e37aaf20c89d0f522bf66273ac",
+  "label": "委屈 · 忍着眼泪",
+  "instruction": "女孩独自等了很久，害怕爸爸再也不回来。终于见到爸爸时，积累的委屈涌出来，难过得快要哭了。用明显的哭腔、颤抖的气息、哽咽和停顿演出，语速慢，尾音低落，忍着眼泪说完。情绪强度很高。",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 400,
+        "text": "爸爸，你回来啦！",
+        "words": [
+          {
+            "end_time": 880,
+            "start_time": 400,
+            "text": "爸"
+          },
+          {
+            "end_time": 960,
+            "start_time": 920,
+            "text": "爸"
+          },
+          {
+            "end_time": 960,
+            "start_time": 960,
+            "text": "，"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1640,
+            "text": "你"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2080,
+            "text": "回"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "来"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "啦"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2840,
+            "text": "！"
+          }
+        ]
+      },
+      {
+        "end_time": 5640,
+        "start_time": 4120,
+        "text": "我一直在等你。",
+        "words": [
+          {
+            "end_time": 4480,
+            "start_time": 4120,
+            "text": "我"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4480,
+            "text": "一"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4600,
+            "text": "直"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4800,
+            "text": "在"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5040,
+            "text": "等"
+          },
+          {
+            "end_time": 5640,
+            "start_time": 5400,
+            "text": "你"
+          },
+          {
+            "end_time": 5640,
+            "start_time": 5640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "爸爸，你回来啦！我一直在等你。"
+  }
+}

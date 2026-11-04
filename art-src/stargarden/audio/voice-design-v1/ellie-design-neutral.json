@@ -1,0 +1,178 @@
+{
+  "src": "ellie-design-neutral.wav",
+  "duration": 9.1,
+  "gain": 1.6968129836247594,
+  "source_sha256": "428adb76d2543bd2ab1871a9ca2ffef9614758f4f2ef36b0fefd10810e7a1365",
+  "label": "平静",
+  "instruction": "平静自然、亲切地说，语速中等，情绪中性。",
+  "speaker_id": "S_jPukgGbk2",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3680,
+        "start_time": 1840,
+        "text": "今天的练习结束了。",
+        "words": [
+          {
+            "end_time": 2080,
+            "start_time": 1840,
+            "text": "今"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "天"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2280,
+            "text": "的"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2440,
+            "text": "练"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2680,
+            "text": "习"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3040,
+            "text": "结"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3200,
+            "text": "束"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3400,
+            "text": "了"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3680,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8800,
+        "start_time": 4480,
+        "text": "我还有很多地方需要努力，谢谢你一直陪着我。",
+        "words": [
+          {
+            "end_time": 4720,
+            "start_time": 4480,
+            "text": "我"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4720,
+            "text": "还"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4880,
+            "text": "有"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "很"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5160,
+            "text": "多"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5280,
+            "text": "地"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5440,
+            "text": "方"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5760,
+            "text": "需"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 5960,
+            "text": "要"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6120,
+            "text": "努"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6320,
+            "text": "力"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6520,
+            "text": "，"
+          },
+          {
+            "end_time": 7080,
+            "start_time": 6960,
+            "text": "谢"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7120,
+            "text": "谢"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7280,
+            "text": "你"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7520,
+            "text": "一"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7720,
+            "text": "直"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8200,
+            "text": "陪"
+          },
+          {
+            "end_time": 8600,
+            "start_time": 8400,
+            "text": "着"
+          },
+          {
+            "end_time": 8800,
+            "start_time": 8600,
+            "text": "我"
+          },
+          {
+            "end_time": 8800,
+            "start_time": 8800,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。"
+  }
+}

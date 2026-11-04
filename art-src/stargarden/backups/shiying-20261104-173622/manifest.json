@@ -1,0 +1,232 @@
+[
+  {
+    "file": "home-cel-v3-body.webp",
+    "old_sha256": "58ac0304e8d40c6149d2aef043605dcb736a39100e40244ee77d1cf1e82bf57a",
+    "new_sha256": "7a3027be28c0b94bf026b6fe5f44e491dcc91e158931eaea15594368924e5ddc"
+  },
+  {
+    "file": "home-cel-v3-outfit-garden.webp",
+    "old_sha256": "c1eb9b65b8b13663958f01889049ca4c74182ddd24d5b08140b4c67a35952345",
+    "new_sha256": "a7a02be3a04aa5b654b30d595de744f67c0face0bb9db18c1930add2bf5dde3c"
+  },
+  {
+    "file": "home-cel-v3-outfit-rose.webp",
+    "old_sha256": "91ee98755adb4f1ad0ccd30a0ed6ea31f76fe0be99bae9c6e27b7a1585ac2b1d",
+    "new_sha256": "d29941d401d90c431232e4d77a5ca2abf3a10ef77eb1c412638c74d84c636edb"
+  },
+  {
+    "file": "home-cel-v3-outfit-sky.webp",
+    "old_sha256": "a594b9c43349ecfa393c01b8bb178a1959455dd1b4ab58a133fcd599082078d0",
+    "new_sha256": "444a83b4b708a335fe1d671598247713b0f82aae48e1b3926e86cc6bdef6d716"
+  },
+  {
+    "file": "production-v1/battle-hero-grown.webp",
+    "old_sha256": "d718d15344721e6849c7fecd06222538671ee2514a08ff9ec21ab591aa0c08cf",
+    "new_sha256": "e5df18131b3342efa7bae86d8fd4d8144561e2423ea611096bf7f15e1d7ed980"
+  },
+  {
+    "file": "production-v1/battle-hero.webp",
+    "old_sha256": "9b4dea2377117038a221c045b5e07fdb7cb4fb60a0738b498f727ac229fb73a1",
+    "new_sha256": "010175a9803f4791c56d2e73d9da29efecbe556f9ed4cdf90ee458fb65fec8b7"
+  },
+  {
+    "file": "production-v1/child-festival.webp",
+    "old_sha256": "2e80cf1ff4ef01c7bf82d266cdb6b7701eb3bac3a7275721b2c9712c263ae848",
+    "new_sha256": "98efe1a3b6a42dc48bcb9b960fb4f5e927fa2c4d99918dd19bb05e5684a422d3"
+  },
+  {
+    "file": "production-v1/child-summer.webp",
+    "old_sha256": "cfb0f3919322a3295567b3adc0333997bad3ade853843e325c929cef2895f0cd",
+    "new_sha256": "b1262e25d4071c28514fc35c18640a4bb4387a3cd91b6f5854b3dad36e840f93"
+  },
+  {
+    "file": "production-v1/child-winter.webp",
+    "old_sha256": "f5f899d17c369927297b760daebb3bc075281267d7d9c236feb55eef4b959209",
+    "new_sha256": "14de464a83315a9c69b74b63888dbbfc7d52c03a2385cc341ec36da52ec96795"
+  },
+  {
+    "file": "production-v1/enemy-spirit.webp",
+    "old_sha256": "000ae6a8bcbbe6d85160e0ef6d930963350c36cd47ac980150922f219e17e7ea",
+    "new_sha256": "207d6582d9a23e7559e4d59a93de78567511912349b0a960d362441d964b1c02"
+  },
+  {
+    "file": "production-v1/enemy-stone.webp",
+    "old_sha256": "1bbee8df1d8a77c350af293756a9107cfbe6e29133e4148c2e0608c237e05f0f",
+    "new_sha256": "f046412c8d7f9c795b16582ead3ea12b61383ff20cceb3a7dc6052bac968c4a9"
+  },
+  {
+    "file": "production-v1/enemy-wolf.webp",
+    "old_sha256": "7f5f46abfe092ef139c930acdb074dfc0182111966a9c5bc4c50db4a539fa502",
+    "new_sha256": "0774693b301062e77a5bfc4f14d1996ef23e7f179affd9af0884f1cc14195cd3"
+  },
+  {
+    "file": "production-v1/expressions-child.webp",
+    "old_sha256": "e697498f3e4e70b11cef7a567d23194b5e0905a32bf56dc86db7f2ee639bb934",
+    "new_sha256": "8c373b53baf5a780cdfbc09b689bfd52a5f747ee554da89f79f001c8d528eaaa"
+  },
+  {
+    "file": "production-v1/expressions-grown.webp",
+    "old_sha256": "12e147e548e824b902c1690212effd941e5c3eb6131fc79faf6409ac09c6b6a8",
+    "new_sha256": "01af56268f4f204790ab59d56e0185efba7710125e354bb06de99dfcdd26d66e"
+  },
+  {
+    "file": "production-v1/expressions-teen.webp",
+    "old_sha256": "ca764fe5cf09fc5afbd6b4807bbbfadd841f0ec33bcce7a8c97a08f7a3b55259",
+    "new_sha256": "07af4e61f019c18a6757264dbdb51ee78dc0492ff7e7445907da829093e1985e"
+  },
+  {
+    "file": "production-v1/face-child-angry.webp",
+    "old_sha256": "36debe59fdbd20b320360cf98e3ec6b054db4560dd451f73f1bdb96fb4cc9bc5",
+    "new_sha256": "b553ac92d990b5bff37da8dc7e43098673f1a2a1d9d25d8a8148cf991d487c16"
+  },
+  {
+    "file": "production-v1/face-child-calm.webp",
+    "old_sha256": "fbca8159edfd37ee8b164d9c545160b62478ee445c96f2141d18eaa7a6e790a3",
+    "new_sha256": "9bdddf19bd89e7e4540e21c24c7981c94964c6aa5c17556a7c5df81d6639ce7d"
+  },
+  {
+    "file": "production-v1/face-child-happy.webp",
+    "old_sha256": "be1ea9f7a860d9688e9a92d5fc7b9db79ec3f429f626d37ebd495fea15101d17",
+    "new_sha256": "4ff845cf8722edc6559ff3be63529dc8687fe549ee69fa237be67ff90118bc0c"
+  },
+  {
+    "file": "production-v1/face-child-sad.webp",
+    "old_sha256": "885ea31df181f3177cf3927f575b64c71a6918f16710b7ef979652ec89a468db",
+    "new_sha256": "2d910caf568cc80ba92b836e97b1e8de1aa6dafce35af796673d13d4bc6175eb"
+  },
+  {
+    "file": "production-v1/face-child-shy.webp",
+    "old_sha256": "83334a56d9cc3c256888ef32edea42b0e70d2f84c26dad54ab380fe650aaa2d1",
+    "new_sha256": "3435c2720352978b6193a193e00ad93e602feb1fd2849be24a99a95e4979aba9"
+  },
+  {
+    "file": "production-v1/face-child-tired.webp",
+    "old_sha256": "512ffd9f83db6245d9b63255e70b6e2c48acbdd3da2291072bcbbc01a3d4ec33",
+    "new_sha256": "dde178ce897185300a441e988b68c96a0be77b2bba8a84e06a8939d01bff2eef"
+  },
+  {
+    "file": "production-v1/face-grown-angry.webp",
+    "old_sha256": "6a4e87016153c4f487e7ecc6ecd8ad675260e411288ac03cc3a93f3eb16f8474",
+    "new_sha256": "08e97bb2a5023529d56107151097212d17f647ef4d1801840f1c6acc446020b2"
+  },
+  {
+    "file": "production-v1/face-grown-calm.webp",
+    "old_sha256": "e19831cae70c149429c9cc782a152fa46b0e3e71ede7254c203ff549d8cc581d",
+    "new_sha256": "07544c69bc96a9a86e9353ab08db0f57b5d93747059c935bcd9006d978ddf69b"
+  },
+  {
+    "file": "production-v1/face-grown-happy.webp",
+    "old_sha256": "b46581b398b5089ab4835520a273032ef6a0b82cd7736b260a35baf61771bb93",
+    "new_sha256": "68a9f693675626960dfdef254c52cfb13ca15b90ac2db0713e2487d0fa1d747e"
+  },
+  {
+    "file": "production-v1/face-grown-sad.webp",
+    "old_sha256": "6e86e0474e5728a946a2a082d45091f719c4d1d607036596e5101b4bb0167e66",
+    "new_sha256": "c6a3147a2829d46eaa9e89ae5b76e561918c5f68e1eb69048beeb3930acc35f6"
+  },
+  {
+    "file": "production-v1/face-grown-shy.webp",
+    "old_sha256": "1edb3f9ba684af651cd2eafd588cd9b310793f08e3443b0c9e1f8ff352e52c76",
+    "new_sha256": "15a87fdffb5c8ec201050dc04922677dce48601f28155ed118f2e9bede201839"
+  },
+  {
+    "file": "production-v1/face-grown-tired.webp",
+    "old_sha256": "9e6b8ae0a2df94cb2f836f51ce1f46f0e798388fae8137df7a2aa3248a115db0",
+    "new_sha256": "e328caa73fab698e6aa4a7094c11359d5b74c63b1ffef347c36c4f7eae6e24f3"
+  },
+  {
+    "file": "production-v1/face-teen-angry.webp",
+    "old_sha256": "5f2e3dc4a670b3f9d5728b1497ec1788b77e9ffae4ac1bcfa99eb4bae96fd6a3",
+    "new_sha256": "a244892cb2b5ddfc19562afe37b11fc989a22260400335dc9f6b21873da8dc48"
+  },
+  {
+    "file": "production-v1/face-teen-calm.webp",
+    "old_sha256": "919c4de2516e2fe00e5cd83059991bb1a1af6b02c11d419d4d28acd7f99f8b14",
+    "new_sha256": "d563a392b2135201c1cc92a0272c4614f9372bce038617f4a959356df4eb7dc4"
+  },
+  {
+    "file": "production-v1/face-teen-happy.webp",
+    "old_sha256": "1b76ed17ec1c6e391b8ed2e866a3d94e53530dc09e4da1fbb6276427fb59d345",
+    "new_sha256": "62a35f698011da4b6613ca871772093a8798d66009cff589283a287c4700d862"
+  },
+  {
+    "file": "production-v1/face-teen-sad.webp",
+    "old_sha256": "dc924dee53f023c6f6d61bc3884d38bd58feb5782d633743f702959db71bb66a",
+    "new_sha256": "7a1a1ae397004cf030d4773770154ae3551e7395a2af3d3eb825656d055fe312"
+  },
+  {
+    "file": "production-v1/face-teen-shy.webp",
+    "old_sha256": "9c192fd197021f5620bf65c11b588266707c5dde18002da6f6bda307f09bdfac",
+    "new_sha256": "335ca0cc3d45c26d9fd5c03ddfd510f9909b8694bd092672ef7c1c0543f9a4fe"
+  },
+  {
+    "file": "production-v1/face-teen-tired.webp",
+    "old_sha256": "0a5ded85952908577d0b7dd9c01961fa131a9924c78574e3b29e3dbeb6223b21",
+    "new_sha256": "31253c062d3299d0fdcad0cf2857c11a253663d894d76a4642753a5a445861c2"
+  },
+  {
+    "file": "production-v1/grown-festival.webp",
+    "old_sha256": "3529f8ca3b9d76e0875191837ae4dc6cee19a262c995ec2ebe93ec967ab9036c",
+    "new_sha256": "234c4b46a07faabee43c1d358c8967b6404472484394b5d14fc7dd26dc54f4eb"
+  },
+  {
+    "file": "production-v1/grown-garden.webp",
+    "old_sha256": "9cb333992bb43afe1f28e98c51c7f82bc96b21ac648ed699dd8e6637ed3adffa",
+    "new_sha256": "707346c33a3e80a012faff17fae804ec050380863b9157db3113041f21b77437"
+  },
+  {
+    "file": "production-v1/grown-rose.webp",
+    "old_sha256": "c5d1b1577f3d551f7cc72e3d5f66c76a7a83db502cfe541fb09be9db674d445b",
+    "new_sha256": "9035b241e72334e9980cc58a41ad7964f42fc9ca38be8f088329b1f2ec4492b2"
+  },
+  {
+    "file": "production-v1/grown-sky.webp",
+    "old_sha256": "1c695b78b5f5363751c220eb9fbe64ef483a0dcdbab417238e7814739f00de08",
+    "new_sha256": "1abcfce1a596ff9b9c0041d5e028cc100d3cb1b44f9acea854729b3b7615a1b1"
+  },
+  {
+    "file": "production-v1/grown-summer.webp",
+    "old_sha256": "ef081fc90fa3b0c2309bc6bdb8a8515761c420e5286b0dcefbe59148d8146604",
+    "new_sha256": "36c1afbc393a286d3b2c3975fce3563e9aec0298c40fc7297665430316d7cc5d"
+  },
+  {
+    "file": "production-v1/grown-winter.webp",
+    "old_sha256": "46377ff992078eb623a7f80c238c6b2de873610ace26bd00d05879c4c3bba0cd",
+    "new_sha256": "219eb03bc0914250461f24a3efc77808552888aeb6a4efa13077a08413821271"
+  },
+  {
+    "file": "production-v1/teen-festival.webp",
+    "old_sha256": "4ba7c707d6a6d834da908f537ae27ec066daf467108cb6ea663dea3ad5a48d98",
+    "new_sha256": "a7bd189e4cb9a95bc279c89a78b693e57085400cb0cc8f20c002e5f55c521400"
+  },
+  {
+    "file": "production-v1/teen-summer.webp",
+    "old_sha256": "996b3a65ec83ace237b9bc0f47c328c328a0620fc4c496cabaaa9df604cf2137",
+    "new_sha256": "4f805290c9b0fce14c93fd174d6fefa13c8f5343f95279f61c74262fb294a72b"
+  },
+  {
+    "file": "production-v1/teen-winter.webp",
+    "old_sha256": "5a729bf6fc11190878fe797fb6018e8c3e7f08cc7e54b007740cb2cb87de6592",
+    "new_sha256": "bbe03b3ffe641cae80de0e9ab0610f528b8c507767d6578447870a1efd8539b1"
+  },
+  {
+    "file": "teen-cel-v3-body.webp",
+    "old_sha256": "607fb6b514983e3455b67dec64737a28a89abfa5b10b5898fed2e244907fa56a",
+    "new_sha256": "c94f087208c43aa398bc0df4359e23cfc8e9ead0b9e63011085dd42d78263ff7"
+  },
+  {
+    "file": "teen-cel-v3-outfit-garden.webp",
+    "old_sha256": "b857042a3d55b590b495efeef208aa033a56973f5ae807fd81113c9cdedaf9e7",
+    "new_sha256": "914c36dc6698b616b46364b440faabf2ee4356a5a593d5465a49421616063e43"
+  },
+  {
+    "file": "teen-cel-v3-outfit-rose.webp",
+    "old_sha256": "0cb5115d01c174a666541146c72ddddb158b5b0f5da495dfbfe7c14447724896",
+    "new_sha256": "04c98129f2eadefce14e52041ab91195f91c8ebf740a92fef78d162d4d1a5714"
+  },
+  {
+    "file": "teen-cel-v3-outfit-sky.webp",
+    "old_sha256": "c6bea8a3b08dba66e47d32d9a2fad1d620954043b7a3eed65b0d4bf4d83804a7",
+    "new_sha256": "394fd572669b74a1eab868a87855823cfa4afab0f4d1b01265a2777955647a9d"
+  }
+]

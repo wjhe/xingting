@@ -1,0 +1,84 @@
+{
+  "src": "d60c7b6973855f2b0f0a.wav",
+  "duration": 3.9,
+  "gain": 2.0757193879612204,
+  "source_sha256": "0562572550688dd463a9170e06e745c01f57b22473c65821b2e5ba42fb7fa3c1",
+  "id": "event.main_5_0.choice.1",
+  "text": "一起整理一份简单的约定",
+  "group": "event:main_5_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2320,
+        "start_time": 0,
+        "text": "一起整理一份简单的约定",
+        "words": [
+          {
+            "end_time": 0,
+            "start_time": 0,
+            "text": "一"
+          },
+          {
+            "end_time": 280,
+            "start_time": 0,
+            "text": "起"
+          },
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "整"
+          },
+          {
+            "end_time": 760,
+            "start_time": 600,
+            "text": "理"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "一"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "份"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1320,
+            "text": "简"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1520,
+            "text": "单"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1680,
+            "text": "的"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "约"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "定"
+          }
+        ]
+      }
+    ],
+    "text": "一起整理一份简单的约定"
+  }
+}

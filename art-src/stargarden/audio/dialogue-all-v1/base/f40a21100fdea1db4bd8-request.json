@@ -1,0 +1,218 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "9abe5a27-9e43-4e01-8a6f-8ace4a5aecb7",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：轻柔、有电影感的旁白。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“花丛中间，坐着一个抱着旧旅行包的小女孩。她身边的星光，正一点一点熄灭。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050451463A2C1296C6E0629B08A4",
+  "response": {
+    "duration": 10.38,
+    "original_duration": 10.38,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4200,
+          "start_time": 0,
+          "text": "花丛中间，坐着一个抱着旧旅行包的小女孩。",
+          "words": [
+            {
+              "end_time": 240,
+              "start_time": 0,
+              "text": "花"
+            },
+            {
+              "end_time": 480,
+              "start_time": 360,
+              "text": "丛"
+            },
+            {
+              "end_time": 840,
+              "start_time": 640,
+              "text": "中"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 840,
+              "text": "间"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1160,
+              "text": "，"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1360,
+              "text": "坐"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1560,
+              "text": "着"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1760,
+              "text": "一"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1880,
+              "text": "个"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2120,
+              "text": "抱"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2320,
+              "text": "着"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2600,
+              "text": "旧"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2880,
+              "text": "旅"
+            },
+            {
+              "end_time": 3160,
+              "start_time": 3040,
+              "text": "行"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3320,
+              "text": "包"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3480,
+              "text": "的"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3720,
+              "text": "小"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3840,
+              "text": "女"
+            },
+            {
+              "end_time": 4200,
+              "start_time": 4000,
+              "text": "孩"
+            },
+            {
+              "end_time": 4200,
+              "start_time": 4200,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8640,
+          "start_time": 5200,
+          "text": "她身边的星光，正一点一点熄灭。",
+          "words": [
+            {
+              "end_time": 5400,
+              "start_time": 5200,
+              "text": "她"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5400,
+              "text": "身"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5560,
+              "text": "边"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5720,
+              "text": "的"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5920,
+              "text": "星"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6200,
+              "text": "光"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6520,
+              "text": "，"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 6920,
+              "text": "正"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7280,
+              "text": "一"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7440,
+              "text": "点"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7680,
+              "text": "一"
+            },
+            {
+              "end_time": 8000,
+              "start_time": 7880,
+              "text": "点"
+            },
+            {
+              "end_time": 8240,
+              "start_time": 8160,
+              "text": "熄"
+            },
+            {
+              "end_time": 8640,
+              "start_time": 8440,
+              "text": "灭"
+            },
+            {
+              "end_time": 8640,
+              "start_time": 8640,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "花丛中间，坐着一个抱着旧旅行包的小女孩。她身边的星光，正一点一点熄灭。"
+    }
+  }
+}

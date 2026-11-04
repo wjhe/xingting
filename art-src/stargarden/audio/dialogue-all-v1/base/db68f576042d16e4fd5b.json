@@ -1,0 +1,84 @@
+{
+  "src": "db68f576042d16e4fd5b.wav",
+  "duration": 4.58,
+  "gain": 1.7031543906462179,
+  "source_sha256": "18b0ee79b3ffd67c167ec2e801ca2a5f153b28e2191891c576b09c3572bcf9f1",
+  "id": "opening.0.0",
+  "text": "星历 1000 年，冬至的夜晚。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4360,
+        "start_time": 0,
+        "text": "星历1000年，冬至的夜晚。",
+        "words": [
+          {
+            "end_time": 0,
+            "start_time": 0,
+            "text": "星"
+          },
+          {
+            "end_time": 40,
+            "start_time": 0,
+            "text": "历"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 40,
+            "text": "1000"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3200,
+            "text": "年"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "，"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3240,
+            "text": "冬"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3480,
+            "text": "至"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3680,
+            "text": "的"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 3960,
+            "text": "夜"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4200,
+            "text": "晚"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4360,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "星历1000年，冬至的夜晚。"
+  }
+}

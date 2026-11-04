@@ -1,0 +1,79 @@
+{
+  "src": "0711533fcdbe687672d6.wav",
+  "duration": 3.7,
+  "gain": 1.8829358016131221,
+  "source_sha256": "2d5f6edd2ba89fd4f145e68a017ddc3d56f597c6df694edc507b7e2cd684a8f7",
+  "id": "event.main_4_1.choice.0",
+  "text": "说明担心，也听她解释",
+  "group": "event:main_4_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3560,
+        "start_time": 880,
+        "text": "说明担心，也听她解释",
+        "words": [
+          {
+            "end_time": 1200,
+            "start_time": 880,
+            "text": "说"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1200,
+            "text": "明"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1600,
+            "text": "担"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1880,
+            "text": "心"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1960,
+            "text": "，"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2400,
+            "text": "也"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2680,
+            "text": "听"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2960,
+            "text": "她"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3160,
+            "text": "解"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3360,
+            "text": "释"
+          }
+        ]
+      }
+    ],
+    "text": "说明担心，也听她解释"
+  }
+}

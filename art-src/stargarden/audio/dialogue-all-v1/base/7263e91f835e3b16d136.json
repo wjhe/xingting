@@ -1,0 +1,84 @@
+{
+  "src": "7263e91f835e3b16d136.wav",
+  "duration": 3.9,
+  "gain": 1.5054346042791256,
+  "source_sha256": "05ef1907505c8eb19bf9802e0c71a407f703f457c4f6c95e201be5a78aa17eb6",
+  "id": "event.main_3_0.choice.1",
+  "text": "一起抢救还能留下的部分",
+  "group": "event:main_3_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3400,
+        "start_time": 920,
+        "text": "一起抢救还能留下的部分",
+        "words": [
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "一"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "起"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1480,
+            "text": "抢"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1800,
+            "text": "救"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "还"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "能"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2520,
+            "text": "留"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2720,
+            "text": "下"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2920,
+            "text": "的"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3080,
+            "text": "部"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3240,
+            "text": "分"
+          }
+        ]
+      }
+    ],
+    "text": "一起抢救还能留下的部分"
+  }
+}

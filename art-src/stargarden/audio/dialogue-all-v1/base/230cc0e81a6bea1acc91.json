@@ -1,0 +1,161 @@
+{
+  "src": "230cc0e81a6bea1acc91.wav",
+  "duration": 6.4,
+  "gain": 1.7110229245884012,
+  "source_sha256": "8bcc9e035f4618741708d9dd0d122c0532be2cc5dd297dfd6eafcede79896e96",
+  "id": "opening.0.1",
+  "text": "星庭小城的人们都睡了。只有一颗星，悄悄离开了天空。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 120,
+        "text": "星庭小城的人们都睡了。",
+        "words": [
+          {
+            "end_time": 160,
+            "start_time": 120,
+            "text": "星"
+          },
+          {
+            "end_time": 480,
+            "start_time": 400,
+            "text": "庭"
+          },
+          {
+            "end_time": 840,
+            "start_time": 640,
+            "text": "小"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 920,
+            "text": "城"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1160,
+            "text": "的"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "人"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "们"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "都"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2000,
+            "text": "睡"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2320,
+            "text": "了"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2640,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 6280,
+        "start_time": 3400,
+        "text": "只有一颗星，悄悄离开了天空。",
+        "words": [
+          {
+            "end_time": 3560,
+            "start_time": 3400,
+            "text": "只"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3560,
+            "text": "有"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3680,
+            "text": "一"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3880,
+            "text": "颗"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4240,
+            "text": "星"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4320,
+            "text": "，"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4840,
+            "text": "悄"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5160,
+            "text": "悄"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5320,
+            "text": "离"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5520,
+            "text": "开"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5680,
+            "text": "了"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5840,
+            "text": "天"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6040,
+            "text": "空"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "星庭小城的人们都睡了。只有一颗星，悄悄离开了天空。"
+  }
+}

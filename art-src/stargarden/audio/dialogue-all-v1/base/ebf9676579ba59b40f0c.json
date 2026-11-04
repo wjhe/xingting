@@ -1,0 +1,261 @@
+{
+  "src": "ebf9676579ba59b40f0c.wav",
+  "duration": 10.795208333333333,
+  "gain": 1.5477058067854028,
+  "source_sha256": "edc3c25581d57e9367c38e07822e0354bc7f99821b01e50b1e3a03d80b91dc7d",
+  "id": "ending.explorer",
+  "text": "她背上行囊走向远方，去见地图上尚未命名的山海。每一封寄回家的信里，都夹着一朵来自异乡的花。",
+  "group": "ending",
+  "role": "ending",
+  "emotion": "18岁，成熟自然，温柔而有希望",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5480,
+        "start_time": 200,
+        "text": "她背上行囊走向远方，去见地图上尚未命名的山海。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 200,
+            "text": "她"
+          },
+          {
+            "end_time": 640,
+            "start_time": 480,
+            "text": "背"
+          },
+          {
+            "end_time": 880,
+            "start_time": 680,
+            "text": "上"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 960,
+            "text": "行"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1240,
+            "text": "囊"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1480,
+            "text": "走"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "向"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1880,
+            "text": "远"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "方"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2400,
+            "text": "，"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2800,
+            "text": "去"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3120,
+            "text": "见"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "地"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3520,
+            "text": "图"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3760,
+            "text": "上"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 4040,
+            "text": "尚"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4280,
+            "text": "未"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4480,
+            "text": "命"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4680,
+            "text": "名"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4840,
+            "text": "的"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 5040,
+            "text": "山"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5240,
+            "text": "海"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5480,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10680,
+        "start_time": 6240,
+        "text": "每一封寄回家的信里，都夹着一朵来自异乡的花。",
+        "words": [
+          {
+            "end_time": 6440,
+            "start_time": 6240,
+            "text": "每"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6440,
+            "text": "一"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6640,
+            "text": "封"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6960,
+            "text": "寄"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7160,
+            "text": "回"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7360,
+            "text": "家"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7520,
+            "text": "的"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7680,
+            "text": "信"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8000,
+            "text": "里"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8200,
+            "text": "，"
+          },
+          {
+            "end_time": 8600,
+            "start_time": 8400,
+            "text": "都"
+          },
+          {
+            "end_time": 8880,
+            "start_time": 8640,
+            "text": "夹"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8880,
+            "text": "着"
+          },
+          {
+            "end_time": 9200,
+            "start_time": 9040,
+            "text": "一"
+          },
+          {
+            "end_time": 9440,
+            "start_time": 9200,
+            "text": "朵"
+          },
+          {
+            "end_time": 9680,
+            "start_time": 9480,
+            "text": "来"
+          },
+          {
+            "end_time": 9800,
+            "start_time": 9680,
+            "text": "自"
+          },
+          {
+            "end_time": 9960,
+            "start_time": 9920,
+            "text": "异"
+          },
+          {
+            "end_time": 10240,
+            "start_time": 10200,
+            "text": "乡"
+          },
+          {
+            "end_time": 10480,
+            "start_time": 10320,
+            "text": "的"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10480,
+            "text": "花"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10680,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她背上行囊走向远方，去见地图上尚未命名的山海。每一封寄回家的信里，都夹着一朵来自异乡的花。"
+  }
+}

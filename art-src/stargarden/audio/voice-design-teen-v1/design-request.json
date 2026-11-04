@@ -1,0 +1,49 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/voice_design",
+  "request_id": "443c35b8-5d04-4842-9ce3-0504322593d1",
+  "request": {
+    "speaker_id": "S_yknZmKn32",
+    "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+    "prompt": {
+      "text_prompt": "14岁少女，标准普通话，清澈柔和的少女中高音，已经告别童声，比10岁女孩明显更沉稳，气息稳定、咬字清楚利落。自然中音区，亲切温暖，略带含蓄和自己的想法，适合清新温馨的成长养成游戏。保留年轻明亮的质地，不要幼儿腔、娃娃音、捏嗓子、夸张撒娇、成熟御姐腔或播音腔。"
+    },
+    "language": 0
+  },
+  "status": "complete",
+  "provider_log_id": "20261104040035A5C8566CEBDBA143E3C4",
+  "response": {
+    "icl_list": [
+      {
+        "available_training_times": 14,
+        "create_time": 1793736047777,
+        "demo_audio": "https://lf3-lab-speech-tt-sign.bytespeech.com/tos-cn-o-14155/oM7vjEbg4AITAAgDwgA9qDBiBuloadPWiMHLq?x-expires=1793743246&x-signature=PBR%2FG4bYNbEe1hcGbOg3HPIfbFo%3D",
+        "extra_params": "{\"reference_speaker_id\":\"MEGA_1793736036019_0\",\"clone_source\":1,\"design_finalize_type\":0}",
+        "icl_speaker_id": "ICL_6aea3d6a7001389f",
+        "language": 0,
+        "model_type": 1,
+        "model_version": 1,
+        "speaker_id": "S_yknZmKn32",
+        "speaker_status": [
+          {
+            "demo_audio": "https://lf26-lab-speech-tt-sign.bytespeech.com/tos-cn-o-14155/oQ07XsEgCSNFpEjPDytzt6fSA1DOACAAeAWqbq?x-expires=1793743247&x-signature=lxIpPtHmt7qs3do%2BawX5lrXHUP4%3D",
+            "icl_speaker_id": "ICL_uranus_6aea3d698b510411",
+            "model_type": 5,
+            "model_version": 2
+          },
+          {
+            "demo_audio": "https://lf6-lab-speech-tt-sign.bytespeech.com/tos-cn-o-14155/ocQAoVbpfEHAtAb5ITAbOLIBreGRH1AqTecbtE?x-expires=1793743247&x-signature=Qr7Dy8FtHY6rp1lH4zxs3iBZlyc%3D",
+            "icl_speaker_id": "ICL_6aea3d6a7001389f",
+            "model_type": 1,
+            "model_version": 1
+          }
+        ],
+        "status": 2,
+        "version": "V1",
+        "voice_design_status": {
+          "preview_text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+          "prompt_text": "14岁少女，标准普通话，清澈柔和的少女中高音，已经告别童声，比10岁女孩明显更沉稳，气息稳定、咬字清楚利落。自然中音区，亲切温暖，略带含蓄和自己的想法，适合清新温馨的成长养成游戏。保留年轻明亮的质地，不要幼儿腔、娃娃音、捏嗓子、夸张撒娇、成熟御姐腔或播音腔。"
+        }
+      }
+    ]
+  }
+}

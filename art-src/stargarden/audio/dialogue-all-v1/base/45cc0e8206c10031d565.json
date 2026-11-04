@@ -1,0 +1,79 @@
+{
+  "src": "45cc0e8206c10031d565.wav",
+  "duration": 3.5,
+  "gain": 1.5594041592837886,
+  "source_sha256": "80a2db13c6bcc4bf1f90c2526ca0869de3287354e4bb995b61df090a971338f0",
+  "id": "event.main_4_0.choice.0",
+  "text": "听完她的安排与理由",
+  "group": "event:main_4_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 640,
+        "text": "听完她的安排与理由。",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 640,
+            "text": "听"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "完"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1320,
+            "text": "她"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "的"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1600,
+            "text": "安"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1800,
+            "text": "排"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "与"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2480,
+            "text": "理"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2680,
+            "text": "由"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2840,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "听完她的安排与理由。"
+  }
+}

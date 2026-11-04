@@ -1,0 +1,23 @@
+[
+  { "id": "t_gengu", "name": "根骨奇佳", "desc": "根骨 +3", "cost": 0, "start": [{ "type": "attr", "key": "gengu", "value": 3 }] },
+  { "id": "t_wuxing", "name": "过目不忘", "desc": "悟性 +3", "cost": 0, "start": [{ "type": "attr", "key": "wuxing", "value": 3 }] },
+  { "id": "t_shenshi", "name": "灵觉敏锐", "desc": "神识 +3", "cost": 0, "start": [{ "type": "attr", "key": "shenshi", "value": 3 }] },
+  { "id": "t_jiyuan", "name": "福星高照", "desc": "机缘 +3", "cost": 0, "start": [{ "type": "attr", "key": "jiyuan", "value": 3 }] },
+  { "id": "t_xinjing", "name": "道心坚定", "desc": "心境 +3", "cost": 0, "start": [{ "type": "attr", "key": "xinjing", "value": 3 }] },
+  { "id": "t_savings", "name": "小有积蓄", "desc": "开局灵石 +150", "cost": 0, "start": [{ "type": "stone", "value": 150 }] },
+  { "id": "t_healthy", "name": "身强体健", "desc": "寿元上限 +10 年", "cost": 0, "mods": { "lifespan": 10 } },
+  { "id": "t_herbboy", "name": "药童出身", "desc": "开局获得回春丹 ×3、聚气丹 ×2", "cost": 0, "start": [{ "type": "item", "id": "huichun_dan", "count": 3 }, { "type": "item", "id": "juqi_dan", "count": 2 }] },
+
+  { "id": "t_early", "name": "早慧", "desc": "开局即引气入体", "cost": 15, "start": [{ "type": "cultivation", "value": 30 }] },
+  { "id": "t_talisman", "name": "符箓世家", "desc": "开局获得火符 ×3、遁地符 ×2", "cost": 20, "start": [{ "type": "item", "id": "fire_talisman", "count": 3 }, { "type": "item", "id": "escape_talisman", "count": 2 }] },
+  { "id": "t_sword", "name": "剑修苗子", "desc": "开局获得青锋剑", "cost": 25, "start": [{ "type": "item", "id": "sword_qingfeng", "count": 1 }] },
+  { "id": "t_rich", "name": "富家子弟", "desc": "开局灵石 +600", "cost": 25, "start": [{ "type": "stone", "value": 600 }] },
+  { "id": "t_root", "name": "灵根异变", "desc": "灵根提升一档", "cost": 30, "mods": { "rootUp": true } },
+  { "id": "t_lucky", "name": "仙缘深厚", "desc": "机缘 +5、神识 +2", "cost": 35, "start": [{ "type": "attr", "key": "jiyuan", "value": 5 }, { "type": "attr", "key": "shenshi", "value": 2 }] },
+  { "id": "t_body", "name": "天生道体", "desc": "修炼速度 ×1.25", "cost": 40, "mods": { "gain": 1.25 } },
+  { "id": "t_long", "name": "寿元绵长", "desc": "寿元上限 +30 年", "cost": 40, "mods": { "lifespan": 30 } },
+  { "id": "t_memory", "name": "宿慧", "desc": "开局获得上一世主修功法的典籍", "cost": 50, "mods": { "inheritTechnique": true } },
+  { "id": "t_break", "name": "破境天资", "desc": "突破成功率 +8%", "cost": 50, "mods": { "breakBonus": 0.08 } },
+  { "id": "t_all", "name": "逆天改命", "desc": "五项属性各 +2", "cost": 80, "start": [{ "type": "attr", "key": "gengu", "value": 2 }, { "type": "attr", "key": "wuxing", "value": 2 }, { "type": "attr", "key": "shenshi", "value": 2 }, { "type": "attr", "key": "jiyuan", "value": 2 }, { "type": "attr", "key": "xinjing", "value": 2 }] },
+  { "id": "t_tian", "name": "天灵之姿", "desc": "必定身负天灵根", "cost": 120, "mods": { "rootSet": "tian" } }
+]

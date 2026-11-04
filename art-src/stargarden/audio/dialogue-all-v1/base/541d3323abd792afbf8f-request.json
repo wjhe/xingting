@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "f76272c7-54ad-46ee-b7c4-db3c9c0eec59",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“鼓励她画上自己的路线”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050135ADC0D6B7D7D5861A166E",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3280,
+          "start_time": 1080,
+          "text": "鼓励她画上自己的路线",
+          "words": [
+            {
+              "end_time": 1280,
+              "start_time": 1080,
+              "text": "鼓"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1280,
+              "text": "励"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1640,
+              "text": "她"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1920,
+              "text": "画"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2120,
+              "text": "上"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2400,
+              "text": "自"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2560,
+              "text": "己"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2680,
+              "text": "的"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2840,
+              "text": "路"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3080,
+              "text": "线"
+            }
+          ]
+        }
+      ],
+      "text": "鼓励她画上自己的路线"
+    }
+  }
+}

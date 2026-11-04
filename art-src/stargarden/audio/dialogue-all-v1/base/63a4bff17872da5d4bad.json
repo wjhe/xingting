@@ -1,0 +1,89 @@
+{
+  "src": "63a4bff17872da5d4bad.wav",
+  "duration": 3.7,
+  "gain": 1.4439201878433414,
+  "source_sha256": "8cbc46274d40fdef9447bb8aca79ae9689ee2133159908a474b2ad9aabc4d620",
+  "id": "event.main_4_1.choice.1",
+  "text": "一起承担后果，再谈规则",
+  "group": "event:main_4_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3160,
+        "start_time": 280,
+        "text": "一起承担后果，再谈规则。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 280,
+            "text": "一"
+          },
+          {
+            "end_time": 680,
+            "start_time": 480,
+            "text": "起"
+          },
+          {
+            "end_time": 960,
+            "start_time": 760,
+            "text": "承"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 960,
+            "text": "担"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1280,
+            "text": "后"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1480,
+            "text": "果"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1760,
+            "text": "，"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2120,
+            "text": "再"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2360,
+            "text": "谈"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "规"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2920,
+            "text": "则"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3160,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "一起承担后果，再谈规则。"
+  }
+}

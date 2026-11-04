@@ -1,0 +1,253 @@
+{
+  "src": "8cb51e649a7d061d66d7.wav",
+  "duration": 8.526083333333334,
+  "gain": 1.4538424165327481,
+  "source_sha256": "5e423bfa1795fbca0258b86a1014a9fbba4a15a122307265368aa587c0e94504",
+  "id": "event.main_7_1.text",
+  "text": "今年收获祭的邀请函是艾莉亲手写的。她把你放在第一位：“不管最后做得怎样，你会来吗？”",
+  "group": "event:main_7_1",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3520,
+        "start_time": 160,
+        "text": "今年收获祭的邀请函是艾莉亲手写的。",
+        "words": [
+          {
+            "end_time": 360,
+            "start_time": 160,
+            "text": "今"
+          },
+          {
+            "end_time": 520,
+            "start_time": 360,
+            "text": "年"
+          },
+          {
+            "end_time": 720,
+            "start_time": 560,
+            "text": "收"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "获"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1000,
+            "text": "祭"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1120,
+            "text": "的"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1280,
+            "text": "邀"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "请"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1680,
+            "text": "函"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "是"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2160,
+            "text": "艾"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2400,
+            "text": "莉"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2600,
+            "text": "亲"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2760,
+            "text": "手"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3000,
+            "text": "写"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3200,
+            "text": "的"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3520,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8240,
+        "start_time": 3920,
+        "text": "她把你放在第一位：‘不管最后做得怎样，你会来吗？",
+        "words": [
+          {
+            "end_time": 4080,
+            "start_time": 3920,
+            "text": "她"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4080,
+            "text": "把"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4240,
+            "text": "你"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4400,
+            "text": "放"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4560,
+            "text": "在"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4720,
+            "text": "第"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4880,
+            "text": "一"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 4960,
+            "text": "位"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5280,
+            "text": "："
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5280,
+            "text": "‘"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "不"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 6000,
+            "text": "管"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6160,
+            "text": "最"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6280,
+            "text": "后"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6480,
+            "text": "做"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6680,
+            "text": "得"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6920,
+            "text": "怎"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7040,
+            "text": "样"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7280,
+            "text": "，"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7400,
+            "text": "你"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7600,
+            "text": "会"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7800,
+            "text": "来"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8000,
+            "text": "吗"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8240,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 8240,
+        "start_time": 8240,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 8240,
+            "start_time": 8240,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "今年收获祭的邀请函是艾莉亲手写的。她把你放在第一位：‘不管最后做得怎样，你会来吗？’"
+  }
+}

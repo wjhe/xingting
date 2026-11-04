@@ -1,0 +1,84 @@
+{
+  "src": "38891a5f06f99dce0c88.wav",
+  "duration": 3.9,
+  "gain": 1.6582616732973914,
+  "source_sha256": "d01cb5c385be5c3f45498fd3455a312aab508d192e8c8e89c3618ef863c4fa57",
+  "id": "event.main_4_0.choice.1",
+  "text": "约定先试一个月再讨论",
+  "group": "event:main_4_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3400,
+        "start_time": 960,
+        "text": "约定先试一个月再讨论。",
+        "words": [
+          {
+            "end_time": 1240,
+            "start_time": 960,
+            "text": "约"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1240,
+            "text": "定"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1640,
+            "text": "先"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2000,
+            "text": "试"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2280,
+            "text": "一"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2400,
+            "text": "个"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2520,
+            "text": "月"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2800,
+            "text": "再"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2960,
+            "text": "讨"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3200,
+            "text": "论"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3400,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "约定先试一个月再讨论。"
+  }
+}

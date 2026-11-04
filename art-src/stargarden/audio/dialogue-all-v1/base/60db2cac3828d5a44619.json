@@ -1,0 +1,206 @@
+{
+  "src": "60db2cac3828d5a44619.wav",
+  "duration": 10.38,
+  "gain": 1.6673356311894845,
+  "source_sha256": "2e76df9e548d8f9ff48a0b0041d4fcc9ee0d0cb89ae47625572a67692677cf8a",
+  "id": "event.main_3_1.outcome.0",
+  "text": "你们在家煮汤、听雨。她没有突然振作，只是在晚上主动把窗台的花浇好了。",
+  "group": "event:main_3_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3200,
+        "start_time": 400,
+        "text": "你们在家煮汤、听雨。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "你"
+          },
+          {
+            "end_time": 760,
+            "start_time": 600,
+            "text": "们"
+          },
+          {
+            "end_time": 960,
+            "start_time": 760,
+            "text": "在"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 960,
+            "text": "家"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1640,
+            "text": "煮"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 1960,
+            "text": "汤"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2240,
+            "text": "、"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2680,
+            "text": "听"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3120,
+            "text": "雨"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3200,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10000,
+        "start_time": 4160,
+        "text": "她没有突然振作，只是在晚上主动把窗台的花浇好了。",
+        "words": [
+          {
+            "end_time": 4400,
+            "start_time": 4160,
+            "text": "她"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4400,
+            "text": "没"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4520,
+            "text": "有"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4600,
+            "text": "突"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4840,
+            "text": "然"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5120,
+            "text": "振"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5400,
+            "text": "作"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5480,
+            "text": "，"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6280,
+            "text": "只"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6440,
+            "text": "是"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6600,
+            "text": "在"
+          },
+          {
+            "end_time": 7080,
+            "start_time": 6800,
+            "text": "晚"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7080,
+            "text": "上"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7520,
+            "text": "主"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7720,
+            "text": "动"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 7960,
+            "text": "把"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8160,
+            "text": "窗"
+          },
+          {
+            "end_time": 8640,
+            "start_time": 8480,
+            "text": "台"
+          },
+          {
+            "end_time": 8880,
+            "start_time": 8680,
+            "text": "的"
+          },
+          {
+            "end_time": 9120,
+            "start_time": 8880,
+            "text": "花"
+          },
+          {
+            "end_time": 9360,
+            "start_time": 9280,
+            "text": "浇"
+          },
+          {
+            "end_time": 9720,
+            "start_time": 9520,
+            "text": "好"
+          },
+          {
+            "end_time": 10000,
+            "start_time": 9720,
+            "text": "了"
+          },
+          {
+            "end_time": 10000,
+            "start_time": 10000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你们在家煮汤、听雨。她没有突然振作，只是在晚上主动把窗台的花浇好了。"
+  }
+}

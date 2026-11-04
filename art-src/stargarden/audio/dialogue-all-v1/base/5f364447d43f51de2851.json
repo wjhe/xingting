@@ -1,0 +1,79 @@
+{
+  "src": "5f364447d43f51de2851.wav",
+  "duration": 3.7,
+  "gain": 1.4575566181190247,
+  "source_sha256": "3ca123854118f6baffdf0b918f6ca558d74afa4aaa81f6d2c370d812a7052c3b",
+  "id": "event.main_4_2.choice.1",
+  "text": "在协助人一栏留下名字",
+  "group": "event:main_4_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3280,
+        "start_time": 1080,
+        "text": "在协助人一栏留下名字",
+        "words": [
+          {
+            "end_time": 1360,
+            "start_time": 1080,
+            "text": "在"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1440,
+            "text": "协"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1680,
+            "text": "助"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1880,
+            "text": "人"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2160,
+            "text": "一"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2400,
+            "text": "栏"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2680,
+            "text": "留"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2840,
+            "text": "下"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "名"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3120,
+            "text": "字"
+          }
+        ]
+      }
+    ],
+    "text": "在协助人一栏留下名字"
+  }
+}

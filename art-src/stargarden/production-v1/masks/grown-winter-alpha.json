@@ -1,0 +1,1 @@
+{"hash": "b799a962f59b209aede6d6b21c43b0a888c3a84b2af5bf9e23f360098891d5f5", "model": "onnx-community/BiRefNet-ONNX", "revision": "534d3c82d3bb8b2f0867db6dfbc3a525b8e42f67", "method": "birefnet-fp16-sigmoid-v1"}

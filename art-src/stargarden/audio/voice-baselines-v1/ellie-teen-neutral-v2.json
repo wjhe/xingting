@@ -1,0 +1,258 @@
+{
+  "created_at": "2026-11-03T19:11:01.549739+00:00",
+  "id": "ellie-teen-neutral-v2",
+  "age": "teen",
+  "age_label": "14—15 岁",
+  "tone": "neutral",
+  "text": "今天的阳光很好。我想把窗边的花画下来，等画好了，就拿给你看。谢谢你一直陪着我。",
+  "direction": "14岁少女，清澈的少女中高音，已经告别童声，声线比10岁儿童明显更沉稳，气息更稳定，咬字更利落。以自然中音区说话，不刻意抬高声线，保留柔和清亮的质地。语气平静亲切，有一点含蓄和自己的想法。不要幼儿腔、娃娃音、撒娇感、假声或成熟御姐腔。",
+  "approval": "pending",
+  "voice_identity_method": "text_design",
+  "speaker_id": null,
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "fd8d41f4-dbba-4d47-968a-378c976a00a0",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "请为原创养成游戏中的女儿艾莉生成一条干净的普通话角色配音，只念指定台词，不要念说明。这是中性语气的音色基准测试，不是情绪表演。清新自然的日常说话方式，标准普通话，清楚柔和的咬字，轻柔不气虚，语速中等，正常短句停顿。14岁少女，清澈的少女中高音，已经告别童声，声线比10岁儿童明显更沉稳，气息更稳定，咬字更利落。以自然中音区说话，不刻意抬高声线，保留柔和清亮的质地。语气平静亲切，有一点含蓄和自己的想法。不要幼儿腔、娃娃音、撒娇感、假声或成熟御姐腔。全程只有一位女孩的干净人声，不要音乐、环境音、音效、歌唱、旁白或第二个人说话。不要在前后加台词。完整朗读以下文字，读完自然结束，不要补齐静音时长：\n今天的阳光很好。我想把窗边的花画下来，等画好了，就拿给你看。谢谢你一直陪着我。",
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "references": [],
+  "status": "complete",
+  "provider_log_id": "20261104031101F20F928856F13900DE5F",
+  "audio": {
+    "duration_seconds": 10.88,
+    "sample_rate": 24000,
+    "channels": 2,
+    "peak": 0.117156982421875,
+    "rms": 0.014133303877043008,
+    "sha256": "6a04b73d258916f9122a462c7de19c3eb2bf58ee6c004e2e632b87258886d0a2"
+  },
+  "duration": 10.88,
+  "original_duration": 10.88,
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1440,
+        "start_time": 0,
+        "text": "今天的阳光很好。",
+        "words": [
+          {
+            "end_time": 200,
+            "start_time": 0,
+            "text": "今"
+          },
+          {
+            "end_time": 320,
+            "start_time": 200,
+            "text": "天"
+          },
+          {
+            "end_time": 480,
+            "start_time": 320,
+            "text": "的"
+          },
+          {
+            "end_time": 680,
+            "start_time": 480,
+            "text": "阳"
+          },
+          {
+            "end_time": 960,
+            "start_time": 680,
+            "text": "光"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "很"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "好"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1440,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7480,
+        "start_time": 2160,
+        "text": "我想把窗边的花画下来，等画好了，就拿给你看。",
+        "words": [
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "我"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "想"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2520,
+            "text": "把"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2720,
+            "text": "窗"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2880,
+            "text": "边"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3040,
+            "text": "的"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3200,
+            "text": "花"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3560,
+            "text": "画"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3760,
+            "text": "下"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 3960,
+            "text": "来"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4200,
+            "text": "，"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5160,
+            "text": "等"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5600,
+            "text": "画"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5800,
+            "text": "好"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6040,
+            "text": "了"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6320,
+            "text": "，"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6320,
+            "text": "就"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6560,
+            "text": "拿"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6760,
+            "text": "给"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 6920,
+            "text": "你"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7120,
+            "text": "看"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7480,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10680,
+        "start_time": 9240,
+        "text": "谢谢你一直陪着我。",
+        "words": [
+          {
+            "end_time": 9480,
+            "start_time": 9240,
+            "text": "谢"
+          },
+          {
+            "end_time": 9680,
+            "start_time": 9520,
+            "text": "谢"
+          },
+          {
+            "end_time": 9880,
+            "start_time": 9680,
+            "text": "你"
+          },
+          {
+            "end_time": 10000,
+            "start_time": 9880,
+            "text": "一"
+          },
+          {
+            "end_time": 10160,
+            "start_time": 10000,
+            "text": "直"
+          },
+          {
+            "end_time": 10360,
+            "start_time": 10160,
+            "text": "陪"
+          },
+          {
+            "end_time": 10520,
+            "start_time": 10360,
+            "text": "着"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10520,
+            "text": "我"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10680,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "今天的阳光很好。我想把窗边的花画下来，等画好了，就拿给你看。谢谢你一直陪着我。"
+  },
+  "output": "art-src/stargarden/audio/voice-baselines-v1/ellie-teen-neutral-v2.wav"
+}

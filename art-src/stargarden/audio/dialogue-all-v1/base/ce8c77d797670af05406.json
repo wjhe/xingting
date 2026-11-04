@@ -1,0 +1,79 @@
+{
+  "src": "ce8c77d797670af05406.wav",
+  "duration": 3.9,
+  "gain": 1.6337666786918603,
+  "source_sha256": "d93bf4094400c98ccb4f39113d2843e65fe55cdc6ca0790edff74e83a565c328",
+  "id": "event.main_6_1.choice.1",
+  "text": "让她分别写下两种生活",
+  "group": "event:main_6_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3200,
+        "start_time": 160,
+        "text": "让她分别写下两种生活",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 160,
+            "text": "让"
+          },
+          {
+            "end_time": 600,
+            "start_time": 440,
+            "text": "她"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "分"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 880,
+            "text": "别"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "写"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1440,
+            "text": "下"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2160,
+            "text": "两"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2440,
+            "text": "种"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2720,
+            "text": "生"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2960,
+            "text": "活"
+          }
+        ]
+      }
+    ],
+    "text": "让她分别写下两种生活"
+  }
+}

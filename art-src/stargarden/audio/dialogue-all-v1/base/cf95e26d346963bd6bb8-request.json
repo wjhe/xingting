@@ -1,0 +1,218 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "2b20ad0f-d2f3-42eb-b3a2-f0bcc2c06b23",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她想要的原来不是奖状，而是被认真肯定。你告诉她，你一直看得见她的努力。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050504135F95848BA01C6F19AFB3",
+  "response": {
+    "duration": 9.1,
+    "original_duration": 9.1,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4600,
+          "start_time": 200,
+          "text": "她想要的原来不是奖状，而是被认真肯定。",
+          "words": [
+            {
+              "end_time": 360,
+              "start_time": 200,
+              "text": "她"
+            },
+            {
+              "end_time": 720,
+              "start_time": 480,
+              "text": "想"
+            },
+            {
+              "end_time": 920,
+              "start_time": 720,
+              "text": "要"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 920,
+              "text": "的"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1280,
+              "text": "原"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1440,
+              "text": "来"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1560,
+              "text": "不"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1720,
+              "text": "是"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1960,
+              "text": "奖"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2240,
+              "text": "状"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2320,
+              "text": "，"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3000,
+              "text": "而"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3240,
+              "text": "是"
+            },
+            {
+              "end_time": 3680,
+              "start_time": 3440,
+              "text": "被"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3680,
+              "text": "认"
+            },
+            {
+              "end_time": 4080,
+              "start_time": 3880,
+              "text": "真"
+            },
+            {
+              "end_time": 4400,
+              "start_time": 4160,
+              "text": "肯"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4400,
+              "text": "定"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4600,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8800,
+          "start_time": 5640,
+          "text": "你告诉她，你一直看得见她的努力。",
+          "words": [
+            {
+              "end_time": 5880,
+              "start_time": 5640,
+              "text": "你"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5880,
+              "text": "告"
+            },
+            {
+              "end_time": 6200,
+              "start_time": 6040,
+              "text": "诉"
+            },
+            {
+              "end_time": 6400,
+              "start_time": 6200,
+              "text": "她"
+            },
+            {
+              "end_time": 6400,
+              "start_time": 6400,
+              "text": "，"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 6840,
+              "text": "你"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 7160,
+              "text": "一"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7280,
+              "text": "直"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7440,
+              "text": "看"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7680,
+              "text": "得"
+            },
+            {
+              "end_time": 8120,
+              "start_time": 7880,
+              "text": "见"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8240,
+              "text": "她"
+            },
+            {
+              "end_time": 8480,
+              "start_time": 8360,
+              "text": "的"
+            },
+            {
+              "end_time": 8640,
+              "start_time": 8480,
+              "text": "努"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8640,
+              "text": "力"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8800,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她想要的原来不是奖状，而是被认真肯定。你告诉她，你一直看得见她的努力。"
+    }
+  }
+}

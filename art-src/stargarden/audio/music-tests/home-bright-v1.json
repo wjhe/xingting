@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-11-03T19:01:37.038100+00:00",
+  "provider": "Volcengine",
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "4134859e-e32c-4726-a745-387f74a39c7c",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "生成一段约30秒的纯器乐游戏背景音乐，用于原创温馨少女成长养成游戏的主界面。明亮、干净、清新、温柔而有希望，像春日阳光洒进窗边的小屋。轻盈的三拍子，速度约每分钟88拍；以温暖柔和的原声钢琴演奏简洁悦耳、容易记住的主旋律，木吉他轻柔分解和弦，长笛在乐句之间轻声回应，少量轻盈的钟琴点缀。编曲疏朗，音量平稳，适合在游戏中长时间聆听，不要喧宾夺主。开头直接进入轻柔旋律，最后一小节回到开头的和声，尽量适合循环，不要突然截断。全程只有音乐，不要人声、歌唱、歌词、对白、念白、环境音或音效；不要鼓点轰鸣、强烈低音、电子舞曲或史诗管弦乐。",
+    "audio_config": {
+      "format": "mp3",
+      "sample_rate": 44100
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261104030137D7896700CBDBCBCCFC54",
+  "duration": 30,
+  "original_duration": 30,
+  "bytes": 481533,
+  "output": "art-src/stargarden/audio/music-tests/home-bright-v1.mp3",
+  "preview": "public/assets/stargarden/audio/music-tests/home-bright-v1.mp3"
+}

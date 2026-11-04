@@ -1,0 +1,285 @@
+{
+  "src": "4790c8d6f33832199245.wav",
+  "duration": 12.6,
+  "gain": 1.5968252437195014,
+  "source_sha256": "f5ad692605b73b5b270165858d0cbfc966f19c9eba828fb2d94a9afad45d49ed",
+  "id": "event.main_2_0.text",
+  "text": "邻居的孩子带回一张奖状。艾莉真心替朋友高兴，回家却盯着自己的空墙发呆。“我是不是学得太慢了？”",
+  "group": "event:main_2_0",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3080,
+        "start_time": 880,
+        "text": "邻居的孩子带回一张奖状。",
+        "words": [
+          {
+            "end_time": 1120,
+            "start_time": 880,
+            "text": "邻"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1120,
+            "text": "居"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "的"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "孩"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1760,
+            "text": "子"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "带"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "回"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "一"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2520,
+            "text": "张"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2760,
+            "text": "奖"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3040,
+            "text": "状"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3080,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9480,
+        "start_time": 4240,
+        "text": "艾莉真心替朋友高兴，回家却盯着自己的空墙发呆。",
+        "words": [
+          {
+            "end_time": 4320,
+            "start_time": 4240,
+            "text": "艾"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4520,
+            "text": "莉"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4760,
+            "text": "真"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4960,
+            "text": "心"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5160,
+            "text": "替"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5400,
+            "text": "朋"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5560,
+            "text": "友"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5720,
+            "text": "高"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 5920,
+            "text": "兴"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6200,
+            "text": "，"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7000,
+            "text": "回"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7240,
+            "text": "家"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7480,
+            "text": "却"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7760,
+            "text": "盯"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8000,
+            "text": "着"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8200,
+            "text": "自"
+          },
+          {
+            "end_time": 8360,
+            "start_time": 8280,
+            "text": "己"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8360,
+            "text": "的"
+          },
+          {
+            "end_time": 8640,
+            "start_time": 8480,
+            "text": "空"
+          },
+          {
+            "end_time": 8880,
+            "start_time": 8800,
+            "text": "墙"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9040,
+            "text": "发"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9280,
+            "text": "呆"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9480,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 12480,
+        "start_time": 9480,
+        "text": "‘我是不是学得太慢了？",
+        "words": [
+          {
+            "end_time": 9480,
+            "start_time": 9480,
+            "text": "‘"
+          },
+          {
+            "end_time": 11040,
+            "start_time": 10760,
+            "text": "我"
+          },
+          {
+            "end_time": 11160,
+            "start_time": 11040,
+            "text": "是"
+          },
+          {
+            "end_time": 11280,
+            "start_time": 11160,
+            "text": "不"
+          },
+          {
+            "end_time": 11400,
+            "start_time": 11280,
+            "text": "是"
+          },
+          {
+            "end_time": 11600,
+            "start_time": 11400,
+            "text": "学"
+          },
+          {
+            "end_time": 11840,
+            "start_time": 11600,
+            "text": "得"
+          },
+          {
+            "end_time": 12000,
+            "start_time": 11840,
+            "text": "太"
+          },
+          {
+            "end_time": 12240,
+            "start_time": 12000,
+            "text": "慢"
+          },
+          {
+            "end_time": 12480,
+            "start_time": 12240,
+            "text": "了"
+          },
+          {
+            "end_time": 12480,
+            "start_time": 12480,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 12480,
+        "start_time": 12480,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 12480,
+            "start_time": 12480,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "邻居的孩子带回一张奖状。艾莉真心替朋友高兴，回家却盯着自己的空墙发呆。‘我是不是学得太慢了？’"
+  }
+}

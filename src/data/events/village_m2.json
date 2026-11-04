@@ -1,0 +1,99 @@
+[
+  {
+    "id": "village_childhood",
+    "title": "邻家少女",
+    "art": "village_farewell",
+    "region": ["qingshi_village"],
+    "weight": 12,
+    "once": true,
+    "conditions": { "realm_max": "lianqi", "not_meta_flags": ["su_bond"] },
+    "text": "临行前，邻家的苏晚晴红着眼眶追到村口，塞给你一个歪歪扭扭的布包：“听说你要去修仙了……这个平安符你带着。将来……将来可别把我忘了。”",
+    "options": [
+      {
+        "text": "郑重收下，“我一定回来看你。”",
+        "result": "她破涕为笑，用力点了点头。",
+        "effects": [{ "type": "item", "id": "amulet_peace", "count": 1 }, { "type": "flag", "key": "su_friend" }]
+      },
+      {
+        "text": "“仙凡有别，你忘了我吧。”",
+        "result": "她愣在原地，许久没有说话。你转身走远，没有回头。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "village_childhood_bond",
+    "title": "似曾相识",
+    "art": "village_farewell",
+    "region": ["qingshi_village"],
+    "weight": 15,
+    "once": true,
+    "conditions": { "realm_max": "lianqi", "meta_flags": ["su_bond"] },
+    "text": "村口站着一个素未谋面的少女，看见你时却怔住了：“我……是不是在哪里见过你？”她自己也说不清为什么，把一个平安符塞进了你手里。",
+    "options": [
+      {
+        "text": "“也许是上辈子吧。”",
+        "result": "她噗嗤一笑，眼里却泛起了泪光。这一世，你们会早一点重逢。",
+        "effects": [{ "type": "item", "id": "amulet_peace", "count": 1 }, { "type": "flag", "key": "su_friend" }, { "type": "attr", "key": "jiyuan", "value": 2 }]
+      }
+    ]
+  },
+  {
+    "id": "village_herb_granny",
+    "title": "采药婆婆",
+    "art": "village_gate",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "text": "村西的采药婆婆蹲在门口分拣草药，见你路过，招手道：“后生，过来帮婆婆认认，哪株是青灵草？”",
+    "options": [
+      {
+        "text": "蹲下来仔细辨认",
+        "check": { "attr": "wuxing", "dc": 7 },
+        "success": { "result": "你一眼挑了出来。婆婆眯眼笑了，把一小捆灵草塞给你：“好眼力。”", "effects": [{ "type": "item", "id": "herb_qingling", "count": 3 }] },
+        "fail": { "result": "你挑了半天，挑出一把狗尾巴草。婆婆笑得直拍腿。" }
+      },
+      { "text": "笑着摆手走开", "result": "婆婆在身后嘀咕：“如今的年轻人，连草都不认得。”" }
+    ]
+  },
+  {
+    "id": "village_fever",
+    "title": "村中时疫",
+    "art": "village_gate",
+    "region": ["qingshi_village"],
+    "weight": 4,
+    "once": true,
+    "text": "入秋后村里闹起了时疫，几户人家的孩子烧得说胡话，郎中也束手无策。",
+    "options": [
+      {
+        "text": "拿出回春丹救人",
+        "requires": { "items": { "huichun_dan": 1 } },
+        "result": "你把丹药化在水里，给孩子们一一喂下。第二天，烧都退了。村民们堵在你家门口道谢。",
+        "effects": [{ "type": "item", "id": "huichun_dan", "count": -1 }, { "type": "attr", "key": "xinjing", "value": 2 }, { "type": "stone", "value": 30 }]
+      },
+      {
+        "text": "上山采药碰碰运气",
+        "check": { "attr": "jiyuan", "dc": 8 },
+        "success": { "result": "你在山涧边找到一片退热的草药，熬了一大锅。时疫总算压了下去。", "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }] },
+        "fail": { "result": "你空手而归。几天后，村里多了两座新坟。", "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }] }
+      }
+    ]
+  },
+  {
+    "id": "village_well",
+    "title": "古井异响",
+    "art": "village_well",
+    "region": ["qingshi_village"],
+    "weight": 5,
+    "once": true,
+    "text": "夜深人静，村中那口枯了多年的古井里，隐约传出叮叮当当的声响。",
+    "options": [
+      {
+        "text": "系绳下井一探",
+        "check": { "attr": "shenshi", "dc": 7 },
+        "success": { "result": "井底的淤泥里埋着一只锈蚀的铁匣，装着前朝的一把灵石，还有一柄铁剑。", "effects": [{ "type": "stone", "value": 60 }, { "type": "item", "id": "sword_iron", "count": 1 }] },
+        "fail": { "result": "绳子半途断了，你摔在井底，好不容易才爬上来。", "effects": [{ "type": "hp", "value": -40 }] }
+      },
+      { "text": "大概是老鼠，回去睡觉", "result": "那声音响了一夜，第二天就再也听不到了。" }
+    ]
+  }
+]

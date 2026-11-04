@@ -1,0 +1,79 @@
+{
+  "src": "f9934f92a4e6e9d8ae99.wav",
+  "duration": 3.5,
+  "gain": 0.8690421216848674,
+  "source_sha256": "f619f06cae8f7352435de46cbdc0fa936360829a77d407a3a08c9240f31ceca5",
+  "id": "event.main_1_2.choice.0",
+  "text": "坐在她看得见的地方",
+  "group": "event:main_1_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2400,
+        "start_time": 720,
+        "text": "坐在她看得见的地方。",
+        "words": [
+          {
+            "end_time": 920,
+            "start_time": 720,
+            "text": "坐"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "在"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1120,
+            "text": "她"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "看"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1480,
+            "text": "得"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1640,
+            "text": "见"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "的"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2080,
+            "text": "地"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "方"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2400,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "坐在她看得见的地方。"
+  }
+}

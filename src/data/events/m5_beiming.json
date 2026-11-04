@@ -1,0 +1,1563 @@
+[
+  {
+    "id": "beiming_kun_migrate",
+    "title": "鲲徙",
+    "art": "beiming_kun",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "海面忽然隆起一座山，又缓缓沉下去——是一头幼鲲在随季迁徙。它背上的旧羽一路走一路掉，落进海里便化作一团白沫。老渔民说，要赶在羽毛沾水之前接住，那才是鲲鹏羽。",
+    "options": [
+      {
+        "text": "追上去，从它背上拔一根",
+        "result": "你踏浪追了上去，一把揪住了它背上的翎羽。",
+        "battle": {
+          "enemy": "kun",
+          "win": {
+            "result": "幼鲲吃痛，一甩尾潜进了深海。你手里攥着一根比人还高的翎羽，羽根还在微微发烫。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "kun_feather",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "一道巨浪把你拍进海底，你在水下沉了三天才稳住元婴，折损了二十年寿元。浮上来时，海面上只剩一圈圈漩涡。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "跟在它身后，等它自己落羽",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 12
+        },
+        "success": {
+          "result": "你跟着它在海上漂了三十年，终于等到一根翎羽飘下，赶在它触水前的一瞬接住了。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -30
+            },
+            {
+              "type": "item",
+              "id": "kun_feather",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "三十年里它落了无数根羽毛，你一根也没接住——每一回，都只差那么一寸。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "目送它远去",
+        "result": "幼鲲沉入深海前，回头看了你一眼。那一眼很长，长得像潮水退去的时间。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_xuanbing_dig",
+    "title": "凿冰",
+    "art": "beiming_ice",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "北冥最北是一片冰原，冰层底下透出幽幽的蓝光，那是凝了万年的玄冰。冰原上的风像刀子，连元婴修士的护体灵光都被刮得滋滋作响。你脚下这一层，少说还有三百丈厚。",
+    "options": [
+      {
+        "text": "运足灵力，硬凿下去",
+        "check": {
+          "attr": "gengu",
+          "dc": 12
+        },
+        "success": {
+          "result": "你一口气凿穿三百丈，抱着一块拳头大的玄冰爬上来时，眉毛上全结了霜，护体灵光薄得像一张纸。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "xuanbing",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        },
+        "fail": {
+          "result": "凿到二百丈，寒气顺着经脉倒灌进来，你差点冻死在冰洞里，硬是燃了二十年寿元才挣了出来。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "lifespan",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "盘坐冰上，以元婴真火慢慢化开",
+        "result": "你用元婴里的一点真火，一寸一寸地化冰。冰原上没有昼夜，等你捧起那块玄冰时，四十年已经过去了。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -40
+          },
+          {
+            "type": "item",
+            "id": "xuanbing",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "风太大，改日再来",
+        "result": "你转身离开。风雪很快填平了你的脚印，像是从来没有人来过。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_haiyan_vortex",
+    "title": "海眼",
+    "art": "beiming_storm",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "海面上有一个望不到边的漩涡，海水日夜不停地往里灌，却永远灌不满——这就是北冥海眼。渔民说，海眼最深处卧着一颗灵珠，珠子每吐一口气，四海便涨一回潮。",
+    "options": [
+      {
+        "text": "顺着漩涡潜到最底",
+        "check": {
+          "attr": "shenshi",
+          "dc": 13
+        },
+        "success": {
+          "result": "你以神识钉住方位，一路沉到海眼最底，摸到一颗温润的珠子。握住它的一刻，你听见了整片北冥海的潮声。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "haiyan_pearl",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        },
+        "fail": {
+          "result": "潜到一半，神识被漩涡搅成了一团乱麻。你被海流甩出来时元婴还在发抖，白白耗去了三十年寿元。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "lifespan",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "守在漩涡边缘，借潮水淬炼元婴",
+        "result": "你在海眼边缘坐了三年，任潮水一遍遍冲刷元婴。三年后起身，浑身骨头都在响，元婴却凝实了一圈。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 200000
+          },
+          {
+            "type": "hp",
+            "value": -30
+          }
+        ]
+      },
+      {
+        "text": "离开",
+        "result": "漩涡在你身后转个不停。它在这里转了几万年，不急这一天。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_jiao_patrol",
+    "title": "鲛人卫",
+    "art": "beiming_mermaid",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "一队鲛人卫从浪里钻出来，水矛齐齐指着你。领头的鲛人说着生硬的人话：“这片海，是鲛人的。上一个硬闯的修士，是三百年前——他的坟，还在那块礁石上。”",
+    "options": [
+      {
+        "text": "不理会，硬闯过去",
+        "result": "你没有停下。水矛破浪而来。",
+        "battle": {
+          "enemy": "jiao_guard",
+          "win": {
+            "result": "鲛人卫被你打散，领头的那个把一只大贝壳丢到你脚边，里面是他们收了几百年的过路灵石：“人类，你可以过去了。”",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 40000
+              }
+            ]
+          },
+          "lose": {
+            "result": "水矛刺穿了你的护体灵光。你被一路追出百里海域才甩掉他们，元气大伤，折了二十年寿元。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "按他们的规矩，交过路钱",
+        "requires": {
+          "stones": 20000
+        },
+        "result": "领头的鲛人掂了掂灵石，收起水矛：“规矩就是规矩。”他们领着你从一条海底灵脉上游过，那里的灵气浓得像水，你走了一路，修为涨了一路。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -20000
+          },
+          {
+            "type": "cultivation",
+            "value": 150000
+          }
+        ]
+      },
+      {
+        "text": "退出这片海",
+        "result": "你退了回去。鲛人卫没有追，只是一直浮在浪尖上看着你，直到你消失在天边。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_mermaid_tears",
+    "title": "鲛人泣珠",
+    "art": "beiming_mermaid",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "礁石上坐着一个白发鲛人，一边哭一边织绡，眼泪落在石头上，叮叮当当滚成一地珍珠。她在等一个打渔的凡人，他说出海三天就回——那是三百年前的事了。她抬头问你：“你们修仙的人，知道凡人死了，会去哪儿吗？”",
+    "options": [
+      {
+        "text": "“他转世了，也许就在岸上的渔村里。”",
+        "result": "她擦干眼泪，把那件织了三百年的鲛绡宝甲塞进你怀里，扑通一声跳进海里，朝渔村游去。你不知道她能不能找到，只知道自己说了个谎——又或者，不全是谎。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "armor_jiaoxiao",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "“不知道。我活了几百年，也没弄明白。”",
+        "result": "她愣了愣，忽然笑了：“原来神仙也不知道。”她把一地泪珠扫进你的袖子，说留着也是伤心。那些珍珠后来换了三万灵石，最小的那一颗，你一直没舍得卖。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 30000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "陪她坐一会儿，什么也不说",
+        "result": "你陪她坐到潮水漫上礁石。她不哭了，开始哼一支渔歌，调子土得很，大概是那个人教的。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beiming_mirage_village",
+    "title": "海市",
+    "art": "beiming_mirage",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "海上浮起一座城。不，是一座村子：村口一棵老槐树，树下有人摇着蒲扇纳凉，有人挑着担子吆喝卖豆腐——是青石村，是你离开那年的样子。那些人早在几百年前就作古了，此刻却都在朝你招手。",
+    "options": [
+      {
+        "text": "走进去，再看他们一眼",
+        "check": {
+          "attr": "xinjing",
+          "dc": 11
+        },
+        "success": {
+          "result": "你在村里走了一圈，和每个人都说了句话。走到村口，你回头说了声“我走了”——当年离开时，你没来得及说这一句。话音落下，蜃景便散了。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 2
+            },
+            {
+              "type": "cultivation",
+              "value": 300000
+            }
+          ]
+        },
+        "fail": {
+          "result": "你在村里住了下来。等你发觉不对时，海上已经过去了三十年，你独自坐在一块礁石上，手里还捧着一碗并不存在的豆腐脑。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -30
+            },
+            {
+              "type": "hp",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "一眼看破，挥袖打散",
+        "result": "你一挥袖，整座村子碎成了海雾。修了几百年的道，这点幻象早该看破——那天你还是在原地站了很久，雾散尽了，心也定了几分。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 150000
+          }
+        ]
+      },
+      {
+        "text": "闭上眼，绕过去",
+        "result": "你绕过那片海雾。身后好像有人在喊你的小名，你没有回头。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_shen_lure",
+    "title": "蜃楼诱舟",
+    "art": "beiming_mirage",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 4,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "海平线上浮起一座金碧辉煌的仙城，三艘商船正调转船头朝它驶去，船上的人欢呼雀跃。你看得分明：那座城底下盘着一条吞云吐雾的蜃龙，张着嘴，在等。",
+    "options": [
+      {
+        "text": "斩了这条蜃龙",
+        "result": "你踏浪迎了上去，直奔城下那张巨口。",
+        "battle": {
+          "enemy": "shen_dragon",
+          "win": {
+            "result": "蜃龙的幻雾散尽，仙城化作一缕青烟。商船上的人跪了一甲板，凑出一大袋灵石，说什么也要你收下。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 60000
+              }
+            ]
+          },
+          "lose": {
+            "result": "幻雾裹住了你，你眼睁睁看着自己沉进一座不存在的城。醒来时漂在海上，寿元少了三十年，商船早已不知去向。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -60
+              },
+              {
+                "type": "lifespan",
+                "value": -30
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "以神识喝破幻象",
+        "check": {
+          "attr": "shenshi",
+          "dc": 12
+        },
+        "success": {
+          "result": "你一声断喝，神识如钟。舵手们打了个激灵，看清了城下那张巨口，吓得连夜掉头。船主后来托人送来两万灵石。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 20000
+            }
+          ]
+        },
+        "fail": {
+          "result": "你的神识反被幻雾缠住，让蜃龙拖进梦里，一梦就是二十年。商船最后怎样了，你始终不知道。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -20
+            },
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "与你无关",
+        "result": "你别过头去。那天傍晚，海上的仙城格外明亮。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_witch_song",
+    "title": "海妖歌",
+    "art": "beiming_storm",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "暴风雨里飘来一缕歌声，甜得发腻。不远处一艘渔船上，船工一个接一个往海里跳，脸上都带着笑。歌声来自海眼边的一块黑礁——传说那里的海妖，是拿海眼灵珠养着嗓子的。",
+    "options": [
+      {
+        "text": "封住双耳，杀上黑礁",
+        "result": "你封住五感中的听觉，朝黑礁掠去。",
+        "battle": {
+          "enemy": "sea_witch",
+          "win": {
+            "result": "海妖坠入浪中，歌声戛然而止。黑礁的石缝里卡着一颗珠子，凑近了听，里面有潮声在响。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "haiyan_pearl",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "歌声还是钻进了你的元婴。等你回过神来，已在海里泡了七天，元婴上多了一道细纹，三十年寿元没了。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -60
+              },
+              {
+                "type": "lifespan",
+                "value": -30
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "先救人，把落水的船工捞上来",
+        "check": {
+          "attr": "xinjing",
+          "dc": 11
+        },
+        "success": {
+          "result": "你在歌声里稳住心神，把落水的船工一个不少地捞了上来。那歌声磨了你一夜，也替你磨去了心上一层浮尘。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            },
+            {
+              "type": "cultivation",
+              "value": 100000
+            }
+          ]
+        },
+        "fail": {
+          "result": "你捞起了七个，第八个从你指尖滑了下去。歌声还在唱，你差点也跟着跳了下去。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            },
+            {
+              "type": "hp",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "封住五感，飞离这片风雨",
+        "result": "你飞出了那片风雨。身后的歌声唱了一夜，第二天，那艘渔船空着漂回了岸边。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_rogue_toll",
+    "title": "散仙收税",
+    "art": "beiming_isle",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 4,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "一座孤岛上空，有个散仙踩着酒葫芦拦住了你，说这片海归他管，过路的修士一人三万灵石。你神识一扫便明白了：他也是元婴，卡在后期三百年，化神无望，干脆在海上收起了过路钱。",
+    "options": [
+      {
+        "text": "笑一笑，动手",
+        "result": "你没有去摸储物袋。他的葫芦已经砸了下来。",
+        "battle": {
+          "enemy": "rogue_immortal",
+          "win": {
+            "result": "他的本命法宝被你打落海中。散仙捂着胸口，扔过来一只玉瓶：“婴元丹……攒了三百年的。拿去，别再来了。”",
+            "effects": [
+              {
+                "type": "item",
+                "id": "yingyuan_dan",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "葫芦砸碎了你的护体灵光。他搜走你三万灵石，把你扔在礁石上晒了半个月，你伤了根本，折寿二十年。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -60
+              },
+              {
+                "type": "stone",
+                "value": -30000
+              },
+              {
+                "type": "lifespan",
+                "value": -20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "照数给钱",
+        "requires": {
+          "stones": 30000
+        },
+        "result": "他收了灵石，却忽然叹了口气：“三百年了，你是头一个没跟我动手的。”说罢塞给你一枚玉简，里面是他这些年参化神的心得，你读了一遍，获益匪浅。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -30000
+          },
+          {
+            "type": "cultivation",
+            "value": 300000
+          }
+        ]
+      },
+      {
+        "text": "跟他聊聊，他卡的那道关",
+        "check": {
+          "attr": "wuxing",
+          "dc": 11
+        },
+        "success": {
+          "result": "你们在岛上论了三天道。他说到后来眼睛发亮，最后挥挥手：“走吧走吧，不收你钱了。”这三天，你也想通了不少事。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 200000
+            }
+          ]
+        },
+        "fail": {
+          "result": "话不投机，他越听越烦，一葫芦把你砸出了海岛。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "beiming_kun_peng",
+    "title": "化鹏",
+    "art": "beiming_kun",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 2,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "那天北冥平白退潮三千里，一头大得望不见边的鲲浮出水面，背脊轰然裂开，伸出一对遮天的翅膀。鲲化为鹏，千年才有一回。它扶摇而上九万里时，翎羽像雪一样往下落。",
+    "options": [
+      {
+        "text": "静坐，看它化鹏",
+        "result": "你看着它挣开鱼身、展翅、乘风，最后变成天边一个小黑点。有个念头在你心里也挣开了壳：原来“化”，是这样化的。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 2
+          },
+          {
+            "type": "cultivation",
+            "value": 500000
+          }
+        ]
+      },
+      {
+        "text": "乘它翅下的风追上去接羽",
+        "check": {
+          "attr": "gengu",
+          "dc": 12
+        },
+        "success": {
+          "result": "狂风把你卷上九万里，冻得元婴发僵，你却在风眼里一把抓住了一根落羽。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "kun_feather",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        },
+        "fail": {
+          "result": "狂风把你从九万里高空甩了下来，你砸进海里，丢了四十年寿元，好些年才养回元气。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -70
+            },
+            {
+              "type": "lifespan",
+              "value": -40
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "beiming_ice_sleeper",
+    "title": "冰中人",
+    "art": "beiming_ice",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "冰原深处封着一个人，盘膝而坐，眉目如生。你神识一探，心脉竟然还在跳——很慢，像是百年才跳一下。冰壁上刻着一行字：“待她来，破冰。”旁边另有人后来添了一句：“她不会来了。”",
+    "options": [
+      {
+        "text": "护住他的心脉，破冰叫醒他",
+        "check": {
+          "attr": "shenshi",
+          "dc": 12
+        },
+        "success": {
+          "result": "你以神识护着他的心脉，一层层化开玄冰。他睁开眼，问了一个名字，你答不上来。他沉默许久，把封了他万年的玄冰掰下一角递给你：“多谢。剩下的，我自己慢慢想。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "xuanbing",
+              "count": 1
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            },
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        },
+        "fail": {
+          "result": "冰一化，他的心脉便停了——他撑了万年，靠的就是这一层冰。你在冰原上替他堆了一座坟，碎冰里只剩一块完整的玄冰。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "xuanbing",
+              "count": 1
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            },
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "不打扰他，在冰壁上添一句话",
+        "result": "你想了很久，在“她不会来了”底下又刻了一行：“也许会。”冰原上风很大，你走的时候，心里却轻了一点。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beiming_straight_hook",
+    "title": "直钩",
+    "art": "beiming_isle",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying"
+    },
+    "text": "小岛上有个老头在钓鱼，鱼线垂进海里，钩是直的。他说他钓了八百年，一条也没钓上来。你看不透他的修为——这只能说明，他比你高得多。“坐。”他拍拍身边的石头，“陪我钓一会儿。”",
+    "options": [
+      {
+        "text": "坐下，陪他钓",
+        "result": "你在石头上坐了一年，一条鱼也没钓上来，心却慢慢不急了。临走时老头头也不回：“你那根钩，也是直的。”",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "请他指点更上一层的路",
+        "check": {
+          "attr": "wuxing",
+          "dc": 12
+        },
+        "success": {
+          "result": "老头把鱼线随手一抖，海面上荡开一圈涟漪，一圈套着一圈，一直荡到天边。你看了三天，看懂了其中一圈，修为便涨了一大截。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 600000
+            }
+          ]
+        },
+        "fail": {
+          "result": "你盯着那圈涟漪看了三天，越看越糊涂。老头笑着收了竿：“不急。我等了八百年，你多等几年也无妨。”"
+        }
+      },
+      {
+        "text": "拱手告辞",
+        "result": "你飞出很远再回头，老头还坐在那里，像一块礁石。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_legend",
+    "title": "神仙故事",
+    "art": "marsh_fishing",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "你在海边渔村歇脚，听见老渔夫给孙子讲古：很久很久以前，青石村有个砍柴的少年，后来成了神仙，一剑劈开了黑风谷……你算了算，那是你几百年前的事了。故事里，你长着三只眼，身高一丈。",
+    "options": [
+      {
+        "text": "告诉孩子，那个神仙就是你",
+        "result": "孩子把你从头看到脚，摇摇头：“你只有两只眼睛。”老渔夫赶紧把他拉走，回头冲你赔了个笑，像在给一个疯子赔笑。"
+      },
+      {
+        "text": "笑而不语，听他讲完",
+        "result": "故事讲到最后，神仙飞升了，再也没回来。孩子问：“他不想家吗？”老渔夫答不上来，你替他答了：“想的。”",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "悄悄留下一袋灵石",
+        "requires": {
+          "stones": 10000
+        },
+        "result": "第二年，渔村多了一座小庙，供的是个三只眼的神仙。你路过时进去看了看，觉得画得一点也不像，又觉得挺好。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -10000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beiming_seclusion",
+    "title": "出关",
+    "art": "island_seclusion",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "你在海岛上闭关，一闭就是六十年。出关那天，洞口那棵亲手种下的小松已经合抱粗了；山下的渔村搬走了，换了个口音你听不懂的新村子。你这才发觉，自己早忘了数日子。",
+    "options": [
+      {
+        "text": "下山，去新村子里走走",
+        "result": "村里没人认得你，你也不认得谁。一个小孩给你递了碗水，你喝完才想起，六十年前给你递水的那个人，该是他的曾祖。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "回身封洞，再闭二十年",
+        "result": "你封了洞口。再出来时，松树又粗了一圈，元婴也凝实了许多。山下那个新村子，又换了一拨人。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -20
+          },
+          {
+            "type": "cultivation",
+            "value": 700000
+          }
+        ]
+      },
+      {
+        "text": "去寻当年故人的后人",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 11
+        },
+        "success": {
+          "result": "你翻遍了附近七个村子，在一块残碑上找到故人的名字。碑脚下摆着几个新鲜的果子——他还有后人，还有人记得他。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "你找了三年，只找到一片被海风削平了的荒坟，连哪一座是他的都认不出来。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "beiming_penglai_wreck",
+    "title": "蓬莱沉舟",
+    "art": "beiming_storm",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "一场风暴过后，海面上翻起一艘上古楼船的残骸，船头刻着“蓬莱”二字。底舱深处有一口剑匣，被几十道腐朽的禁制锁着；禁制一旦乱了，就会把整艘船连同船里的人一起拖回海底。",
+    "options": [
+      {
+        "text": "一道一道拆禁制",
+        "check": {
+          "attr": "shenshi",
+          "dc": 12
+        },
+        "success": {
+          "result": "你在底舱里坐了三个月，一道一道拆开禁制。剑匣打开时，一泓寒光照亮了半间船舱——是一柄青冥剑。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "sword_qingming",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "拆到第三十七道，船身猛地一沉。你破舱而出，眼睁睁看着楼船连同剑匣沉回了海底，再也找不到了。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      },
+      {
+        "text": "不碰剑匣，只搜外舱",
+        "result": "外舱里散落着不少蓬莱旧物，你挑了些还算完好的，换得四万灵石。离船时你回头看了一眼底舱，楼船正一点一点沉下去。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 40000
+          }
+        ]
+      },
+      {
+        "text": "由它沉去",
+        "result": "你看着它慢慢沉回海底。有些东西沉了三千年，大概不想被打扰。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_storm_boat",
+    "title": "怒海孤舟",
+    "art": "beiming_storm",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "怒海之上，一叶孤舟被浪头抛起又摔下，船上是一对凡人父子。父亲把儿子绑在桅杆上，自己死死抱着舵。在他们眼里，你踏浪而来，就是神仙下凡。",
+    "options": [
+      {
+        "text": "抬手，定住这片风浪",
+        "result": "你一挥袖，方圆十里的浪头齐齐矮了下去。父子俩跪在船板上磕头，一口一个“海神”。强压天象，你的经脉疼了好些天。",
+        "effects": [
+          {
+            "type": "hp",
+            "value": -30
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "捞起父子，再留下一袋灵石",
+        "requires": {
+          "stones": 10000
+        },
+        "result": "你把他们送上了岸，那条船被浪卷走了。你留下一袋灵石——他不知道这点东西在仙人眼里不值一提，在凡间却能买下十条船。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -10000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "天数如此，远远看着",
+        "result": "你在云头站了一夜。天亮时海面平了，什么也没剩下。“天道无常”这话你说了几百年，今天头一回觉得空落落的。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beiming_yaowang_feast",
+    "title": "妖王宴",
+    "art": "beiming_kun",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "一头老鲲衔着请帖浮出海面：北冥妖王设宴，请你赴席。席就摆在它背上，左边坐着鲛人女王，右边盘着一条蜃龙，人族修士只请了你一个。酒过三巡，妖王的幼子拍案而起，要和你过两招。",
+    "options": [
+      {
+        "text": "放下酒杯，应战",
+        "result": "你起身离席，幼鲲已经现出了原形。",
+        "battle": {
+          "enemy": "kun",
+          "win": {
+            "result": "幼鲲被你一掌拍回海里，溅了满席的水。妖王哈哈大笑，反手从自己背上拔下一根翎羽，当作彩头抛给你：“我儿子输得不冤。”",
+            "effects": [
+              {
+                "type": "item",
+                "id": "kun_feather",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "你被幼鲲一尾巴扫下了鲲背。妖王笑得满背海水乱晃，派了条小鲛把你捞了上来。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "举杯笑道：“小孩子，叫你父亲来。”",
+        "check": {
+          "attr": "xinjing",
+          "dc": 12
+        },
+        "success": {
+          "result": "满席一静，随即哄堂大笑。妖王亲手给你斟了一杯北冥海底千年灵泉酿的酒：“好胆色！”那杯酒下肚，元婴暖了整整三年。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 400000
+            }
+          ]
+        },
+        "fail": {
+          "result": "妖王的笑容僵了一瞬。幼子当场掀了桌子，宴席不欢而散，从此北冥群妖提起你，都说“那个人族，不会说话”。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "jiyuan",
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "text": "推说不胜酒力，告辞",
+        "result": "你提前离了席。飞出很远，还能听见鲲背上的笑声，像打雷一样。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_world_edge",
+    "title": "回头",
+    "art": "beiming_ice",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 1,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying"
+    },
+    "text": "你一直往北飞，飞过冰原，飞过连鲲都不去的海，终于到了尽头：一面高不见顶的冰壁，壁上密密麻麻刻满了字，全是同一句——“到此，回头。”每一句的笔迹，都和你一模一样。",
+    "options": [
+      {
+        "text": "拔剑，也刻一句",
+        "result": "你刻下同样四个字。刻完才发觉，你根本没想好要刻什么，是手自己知道。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "一句一句数过去",
+        "requires": {
+          "meta_flags": [
+            "truth_known"
+          ],
+          "hint": "你看不懂这些字为什么是你的笔迹"
+        },
+        "result": "你数了整整一年，一共八十一句。最后一句底下压着一道符，符纸上也是你的字：“这一回，别回头。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "jiuxiao_fu",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "什么也不看，回头",
+        "result": "你转身往回飞。飞出很远才想起来，你连冰壁后面有什么都没去看——也许每一回的你，都是这样回头的。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_whale_market",
+    "title": "鲸背集",
+    "art": "beiming_isle",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 2,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "一头老鲸驮着一座集市浮出海面，百年才露一回面，摆摊的全是海外散仙。角落里一个瞎眼婆婆的摊上只摆着两样东西：万寿丹，清心丹。她说万寿丹收灵石，清心丹只收寿元。",
+    "options": [
+      {
+        "text": "买下万寿丹（八万灵石）",
+        "requires": {
+          "stones": 80000
+        },
+        "result": "婆婆摸了摸灵石，点点头。丹药入手沉甸甸的，像握着五十年的光阴。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -80000
+          },
+          {
+            "type": "item",
+            "id": "wanshou_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "以二十年寿元，换两枚清心丹",
+        "result": "婆婆的手指搭上你的脉门，你觉得有什么东西被轻轻抽走了。她把两枚清心丹放进你手心：“过心魔那一关，它比寿元管用。”",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -20
+          },
+          {
+            "type": "item",
+            "id": "qingxin_dan",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "text": "只逛不买",
+        "result": "你在集上转了一整天，什么也没买。日落时老鲸沉入海中，整座集市像从来没有出现过。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_bm_palm",
+    "title": "炉上掌印",
+    "art": "palm_furnace",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 12,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying"
+    },
+    "text": "你又路过蓬莱丹宫。看炉的白须童子难得没睡，正拿一块旧布擦丹炉，擦来擦去总是同一处——炉身上一个浅浅的掌印。“主人走的时候按的，”他说，“他说按着这个印子，就认得回来的路。”",
+    "options": [
+      {
+        "text": "问他，主人长什么样",
+        "result": "童子想了很久：“记不清了。三千年，脸是最先忘的。只记得他护炉时爱哼一支曲子，老跑调。”他顿了顿，“他住东边的雾岛。我守着炉，走不开——你若路过，替我看看那屋子还在不在。”",
+        "effects": [
+          {
+            "type": "flag",
+            "key": "bm_master_s1"
+          }
+        ]
+      },
+      {
+        "text": "把手按上那个掌印",
+        "check": {
+          "attr": "shenshi",
+          "dc": 11
+        },
+        "success": {
+          "result": "严丝合缝。炉火猛地一跳，一股温热顺着掌心涌进你的经脉，炉底浮出一行小字，指着东边一座雾岛。童子盯着你的手，半晌没说话。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 200000
+            },
+            {
+              "type": "flag",
+              "key": "bm_master_s1"
+            }
+          ]
+        },
+        "fail": {
+          "result": "炉火一卷，烫得你缩回了手。童子把你拨到一边：“别乱按，那是主人的。”擦了两下，又嘟囔着告诉你，主人从前住在东边的雾岛上。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -20
+            },
+            {
+              "type": "flag",
+              "key": "bm_master_s1"
+            }
+          ]
+        }
+      },
+      {
+        "text": "不打扰他",
+        "result": "你轻手轻脚地走出丹宫。身后，童子在哼一支跑调的曲子。"
+      }
+    ]
+  },
+  {
+    "id": "beiming_bm_house",
+    "title": "雾岛竹屋",
+    "art": "beiming_isle",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 20,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying",
+      "flags": [
+        "bm_master_s1"
+      ]
+    },
+    "text": "雾岛上只有一间竹屋，三千年了竟没塌。门没上锁，桌上摊着一卷手札，墨迹如新。你翻开第一页就停住了——那是你的字。屋外雾气翻涌，有什么东西在雾里，学着你的声音，一声声喊你的名字。",
+    "options": [
+      {
+        "text": "提剑走进雾里",
+        "result": "雾里盘着一条蜃龙，它张开嘴，吐出的却是你的脸。",
+        "battle": {
+          "enemy": "shen_dragon",
+          "win": {
+            "result": "蜃龙伏诛，雾散了。它腹中那颗蜃珠里，存着三千年来吞下的幻影：一个和你一模一样的人，坐在这间竹屋里，一遍遍写着同一卷手札。你看着看着，修为竟随之一涨。",
+            "effects": [
+              {
+                "type": "cultivation",
+                "value": 300000
+              },
+              {
+                "type": "flag",
+                "key": "bm_master_s2"
+              },
+              {
+                "type": "flag",
+                "key": "bm_master_seen"
+              }
+            ]
+          },
+          "lose": {
+            "result": "你在幻雾里迷了七天七夜，伤了寿元。醒来时手札已被雾气泡烂，只剩最后一页还认得出字：“若我回来，告诉童子，不必再等。”",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -20
+              },
+              {
+                "type": "flag",
+                "key": "bm_master_s2"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "坐下读手札，不理那个声音",
+        "check": {
+          "attr": "xinjing",
+          "dc": 12
+        },
+        "success": {
+          "result": "雾里的声音喊了你一夜，你一次也没抬头。手札记的全是丹方，记到最后一页，笔迹忽然乱了：“此身将尽，转世再来。童子若问，就说我出门采药了。”",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            },
+            {
+              "type": "flag",
+              "key": "bm_master_s2"
+            },
+            {
+              "type": "flag",
+              "key": "bm_master_seen"
+            }
+          ]
+        },
+        "fail": {
+          "result": "读到一半，你忍不住应了一声。雾一下子涌进门来，你拼着折损寿元冲了出去，只来得及看清最后一页：“告诉童子，不必再等。”",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "lifespan",
+              "value": -20
+            },
+            {
+              "type": "flag",
+              "key": "bm_master_s2"
+            }
+          ]
+        }
+      },
+      {
+        "text": "这笔迹，你在黑风谷的壁画上见过",
+        "requires": {
+          "meta_flags": [
+            "ruins_mural"
+          ],
+          "hint": "你从未见过前世的模样"
+        },
+        "result": "你想起那面古洞壁画——画中人握笔的姿势，和这手札的笔锋一模一样。雾里的东西喊了几声，像是忽然认出了谁，悄悄退走了。你读完手札，最后一页写着：“童子若问，就说我出门采药了。”",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 200000
+          },
+          {
+            "type": "flag",
+            "key": "bm_master_s2"
+          },
+          {
+            "type": "flag",
+            "key": "bm_master_seen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beiming_bm_return",
+    "title": "蓬莱旧主",
+    "art": "palm_furnace",
+    "region": [
+      "beiming_sea"
+    ],
+    "weight": 20,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying",
+      "realm_max": "yuanying",
+      "flags": [
+        "bm_master_s2"
+      ]
+    },
+    "text": "你回到丹宫。童子听见脚步声，没抬头：“屋子还在吗？”你说还在。他“嗯”了一声，手里的布停在那个掌印上。“三千年，”他说，“你是第九个来问我主人的人。前八个，护炉的手法都和主人一模一样。”",
+    "options": [
+      {
+        "text": "“我就是你的主人。”",
+        "requires": {
+          "flags": [
+            "bm_master_seen"
+          ],
+          "hint": "你还说不准他的主人是谁"
+        },
+        "result": "童子终于抬起头，看了你很久，笑了：“前八个也是这么说的。”他从炉底取出一块寒气森森的玄冰，“主人说，等他回来就交给他。每回我都给了，每回他都又走了。这一回，你别走那么快。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "xuanbing",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          },
+          {
+            "type": "flag",
+            "key": "bm_master_done"
+          }
+        ]
+      },
+      {
+        "text": "把太初、轮回、一世又一世的事都告诉他",
+        "requires": {
+          "meta_flags": [
+            "truth_known"
+          ],
+          "hint": "你还不知道轮回的真相"
+        },
+        "result": "童子听完，沉默了很久：“原来主人不是不回来，是回来了，又忘了。”他把炉底那块玄冰和两枚清心丹一起塞给你，“这一世，记得久一点。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "xuanbing",
+            "count": 1
+          },
+          {
+            "type": "item",
+            "id": "qingxin_dan",
+            "count": 2
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          },
+          {
+            "type": "flag",
+            "key": "bm_master_done"
+          }
+        ]
+      },
+      {
+        "text": "“他托我带话：出门采药了，让你别等。”",
+        "result": "童子愣了愣，把旧布叠好放在炉边。“采药啊，”他说，“那我就再等等。”他从柜里摸出两枚落满灰的婴元丹，说是主人留的，放着也是放着。那之后，他再没擦过那个掌印。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "yingyuan_dan",
+            "count": 2
+          },
+          {
+            "type": "flag",
+            "key": "bm_master_done"
+          }
+        ]
+      }
+    ]
+  }
+]

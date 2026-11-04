@@ -1,0 +1,74 @@
+{
+  "src": "0e797eaf19ad962b4dec.wav",
+  "duration": 3.28,
+  "gain": 1.564654277135966,
+  "source_sha256": "f87c8bdcca288bd176fcb82fc5f6ba9b67c41695f847239d25d19a430290a159",
+  "id": "event.main_0_2.choice.0",
+  "text": "一起布置生活小展台",
+  "group": "event:main_0_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 160,
+        "text": "一起布置生活小展台",
+        "words": [
+          {
+            "end_time": 360,
+            "start_time": 160,
+            "text": "一"
+          },
+          {
+            "end_time": 560,
+            "start_time": 360,
+            "text": "起"
+          },
+          {
+            "end_time": 880,
+            "start_time": 680,
+            "text": "布"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 880,
+            "text": "置"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1320,
+            "text": "生"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1560,
+            "text": "活"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1880,
+            "text": "小"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2240,
+            "text": "展"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2480,
+            "text": "台"
+          }
+        ]
+      }
+    ],
+    "text": "一起布置生活小展台"
+  }
+}

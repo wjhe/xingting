@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional",
+  "resource_id": "seed-tts-2.0",
+  "speaker_id": "zh_female_vv_uranus_bigtts",
+  "request_id": "67e52eb3-6603-4ebd-84de-dcbaf3a1fc06",
+  "request": {
+    "req_params": {
+      "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+      "speaker": "zh_female_vv_uranus_bigtts",
+      "audio_params": {
+        "format": "mp3",
+        "sample_rate": 24000,
+        "bit_rate": 160000
+      },
+      "additions": "{\"context_texts\": [\"平静自然、亲切地说，语速中等，情绪中性。\"]}"
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611040329041F04ECEABF56CD86F671",
+  "events": [
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": "",
+      "sentence": {
+        "phonemes": [],
+        "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+        "words": []
+      }
+    },
+    {
+      "code": 20000000,
+      "message": "OK"
+    }
+  ],
+  "audio": {
+    "src": "builtin-neutral.wav",
+    "duration": 5.04,
+    "gain": 0.6681537464077145,
+    "source_sha256": "abc78867ff3ec66d12f331861ea6032295ab791ab34f283456a8015a09b46646",
+    "label": "平静",
+    "instruction": "平静自然、亲切地说，语速中等，情绪中性。",
+    "speaker_id": "zh_female_vv_uranus_bigtts"
+  }
+}

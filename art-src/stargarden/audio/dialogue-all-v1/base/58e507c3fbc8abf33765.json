@@ -1,0 +1,84 @@
+{
+  "src": "58e507c3fbc8abf33765.wav",
+  "duration": 3.9,
+  "gain": 1.641507480669786,
+  "source_sha256": "3199adac62f7080727928bd23136b18b6c30f61fda4f978e5fe13b71256ae877",
+  "id": "event.main_2_0.choice.1",
+  "text": "问问她真正羡慕的是什么",
+  "group": "event:main_2_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3320,
+        "start_time": 400,
+        "text": "问问她真正羡慕的是什么",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 400,
+            "text": "问"
+          },
+          {
+            "end_time": 840,
+            "start_time": 480,
+            "text": "问"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "她"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1320,
+            "text": "真"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1600,
+            "text": "正"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "羡"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "慕"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2440,
+            "text": "的"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2840,
+            "text": "是"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3000,
+            "text": "什"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3160,
+            "text": "么"
+          }
+        ]
+      }
+    ],
+    "text": "问问她真正羡慕的是什么"
+  }
+}

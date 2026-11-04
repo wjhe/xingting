@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/get_voice",
+  "request_id": "74d53e80-8039-461b-ba7b-d2b55784fa05",
+  "request": {
+    "speaker_id": "S_yknZmKn32"
+  },
+  "status": "complete",
+  "provider_log_id": "20261104040035C9ECF79C7744619FEFCD",
+  "response": {
+    "available_training_times": 15,
+    "create_time": 0,
+    "speaker_id": "S_yknZmKn32",
+    "status": 0
+  }
+}

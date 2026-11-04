@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>艾莉 · 三个年龄的声音</title><style>*{box-sizing:border-box}body{margin:0;background:#f7f3e6;color:#44543e;font:18px/1.65 system-ui,sans-serif}main{max-width:1080px;margin:auto;padding:28px 18px 48px}h1{font-size:30px;margin:0 0 12px}h2{font-size:24px;margin:5px 0}p{margin:8px 0 16px}blockquote{margin:24px 0;padding:18px;background:#e8edda;border-radius:18px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}article{padding:22px 18px;background:#fffcf3;border-radius:24px 7px;min-width:0;border:2px solid transparent}article.active{border-color:#71865c;background:#f3f6e8}article p{font-size:16px;min-height:54px}.number{color:#8a9b76;font-size:15px;letter-spacing:3px}audio{display:block;width:100%;margin:20px 0}button{font:inherit;border:0;border-radius:18px;background:#657f50;color:white;padding:12px 20px;min-height:48px;cursor:pointer}button.secondary{background:#e5e8d9;color:#44543e}.actions{display:flex;gap:12px;flex-wrap:wrap}#status{min-height:30px;font-size:16px}small{font-size:14px;overflow-wrap:anywhere}summary{font-size:15px;cursor:pointer}a{color:#526e40}@media(max-width:700px){.grid{grid-template-columns:1fr}article p{min-height:0}}</style>
+<main><h1>艾莉 · 三个年龄的声音</h1><p>先比较平静表达，听年龄变化与声音是否连贯。三条均使用音频生成模型，没有后期变调。</p>
+<blockquote>爸爸，你回来啦！我一直在等你。</blockquote><div class="actions"><button id="sequence">按年龄依次试听</button><button id="stop" class="secondary">全部停止</button></div><p id="status" role="status" aria-live="polite">也可以分别点击下方播放器。</p>
+<div class="grid"><article><span class="number">01</span><h2>10—13岁 · 童年</h2>
+<p>清亮、自然的童年声音</p><audio controls preload="metadata" src="../voice-emotions-v2/neutral.wav"></audio>
+<details><summary>音色信息</summary><small>S_jPukgGbk2</small></details></article><article><span class="number">02</span><h2>14—15岁 · 少女</h2>
+<p>已设计的少女期声音</p><audio controls preload="metadata" src="../voice-emotions-teen-v1/neutral.wav"></audio>
+<details><summary>音色信息</summary><small>S_yknZmKn32</small></details></article><article><span class="number">03</span><h2>16—18岁 · 成长</h2>
+<p>官方音色，采用明确17岁提示的修正版</p><audio controls preload="metadata" src="../voice-grown-diagnosis-v1/explicit-age.wav"></audio>
+<details><summary>音色信息</summary><small>zh_female_roumeinvyou_uranus_bigtts</small></details></article></div><p style="margin-top:26px;font-size:16px">16—18岁另外保留了 <a href="../voice-grown-diagnosis-v1/index.html">官方 TTS 原声对照</a>，可检查修正版是否保留原音色。</p></main>
+<script>const players=[...document.querySelectorAll('audio')],cards=[...document.querySelectorAll('article')],status=document.querySelector('#status');let sequence=false;
+function stop(){sequence=false;players.forEach(a=>a.pause());cards.forEach(c=>c.classList.remove('active'));status.textContent='已停止。';}
+async function playAt(i){try{players[i].currentTime=0;await players[i].play();}catch(e){stop();status.textContent='播放未开始，请直接点击对应播放器。';}}
+players.forEach((a,i)=>{a.addEventListener('play',()=>{players.forEach(b=>{if(b!==a)b.pause()});cards.forEach((c,j)=>c.classList.toggle('active',i===j));status.textContent='正在试听：'+cards[i].querySelector('h2').textContent;});a.addEventListener('ended',()=>{cards[i].classList.remove('active');if(sequence&&i+1<players.length)playAt(i+1);else{sequence=false;status.textContent='试听结束。';}});});
+document.querySelector('#sequence').onclick=()=>{stop();sequence=true;playAt(0);};document.querySelector('#stop').onclick=stop;
+</script></html>

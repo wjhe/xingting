@@ -1,0 +1,91 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "271fb47a-693f-4f73-83aa-be37ca472834",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“陪她区分错误和犯错的人”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505010428B45817A88497E7CC87",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3440,
+          "start_time": 320,
+          "text": "陪她区分错误和犯错的人",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 320,
+              "text": "陪"
+            },
+            {
+              "end_time": 800,
+              "start_time": 680,
+              "text": "她"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 920,
+              "text": "区"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1120,
+              "text": "分"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1600,
+              "text": "错"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1840,
+              "text": "误"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2160,
+              "text": "和"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2400,
+              "text": "犯"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2680,
+              "text": "错"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 2960,
+              "text": "的"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3200,
+              "text": "人"
+            }
+          ]
+        }
+      ],
+      "text": "陪她区分错误和犯错的人"
+    }
+  }
+}

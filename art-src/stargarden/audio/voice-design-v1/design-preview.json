@@ -1,0 +1,10 @@
+{
+  "src": "design-preview.wav",
+  "duration": 6.605083333333333,
+  "gain": 0.4839780542095541,
+  "source_sha256": "49d187fb0f0d8395559de9198d0e10eaf53cea43fe82888480fa7bf2e318ee01",
+  "label": "设计原声（官方试听）",
+  "instruction": "官方音色设计接口返回的原始试听，用于对比音色身份。",
+  "speaker_id": "S_jPukgGbk2",
+  "provenance": "voice_design.demo_audio"
+}

@@ -1,0 +1,231 @@
+{
+  "src": "90ddc572122d72b0008b.wav",
+  "duration": 11.68,
+  "gain": 1.565702839808247,
+  "source_sha256": "bc04a28dfcd63dfca3b02d0b70aeb44f8e2992033a95ed3eb9d0035515589e10",
+  "id": "event.main_3_0.outcome.1",
+  "text": "你们把纸一张张铺开。能留下的不多，但有一页草稿让她想起了最初为什么要做这件事。",
+  "group": "event:main_3_0",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2400,
+        "start_time": 320,
+        "text": "你们把纸一张张铺开。",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 320,
+            "text": "你"
+          },
+          {
+            "end_time": 640,
+            "start_time": 520,
+            "text": "们"
+          },
+          {
+            "end_time": 840,
+            "start_time": 640,
+            "text": "把"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 840,
+            "text": "纸"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1160,
+            "text": "一"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "张"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1600,
+            "text": "张"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1840,
+            "text": "铺"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2040,
+            "text": "开"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2400,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9520,
+        "start_time": 2920,
+        "text": "能留下的不多，但有一页草稿让她想起了最初为什么要做这件事。",
+        "words": [
+          {
+            "end_time": 3280,
+            "start_time": 2920,
+            "text": "能"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3280,
+            "text": "留"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3520,
+            "text": "下"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3720,
+            "text": "的"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3960,
+            "text": "不"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4120,
+            "text": "多"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4400,
+            "text": "，"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4800,
+            "text": "但"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5120,
+            "text": "有"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5400,
+            "text": "一"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5600,
+            "text": "页"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5960,
+            "text": "草"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6240,
+            "text": "稿"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6600,
+            "text": "让"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6800,
+            "text": "她"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7040,
+            "text": "想"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7240,
+            "text": "起"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7440,
+            "text": "了"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7720,
+            "text": "最"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 7920,
+            "text": "初"
+          },
+          {
+            "end_time": 8360,
+            "start_time": 8240,
+            "text": "为"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8360,
+            "text": "什"
+          },
+          {
+            "end_time": 8560,
+            "start_time": 8480,
+            "text": "么"
+          },
+          {
+            "end_time": 8720,
+            "start_time": 8560,
+            "text": "要"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8720,
+            "text": "做"
+          },
+          {
+            "end_time": 9120,
+            "start_time": 8960,
+            "text": "这"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9120,
+            "text": "件"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9280,
+            "text": "事"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9520,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你们把纸一张张铺开。能留下的不多，但有一页草稿让她想起了最初为什么要做这件事。"
+  }
+}

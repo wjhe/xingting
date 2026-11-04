@@ -1,0 +1,84 @@
+{
+  "src": "697fa691a16635623014.wav",
+  "duration": 2.3320416666666666,
+  "gain": 1.5539189196338221,
+  "source_sha256": "5d77b36109c91c4eced2e01cf12deaae3ff582f1b0561416c95ec6282107b759",
+  "id": "event.main_2_0.choice.0",
+  "text": "一起翻看她这一年的进步",
+  "group": "event:main_2_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2280,
+        "start_time": 280,
+        "text": "一起翻看她这一年的进步",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 280,
+            "text": "一"
+          },
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "起"
+          },
+          {
+            "end_time": 840,
+            "start_time": 640,
+            "text": "翻"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "看"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1240,
+            "text": "她"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1360,
+            "text": "这"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1520,
+            "text": "一"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "年"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1760,
+            "text": "的"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "进"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2120,
+            "text": "步"
+          }
+        ]
+      }
+    ],
+    "text": "一起翻看她这一年的进步"
+  }
+}

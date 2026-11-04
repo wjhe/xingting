@@ -1,0 +1,9 @@
+{
+  "src": "base-calm.wav",
+  "duration": 4.4,
+  "source_sha256": "389b0cdaa23e71a969ae674c826389ce89a7298d55c01ea2ec4f6b927fef96fa",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "label": "平静",
+  "instruction": "平静自然地说，像普通的一天在家里迎接爸爸。",
+  "source_kind": "reused existing audition"
+}

@@ -1,0 +1,74 @@
+{
+  "src": "5a45c4e8bac0ae9fa050.wav",
+  "duration": 3.28,
+  "gain": 1.2354313595032158,
+  "source_sha256": "10af6b6aff607b67d9970eaa7edad03a71c2989b0140d5ac789ddebed9f6aab7",
+  "id": "event.main_3_0.choice.0",
+  "text": "先陪她难过一会儿",
+  "group": "event:main_3_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3240,
+        "start_time": 560,
+        "text": "先陪她难过一会儿。",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 560,
+            "text": "先"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 840,
+            "text": "陪"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1160,
+            "text": "她"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1360,
+            "text": "难"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1640,
+            "text": "过"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "一"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "会"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 2880,
+            "text": "儿"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "先陪她难过一会儿。"
+  }
+}

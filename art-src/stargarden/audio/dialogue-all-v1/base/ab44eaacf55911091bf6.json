@@ -1,0 +1,84 @@
+{
+  "src": "ab44eaacf55911091bf6.wav",
+  "duration": 3.9,
+  "gain": 0.8500259407330546,
+  "source_sha256": "ab28582de92d01bb5745967727b44356f143bb2ebcbedbb50cd8a0dfe4223977",
+  "id": "event.main_3_1.choice.1",
+  "text": "邀请她做一件很小的事",
+  "group": "event:main_3_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3280,
+        "start_time": 1000,
+        "text": "邀请她做一件很小的事。",
+        "words": [
+          {
+            "end_time": 1320,
+            "start_time": 1000,
+            "text": "邀"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1320,
+            "text": "请"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "她"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1840,
+            "text": "做"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2080,
+            "text": "一"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "件"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2440,
+            "text": "很"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2640,
+            "text": "小"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2840,
+            "text": "的"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3040,
+            "text": "事"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "邀请她做一件很小的事。"
+  }
+}

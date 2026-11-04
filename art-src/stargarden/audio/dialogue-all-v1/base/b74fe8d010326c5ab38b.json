@@ -1,0 +1,159 @@
+{
+  "src": "b74fe8d010326c5ab38b.wav",
+  "duration": 8.68,
+  "gain": 1.6778150126972817,
+  "source_sha256": "950da24e9abf326c4beb824d4769b261af1f6f89c37d25c136ac63eb1cca567d",
+  "id": "opening.4.4",
+  "text": "在星庭的老话里，“艾莉”的意思是——被灯光找到的人。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7840,
+        "start_time": 1320,
+        "text": "在星庭的老话里，‘艾莉’的意思是——被灯光找到的人。",
+        "words": [
+          {
+            "end_time": 1640,
+            "start_time": 1320,
+            "text": "在"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1720,
+            "text": "星"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 2000,
+            "text": "庭"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "的"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2400,
+            "text": "老"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2600,
+            "text": "话"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2880,
+            "text": "里"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3200,
+            "text": "，"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3200,
+            "text": "‘"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3600,
+            "text": "艾"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3920,
+            "text": "莉"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3960,
+            "text": "’"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4160,
+            "text": "的"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4320,
+            "text": "意"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4480,
+            "text": "思"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4680,
+            "text": "是"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 5000,
+            "text": "—"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 5000,
+            "text": "—"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5680,
+            "text": "被"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 5960,
+            "text": "灯"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6280,
+            "text": "光"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6800,
+            "text": "找"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7040,
+            "text": "到"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7280,
+            "text": "的"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7480,
+            "text": "人"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7840,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "在星庭的老话里，‘艾莉’的意思是——被灯光找到的人。"
+  }
+}

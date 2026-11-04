@@ -1,0 +1,9 @@
+{
+  "src": "base-sad.wav",
+  "duration": 5.9,
+  "source_sha256": "f5d06e22dffac77915070f2cd6e52cc2317f69e37aaf20c89d0f522bf66273ac",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "label": "难过",
+  "instruction": "等了很久、心里委屈，声音低落，但仍把话说完。",
+  "source_kind": "reused existing audition"
+}

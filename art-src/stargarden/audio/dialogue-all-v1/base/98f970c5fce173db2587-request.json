@@ -1,0 +1,288 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "c6de6da7-92eb-4134-ac04-37aaa545c2e7",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“准备合作展品时，朋友希望照老师的范例做，艾莉却有自己的想法。她不愿伤害朋友，也不想再把意见藏起来。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050455553C267495DD70D3BB144B",
+  "response": {
+    "duration": 13.68,
+    "original_duration": 13.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 8560,
+          "start_time": 1160,
+          "text": "准备合作展品时，朋友希望照老师的范例做，艾莉却有自己的想法。",
+          "words": [
+            {
+              "end_time": 1360,
+              "start_time": 1160,
+              "text": "准"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1360,
+              "text": "备"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1560,
+              "text": "合"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1800,
+              "text": "作"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2080,
+              "text": "展"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2320,
+              "text": "品"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2600,
+              "text": "时"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 3040,
+              "text": "，"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3360,
+              "text": "朋"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3560,
+              "text": "友"
+            },
+            {
+              "end_time": 3960,
+              "start_time": 3800,
+              "text": "希"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3960,
+              "text": "望"
+            },
+            {
+              "end_time": 4480,
+              "start_time": 4360,
+              "text": "照"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4640,
+              "text": "老"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4800,
+              "text": "师"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4960,
+              "text": "的"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 5160,
+              "text": "范"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5400,
+              "text": "例"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5800,
+              "text": "做"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5880,
+              "text": "，"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6600,
+              "text": "艾"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6880,
+              "text": "莉"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7280,
+              "text": "却"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7520,
+              "text": "有"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7720,
+              "text": "自"
+            },
+            {
+              "end_time": 8000,
+              "start_time": 7880,
+              "text": "己"
+            },
+            {
+              "end_time": 8160,
+              "start_time": 8000,
+              "text": "的"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8160,
+              "text": "想"
+            },
+            {
+              "end_time": 8560,
+              "start_time": 8360,
+              "text": "法"
+            },
+            {
+              "end_time": 8560,
+              "start_time": 8560,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 13200,
+          "start_time": 9320,
+          "text": "她不愿伤害朋友，也不想再把意见藏起来。",
+          "words": [
+            {
+              "end_time": 9600,
+              "start_time": 9320,
+              "text": "她"
+            },
+            {
+              "end_time": 9760,
+              "start_time": 9600,
+              "text": "不"
+            },
+            {
+              "end_time": 9960,
+              "start_time": 9760,
+              "text": "愿"
+            },
+            {
+              "end_time": 10120,
+              "start_time": 9960,
+              "text": "伤"
+            },
+            {
+              "end_time": 10400,
+              "start_time": 10120,
+              "text": "害"
+            },
+            {
+              "end_time": 10600,
+              "start_time": 10400,
+              "text": "朋"
+            },
+            {
+              "end_time": 10800,
+              "start_time": 10600,
+              "text": "友"
+            },
+            {
+              "end_time": 10800,
+              "start_time": 10800,
+              "text": "，"
+            },
+            {
+              "end_time": 11360,
+              "start_time": 11120,
+              "text": "也"
+            },
+            {
+              "end_time": 11520,
+              "start_time": 11360,
+              "text": "不"
+            },
+            {
+              "end_time": 11680,
+              "start_time": 11520,
+              "text": "想"
+            },
+            {
+              "end_time": 11920,
+              "start_time": 11680,
+              "text": "再"
+            },
+            {
+              "end_time": 12080,
+              "start_time": 11920,
+              "text": "把"
+            },
+            {
+              "end_time": 12280,
+              "start_time": 12080,
+              "text": "意"
+            },
+            {
+              "end_time": 12520,
+              "start_time": 12280,
+              "text": "见"
+            },
+            {
+              "end_time": 12880,
+              "start_time": 12640,
+              "text": "藏"
+            },
+            {
+              "end_time": 13040,
+              "start_time": 12880,
+              "text": "起"
+            },
+            {
+              "end_time": 13200,
+              "start_time": 13040,
+              "text": "来"
+            },
+            {
+              "end_time": 13200,
+              "start_time": 13200,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "准备合作展品时，朋友希望照老师的范例做，艾莉却有自己的想法。她不愿伤害朋友，也不想再把意见藏起来。"
+    }
+  }
+}

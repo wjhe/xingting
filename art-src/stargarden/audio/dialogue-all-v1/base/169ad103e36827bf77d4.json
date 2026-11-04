@@ -1,0 +1,74 @@
+{
+  "src": "169ad103e36827bf77d4.wav",
+  "duration": 3.5,
+  "gain": 0.8453293370163112,
+  "source_sha256": "5e7f8176023113c9996ffc25fa7fcd3ac75a732349e52ef511c6d136c17c5480",
+  "id": "event.main_3_2.choice.0",
+  "text": "把介绍的机会交给她",
+  "group": "event:main_3_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2680,
+        "start_time": 400,
+        "text": "把介绍的机会交给她",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 400,
+            "text": "把"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 760,
+            "text": "介"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1000,
+            "text": "绍"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1240,
+            "text": "的"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "机"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1600,
+            "text": "会"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2040,
+            "text": "交"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2320,
+            "text": "给"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2560,
+            "text": "她"
+          }
+        ]
+      }
+    ],
+    "text": "把介绍的机会交给她"
+  }
+}

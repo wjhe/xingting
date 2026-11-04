@@ -1,0 +1,94 @@
+{
+  "src": "abe652410957561db54c.wav",
+  "duration": 4.4,
+  "gain": 0.8789976962161138,
+  "source_sha256": "9c512b0ddc762efc862736e45bfeeb78bf8ed366bae3588af6bfb7150b43fb1f",
+  "id": "event.main_5_2.choice.0",
+  "text": "等她忙完，告诉她你看见了",
+  "group": "event:main_5_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2560,
+        "start_time": 0,
+        "text": "等她忙完，告诉她你看见了。",
+        "words": [
+          {
+            "end_time": 240,
+            "start_time": 0,
+            "text": "等"
+          },
+          {
+            "end_time": 400,
+            "start_time": 280,
+            "text": "她"
+          },
+          {
+            "end_time": 760,
+            "start_time": 480,
+            "text": "忙"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 760,
+            "text": "完"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 1040,
+            "text": "，"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "告"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "诉"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "她"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "你"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "看"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "见"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2280,
+            "text": "了"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "等她忙完，告诉她你看见了。"
+  }
+}

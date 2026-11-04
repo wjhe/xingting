@@ -1,0 +1,84 @@
+{
+  "src": "f7dec664801afe1198b8.wav",
+  "duration": 4.18,
+  "gain": 1.8348875750411895,
+  "source_sha256": "fb1babb15e9ba670b3001540b7b962df79efd5000aeb3fbe5c77677c18b233ab",
+  "id": "event.main_0_0.choice.0",
+  "text": "告诉她这里永远是她的家",
+  "group": "event:main_0_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3680,
+        "start_time": 920,
+        "text": "告诉她这里永远是她的家",
+        "words": [
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "告"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "诉"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1400,
+            "text": "她"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1960,
+            "text": "这"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2160,
+            "text": "里"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "永"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2600,
+            "text": "远"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2760,
+            "text": "是"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "她"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3120,
+            "text": "的"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3320,
+            "text": "家"
+          }
+        ]
+      }
+    ],
+    "text": "告诉她这里永远是她的家"
+  }
+}

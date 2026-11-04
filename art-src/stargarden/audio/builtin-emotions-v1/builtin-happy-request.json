@@ -1,0 +1,100 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional",
+  "resource_id": "seed-tts-2.0",
+  "speaker_id": "zh_female_vv_uranus_bigtts",
+  "request_id": "e5383367-7d30-494c-b23a-dc5583918640",
+  "request": {
+    "req_params": {
+      "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+      "speaker": "zh_female_vv_uranus_bigtts",
+      "audio_params": {
+        "format": "mp3",
+        "sample_rate": 24000,
+        "bit_rate": 160000
+      },
+      "additions": "{\"context_texts\": [\"开心而充满期待地说，带自然的笑意和轻快感，但不要尖叫或夸张撒娇。\"]}"
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261104032905586B3B8481C48C864605",
+  "events": [
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": "",
+      "sentence": {
+        "phonemes": [],
+        "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+        "words": []
+      }
+    },
+    {
+      "code": 20000000,
+      "message": "OK"
+    }
+  ],
+  "audio": {
+    "src": "builtin-happy.wav",
+    "duration": 5.472,
+    "gain": 0.6920252283611362,
+    "source_sha256": "0f8f5435d0d58c2d650a53f8b64e9601c7b629144b4fb3e1897da2d20a218b76",
+    "label": "开心",
+    "instruction": "开心而充满期待地说，带自然的笑意和轻快感，但不要尖叫或夸张撒娇。",
+    "speaker_id": "zh_female_vv_uranus_bigtts"
+  }
+}

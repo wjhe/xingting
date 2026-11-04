@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "bd39ad74-94fa-4b7c-ae70-225ff6abf641",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“先写一件今天开心的事”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105045814B4E664A169B08F1A255F",
+  "response": {
+    "duration": 3.7,
+    "original_duration": 3.7,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3200,
+          "start_time": 360,
+          "text": "先写一件今天开心的事",
+          "words": [
+            {
+              "end_time": 720,
+              "start_time": 360,
+              "text": "先"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 720,
+              "text": "写"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "一"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1240,
+              "text": "件"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1800,
+              "text": "今"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2040,
+              "text": "天"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2280,
+              "text": "开"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2560,
+              "text": "心"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2720,
+              "text": "的"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 2960,
+              "text": "事"
+            }
+          ]
+        }
+      ],
+      "text": "先写一件今天开心的事"
+    }
+  }
+}

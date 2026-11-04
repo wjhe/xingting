@@ -1,0 +1,201 @@
+{
+  "src": "82178d9fcbe57f4ba6d1.wav",
+  "duration": 8.18,
+  "gain": 1.591056522143603,
+  "source_sha256": "11b91f79f556d5624097f85ef919dc42e65dabb47808d6cac842a4bad3b00601",
+  "id": "event.main_0_1.outcome.1",
+  "text": "纸上出现了一间有窗台和小花的房子。原来她想留下的，正是眼前的日常。",
+  "group": "event:main_0_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3840,
+        "start_time": 360,
+        "text": "纸上出现了一间有窗台和小花的房子。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 360,
+            "text": "纸"
+          },
+          {
+            "end_time": 920,
+            "start_time": 640,
+            "text": "上"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 920,
+            "text": "出"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "现"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1240,
+            "text": "了"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1400,
+            "text": "一"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "间"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "有"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2080,
+            "text": "窗"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2320,
+            "text": "台"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2560,
+            "text": "和"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2720,
+            "text": "小"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 2960,
+            "text": "花"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3240,
+            "text": "的"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3440,
+            "text": "房"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "子"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3840,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7960,
+        "start_time": 4640,
+        "text": "原来她想留下的，正是眼前的日常。",
+        "words": [
+          {
+            "end_time": 4840,
+            "start_time": 4640,
+            "text": "原"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4840,
+            "text": "来"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5000,
+            "text": "她"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5280,
+            "text": "想"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5520,
+            "text": "留"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5760,
+            "text": "下"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 5960,
+            "text": "的"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6360,
+            "text": "，"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6560,
+            "text": "正"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6800,
+            "text": "是"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 6960,
+            "text": "眼"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7200,
+            "text": "前"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7360,
+            "text": "的"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7560,
+            "text": "日"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7760,
+            "text": "常"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7960,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "纸上出现了一间有窗台和小花的房子。原来她想留下的，正是眼前的日常。"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "src": "2875795e26671c87c727.wav",
+  "duration": 2.58,
+  "gain": 1.822741187494715,
+  "source_sha256": "0a153b645e2dfe2709fc19b6088a8acea906a6f896790bbddbc5c6fd6bbc28fa",
+  "id": "opening.4.10",
+  "text": "你点了点头。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2080,
+        "start_time": 960,
+        "text": "你点了点头。",
+        "words": [
+          {
+            "end_time": 1240,
+            "start_time": 960,
+            "text": "你"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1240,
+            "text": "点"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1520,
+            "text": "了"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "点"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "头"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 2080,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你点了点头。"
+  }
+}

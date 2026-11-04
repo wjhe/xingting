@@ -1,0 +1,64 @@
+{
+  "src": "d968e4ba37fda70b5a0a.wav",
+  "duration": 2.9,
+  "gain": 1.205651746695601,
+  "source_sha256": "01cc2117cf5178d3dfab16d9dd369905df4622bf36f4ed0f798764fb3e9a2e84",
+  "id": "opening.4.6",
+  "text": "艾莉……艾莉。",
+  "group": "opening",
+  "role": "dialogue",
+  "emotion": "年幼、自然，符合开场当下的情绪",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2720,
+        "start_time": 440,
+        "text": "艾莉……艾莉。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 440,
+            "text": "艾"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 480,
+            "text": "莉"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1080,
+            "text": "…"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1080,
+            "text": "…"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2360,
+            "text": "艾"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2400,
+            "text": "莉"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2720,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "艾莉……艾莉。"
+  }
+}

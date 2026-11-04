@@ -1,0 +1,160 @@
+[
+  {
+    "id": "mountain_monkey",
+    "title": "山魈偷酒",
+    "art": "mountain_monkey",
+    "region": ["luoxia_mountain"],
+    "weight": 6,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "一只抱着酒葫芦的山魈从树上跳下来，龇牙咧嘴，似乎嫌你挡了它的路。葫芦里飘出一股浓郁的果香。",
+    "options": [
+      {
+        "text": "抢它的酒葫芦",
+        "battle": {
+          "enemy": "mountain_monkey",
+          "win": { "result": "山魈吱吱乱叫着逃上树梢，把葫芦落在了地上。", "effects": [{ "type": "item", "id": "monkey_wine", "count": 1 }] },
+          "lose": { "result": "山魈抓花了你的脸，抱着葫芦扬长而去。" }
+        }
+      },
+      { "text": "让开道路", "result": "山魈摇摇晃晃地走了，临走还冲你打了个酒嗝。" }
+    ]
+  },
+  {
+    "id": "mountain_rival_1",
+    "title": "仗势欺人",
+    "art": "rival_youth",
+    "region": ["luoxia_mountain"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "你正蹲在溪边洗灵草，一名锦衣少年领着两个跟班走来，一脚踢翻了你的药篓：“青云宗厉寒在此，这片山头的东西，都是我的。”",
+    "options": [
+      {
+        "text": "忍一时风平浪静",
+        "result": "厉寒哈哈大笑，一脚踩烂了药篓，扬长而去。你攥紧了拳头。",
+        "effects": [{ "type": "flag", "key": "lihan_met" }, { "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "“东西是我采的。”",
+        "result": "厉寒眼神一冷：“找死。”",
+        "battle": {
+          "enemy": "rival_lianqi",
+          "win": { "result": "厉寒捂着胸口退了两步，满脸不可置信。跟班们扶着他狼狈离去，临走撂下一句：“你给我等着！”", "effects": [{ "type": "flag", "key": "lihan_met" }, { "type": "flag", "key": "lihan_beaten" }, { "type": "stone", "value": 100 }] },
+          "lose": { "result": "厉寒踩着你的手冷笑：“散修就是散修。”他搜走了你身上的灵石。", "effects": [{ "type": "flag", "key": "lihan_met" }, { "type": "stone", "value": -50 }] }
+        }
+      }
+    ]
+  },
+  {
+    "id": "mountain_su_sect",
+    "title": "故人重逢",
+    "art": "sect_gate",
+    "region": ["luoxia_mountain"],
+    "weight": 10,
+    "once": true,
+    "conditions": { "realm_min": "lianqi", "flags": ["su_friend"] },
+    "text": "山道上迎面走来一队青云宗外门弟子，为首的少女看见你，惊喜地叫出声来——竟是苏晚晴！原来你走后不久，她也测出了灵根，被青云宗收为外门弟子。",
+    "options": [
+      {
+        "text": "叙旧",
+        "result": "她拉着你说了好一会儿话，临别时把宗门发的丹药塞给了你：“我在宗里用不着这么多。”",
+        "effects": [{ "type": "item", "id": "juqi_dan", "count": 2 }, { "type": "flag", "key": "su_met2" }]
+      }
+    ]
+  },
+  {
+    "id": "mountain_storm",
+    "title": "雷雨悟道",
+    "art": "mountain_storm",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "山顶雷雨交加，一道道电光劈落在不远处的古松上。你隐约觉得，这雷霆之中藏着某种天地至理。",
+    "options": [
+      {
+        "text": "迎着雷雨打坐感悟",
+        "check": { "attr": "wuxing", "dc": 9 },
+        "success": { "result": "电光映照下，你体内灵力随雷鸣奔涌，豁然开朗。", "effects": [{ "type": "cultivation", "value": 150 }] },
+        "fail": { "result": "一道雷劈在身侧，你被震得七荤八素，什么也没悟到。", "effects": [{ "type": "hp", "value": -30 }] }
+      },
+      { "text": "找个山洞避雨", "result": "你在洞里听了一夜雷声。" }
+    ]
+  },
+  {
+    "id": "mountain_fox",
+    "title": "受困灵狐",
+    "art": "mountain_fox",
+    "region": ["luoxia_mountain"],
+    "weight": 4,
+    "once": true,
+    "text": "一只雪白的小狐狸被猎户的铁夹夹住了后腿，见你走近，并不挣扎，只是用一双湿漉漉的眼睛望着你。",
+    "options": [
+      {
+        "text": "掰开铁夹放了它",
+        "result": "小狐狸一瘸一拐地钻进草丛，又回头看了你一眼，才消失不见。",
+        "effects": [{ "type": "flag", "key": "fox_saved" }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "灵狐皮毛值钱，带去坊市",
+        "result": "你拎着狐狸下山，半路一个不留神，它咬断绳子逃了。",
+        "effects": [{ "type": "attr", "key": "jiyuan", "value": -1 }]
+      }
+    ]
+  },
+  {
+    "id": "mountain_fox_return",
+    "title": "灵狐报恩",
+    "art": "mountain_fox",
+    "region": ["luoxia_mountain", "heifeng_valley"],
+    "weight": 8,
+    "once": true,
+    "conditions": { "flags": ["fox_saved"], "realm_min": "lianqi" },
+    "text": "清晨推开门，门槛上整整齐齐摆着一枚丹药，旁边还有几根雪白的狐毛。远处的山坡上，一只白狐朝你点了点头。",
+    "options": [
+      { "text": "朝它拱手道谢", "result": "白狐转身没入晨雾之中。", "effects": [{ "type": "item", "id": "pozhang_dan", "count": 1 }] }
+    ]
+  },
+  {
+    "id": "mountain_hermit",
+    "title": "松下对弈",
+    "art": "mountain_pine_chess",
+    "region": ["luoxia_mountain"],
+    "weight": 3,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "古松下坐着一个邋遢老道，面前摆着一局残棋。他头也不抬：“小子，会下棋么？赢了我，教你点东西。”",
+    "options": [
+      {
+        "text": "坐下对弈",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": { "result": "一局终了，你赢了半目。老道哈哈大笑，伸指在你眉心一点，你只觉灵台一片清明。", "effects": [{ "type": "attr", "key": "wuxing", "value": 2 }] },
+        "fail": { "result": "你输得一败涂地。老道摇摇头：“棋力太差，回去再练练。”", "effects": [{ "type": "attr", "key": "wuxing", "value": 1 }] }
+      },
+      { "text": "不会，告辞", "result": "老道嘟囔了一句“可惜”，继续对着残棋发呆。" }
+    ]
+  },
+  {
+    "id": "mountain_talisman_seller",
+    "title": "游方道士",
+    "art": "peddler",
+    "region": ["luoxia_mountain", "qingshi_village"],
+    "weight": 4,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "一个背着葫芦的游方道士拦住你：“小友印堂发黑，近日恐有血光之灾。贫道这里有几张好符，便宜卖你。”",
+    "options": [
+      {
+        "text": "买三张火符（120 灵石）",
+        "requires": { "stones": 120 },
+        "result": "道士收了灵石，递过三张朱砂画的黄符，还真有几分灵光。",
+        "effects": [{ "type": "stone", "value": -120 }, { "type": "item", "id": "fire_talisman", "count": 3 }]
+      },
+      {
+        "text": "买一张遁地符（120 灵石）",
+        "requires": { "stones": 120 },
+        "result": "道士神秘地眨眨眼：“这张，可是保命的。”",
+        "effects": [{ "type": "stone", "value": -120 }, { "type": "item", "id": "escape_talisman", "count": 1 }]
+      },
+      { "text": "“你才印堂发黑。”", "result": "道士讪讪地走了。" }
+    ]
+  }
+]

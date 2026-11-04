@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dan_beiming_recipes",
+    "title": "丹宫丹谱",
+    "region": [
+      "beiming_sea"
+    ],
+    "art": "penglai_palace",
+    "weight": 12,
+    "once": true,
+    "conditions": {
+      "realm_min": "yuanying"
+    },
+    "text": "蓬莱丹宫的藏书阁塌了半边，看炉童子正把被海水泡过的丹谱一本本摊在礁石上晒。他头也不抬：“主人留下的，我又不会炼。你要是用得上，帮我翻个面再拿走。”",
+    "options": [
+      {
+        "text": "帮他翻晒，挑走两卷",
+        "result": "你帮他把丹谱都翻了个面。童子让你挑，你拣了两卷还认得清字的：炼婴丹方，和一卷九曲灵参的培育法。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_lianying",
+            "count": 1
+          },
+          {
+            "type": "item",
+            "id": "danfang_jiuqu",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "细读残页，补全缺字",
+        "check": {
+          "attr": "wuxing",
+          "dc": 13
+        },
+        "success": {
+          "result": "你把泡糊的字一个个推了出来。童子看了半天，又从炉底摸出一枚炼婴丹塞给你：“主人说，看得懂的人才配用。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_lianying",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "danfang_jiuqu",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "lianying_dan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "缺字太多，你只补出了一卷。童子说另一卷先晒着，下回再来。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_lianying",
+              "count": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dan_kunlun_recipes",
+    "title": "仙阙丹房",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "art": "kunlun_gate",
+    "weight": 12,
+    "once": true,
+    "conditions": {
+      "realm_min": "huashen"
+    },
+    "text": "仙阙后殿是昆仑仙门的丹房，丹炉早凉了一万年，墙上却还嵌着一排玉简，是历代丹师留下的方子。玉简上落着厚厚的灰，最外头两枚的灰被人擦掉过。",
+    "options": [
+      {
+        "text": "取下那两枚被擦过的",
+        "result": "两枚玉简一入手就亮了：一卷合神丹方，一卷玄天果的培育法。擦灰的人似乎早料到会有人来取。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_heshen",
+            "count": 1
+          },
+          {
+            "type": "item",
+            "id": "danfang_xuantian",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "一枚一枚读过去",
+        "check": {
+          "attr": "shenshi",
+          "dc": 14
+        },
+        "success": {
+          "result": "你读到深夜，把几十枚玉简的精要都记了下来，最后才取走那两枚。读过的方子在心里互相印证，你对丹道又通透了几分。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_heshen",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "danfang_xuantian",
+              "count": 1
+            },
+            {
+              "type": "attr",
+              "key": "shenshi",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "玉简里的神念太杂，读到一半你就头疼欲裂，匆匆取了两枚离开。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_heshen",
+              "count": 1
+            },
+            {
+              "type": "item",
+              "id": "danfang_xuantian",
+              "count": 1
+            },
+            {
+              "type": "hp",
+              "value": -20
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "dan_kunlun_huanxu",
+    "title": "还虚残卷",
+    "region": [
+      "kunlun_ruins"
+    ],
+    "art": "kunlun_pillar",
+    "weight": 12,
+    "once": true,
+    "conditions": {
+      "realm_min": "dujie"
+    },
+    "text": "断天柱的裂缝里卡着一卷玉简，被雷劈得焦黑，仍在微微发烫。你用神识轻轻一碰，里面传出一句话：“渡劫之人，境界一层一层地卡，靠的是这一炉还虚丹。”",
+    "options": [
+      {
+        "text": "小心取出玉简",
+        "result": "玉简入手，焦黑剥落，里面是一卷完整的还虚丹方。末尾有一行小字：“吾炼成三枚，用了两枚，剩下一枚给你。”你在裂缝深处摸到了那枚丹药。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "danfang_huanxu",
+            "count": 1
+          },
+          {
+            "type": "item",
+            "id": "huanxu_dan",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "c8b0c734-7ea4-4cf2-bc4e-2bb5ac6affcf",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“今年她只带了一页展品：雨水晕开的旧稿，旁边贴着重新完成的一小块。“这次，我想讲失败以后发生的事。””\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050456178034EC428531AFA3274A",
+  "response": {
+    "duration": 11.6,
+    "original_duration": 11.6,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 7440,
+          "start_time": 400,
+          "text": "今年她只带了一页展品：雨水晕开的旧稿，旁边贴着重新完成的一小块。",
+          "words": [
+            {
+              "end_time": 640,
+              "start_time": 400,
+              "text": "今"
+            },
+            {
+              "end_time": 840,
+              "start_time": 640,
+              "text": "年"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 880,
+              "text": "她"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1080,
+              "text": "只"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1240,
+              "text": "带"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1440,
+              "text": "了"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1560,
+              "text": "一"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1800,
+              "text": "页"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 2080,
+              "text": "展"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2280,
+              "text": "品"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2560,
+              "text": "："
+            },
+            {
+              "end_time": 3200,
+              "start_time": 3160,
+              "text": "雨"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3360,
+              "text": "水"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3600,
+              "text": "晕"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3800,
+              "text": "开"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4000,
+              "text": "的"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4240,
+              "text": "旧"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4560,
+              "text": "稿"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4600,
+              "text": "，"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5120,
+              "text": "旁"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5320,
+              "text": "边"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5480,
+              "text": "贴"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5720,
+              "text": "着"
+            },
+            {
+              "end_time": 6120,
+              "start_time": 5920,
+              "text": "重"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6120,
+              "text": "新"
+            },
+            {
+              "end_time": 6480,
+              "start_time": 6280,
+              "text": "完"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6480,
+              "text": "成"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6640,
+              "text": "的"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6840,
+              "text": "一"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7000,
+              "text": "小"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7160,
+              "text": "块"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7440,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 11400,
+          "start_time": 8400,
+          "text": "这次，我想讲失败以后发生的事。",
+          "words": [
+            {
+              "end_time": 8560,
+              "start_time": 8400,
+              "text": "这"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8560,
+              "text": "次"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8800,
+              "text": "，"
+            },
+            {
+              "end_time": 9440,
+              "start_time": 9200,
+              "text": "我"
+            },
+            {
+              "end_time": 9640,
+              "start_time": 9440,
+              "text": "想"
+            },
+            {
+              "end_time": 9880,
+              "start_time": 9640,
+              "text": "讲"
+            },
+            {
+              "end_time": 10160,
+              "start_time": 9960,
+              "text": "失"
+            },
+            {
+              "end_time": 10400,
+              "start_time": 10160,
+              "text": "败"
+            },
+            {
+              "end_time": 10600,
+              "start_time": 10440,
+              "text": "以"
+            },
+            {
+              "end_time": 10760,
+              "start_time": 10600,
+              "text": "后"
+            },
+            {
+              "end_time": 10960,
+              "start_time": 10760,
+              "text": "发"
+            },
+            {
+              "end_time": 11080,
+              "start_time": 10960,
+              "text": "生"
+            },
+            {
+              "end_time": 11240,
+              "start_time": 11080,
+              "text": "的"
+            },
+            {
+              "end_time": 11400,
+              "start_time": 11240,
+              "text": "事"
+            },
+            {
+              "end_time": 11400,
+              "start_time": 11400,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "今年她只带了一页展品：雨水晕开的旧稿，旁边贴着重新完成的一小块。这次，我想讲失败以后发生的事。"
+    }
+  }
+}

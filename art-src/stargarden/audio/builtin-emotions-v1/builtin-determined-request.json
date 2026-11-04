@@ -1,0 +1,100 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional",
+  "resource_id": "seed-tts-2.0",
+  "speaker_id": "zh_female_vv_uranus_bigtts",
+  "request_id": "61deb7f2-7643-490b-8e89-7cc1b1516f77",
+  "request": {
+    "req_params": {
+      "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+      "speaker": "zh_female_vv_uranus_bigtts",
+      "audio_params": {
+        "format": "mp3",
+        "sample_rate": 24000,
+        "bit_rate": 160000
+      },
+      "additions": "{\"context_texts\": [\"认真坚定而温柔地说，语气有决心，停顿清楚，不喊叫，不变成成年人的声线。\"]}"
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261104032907DBE6AA752AA46163AB16",
+  "events": [
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": "",
+      "sentence": {
+        "phonemes": [],
+        "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+        "words": []
+      }
+    },
+    {
+      "code": 20000000,
+      "message": "OK"
+    }
+  ],
+  "audio": {
+    "src": "builtin-determined.wav",
+    "duration": 5.232,
+    "gain": 0.7236447744130603,
+    "source_sha256": "1692afbcd0882a9a65f857c380764a700208e420adaf7440934e8e9a7f0b0d99",
+    "label": "认真",
+    "instruction": "认真坚定而温柔地说，语气有决心，停顿清楚，不喊叫，不变成成年人的声线。",
+    "speaker_id": "zh_female_vv_uranus_bigtts"
+  }
+}

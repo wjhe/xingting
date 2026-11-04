@@ -1,0 +1,141 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "9a0764c5-c4a7-4bc4-a1b4-07b8ef4396ad",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：轻柔、有电影感的旁白。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“她不记得自己从哪里来，也说不出自己的名字。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050451467BBF239D4245E21D646D",
+  "response": {
+    "duration": 7.08,
+    "original_duration": 7.08,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 6440,
+          "start_time": 1920,
+          "text": "她不记得自己从哪里来，也说不出自己的名字。",
+          "words": [
+            {
+              "end_time": 2280,
+              "start_time": 1920,
+              "text": "她"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2280,
+              "text": "不"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2480,
+              "text": "记"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2640,
+              "text": "得"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2960,
+              "text": "自"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3120,
+              "text": "己"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3320,
+              "text": "从"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3560,
+              "text": "哪"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3760,
+              "text": "里"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 3920,
+              "text": "来"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 4360,
+              "text": "，"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4600,
+              "text": "也"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 4920,
+              "text": "说"
+            },
+            {
+              "end_time": 5400,
+              "start_time": 5200,
+              "text": "不"
+            },
+            {
+              "end_time": 5640,
+              "start_time": 5400,
+              "text": "出"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5640,
+              "text": "自"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5800,
+              "text": "己"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5880,
+              "text": "的"
+            },
+            {
+              "end_time": 6240,
+              "start_time": 6040,
+              "text": "名"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6240,
+              "text": "字"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6440,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她不记得自己从哪里来，也说不出自己的名字。"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "src": "d7ef3482d58c45ffc7a2.wav",
+  "duration": 3.28,
+  "gain": 1.8444461941729653,
+  "source_sha256": "e9bbc341f201b2e278e184d30c73e5c9de8414b826318f8dcbe667a92c536d12",
+  "id": "event.main_0_0.choice.1",
+  "text": "一起做一枚钥匙牌",
+  "group": "event:main_0_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 880,
+        "text": "一起做一枚钥匙牌。",
+        "words": [
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "一"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1080,
+            "text": "起"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1320,
+            "text": "做"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "一"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "枚"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "钥"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2320,
+            "text": "匙"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "牌"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2840,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "一起做一枚钥匙牌。"
+  }
+}

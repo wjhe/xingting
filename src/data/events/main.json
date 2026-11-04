@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ending_choice",
+    "title": "飞升",
+    "art": "tribulation",
+    "text": "仙门洞开，门后是你修了许多世也没见过的光。那个跟随你许多世的声音，第一次如此清晰地在耳边响起：「你又一次走到了这里——不，这一次，你走得比任何一次都远。门就在眼前。你想怎么做？」",
+    "options": [
+      {
+        "text": "踏入仙门，飞升上界",
+        "effects": [
+          {
+            "type": "ending",
+            "id": "ending_ascend"
+          }
+        ]
+      },
+      {
+        "text": "留在人间，坐镇一方",
+        "effects": [
+          {
+            "type": "ending",
+            "id": "ending_patriarch"
+          }
+        ]
+      },
+      {
+        "text": "循着声音，打破这轮回",
+        "requires": {
+          "meta_flags": [
+            "truth_known"
+          ],
+          "hint": "尚不知晓轮回的真相"
+        },
+        "effects": [
+          {
+            "type": "ending",
+            "id": "ending_break"
+          }
+        ]
+      },
+      {
+        "text": "承下因果，做下一个等待的人",
+        "requires": {
+          "meta_flags": [
+            "truth_known",
+            "old_man_truth"
+          ],
+          "hint": "还有人在等你"
+        },
+        "effects": [
+          {
+            "type": "ending",
+            "id": "ending_inherit"
+          }
+        ]
+      },
+      {
+        "text": "回头，去找她",
+        "requires": {
+          "meta_flags": [
+            "su_bond"
+          ],
+          "flags": [
+            "su_saved"
+          ],
+          "hint": "人间已无挂念之人"
+        },
+        "effects": [
+          {
+            "type": "ending",
+            "id": "ending_together"
+          }
+        ]
+      }
+    ]
+  }
+]

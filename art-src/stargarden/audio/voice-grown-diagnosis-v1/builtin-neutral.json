@@ -1,0 +1,9 @@
+{
+  "src": "builtin-neutral.wav",
+  "duration": 3.648,
+  "gain": 1.0496506608366036,
+  "source_sha256": "dffea765986b6f8d25a46c91f584ad3feff97651f67791fe1d80257a189b4192",
+  "label": "官方 TTS 直出",
+  "instruction": "",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts"
+}

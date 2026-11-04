@@ -1,0 +1,91 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "7c4e8fab-2320-48dc-a0df-95c6a3079eba",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“告诉她这里永远是她的家”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105045759B5106C65A2005E1EA2A5",
+  "response": {
+    "duration": 4.18,
+    "original_duration": 4.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3680,
+          "start_time": 920,
+          "text": "告诉她这里永远是她的家",
+          "words": [
+            {
+              "end_time": 1160,
+              "start_time": 920,
+              "text": "告"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1160,
+              "text": "诉"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1400,
+              "text": "她"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1960,
+              "text": "这"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2160,
+              "text": "里"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2440,
+              "text": "永"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2600,
+              "text": "远"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2760,
+              "text": "是"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2960,
+              "text": "她"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3120,
+              "text": "的"
+            },
+            {
+              "end_time": 3680,
+              "start_time": 3320,
+              "text": "家"
+            }
+          ]
+        }
+      ],
+      "text": "告诉她这里永远是她的家"
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "e9c3bfcd-ead9-4342-9dec-138d73e3bff0",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“她答应替朋友承担一项任务，却没有先与你商量。当天的安排被打乱了，厨房里第一次有了长久的沉默。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105045639775C1482B681E9E09617",
+  "response": {
+    "duration": 12.38,
+    "original_duration": 12.38,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5360,
+          "start_time": 80,
+          "text": "她答应替朋友承担一项任务，却没有先与你商量。",
+          "words": [
+            {
+              "end_time": 360,
+              "start_time": 80,
+              "text": "她"
+            },
+            {
+              "end_time": 560,
+              "start_time": 360,
+              "text": "答"
+            },
+            {
+              "end_time": 760,
+              "start_time": 560,
+              "text": "应"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 880,
+              "text": "替"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1160,
+              "text": "朋"
+            },
+            {
+              "end_time": 1520,
+              "start_time": 1320,
+              "text": "友"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1520,
+              "text": "承"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1760,
+              "text": "担"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2000,
+              "text": "一"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2240,
+              "text": "项"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2440,
+              "text": "任"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2640,
+              "text": "务"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2880,
+              "text": "，"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3440,
+              "text": "却"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3720,
+              "text": "没"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3920,
+              "text": "有"
+            },
+            {
+              "end_time": 4280,
+              "start_time": 4040,
+              "text": "先"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4440,
+              "text": "与"
+            },
+            {
+              "end_time": 4880,
+              "start_time": 4640,
+              "text": "你"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 4920,
+              "text": "商"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5160,
+              "text": "量"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5360,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 12200,
+          "start_time": 6080,
+          "text": "当天的安排被打乱了，厨房里第一次有了长久的沉默。",
+          "words": [
+            {
+              "end_time": 6280,
+              "start_time": 6080,
+              "text": "当"
+            },
+            {
+              "end_time": 6480,
+              "start_time": 6280,
+              "text": "天"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6480,
+              "text": "的"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6640,
+              "text": "安"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 6840,
+              "text": "排"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7280,
+              "text": "被"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7480,
+              "text": "打"
+            },
+            {
+              "end_time": 8000,
+              "start_time": 7720,
+              "text": "乱"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8000,
+              "text": "了"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8360,
+              "text": "，"
+            },
+            {
+              "end_time": 9240,
+              "start_time": 9000,
+              "text": "厨"
+            },
+            {
+              "end_time": 9520,
+              "start_time": 9240,
+              "text": "房"
+            },
+            {
+              "end_time": 9840,
+              "start_time": 9520,
+              "text": "里"
+            },
+            {
+              "end_time": 10520,
+              "start_time": 10320,
+              "text": "第"
+            },
+            {
+              "end_time": 10600,
+              "start_time": 10520,
+              "text": "一"
+            },
+            {
+              "end_time": 10760,
+              "start_time": 10600,
+              "text": "次"
+            },
+            {
+              "end_time": 11000,
+              "start_time": 10760,
+              "text": "有"
+            },
+            {
+              "end_time": 11200,
+              "start_time": 11000,
+              "text": "了"
+            },
+            {
+              "end_time": 11440,
+              "start_time": 11200,
+              "text": "长"
+            },
+            {
+              "end_time": 11640,
+              "start_time": 11440,
+              "text": "久"
+            },
+            {
+              "end_time": 11840,
+              "start_time": 11640,
+              "text": "的"
+            },
+            {
+              "end_time": 12040,
+              "start_time": 11840,
+              "text": "沉"
+            },
+            {
+              "end_time": 12200,
+              "start_time": 12040,
+              "text": "默"
+            },
+            {
+              "end_time": 12200,
+              "start_time": 12200,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她答应替朋友承担一项任务，却没有先与你商量。当天的安排被打乱了，厨房里第一次有了长久的沉默。"
+    }
+  }
+}

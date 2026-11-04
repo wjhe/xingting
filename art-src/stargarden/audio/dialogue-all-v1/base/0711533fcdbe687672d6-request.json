@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "765f37bd-9359-429c-ba30-30debbe7a934",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“说明担心，也听她解释”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050031DCE1246CD48965AA5908",
+  "response": {
+    "duration": 3.7,
+    "original_duration": 3.7,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3560,
+          "start_time": 880,
+          "text": "说明担心，也听她解释",
+          "words": [
+            {
+              "end_time": 1200,
+              "start_time": 880,
+              "text": "说"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1200,
+              "text": "明"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1600,
+              "text": "担"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1880,
+              "text": "心"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1960,
+              "text": "，"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2400,
+              "text": "也"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2680,
+              "text": "听"
+            },
+            {
+              "end_time": 3160,
+              "start_time": 2960,
+              "text": "她"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3160,
+              "text": "解"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3360,
+              "text": "释"
+            }
+          ]
+        }
+      ],
+      "text": "说明担心，也听她解释"
+    }
+  }
+}

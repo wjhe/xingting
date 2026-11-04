@@ -1,0 +1,203 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "040b5dcf-94d5-4ebf-bc32-d16fffb9ca0c",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她没有争输赢，而是带着草图去讨论。两个人留下了彼此最喜欢的部分。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050414785C5248DCB4DE1936F4",
+  "response": {
+    "duration": 10.38,
+    "original_duration": 10.38,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 6040,
+          "start_time": 600,
+          "text": "她没有争输赢，而是带着草图去讨论。",
+          "words": [
+            {
+              "end_time": 960,
+              "start_time": 600,
+              "text": "她"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 960,
+              "text": "没"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1080,
+              "text": "有"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1360,
+              "text": "争"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1680,
+              "text": "输"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 2080,
+              "text": "赢"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 2120,
+              "text": "，"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3000,
+              "text": "而"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3280,
+              "text": "是"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3800,
+              "text": "带"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4040,
+              "text": "着"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4440,
+              "text": "草"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4800,
+              "text": "图"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5200,
+              "text": "去"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5480,
+              "text": "讨"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5720,
+              "text": "论"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 6040,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9880,
+          "start_time": 6840,
+          "text": "两个人留下了彼此最喜欢的部分。",
+          "words": [
+            {
+              "end_time": 7040,
+              "start_time": 6840,
+              "text": "两"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 7040,
+              "text": "个"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7200,
+              "text": "人"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7440,
+              "text": "留"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7720,
+              "text": "下"
+            },
+            {
+              "end_time": 8160,
+              "start_time": 7880,
+              "text": "了"
+            },
+            {
+              "end_time": 8480,
+              "start_time": 8160,
+              "text": "彼"
+            },
+            {
+              "end_time": 8720,
+              "start_time": 8480,
+              "text": "此"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 8760,
+              "text": "最"
+            },
+            {
+              "end_time": 9160,
+              "start_time": 9040,
+              "text": "喜"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9160,
+              "text": "欢"
+            },
+            {
+              "end_time": 9560,
+              "start_time": 9360,
+              "text": "的"
+            },
+            {
+              "end_time": 9720,
+              "start_time": 9560,
+              "text": "部"
+            },
+            {
+              "end_time": 9880,
+              "start_time": 9720,
+              "text": "分"
+            },
+            {
+              "end_time": 9880,
+              "start_time": 9880,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她没有争输赢，而是带着草图去讨论。两个人留下了彼此最喜欢的部分。"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "0fa6104d-6071-49a2-9f0e-5d7c4a3bdfb3",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“朋友们开始谈论各自的去处。有人想留下，有人想远行。艾莉问：“留下会不会显得不够勇敢？””\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050457181924C3643231D220A5BF",
+  "response": {
+    "duration": 9.3,
+    "original_duration": 9.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2240,
+          "start_time": 120,
+          "text": "朋友们开始谈论各自的去处。",
+          "words": [
+            {
+              "end_time": 320,
+              "start_time": 120,
+              "text": "朋"
+            },
+            {
+              "end_time": 440,
+              "start_time": 320,
+              "text": "友"
+            },
+            {
+              "end_time": 640,
+              "start_time": 440,
+              "text": "们"
+            },
+            {
+              "end_time": 760,
+              "start_time": 640,
+              "text": "开"
+            },
+            {
+              "end_time": 880,
+              "start_time": 760,
+              "text": "始"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 880,
+              "text": "谈"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1080,
+              "text": "论"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1320,
+              "text": "各"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1480,
+              "text": "自"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1680,
+              "text": "的"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1840,
+              "text": "去"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2080,
+              "text": "处"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2240,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 5480,
+          "start_time": 3080,
+          "text": "有人想留下，有人想远行。",
+          "words": [
+            {
+              "end_time": 3280,
+              "start_time": 3080,
+              "text": "有"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3280,
+              "text": "人"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3440,
+              "text": "想"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3680,
+              "text": "留"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3920,
+              "text": "下"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4160,
+              "text": "，"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4480,
+              "text": "有"
+            },
+            {
+              "end_time": 4840,
+              "start_time": 4680,
+              "text": "人"
+            },
+            {
+              "end_time": 5040,
+              "start_time": 4840,
+              "text": "想"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5080,
+              "text": "远"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5360,
+              "text": "行"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5480,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9120,
+          "start_time": 6160,
+          "text": "艾莉问：‘留下会不会显得不够勇敢？",
+          "words": [
+            {
+              "end_time": 6240,
+              "start_time": 6160,
+              "text": "艾"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6440,
+              "text": "莉"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6720,
+              "text": "问"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 7000,
+              "text": "："
+            },
+            {
+              "end_time": 7000,
+              "start_time": 7000,
+              "text": "‘"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7360,
+              "text": "留"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7640,
+              "text": "下"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7880,
+              "text": "会"
+            },
+            {
+              "end_time": 8160,
+              "start_time": 8040,
+              "text": "不"
+            },
+            {
+              "end_time": 8280,
+              "start_time": 8160,
+              "text": "会"
+            },
+            {
+              "end_time": 8440,
+              "start_time": 8280,
+              "text": "显"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8440,
+              "text": "得"
+            },
+            {
+              "end_time": 8680,
+              "start_time": 8600,
+              "text": "不"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8680,
+              "text": "够"
+            },
+            {
+              "end_time": 9000,
+              "start_time": 8800,
+              "text": "勇"
+            },
+            {
+              "end_time": 9120,
+              "start_time": 9000,
+              "text": "敢"
+            },
+            {
+              "end_time": 9120,
+              "start_time": 9120,
+              "text": "？"
+            }
+          ]
+        },
+        {
+          "end_time": 9120,
+          "start_time": 9120,
+          "text": "’",
+          "words": [
+            {
+              "end_time": 9120,
+              "start_time": 9120,
+              "text": "’"
+            }
+          ]
+        }
+      ],
+      "text": "朋友们开始谈论各自的去处。有人想留下，有人想远行。艾莉问：‘留下会不会显得不够勇敢？’"
+    }
+  }
+}

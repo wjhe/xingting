@@ -1,0 +1,223 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "5b663fbf-7e3c-4d9d-954a-9456134e68a7",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她写下“睡得好、学一点新东西，还有记得回家”。未来第一次显得不那么遥远。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050320EFD8A25E996B0718B654",
+  "response": {
+    "duration": 9.88,
+    "original_duration": 9.88,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 6520,
+          "start_time": 360,
+          "text": "她写下‘睡得好、学一点新东西，还有记得回家’。",
+          "words": [
+            {
+              "end_time": 560,
+              "start_time": 360,
+              "text": "她"
+            },
+            {
+              "end_time": 880,
+              "start_time": 720,
+              "text": "写"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 960,
+              "text": "下"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1160,
+              "text": "‘"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 1880,
+              "text": "睡"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2200,
+              "text": "得"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2480,
+              "text": "好"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2880,
+              "text": "、"
+            },
+            {
+              "end_time": 3600,
+              "start_time": 3240,
+              "text": "学"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3600,
+              "text": "一"
+            },
+            {
+              "end_time": 3960,
+              "start_time": 3760,
+              "text": "点"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4000,
+              "text": "新"
+            },
+            {
+              "end_time": 4520,
+              "start_time": 4320,
+              "text": "东"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4520,
+              "text": "西"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4720,
+              "text": "，"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5280,
+              "text": "还"
+            },
+            {
+              "end_time": 5640,
+              "start_time": 5480,
+              "text": "有"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5640,
+              "text": "记"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5880,
+              "text": "得"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6080,
+              "text": "回"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6280,
+              "text": "家"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6520,
+              "text": "’"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6520,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9760,
+          "start_time": 7280,
+          "text": "未来第一次显得不那么遥远。",
+          "words": [
+            {
+              "end_time": 7480,
+              "start_time": 7280,
+              "text": "未"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7480,
+              "text": "来"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7880,
+              "text": "第"
+            },
+            {
+              "end_time": 8200,
+              "start_time": 8040,
+              "text": "一"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8200,
+              "text": "次"
+            },
+            {
+              "end_time": 8720,
+              "start_time": 8480,
+              "text": "显"
+            },
+            {
+              "end_time": 8920,
+              "start_time": 8720,
+              "text": "得"
+            },
+            {
+              "end_time": 9120,
+              "start_time": 8920,
+              "text": "不"
+            },
+            {
+              "end_time": 9200,
+              "start_time": 9120,
+              "text": "那"
+            },
+            {
+              "end_time": 9320,
+              "start_time": 9200,
+              "text": "么"
+            },
+            {
+              "end_time": 9440,
+              "start_time": 9320,
+              "text": "遥"
+            },
+            {
+              "end_time": 9760,
+              "start_time": 9560,
+              "text": "远"
+            },
+            {
+              "end_time": 9760,
+              "start_time": 9760,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她写下‘睡得好、学一点新东西，还有记得回家’。未来第一次显得不那么遥远。"
+    }
+  }
+}

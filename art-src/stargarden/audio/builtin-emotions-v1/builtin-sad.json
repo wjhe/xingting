@@ -1,0 +1,9 @@
+{
+  "src": "builtin-sad.wav",
+  "duration": 6.456,
+  "gain": 0.593938019655945,
+  "source_sha256": "08ac37bf6821212d61c92896089496c1dfb7f9bb6469c84bcf0fdd07167ffda8",
+  "label": "难过",
+  "instruction": "有些难过和失落地说，轻声、稍慢、尾音低落，但不哭喊、不啜泣，保持吐字清楚。",
+  "speaker_id": "zh_female_vv_uranus_bigtts"
+}

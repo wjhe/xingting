@@ -1,0 +1,151 @@
+[
+  {
+    "id": "market_auction",
+    "title": "拍卖会",
+    "art": "market_auction",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "坊市中央的万宝楼今日开拍，楼里座无虚席。压轴的两件拍品，一枚筑基丹，一柄青锋剑。",
+    "options": [
+      {
+        "text": "竞拍筑基丹（700 灵石）",
+        "requires": { "stones": 700 },
+        "result": "几轮竞价之后，你以七百灵石拍下了筑基丹。",
+        "effects": [{ "type": "stone", "value": -700 }, { "type": "item", "id": "zhuji_dan", "count": 1 }]
+      },
+      {
+        "text": "竞拍青锋剑（350 灵石）",
+        "requires": { "stones": 350 },
+        "result": "你以三百五十灵石拍下了青锋剑。",
+        "effects": [{ "type": "stone", "value": -350 }, { "type": "item", "id": "sword_qingfeng", "count": 1 }]
+      },
+      { "text": "只是来开开眼界", "result": "你看了一场热闹，心里暗暗盘算着自己的灵石。" }
+    ]
+  },
+  {
+    "id": "market_gamble",
+    "title": "赌石摊",
+    "art": "stone_gamble",
+    "region": ["qingyun_market"],
+    "weight": 6,
+    "text": "街角的赌石摊前围满了人。摊主吆喝着：“五十灵石一块，切开有灵玉，一刀穷一刀富！”",
+    "options": [
+      {
+        "text": "买一块试试（50 灵石）",
+        "requires": { "stones": 50 },
+        "check": { "attr": "jiyuan", "dc": 9 },
+        "success": { "result": "一刀下去，翠光四溢！围观的人群爆发出一阵惊呼。你以五十灵石换回了二百五十灵石。", "effects": [{ "type": "stone", "value": 200 }] },
+        "fail": { "result": "切开一看，满肚子都是石头。", "effects": [{ "type": "stone", "value": -50 }] }
+      },
+      { "text": "十赌九输，走了", "result": "你挤出人群，身后又传来一声哀嚎。" }
+    ]
+  },
+  {
+    "id": "market_lecture",
+    "title": "讲道堂",
+    "art": "master_teach",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "讲道堂今日请来一位筑基修士开坛讲法，入场费二十灵石。",
+    "options": [
+      {
+        "text": "交钱入场（20 灵石）",
+        "requires": { "stones": 20 },
+        "result": "讲到精妙处，满堂寂然。你听得如痴如醉。",
+        "effects": [{ "type": "stone", "value": -20 }, { "type": "cultivation", "value": 100 }, { "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      { "text": "在门外听几句", "result": "门外人声嘈杂，你只听了个只言片语。" }
+    ]
+  },
+  {
+    "id": "market_refiner",
+    "title": "炼器坊",
+    "art": "market_forge",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "炼器坊的老师傅打着赤膊抡锤，见你进门，头也不抬：“定做法器？带材料来，手工费另算。”",
+    "options": [
+      {
+        "text": "用 3 张狼皮做一件狼皮甲（30 灵石）",
+        "requires": { "stones": 30, "items": { "wolf_pelt": 3 } },
+        "result": "三天后，你取到了一件合身的狼皮甲。",
+        "effects": [{ "type": "stone", "value": -30 }, { "type": "item", "id": "wolf_pelt", "count": -3 }, { "type": "item", "id": "armor_leather", "count": 1 }]
+      },
+      {
+        "text": "用熊妖胆淬一柄赤霞剑（1500 灵石）",
+        "requires": { "stones": 1500, "items": { "bear_gall": 1 } },
+        "result": "老师傅盯着熊胆看了半晌，咧嘴一笑：“好东西。”一个月后，一柄流转赤霞的长剑放在了你面前。",
+        "effects": [{ "type": "stone", "value": -1500 }, { "type": "item", "id": "bear_gall", "count": -1 }, { "type": "item", "id": "sword_chixia", "count": 1 }]
+      },
+      { "text": "随便看看", "result": "炉火烤得你脸颊发烫，你退了出来。" }
+    ]
+  },
+  {
+    "id": "market_rival_2",
+    "title": "冤家路窄",
+    "art": "rival_youth",
+    "region": ["qingyun_market"],
+    "weight": 12,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "flags": ["lihan_met"] },
+    "text": "坊市门口，一道剑光拦在你面前。厉寒已是筑基修为，他上下打量着你，嘴角浮起一丝冷笑：“没想到你这散修也筑基了。当年的账，今日一并算了吧。”",
+    "options": [
+      {
+        "text": "“正有此意。”",
+        "battle": {
+          "enemy": "rival_zhuji",
+          "win": { "result": "厉寒的飞剑寸寸断裂。他跪在地上喘息良久，终于低下头：“我……输了。”他解下腰间的储物袋扔给你，转身离去，背影萧索。", "effects": [{ "type": "stone", "value": 800 }, { "type": "item", "id": "armor_xuantie", "count": 1 }, { "type": "flag", "key": "lihan_done" }, { "type": "attr", "key": "xinjing", "value": 2 }] },
+          "lose": { "result": "厉寒收剑入鞘，居高临下地看着你：“散修，终究是散修。”", "effects": [{ "type": "stone", "value": -300 }, { "type": "attr", "key": "xinjing", "value": -1 }] }
+        }
+      },
+      {
+        "text": "“我没空陪你闹。”",
+        "check": { "attr": "shenshi", "dc": 8 },
+        "success": { "result": "你身形一晃，混入坊市的人潮之中。厉寒找了半天，悻悻而去。" },
+        "fail": { "result": "厉寒的飞剑追上来，在你背上留下一道血口。", "effects": [{ "type": "hp", "value": -40 }] }
+      }
+    ]
+  },
+  {
+    "id": "market_su_help",
+    "title": "宗门差事",
+    "art": "market_street",
+    "region": ["qingyun_market"],
+    "weight": 12,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "flags": ["su_met2"] },
+    "text": "苏晚晴在坊市找到你，神色焦急：“宗门派我去黑风谷采一株瘴心草，同去的师兄都不肯……我一个人，实在没把握。”",
+    "options": [
+      { "text": "“我陪你去。”", "result": "她松了一口气，眼睛亮晶晶的：“我就知道你会答应。”", "effects": [{ "type": "flag", "key": "su_quest" }] },
+      { "text": "“黑风谷太危险，别去了。”", "result": "她咬着嘴唇沉默了一会儿：“宗门之命，不得不去。”她独自走了。", "effects": [{ "type": "flag", "key": "su_alone" }] }
+    ]
+  },
+  {
+    "id": "market_old_beggar",
+    "title": "坊市老丐",
+    "art": "old_beggar",
+    "region": ["qingyun_market"],
+    "weight": 15,
+    "once": true,
+    "conditions": { "life_min": 3, "meta_flags": ["met_old_man"] },
+    "text": "坊市墙角蜷着个老乞丐。你从他身边走过时，他忽然开口：“又见面了。”——是那个声音，是槐树下那个老者！他抬起浑浊的眼睛：“想知道答案，就去云梦泽。泽底有一座遗府，那是一切开始的地方。”",
+    "options": [
+      { "text": "“你究竟是谁？”", "result": "老丐只是笑。一阵风吹过，墙角空空荡荡，只剩一只破碗。", "effects": [{ "type": "meta_flag", "key": "heard_yunmeng" }, { "type": "attr", "key": "wuxing", "value": 1 }] }
+    ]
+  },
+  {
+    "id": "market_teahouse",
+    "title": "茶馆说书",
+    "art": "market_teahouse",
+    "region": ["qingyun_market"],
+    "weight": 5,
+    "text": "茶馆里，说书先生一拍醒木：“话说上古之时，有位大能名唤太初，修为通天，却始终参不透生死二字……”",
+    "options": [
+      { "text": "要一壶茶，听完这段", "result": "故事讲到太初闭关万年，再出关时已不知所踪。满堂唏嘘。你喝完茶，若有所思。", "effects": [{ "type": "stone", "value": -5 }, { "type": "flag", "key": "heard_taichu" }] },
+      { "text": "起身离开", "result": "说书先生的声音渐渐被街市的喧闹淹没。" }
+    ]
+  }
+]

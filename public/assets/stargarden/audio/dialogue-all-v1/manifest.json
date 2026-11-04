@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "source_model": "seed-audio-1.0",
+  "age_semitones": {
+    "child": 1,
+    "teen": 0,
+    "grown": -1
+  },
+  "catalog_count": 475,
+  "clip_count": 1,
+  "complete": false,
+  "failures": [],
+  "clips": [
+    {
+      "id": "event.main_0_0.text",
+      "age": "child",
+      "src": "child/c0294799552c674046d8-child.wav",
+      "parent": null,
+      "group": "event:main_0_0",
+      "role": "story",
+      "text": "来到这个家的第一个月，艾莉总把行李放在门边。今晚你发现，她把小小的房门钥匙系在了手腕上。“如果我弄丢了，还能回来吗？”"
+    }
+  ]
+}

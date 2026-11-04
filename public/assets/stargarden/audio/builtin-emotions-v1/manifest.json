@@ -1,0 +1,48 @@
+{
+  "speaker_id": "zh_female_vv_uranus_bigtts",
+  "age": null,
+  "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+  "clips": [
+    {
+      "src": "builtin-neutral.wav",
+      "duration": 5.04,
+      "gain": 0.6681537464077145,
+      "source_sha256": "abc78867ff3ec66d12f331861ea6032295ab791ab34f283456a8015a09b46646",
+      "label": "平静",
+      "instruction": "平静自然、亲切地说，语速中等，情绪中性。",
+      "speaker_id": "zh_female_vv_uranus_bigtts"
+    },
+    {
+      "src": "builtin-happy.wav",
+      "duration": 5.472,
+      "gain": 0.6920252283611362,
+      "source_sha256": "0f8f5435d0d58c2d650a53f8b64e9601c7b629144b4fb3e1897da2d20a218b76",
+      "label": "开心",
+      "instruction": "开心而充满期待地说，带自然的笑意和轻快感，但不要尖叫或夸张撒娇。",
+      "speaker_id": "zh_female_vv_uranus_bigtts"
+    },
+    {
+      "src": "builtin-sad.wav",
+      "duration": 6.456,
+      "gain": 0.593938019655945,
+      "source_sha256": "08ac37bf6821212d61c92896089496c1dfb7f9bb6469c84bcf0fdd07167ffda8",
+      "label": "难过",
+      "instruction": "有些难过和失落地说，轻声、稍慢、尾音低落，但不哭喊、不啜泣，保持吐字清楚。",
+      "speaker_id": "zh_female_vv_uranus_bigtts"
+    },
+    {
+      "src": "builtin-determined.wav",
+      "duration": 5.232,
+      "gain": 0.7236447744130603,
+      "source_sha256": "1692afbcd0882a9a65f857c380764a700208e420adaf7440934e8e9a7f0b0d99",
+      "label": "认真",
+      "instruction": "认真坚定而温柔地说，语气有决心，停顿清楚，不喊叫，不变成成年人的声线。",
+      "speaker_id": "zh_female_vv_uranus_bigtts"
+    }
+  ],
+  "emotion_method": "TTS 2.0 additions.context_texts",
+  "voice_design_endpoint": null,
+  "design_prompt": null,
+  "voice_source": "user_selected_builtin",
+  "synthesis_endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional"
+}

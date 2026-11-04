@@ -1,0 +1,857 @@
+[
+  {
+    "id": "e2b_chen_teacher",
+    "title": "村塾先生",
+    "art": "village_eaves_rain",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_max": "lianqi"
+    },
+    "text": "村塾的陈先生教了二十年书，前几日赶集，被坊市的测灵石照出一丝灵根。他四十好几了，捏着那张测灵的纸条在你家门口转了三圈，才红着脸问：“我这把年纪，还来得及么？”",
+    "options": [
+      {
+        "text": "劝他去试试",
+        "result": "陈先生把学堂托给了邻村的老秀才，背着书箱去了坊市。临走前，他朝你深深作了一揖。",
+        "effects": [
+          {
+            "type": "flag",
+            "key": "e2b_chen_met"
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "说实话：这个年纪太难了",
+        "result": "陈先生愣了半晌，笑着把纸条夹进书里：“也好，学堂里那几个娃，还等着我教完《千字文》。”他说这话时的神情，让你想了好些天。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2b_chen_stall",
+    "title": "代笔先生",
+    "art": "chen_stall",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 18,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "flags": [
+        "e2b_chen_met"
+      ]
+    },
+    "text": "坊市墙根下支着个代写符箓底稿的小摊，摊主正是陈先生。他修了两年，还没摸到炼气的门槛，全靠一手好字糊口。今早符箓铺掌柜说他抄错一笔，扣了他整月的工钱，他攥着那张底稿，手直发抖。",
+    "options": [
+      {
+        "text": "陪他去符箓铺讲理",
+        "check": {
+          "attr": "shenshi",
+          "dc": 7
+        },
+        "success": {
+          "result": "你凑近一看，那一笔墨色比别处新，是掌柜自己添的。当着一屋子客人，掌柜只得把工钱如数补上。",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "e2b_chen_helped"
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你看不出破绽，掌柜反咬你们闹事，叫来巡卫，你赔了二十灵石才脱身。陈先生一路给你赔不是。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "请他写一幅字（60 灵石）",
+        "requires": {
+          "stones": 60
+        },
+        "result": "陈先生推辞不过，提笔写了“守拙”二字。你把字挂在打坐的地方，每回心浮气躁时看上一眼，便能静下来。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -60
+          },
+          {
+            "type": "flag",
+            "key": "e2b_chen_helped"
+          },
+          {
+            "type": "cultivation",
+            "value": 60
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "劝他回村教书",
+        "result": "陈先生沉默良久，摇了摇头：“再试一年。”你走出很远回头看，他又埋头抄起了底稿。"
+      }
+    ]
+  },
+  {
+    "id": "e2b_chen_school",
+    "title": "坊市蒙馆",
+    "art": "master_teach",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 16,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "flags": [
+        "e2b_chen_helped"
+      ]
+    },
+    "text": "坊市后巷新开了一间蒙馆，教散修家的孩子认字、读玉简上的符文。坐堂的是陈先生，他终究没能炼气，人却比从前精神。见了你，他放下戒尺迎出来：“仙路我是走不成了，可这些娃认得字，往后就少被人骗。”",
+    "options": [
+      {
+        "text": "收下他的谢礼",
+        "result": "他塞给你一张金刚符，说是用他抄的底稿画成的头一张。符角写着一行蝇头小楷：赠恩人。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "guard_talisman",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "替他讲一堂吐纳课",
+        "result": "十几个孩子盘腿坐了一地，学得有模有样。你给别人讲一遍入门的道理，自己反倒想通了几处关节。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 120
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "给蒙馆添些笔墨钱（50 灵石）",
+        "requires": {
+          "stones": 50
+        },
+        "result": "陈先生没推辞，把灵石记进一本旧账簿，页首写着“青石村某某，助五十”。孩子们齐声喊你“师叔”，喊得你耳根发烫。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -50
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2b_village_watchman",
+    "title": "最后一更",
+    "art": "village_well",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_max": "zhuji"
+    },
+    "text": "打了四十年更的老周头走了。出殡前一晚，他儿子捧着那面磨得发亮的铜锣来找你：“爹临走念叨，说你小时候总跟在他屁股后头学敲锣，想让你替他敲完最后一更。”",
+    "options": [
+      {
+        "text": "接过铜锣，走遍全村",
+        "result": "你提着灯笼，一条巷子一条巷子地走，锣声在夜里传得很远。各家窗里的灯，一盏一盏亮起来，又一盏一盏熄了。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "text": "敲到村口古井就停",
+        "check": {
+          "attr": "shenshi",
+          "dc": 7
+        },
+        "success": {
+          "result": "锣声落在井口，井里竟回了一声，像老周头当年咳嗽的调子。你在井边站了很久，心里空落落的，又像被什么填满了。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "shenshi",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你敲完便回了家，一夜睡得很沉。第二天送殡，周家儿子朝你点了点头。"
+        }
+      },
+      {
+        "text": "推说明早还要赶路",
+        "result": "周家儿子没多说，抱着锣回去了。后半夜，村里头一回没有更声，你翻来覆去睡不着。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2b_village_lost_ox",
+    "title": "走失的牛",
+    "art": "village_farm",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_max": "lianqi"
+    },
+    "text": "李家的老黄牛夜里挣断缰绳跑了，春耕就指望它。李家婶子急得直抹眼泪，求你帮着往后山找找。山脚的泥地里，牛蹄印旁边还压着几个又深又乱的猪蹄印。",
+    "options": [
+      {
+        "text": "顺着蹄印追进林子",
+        "battle": {
+          "enemy": "wild_boar",
+          "win": {
+            "result": "老黄牛被一头野猪堵在沟里，你把野猪赶跑，牵着牛下了山。李家婶子硬塞给你一块腊肉和几块灵石。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "boar_meat",
+                "count": 1
+              },
+              {
+                "type": "stone",
+                "value": 15
+              }
+            ]
+          },
+          "lose": {
+            "result": "野猪一头撞得你滚下了坡。等你爬起来，老黄牛自己慢悠悠走回了家。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -25
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "学着牛叫唤它",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 7
+        },
+        "success": {
+          "result": "你“哞”了半天，林子里真有一声回应。老黄牛从灌木里探出头，嘴里还嚼着一株泛青光的草。你从它嘴边抢下半株。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_qingling",
+              "count": 1
+            },
+            {
+              "type": "stone",
+              "value": 5
+            }
+          ]
+        },
+        "fail": {
+          "result": "你叫得嗓子都哑了，引来一群看热闹的放牛娃。牛最后是猎户老赵找回来的。"
+        }
+      },
+      {
+        "text": "劝她去请猎户老赵",
+        "result": "老赵带着狗进了山，天黑前把牛牵了回来。李家婶子逢人就夸老赵，没提你。"
+      }
+    ]
+  },
+  {
+    "id": "e2b_village_storyteller",
+    "title": "说的是你",
+    "art": "village_storyteller",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji"
+    },
+    "text": "村口老槐树下来了个走乡的说书人，围了一圈人。你凑过去一听，讲的竟是“青石村出了位仙师，一剑劈开落霞山”——那位仙师的名字，正是你。乡亲们回头看见你，眼睛全亮了。",
+    "options": [
+      {
+        "text": "当场拆穿，说清实情",
+        "result": "你说自己连御剑都不会，说书人脸涨得通红，收拾摊子就走。乡亲们有些扫兴，倒是孩子们缠着你问真的修仙是什么样。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "露一手给大家看",
+        "check": {
+          "attr": "gengu",
+          "dc": 7
+        },
+        "success": {
+          "result": "你凝气于掌，一掌劈开一截枯木，满场喝彩。说书人当场改了词，散场后还分了你一份赏钱。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 20
+            }
+          ]
+        },
+        "fail": {
+          "result": "那截枯木纹丝不动，你的手掌倒肿了起来。说书人干咳一声：“仙师这是……留了手。”",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -10
+            }
+          ]
+        }
+      },
+      {
+        "text": "悄悄走开，任他去说",
+        "result": "你从人群后头绕开了。夜里隔着院墙，还能听见说书人讲到你斩妖时那一声醒木。"
+      }
+    ]
+  },
+  {
+    "id": "e2b_village_debt",
+    "title": "乡绅逼债",
+    "art": "village_farewell",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji"
+    },
+    "text": "镇上胡员外的管家带着两个打手堵在佃户张老三家门口，手里抖着一张借据：“借三两还三十，白纸黑字！还不上，就拿你家闺女去府上做工抵债！”张老三跪在泥里，借据上的手印红得刺眼。",
+    "options": [
+      {
+        "text": "把打手赶出村",
+        "result": "你挡在张家门前，打手抡着棍子扑了上来。",
+        "battle": {
+          "enemy": "village_thug",
+          "win": {
+            "result": "两个打手被你撂在泥里，管家一溜烟跑了。张家闺女躲在门后，偷偷朝你磕了个头。",
+            "effects": [
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": 1
+              },
+              {
+                "type": "attr",
+                "key": "jiyuan",
+                "value": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "你一时大意，被一棍敲在后脑。等你醒来，管家已经扬长而去，张老三正端着水守在你旁边。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -30
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "细看那张借据",
+        "check": {
+          "attr": "wuxing",
+          "dc": 7
+        },
+        "success": {
+          "result": "你看出“三十”的“十”字墨迹是后描的。当着围观的乡亲念出来，管家脸色发白，把借据撕了，又丢下几块灵石，求乡亲们别往外传。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            },
+            {
+              "type": "stone",
+              "value": 15
+            }
+          ]
+        },
+        "fail": {
+          "result": "你翻来覆去看不出破绽，管家冷笑着收起借据，说过两日再来。张老三一家在门口哭了一夜。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "text": "替张家还上这笔债（40 灵石）",
+        "requires": {
+          "stones": 40
+        },
+        "result": "管家掂着灵石走了。张老三要给你磕头，你没让。只是你心里清楚，胡员外明年还会再来。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -40
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2b_village_well_dig",
+    "title": "寻水打井",
+    "art": "village_drought",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji"
+    },
+    "text": "入夏一个多月没下雨，村里的老井见了底。里正召集各家出工打新井，挖了三处都是干土。他找到你，搓着手说：“你们修仙的，能不能……听听地底下哪儿有水？”",
+    "options": [
+      {
+        "text": "放出神识探一探",
+        "check": {
+          "attr": "shenshi",
+          "dc": 7
+        },
+        "success": {
+          "result": "你闭目凝神，隐约听见村东石坡底下有细细的水声。往下挖了两丈，清水汩汩冒了上来，里正带着全村人给你凑了一份谢礼。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 30
+            },
+            {
+              "type": "cultivation",
+              "value": 40
+            }
+          ]
+        },
+        "fail": {
+          "result": "你探得头昏眼花，指了一处，挖下去还是干土。里正嘴上说不怪你，脸上却挂不住。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -10
+            }
+          ]
+        }
+      },
+      {
+        "text": "撸起袖子一起挖",
+        "result": "你仗着一身力气，一天挖的顶三个壮汉。井还没见水，可乡亲们端来的绿豆汤你喝了三碗。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "gengu",
+            "value": 1
+          },
+          {
+            "type": "hp",
+            "value": -10
+          }
+        ]
+      },
+      {
+        "text": "说修仙的也不管下雨",
+        "result": "里正叹了口气走了。几天后，村里人去十里外的河里挑水，扁担压弯了一排。"
+      }
+    ]
+  },
+  {
+    "id": "e2b_market_rent_cave",
+    "title": "便宜洞府",
+    "art": "meditation_cave",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "一个瘦牙人追了你半条街：“道友，坊市后山有间洞府，灵脉旁边的好位置，一个月只要八十灵石！原主人急着出远门，便宜租了。”他说话时眼珠子总往别处瞟。",
+    "options": [
+      {
+        "text": "先去看看再砍价（30 灵石）",
+        "requires": {
+          "stones": 30
+        },
+        "check": {
+          "attr": "shenshi",
+          "dc": 7
+        },
+        "success": {
+          "result": "洞里的聚灵阵缺了一角，灵气全漏了，难怪便宜。你把阵眼补上，跟牙人砍到三十灵石，安心闭关了几日。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -30
+            },
+            {
+              "type": "cultivation",
+              "value": 120
+            }
+          ]
+        },
+        "fail": {
+          "result": "你看着挺好就付了钱，住进去才发觉灵气稀得像山下。再去找牙人，人早没影了。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -30
+            },
+            {
+              "type": "cultivation",
+              "value": 30
+            }
+          ]
+        }
+      },
+      {
+        "text": "直接付钱租下（80 灵石）",
+        "requires": {
+          "stones": 80
+        },
+        "result": "洞府灵气一般，倒也清静。你闭关一月，修为有所长进，只是总觉得这钱花得冤。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -80
+          },
+          {
+            "type": "cultivation",
+            "value": 150
+          }
+        ]
+      },
+      {
+        "text": "摆摆手走开",
+        "result": "牙人转身又去追下一个外乡修士了。"
+      }
+    ]
+  },
+  {
+    "id": "e2b_market_patrol",
+    "title": "巡卫盘查",
+    "art": "market_street",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "两名坊市巡卫拦住你，拿着一张画像左看右看：“昨夜丹铺失窃，贼人青衣、炼气修为、个头跟你差不多。跟我们走一趟。”街上的人纷纷避开，画像上的人除了青衣，跟你半点不像。",
+    "options": [
+      {
+        "text": "跟他们去巡卫司对质",
+        "check": {
+          "attr": "xinjing",
+          "dc": 7
+        },
+        "success": {
+          "result": "你不慌不忙说清了昨夜的去处，又指出画像上的人是左撇子。巡卫头领连声赔罪，还送了你一点压惊钱。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 30
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你被关了一天一夜，直到真贼落网才放出来。牢里潮冷，你出来时打了好几个喷嚏。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -15
+            },
+            {
+              "type": "cultivation",
+              "value": -20
+            }
+          ]
+        }
+      },
+      {
+        "text": "塞点茶钱了事（30 灵石）",
+        "requires": {
+          "stones": 30
+        },
+        "result": "年轻的巡卫把灵石揣进袖子，画像一卷就走。你心里明白，往后青衣怕是穿不得了。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -30
+          }
+        ]
+      },
+      {
+        "text": "拔腿就跑",
+        "check": {
+          "attr": "gengu",
+          "dc": 8
+        },
+        "success": {
+          "result": "你钻进人堆，三拐两拐甩掉了巡卫。只是这几天在坊市里，得把斗笠压低些。"
+        },
+        "fail": {
+          "result": "没跑出两条街就被按在地上，巡卫认定你心虚，罚了你一笔灵石。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -50
+            },
+            {
+              "type": "hp",
+              "value": -10
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "e2b_market_stranger",
+    "title": "外乡修士",
+    "art": "market_teahouse",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "茶馆门口，一个满身风尘的外乡修士拉住你问路，口音重得听不懂几句。比划半天你才明白，他要去落霞山找一位故人，可他打听的那个名字，坊市里人人都说早死了好些年。",
+    "options": [
+      {
+        "text": "带他上山去找",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 7
+        },
+        "success": {
+          "result": "你们在山腰找到一座无名坟，他在坟前坐了一下午，临走时把一株赤血藤和一小袋灵石塞进你手里。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_chixue",
+              "count": 1
+            },
+            {
+              "type": "stone",
+              "value": 40
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你们在山里转了一整天，什么也没找着。下山时他一直沉默，到了坊市口，冲你抱了抱拳就走了。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -10
+            }
+          ]
+        }
+      },
+      {
+        "text": "把实话告诉他",
+        "result": "他听懂了，在茶馆门槛上坐了很久，然后要了一壶最便宜的茶，倒了两杯。你陪他喝完，听他说了许多你听不懂的往事。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "text": "指了个方向就走",
+        "result": "他千恩万谢地走了。你走出几步，才想起那方向是去黑风谷的。"
+      }
+    ]
+  },
+  {
+    "id": "e2b_market_book_stall",
+    "title": "旧书摊",
+    "art": "market_alchemy",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi"
+    },
+    "text": "坊市散摊上，一个老丹师的遗孀在卖亡夫的旧书，论斤称。你随手翻开一本垫桌脚的册子，里头夹着几页发黄的纸，字迹密密麻麻，好像是一张丹方，墨迹被油渍糊了一半。",
+    "options": [
+      {
+        "text": "照她开的价买下（150 灵石）",
+        "requires": {
+          "stones": 150
+        },
+        "result": "你回去把油渍一点点擦净，竟是一卷完整的凝元丹方。老妇人临走时那句“他炼了一辈子丹，总算有人用得上”，你一直记着。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -150
+          },
+          {
+            "type": "item",
+            "id": "danfang_ningyuan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "跟她讲讲价（50 灵石）",
+        "requires": {
+          "stones": 50
+        },
+        "check": {
+          "attr": "jiyuan",
+          "dc": 8
+        },
+        "success": {
+          "result": "老妇人不懂行，五十灵石就连册子带书一起给了你。擦净油渍，是一卷凝元丹方。你回头再找她，摊子已经收了。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -50
+            },
+            {
+              "type": "item",
+              "id": "danfang_ningyuan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你一开口压价，旁边一个丹铺伙计便看出了门道，抢先付钱把那堆书全包走了。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "text": "告诉她这东西值钱",
+        "result": "老妇人愣了愣，把那几页纸小心收进怀里，说要留给学丹的孙子。她非要送你一株青灵草，说是老头子生前晒的。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_qingling",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  }
+]

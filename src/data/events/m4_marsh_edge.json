@@ -1,0 +1,165 @@
+[
+  {
+    "id": "marsh_edge_reed_maze",
+    "title": "芦苇迷阵",
+    "region": ["yunmeng_marsh"],
+    "art": "marsh_boat_oldman",
+    "weight": 6,
+    "conditions": { "realm_min": "zhuji", "realm_max": "zhuji" },
+    "text": "泽边的芦苇比人还高，你拨开一丛，后面还是一丛。走了半日，你又看见了自己早上折断的那根芦苇——有人在这片苇荡里布了个迷阵，手法粗糙，却很管用。",
+    "options": [
+      {
+        "text": "顺着风向找阵眼",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": { "result": "你发现每一丛芦苇都斜向东南，阵眼就在风来的地方。拔起那根插着红布条的竹竿，迷阵应声而散，竹竿底下还压着一只布包。", "effects": [{ "type": "stone", "value": 400 }, { "type": "cultivation", "value": 300 }] },
+        "fail": { "result": "你在苇荡里转到天黑，最后是循着渔村的炊烟才摸出去的，鞋里灌满了泥水。", "effects": [{ "type": "hp", "value": -20 }] }
+      },
+      {
+        "text": "一把火烧了这片芦苇",
+        "result": "火光冲天，迷阵连同半里苇荡一起化成了灰。远处传来一声气急败坏的叫骂，有人从灰堆里狼狈地跑了。你心里却不太舒服：这片芦苇，是渔民编席子用的。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }]
+      },
+      { "text": "原路退回", "result": "你踩着自己的脚印退了出去。这泽里的门道，比黑风谷还多。" }
+    ]
+  },
+  {
+    "id": "marsh_edge_water_python",
+    "title": "水下赤影",
+    "region": ["yunmeng_marsh"],
+    "art": "valley_python",
+    "weight": 6,
+    "conditions": { "realm_min": "zhuji", "realm_max": "zhuji" },
+    "text": "浅滩上一条渔船翻了，船底朝天，旁边的水面下有一道赤红的影子在缓缓游动。岸上一个渔家少年攥着鱼叉，死死盯着那片水：“我爹还在下面……”",
+    "options": [
+      {
+        "text": "下水斩蟒",
+        "battle": {
+          "enemy": "red_python",
+          "win": { "result": "巨蟒浮上水面，肚皮朝天。你把昏迷的渔夫拖上了岸，少年跪在泥里给你磕了三个响头。你剖出蟒胆，渔夫醒来后硬塞给你一袋攒了半辈子的灵石。", "effects": [{ "type": "item", "id": "python_gall", "count": 1 }, { "type": "stone", "value": 300 }, { "type": "attr", "key": "xinjing", "value": 1 }] },
+          "lose": { "result": "蟒尾把你抽回了岸上。少年咬着牙跳进水里，竟真把他爹拖了上来——人还活着，你却没脸收他们递来的鱼干。", "effects": [{ "type": "lifespan", "value": -3 }] }
+        }
+      },
+      {
+        "text": "用神识把巨蟒引开",
+        "check": { "attr": "shenshi", "dc": 8 },
+        "success": { "result": "你放出一缕神识在远处搅动水面，巨蟒掉头追去。少年趁机潜下去，把他爹拖了上来。", "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }] },
+        "fail": { "result": "巨蟒没上当，反倒朝岸边游来。你只来得及拽着少年后退，那艘翻船被拖进了深水。", "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }] }
+      },
+      { "text": "这不是你能管的事", "result": "你转身离开。走出很远，还能听见少年在岸上一声一声地喊“爹”。", "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }] }
+    ]
+  },
+  {
+    "id": "marsh_edge_scale_shoal",
+    "title": "浅滩蛟鳞",
+    "region": ["yunmeng_marsh"],
+    "art": "marsh_dragon",
+    "weight": 5,
+    "conditions": { "realm_min": "zhuji", "realm_max": "zhuji" },
+    "text": "退潮后的浅滩上，一片巴掌大的青鳞半埋在淤泥里，在日光下泛着幽光。你刚弯下腰，脚下的泥滩便微微一震——远处的深水里，有什么东西翻了个身。",
+    "options": [
+      {
+        "text": "飞快挖出来就走",
+        "check": { "attr": "jiyuan", "dc": 8 },
+        "success": { "result": "你连泥带鳞一把抓起，转身就跑。身后的水面只泛起一圈涟漪，又归于平静。", "effects": [{ "type": "item", "id": "jiao_scale", "count": 1 }] },
+        "fail": { "result": "鳞片卡在石缝里，你拔了三下才拔出来，一道水柱已经轰到了你背上。你抱着鳞片滚上了岸，半身骨头都在疼。", "effects": [{ "type": "item", "id": "jiao_scale", "count": 1 }, { "type": "hp", "value": -60 }, { "type": "lifespan", "value": -2 }] }
+      },
+      { "text": "不贪这一片鳞", "result": "你退回岸上。那东西还在深水里睡着，等你有本事再来见它。" }
+    ]
+  },
+  {
+    "id": "marsh_edge_drowned_cultivator",
+    "title": "浮尸",
+    "region": ["yunmeng_marsh"],
+    "art": "marsh_demon",
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "zhuji", "realm_max": "zhuji" },
+    "text": "一具修士的尸身被冲到了芦苇丛边，面色灰白，周身精血像被抽干了一样。他腰间的储物袋还在，袋口绣着一个小小的“血”字，袖子里攥着半张写满名字的纸。",
+    "options": [
+      {
+        "text": "收走储物袋，把尸身葬了",
+        "result": "储物袋里有些灵石和一枚凝元丹。你把他葬在高处，那半张纸却怎么也读不出头绪——上面的名字，都是附近渔村的人。",
+        "effects": [{ "type": "stone", "value": 350 }, { "type": "item", "id": "ningyuan_dan", "count": 1 }]
+      },
+      {
+        "text": "细看那半张纸",
+        "check": { "attr": "wuxing", "dc": 9 },
+        "success": { "result": "你认出那是一份献祭名单，落款处画着一面血幡。你把名单交给渔村的老村长，村里连夜迁走了几户人家。你隐隐觉得，这泽的深处藏着一个比劫修可怕得多的东西。", "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }, { "type": "attr", "key": "shenshi", "value": 1 }] },
+        "fail": { "result": "纸上的字被水泡花了，你辨认了半天，只看清了一面画得歪歪扭扭的旗子。" }
+      },
+      { "text": "不碰死人的东西", "result": "你绕开了那具尸身。夜里刮起了风，芦苇沙沙作响，像有人在念一长串名字。" }
+    ]
+  },
+  {
+    "id": "marsh_edge_lotus_bud",
+    "title": "未开的莲",
+    "region": ["yunmeng_marsh"],
+    "art": "marsh_lotus",
+    "weight": 5,
+    "conditions": { "realm_min": "zhuji", "realm_max": "zhuji" },
+    "text": "雾里亭亭立着一枝白莲，花苞还没开，却已香得让人发晕。泽边的老渔翁说，这是千年灵莲的分枝，要再等几十年才开，“你若那时还在，再来摘吧。”",
+    "options": [
+      {
+        "text": "坐在莲边吐纳一夜",
+        "result": "莲香裹着灵气，一丝丝渗进经脉。天亮时，花苞似乎比昨夜松了一线。",
+        "effects": [{ "type": "cultivation", "value": 600 }]
+      },
+      {
+        "text": "掐下花苞带走",
+        "check": { "attr": "jiyuan", "dc": 10 },
+        "success": { "result": "花苞离枝的一刻便开了，一颗嫩生生的莲子落进你掌心，虽不及千年灵莲，也是难得的灵物。", "effects": [{ "type": "cultivation", "value": 1500 }, { "type": "lifespan", "value": 2 }] },
+        "fail": { "result": "指尖一碰，花苞便蔫了下去，转眼化成一滩清水。老渔翁在远处叹了口气。", "effects": [{ "type": "attr", "key": "jiyuan", "value": -1 }] }
+      },
+      { "text": "记下这个地方", "result": "你在岸边的石头上刻了个记号。几十年后，你会回来看它开花的。" }
+    ]
+  },
+  {
+    "id": "marsh_edge_night_lanterns",
+    "title": "泽上鬼灯",
+    "region": ["yunmeng_marsh"],
+    "art": "ghost_lanterns",
+    "weight": 5,
+    "conditions": { "realm_min": "zhuji", "realm_max": "zhuji" },
+    "text": "入夜后，泽面上亮起一串幽绿的灯火，忽远忽近，像有一队人提着灯在水上走。渔民都把门窗关得死死的，说那是“引魂灯”，跟着走的人，天亮就会出现在泽心。",
+    "options": [
+      {
+        "text": "提剑跟上去看看",
+        "battle": {
+          "enemy": "evil_cultivator",
+          "win": { "result": "灯火尽头是一个炼魂邪修，正用灯火引诱夜里出门的渔民。你斩了他，那串绿灯一盏接一盏地熄了。他的储物袋里有不少灵石。", "effects": [{ "type": "stone", "value": 600 }, { "type": "attr", "key": "xinjing", "value": 1 }] },
+          "lose": { "result": "阴魂缠上了你的神识，你拼命咬破舌尖才清醒过来，发现自己已经站在齐腰深的水里，离岸很远。", "effects": [{ "type": "hp", "value": -50 }, { "type": "lifespan", "value": -4 }] }
+        }
+      },
+      {
+        "text": "以神识反探灯火",
+        "check": { "attr": "shenshi", "dc": 9 },
+        "success": { "result": "神识顺着灯火摸过去，你看清了那头提灯的人，也看清了他袖口的血纹。你记下了这条路，修为也在这番交锋里磨砺了一层。", "effects": [{ "type": "cultivation", "value": 500 }] },
+        "fail": { "result": "灯火忽然一亮，一股阴冷顺着神识倒灌回来，你头痛了整整三天。", "effects": [{ "type": "hp", "value": -30 }] }
+      },
+      { "text": "也把门窗关上", "result": "你在渔家借宿了一夜，听着窗外若有若无的脚步声，一直坐到天亮。" }
+    ]
+  },
+  {
+    "id": "marsh_edge_ferry_girl",
+    "title": "摆渡女",
+    "region": ["yunmeng_marsh"],
+    "art": "marsh_fishing",
+    "weight": 5,
+    "conditions": { "realm_min": "zhuji", "realm_max": "zhuji" },
+    "text": "渡口的小船上坐着个摆渡的姑娘，一边撑船一边哼着渔歌。她说泽心太险，她只敢送到第三个芦苇洲：“再往里，我爹说要金丹真人才回得来。”她回头打量你，“你还差一点。”",
+    "options": [
+      {
+        "text": "请她送到第三个芦苇洲（50 灵石）",
+        "requires": { "stones": 50 },
+        "result": "船到芦苇洲，她指给你看泽心方向那片终年不散的白雾：“看见没？雾里有座会发光的宫殿，我只远远见过一回。”你在洲上打坐了半日，远处的雾气里，确实隐隐透着光。",
+        "effects": [{ "type": "stone", "value": -50 }, { "type": "cultivation", "value": 400 }]
+      },
+      {
+        "text": "问她泽里的事",
+        "result": "她讲了蛟龙、讲了灵莲、讲了每逢月圆便泛红的泽心，讲得眉飞色舞。最后她说：“等你结了金丹，我再送你进去。说好了啊。”",
+        "effects": [{ "type": "attr", "key": "wuxing", "value": 1 }]
+      },
+      { "text": "道谢后离开", "result": "你回头时，她已经撑着船唱着歌远去了，歌声在雾里飘了很久。" }
+    ]
+  }
+]

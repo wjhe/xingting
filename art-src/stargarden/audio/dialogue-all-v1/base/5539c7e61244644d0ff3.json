@@ -1,0 +1,84 @@
+{
+  "src": "5539c7e61244644d0ff3.wav",
+  "duration": 3.9,
+  "gain": 1.6313947062799057,
+  "source_sha256": "d8684a7dc41551f2d1150e44de8eed6c32580c35b1b87aad32f1a2ec0a154d0d",
+  "id": "event.main_1_1.choice.0",
+  "text": "告诉她可以重新认识自己",
+  "group": "event:main_1_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3240,
+        "start_time": 800,
+        "text": "告诉她可以重新认识自己",
+        "words": [
+          {
+            "end_time": 1040,
+            "start_time": 800,
+            "text": "告"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "诉"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1280,
+            "text": "她"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1680,
+            "text": "可"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "以"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "重"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "新"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2520,
+            "text": "认"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2720,
+            "text": "识"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2920,
+            "text": "自"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3080,
+            "text": "己"
+          }
+        ]
+      }
+    ],
+    "text": "告诉她可以重新认识自己"
+  }
+}

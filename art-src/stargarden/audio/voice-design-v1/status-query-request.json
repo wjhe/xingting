@@ -1,0 +1,25 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/get_voice",
+  "request_id": "7be4ff73-84e8-431b-8ce0-4bc9a437af0c",
+  "request": {
+    "speaker_id": "S_jPukgGbk2"
+  },
+  "status": "complete",
+  "provider_log_id": "20261104034812BCC9BFF53E1F9A8BBB1C",
+  "response": {
+    "available_training_times": 14,
+    "create_time": 1793735246000,
+    "extra_params": "{\"clone_source\": 1, \"design_finalize_type\": 0, \"reference_speaker_id\": \"MEGA_1793735234079_0\"}",
+    "icl_speaker_id": "ICL_6aea3a47f9cb15f8",
+    "language": 0,
+    "model_type": 1,
+    "model_version": 1,
+    "speaker_id": "S_jPukgGbk2",
+    "status": 2,
+    "version": "V1",
+    "voice_design_status": {
+      "preview_text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+      "prompt_text": "10岁女孩，标准普通话，清亮柔软的自然女孩声，咬字清楚，气息稳定，语速中等，亲切温和而有好奇心，适合清新温馨的成长养成游戏。保留真实童真，不要婴儿腔、捏嗓子、夸张撒娇或播音腔。"
+    }
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "a49b4fcd-51d1-4cf3-aeb6-8f1959757e1b",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：18岁，成熟自然，温柔而有希望。以成年后自然、成熟而温暖的声音总结这段成长。\n请完整念出以下文本：“她在庭院旁开了一间茶屋。熟客说这里的茶有家的味道，她总是笑着望向窗外——你正坐在那张熟悉的藤椅上。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105045438AE58070F9C13C8F63E56",
+  "response": {
+    "duration": 11.88,
+    "original_duration": 11.88,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2720,
+          "start_time": 320,
+          "text": "她在庭院旁开了一间茶屋。",
+          "words": [
+            {
+              "end_time": 520,
+              "start_time": 320,
+              "text": "她"
+            },
+            {
+              "end_time": 680,
+              "start_time": 520,
+              "text": "在"
+            },
+            {
+              "end_time": 880,
+              "start_time": 760,
+              "text": "庭"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1080,
+              "text": "院"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1280,
+              "text": "旁"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1560,
+              "text": "开"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1840,
+              "text": "了"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1960,
+              "text": "一"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2080,
+              "text": "间"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2280,
+              "text": "茶"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2600,
+              "text": "屋"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2720,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 11800,
+          "start_time": 3560,
+          "text": "熟客说这里的茶有家的味道，她总是笑着望向窗外——你正坐在那张熟悉的藤椅上。",
+          "words": [
+            {
+              "end_time": 3600,
+              "start_time": 3560,
+              "text": "熟"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3880,
+              "text": "客"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4120,
+              "text": "说"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4440,
+              "text": "这"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4560,
+              "text": "里"
+            },
+            {
+              "end_time": 4880,
+              "start_time": 4720,
+              "text": "的"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4880,
+              "text": "茶"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5120,
+              "text": "有"
+            },
+            {
+              "end_time": 5600,
+              "start_time": 5440,
+              "text": "家"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5680,
+              "text": "的"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5880,
+              "text": "味"
+            },
+            {
+              "end_time": 6200,
+              "start_time": 6040,
+              "text": "道"
+            },
+            {
+              "end_time": 6200,
+              "start_time": 6200,
+              "text": "，"
+            },
+            {
+              "end_time": 7040,
+              "start_time": 6920,
+              "text": "她"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 7040,
+              "text": "总"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 7200,
+              "text": "是"
+            },
+            {
+              "end_time": 7560,
+              "start_time": 7320,
+              "text": "笑"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7560,
+              "text": "着"
+            },
+            {
+              "end_time": 7920,
+              "start_time": 7840,
+              "text": "望"
+            },
+            {
+              "end_time": 8160,
+              "start_time": 8040,
+              "text": "向"
+            },
+            {
+              "end_time": 8480,
+              "start_time": 8280,
+              "text": "窗"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8480,
+              "text": "外"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8760,
+              "text": "—"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8760,
+              "text": "—"
+            },
+            {
+              "end_time": 9440,
+              "start_time": 9200,
+              "text": "你"
+            },
+            {
+              "end_time": 9640,
+              "start_time": 9520,
+              "text": "正"
+            },
+            {
+              "end_time": 9920,
+              "start_time": 9760,
+              "text": "坐"
+            },
+            {
+              "end_time": 10040,
+              "start_time": 9920,
+              "text": "在"
+            },
+            {
+              "end_time": 10240,
+              "start_time": 10040,
+              "text": "那"
+            },
+            {
+              "end_time": 10400,
+              "start_time": 10240,
+              "text": "张"
+            },
+            {
+              "end_time": 10720,
+              "start_time": 10480,
+              "text": "熟"
+            },
+            {
+              "end_time": 10880,
+              "start_time": 10720,
+              "text": "悉"
+            },
+            {
+              "end_time": 11080,
+              "start_time": 10880,
+              "text": "的"
+            },
+            {
+              "end_time": 11160,
+              "start_time": 11120,
+              "text": "藤"
+            },
+            {
+              "end_time": 11440,
+              "start_time": 11360,
+              "text": "椅"
+            },
+            {
+              "end_time": 11800,
+              "start_time": 11560,
+              "text": "上"
+            },
+            {
+              "end_time": 11800,
+              "start_time": 11800,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她在庭院旁开了一间茶屋。熟客说这里的茶有家的味道，她总是笑着望向窗外——你正坐在那张熟悉的藤椅上。"
+    }
+  }
+}

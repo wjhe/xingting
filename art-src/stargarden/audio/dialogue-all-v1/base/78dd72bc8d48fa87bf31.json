@@ -1,0 +1,79 @@
+{
+  "src": "78dd72bc8d48fa87bf31.wav",
+  "duration": 3.5,
+  "gain": 1.2905885357414302,
+  "source_sha256": "71eeac44575b7de62c73eaf5c0ebb7e80aba67d4c7c79e92856163b21b9e1ede",
+  "id": "event.main_7_0.choice.0",
+  "text": "一起重读最早的愿望",
+  "group": "event:main_7_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3040,
+        "start_time": 520,
+        "text": "一起重读最早的愿望。",
+        "words": [
+          {
+            "end_time": 760,
+            "start_time": 520,
+            "text": "一"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 760,
+            "text": "起"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1160,
+            "text": "重"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1480,
+            "text": "读"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1880,
+            "text": "最"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2120,
+            "text": "早"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "的"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "愿"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2800,
+            "text": "望"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 3040,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "一起重读最早的愿望。"
+  }
+}

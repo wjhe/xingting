@@ -1,0 +1,189 @@
+{
+  "src": "cc9256ab2b7cdd65538c.wav",
+  "duration": 8.8,
+  "gain": 0.8979270769528354,
+  "source_sha256": "9d53c303200904904487ccbbeab2b8ab9151fd5c5fd2500205b66ec66bff4ca5",
+  "id": "event.main_1_0.outcome.1",
+  "text": "她把想学的、想去的、想见的人分开写好，还为每一项留了一个小方框。",
+  "group": "event:main_1_0",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 8280,
+        "start_time": 280,
+        "text": "她把想学的、想去的、想见的人分开写好，还为每一项留了一个小方框。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 280,
+            "text": "她"
+          },
+          {
+            "end_time": 760,
+            "start_time": 520,
+            "text": "把"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 760,
+            "text": "想"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1000,
+            "text": "学"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1320,
+            "text": "的"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1680,
+            "text": "、"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1840,
+            "text": "想"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2120,
+            "text": "去"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2440,
+            "text": "的"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2800,
+            "text": "、"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3080,
+            "text": "想"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3360,
+            "text": "见"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "的"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3840,
+            "text": "人"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4120,
+            "text": "分"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4400,
+            "text": "开"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4760,
+            "text": "写"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5000,
+            "text": "好"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5280,
+            "text": "，"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 5800,
+            "text": "还"
+          },
+          {
+            "end_time": 6240,
+            "start_time": 6080,
+            "text": "为"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6400,
+            "text": "每"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6600,
+            "text": "一"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6840,
+            "text": "项"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7160,
+            "text": "留"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7360,
+            "text": "了"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7520,
+            "text": "一"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7640,
+            "text": "个"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7720,
+            "text": "小"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7880,
+            "text": "方"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8200,
+            "text": "框"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她把想学的、想去的、想见的人分开写好，还为每一项留了一个小方框。"
+  }
+}

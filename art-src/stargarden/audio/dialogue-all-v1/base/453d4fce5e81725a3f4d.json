@@ -1,0 +1,89 @@
+{
+  "src": "453d4fce5e81725a3f4d.wav",
+  "duration": 4.4,
+  "gain": 1.0783120402632598,
+  "source_sha256": "e7c8d34d5e52a4b7f346b72249d5a3a443e78df7e14fd7e281b9467373d88600",
+  "id": "event.main_5_2.choice.1",
+  "text": "替她照看身后的准备工作",
+  "group": "event:main_5_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 280,
+        "text": "替她照看身后的准备工作。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 280,
+            "text": "替"
+          },
+          {
+            "end_time": 680,
+            "start_time": 560,
+            "text": "她"
+          },
+          {
+            "end_time": 920,
+            "start_time": 760,
+            "text": "照"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1000,
+            "text": "看"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1320,
+            "text": "身"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "后"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1760,
+            "text": "的"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1920,
+            "text": "准"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2040,
+            "text": "备"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2280,
+            "text": "工"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2440,
+            "text": "作"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "替她照看身后的准备工作。"
+  }
+}

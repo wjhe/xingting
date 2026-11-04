@@ -1,0 +1,226 @@
+{
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "text": "爸爸，你回来啦！我一直在等你。",
+  "clips": [
+    {
+      "src": "builtin-neutral.wav",
+      "duration": 3.648,
+      "gain": 1.0496506608366036,
+      "source_sha256": "dffea765986b6f8d25a46c91f584ad3feff97651f67791fe1d80257a189b4192",
+      "label": "官方 TTS 直出",
+      "instruction": "",
+      "speaker_id": "zh_female_roumeinvyou_uranus_bigtts"
+    },
+    {
+      "src": "../voice-emotions-grown-official-v1/neutral.wav",
+      "duration": 4.4,
+      "gain": 1.4306480306365723,
+      "source_sha256": "389b0cdaa23e71a969ae674c826389ce89a7298d55c01ea2ec4f6b927fef96fa",
+      "label": "上一版 · 未指定年龄",
+      "instruction": "普通的一天，女孩在家里迎接爸爸，心情平和。平稳自然地说话，语速中等。",
+      "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+      "subtitle": {
+        "sentences": [
+          {
+            "end_time": 1960,
+            "start_time": 440,
+            "text": "爸爸，你回来啦！",
+            "words": [
+              {
+                "end_time": 760,
+                "start_time": 440,
+                "text": "爸"
+              },
+              {
+                "end_time": 960,
+                "start_time": 800,
+                "text": "爸"
+              },
+              {
+                "end_time": 960,
+                "start_time": 960,
+                "text": "，"
+              },
+              {
+                "end_time": 1400,
+                "start_time": 1080,
+                "text": "你"
+              },
+              {
+                "end_time": 1560,
+                "start_time": 1400,
+                "text": "回"
+              },
+              {
+                "end_time": 1760,
+                "start_time": 1560,
+                "text": "来"
+              },
+              {
+                "end_time": 1960,
+                "start_time": 1840,
+                "text": "啦"
+              },
+              {
+                "end_time": 1960,
+                "start_time": 1960,
+                "text": "！"
+              }
+            ]
+          },
+          {
+            "end_time": 3960,
+            "start_time": 2680,
+            "text": "我一直在等你。",
+            "words": [
+              {
+                "end_time": 2960,
+                "start_time": 2680,
+                "text": "我"
+              },
+              {
+                "end_time": 3040,
+                "start_time": 2960,
+                "text": "一"
+              },
+              {
+                "end_time": 3240,
+                "start_time": 3040,
+                "text": "直"
+              },
+              {
+                "end_time": 3400,
+                "start_time": 3240,
+                "text": "在"
+              },
+              {
+                "end_time": 3680,
+                "start_time": 3400,
+                "text": "等"
+              },
+              {
+                "end_time": 3960,
+                "start_time": 3680,
+                "text": "你"
+              },
+              {
+                "end_time": 3960,
+                "start_time": 3960,
+                "text": "。"
+              }
+            ]
+          }
+        ],
+        "text": "爸爸，你回来啦！我一直在等你。"
+      }
+    },
+    {
+      "src": "explicit-age.wav",
+      "duration": 4.8,
+      "gain": 1.6590085860592396,
+      "source_sha256": "160524d39488b1d4b00ac2364fbda9453fd969914ed5b4369092bc2492f77647",
+      "label": "音频生成 · 明确17岁",
+      "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+      "subtitle": {
+        "sentences": [
+          {
+            "end_time": 2320,
+            "start_time": 480,
+            "text": "爸爸，你回来啦！",
+            "words": [
+              {
+                "end_time": 800,
+                "start_time": 480,
+                "text": "爸"
+              },
+              {
+                "end_time": 1000,
+                "start_time": 840,
+                "text": "爸"
+              },
+              {
+                "end_time": 1000,
+                "start_time": 1000,
+                "text": "，"
+              },
+              {
+                "end_time": 1720,
+                "start_time": 1400,
+                "text": "你"
+              },
+              {
+                "end_time": 1920,
+                "start_time": 1720,
+                "text": "回"
+              },
+              {
+                "end_time": 2120,
+                "start_time": 1920,
+                "text": "来"
+              },
+              {
+                "end_time": 2320,
+                "start_time": 2200,
+                "text": "啦"
+              },
+              {
+                "end_time": 2320,
+                "start_time": 2320,
+                "text": "！"
+              }
+            ]
+          },
+          {
+            "end_time": 4400,
+            "start_time": 3160,
+            "text": "我一直在等你。",
+            "words": [
+              {
+                "end_time": 3440,
+                "start_time": 3160,
+                "text": "我"
+              },
+              {
+                "end_time": 3520,
+                "start_time": 3440,
+                "text": "一"
+              },
+              {
+                "end_time": 3680,
+                "start_time": 3520,
+                "text": "直"
+              },
+              {
+                "end_time": 3880,
+                "start_time": 3680,
+                "text": "在"
+              },
+              {
+                "end_time": 4160,
+                "start_time": 3880,
+                "text": "等"
+              },
+              {
+                "end_time": 4400,
+                "start_time": 4160,
+                "text": "你"
+              },
+              {
+                "end_time": 4400,
+                "start_time": 4400,
+                "text": "。"
+              }
+            ]
+          }
+        ],
+        "text": "爸爸，你回来啦！我一直在等你。"
+      }
+    }
+  ],
+  "status": "audition_pending",
+  "methods": [
+    "seed-tts-2.0 without context_texts",
+    "seed-audio-1.0 original prompt",
+    "seed-audio-1.0 explicit age prompt"
+  ]
+}

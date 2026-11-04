@@ -1,0 +1,516 @@
+[
+  {
+    "id": "village_thug_toll",
+    "title": "流寇设卡",
+    "art": "village_toll",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "once": true,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "两个外乡汉子把一根木杠横在村口，柴刀往槐树上一剁：“打今儿起，进出青石村，一人五块灵石！”赶集回来的乡亲们挤在杠子外头，谁也不敢吭声。",
+    "options": [
+      {
+        "text": "抄起扁担上前",
+        "result": "你把扁担一横，挡在乡亲们前头。",
+        "battle": {
+          "enemy": "village_thug",
+          "win": { "result": "两个流寇抱着脑袋逃出了村。乡亲们你一把花生我一个鸡蛋，凑了些灵石硬塞给你。", "effects": [{ "type": "stone", "value": 25 }, { "type": "attr", "key": "xinjing", "value": 1 }] },
+          "lose": { "result": "你被一刀背拍在肩上，疼得半天抬不起胳膊。流寇骂骂咧咧地搜走了你的灵石。", "effects": [{ "type": "hp", "value": -30 }, { "type": "stone", "value": -10 }] }
+        }
+      },
+      {
+        "text": "敲锣喊全村人来",
+        "check": { "attr": "shenshi", "dc": 7 },
+        "success": { "result": "你瞅准时机绕到祠堂敲响铜锣。几十个扛着锄头的乡亲涌到村口，两个流寇一看这阵势，扔下木杠就跑。", "effects": [{ "type": "attr", "key": "jiyuan", "value": 1 }] },
+        "fail": { "result": "你刚摸到锣槌，就被流寇揪着后领拎了回来，挨了两记耳光。", "effects": [{ "type": "hp", "value": -15 }] }
+      },
+      {
+        "text": "替大家交了钱（20 灵石）",
+        "requires": { "stones": 20 },
+        "result": "流寇掂着灵石扛杠走人。乡亲们嘴上道谢，眼里却有些失望。",
+        "effects": [{ "type": "stone", "value": -20 }]
+      }
+    ]
+  },
+  {
+    "id": "village_autumn_hunt",
+    "title": "秋日围猎",
+    "art": "village_farm",
+    "region": ["qingshi_village"],
+    "weight": 6,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "秋收过后，村里的猎户老赵牵着两条黄狗来敲门：“后山的野猪拱了半坡红薯，几家合伙去围它。你腿脚快，来不来？”",
+    "options": [
+      {
+        "text": "提叉打头阵",
+        "battle": {
+          "enemy": "wild_boar",
+          "win": { "result": "你一叉扎进野猪肩胛，老赵补上一刀。按规矩打头阵的多分一腿肉，几户人家还凑了些灵石。", "effects": [{ "type": "item", "id": "boar_meat", "count": 2 }, { "type": "stone", "value": 15 }] },
+          "lose": { "result": "野猪一头把你拱进了刺藤丛，等老赵把你拽出来，猪早跑没影了。", "effects": [{ "type": "hp", "value": -30 }] }
+        }
+      },
+      {
+        "text": "在后头敲锣赶围",
+        "check": { "attr": "gengu", "dc": 7 },
+        "success": { "result": "你跟着围子跑了满山，嗓子都喊哑了。野猪被撵进陷坑，老赵分了你一块肉。", "effects": [{ "type": "item", "id": "boar_meat", "count": 1 }] },
+        "fail": { "result": "跑到半山腰你就喘不上气了，蹲在石头上看别人忙活，回来时两手空空。" }
+      },
+      { "text": "推说家里有活", "result": "老赵“嗐”了一声，牵着狗走了。傍晚村里飘起了炖肉的香味。" }
+    ]
+  },
+  {
+    "id": "village_melon_thief",
+    "title": "瓜田夜守",
+    "art": "village_farm",
+    "region": ["qingshi_village"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "王老汉的西瓜接连丢了好几天，托你夜里帮忙看着。三更时分，瓜秧窸窸窣窣地动了，你一把揪住个瘦小的身影——是村尾刘寡妇家的二丫，怀里还抱着个瓜。",
+    "options": [
+      {
+        "text": "送去王老汉那儿",
+        "result": "王老汉没骂人，只叹了口气。为了谢你守夜，他还是给了你几块灵石。二丫一路哭着回了家。",
+        "effects": [{ "type": "stone", "value": 10 }]
+      },
+      {
+        "text": "替她把瓜钱垫上（10 灵石）",
+        "requires": { "stones": 10 },
+        "result": "第二天你把灵石放在王老汉的门槛上，什么也没说。往后二丫每回见你，都远远地冲你笑。",
+        "effects": [{ "type": "stone", "value": -10 }, { "type": "attr", "key": "xinjing", "value": 1 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "放她走，当没看见",
+        "result": "二丫抱着瓜跑远了。天亮时王老汉数瓜，又少了一个，你心里有些不是滋味。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }]
+      }
+    ]
+  },
+  {
+    "id": "village_wooden_sword",
+    "title": "旧日木剑",
+    "art": "village_eaves_rain",
+    "region": ["qingshi_village"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "收拾屋子时，你从床底拖出一柄木剑。剑身上歪歪扭扭刻着几个字：“将来要当剑仙”。那是你七岁那年，拿娘的菜刀一笔一笔刻的。",
+    "options": [
+      {
+        "text": "擦干净，挂回墙上",
+        "result": "木剑挂在墙上，像个老朋友在看着你。那点少年意气，好像又回来了。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "送给隔壁眼巴巴的小娃",
+        "result": "小娃抱着木剑满村跑，喊着“我是剑仙”。你笑着摇摇头，觉得这把剑总算找到了下一个主人。",
+        "effects": [{ "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "照着当年的样子比划几招",
+        "check": { "attr": "wuxing", "dc": 7 },
+        "success": { "result": "孩童时自创的几招“剑法”稚拙可笑，你练着练着，却觉得体内那缕气息也跟着流转起来。", "effects": [{ "type": "cultivation", "value": 20 }] },
+        "fail": { "result": "一个转身没站稳，木剑扫翻了灶台上的油罐。你收拾了一下午。" }
+      }
+    ]
+  },
+  {
+    "id": "village_ghost_wall",
+    "title": "月下迷途",
+    "art": "village_well",
+    "region": ["qingshi_village"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "你从邻村喝完喜酒回来，月亮又大又白。明明是走了十几年的路，可每走一阵，眼前总会冒出同一口古井。井沿上，好像蹲着个毛茸茸的影子。",
+    "options": [
+      {
+        "text": "屏住气，盯住那影子",
+        "check": { "attr": "shenshi", "dc": 8 },
+        "success": { "result": "你看清了，是只黄鼬正冲你作揖。你猛一跺脚，它吓得一蹦，叼着的小布袋掉在地上。袋里竟有几块灵石，也不知是从谁家偷的。", "effects": [{ "type": "stone", "value": 15 }] },
+        "fail": { "result": "你越盯越晕，绕着古井转到了鸡叫，脚底磨出了两个大泡。", "effects": [{ "type": "hp", "value": -15 }] }
+      },
+      {
+        "text": "坐在井边等天亮",
+        "result": "你靠着井沿打了个盹。醒来时露水打湿了衣裳，家门就在百步开外。",
+        "effects": [{ "type": "hp", "value": -5 }, { "type": "attr", "key": "xinjing", "value": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "village_spirit_sparrow",
+    "title": "檐上灵雀",
+    "art": "village_eaves_rain",
+    "region": ["qingshi_village"],
+    "weight": 4,
+    "once": true,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "这几天总有只麻雀来啄你晒的谷子。仔细一看，它尾巴上有根羽毛泛着淡淡的青光，在雨里也不沾水。货郎说过，沾了灵气的鸟雀，坊市里有人收。",
+    "options": [
+      {
+        "text": "每天撒一把谷子给它",
+        "result": "灵雀吃惯了，常落在你肩头打盹。说来也怪，它在的时候，你吐纳格外顺畅。",
+        "effects": [{ "type": "cultivation", "value": 20 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      },
+      {
+        "text": "设个竹筛扣住它",
+        "check": { "attr": "shenshi", "dc": 7 },
+        "success": { "result": "竹筛啪地扣下。货郎第二天上门，掏了一把灵石把灵雀拎走了。笼子里的鸟回头叫了一声，听着像在骂人。", "effects": [{ "type": "stone", "value": 30 }, { "type": "attr", "key": "jiyuan", "value": -1 }] },
+        "fail": { "result": "灵雀扑棱一下飞了，从此再没来过。只剩谷子撒了一地。" }
+      }
+    ]
+  },
+  {
+    "id": "village_widow_loan",
+    "title": "求借盘缠",
+    "art": "village_gate",
+    "region": ["qingshi_village"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_max": "lianqi" },
+    "text": "村尾的孙大娘攥着衣角站在你家门口，半天才开口：“我家石头说想去山外拜师，路上要盘缠……我挨家借了一圈，还差三十块灵石。”她身后，一个黑瘦的少年低着头。",
+    "options": [
+      {
+        "text": "借给她（30 灵石）",
+        "requires": { "stones": 30 },
+        "result": "孙大娘拉着石头给你磕头，你连忙扶住。石头抿着嘴说：“我一定还。”",
+        "effects": [{ "type": "stone", "value": -30 }, { "type": "flag", "key": "low_loan_lent" }]
+      },
+      {
+        "text": "教石头几句吐纳的口诀",
+        "check": { "attr": "wuxing", "dc": 7 },
+        "success": { "result": "你把自己摸索出的门道掰开揉碎讲给他听。教着教着，你自己也想通了一处关窍。", "effects": [{ "type": "cultivation", "value": 25 }] },
+        "fail": { "result": "你讲得磕磕绊绊，石头听得一头雾水。孙大娘客客气气地道了谢，领着儿子走了。" }
+      },
+      { "text": "“我手头也紧。”", "result": "孙大娘连声说“不碍事”，转身去敲下一家的门了。" }
+    ]
+  },
+  {
+    "id": "village_loan_repaid",
+    "title": "石头来信",
+    "art": "village_farewell",
+    "region": ["qingshi_village"],
+    "weight": 15,
+    "once": true,
+    "conditions": { "flags": ["low_loan_lent"] },
+    "text": "孙大娘一路小跑过来，手里举着一封信，笑得合不拢嘴：“石头进了外门！他托人捎了灵石回来，说头一份要还你！”布包沉甸甸的，比借出去的还多。",
+    "options": [
+      {
+        "text": "收下，替石头高兴",
+        "result": "你掂了掂布包，里头有四十块灵石。信的末尾，石头写着：“等我学成了，回来教村里的娃认字。”",
+        "effects": [{ "type": "stone", "value": 40 }]
+      },
+      {
+        "text": "“留着给石头添件冬衣吧。”",
+        "result": "孙大娘抹着眼泪走了。那晚你打坐时，心里格外安宁。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 1 }, { "type": "attr", "key": "jiyuan", "value": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "mountain_spider_cocoon",
+    "title": "蛛网困人",
+    "art": "spider_cave",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "石洞口挂着一张磨盘大的蛛网，网中央裹着个人形的白茧，茧里还在微微挣动。洞内暗处，八只幽绿的眼睛一齐亮了起来。",
+    "options": [
+      {
+        "text": "拔剑斩网救人",
+        "battle": {
+          "enemy": "poison_spider",
+          "win": { "result": "毒蛛蜷着腿不动了。茧里剖出个采药的汉子，他把药篓里的灵草全倒给你，你又从洞口收了一捆蛛丝。", "effects": [{ "type": "item", "id": "herb_qingling", "count": 2 }, { "type": "item", "id": "spider_silk", "count": 2 }] },
+          "lose": { "result": "蛛毒顺着伤口往上爬，你拼死逃出山洞，在溪边吐了半宿。", "effects": [{ "type": "hp", "value": -40 }, { "type": "lifespan", "value": -1 }] }
+        }
+      },
+      {
+        "text": "点起松枝浓烟熏洞",
+        "check": { "attr": "shenshi", "dc": 7 },
+        "success": { "result": "毒蛛受不了烟气，缩进了洞底。你趁机割开白茧，把人背了出来。汉子千恩万谢，塞给你一株灵草。", "effects": [{ "type": "item", "id": "herb_qingling", "count": 1 }, { "type": "attr", "key": "xinjing", "value": 1 }] },
+        "fail": { "result": "风向一转，浓烟反倒灌了你一脸。毒蛛趁乱喷来一道毒丝，擦着你的手臂过去，火辣辣地疼。", "effects": [{ "type": "hp", "value": -20 }] }
+      },
+      {
+        "text": "悄悄退走",
+        "result": "你退出很远，那茧挣动的样子却总在眼前晃。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": -1 }]
+      }
+    ]
+  },
+  {
+    "id": "mountain_blood_bats",
+    "title": "血蝠夜袭",
+    "art": "blood_bats",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "你在山坳里生火过夜。半夜篝火忽然一暗，头顶响起密密麻麻的振翅声，像下起了一场黑雨。无数双红眼睛，正绕着火光打转。",
+    "options": [
+      {
+        "text": "背靠山石迎战",
+        "battle": {
+          "enemy": "blood_bats",
+          "win": { "result": "天亮时满地都是蝠翼。你循着蝠群来处找到一道石缝，里面卡着个不知哪年的旧钱袋。", "effects": [{ "type": "stone", "value": 60 }] },
+          "lose": { "result": "你被咬得满身血口，抱头滚下山坡，好不容易才甩掉它们。", "effects": [{ "type": "hp", "value": -40 }] }
+        }
+      },
+      {
+        "text": "踢散篝火，扑进溪水",
+        "check": { "attr": "gengu", "dc": 7 },
+        "success": { "result": "你一头扎进冰冷的溪水里。血蝠在水面上盘旋了一阵，悻悻地散了。", "effects": [{ "type": "hp", "value": -10 }] },
+        "fail": { "result": "溪边石头太滑，你摔了一跤，被蝠群追着咬了好一段路。", "effects": [{ "type": "hp", "value": -30 }] }
+      }
+    ]
+  },
+  {
+    "id": "mountain_red_umbrella",
+    "title": "雨中借伞",
+    "art": "mountain_fox",
+    "region": ["luoxia_mountain"],
+    "weight": 4,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "山雨来得急，一个红衣女子站在路边，浑身湿透，怯生生地问你借伞。可这荒山野岭，她的绣鞋上半点泥也没沾。地上那道影子，身后还拖着一截蓬松的尾巴。",
+    "options": [
+      {
+        "text": "“妖孽，现形吧！”",
+        "result": "女子咯咯一笑，身形一晃，化作一只赤狐扑了上来。",
+        "battle": {
+          "enemy": "fox_spirit",
+          "win": { "result": "赤狐负伤逃进了深山。你在它栖身的树洞里，翻出它这些年从过路人身上骗来的灵石。", "effects": [{ "type": "stone", "value": 90 }, { "type": "cultivation", "value": 50 }] },
+          "lose": { "result": "你眼前一花，醒来时躺在树下，伞没了，钱袋也轻了一大截。", "effects": [{ "type": "stone", "value": -40 }, { "type": "hp", "value": -20 }] }
+        }
+      },
+      {
+        "text": "装作没看见，把伞借她",
+        "result": "她撑着伞走远，伞下露出一截火红的尾巴尖。第二天，那把伞挂在你歇脚的树杈上，伞骨上系着一小袋灵石。",
+        "effects": [{ "type": "stone", "value": 30 }]
+      },
+      { "text": "低头快步走过", "result": "身后传来一声轻笑：“胆小鬼。”你淋着雨，一口气跑出了二里地。" }
+    ]
+  },
+  {
+    "id": "mountain_wolf_den",
+    "title": "狼窝",
+    "art": "mountain_wolf",
+    "region": ["luoxia_mountain"],
+    "weight": 4,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "山下猎户悬赏黑风狼皮，你循着血迹找到一处狼窝。一头母狼后腿带伤，挡在洞口龇着牙，身后挤着三只毛茸茸的狼崽，眼睛还没睁开。",
+    "options": [
+      {
+        "text": "照着悬赏动手",
+        "battle": {
+          "enemy": "black_wolf",
+          "win": { "result": "你剥下狼皮下了山，领了猎户的赏钱。狼崽的呜咽声，你走出很远还听得见。", "effects": [{ "type": "item", "id": "wolf_pelt", "count": 1 }, { "type": "stone", "value": 50 }, { "type": "attr", "key": "xinjing", "value": -1 }] },
+          "lose": { "result": "护崽的母狼凶得出奇，你被咬伤了腿，狼狈地逃下山。", "effects": [{ "type": "hp", "value": -40 }] }
+        }
+      },
+      {
+        "text": "嚼碎灵草，丢给母狼敷伤",
+        "requires": { "items": { "herb_qingling": 1 } },
+        "result": "母狼嗅了半天，终于低头去舔那团药草。你离开时，它没有追来，只是一直看着你。",
+        "effects": [{ "type": "item", "id": "herb_qingling", "count": -1 }, { "type": "attr", "key": "jiyuan", "value": 1 }, { "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      { "text": "悄悄退开", "result": "你绕开了那片山坡。这份赏钱，留给别人去挣吧。" }
+    ]
+  },
+  {
+    "id": "mountain_herb_garden",
+    "title": "雾锁药圃",
+    "art": "mountain_spring",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "山泉边有一圈半人高的白雾，雾里隐约可见整整齐齐的药畦。看样子是哪位前辈的药圃，主人多年未归，护园的禁制却还在运转。",
+    "options": [
+      {
+        "text": "细看禁制的纹路",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": { "result": "你看出白雾每隔一盏茶便薄上一瞬，便踩着那一瞬走了进去。药畦里的灵草长得正好，你采了满满一兜。", "effects": [{ "type": "item", "id": "herb_qingling", "count": 4 }] },
+        "fail": { "result": "你在雾里转了半天，一脚踩进泥坑，出来时只抓住一株灵草。", "effects": [{ "type": "item", "id": "herb_qingling", "count": 1 }] }
+      },
+      {
+        "text": "运足灵力，硬闯进去",
+        "check": { "attr": "gengu", "dc": 7 },
+        "success": { "result": "禁制震得你胸口发闷，但你还是冲到了药畦边，抢出两株灵草。", "effects": [{ "type": "item", "id": "herb_qingling", "count": 2 }, { "type": "hp", "value": -15 }] },
+        "fail": { "result": "白雾猛地一收，把你整个人弹回了泉水里。", "effects": [{ "type": "hp", "value": -30 }] }
+      },
+      { "text": "对着药圃拱拱手，离开", "result": "你没有惊动这片药圃。泉水叮咚，好像替主人道了声谢。" }
+    ]
+  },
+  {
+    "id": "mountain_treasure_map",
+    "title": "祖传宝图",
+    "art": "peddler",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "一个挤眉弄眼的散修把你拉到树后，抖开一张发黄的兽皮：“落霞山藏宝图，我太爷爷画的！只要五十灵石。我要不是腿脚不便，早自己挖去了。”他说完，健步如飞地追上了下一个路人。",
+    "options": [
+      {
+        "text": "买下，照图去挖（50 灵石）",
+        "requires": { "stones": 50 },
+        "check": { "attr": "jiyuan", "dc": 7 },
+        "success": { "result": "宝图画得乱七八糟，你挖错了地方，却挖出一只别人埋下的陶罐，里头是满满的灵石。", "effects": [{ "type": "stone", "value": -50 }, { "type": "stone", "value": 140 }] },
+        "fail": { "result": "图上画叉的地方埋着一块木牌，上面写着：“又一个。”", "effects": [{ "type": "stone", "value": -50 }] }
+      },
+      {
+        "text": "跟在他后面看看",
+        "check": { "attr": "shenshi", "dc": 8 },
+        "success": { "result": "你远远跟着，看他从树洞里取出一摞一模一样的“宝图”。你当场揭穿，他只好掏出二十块灵石求你闭嘴。", "effects": [{ "type": "stone", "value": 20 }] },
+        "fail": { "result": "一个转弯，人就不见了。你在林子里白白绕了半天。" }
+      },
+      { "text": "“你太爷爷画得真新。”", "result": "散修面不改色地收起兽皮：“保存得好。”" }
+    ]
+  },
+  {
+    "id": "mountain_dripping_stone",
+    "title": "滴水穿石",
+    "art": "meditation_cave",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "你在一处石洞里打坐，洞顶有一滴水，每隔十几次呼吸便落下一滴。地上的青石被它滴出了一个碗口大的深窝，不知滴了多少年。",
+    "options": [
+      {
+        "text": "琢磨这滴水的道理",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": { "result": "一滴水撼不动青石，千万滴水却能。你忽然明白，修行从来不是一朝一夕的事。", "effects": [{ "type": "cultivation", "value": 120 }] },
+        "fail": { "result": "你盯着那滴水看了一整天，只看出这洞顶大概该补了。", "effects": [{ "type": "cultivation", "value": 30 }] }
+      },
+      {
+        "text": "什么也不想，只数水滴",
+        "check": { "attr": "xinjing", "dc": 7 },
+        "success": { "result": "数到第三千滴时，你心里一片空明，体内灵力也跟着稳了下来。", "effects": [{ "type": "break_bonus", "value": 0.03 }] },
+        "fail": { "result": "数到四百多滴就乱了，你从头数了三次，最后气呼呼地睡着了。" }
+      }
+    ]
+  },
+  {
+    "id": "mountain_cliff_fall",
+    "title": "坠崖",
+    "art": "mountain_cliff_herb",
+    "region": ["luoxia_mountain"],
+    "weight": 4,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "崖边的石头一松，你连人带土滑了下去，幸好落在一块突出的石台上。石壁上刻满了字：“此处无秘籍”“确实没有”“我也找过了”……字迹深浅不一，看样子不是一个人刻的。",
+    "options": [
+      {
+        "text": "不信，再仔细找找",
+        "check": { "attr": "jiyuan", "dc": 8 },
+        "success": { "result": "石缝深处真卡着一只小玉瓶，里面是两颗聚气丹。你想了想，也在石壁上刻了一行：“其实有。”", "effects": [{ "type": "item", "id": "juqi_dan", "count": 2 }] },
+        "fail": { "result": "确实没有。你叹了口气，在石壁上添了一行：“同上。”" }
+      },
+      {
+        "text": "抠着石缝往上爬",
+        "check": { "attr": "gengu", "dc": 7 },
+        "success": { "result": "你手脚并用爬了上去。这一身力气倒是练出来了。", "effects": [{ "type": "cultivation", "value": 40 }] },
+        "fail": { "result": "爬到一半又滑了下来，摔得眼冒金星。等到天黑，才被路过的樵夫用绳子拉上去。", "effects": [{ "type": "hp", "value": -25 }] }
+      }
+    ]
+  },
+  {
+    "id": "mountain_lost_scholar",
+    "title": "赶考书生",
+    "art": "night_camp",
+    "region": ["luoxia_mountain"],
+    "weight": 5,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "篝火边凑过来一个书生，背着书箱，冻得直哆嗦。他是进京赶考的，抄近路走迷了山。他分了你半块干饼，又好奇地问：“仙长，修仙……苦不苦？”",
+    "options": [
+      {
+        "text": "护送他走出落霞山",
+        "result": "你陪他走了三天山路，耽误了些修行。临别时他执意把盘缠里仅有的几块碎灵石塞给你，又为你写了一句：“山高自有客行路。”",
+        "effects": [{ "type": "cultivation", "value": -30 }, { "type": "stone", "value": 20 }, { "type": "attr", "key": "xinjing", "value": 1 }]
+      },
+      {
+        "text": "跟他聊了一宿",
+        "result": "你说吐纳，他说文章，谁也没听懂谁，却聊得十分投机。天亮后你给他指了下山的路。",
+        "effects": [{ "type": "attr", "key": "wuxing", "value": 1 }]
+      },
+      { "text": "“苦。”指了路便打坐", "result": "书生愣了愣，郑重地朝你作了一揖，背着书箱下山去了。" }
+    ]
+  },
+  {
+    "id": "mountain_hermit_sweep",
+    "title": "茅庐扫叶",
+    "art": "master_teach",
+    "region": ["luoxia_mountain"],
+    "weight": 4,
+    "once": true,
+    "conditions": { "realm_min": "lianqi" },
+    "text": "竹林深处有一间茅庐，门前的石径上落叶积了半尺厚。一个白眉老者坐在门槛上剥豆子，听你说明来意，头也不抬，只把扫帚往你怀里一塞：“先把这条路扫干净。”",
+    "options": [
+      {
+        "text": "埋头扫叶",
+        "check": { "attr": "xinjing", "dc": 7 },
+        "success": { "result": "你从清晨扫到日暮，风吹落一片，你便再扫一片。扫到后来，呼吸竟和风声合在了一处。老者放下豆碗：“明日再来。”", "effects": [{ "type": "cultivation", "value": 40 }, { "type": "flag", "key": "low_hermit_met" }] },
+        "fail": { "result": "扫到第三遍，山风又把石径铺满了。你把扫帚一扔，老者头也不抬地关上了门。" }
+      },
+      {
+        "text": "“晚辈是来求道的，不是来扫地的。”",
+        "result": "老者“哦”了一声，递给你一捧剥好的豆子：“那就吃了豆子下山吧。”豆子很甜，你吃完才回过味来。",
+        "effects": [{ "type": "hp", "value": 10 }]
+      }
+    ]
+  },
+  {
+    "id": "mountain_hermit_basket",
+    "title": "竹篮打水",
+    "art": "mountain_spring",
+    "region": ["luoxia_mountain"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "lianqi", "flags": ["low_hermit_met"] },
+    "text": "你又一次走进竹林。老者递给你一只竹篮，指了指山下的溪涧：“打一篮水回来，洒了不算。”那竹篮的篾条稀稀疏疏，透得过手指。",
+    "options": [
+      {
+        "text": "琢磨一下再动手",
+        "check": { "attr": "wuxing", "dc": 8 },
+        "success": { "result": "你没有提篮，只是把它整个沉进溪里，任水穿篾而过。老者抚掌大笑：“篮在水中，水便在篮中——这一关，过了。”", "effects": [{ "type": "cultivation", "value": 60 }, { "type": "flag", "key": "low_hermit_passed" }] },
+        "fail": { "result": "你对着竹篮想了半日，最后提着空篮回去。老者叹了口气：“心思太活，反倒看不见。”第二天，茅庐的门再也没有为你打开。" }
+      },
+      {
+        "text": "一趟一趟地跑",
+        "result": "你提着竹篮在山路上跑了一百多趟，篮底始终只有一层湿痕。天黑时你累倒在茅庐前，老者给你盖了件旧袍：“痴是痴了些，倒也难得。”",
+        "effects": [{ "type": "hp", "value": -30 }, { "type": "flag", "key": "low_hermit_passed" }]
+      },
+      { "text": "“这是在戏弄人。”转身下山", "result": "你头也不回地走了。身后竹林沙沙作响，像是有人在笑。" }
+    ]
+  },
+  {
+    "id": "mountain_hermit_gift",
+    "title": "临别授道",
+    "art": "hermit_farewell",
+    "region": ["luoxia_mountain"],
+    "weight": 20,
+    "once": true,
+    "conditions": { "realm_min": "lianqi", "flags": ["low_hermit_passed"] },
+    "text": "再上茅庐时，老者换了身洗得发白的道袍，早早在竹林里等你：“老夫在这山里住了六十年，本以为这点东西要带进土里了。”他面前放着一卷旧书，一盏清茶。“只能选一样。”",
+    "options": [
+      {
+        "text": "取那卷旧书",
+        "result": "是一部《长春功》。老者点点头：“中正平和，能走得远。”扉页上有一行小字：赠有缘人。",
+        "effects": [{ "type": "item", "id": "book_changchun", "count": 1 }]
+      },
+      {
+        "text": "饮下那盏茶",
+        "result": "茶刚入口，老者的手指便点在你眉心。刹那间，许多想不通的关窍一一贯通。",
+        "effects": [{ "type": "attr", "key": "wuxing", "value": 1 }, { "type": "cultivation", "value": 100 }]
+      },
+      {
+        "text": "“前辈为何隐居在此？”",
+        "result": "老者望着竹林出了很久的神：“在等一个人，等不到了。”他忽然仔细看了看你，摇头笑道：“你这双眼睛，倒有几分像他。”你心里莫名一酸，却说不出缘由。",
+        "effects": [{ "type": "attr", "key": "xinjing", "value": 2 }]
+      }
+    ]
+  }
+]

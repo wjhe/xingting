@@ -1,0 +1,59 @@
+{
+  "src": "bc64a4d467130c9df901.wav",
+  "duration": 2.58,
+  "gain": 2.736976284898244,
+  "source_sha256": "bf40abbb773bc42ffd5c65dbedf6ee3f0e27f6265f72f2e019ed58cbd401b094",
+  "id": "opening.2.3",
+  "text": "……可以吗？",
+  "group": "opening",
+  "role": "dialogue",
+  "emotion": "年幼、自然，符合开场当下的情绪",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2160,
+        "start_time": 0,
+        "text": "……可以吗？",
+        "words": [
+          {
+            "end_time": 0,
+            "start_time": 0,
+            "text": "…"
+          },
+          {
+            "end_time": 0,
+            "start_time": 0,
+            "text": "…"
+          },
+          {
+            "end_time": 240,
+            "start_time": 0,
+            "text": "可"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1200,
+            "text": "以"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1640,
+            "text": "吗"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2160,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "……可以吗？"
+  }
+}

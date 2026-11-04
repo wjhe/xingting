@@ -1,0 +1,84 @@
+{
+  "src": "eb1bc8af6ddc30472346.wav",
+  "duration": 3.9,
+  "gain": 1.299452807809212,
+  "source_sha256": "48c299eaab2aa9014f187b2b9f015b1fcbe83ad60fab29580d07e41c142e31aa",
+  "id": "event.main_1_0.choice.0",
+  "text": "先写希望怎样度过每一天",
+  "group": "event:main_1_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3360,
+        "start_time": 480,
+        "text": "先写希望怎样度过每一天",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 480,
+            "text": "先"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "写"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1240,
+            "text": "希"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1440,
+            "text": "望"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "怎"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "样"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "度"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2360,
+            "text": "过"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2720,
+            "text": "每"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "一"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3120,
+            "text": "天"
+          }
+        ]
+      }
+    ],
+    "text": "先写希望怎样度过每一天"
+  }
+}

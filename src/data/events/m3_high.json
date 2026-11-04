@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "yunmeng_roc_nest",
+    "title": "雷鹏巢",
+    "art": "thunder_roc",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 8,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽心一座孤峰直插云霄，峰顶雷光翻涌。一头雷鹏盘踞巢上，翼展遮天，巢中三枚青紫色的卵噼啪作响，眼看就要破壳。",
+    "options": [
+      {
+        "text": "登峰夺翎",
+        "result": "你御剑而上。雷鹏长唳一声，双翼一振，万道雷霆朝你倾泻而下。",
+        "battle": {
+          "enemy": "thunder_roc",
+          "win": {
+            "result": "雷鹏坠入泽中，你拔下它最完整的两根翎羽。再回头时，巢里三只刚破壳的雏鸟正睁着湿漉漉的眼睛看你。你收了剑，没有再动手。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "roc_feather",
+                "count": 2
+              },
+              {
+                "type": "item",
+                "id": "roc_jingpo",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "雷霆贯体，你从峰顶跌落，在泽底昏睡了不知多少年才醒。",
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "藏身峰下，静观雏鹏破壳",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "雏鹏破壳那一刻，雷光如瀑。你以神识随之起伏，竟从中悟出几分雷法真意，修为大进。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 10000
+            }
+          ]
+        },
+        "fail": {
+          "result": "一道雷霆劈偏了方向，正落在你藏身之处，你被劈得半身焦麻。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            }
+          ]
+        }
+      },
+      {
+        "text": "不惊扰它，绕路离开",
+        "result": "你绕开孤峰。身后雷声隆隆，像一场迟迟不肯落下的雨。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_banyan_ferry",
+    "title": "唤名老榕",
+    "art": "tree_demon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽中小洲上立着一株老榕，树下的渡口已荒废多年。渔民说，夜里撑船经过的人，常听见树下有人喊自己的名字，应了的，就再没回来。你刚踏上沙洲，便听见了自己的名字。",
+    "options": [
+      {
+        "text": "应声，引它现身",
+        "result": "你朗声应道：“我在此。”整株老榕骤然苏醒，万千根须破土而出。",
+        "battle": {
+          "enemy": "tree_demon",
+          "win": {
+            "result": "树妖枯萎，你从焦黑的树干里剖出一颗碧绿的心核。根须底下，压着几十条朽坏的渔船，从此这条水路再无人失踪。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "tree_heart",
+                "count": 1
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "藤蔓缠住你的四肢，一点点汲取你的精元。等你挣断藤蔓逃出，鬓角已白了一片。",
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -25
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "闭口不应，斩断渡口",
+        "check": {
+          "attr": "xinjing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你一言不发，一剑斩断渡口的木桩。呼唤声在身后越来越弱，最后化作一声叹息。你的心也跟着静了下来。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "那声音越唤越像你娘。你终于没忍住，应了一声——等你回过神来，已在树下站了十五年。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -15
+            }
+          ]
+        }
+      },
+      {
+        "text": "退回船上，离开小洲",
+        "result": "你撑船离去。那声音一路跟着你，直到雾里。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_jiao_tribulation",
+    "title": "老蛟渡劫",
+    "art": "marsh_dragon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "乌云压泽，一条老蛟顶着雷劫逆流而上，鳞甲已被劈落大半。它望见你，竟没有扑来，只是低下了头——它在求你，别在这时候动手。",
+    "options": [
+      {
+        "text": "趁它力竭，屠蛟取丹",
+        "result": "你祭出法宝。老蛟眼中最后一点光暗了下去，仍拼死扑来。",
+        "battle": {
+          "enemy": "jiao_dragon",
+          "win": {
+            "result": "老蛟沉入泽底，雷云随之散去。你剖出那颗离化龙只差一步的内丹，掌心滚烫，心里却沉甸甸的。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "jiao_core",
+                "count": 1
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": -1
+              },
+              {
+                "type": "item",
+                "id": "jiao_nilin",
+                "count": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "垂死的老蛟比你想象中更可怕。你被它拖入泽底，九死一生才逃出来。",
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "替它挡下最后一道天雷",
+        "check": {
+          "attr": "gengu",
+          "dc": 10
+        },
+        "success": {
+          "result": "你迎着雷光飞身而上，硬扛下最后一道天雷。老蛟化作青龙腾空，临去前抖落两片鳞甲。你在雷火中淬过一遍的肉身，也隐隐摸到了瓶颈。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jiao_scale",
+              "count": 2
+            },
+            {
+              "type": "break_bonus",
+              "value": 0.05
+            }
+          ]
+        },
+        "fail": {
+          "result": "天雷比你想象中更重，你被劈落泽中。老蛟终究没能化龙，它把你驮上岸，便沉了下去。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -70
+            },
+            {
+              "type": "lifespan",
+              "value": -15
+            }
+          ]
+        }
+      },
+      {
+        "text": "远远观劫",
+        "result": "你在远处看完了这场雷劫，对天威多了几分体悟。老蛟终究没能化龙，沉下去时，泽面安静得像什么都没发生过。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 6000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_blood_altar",
+    "title": "芦中祭坛",
+    "art": "evil_rite",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 8,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽畔渔村接连有人失踪，村口的渔灯一盏盏熄了。你在芦苇深处找到一座新筑的祭坛，坛上刻着血魔宗的魔纹，残留的血气若有若无，飘向泽心。",
+    "options": [
+      {
+        "text": "循着血气追查",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "你以神识锁住那缕血气，一路追到泽心一座浮岛。岛上魔气冲天，正是血魔宗的一处分坛。",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "high_blood_trace"
+            }
+          ]
+        },
+        "fail": {
+          "result": "血气忽然炸开，是魔修留下的暗手。你受了伤，好在记住了它消散的方向——泽心浮岛。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "flag",
+              "key": "high_blood_trace"
+            }
+          ]
+        }
+      },
+      {
+        "text": "毁去祭坛，护送村民离开",
+        "result": "你一掌震碎祭坛，又护送村民迁往泽外。血魔宗的线索断了，但这些人活了下来。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "不是你的事",
+        "result": "你转身离开。修行至今，这样的事你见得太多，早已不会为之停留。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_blood_island",
+    "title": "浮岛血池",
+    "art": "marsh_demon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 25,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "flags": [
+        "high_blood_trace"
+      ]
+    },
+    "text": "浮岛中央是一座翻涌的血池，十几个渔民被关在池边的木笼里，面色灰白。看守的血袍魔修闭目吐纳，池中血气每翻涌一次，笼中便有人软倒下去。",
+    "options": [
+      {
+        "text": "正面强攻",
+        "result": "你不再隐藏气息，一剑劈开笼门。魔修霍然睁眼。",
+        "battle": {
+          "enemy": "demon_cultivator",
+          "win": {
+            "result": "魔修伏诛，你从他身上搜出一袋灵石。获救的渔民告诉你：月圆之夜，血魔宗长老要在泽心开启血海大阵，他们只是第一批祭品。",
+            "effects": [
+              {
+                "type": "flag",
+                "key": "high_blood_rescued"
+              },
+              {
+                "type": "stone",
+                "value": 3000
+              }
+            ]
+          },
+          "lose": {
+            "result": "血幡罩下，你被重创逼出浮岛，只来得及拉走两三个人。",
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -20
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "敛息潜入，先救人",
+        "check": {
+          "attr": "shenshi",
+          "dc": 10
+        },
+        "success": {
+          "result": "你趁魔修入定，悄悄打开笼门，带着渔民连夜离岛。路上一个老渔翁说：月圆之夜，长老要在泽心开血海大阵。",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "high_blood_rescued"
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "魔修忽然睁眼，血幡迎面罩下。你拼死撕开血幡逃离，笼中的人一个也没救出来。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            },
+            {
+              "type": "lifespan",
+              "value": -10
+            }
+          ]
+        }
+      },
+      {
+        "text": "势单力薄，暂且退走",
+        "result": "你退出浮岛。临走前回望一眼，血池的光把半边天都映红了。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_blood_sea",
+    "title": "血海大阵",
+    "art": "marsh_demon",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 30,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "flags": [
+        "high_blood_rescued"
+      ]
+    },
+    "text": "月圆之夜，泽心的水被染成暗红，一座血色大阵缓缓升起。阵中盘坐的白发老者睁开眼，声音竟很温和：“救走我祭品的，就是你？也好，一个金丹修士，抵得上一村人。”",
+    "options": [
+      {
+        "text": "斩魔，了结此事",
+        "result": "你拔剑入阵，血海翻涌，铺天盖地压了过来。",
+        "battle": {
+          "enemy": "demon_elder",
+          "win": {
+            "result": "大阵崩塌，血色退去，泽面重新映出了月亮。长老的洞府里藏着一件流光溢彩的天蚕宝衣，还有他多年搜刮的灵石。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "armor_tiancan",
+                "count": 1
+              },
+              {
+                "type": "stone",
+                "value": 6000
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": 1
+              },
+              {
+                "type": "flag",
+                "key": "high_blood_slain"
+              }
+            ]
+          },
+          "lose": {
+            "result": "血海将你吞没。你燃烧精血才冲出大阵，此后每逢月圆，心口便隐隐作痛。",
+            "effects": [
+              {
+                "type": "lifespan",
+                "value": -35
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "潜入泽底，斩断阵眼",
+        "check": {
+          "attr": "shenshi",
+          "dc": 11
+        },
+        "success": {
+          "result": "你一剑斩断阵眼，大阵反噬，长老重伤遁走。血海散尽，泽底凝出一汪精纯灵液，你吸纳入体，修为大进。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 15000
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "阵眼是个陷阱。血海倒卷，你重伤逃出，身后的大阵依旧运转。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            },
+            {
+              "type": "lifespan",
+              "value": -25
+            }
+          ]
+        }
+      },
+      {
+        "text": "带渔民连夜迁走",
+        "result": "你没有入阵，而是带着渔村老小连夜迁往泽外。那一夜，泽心的红光烧到了天明。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_stone_city",
+    "title": "石城",
+    "art": "marsh_palace",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽底沉着一座古城，满城的人都化作了石像：有人抬脚正要跨过门槛，有人举杯还未饮下。城中央的石台上，一枚丹丸仍散着金光。你忽然明白，这座城不是被淹没的，是有人想把时间留住。",
+    "options": [
+      {
+        "text": "取走石台上的丹丸",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 10
+        },
+        "success": {
+          "result": "你取下丹丸，满城石像依旧静默。是一枚金髓丹，在这里等了不知多少年。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jinsui_dan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "指尖刚触到丹丸，凝滞的时光便顺着手臂爬了上来。等你挣脱，已过去了三十年。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "参悟城中残阵",
+        "check": {
+          "attr": "wuxing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你沿着石街走了一遍又一遍，终于看懂这座阵：它留住了时间，却留不住人。你修为大进，心里却空落落的。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 12000
+            }
+          ]
+        },
+        "fail": {
+          "result": "阵纹在眼中流转不休，你看得头晕目眩，神识受了震荡。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            }
+          ]
+        }
+      },
+      {
+        "text": "不惊扰他们，离开",
+        "result": "你向满城石像拱手作别，游出了古城。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_talisman_boat",
+    "title": "雾中符师",
+    "art": "marsh_boat_oldman",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "雾里驶来一叶扁舟，舟头坐着一位老者，背影像极了某位你记不起名字的故人。走近了才看清，只是个画符的老道，正蘸着雷光一笔一笔落符。他头也不抬：“五雷符，一千五百灵石，不还价。”",
+    "options": [
+      {
+        "text": "买一张",
+        "requires": {
+          "stones": 1500
+        },
+        "result": "老道收了灵石，递过一张还噼啪冒着电光的符：“省着用。”",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -1500
+          },
+          {
+            "type": "item",
+            "id": "wulei_talisman",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "帮他稳住雷光，换一张符",
+        "check": {
+          "attr": "shenshi",
+          "dc": 10
+        },
+        "success": {
+          "result": "你以神识压住躁动的雷光，与老道合画了三张五雷符。他抽出一张塞给你，算是工钱。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "wulei_talisman",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "雷光在你笔下炸开，舟上的符纸烧了大半。老道心疼得直跺脚，一竿子把你赶下了船。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "问他为何独自在泽中画符",
+        "result": "“等一个人回来取符。”老道笑了笑，“等了两百年，也不知还等不等得到。”扁舟又没入了雾里。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_fisher_lamp",
+    "title": "渔灯",
+    "art": "marsh_fishing",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "渔村最外头的木桩上挂着一盏渔灯，每夜都亮。点灯的是个十来岁的少年，他说爹三年前出泽打鱼，再没回来。“灯亮着，爹就找得到家。”",
+    "options": [
+      {
+        "text": "以神识搜遍大泽",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "你神识铺开八百里，在泽底找到了那条沉船，把船里一块磨得发亮的玉佩带给少年。那一夜，他第一次自己吹灭了灯。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "你在泽中找了整整十年。泽底的沉船成百上千，却没有一条是他爹的。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -10
+            }
+          ]
+        }
+      },
+      {
+        "text": "留下灵石，让他们搬离泽边",
+        "requires": {
+          "stones": 2000
+        },
+        "result": "你留下两千灵石。少年攥着钱袋道了谢，可每到夜里，还是会去点那盏灯。你只盼这份善缘，日后能落回某个人身上。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -2000
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "陪他守一夜灯",
+        "result": "你在少年身边坐了一夜。天亮时他靠着你睡着了，灯还亮着。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_mirror_lake",
+    "title": "镜泊",
+    "art": "mirror_lake",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽中有一片平如镜面的小湖。湖里映出的不是你，而是另一个你：没有踏上仙途，在村里娶妻生子，此刻正白发苍苍地坐在檐下，儿孙绕膝。他朝你招了招手。",
+    "options": [
+      {
+        "text": "看着他，直到看完",
+        "check": {
+          "attr": "xinjing",
+          "dc": 10
+        },
+        "success": {
+          "result": "你看着他老去、闭眼，被儿孙送上山岗。湖面归于平静，你心中那点执念也随之散了，道心通明。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            },
+            {
+              "type": "break_bonus",
+              "value": 0.1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你在湖边坐了下来，想陪他过完这一生。等你回过神，二十五年已经过去了。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -25
+            }
+          ]
+        }
+      },
+      {
+        "text": "掷石入湖",
+        "result": "石子落下，涟漪荡开，那个你也碎了。你的道心更硬了些，修为随之精进，却总觉得忘了什么。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 8000
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "text": "转身离开",
+        "result": "你没有回头。湖面上，那个你慢慢放下了手。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_old_woman",
+    "title": "认错人",
+    "art": "marsh_fishing",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan",
+      "life_min": 2
+    },
+    "text": "渔村一位老婆婆盯着你看了很久，忽然拉住你的袖子：“仙长，六十年前你来过，模样一点没变。你说过会回来取的。”她从床底翻出一个布包。可这一世，你从没来过云梦泽。",
+    "options": [
+      {
+        "text": "接过布包",
+        "result": "布包里是一枚金髓丹，裹着一张字条，是你的笔迹：“若我没回来，这个给下一个我。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "jinsui_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "“婆婆，您认错人了。”",
+        "result": "老婆婆愣了愣，把布包慢慢收了回去：“那我再等等他。”你走出很远，才发觉眼眶有些发热。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_turtle_isle",
+    "title": "龟背莲",
+    "art": "marsh_lotus",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "你在一座开满莲花的小岛上打坐，第三天，小岛动了。原来这是一只老龟的背，龟甲正中钉着一枚锈迹斑斑的镇妖钉。老龟缓缓开口：“替我拔了它，岛上的莲子随你摘。”",
+    "options": [
+      {
+        "text": "运功拔钉",
+        "check": {
+          "attr": "gengu",
+          "dc": 10
+        },
+        "success": {
+          "result": "你一寸寸拔出镇妖钉。老龟长舒一口气，让你摘走岛上最好的一颗莲子。它沉入水底前，嘴角似乎挂着笑，不知为何，你背后有些发冷。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "lotus_seed",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "钉上的禁制反震而来，你被震飞出去，经脉剧痛。老龟叹了口气：“罢了，再等等。”",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -60
+            },
+            {
+              "type": "lifespan",
+              "value": -10
+            }
+          ]
+        }
+      },
+      {
+        "text": "先细看钉上的铭文",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "钉上刻着一行古篆：“此獠食人，镇之三千年。”你收回了手。老龟见骗不过你，沉回泽底，满岛莲花顷刻凋零。你从那道禁制里参悟出几分封镇之道。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 6000
+            }
+          ]
+        },
+        "fail": {
+          "result": "古篆太过久远，你看了三天也没认出几个字，老龟已不耐烦地沉了下去。"
+        }
+      },
+      {
+        "text": "跳下龟背，离开",
+        "result": "你踏水而去。身后的小岛又静静浮在泽面上，像什么都没发生。"
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_old_furnace",
+    "title": "古炉余火",
+    "art": "meditation_cave",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "泽中荒岛上有座塌了半边的道观，观中丹炉的火竟还燃着。炉边坐着一具枯骨，双手仍掐着法诀。炉中丹香越来越浓，看样子，这一炉丹再过些年就要成了。",
+    "options": [
+      {
+        "text": "接过他的法诀，守到丹成",
+        "result": "你在炉边坐了十二年，替他守完最后一道火候。开炉那日，炉中静静躺着一枚金髓丹，你把枯骨葬在了观后。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -12
+          },
+          {
+            "type": "item",
+            "id": "jinsui_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "以神识强行开炉",
+        "check": {
+          "attr": "shenshi",
+          "dc": 10
+        },
+        "success": {
+          "result": "你以神识压住炉中躁动的药力，强行开炉，一枚金髓丹落入掌心。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "jinsui_dan",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "丹炉轰然炸开，火光吞没了整座道观，你狼狈地逃了出来。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -70
+            }
+          ]
+        }
+      },
+      {
+        "text": "合上观门，不去打扰",
+        "result": "你合上观门。有些事，不该由旁人替他做完。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yunmeng_ferryman",
+    "title": "老艄公",
+    "art": "marsh_fishing",
+    "region": [
+      "yunmeng_marsh"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "你雇了条渔船渡泽。艄公九十多岁了，手很稳，一路哼着渔歌。船到对岸，他咳了两声，笑道：“仙长，这条船明年就传给孙子啦，我怕是撑不到开春。”",
+    "options": [
+      {
+        "text": "渡他一口真元",
+        "result": "你一指点在他眉心。老艄公愣了半天，才发现咳嗽好了。你却觉得身上有什么东西，轻轻少了一截。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -15
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "付了船钱，道声保重",
+        "result": "你看着他把船撑回雾里，渔歌声越来越远。凡人的一辈子，在你这里不过一次闭关。"
+      }
+    ]
+  },
+  {
+    "id": "common_campfire_stranger",
+    "title": "借火人",
+    "art": "night_camp",
+    "region": [
+      "luoxia_mountain",
+      "heifeng_valley"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji"
+    },
+    "text": "夜里你在林间生了堆火。一个背着空剑鞘的中年人走过来，问能不能借个火。他烤着手说，自己在找一柄丢了的剑，找了二十年。",
+    "options": [
+      {
+        "text": "分他干粮，听他讲剑",
+        "result": "天亮时他不见了，火堆边压着一卷剑诀心得，你读后颇有所得。背面歪歪扭扭写着一行字：“本想偷你的，算了。”",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "text": "留个心眼，彻夜不眠",
+        "check": {
+          "attr": "shenshi",
+          "dc": 8
+        },
+        "success": {
+          "result": "后半夜，他悄悄摸向你的储物袋，被你一把扣住手腕。他讪讪一笑，掏出一袋灵石赔罪，连夜走了。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 150
+            }
+          ]
+        },
+        "fail": {
+          "result": "你终究没熬住，打了个盹。醒来时人已不见，你的钱袋也轻了不少。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -100
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "common_seclusion_insight",
+    "title": "洞中契机",
+    "art": "meditation_cave",
+    "region": [
+      "heifeng_valley",
+      "yunmeng_marsh",
+      "luoxia_mountain"
+    ],
+    "weight": 4,
+    "conditions": {
+      "realm_min": "jindan"
+    },
+    "text": "你寻了一处无人的山洞闭关。某夜入定，洞外的风声、水声、虫声忽然都慢了下来，一丝契机在识海深处若隐若现。要抓住它，或许得很久。",
+    "options": [
+      {
+        "text": "闭死关，不悟不出",
+        "check": {
+          "attr": "wuxing",
+          "dc": 9
+        },
+        "success": {
+          "result": "你在洞中枯坐了二十年，出关时石壁上刻满了剑痕。那一丝契机，终于被你攥在了掌心。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -20
+            },
+            {
+              "type": "cultivation",
+              "value": 25000
+            },
+            {
+              "type": "break_bonus",
+              "value": 0.05
+            }
+          ]
+        },
+        "fail": {
+          "result": "二十年过去，契机始终差了一线。你推开洞口的石头，外面的树已经长得很高了。",
+          "effects": [
+            {
+              "type": "lifespan",
+              "value": -20
+            },
+            {
+              "type": "cultivation",
+              "value": 5000
+            }
+          ]
+        }
+      },
+      {
+        "text": "顺其自然，三月即出",
+        "result": "你没有强求。三个月后出关，修为略有精进，那丝契机也悄然散去了。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 6000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "common_tribulation_watch",
+    "title": "观劫",
+    "art": "tribulation",
+    "region": [
+      "luoxia_mountain",
+      "heifeng_valley"
+    ],
+    "weight": 4,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji"
+    },
+    "text": "远处山巅劫云翻涌，有位前辈正在渡结丹天劫。雷光一道比一道粗，周围的修士都躲得远远的，只有你还站在原地。",
+    "options": [
+      {
+        "text": "冒险靠近，感应天雷",
+        "check": {
+          "attr": "shenshi",
+          "dc": 8
+        },
+        "success": {
+          "result": "你以神识追着每一道天雷落下的轨迹，体会到天地之威，对日后的瓶颈也多了几分把握。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 500
+            },
+            {
+              "type": "break_bonus",
+              "value": 0.05
+            }
+          ]
+        },
+        "fail": {
+          "result": "余波横扫而来，你被震飞出去，气血翻涌，元气大伤。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -50
+            },
+            {
+              "type": "lifespan",
+              "value": -3
+            }
+          ]
+        }
+      },
+      {
+        "text": "等劫后再上山巅",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 9
+        },
+        "success": {
+          "result": "劫云散尽，前辈结丹功成，飘然而去。山巅焦土里，你捡到一张被雷火淬过的雷符。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "thunder_talisman",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "你上山早了一步，正撞上劫云最后的余怒，被劈得满身焦黑。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "退到安全处",
+        "result": "你远远躲开，只当看了一场盛大的雷雨。"
+      }
+    ]
+  },
+  {
+    "id": "common_dream_past",
+    "title": "前世梦",
+    "art": "heart_demon",
+    "region": [
+      "qingshi_village",
+      "luoxia_mountain",
+      "qingyun_market",
+      "heifeng_valley",
+      "yunmeng_marsh"
+    ],
+    "weight": 3,
+    "once": true,
+    "conditions": {
+      "meta_flags": [
+        "met_old_man"
+      ]
+    },
+    "text": "你做了一个很长的梦。梦里你是个白发老人，独坐洞府，寿元将尽，丹田里的金丹一点点暗下去。你听见自己低声说：“又失败了么……”然后你醒了，枕边一片冰凉。",
+    "options": [
+      {
+        "text": "趁记忆未散，把梦写下来",
+        "result": "你写下梦里的每一处细节：洞府的模样、那颗暗下去的金丹、临终前没想通的那个关窍。写完再读，竟有几分明悟。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "不去想它",
+        "result": "你起身打了一套拳，把那个梦甩在身后。这一世，是这一世。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "common_own_bones",
+    "title": "洞中枯骨",
+    "art": "mountain_cave",
+    "region": [
+      "luoxia_mountain",
+      "heifeng_valley",
+      "yunmeng_marsh"
+    ],
+    "weight": 3,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "meta_flags": [
+        "ruins_mural"
+      ]
+    },
+    "text": "你躲进一个山洞避雨，洞底盘坐着一具枯骨，身前的石壁上刻满了小字。你凑近去看，脊背一凉——那是你的笔迹。最后一行写着：“第七次走到这里。下一次，往左。”",
+    "options": [
+      {
+        "text": "依言往左",
+        "result": "洞的左侧果然有条暗道，尽头藏着一只玉匣，匣中是一枚破障丹。是你留给自己的。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "pozhang_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "安葬他",
+        "result": "你把枯骨葬在洞口。墓碑上该写什么名字，你想了很久，最后什么也没写。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "在石壁上刻下一行",
+        "result": "你想了很久，刻下：“第八次。我还记得。”刻完这一笔，你对这条路看得更清楚了些。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "common_old_friend",
+    "title": "故人白头",
+    "art": "village_farewell",
+    "region": [
+      "qingshi_village",
+      "luoxia_mountain",
+      "qingyun_market"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji"
+    },
+    "text": "路边歇脚时，一个挑柴的老汉眯眼打量你，忽然喊出了你的小名。你认出他了，是小时候一起掏鸟窝的铁柱。他已满脸皱纹，你却还是当年离家时的模样。",
+    "options": [
+      {
+        "text": "陪他喝一壶酒",
+        "result": "你们喝到半夜，他说的全是你早忘了的事。临别时他拍拍你的肩：“你别难过，我这辈子挺好。”",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "取出一枚延寿丹给他",
+        "requires": {
+          "items": {
+            "yanshou_dan": 1
+          }
+        },
+        "result": "他捏着丹药看了半天，又塞回你手里：“多活五年，也还是要走。留给用得着的人吧。”你握着那枚丹药，忽然想通了一些事。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "压低斗笠，装作不认识",
+        "result": "你从他身边走了过去。身后传来他一声嘟囔：“认错了。那小子要是还活着，也该老了。”"
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "src": "7938f5587495a8aadeb4.wav",
+  "duration": 2.28,
+  "gain": 1.0320821136102567,
+  "source_sha256": "9a22e2b3349d9a6e6b698d420587c888b54b27966010a6b3ef77bf13d23120c9",
+  "id": "opening.3.1",
+  "text": "好暖和。",
+  "group": "opening",
+  "role": "dialogue",
+  "emotion": "年幼、自然，符合开场当下的情绪",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1560,
+        "start_time": 480,
+        "text": "好暖和。",
+        "words": [
+          {
+            "end_time": 760,
+            "start_time": 480,
+            "text": "好"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "暖"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1240,
+            "text": "和"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "好暖和。"
+  }
+}

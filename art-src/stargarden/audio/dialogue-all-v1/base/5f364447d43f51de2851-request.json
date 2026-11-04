@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "608764ba-2aa1-42c2-a117-1a99cd6c0c48",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“在协助人一栏留下名字”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050048837EB70ADAFE6818B885",
+  "response": {
+    "duration": 3.7,
+    "original_duration": 3.7,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3280,
+          "start_time": 1080,
+          "text": "在协助人一栏留下名字",
+          "words": [
+            {
+              "end_time": 1360,
+              "start_time": 1080,
+              "text": "在"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1440,
+              "text": "协"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1680,
+              "text": "助"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1880,
+              "text": "人"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2160,
+              "text": "一"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2400,
+              "text": "栏"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2680,
+              "text": "留"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2840,
+              "text": "下"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2960,
+              "text": "名"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3120,
+              "text": "字"
+            }
+          ]
+        }
+      ],
+      "text": "在协助人一栏留下名字"
+    }
+  }
+}

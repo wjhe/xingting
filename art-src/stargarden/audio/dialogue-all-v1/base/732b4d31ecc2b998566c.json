@@ -1,0 +1,278 @@
+{
+  "src": "732b4d31ecc2b998566c.wav",
+  "duration": 11.68,
+  "gain": 1.5940800757037492,
+  "source_sha256": "e94e9cd0de62ca9d14c241f40fab035e7ee7a97cb8742f1b60162b2e097f1f85",
+  "id": "event.main_5_2.text",
+  "text": "今年有个孩子因为紧张躲在桌子下面。艾莉蹲下来，说了与你多年前相似的话。你站在不远处，没有打断。",
+  "group": "event:main_5_2",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3840,
+        "start_time": 480,
+        "text": "今年有个孩子因为紧张躲在桌子下面。",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 480,
+            "text": "今"
+          },
+          {
+            "end_time": 920,
+            "start_time": 680,
+            "text": "年"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "有"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1120,
+            "text": "个"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1240,
+            "text": "孩"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "子"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1640,
+            "text": "因"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1800,
+            "text": "为"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1920,
+            "text": "紧"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "张"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2520,
+            "text": "躲"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2760,
+            "text": "在"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2920,
+            "text": "桌"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3160,
+            "text": "子"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3360,
+            "text": "下"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3600,
+            "text": "面"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3840,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8640,
+        "start_time": 4680,
+        "text": "艾莉蹲下来，说了与你多年前相似的话。",
+        "words": [
+          {
+            "end_time": 4800,
+            "start_time": 4680,
+            "text": "艾"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4920,
+            "text": "莉"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5280,
+            "text": "蹲"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5520,
+            "text": "下"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5720,
+            "text": "来"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 6040,
+            "text": "，"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6160,
+            "text": "说"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6440,
+            "text": "了"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6680,
+            "text": "与"
+          },
+          {
+            "end_time": 7080,
+            "start_time": 6920,
+            "text": "你"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7080,
+            "text": "多"
+          },
+          {
+            "end_time": 7400,
+            "start_time": 7240,
+            "text": "年"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7400,
+            "text": "前"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7640,
+            "text": "相"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7920,
+            "text": "似"
+          },
+          {
+            "end_time": 8360,
+            "start_time": 8160,
+            "text": "的"
+          },
+          {
+            "end_time": 8640,
+            "start_time": 8360,
+            "text": "话"
+          },
+          {
+            "end_time": 8640,
+            "start_time": 8640,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11480,
+        "start_time": 9200,
+        "text": "你站在不远处，没有打断。",
+        "words": [
+          {
+            "end_time": 9440,
+            "start_time": 9200,
+            "text": "你"
+          },
+          {
+            "end_time": 9680,
+            "start_time": 9440,
+            "text": "站"
+          },
+          {
+            "end_time": 9840,
+            "start_time": 9680,
+            "text": "在"
+          },
+          {
+            "end_time": 10080,
+            "start_time": 9840,
+            "text": "不"
+          },
+          {
+            "end_time": 10320,
+            "start_time": 10080,
+            "text": "远"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10320,
+            "text": "处"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10600,
+            "text": "，"
+          },
+          {
+            "end_time": 11000,
+            "start_time": 10840,
+            "text": "没"
+          },
+          {
+            "end_time": 11080,
+            "start_time": 11000,
+            "text": "有"
+          },
+          {
+            "end_time": 11320,
+            "start_time": 11080,
+            "text": "打"
+          },
+          {
+            "end_time": 11480,
+            "start_time": 11320,
+            "text": "断"
+          },
+          {
+            "end_time": 11480,
+            "start_time": 11480,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "今年有个孩子因为紧张躲在桌子下面。艾莉蹲下来，说了与你多年前相似的话。你站在不远处，没有打断。"
+  }
+}

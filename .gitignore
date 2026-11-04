@@ -1,0 +1,44 @@
+node_modules/
+dist/
+dist-wechat/
+android/app/build/
+*.log
+
+# 密钥，不要提交
+gpt_image_2_5_key.txt
+.env.local
+音频生成key.txt
+volc_audio_key.txt
+音色设计配置.json
+音色设计少女配置.json
+
+# 安卓签名密钥（务必另外备份，丢了就无法更新应用）
+android-keys/
+android/local.properties
+dist-android/
+
+# 测试截图、生成图的废稿与试验图（可随时重新生成）
+screenshots/
+art-src/_rejected/
+art-src/_test/
+# 与 art-src/audio/bgm 重复的音乐原文件
+生成好的音乐/
+# cap sync 生成的网页副本
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+__pycache__/
+tools/models/
+tools/audio-python/
+
+# 音乐试听剪辑（可由 scripts/stargarden-music-build.py --preview 重新生成）
+art-src/stargarden/audio/music-review/*.m4a
+art-src/stargarden/audio/music-review/*.mp3
+
+# 本地运行时、模型和临时文件（体积过大，不进入 Git）
+.runtime/
+ShiyingCutout/
+S_jPukgGbk2.txt
+
+# 本地 API 密钥
+RunningHubkey.txt

@@ -1,0 +1,94 @@
+{
+  "src": "1623af331884f4b0aea2.wav",
+  "duration": 4.8,
+  "gain": 1.5754839809518553,
+  "source_sha256": "09072146c710ba85808e8609555828bdc86a4e580825265691ef82d5c5a07106",
+  "id": "opening.3.0",
+  "text": "那一晚，屋里的灯一直亮着。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4440,
+        "start_time": 1080,
+        "text": "那一晚，屋里的灯一直亮着。",
+        "words": [
+          {
+            "end_time": 1400,
+            "start_time": 1080,
+            "text": "那"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1400,
+            "text": "一"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1640,
+            "text": "晚"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1800,
+            "text": "，"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2400,
+            "text": "屋"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "里"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2920,
+            "text": "的"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3120,
+            "text": "灯"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3560,
+            "text": "一"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3680,
+            "text": "直"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4000,
+            "text": "亮"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4200,
+            "text": "着"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4440,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "那一晚，屋里的灯一直亮着。"
+  }
+}

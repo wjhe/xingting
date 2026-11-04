@@ -1,0 +1,59 @@
+{
+  "src": "f6f3c5ee9f471c805497.wav",
+  "duration": 2.78,
+  "gain": 1.0111794868293504,
+  "source_sha256": "c35cb261b200011d7f72fd27c10d8d898d212b528cc08fb5144903560a2e749d",
+  "id": "event.main_2_2.choice.0",
+  "text": "郑重为她戴上",
+  "group": "event:main_2_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2320,
+        "start_time": 480,
+        "text": "郑重为她戴上",
+        "words": [
+          {
+            "end_time": 560,
+            "start_time": 480,
+            "text": "郑"
+          },
+          {
+            "end_time": 880,
+            "start_time": 800,
+            "text": "重"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1160,
+            "text": "为"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1560,
+            "text": "她"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1880,
+            "text": "戴"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "上"
+          }
+        ]
+      }
+    ],
+    "text": "郑重为她戴上"
+  }
+}

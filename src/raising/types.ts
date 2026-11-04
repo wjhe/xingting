@@ -1,0 +1,30 @@
+export const STAT_KEYS = ['stamina', 'intellect', 'charm', 'grace', 'combat', 'kindness'] as const;
+export type Stat = typeof STAT_KEYS[number];
+export type Stats = Record<Stat, number>;
+export type Category = 'learn' | 'work' | 'rest' | 'adventure';
+export interface Activity {
+  id: string; name: string; category: Category; icon: string; description: string;
+  gold: number; stress: number; gains: Partial<Stats>; unlock?: { stat: Stat; value: number }; age?: number;
+}
+export interface Outcome { text: string; gains?: Partial<Stats>; gold?: number; stress?: number; bond?: number; flag?: string; relation?: { id: string; value: number } }
+export interface EventConditions {
+  months?: number[]; minStats?: Partial<Stats>; minStress?: number; maxStress?: number; minBond?: number;
+  activities?: Record<string, number>; flags?: string[]; notFlags?: string[]; outfit?: string;
+}
+export interface StoryEvent {
+  id: string; title: string; text: string; icon: string; minAge?: number; maxAge?: number;
+  kind?: 'main' | 'side' | 'daily'; dueMonth?: number; priority?: number; art?: string; conditions?: EventConditions;
+  choices: { label: string; outcome: Outcome }[];
+}
+export interface DiaryEntry { month: number; title: string; text: string; kind: 'month' | 'story' | 'birthday' | 'festival' | 'gift' }
+export interface BattleStep { actor: 'daughter' | 'enemy'; damage: number; playerHp: number; enemyHp: number }
+export interface BattleReplay { enemy: string; enemyIcon: string; region?: string; /** 对手立绘（production-v1 下的文件名） */ enemyArt?: string; playerMaxHp: number; enemyMaxHp: number; steps: BattleStep[]; victory: boolean; reward: number }
+export interface MonthResult { title: string; text: string; icon: string; gains: Partial<Stats>; gold: number; stress: number; battle?: BattleReplay }
+export interface Ending { id: string; title: string; subtitle: string; icon: string; text: string; requires: Partial<Stats>; bond?: number; priority: number }
+export interface GameState {
+  version: 1; name: string; parent: string; month: number; gold: number; stats: Stats; stress: number; bond: number;
+  rngState: number; plan: [string | null, string | null, string | null]; diary: DiaryEntry[]; inventory: string[];
+  flags: string[]; talked: number; gifted: number; outfit: string; pendingEvent: string | null; ended: boolean; ending: string | null;
+  activityCounts: Record<string, number>; storyStartMonth: number; relations: Record<string, number>;
+}
+export interface MetaState { version: 1; endings: string[]; runs: number }

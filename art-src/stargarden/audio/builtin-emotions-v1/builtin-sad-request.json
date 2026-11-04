@@ -1,0 +1,108 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional",
+  "resource_id": "seed-tts-2.0",
+  "speaker_id": "zh_female_vv_uranus_bigtts",
+  "request_id": "718ff683-07cf-4466-afaf-e11297ecbcfb",
+  "request": {
+    "req_params": {
+      "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+      "speaker": "zh_female_vv_uranus_bigtts",
+      "audio_params": {
+        "format": "mp3",
+        "sample_rate": 24000,
+        "bit_rate": 160000
+      },
+      "additions": "{\"context_texts\": [\"有些难过和失落地说，轻声、稍慢、尾音低落，但不哭喊、不啜泣，保持吐字清楚。\"]}"
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261104032906C9ECF79C7744619F8792",
+  "events": [
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": ""
+    },
+    {
+      "code": 0,
+      "message": "",
+      "sentence": {
+        "phonemes": [],
+        "text": "今天的练习结束了。我还有很多地方需要努力，谢谢你一直陪着我。",
+        "words": []
+      }
+    },
+    {
+      "code": 20000000,
+      "message": "OK"
+    }
+  ],
+  "audio": {
+    "src": "builtin-sad.wav",
+    "duration": 6.456,
+    "gain": 0.593938019655945,
+    "source_sha256": "08ac37bf6821212d61c92896089496c1dfb7f9bb6469c84bcf0fdd07167ffda8",
+    "label": "难过",
+    "instruction": "有些难过和失落地说，轻声、稍慢、尾音低落，但不哭喊、不啜泣，保持吐字清楚。",
+    "speaker_id": "zh_female_vv_uranus_bigtts"
+  }
+}

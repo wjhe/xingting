@@ -1,0 +1,79 @@
+{
+  "author": "Kenney",
+  "packs": [
+    "Interface Sounds 1.0",
+    "Impact Sounds 1.0"
+  ],
+  "sources": [
+    "https://kenney.nl/assets/interface-sounds",
+    "https://kenney.nl/assets/impact-sounds"
+  ],
+  "license": "CC0-1.0",
+  "downloaded": "2026-11-01",
+  "processing": "RMS target 0.06; peak cap 0.7; trim silence; 2ms edge fades; OGG Vorbis and PCM16 WAV fallback",
+  "interfaceFiles": {
+    "click": "click_003",
+    "back": "back_001",
+    "buy": "confirmation_001",
+    "dress": "maximize_001",
+    "event": "open_001",
+    "victory": "confirmation_004"
+  },
+  "impactFiles": {
+    "hit": "impactWood_medium_000",
+    "hurt": "impactPunch_medium_000"
+  },
+  "ui_2026_11_05": {
+    "note": "按钮类音效改用 Kenney RPG Audio（CC0），原 Interface Sounds 版本备份在 art-src/stargarden/audio/sfx-previous/",
+    "packs": {
+      "kenney-rpg-audio": "https://opengameart.org/content/50-rpg-sound-effects (CC0, Kenney Vleugels)",
+      "kenney-ui-sfx": "https://opengameart.org/content/51-ui-sound-effects-buttons-switches-and-clicks (CC0, Kenney Vleugels，备选)"
+    },
+    "downloaded": "2026-11-05",
+    "processing": "trim silence; RMS target per sound; peak cap 0.7; 2 ms fade-in, 15 ms fade-out; mono 44.1 kHz; OGG Vorbis q5 + PCM16 WAV",
+    "files": {
+      "click": {
+        "source": "kenney-rpg-audio/handleSmallLeather.ogg",
+        "ms": 179,
+        "rms": 0.035,
+        "peak": 0.38
+      },
+      "page": {
+        "source": "kenney-rpg-audio/bookFlip3.ogg",
+        "ms": 184,
+        "rms": 0.03,
+        "peak": 0.55
+      },
+      "back": {
+        "source": "kenney-rpg-audio/bookClose.ogg",
+        "ms": 167,
+        "rms": 0.04,
+        "peak": 0.32
+      },
+      "place": {
+        "source": "kenney-rpg-audio/bookPlace2.ogg",
+        "ms": 176,
+        "rms": 0.045,
+        "peak": 0.27
+      },
+      "buy": {
+        "source": "kenney-rpg-audio/handleCoins2.ogg",
+        "ms": 261,
+        "rms": 0.05,
+        "peak": 0.58
+      },
+      "dress": {
+        "source": "kenney-rpg-audio/cloth2.ogg",
+        "ms": 279,
+        "rms": 0.05,
+        "peak": 0.38
+      },
+      "event": {
+        "source": "kenney-rpg-audio/bookOpen.ogg",
+        "ms": 126,
+        "rms": 0.045,
+        "peak": 0.45
+      }
+    }
+  }
+}

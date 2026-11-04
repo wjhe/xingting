@@ -1,0 +1,69 @@
+{
+  "src": "68f2060037856a3be999.wav",
+  "duration": 3.28,
+  "gain": 1.0447012846590553,
+  "source_sha256": "6b8512f7b63b0e889184875baf6b77b7ef6f893b0d424d68cbafb706b6ce840f",
+  "id": "event.main_3_2.choice.1",
+  "text": "写一张家人的留言",
+  "group": "event:main_3_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 480,
+        "text": "写一张家人的留言",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 480,
+            "text": "写"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 840,
+            "text": "一"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1080,
+            "text": "张"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1640,
+            "text": "家"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "人"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "的"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "留"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "言"
+          }
+        ]
+      }
+    ],
+    "text": "写一张家人的留言"
+  }
+}

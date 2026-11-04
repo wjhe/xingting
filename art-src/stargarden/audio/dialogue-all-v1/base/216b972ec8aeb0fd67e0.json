@@ -1,0 +1,89 @@
+{
+  "src": "216b972ec8aeb0fd67e0.wav",
+  "duration": 4.4,
+  "gain": 1.429584980666673,
+  "source_sha256": "fd350f92304a4985b7a539f48e1eea538dab355754230752bb0ce387489c38b8",
+  "id": "event.main_5_0.choice.0",
+  "text": "提醒她先记住被帮助的感觉",
+  "group": "event:main_5_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3840,
+        "start_time": 360,
+        "text": "提醒她先记住被帮助的感觉",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 360,
+            "text": "提"
+          },
+          {
+            "end_time": 840,
+            "start_time": 600,
+            "text": "醒"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1000,
+            "text": "她"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1440,
+            "text": "先"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1800,
+            "text": "记"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2040,
+            "text": "住"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2520,
+            "text": "被"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2800,
+            "text": "帮"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3080,
+            "text": "助"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "的"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "感"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3680,
+            "text": "觉"
+          }
+        ]
+      }
+    ],
+    "text": "提醒她先记住被帮助的感觉"
+  }
+}

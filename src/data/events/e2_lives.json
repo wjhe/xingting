@@ -1,0 +1,878 @@
+[
+  {
+    "id": "e2c_bury_jar",
+    "title": "槐下埋坛",
+    "art": "jar_under_tree",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 8,
+    "once": true,
+    "conditions": {
+      "realm_max": "lianqi",
+      "life_min": 2,
+      "not_meta_flags": [
+        "e2c_jar_buried"
+      ]
+    },
+    "text": "路过村口老槐树时，你忽然停住了脚。树根东侧那块地，你说不上为什么，总觉得该在那里埋点东西——像是很久以前和谁约好了，却想不起是和谁。",
+    "options": [
+      {
+        "text": "埋下三十灵石和一封信",
+        "requires": {
+          "stones": 30
+        },
+        "result": "你把灵石和信装进一只旧陶坛，埋在树根下三尺。信上只写了一句：“给下一个走到这里的我。”",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -30
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_jar_buried"
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_jar_stones"
+          },
+          {
+            "type": "flag",
+            "key": "e2c_jar_buried_now"
+          }
+        ]
+      },
+      {
+        "text": "只埋一封信",
+        "result": "你把信封进陶坛埋了。填平土时，掌心出了一层薄汗，像是做了一件很要紧的事。",
+        "effects": [
+          {
+            "type": "meta_flag",
+            "key": "e2c_jar_buried"
+          },
+          {
+            "type": "flag",
+            "key": "e2c_jar_buried_now"
+          }
+        ]
+      },
+      {
+        "text": "摇摇头，走开",
+        "result": "走出很远，那块地还在你心里空着。"
+      }
+    ]
+  },
+  {
+    "id": "e2c_dig_jar",
+    "title": "树下旧坛",
+    "art": "jar_under_tree",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 12,
+    "once": true,
+    "conditions": {
+      "realm_max": "lianqi",
+      "life_min": 4,
+      "meta_flags": [
+        "e2c_jar_buried"
+      ],
+      "not_meta_flags": [
+        "e2c_jar_dug"
+      ],
+      "not_flags": [
+        "e2c_jar_buried_now"
+      ]
+    },
+    "text": "老槐树根东侧有块地，土色比别处深些。你看一眼就知道底下埋着东西——因为是你亲手埋的。可这一世，你才头一回走到这棵树下。",
+    "options": [
+      {
+        "text": "挖开陶坛，倒出坛底",
+        "requires": {
+          "meta_flags": [
+            "e2c_jar_stones"
+          ],
+          "hint": "你隐约记得，坛里只放了一封信"
+        },
+        "result": "信纸黄脆，字是你的字：“若你又走到这里，说明还没走出去。灵石在土里养了几十年，拿去用吧。”坛底的灵石沾了地气，摸上去温温的。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 50
+          },
+          {
+            "type": "cultivation",
+            "value": 20
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_jar_dug"
+          }
+        ]
+      },
+      {
+        "text": "挖开陶坛，只读那封信",
+        "result": "信纸黄脆，字是你的字：“若你又走到这里，说明还没走出去。别急，慢慢走。”你读了三遍，心里空着的那块地方，好像被填上了一点。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_jar_dug"
+          }
+        ]
+      },
+      {
+        "text": "原样埋着，留给更后面的你",
+        "result": "你在坛上又添了一层土。也许再过几世，会有一个更需要它的你走到这里。"
+      }
+    ]
+  },
+  {
+    "id": "e2c_fox_cub",
+    "title": "雪夜幼狐",
+    "art": "snow_fox",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji",
+      "life_min": 2,
+      "not_meta_flags": [
+        "e2c_fox_named"
+      ]
+    },
+    "text": "山里落了头场雪，你在篝火边守夜。一只冻得发抖的白狐幼崽挪到火边，挨着你的靴子蜷成一团。它一点也不怕你，仿佛这样挨着你取暖，已经是很多回的事了。",
+    "options": [
+      {
+        "text": "揣进怀里，叫它“阿雪”",
+        "result": "你把它揣在怀里暖了一夜，随口唤它阿雪。天亮时它舔了舔你的手指，一溜烟钻进了雪林。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_fox_named"
+          },
+          {
+            "type": "flag",
+            "key": "e2c_fox_named_now"
+          }
+        ]
+      },
+      {
+        "text": "由它去，专心打坐",
+        "result": "你闭目运功到天明，灵力在雪夜里格外清透。睁眼时火已熄了，靴边只剩一个小小的窝印。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2c_fox_return",
+    "title": "三尾白狐",
+    "art": "mountain_fox",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 12,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji",
+      "life_min": 4,
+      "meta_flags": [
+        "e2c_fox_named"
+      ],
+      "not_meta_flags": [
+        "e2c_fox_reunited"
+      ],
+      "not_flags": [
+        "e2c_fox_named_now"
+      ]
+    },
+    "text": "山道上蹲着一只白狐，身后拖着三条尾巴，少说修了几十年。你从没见过它，它却一路小跑到你跟前，仰头轻轻叫了一声。你心里莫名冒出两个字：阿雪。",
+    "options": [
+      {
+        "text": "“阿雪？”",
+        "result": "白狐一头扑进你怀里，三条尾巴摇成一团雪。它叼着你的衣角，领你到一处石缝前，里面藏着一枚朱果，是它攒了许多年的。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_zhuguo",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_fox_reunited"
+          }
+        ]
+      },
+      {
+        "text": "“你认错人了。”",
+        "result": "白狐歪着头看了你很久，终于转身走了。它没有认错，你知道。那夜你梦见一场大雪，醒来时心口闷闷的。"
+      }
+    ]
+  },
+  {
+    "id": "e2c_cliff_carve",
+    "title": "崖上刻字",
+    "art": "cliff_carving",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan",
+      "life_min": 3,
+      "not_meta_flags": [
+        "e2c_cliff_carved"
+      ]
+    },
+    "text": "黑风刮了万年，峡谷的崖壁被磨得光滑如镜。你在一处背风的凹壁前站了很久：这一世不会永远活下去，可这一世走过的弯路，总该给下一个你留点什么。",
+    "options": [
+      {
+        "text": "以剑为笔，刻下这一世的修行心得",
+        "result": "你刻了整整三年，把走过的弯路一条条写在崖上，最后落款：“后来者，莫重蹈。”写完再看，自己也明白了几分。",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -1
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_cliff_carved"
+          },
+          {
+            "type": "flag",
+            "key": "e2c_cliff_carved_now"
+          }
+        ]
+      },
+      {
+        "text": "风这么大，刻了也会被磨平",
+        "result": "你收剑离开。身后风声呜咽，像是谁在叹气。"
+      }
+    ]
+  },
+  {
+    "id": "e2c_cliff_read",
+    "title": "崖上旧字",
+    "art": "cliff_carving",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 12,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan",
+      "life_min": 5,
+      "meta_flags": [
+        "e2c_cliff_carved"
+      ],
+      "not_meta_flags": [
+        "e2c_cliff_read"
+      ],
+      "not_flags": [
+        "e2c_cliff_carved_now"
+      ]
+    },
+    "text": "峡谷背风处的崖壁上刻满了小字，被风磨得极浅，要贴得很近才看得清。你读了两行，后背一阵发凉——这是你的笔迹，写的正是你这一世正在走的弯路。",
+    "options": [
+      {
+        "text": "一字一句读完",
+        "check": {
+          "attr": "wuxing",
+          "dc": 8
+        },
+        "success": {
+          "result": "你照着崖上所写，绕开了那几处岔路，丹田灵力一夜之间顺畅了许多。落款处写着：“后来者，莫重蹈。”",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 1200
+            },
+            {
+              "type": "break_bonus",
+              "value": 0.05
+            },
+            {
+              "type": "meta_flag",
+              "key": "e2c_cliff_read"
+            }
+          ]
+        },
+        "fail": {
+          "result": "字迹太浅，你只读懂了一半。可就这一半，也省下了你几年苦修的工夫。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 500
+            },
+            {
+              "type": "meta_flag",
+              "key": "e2c_cliff_read"
+            }
+          ]
+        }
+      },
+      {
+        "text": "不读了，在旧字下面添一行",
+        "result": "你想了很久，刻下三个字：“走过了。”刻完才发现，旧字下面早已有好几行深浅不一的“走过了”。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          },
+          {
+            "type": "meta_flag",
+            "key": "e2c_cliff_read"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2c_body_sword",
+    "title": "身记剑招",
+    "art": "village_farm",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_max": "lianqi",
+      "life_min": 2
+    },
+    "text": "一头野猪撞翻篱笆冲进菜地，直奔你而来。你顺手抄起一根竹竿，手腕一抖，竹竿竟自己挽出一朵剑花——可你这辈子从没学过剑。",
+    "options": [
+      {
+        "text": "由着身体出招",
+        "result": "你的手比念头先动了。",
+        "battle": {
+          "enemy": "wild_boar",
+          "win": {
+            "result": "竹竿点在野猪眉心，又快又准。那一招你叫不出名字，手却熟得很。",
+            "effects": [
+              {
+                "type": "item",
+                "id": "boar_meat",
+                "count": 2
+              },
+              {
+                "type": "attr",
+                "key": "gengu",
+                "value": 1
+              }
+            ]
+          },
+          "lose": {
+            "result": "念头跟不上手，你一犹豫，被野猪拱翻在泥里。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -30
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "扔下竹竿，翻墙躲开",
+        "result": "你翻上墙头，眼看着野猪把菜地拱得稀烂。低头看手，掌心还在发烫。"
+      }
+    ]
+  },
+  {
+    "id": "e2c_old_turtle",
+    "title": "井中老龟",
+    "art": "village_well",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_max": "lianqi",
+      "life_min": 3
+    },
+    "text": "月下打水时，井底浮上来一只老龟，背甲长满青苔，有磨盘那么大。它探出脑袋盯着你看了半晌，慢慢眨了眨眼，像是在说：你又来了。",
+    "options": [
+      {
+        "text": "掰半块饼喂它",
+        "result": "老龟慢吞吞吃完，沉下去又浮上来，嘴里衔着一只长了铜锈的钱袋。袋里装着三十五块灵石，是你哪一世落进井里的，它替你收了这么多年。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 35
+          }
+        ]
+      },
+      {
+        "text": "蹲下来问它：“你认得我？”",
+        "check": {
+          "attr": "shenshi",
+          "dc": 7
+        },
+        "success": {
+          "result": "神识轻轻碰到它，它的记忆像井水一样漫上来：一个少年，一个中年人，一个白发老人，都曾蹲在这井边喂过它。每一个都是你。",
+          "effects": [
+            {
+              "type": "attr",
+              "key": "wuxing",
+              "value": 1
+            },
+            {
+              "type": "cultivation",
+              "value": 30
+            }
+          ]
+        },
+        "fail": {
+          "result": "老龟没理你，打了个哈欠沉回井底，溅了你一身水。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "e2c_taichu_echo",
+    "title": "孩童之问",
+    "art": "child_question",
+    "region": [
+      "qingshi_village"
+    ],
+    "weight": 8,
+    "once": true,
+    "conditions": {
+      "realm_max": "zhuji",
+      "life_min": 3,
+      "meta_flags": [
+        "truth_known"
+      ]
+    },
+    "text": "槐树下几个孩子在玩耍，一个扎冲天辫的小童跑过来拽住你的衣袖，仰着脸问：“仙人哥哥，人为什么要长生呀？”你一怔。泽底的玉碑前，有个苍老的声音问过你一模一样的话。",
+    "options": [
+      {
+        "text": "“为了多看几回这棵树开花。”",
+        "result": "小童似懂非懂地点点头，跑回去接着玩了。你在树下站了很久，觉得这个答案，比上一回答得好些。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "“我也还在找。”",
+        "result": "小童咯咯笑：“那你找到了，回来告诉我。”你应下了。这一世，又多了一个要回来的理由。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2c_own_grave",
+    "title": "无名石坟",
+    "art": "nameless_grave",
+    "region": [
+      "luoxia_mountain"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji",
+      "life_min": 3
+    },
+    "text": "半山一处浅洞里垒着一座石坟，碑上没有名字，只刻着生卒年月。你随手一算，脊背发凉——那卒年，正是你上一世咽气的那一年。坟前还摆着一束早已干透的野花。",
+    "options": [
+      {
+        "text": "添一抔土，拜一拜自己",
+        "result": "你给自己的坟添了土，拜了三拜，心里说不出是什么滋味。起身时，周身灵力竟顺畅了几分。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 80
+          }
+        ]
+      },
+      {
+        "text": "掘开看看",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 7
+        },
+        "success": {
+          "result": "坟里没有尸骨，只有一只油布包，裹着一柄青锋剑。剑柄上缠的绳结，正是你惯打的那一种。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "sword_qingfeng",
+              "count": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "坟里只有一块木牌，歪歪扭扭写着：“别挖了，什么都没有。”你愣了半天，笑出声来。"
+        }
+      },
+      {
+        "text": "绕到碑后看看",
+        "requires": {
+          "meta_flags": [
+            "su_bond"
+          ],
+          "hint": "碑后似乎还有字，你却没有留意"
+        },
+        "result": "碑后刻着一行娟秀的小字：“不管你去了哪里，我都会找到你。——晚晴”是她替你立的坟，不知是哪一世的她。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "attr",
+            "key": "jiyuan",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2c_benefactor",
+    "title": "恩公画像",
+    "art": "market_alchemy",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji",
+      "life_min": 2
+    },
+    "text": "丹铺掌柜的孙子盯着你看了半天，忽然跑进后堂，捧出一幅泛黄的画像：“我爷爷说，六十年前有位恩公从劫修刀下救了我们一家，叫我们世世代代记着这张脸。”画上那人，和你生得一模一样。",
+    "options": [
+      {
+        "text": "“正是在下。”",
+        "result": "掌柜一家千恩万谢，硬塞给你三枚聚气丹。你收下时有些心虚——挡下那一刀的，是上一世的你。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "juqi_dan",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "text": "“只是长得像罢了。”",
+        "result": "少年有些失望，还是把画像小心卷好收了回去。出门时你摸了摸自己的脸，头一回觉得它不全是自己的。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2c_grudge_heir",
+    "title": "仇家后人",
+    "art": "valley_rogue",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan",
+      "life_min": 3
+    },
+    "text": "黑袍劫修拦在谷口，死死盯着你的眉眼：“太爷爷临死前画下了仇人的模样，我找了三十年……不对，你太年轻了。可这股剑意，分明就是你！”他不等你分辩，已祭出了骨幡。",
+    "options": [
+      {
+        "text": "拔剑应战",
+        "result": "他说的事你一件也不记得，可你的剑先认了出来。",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": {
+            "result": "他倒在地上，喃喃道：“两辈子，都输给同一个人。”你从他身上搜出一袋灵石，剑意也磨利了几分。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 400
+              },
+              {
+                "type": "cultivation",
+                "value": 300
+              }
+            ]
+          },
+          "lose": {
+            "result": "你一剑递到半途，又犹豫了。骨幡扫中你胸口，伤及根本。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -40
+              },
+              {
+                "type": "lifespan",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "“前世的债，这一世我认。”",
+        "requires": {
+          "stones": 300
+        },
+        "result": "你把三百灵石放在他面前，长揖到地。他愣了很久，捡起灵石背过身去：“……你走吧。”这段恩怨，总算在这一世了了。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -300
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "“你认错人了。”",
+        "check": {
+          "attr": "xinjing",
+          "dc": 8
+        },
+        "success": {
+          "result": "你神色坦然，他反倒迟疑了，咬牙收起骨幡：“下回再让我碰见，可没这么便宜。”"
+        },
+        "fail": {
+          "result": "你一开口便露了怯，他冷笑一声，骨幡已到面前。你硬受了一击才脱身。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "e2c_old_sword",
+    "title": "剑冢旧剑",
+    "art": "valley_sword_tomb",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan",
+      "life_min": 4
+    },
+    "text": "剑冢的断剑丛里，有一柄锈得看不出模样的铁剑。别的剑都在风里呜咽，只有它，在你走近时安静了下来。剑柄上缠着一截褪色的绳结，打法和你袖口上的一模一样。",
+    "options": [
+      {
+        "text": "拔出来",
+        "result": "剑身一出土便断成两截。可握住它的那一瞬，许多世练剑的日子一齐涌进了手臂里。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 800
+          },
+          {
+            "type": "attr",
+            "key": "gengu",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "按回土里，让它歇着",
+        "result": "你把剑往土里按深了些。四下的剑鸣低了下去，像是谁终于放下了心。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "text": "对照壁画上那人腰间的剑",
+        "requires": {
+          "meta_flags": [
+            "ruins_mural"
+          ],
+          "hint": "你总觉得在哪里见过这柄剑"
+        },
+        "result": "古洞壁画上，那人腰间悬的正是这柄剑。原来无数个你，用的是同一把剑。你把那一缕剑意记在心里，关窍松动了一线。",
+        "effects": [
+          {
+            "type": "break_bonus",
+            "value": 0.05
+          },
+          {
+            "type": "attr",
+            "key": "wuxing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2c_teahouse_tale",
+    "title": "说书人",
+    "art": "market_teahouse",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji",
+      "life_min": 4
+    },
+    "text": "茶馆里，说书先生正讲到兴头上：“那位剑仙寿元将尽，独自走进黑风谷，从此再没出来！”满堂叫好。你端茶的手却停住了——他讲的每一处都对，只有结局讲错了。",
+    "options": [
+      {
+        "text": "起身替他把结局讲完",
+        "check": {
+          "attr": "wuxing",
+          "dc": 7
+        },
+        "success": {
+          "result": "你讲完，满堂鸦雀无声。散场后说书先生追出来，塞给你一卷残破玉简：“家师说过，若有人讲得出真结局，就把这个交给他。”",
+          "effects": [
+            {
+              "type": "item",
+              "id": "scroll_broken",
+              "count": 1
+            },
+            {
+              "type": "cultivation",
+              "value": 150
+            }
+          ]
+        },
+        "fail": {
+          "result": "你讲得磕磕绊绊，连自己都不信，被茶客们嘘下了台。那天夜里你梦见了黑风谷的风，醒来时修为竟长了些。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 100
+            }
+          ]
+        }
+      },
+      {
+        "text": "放下茶钱，默默走了",
+        "result": "有些事，自己知道就好。你出了门，身后又是一阵叫好。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2c_old_disciple",
+    "title": "山门旧徒",
+    "art": "sect_gate",
+    "region": [
+      "qingyun_market"
+    ],
+    "weight": 8,
+    "once": true,
+    "conditions": {
+      "realm_min": "lianqi",
+      "realm_max": "zhuji",
+      "life_min": 6
+    },
+    "text": "宗门山门前，一位白发长老正在送客，目光扫过你时猛地一顿。他抢上几步，膝盖一软便要跪下：“师……”话到嘴边又咽了回去，苦笑道：“老朽眼花了。阁下像极了我那位坐化多年的师尊。”",
+    "options": [
+      {
+        "text": "“你出剑时，左肩还是会沉一下么？”",
+        "result": "这话不知怎么就出了口。长老浑身一震，老泪纵横，把一枚珍藏多年的破障丹塞进你手里：“这是师尊当年留给自己的……如今该还给您了。”",
+        "effects": [
+          {
+            "type": "item",
+            "id": "pozhang_dan",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "“老丈认错人了。”",
+        "result": "长老拱手作别。走出很远，你回头望去，他仍站在山门前目送你，像几十年前送那个人下山时一样。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  }
+]

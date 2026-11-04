@@ -1,0 +1,79 @@
+{
+  "src": "166bce56ffbf4969ab0a.wav",
+  "duration": 3.7,
+  "gain": 2.1251840681271603,
+  "source_sha256": "cf29dc720aaccc1d917e45f740910763c0be3735a66b86097ff5335e1759ed94",
+  "id": "event.main_7_0.choice.1",
+  "text": "给最后几页留一点空白",
+  "group": "event:main_7_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1840,
+        "start_time": 0,
+        "text": "给最后几页留一点空白",
+        "words": [
+          {
+            "end_time": 160,
+            "start_time": 0,
+            "text": "给"
+          },
+          {
+            "end_time": 320,
+            "start_time": 160,
+            "text": "最"
+          },
+          {
+            "end_time": 440,
+            "start_time": 320,
+            "text": "后"
+          },
+          {
+            "end_time": 600,
+            "start_time": 520,
+            "text": "几"
+          },
+          {
+            "end_time": 800,
+            "start_time": 760,
+            "text": "页"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "留"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1120,
+            "text": "一"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1200,
+            "text": "点"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "空"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "白"
+          }
+        ]
+      }
+    ],
+    "text": "给最后几页留一点空白"
+  }
+}

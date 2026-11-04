@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "e2d_seek_meet",
+    "title": "寻兄",
+    "art": "valley_wind",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 8,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "谷口的风化石下坐着个背竹篓的少女，脚边一沓黄纸被风吹得哗哗响。她拦住你：“道友可见过一个左手缺两指的炼器师？我哥沈砚，一年前进谷寻地火，再没出来。”纸上画着一张憨厚的脸。",
+    "options": [
+      {
+        "text": "收下画像，答应替她留意",
+        "result": "少女连声道谢，又追上来塞给你两张火符，说是她哥哥画的：“他说过，在石林里迷了路，就顺着刻痕走。”",
+        "effects": [
+          {
+            "type": "flag",
+            "key": "e2d_seek_1"
+          },
+          {
+            "type": "item",
+            "id": "fire_talisman",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "text": "先收三百灵石酬金再说",
+        "result": "少女咬咬牙，从竹篓底摸出个布包，数了三百灵石给你，都是碎灵石，有几块还沾着泥。你收下时，心里有点不是滋味。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 300
+          },
+          {
+            "type": "flag",
+            "key": "e2d_seek_1"
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      },
+      {
+        "text": "黑风谷吞人不吐骨头，劝她回去",
+        "result": "你劝她死了这条心。少女没吭声，只把画像一张张捡起来，抱在怀里，又坐回了石头下。"
+      }
+    ]
+  },
+  {
+    "id": "e2d_seek_stones",
+    "title": "石林刻痕",
+    "art": "stone_forest",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 18,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan",
+      "flags": [
+        "e2d_seek_1"
+      ]
+    },
+    "text": "风蚀石林里千百根石柱一个模样，黑风在柱间穿来穿去，呜呜作响，像有人贴着耳朵说话。一根石柱上刻着个歪歪扭扭的“砚”字，旁边一道箭头，指向石林深处。",
+    "options": [
+      {
+        "text": "顺着刻痕走，凝神辨认方向",
+        "check": {
+          "attr": "shenshi",
+          "dc": 8
+        },
+        "success": {
+          "result": "刻痕每隔十丈便有一道，你跟着走出石林，眼前是一道往外冒热气的裂谷。一路辨风识路，你的神识也凝练了几分。",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "e2d_seek_2"
+            },
+            {
+              "type": "cultivation",
+              "value": 400
+            }
+          ]
+        },
+        "fail": {
+          "result": "有几道刻痕被人改了方向，你在石林里兜了三天三夜，被风刃刮得遍体是伤，才摸到裂谷边上，元气也折了不少。",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "e2d_seek_2"
+            },
+            {
+              "type": "hp",
+              "value": -35
+            },
+            {
+              "type": "lifespan",
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "text": "懒得绕路，一剑劈开挡道的石柱",
+        "result": "石柱轰然倒地，柱后却站起一具浑身石屑的尸傀——有人在石林里布了守卫。",
+        "battle": {
+          "enemy": "corpse_puppet",
+          "win": {
+            "result": "尸傀散了架，手腕上拖着半截铁链，链头挂着块刻“沈”字的铁牌。你循着铁链磨出的痕迹，找到了石林尽头的裂谷。",
+            "effects": [
+              {
+                "type": "flag",
+                "key": "e2d_seek_2"
+              },
+              {
+                "type": "cultivation",
+                "value": 600
+              }
+            ]
+          },
+          "lose": {
+            "result": "尸傀一拳把你砸进碎石堆。你拼死遁走，再回来时，那些刻痕已被风沙抹得干干净净。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -45
+              },
+              {
+                "type": "lifespan",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "此地邪门，回头",
+        "result": "你在石林边站了一会儿，风里那句像人话的呜咽始终听不清。你转身离开了。"
+      }
+    ]
+  },
+  {
+    "id": "e2d_seek_forge",
+    "title": "地火铁链",
+    "art": "market_forge",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 18,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan",
+      "flags": [
+        "e2d_seek_2"
+      ]
+    },
+    "text": "裂谷底下地火翻涌，热浪烤得人睁不开眼。左手缺两指的汉子正抡锤打铁，脚踝上拴着铁链。炉后石台上盘坐着个黑袍修士，冷冷看你：“他欠我一条命，打满九十九柄剑才能走。这是第九十八柄。”",
+    "options": [
+      {
+        "text": "拔剑救人",
+        "result": "你一步跨上前，黑袍修士袖中飞出一盏青灯，阴风卷着地火扑面而来。",
+        "battle": {
+          "enemy": "evil_cultivator",
+          "win": {
+            "result": "黑袍修士化作一道黑烟逃出裂谷，铁链应声而断。沈砚愣了半晌，把手里那柄没淬火的剑扔进了地火。",
+            "effects": [
+              {
+                "type": "flag",
+                "key": "e2d_seek_3"
+              },
+              {
+                "type": "cultivation",
+                "value": 800
+              }
+            ]
+          },
+          "lose": {
+            "result": "青灯摄住了你的心神。等你醒来，人已躺在裂谷外，耳边只剩一下一下的打铁声。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -2
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "陪他打完最后两柄剑",
+        "check": {
+          "attr": "gengu",
+          "dc": 8
+        },
+        "success": {
+          "result": "你替他拉风箱、扶铁钳，在地火边熬了七天七夜。第九十九柄剑出炉，黑袍修士说话算话，解开了铁链。地火淬身，你的筋骨也硬了一截。",
+          "effects": [
+            {
+              "type": "flag",
+              "key": "e2d_seek_3"
+            },
+            {
+              "type": "attr",
+              "key": "gengu",
+              "value": 1
+            },
+            {
+              "type": "hp",
+              "value": -20
+            }
+          ]
+        },
+        "fail": {
+          "result": "地火灼伤了你的经脉，第九十九柄剑淬火时炸成了碎片。黑袍修士冷笑：“那就再打九十九柄。”沈砚一把将你推上了崖。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "lifespan",
+              "value": -2
+            }
+          ]
+        }
+      },
+      {
+        "text": "这是人家立的约，你管不着",
+        "result": "你转身爬出裂谷。身后的锤声一下一下，一直响到你听不见为止。"
+      }
+    ]
+  },
+  {
+    "id": "e2d_seek_reunion",
+    "title": "兄妹",
+    "art": "siblings_fire",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 20,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan",
+      "flags": [
+        "e2d_seek_3"
+      ]
+    },
+    "text": "回到谷口时天已黑透，那少女还守在风化石下。沈砚喊了声“阿蘅”，她愣了好久，才扑过来拿拳头捶他。夜里兄妹俩生了堆火，沈砚解下背上的剑递给你：“我这辈子打得最好的一柄，也是头一柄不为别人打的。”",
+    "options": [
+      {
+        "text": "郑重收下",
+        "result": "剑身赤霞流转，握柄上还缠着阿蘅连夜缝的布条。你得了一柄赤霞剑。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "sword_chixia",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "剑留着防身，回家的路还长",
+        "result": "你把剑推了回去。火光里阿蘅笑出了声，你忽然觉得这一趟黑风谷走得格外轻快，心境与修为都松动了些。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d_wind_cry",
+    "title": "风中哭声",
+    "art": "valley_wind",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "黑风里夹着一阵女子的哭声，忽远忽近，哭的是“救救我”。乱石后隐约露出一角红衣。谷里的老散修说过：在黑风谷听见人哭，十回有九回不是人。",
+    "options": [
+      {
+        "text": "循声过去看看",
+        "result": "红衣底下是空的。一个黑袍邪修从石后转出，手里摇着招魂铃：“这个月上钩的，你是第三个。”",
+        "battle": {
+          "enemy": "evil_cultivator",
+          "win": {
+            "result": "邪修倒地，铃中飘出几缕残魂，绕着你转了三圈才散去。你从他身上搜出六百灵石，一场死斗也让你的修为扎实了些。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 600
+              },
+              {
+                "type": "cultivation",
+                "value": 500
+              }
+            ]
+          },
+          "lose": {
+            "result": "招魂铃震得你魂魄离体半寸，你拼着一口心气挣了回来，却已伤了根本。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -45
+              },
+              {
+                "type": "lifespan",
+                "value": -2
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "封住耳识，径直走过",
+        "check": {
+          "attr": "xinjing",
+          "dc": 8
+        },
+        "success": {
+          "result": "哭声在身后越来越凄厉，最后变成一声尖笑，散在风里。你心如止水，反倒借这一关磨了磨道心。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 300
+            }
+          ]
+        },
+        "fail": {
+          "result": "没走出百步，那哭声竟钻进了识海。你恍恍惚惚跟着走了半里，一脚踩空，滚下了陡坡。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            }
+          ]
+        }
+      },
+      {
+        "text": "宁可绕远路",
+        "result": "你多走了大半天，脚底磨出了泡，好在耳边一直清净。"
+      }
+    ]
+  },
+  {
+    "id": "e2d_trapped_kin",
+    "title": "石缝同门",
+    "art": "mountain_dying",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "塌方的石缝里卡着个青云宗服色的弟子，半截身子压在巨石下，见了你嘶声喊：“道友！尸傀……尸傀快到了！”远处已传来拖沓的脚步声，一下，又一下。",
+    "options": [
+      {
+        "text": "转身挡住尸傀",
+        "result": "你迎了上去。泥里爬出的尸傀比寻常的高出一头，眼眶里的鬼火烧得正旺。",
+        "battle": {
+          "enemy": "corpse_puppet",
+          "win": {
+            "result": "尸傀轰然倒下，你搬开巨石把他拖了出来。他从怀里摸出一卷丹方塞给你：“本是送去丹堂的。命都是你救的，这个也该归你。”",
+            "effects": [
+              {
+                "type": "item",
+                "id": "danfang_qingxin",
+                "count": 1
+              },
+              {
+                "type": "cultivation",
+                "value": 500
+              }
+            ]
+          },
+          "lose": {
+            "result": "尸傀把你逼退了数十丈。你眼睁睁看着它的影子罩住那道石缝，喊声戛然而止。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -45
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "先掀开巨石，背上人就跑",
+        "check": {
+          "attr": "gengu",
+          "dc": 9
+        },
+        "success": {
+          "result": "你一口气掀开巨石，背起他就跑，尸傀在后头追了三里才作罢。分别时，他把两枚凝元丹硬塞进你手里。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "ningyuan_dan",
+              "count": 2
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "巨石掀到一半，尸傀已到跟前。你只来得及把人拽出来，后背结结实实挨了一记。好歹，人是救下了。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "lifespan",
+              "value": -1
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "text": "自身难保，悄悄退走",
+        "result": "你退进了黑风里。那喊声追了你很远，后来就断了。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d_smugglers",
+    "title": "私运驮队",
+    "art": "smugglers",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "深夜，一队驮兽悄无声息地穿过谷底，驮袋鼓鼓囊囊，漏出点点灵光——是绕开坊市税卡的私运灵石。押队的疤脸汉子看见你，手按刀柄：“道友，借条路。见过的，就当没见过。”",
+    "options": [
+      {
+        "text": "买他几枚私货丹药（600 灵石）",
+        "requires": {
+          "stones": 600
+        },
+        "result": "疤脸汉子咧嘴一笑，丢给你三枚凝元丹，成色竟比坊市里的还好。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -600
+          },
+          {
+            "type": "item",
+            "id": "ningyuan_dan",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "text": "黑吃黑，劫了这趟货",
+        "result": "疤脸汉子一声唿哨，刀光从驮兽之间劈了过来。",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": {
+            "result": "押队的四散奔逃，你从驮袋里取走一千二百灵石。驮兽站在原地，茫然地看着你。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 1200
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": -1
+              }
+            ]
+          },
+          "lose": {
+            "result": "你被一刀劈翻在地，疤脸汉子啐了一口：“给脸不要。”驮队扬长而去。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "侧身让路",
+        "result": "驮兽一头接一头从你身边走过，铃铛都用布包着。最后一个小伙计回过头，冲你拱了拱手。"
+      }
+    ]
+  },
+  {
+    "id": "e2d_lost_token",
+    "title": "铜令",
+    "art": "mountain_cave",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "岩洞里倒着一具枯骨，指骨间攥着一块紫铜令牌，正面刻着“玄霄”二字，背面是一座你从没见过的山门。令牌入手微温，里头封着一缕不肯散去的神念。",
+    "options": [
+      {
+        "text": "以神识探入令牌",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "神念里是一段残缺的口诀，和一句遗言：“告诉师父，弟子没给宗门丢人。”那段口诀，你参悟了大半。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 1500
+            }
+          ]
+        },
+        "fail": {
+          "result": "那缕神念把你当成了仇敌，在你识海里狠狠撞了一记，你眼前一黑，好半天才缓过来。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -30
+            },
+            {
+              "type": "lifespan",
+              "value": -2
+            }
+          ]
+        }
+      },
+      {
+        "text": "垒座石坟，让他入土",
+        "result": "你把枯骨葬在洞口，令牌压在坟头。最后一块石头放上去时，令牌里的神念轻轻一颤，散了。你心里也静了下来。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "text": "带去坊市当古物卖",
+        "result": "收古物的掌柜翻来覆去看了半天，给了你八百灵石。你走出店门，总觉得背后有人在看。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d_poison_marsh",
+    "title": "毒沼浮石",
+    "art": "valley_wind",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "谷底一片墨绿的毒沼咕嘟冒泡，泡破处腾起缕缕黄烟。沼心一块浮石上长着两株瘴心草和一丛朱果，四周漂着几只烂透了的储物袋——都是前人留下的。",
+    "options": [
+      {
+        "text": "踩着浮木跃过去",
+        "check": {
+          "attr": "gengu",
+          "dc": 9
+        },
+        "success": {
+          "result": "你屏住气连跃七步落上浮石，采走了两株瘴心草和两颗朱果，回程时脚尖都没沾一滴沼水。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "miasma_herb",
+              "count": 2
+            },
+            {
+              "type": "item",
+              "id": "herb_zhuguo",
+              "count": 2
+            }
+          ]
+        },
+        "fail": {
+          "result": "第五步浮木一沉，你半条腿陷进毒沼。毒气顺着经脉往上爬，你运功逼了三天三夜才逼干净。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "lifespan",
+              "value": -2
+            }
+          ]
+        }
+      },
+      {
+        "text": "只在沼边采些朱果",
+        "result": "沼边的朱果长得又瘦又小，你采了一颗，手背被毒烟熏起一片红疹。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "herb_zhuguo",
+            "count": 1
+          },
+          {
+            "type": "hp",
+            "value": -10
+          }
+        ]
+      },
+      {
+        "text": "那几只储物袋就是下场，走吧",
+        "result": "你看了一眼浮石上的灵草，转身离开。黄烟在你身后慢慢合拢。"
+      }
+    ]
+  },
+  {
+    "id": "e2d_life_wager",
+    "title": "赌命台",
+    "art": "sect_duel",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "风口下有座天然石台，围了几十个散修，木牌上写着：“上台生死自负，胜者通吃。”庄家是个独眼胖子，冲你招手：“道友面生，押五百灵石上台走一遭？赢了翻倍。”台上的劫修刚把对手扔了下去。",
+    "options": [
+      {
+        "text": "押五百灵石，上台",
+        "requires": {
+          "stones": 500
+        },
+        "result": "那劫修舔了舔刀口，咧嘴笑道：“又来一个。”",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": {
+            "result": "你把劫修打下了台。独眼胖子肉疼地赔了你五百灵石，台下一片叫好，这一战也让你的修为精进了一截。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 500
+              },
+              {
+                "type": "cultivation",
+                "value": 600
+              }
+            ]
+          },
+          "lose": {
+            "result": "你被一脚踹下石台，押的五百灵石归了庄家。台下的哄笑声里，你连站都站不起来。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": -500
+              },
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "在台下押两百灵石",
+        "requires": {
+          "stones": 200
+        },
+        "check": {
+          "attr": "jiyuan",
+          "dc": 8
+        },
+        "success": {
+          "result": "你押的那个瘦小散修竟真赢了，独眼胖子骂骂咧咧地赔了你三百灵石。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 300
+            }
+          ]
+        },
+        "fail": {
+          "result": "你押的人第三招就被扔下了台，两百灵石打了水漂。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": -200
+            }
+          ]
+        }
+      },
+      {
+        "text": "只看不押",
+        "result": "你在台下看了两场，倒从高手过招里瞧出几分门道。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d_seven_seals",
+    "title": "七重禁制",
+    "art": "valley_ruins",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "山壁上浮着七道淡金光纹，层层相套，护着一扇石门。门缝里露出半卷丹方的一角。前人留在门前的剑痕密密麻麻，最深的一道，也只破到了第三重。",
+    "options": [
+      {
+        "text": "以神识一重重去解",
+        "check": {
+          "attr": "shenshi",
+          "dc": 9
+        },
+        "success": {
+          "result": "七道光纹一道道熄灭，你的神识也被磨得锋利了许多。石门后只有一张石案，案上正是一卷《破境丹方》。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "danfang_pojing",
+              "count": 1
+            },
+            {
+              "type": "cultivation",
+              "value": 1000
+            }
+          ]
+        },
+        "fail": {
+          "result": "解到第五重，禁制骤然反噬，金光如针扎进识海。你神魂震荡，踉跄退出，鬓边竟添了几缕白发。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -40
+            },
+            {
+              "type": "lifespan",
+              "value": -4
+            }
+          ]
+        }
+      },
+      {
+        "text": "以灵石强行冲阵（1000 灵石）",
+        "requires": {
+          "stones": 1000
+        },
+        "result": "一千灵石的灵气灌进光纹，禁制一重重黯了下去。门开了，门后的灵气也被耗得七七八八，只剩石案上一卷《破境丹方》。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": -1000
+          },
+          {
+            "type": "item",
+            "id": "danfang_pojing",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "记下光纹走势，就此作罢",
+        "result": "你把七重光纹的流转默记在心，回去琢磨了几夜，虽没解开，倒也有些收获。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d_corpse_field",
+    "title": "养尸地",
+    "art": "evil_rite",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 5,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "背阴的洼地里插满招魂幡，地下埋着一排排木棺，棺盖贴着黄符。祭坛上的邪修正往棺里滴黑水，每滴一滴，地底就传来一声闷响。再过几夜，这些棺材里爬出来的就是尸傀了。",
+    "options": [
+      {
+        "text": "毁了祭坛",
+        "result": "邪修抬起头，阴恻恻一笑，手中招魂幡迎风一展。",
+        "battle": {
+          "enemy": "evil_cultivator",
+          "win": {
+            "result": "祭坛崩塌，黄符一张张燃尽，地底的闷响停了。你从邪修的储物袋里搜出七百灵石。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 700
+              },
+              {
+                "type": "cultivation",
+                "value": 600
+              }
+            ]
+          },
+          "lose": {
+            "result": "邪修掀开三口棺材，半成的尸傀扑上来把你压进泥里。等你挣脱逃出洼地，已只剩半条命。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -2
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "绕到洼地另一头，偷揭棺上黄符",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 8
+        },
+        "success": {
+          "result": "你一口气揭了十几张符，邪修的阵法乱了套，他气急败坏地满地找人，你早溜远了。坏了这桩恶事，你心头也畅快了几分。",
+          "effects": [
+            {
+              "type": "cultivation",
+              "value": 400
+            },
+            {
+              "type": "attr",
+              "key": "xinjing",
+              "value": 1
+            }
+          ]
+        },
+        "fail": {
+          "result": "第三张符刚揭下，棺盖就被顶开了。你被尸气冲了个正着，逃出老远还浑身发冷。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -35
+            }
+          ]
+        }
+      },
+      {
+        "text": "记下这处洼地，绕道而行",
+        "result": "你绕了很远的路。夜里梦见一排棺材，一口接一口，在敲你的门。"
+      }
+    ]
+  },
+  {
+    "id": "e2d_stone_gale",
+    "title": "飞石风",
+    "art": "mountain_storm",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 6,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "天色骤暗，一场裹着碎石的黑风从谷口卷来，拳头大的石块砸在岩壁上噼啪作响。左边有道窄窄的岩缝；右边是一株枯死的老树，树根底下似乎压着什么东西。",
+    "options": [
+      {
+        "text": "钻进岩缝避风",
+        "check": {
+          "attr": "jiyuan",
+          "dc": 7
+        },
+        "success": {
+          "result": "岩缝深处竟有个前人凿出的小龛，龛里一只玉盒，盒中三颗朱果还新鲜着。你揣好朱果，在缝里等到风停。",
+          "effects": [
+            {
+              "type": "item",
+              "id": "herb_zhuguo",
+              "count": 3
+            }
+          ]
+        },
+        "fail": {
+          "result": "岩缝太浅，飞石跟着灌了进来。你缩成一团挨了一夜，浑身青紫。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -25
+            }
+          ]
+        }
+      },
+      {
+        "text": "顶着飞石去翻树根",
+        "check": {
+          "attr": "gengu",
+          "dc": 9
+        },
+        "success": {
+          "result": "你冒着飞石刨开树根，底下压着一具前人的骨架，身边的储物袋里还剩八百灵石。你胳膊上也挨了几下。",
+          "effects": [
+            {
+              "type": "stone",
+              "value": 800
+            },
+            {
+              "type": "hp",
+              "value": -15
+            }
+          ]
+        },
+        "fail": {
+          "result": "一块飞石正中你后脑，你栽倒在树根边。醒来时风已停了，头上肿起老大一个包，经脉也被震伤了。",
+          "effects": [
+            {
+              "type": "hp",
+              "value": -45
+            },
+            {
+              "type": "lifespan",
+              "value": -1
+            }
+          ]
+        }
+      },
+      {
+        "text": "撑起护体灵光，硬扛过去",
+        "result": "你在风里站了整整一个时辰，灵力耗得一干二净，身上也添了几道口子，倒是被罡风结结实实磨炼了一番。",
+        "effects": [
+          {
+            "type": "cultivation",
+            "value": 300
+          },
+          {
+            "type": "hp",
+            "value": -20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d_bounty",
+    "title": "悬赏",
+    "art": "valley_rogue",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 5,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "谷口木桩上钉着悬赏：“劫修鬼面，作恶十载，取其首级者赏灵石一千。”傍晚你就在岩洞里撞见了他。面具摘在一旁，肩上刀伤未愈，怀里护着一包药：“药是给我闺女的。送完这趟，你再来取我的命，成不成？”",
+    "options": [
+      {
+        "text": "悬赏就是悬赏",
+        "result": "他叹了口气，把药包轻轻放到石头上，才拔出刀来。",
+        "battle": {
+          "enemy": "rogue_cultivator",
+          "win": {
+            "result": "你提着那张鬼面具去谷口领了一千灵石。那包药还揣在你怀里，你不知该送往何处。",
+            "effects": [
+              {
+                "type": "stone",
+                "value": 1000
+              },
+              {
+                "type": "attr",
+                "key": "xinjing",
+                "value": -1
+              }
+            ]
+          },
+          "lose": {
+            "result": "他带着伤也比你狠，一刀把你逼下了山崖，自己背着药包消失在黑风里。",
+            "effects": [
+              {
+                "type": "hp",
+                "value": -50
+              },
+              {
+                "type": "lifespan",
+                "value": -1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "text": "信他一回，放他走",
+        "result": "他朝你抱了抱拳，临走丢下一张遁地符：“黑风谷里，这玩意儿比灵石管用。”第二天，谷口的悬赏被人撕了。",
+        "effects": [
+          {
+            "type": "item",
+            "id": "escape_talisman",
+            "count": 1
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "text": "不杀你，留下买路钱",
+        "result": "他沉默片刻，把身上四百灵石全掏了出来，抱着药包走了，脚步一瘸一拐。",
+        "effects": [
+          {
+            "type": "stone",
+            "value": 400
+          },
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": -1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e2d_trade_years",
+    "title": "换寿",
+    "art": "meditation_cave",
+    "region": [
+      "heifeng_valley"
+    ],
+    "weight": 4,
+    "once": true,
+    "conditions": {
+      "realm_min": "zhuji",
+      "realm_max": "jindan"
+    },
+    "text": "山洞里坐着个瘦成一把骨头的老修士，丹田灵光暗得像将熄的炭。他睁眼看你，声音很轻：“我只剩三个月了，一身修为带不走。你分我十年寿元，我把修为渡给你——这买卖，你不亏。”",
+    "options": [
+      {
+        "text": "分他十年寿元",
+        "result": "他的掌心贴上你的后背，一股苍老厚重的灵力缓缓涌入。完事后，他把一卷《延寿丹方》塞给你：“炼了一辈子没炼成，你试试。”",
+        "effects": [
+          {
+            "type": "lifespan",
+            "value": -5
+          },
+          {
+            "type": "cultivation",
+            "value": 2000
+          },
+          {
+            "type": "item",
+            "id": "danfang_yanshou",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "不换，只陪他说说话",
+        "result": "你陪他坐到天明。他讲起年轻时也在这谷里九死一生，讲着讲着就睡着了，再没醒来。你替他合上洞门，心里静了许多。",
+        "effects": [
+          {
+            "type": "attr",
+            "key": "xinjing",
+            "value": 1
+          },
+          {
+            "type": "cultivation",
+            "value": 300
+          }
+        ]
+      },
+      {
+        "text": "修为还是自己修的好",
+        "result": "你摇头告辞。老人也不恼，只是又闭上了眼睛。"
+      }
+    ]
+  }
+]

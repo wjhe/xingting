@@ -1,0 +1,76 @@
+{
+  "style": "cel-v3",
+  "reference": "art-src/stargarden/style-tests/cel-v3.png",
+  "assets": [
+    {
+      "file": "home-cel-v3-body.webp",
+      "layer": "character",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/style-tests/cel-v3.png"
+    },
+    {
+      "file": "home-cel-v3-outfit-garden.webp",
+      "layer": "outfit",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/style-tests/cel-v3.png"
+    },
+    {
+      "file": "home-cel-v3-outfit-rose.webp",
+      "layer": "outfit",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/style-tests/cel-v3.png"
+    },
+    {
+      "file": "home-cel-v3-outfit-sky.webp",
+      "layer": "outfit",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/style-tests/cel-v3.png"
+    },
+    {
+      "file": "teen-cel-v3-body.webp",
+      "layer": "character",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/cel-v3/teen.png"
+    },
+    {
+      "file": "teen-cel-v3-outfit-garden.webp",
+      "layer": "outfit",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/cel-v3/teen.png"
+    },
+    {
+      "file": "teen-cel-v3-outfit-rose.webp",
+      "layer": "outfit",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/cel-v3/teen.png"
+    },
+    {
+      "file": "teen-cel-v3-outfit-sky.webp",
+      "layer": "outfit",
+      "width": 900,
+      "height": 1350,
+      "source": "art-src/stargarden/cel-v3/teen.png"
+    },
+    {
+      "file": "room-cel-v3.webp",
+      "layer": "background",
+      "width": 1200,
+      "height": 800,
+      "source": "art-src/stargarden/cel-v3/room.png"
+    },
+    {
+      "file": "town-cel-v3.webp",
+      "layer": "background",
+      "width": 1200,
+      "height": 800,
+      "source": "art-src/stargarden/cel-v3/town.png"
+    }
+  ]
+}

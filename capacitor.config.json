@@ -1,0 +1,8 @@
+{
+  "appId": "com.wendao.changsheng",
+  "appName": "问道长生",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#f1e8d4"
+  }
+}

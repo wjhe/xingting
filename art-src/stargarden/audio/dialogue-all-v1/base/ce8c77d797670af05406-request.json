@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "9e787594-fc5b-483a-a366-7914d4193d77",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“让她分别写下两种生活”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505015100CC8E62AF9BCDE2D7DD",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3200,
+          "start_time": 160,
+          "text": "让她分别写下两种生活",
+          "words": [
+            {
+              "end_time": 440,
+              "start_time": 160,
+              "text": "让"
+            },
+            {
+              "end_time": 600,
+              "start_time": 440,
+              "text": "她"
+            },
+            {
+              "end_time": 880,
+              "start_time": 720,
+              "text": "分"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 880,
+              "text": "别"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1200,
+              "text": "写"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1440,
+              "text": "下"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2160,
+              "text": "两"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2440,
+              "text": "种"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2720,
+              "text": "生"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 2960,
+              "text": "活"
+            }
+          ]
+        }
+      ],
+      "text": "让她分别写下两种生活"
+    }
+  }
+}

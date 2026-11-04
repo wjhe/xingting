@@ -1,0 +1,139 @@
+{
+  "src": "c5200c2e3a93e968a7df.wav",
+  "duration": 5.9,
+  "gain": 1.2142116046907014,
+  "source_sha256": "55ca56972c69d58edc7e8da4e362c65ef60b24be9572977d6143a2a8d74f366c",
+  "id": "opening.4.3",
+  "text": "你想起昨夜，她说自己在找一个有灯亮着的地方。",
+  "group": "opening",
+  "role": "story",
+  "emotion": "轻柔、有电影感的旁白",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5560,
+        "start_time": 320,
+        "text": "你想起昨夜，她说自己在找一个有灯亮着的地方。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 320,
+            "text": "你"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "想"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 800,
+            "text": "起"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1160,
+            "text": "昨"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1440,
+            "text": "夜"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1520,
+            "text": "，"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "她"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2440,
+            "text": "说"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2720,
+            "text": "自"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "己"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3080,
+            "text": "在"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3400,
+            "text": "找"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3640,
+            "text": "一"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3800,
+            "text": "个"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4000,
+            "text": "有"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4320,
+            "text": "灯"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4720,
+            "text": "亮"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4920,
+            "text": "着"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5120,
+            "text": "的"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5240,
+            "text": "地"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5360,
+            "text": "方"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你想起昨夜，她说自己在找一个有灯亮着的地方。"
+  }
+}

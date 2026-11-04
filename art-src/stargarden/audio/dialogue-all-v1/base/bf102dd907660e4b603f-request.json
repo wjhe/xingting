@@ -1,0 +1,176 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "b7cddb91-b502-437b-9124-0c6b02fbc769",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她在木牌上刻下一颗歪歪的星星，又在背面写下了你们的姓氏。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050243AB860847B13796DC5799",
+  "response": {
+    "duration": 9,
+    "original_duration": 9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 8400,
+          "start_time": 440,
+          "text": "她在木牌上刻下一颗歪歪的星星，又在背面写下了你们的姓氏。",
+          "words": [
+            {
+              "end_time": 680,
+              "start_time": 440,
+              "text": "她"
+            },
+            {
+              "end_time": 880,
+              "start_time": 680,
+              "text": "在"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 880,
+              "text": "木"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1200,
+              "text": "牌"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1400,
+              "text": "上"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2160,
+              "text": "刻"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2400,
+              "text": "下"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2640,
+              "text": "一"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2840,
+              "text": "颗"
+            },
+            {
+              "end_time": 3400,
+              "start_time": 3360,
+              "text": "歪"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3680,
+              "text": "歪"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3720,
+              "text": "的"
+            },
+            {
+              "end_time": 4200,
+              "start_time": 4120,
+              "text": "星"
+            },
+            {
+              "end_time": 4480,
+              "start_time": 4400,
+              "text": "星"
+            },
+            {
+              "end_time": 4480,
+              "start_time": 4480,
+              "text": "，"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5440,
+              "text": "又"
+            },
+            {
+              "end_time": 5960,
+              "start_time": 5720,
+              "text": "在"
+            },
+            {
+              "end_time": 6120,
+              "start_time": 5960,
+              "text": "背"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6120,
+              "text": "面"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 6840,
+              "text": "写"
+            },
+            {
+              "end_time": 7360,
+              "start_time": 7120,
+              "text": "下"
+            },
+            {
+              "end_time": 7560,
+              "start_time": 7360,
+              "text": "了"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7560,
+              "text": "你"
+            },
+            {
+              "end_time": 7800,
+              "start_time": 7720,
+              "text": "们"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7800,
+              "text": "的"
+            },
+            {
+              "end_time": 8080,
+              "start_time": 8000,
+              "text": "姓"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8360,
+              "text": "氏"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8400,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她在木牌上刻下一颗歪歪的星星，又在背面写下了你们的姓氏。"
+    }
+  }
+}

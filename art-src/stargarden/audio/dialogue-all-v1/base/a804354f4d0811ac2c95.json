@@ -1,0 +1,84 @@
+{
+  "src": "a804354f4d0811ac2c95.wav",
+  "duration": 3.9,
+  "gain": 1.5413310866572443,
+  "source_sha256": "b1ed647a4970cea0ead802ca0cac377764bdf661f01305763e71f535d9acc057",
+  "id": "event.main_5_1.choice.0",
+  "text": "陪她区分错误和犯错的人",
+  "group": "event:main_5_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3440,
+        "start_time": 320,
+        "text": "陪她区分错误和犯错的人",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 320,
+            "text": "陪"
+          },
+          {
+            "end_time": 800,
+            "start_time": 680,
+            "text": "她"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "区"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1120,
+            "text": "分"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "错"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1840,
+            "text": "误"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2160,
+            "text": "和"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2400,
+            "text": "犯"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2680,
+            "text": "错"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2960,
+            "text": "的"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3200,
+            "text": "人"
+          }
+        ]
+      }
+    ],
+    "text": "陪她区分错误和犯错的人"
+  }
+}

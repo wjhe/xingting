@@ -1,0 +1,49 @@
+{
+  "text": "爸爸，你回来啦！我一直在等你。",
+  "clips": [
+    {
+      "label": "10–13岁 · 童年",
+      "src": "child-raise-2-semitone.wav",
+      "description": "同一段原声升高2个半音，尽量保持原时长。"
+    },
+    {
+      "label": "14–15岁 · 少女",
+      "src": "../voice-grown-diagnosis-v1/explicit-age.wav",
+      "description": "原来的16–18岁试听，保持原声音调。"
+    },
+    {
+      "label": "16–18岁 · 成长",
+      "src": "grown-lower-1-semitone.wav",
+      "description": "同一段原声后期降低1个半音，尽量保持原时长。"
+    }
+  ],
+  "speaker_id_teen_and_grown": "zh_female_roumeinvyou_uranus_bigtts",
+  "speaker_id_all_ages": "zh_female_roumeinvyou_uranus_bigtts",
+  "source_model": "seed-audio-1.0",
+  "source_file": "public/assets/stargarden/audio/voice-grown-diagnosis-v1/explicit-age.wav",
+  "source_sha256": "9dfbbc1d8a9df8118101ef25ab602d487e574ed2a260ed95885fb223ef6e61ca",
+  "child_sha256": "735d39e45df3020f3ae483687ead49f290bf2e1a980f087cdfbafcc1f2885bf1",
+  "adult_sha256": "6e7ceddc657d7cc100df16168b571d6346f6fc67197d3b52747b3d3773091890",
+  "child_pitch_semitones": 2,
+  "adult_pitch_semitones": -1,
+  "method": "ffmpeg asetrate, aresample, atempo",
+  "source_audio": {
+    "rate": 24000,
+    "channels": 2,
+    "duration": 4.8,
+    "frames": 115200
+  },
+  "child_audio": {
+    "rate": 24000,
+    "channels": 2,
+    "duration": 4.790916666666667,
+    "frames": 114982
+  },
+  "adult_audio": {
+    "rate": 24000,
+    "channels": 2,
+    "duration": 4.802416666666667,
+    "frames": 115258
+  },
+  "status": "audition_pending"
+}

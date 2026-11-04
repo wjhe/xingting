@@ -1,0 +1,26 @@
+{
+  "version": "cel-v3",
+  "approvedReference": "art-src/stargarden/style-tests/cel-v3.png",
+  "approvedBy": "用户确认：这个画风好，就用这个",
+  "style": "Authentic early 1990s Japanese fantasy daughter-raising character illustration; fine warm brown hand-drawn contour lines; flat opaque local colors; one sharply defined shadow tone per surface; restrained hard-edged highlights; a harmonious limited palette of ivory, sage mint green and dusty rose; bright, clean and fresh.",
+  "avoid": ["generic glossy modern anime", "airbrush rendering", "overly large kawaii eyes", "chibi proportions", "dense floral backgrounds", "watercolor texture", "grain", "sepia", "yellow color cast", "3D rendering", "text and watermark"],
+  "character": "Chestnut brown shoulder-length bob with lightly curled ends and wispy bangs; amber-brown eyes; dark sage hair ribbon; modest ivory high-collar puff-sleeve blouse; rose neck bow; sage pinafore dress; narrow brown belt; ivory stockings; brown lace-up boots; holding a small green book.",
+  "sources": {
+    "home": "art-src/stargarden/style-tests/cel-v3.png",
+    "teen": "art-src/stargarden/cel-v3/teen.png",
+    "room": "art-src/stargarden/cel-v3/room.png",
+    "town": "art-src/stargarden/cel-v3/town.png"
+  },
+  "generationLog": "art-src/generation_log.jsonl",
+  "production": {
+    "version": "production-v1",
+    "sources": "art-src/stargarden/production-v1/",
+    "prompts": "art-src/stargarden/production-v1/prompts.json",
+    "runtime": "public/assets/stargarden/production-v1/",
+    "ageStages": {"child": "10–13", "teen": "14–15", "grown": "16–18"},
+    "newOutfits": ["summer", "winter", "festival"],
+    "expressions": ["calm", "happy", "shy", "sad", "angry", "tired"],
+    "segmentation": "onnx-community/BiRefNet-ONNX@534d3c82d3bb8b2f0867db6dfbc3a525b8e42f67"
+  },
+  "notes": "幼年默认立绘直接沿用已确认测试图，不重画五官。原三色衣装保留配色叠层；新夏装、冬装、礼服按三年龄阶段单独绘制整套透明人物，保证衣物遮挡关系。背景、人物与服装、特效、UI 独立显示；表情头像用于谈心与事件。活动、关键事件、三区域战斗和十一结局配图见 production-v1。"
+}

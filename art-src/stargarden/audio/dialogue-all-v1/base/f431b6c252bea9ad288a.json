@@ -1,0 +1,393 @@
+{
+  "src": "f431b6c252bea9ad288a.wav",
+  "duration": 16.38,
+  "gain": 1.6122102156632006,
+  "source_sha256": "321fd1356e37899f318bb30d5b96957354cffe0e39ebfff6a5f66f01cf1fab8a",
+  "id": "ending.star",
+  "text": "王宫的邀请函送到时，她正在庭院里浇花。多年积累的学识、优雅与善意，让她成为王国年轻的执政官。她没有搬走窗台上的那盆花——那是故事开始的地方。",
+  "group": "ending",
+  "role": "ending",
+  "emotion": "18岁，成熟自然，温柔而有希望",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4240,
+        "start_time": 0,
+        "text": "王宫的邀请函送到时，她正在庭院里浇花。",
+        "words": [
+          {
+            "end_time": 160,
+            "start_time": 0,
+            "text": "王"
+          },
+          {
+            "end_time": 400,
+            "start_time": 240,
+            "text": "宫"
+          },
+          {
+            "end_time": 600,
+            "start_time": 440,
+            "text": "的"
+          },
+          {
+            "end_time": 720,
+            "start_time": 600,
+            "text": "邀"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "请"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "函"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1280,
+            "text": "送"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1480,
+            "text": "到"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1800,
+            "text": "时"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1880,
+            "text": "，"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2480,
+            "text": "她"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2720,
+            "text": "正"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2880,
+            "text": "在"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3000,
+            "text": "庭"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3320,
+            "text": "院"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3480,
+            "text": "里"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3720,
+            "text": "浇"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 3960,
+            "text": "花"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4240,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10880,
+        "start_time": 4920,
+        "text": "多年积累的学识、优雅与善意，让她成为王国年轻的执政官。",
+        "words": [
+          {
+            "end_time": 5120,
+            "start_time": 4920,
+            "text": "多"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5120,
+            "text": "年"
+          },
+          {
+            "end_time": 5640,
+            "start_time": 5400,
+            "text": "积"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5640,
+            "text": "累"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5840,
+            "text": "的"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6040,
+            "text": "学"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6360,
+            "text": "识"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6400,
+            "text": "、"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6840,
+            "text": "优"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7160,
+            "text": "雅"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7360,
+            "text": "与"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7600,
+            "text": "善"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7960,
+            "text": "意"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 8000,
+            "text": "，"
+          },
+          {
+            "end_time": 8800,
+            "start_time": 8560,
+            "text": "让"
+          },
+          {
+            "end_time": 9000,
+            "start_time": 8840,
+            "text": "她"
+          },
+          {
+            "end_time": 9120,
+            "start_time": 9000,
+            "text": "成"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9120,
+            "text": "为"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9280,
+            "text": "王"
+          },
+          {
+            "end_time": 9800,
+            "start_time": 9520,
+            "text": "国"
+          },
+          {
+            "end_time": 9960,
+            "start_time": 9800,
+            "text": "年"
+          },
+          {
+            "end_time": 10120,
+            "start_time": 9960,
+            "text": "轻"
+          },
+          {
+            "end_time": 10280,
+            "start_time": 10120,
+            "text": "的"
+          },
+          {
+            "end_time": 10400,
+            "start_time": 10280,
+            "text": "执"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10520,
+            "text": "政"
+          },
+          {
+            "end_time": 10880,
+            "start_time": 10800,
+            "text": "官"
+          },
+          {
+            "end_time": 10880,
+            "start_time": 10880,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 16080,
+        "start_time": 11760,
+        "text": "她没有搬走窗台上的那盆花——那是故事开始的地方。",
+        "words": [
+          {
+            "end_time": 11920,
+            "start_time": 11760,
+            "text": "她"
+          },
+          {
+            "end_time": 12000,
+            "start_time": 11920,
+            "text": "没"
+          },
+          {
+            "end_time": 12080,
+            "start_time": 12000,
+            "text": "有"
+          },
+          {
+            "end_time": 12240,
+            "start_time": 12120,
+            "text": "搬"
+          },
+          {
+            "end_time": 12560,
+            "start_time": 12360,
+            "text": "走"
+          },
+          {
+            "end_time": 12800,
+            "start_time": 12600,
+            "text": "窗"
+          },
+          {
+            "end_time": 13000,
+            "start_time": 12800,
+            "text": "台"
+          },
+          {
+            "end_time": 13200,
+            "start_time": 13000,
+            "text": "上"
+          },
+          {
+            "end_time": 13280,
+            "start_time": 13200,
+            "text": "的"
+          },
+          {
+            "end_time": 13440,
+            "start_time": 13280,
+            "text": "那"
+          },
+          {
+            "end_time": 13680,
+            "start_time": 13480,
+            "text": "盆"
+          },
+          {
+            "end_time": 14040,
+            "start_time": 13720,
+            "text": "花"
+          },
+          {
+            "end_time": 14040,
+            "start_time": 14040,
+            "text": "—"
+          },
+          {
+            "end_time": 14040,
+            "start_time": 14040,
+            "text": "—"
+          },
+          {
+            "end_time": 14800,
+            "start_time": 14560,
+            "text": "那"
+          },
+          {
+            "end_time": 14960,
+            "start_time": 14800,
+            "text": "是"
+          },
+          {
+            "end_time": 15200,
+            "start_time": 14960,
+            "text": "故"
+          },
+          {
+            "end_time": 15360,
+            "start_time": 15200,
+            "text": "事"
+          },
+          {
+            "end_time": 15560,
+            "start_time": 15400,
+            "text": "开"
+          },
+          {
+            "end_time": 15720,
+            "start_time": 15560,
+            "text": "始"
+          },
+          {
+            "end_time": 15840,
+            "start_time": 15720,
+            "text": "的"
+          },
+          {
+            "end_time": 15960,
+            "start_time": 15840,
+            "text": "地"
+          },
+          {
+            "end_time": 16080,
+            "start_time": 15960,
+            "text": "方"
+          },
+          {
+            "end_time": 16080,
+            "start_time": 16080,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "王宫的邀请函送到时，她正在庭院里浇花。多年积累的学识、优雅与善意，让她成为王国年轻的执政官。她没有搬走窗台上的那盆花——那是故事开始的地方。"
+  }
+}

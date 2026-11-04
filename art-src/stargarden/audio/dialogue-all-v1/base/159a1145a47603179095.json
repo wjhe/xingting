@@ -1,0 +1,258 @@
+{
+  "src": "159a1145a47603179095.wav",
+  "duration": 11.88,
+  "gain": 1.433629648374647,
+  "source_sha256": "adc2a2c2ed0590f22fa98af1d21437eecdad1f19b8cd67a06a2516430539bab3",
+  "id": "event.main_3_1.text",
+  "text": "雨后的几周，艾莉不再提展览。她问你能不能暂时什么都不做。桌边那本手账已经很久没有翻开。",
+  "group": "event:main_3_1",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3520,
+        "start_time": 440,
+        "text": "雨后的几周，艾莉不再提展览。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 440,
+            "text": "雨"
+          },
+          {
+            "end_time": 840,
+            "start_time": 600,
+            "text": "后"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 840,
+            "text": "的"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "几"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1240,
+            "text": "周"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1480,
+            "text": "，"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1920,
+            "text": "艾"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2200,
+            "text": "莉"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "不"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "再"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2800,
+            "text": "提"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3160,
+            "text": "展"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3440,
+            "text": "览"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3520,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7600,
+        "start_time": 4600,
+        "text": "她问你能不能暂时什么都不做。",
+        "words": [
+          {
+            "end_time": 4840,
+            "start_time": 4600,
+            "text": "她"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4840,
+            "text": "问"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5200,
+            "text": "你"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5520,
+            "text": "能"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5720,
+            "text": "不"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "能"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6000,
+            "text": "暂"
+          },
+          {
+            "end_time": 6480,
+            "start_time": 6320,
+            "text": "时"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6680,
+            "text": "什"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6840,
+            "text": "么"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 6960,
+            "text": "都"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7120,
+            "text": "不"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7320,
+            "text": "做"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7600,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11680,
+        "start_time": 8560,
+        "text": "桌边那本手账已经很久没有翻开。",
+        "words": [
+          {
+            "end_time": 8760,
+            "start_time": 8560,
+            "text": "桌"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8800,
+            "text": "边"
+          },
+          {
+            "end_time": 9240,
+            "start_time": 9040,
+            "text": "那"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9240,
+            "text": "本"
+          },
+          {
+            "end_time": 9680,
+            "start_time": 9480,
+            "text": "手"
+          },
+          {
+            "end_time": 9880,
+            "start_time": 9800,
+            "text": "账"
+          },
+          {
+            "end_time": 10440,
+            "start_time": 10320,
+            "text": "已"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10440,
+            "text": "经"
+          },
+          {
+            "end_time": 10760,
+            "start_time": 10600,
+            "text": "很"
+          },
+          {
+            "end_time": 10960,
+            "start_time": 10760,
+            "text": "久"
+          },
+          {
+            "end_time": 11120,
+            "start_time": 10960,
+            "text": "没"
+          },
+          {
+            "end_time": 11200,
+            "start_time": 11120,
+            "text": "有"
+          },
+          {
+            "end_time": 11440,
+            "start_time": 11200,
+            "text": "翻"
+          },
+          {
+            "end_time": 11680,
+            "start_time": 11440,
+            "text": "开"
+          },
+          {
+            "end_time": 11680,
+            "start_time": 11680,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "雨后的几周，艾莉不再提展览。她问你能不能暂时什么都不做。桌边那本手账已经很久没有翻开。"
+  }
+}

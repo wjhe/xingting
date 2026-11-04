@@ -1,0 +1,76 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "75fa15cb-61cb-4261-8f5d-72bbe35078aa",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“写一张家人的留言”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050016FEA2EF01B7045E190F8E",
+  "response": {
+    "duration": 3.28,
+    "original_duration": 3.28,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2800,
+          "start_time": 480,
+          "text": "写一张家人的留言",
+          "words": [
+            {
+              "end_time": 800,
+              "start_time": 480,
+              "text": "写"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 840,
+              "text": "一"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1080,
+              "text": "张"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1640,
+              "text": "家"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1920,
+              "text": "人"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2160,
+              "text": "的"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2360,
+              "text": "留"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2600,
+              "text": "言"
+            }
+          ]
+        }
+      ],
+      "text": "写一张家人的留言"
+    }
+  }
+}

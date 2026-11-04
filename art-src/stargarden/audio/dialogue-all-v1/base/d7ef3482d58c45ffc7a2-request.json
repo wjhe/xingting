@@ -1,0 +1,81 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "8dad3a3f-38a2-4579-a67b-2f77dc9a3396",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“一起做一枚钥匙牌”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050458005515D50429961E1A2079",
+  "response": {
+    "duration": 3.28,
+    "original_duration": 3.28,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2840,
+          "start_time": 880,
+          "text": "一起做一枚钥匙牌。",
+          "words": [
+            {
+              "end_time": 1080,
+              "start_time": 880,
+              "text": "一"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1080,
+              "text": "起"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1320,
+              "text": "做"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1560,
+              "text": "一"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1760,
+              "text": "枚"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2120,
+              "text": "钥"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2320,
+              "text": "匙"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2600,
+              "text": "牌"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2840,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "一起做一枚钥匙牌。"
+    }
+  }
+}

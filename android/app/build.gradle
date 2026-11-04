@@ -1,0 +1,98 @@
+apply plugin: 'com.android.application'
+
+// 签名密钥在项目根目录 android-keys/（不进版本库）。没有密钥时只能打调试包
+def keystoreProps = new Properties()
+def keystoreFile = rootProject.file('../android-keys/keystore.properties')
+if (keystoreFile.exists()) keystoreFile.withInputStream { keystoreProps.load(it) }
+
+// TapTap 开发者中心的 Client ID / Client Token，同样放在 android-keys/（不进版本库）。没有时 TapTap 登录与防沉迷不启用
+def taptapProps = new Properties()
+def taptapFile = rootProject.file('../android-keys/taptap.properties')
+if (taptapFile.exists()) taptapFile.withInputStream { taptapProps.load(it) }
+
+// TapADN 广告的媒体 ID、密钥和广告位 ID（ssp.dirichlet.cn 后台），同样不进版本库。没有时 APK 不放真广告
+def tapadProps = new Properties()
+def tapadFile = rootProject.file('../android-keys/tapad.properties')
+if (tapadFile.exists()) tapadFile.withReader('UTF-8') { tapadProps.load(it) }
+def tapadLong = { String k -> ((tapadProps[k] ?: '0').toString().trim() ?: '0') + 'L' }
+
+android {
+    namespace "com.wendao.changsheng"
+    compileSdk rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.wendao.changsheng"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "TAPTAP_CLIENT_ID", "\"${taptapProps['clientId'] ?: ''}\""
+        buildConfigField "String", "TAPTAP_CLIENT_TOKEN", "\"${taptapProps['clientToken'] ?: ''}\""
+        buildConfigField "long", "TAPAD_MEDIA_ID", tapadLong('mediaId')
+        buildConfigField "String", "TAPAD_MEDIA_NAME", "\"${tapadProps['mediaName'] ?: ''}\""
+        buildConfigField "String", "TAPAD_MEDIA_KEY", "\"${tapadProps['mediaKey'] ?: ''}\""
+        buildConfigField "long", "TAPAD_REWARD_SPACE_ID", tapadLong('rewardSpaceId')
+        buildConfigField "long", "TAPAD_INTERSTITIAL_SPACE_ID", tapadLong('interstitialSpaceId')
+        aaptOptions {
+             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
+             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
+            ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
+        }
+    }
+    signingConfigs {
+        release {
+            if (keystoreFile.exists()) {
+                storeFile file(keystoreProps['storeFile'])
+                storePassword keystoreProps['storePassword']
+                keyAlias keystoreProps['keyAlias']
+                keyPassword keystoreProps['keyPassword']
+            }
+        }
+    }
+    buildFeatures {
+        buildConfig true
+    }
+    buildTypes {
+        release {
+            if (keystoreFile.exists()) signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir{
+        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
+    implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
+    implementation project(':capacitor-android')
+    // TapTap 登录 + 合规认证（实名、防沉迷）
+    implementation 'com.taptap.sdk:tap-core:4.11.0'
+    implementation 'com.taptap.sdk:tap-login:4.11.0'
+    implementation 'com.taptap.sdk:tap-compliance:4.11.0'
+    // TapADN 广告（激励视频、插屏），AAR 放在 libs/，官方指定搭配 OkHttp 3.10.0
+    implementation(name: 'dirichlet_ad_5.3.1.8', ext: 'aar')
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    testImplementation "junit:junit:$junitVersion"
+    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+    implementation project(':capacitor-cordova-android-plugins')
+}
+
+apply from: 'capacitor.build.gradle'
+
+try {
+    def servicesJSON = file('google-services.json')
+    if (servicesJSON.text) {
+        apply plugin: 'com.google.gms.google-services'
+    }
+} catch(Exception e) {
+    logger.info("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
+}

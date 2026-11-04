@@ -1,0 +1,201 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "d9a0bbd6-b647-4480-a592-c333e1e6bb2b",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“从第一张练习到今天，她发现变化其实一直存在，只是每天都太靠近自己。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505041254031035F1373A172397",
+  "response": {
+    "duration": 8.18,
+    "original_duration": 8.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 7960,
+          "start_time": 200,
+          "text": "从第一张练习到今天，她发现变化其实一直存在，只是每天都太靠近自己。",
+          "words": [
+            {
+              "end_time": 480,
+              "start_time": 200,
+              "text": "从"
+            },
+            {
+              "end_time": 640,
+              "start_time": 480,
+              "text": "第"
+            },
+            {
+              "end_time": 760,
+              "start_time": 640,
+              "text": "一"
+            },
+            {
+              "end_time": 920,
+              "start_time": 760,
+              "text": "张"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "练"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1240,
+              "text": "习"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1480,
+              "text": "到"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1680,
+              "text": "今"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1840,
+              "text": "天"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 2040,
+              "text": "，"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2720,
+              "text": "她"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2880,
+              "text": "发"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3040,
+              "text": "现"
+            },
+            {
+              "end_time": 3680,
+              "start_time": 3400,
+              "text": "变"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3680,
+              "text": "化"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3960,
+              "text": "其"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 4160,
+              "text": "实"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4400,
+              "text": "一"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4560,
+              "text": "直"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4720,
+              "text": "存"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 4960,
+              "text": "在"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 5240,
+              "text": "，"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5880,
+              "text": "只"
+            },
+            {
+              "end_time": 6240,
+              "start_time": 6080,
+              "text": "是"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6240,
+              "text": "每"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6440,
+              "text": "天"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6600,
+              "text": "都"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 6880,
+              "text": "太"
+            },
+            {
+              "end_time": 7360,
+              "start_time": 7120,
+              "text": "靠"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7360,
+              "text": "近"
+            },
+            {
+              "end_time": 7800,
+              "start_time": 7640,
+              "text": "自"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7800,
+              "text": "己"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7960,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "从第一张练习到今天，她发现变化其实一直存在，只是每天都太靠近自己。"
+    }
+  }
+}

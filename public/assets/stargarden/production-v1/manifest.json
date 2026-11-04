@@ -1,0 +1,690 @@
+[
+  {
+    "id": "activity-magic",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-magic.png"
+  },
+  {
+    "id": "activity-library",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-library.png"
+  },
+  {
+    "id": "activity-garden",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-garden.png"
+  },
+  {
+    "id": "activity-sea",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-sea.png"
+  },
+  {
+    "id": "event-key",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-key.png"
+  },
+  {
+    "id": "event-exhibition",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-exhibition.png"
+  },
+  {
+    "id": "event-rain",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-rain.png"
+  },
+  {
+    "id": "event-letter",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-letter.png"
+  },
+  {
+    "id": "event-farewell",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-farewell.png"
+  },
+  {
+    "id": "event-sewing",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-sewing.png"
+  },
+  {
+    "id": "event-friend",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-friend.png"
+  },
+  {
+    "id": "event-stars",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-stars.png"
+  },
+  {
+    "id": "event-flowers",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-flowers.png"
+  },
+  {
+    "id": "event-market",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-market.png"
+  },
+  {
+    "id": "enemy-stone",
+    "kind": "character",
+    "size": [
+      900,
+      900
+    ],
+    "source": "art-src\\stargarden\\production-v1\\enemy-stone.png"
+  },
+  {
+    "id": "enemy-spirit",
+    "kind": "character",
+    "size": [
+      900,
+      900
+    ],
+    "source": "art-src\\stargarden\\production-v1\\enemy-spirit.png"
+  },
+  {
+    "id": "battle-hero-grown",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\battle-hero-grown.png"
+  },
+  {
+    "id": "empty",
+    "kind": "utility",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "generated transparent alignment layer"
+  },
+  {
+    "id": "ending-star",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-star.png"
+  },
+  {
+    "id": "ending-sage",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-sage.png"
+  },
+  {
+    "id": "ending-knight",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-knight.png"
+  },
+  {
+    "id": "ending-artist",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-artist.png"
+  },
+  {
+    "id": "ending-dancer",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-dancer.png"
+  },
+  {
+    "id": "ending-healer",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-healer.png"
+  },
+  {
+    "id": "ending-host",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-host.png"
+  },
+  {
+    "id": "ending-gardener",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-gardener.png"
+  },
+  {
+    "id": "ending-home",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-home.png"
+  },
+  {
+    "id": "child-summer",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\child-summer.png"
+  },
+  {
+    "id": "child-festival",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\child-festival.png"
+  },
+  {
+    "id": "child-winter",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\child-winter.png"
+  },
+  {
+    "id": "teen-summer",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\teen-summer.png"
+  },
+  {
+    "id": "teen-festival",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\teen-festival.png"
+  },
+  {
+    "id": "teen-winter",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\teen-winter.png"
+  },
+  {
+    "id": "grown-summer",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\grown-summer.png"
+  },
+  {
+    "id": "grown-festival",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\grown-festival.png"
+  },
+  {
+    "id": "grown-winter",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\grown-winter.png"
+  },
+  {
+    "id": "grown-rose",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\grown-garden.png",
+    "derivedFrom": "grown-garden",
+    "method": "dress-color-mask"
+  },
+  {
+    "id": "grown-sky",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\grown-garden.png",
+    "derivedFrom": "grown-garden",
+    "method": "dress-color-mask"
+  },
+  {
+    "id": "grown-garden",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\grown-garden.png"
+  },
+  {
+    "id": "event-kitten",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\event-kitten.png"
+  },
+  {
+    "id": "activity-study",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-study.png"
+  },
+  {
+    "id": "battle-forest",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\battle-forest.png"
+  },
+  {
+    "id": "enemy-wolf",
+    "kind": "character",
+    "size": [
+      900,
+      900
+    ],
+    "source": "art-src\\stargarden\\production-v1\\enemy-wolf.png"
+  },
+  {
+    "id": "battle-hero",
+    "kind": "character",
+    "size": [
+      900,
+      1350
+    ],
+    "source": "art-src\\stargarden\\production-v1\\battle-hero.png"
+  },
+  {
+    "id": "battle-ruins",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\battle-ruins.png"
+  },
+  {
+    "id": "battle-mountain",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\battle-mountain.png"
+  },
+  {
+    "id": "activity-farm",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-farm.png"
+  },
+  {
+    "id": "activity-cafe",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-cafe.png"
+  },
+  {
+    "id": "activity-sword",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-sword.png"
+  },
+  {
+    "id": "activity-dance",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-dance.png"
+  },
+  {
+    "id": "activity-art",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\activity-art.png"
+  },
+  {
+    "id": "ending-scholar",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-scholar.png"
+  },
+  {
+    "id": "ending-explorer",
+    "kind": "scene",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\ending-explorer.png"
+  },
+  {
+    "id": "face-child-calm",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-child.png",
+    "cell": 0
+  },
+  {
+    "id": "face-child-happy",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-child.png",
+    "cell": 1
+  },
+  {
+    "id": "face-child-shy",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-child.png",
+    "cell": 2
+  },
+  {
+    "id": "face-child-sad",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-child.png",
+    "cell": 3
+  },
+  {
+    "id": "face-child-angry",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-child.png",
+    "cell": 4
+  },
+  {
+    "id": "face-child-tired",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-child.png",
+    "cell": 5
+  },
+  {
+    "id": "expressions-child",
+    "kind": "portrait-atlas",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-child.png"
+  },
+  {
+    "id": "face-teen-calm",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-teen.png",
+    "cell": 0
+  },
+  {
+    "id": "face-teen-happy",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-teen.png",
+    "cell": 1
+  },
+  {
+    "id": "face-teen-shy",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-teen.png",
+    "cell": 2
+  },
+  {
+    "id": "face-teen-sad",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-teen.png",
+    "cell": 3
+  },
+  {
+    "id": "face-teen-angry",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-teen.png",
+    "cell": 4
+  },
+  {
+    "id": "face-teen-tired",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-teen.png",
+    "cell": 5
+  },
+  {
+    "id": "expressions-teen",
+    "kind": "portrait-atlas",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-teen.png"
+  },
+  {
+    "id": "face-grown-calm",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-grown.png",
+    "cell": 0
+  },
+  {
+    "id": "face-grown-happy",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-grown.png",
+    "cell": 1
+  },
+  {
+    "id": "face-grown-shy",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-grown.png",
+    "cell": 2
+  },
+  {
+    "id": "face-grown-sad",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-grown.png",
+    "cell": 3
+  },
+  {
+    "id": "face-grown-angry",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-grown.png",
+    "cell": 4
+  },
+  {
+    "id": "face-grown-tired",
+    "kind": "portrait",
+    "size": [
+      320,
+      320
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-grown.png",
+    "cell": 5
+  },
+  {
+    "id": "expressions-grown",
+    "kind": "portrait-atlas",
+    "size": [
+      1200,
+      800
+    ],
+    "source": "art-src\\stargarden\\production-v1\\expressions-grown.png"
+  }
+]

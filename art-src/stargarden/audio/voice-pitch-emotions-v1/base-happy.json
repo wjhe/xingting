@@ -1,0 +1,9 @@
+{
+  "src": "base-happy.wav",
+  "duration": 4.5,
+  "source_sha256": "fcfe17879becad97c7e7f50d249dc80f088a9866d639c3ab3f7945a3bdfd8e02",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "label": "开心",
+  "instruction": "终于等到爸爸回家，开心地笑着迎接，语气轻快。",
+  "source_kind": "reused existing audition"
+}

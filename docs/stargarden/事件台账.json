@@ -1,0 +1,3184 @@
+[
+  {
+    "id": "main_0_0",
+    "kind": "main",
+    "title": "新家的第一把钥匙",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 1,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "告诉她这里永远是她的家",
+        "outcome": {
+          "text": "你把备用钥匙放进她掌心。“门会等你，我们也会。”那晚，她终于把行李收进了柜子。",
+          "flag": "home_key:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起做一枚钥匙牌",
+        "outcome": {
+          "text": "她在木牌上刻下一颗歪歪的星星，又在背面写下了你们的姓氏。",
+          "flag": "home_key:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_0_1",
+    "kind": "main",
+    "title": "空白的星庭手账",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 5,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "先写一件今天开心的事",
+        "outcome": {
+          "text": "她写下“今天的汤很好喝”。你在旁边补了一句：“今天有人等我吃饭。”",
+          "flag": "first_notebook:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "让她画出第一个愿望",
+        "outcome": {
+          "text": "纸上出现了一间有窗台和小花的房子。原来她想留下的，正是眼前的日常。",
+          "flag": "first_notebook:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_0_2",
+    "kind": "main",
+    "title": "第一年的小展台",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 9,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "一起布置生活小展台",
+        "outcome": {
+          "text": "桌上摆着她种的花、练习纸和找到的石头。邻居们停下来，认真听完了每件小东西的故事。",
+          "flag": "first_exhibition:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "让她决定要不要参加",
+        "outcome": {
+          "text": "她犹豫到午后，终于自己搬出了桌子。“我想先讲给一个人听。”你成为了第一位观众。",
+          "flag": "first_exhibition:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_1_0",
+    "kind": "main",
+    "title": "给明年的一封信",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 13,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "先写希望怎样度过每一天",
+        "outcome": {
+          "text": "她写下“睡得好、学一点新东西，还有记得回家”。未来第一次显得不那么遥远。",
+          "flag": "wish_letter:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "列出最想尝试的三件事",
+        "outcome": {
+          "text": "她把想学的、想去的、想见的人分开写好，还为每一项留了一个小方框。",
+          "flag": "wish_letter:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_1_1",
+    "kind": "main",
+    "title": "愿望也会改变吗",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 17,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "告诉她可以重新认识自己",
+        "outcome": {
+          "text": "你们把划掉的字保留下来。它证明她试过，也证明她有权作出新的选择。",
+          "flag": "wish_revised:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起找找不喜欢的原因",
+        "outcome": {
+          "text": "原来她害怕的并不是这件事，而是当众做不好。你们约定先从一个小练习开始。",
+          "flag": "wish_revised:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_1_2",
+    "kind": "main",
+    "title": "轮到我来介绍",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 21,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "坐在她看得见的地方",
+        "outcome": {
+          "text": "她讲到忘词时看了你一眼，你轻轻点头。很快，她用自己的话把故事讲完了。",
+          "flag": "own_voice:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "帮她邀请第一位观众",
+        "outcome": {
+          "text": "你请来熟悉的面包店老板。有人认真提问后，她终于忘记了纸稿，越讲越投入。",
+          "flag": "own_voice:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_2_0",
+    "kind": "main",
+    "title": "别人家的奖状",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 25,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "一起翻看她这一年的进步",
+        "outcome": {
+          "text": "从第一张练习到今天，她发现变化其实一直存在，只是每天都太靠近自己。",
+          "flag": "comparison:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "问问她真正羡慕的是什么",
+        "outcome": {
+          "text": "她想要的原来不是奖状，而是被认真肯定。你告诉她，你一直看得见她的努力。",
+          "flag": "comparison:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_2_1",
+    "kind": "main",
+    "title": "两种不同的答案",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 29,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "练习清楚地说出自己的理由",
+        "outcome": {
+          "text": "她没有争输赢，而是带着草图去讨论。两个人留下了彼此最喜欢的部分。",
+          "flag": "different_light:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "建议各做一份再放在一起",
+        "outcome": {
+          "text": "两份作品看起来很不同，观众却从中看到了两个人的性格。她们第一次欣赏起差异。",
+          "flag": "different_light:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_2_2",
+    "kind": "main",
+    "title": "没有名次的小奖章",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 33,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "郑重为她戴上",
+        "outcome": {
+          "text": "你为她整理绳结。她抬头时没有看向评奖台，而是看向了明年还想尝试的地方。",
+          "flag": "wood_medal:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "也做一枚自己的奖章",
+        "outcome": {
+          "text": "你的奖章上写着“学会听完再说”。她笑着给你戴好，你们都在这一年长大了一点。",
+          "flag": "wood_medal:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_3_0",
+    "kind": "main",
+    "title": "被雨淋湿的准备",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 37,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "先陪她难过一会儿",
+        "outcome": {
+          "text": "你没有立刻谈补救。她终于靠过来，小声说出了那句忍了很久的“我很难过”。",
+          "flag": "rain_failure:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起抢救还能留下的部分",
+        "outcome": {
+          "text": "你们把纸一张张铺开。能留下的不多，但有一页草稿让她想起了最初为什么要做这件事。",
+          "flag": "rain_failure:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_3_1",
+    "kind": "main",
+    "title": "不想努力的星期天",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 41,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "给她一个不用证明自己的假日",
+        "outcome": {
+          "text": "你们在家煮汤、听雨。她没有突然振作，只是在晚上主动把窗台的花浇好了。",
+          "flag": "rest_permission:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "邀请她做一件很小的事",
+        "outcome": {
+          "text": "你请她帮忙修好松动的书架。完成以后，她终于愿意翻开手账，先记下一行字。",
+          "flag": "rest_permission:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_3_2",
+    "kind": "main",
+    "title": "修补过的那一页",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 45,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "把介绍的机会交给她",
+        "outcome": {
+          "text": "她讲得很慢，台下却格外安静。有人告诉她，自己也经历过这样的雨天。",
+          "flag": "repaired_page:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "写一张家人的留言",
+        "outcome": {
+          "text": "你把“你回家就好”写在角落。她读到时停了一下，然后继续讲完了自己的故事。",
+          "flag": "repaired_page:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_4_0",
+    "kind": "main",
+    "title": "自己的日程表",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 49,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "听完她的安排与理由",
+        "outcome": {
+          "text": "她连费用和休息时间都算过了。你们保留了她的主意，也一起补上了遗漏的地方。",
+          "flag": "own_plan:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "约定先试一个月再讨论",
+        "outcome": {
+          "text": "一个月不是终身承诺。她把约定写在纸上，认真地签下自己的名字。",
+          "flag": "own_plan:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_4_1",
+    "kind": "main",
+    "title": "没有提前说的决定",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 53,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "说明担心，也听她解释",
+        "outcome": {
+          "text": "你们争论过，最终约定重要决定要提前说。信任没有消失，只是多了一条清楚的边界。",
+          "flag": "honest_boundary:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起承担后果，再谈规则",
+        "outcome": {
+          "text": "你没有替她取消承诺，而是陪她重新安排剩下的事情。她明白了自由也包括兑现答应过的话。",
+          "flag": "honest_boundary:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_4_2",
+    "kind": "main",
+    "title": "展台上的两个签名",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 57,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "让她签下自己的名字",
+        "outcome": {
+          "text": "她一笔一画写得郑重。你把备用胶带放进她的包里，像过去一样准备好，却退到了观众席。",
+          "flag": "signed_name:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "在协助人一栏留下名字",
+        "outcome": {
+          "text": "两个名字各有自己的位置。她没有离你更远，只是开始站在你身旁。",
+          "flag": "signed_name:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_5_0",
+    "kind": "main",
+    "title": "展览室的钥匙",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 61,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "提醒她先记住被帮助的感觉",
+        "outcome": {
+          "text": "她想起自己第一次站在桌子后面的样子。第二天，她先去听每个孩子想做什么。",
+          "flag": "community_key:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起整理一份简单的约定",
+        "outcome": {
+          "text": "你们写下开放时间、安全和收拾工具的方法。规则不是为了命令别人，而是让大家安心。",
+          "flag": "community_key:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_5_1",
+    "kind": "main",
+    "title": "约定被打破以后",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 65,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "陪她区分错误和犯错的人",
+        "outcome": {
+          "text": "她要求一起修理工具，也为那个孩子留了回来帮忙的机会。责任与温柔终于能同时存在。",
+          "flag": "fair_trust:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "支持她让对方亲自补救",
+        "outcome": {
+          "text": "她没有独自承担损失，而是和孩子商定了能做到的补救。那份约定后来被认真完成了。",
+          "flag": "fair_trust:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_5_2",
+    "kind": "main",
+    "title": "站在展台后面的她",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 69,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "等她忙完，告诉她你看见了",
+        "outcome": {
+          "text": "她红着脸说只是想起了以前。那些曾被给予的耐心，如今正被她传给别人。",
+          "flag": "passed_kindness:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "替她照看身后的准备工作",
+        "outcome": {
+          "text": "你默默整理好散落的材料。她回头时，你朝她点了点头，就像第一年那样。",
+          "flag": "passed_kindness:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_6_0",
+    "kind": "main",
+    "title": "地图上的空白处",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 73,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "鼓励她画上自己的路线",
+        "outcome": {
+          "text": "她在地图边缘补了一条线。那里还没有确定的目的地，但已经有了出发的方向。",
+          "flag": "future_map:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起讨论远行需要的准备",
+        "outcome": {
+          "text": "行李、费用、住处与回信地址被一项项写下。认真准备让憧憬有了可以落脚的地方。",
+          "flag": "future_map:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_6_1",
+    "kind": "main",
+    "title": "留下与离开的理由",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 77,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "告诉她勇气不由距离决定",
+        "outcome": {
+          "text": "她把“别人会怎么看”划掉，留下“我想怎样生活”。这一次，答案更像她自己。",
+          "flag": "distance_choice:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "让她分别写下两种生活",
+        "outcome": {
+          "text": "两张纸写满以后，她发现每条路都有值得珍惜的事，也都有需要承担的代价。",
+          "flag": "distance_choice:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_6_2",
+    "kind": "main",
+    "title": "写给未来的介绍",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 81,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "请她加上一件真正珍惜的事",
+        "outcome": {
+          "text": "她写进了窗台的花和第一次展览。那些看似普通的日子，原来同样组成了现在的她。",
+          "flag": "future_letter:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "请她写下还想学会的东西",
+        "outcome": {
+          "text": "介绍信末尾，她坦率留下了自己的不足。她开始相信，不必成为完美的人才能出发。",
+          "flag": "future_letter:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_7_0",
+    "kind": "main",
+    "title": "最后一年开始了",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 85,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "一起重读最早的愿望",
+        "outcome": {
+          "text": "很多愿望换了模样，有些依然没有完成。她却不再急着划掉，愿意带着它们继续生活。",
+          "flag": "last_year:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "给最后几页留一点空白",
+        "outcome": {
+          "text": "你说未来还会发生没有安排好的事。她合上本子，第一次不觉得空白意味着缺少什么。",
+          "flag": "last_year:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_7_1",
+    "kind": "main",
+    "title": "这一次由我来邀请",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 89,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "答应她，提前留好那一天",
+        "outcome": {
+          "text": "她郑重地在日历上画了星星。你知道，她需要的从来不只是掌声，还有那个会到场的人。",
+          "flag": "last_invitation:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "请她也邀请曾经帮助过的人",
+        "outcome": {
+          "text": "一封封信寄了出去。她发现自己的成长并不孤单，许多温柔都留在了沿途。",
+          "flag": "last_invitation:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_7_2",
+    "kind": "main",
+    "title": "明年春天再见",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": 93,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "把钥匙交还给她",
+        "outcome": {
+          "text": "她把钥匙收进随身的小袋。长大不是归还家的资格，而是能够带着它走得更远。",
+          "flag": "spring_return:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "约好明年春天再一起种花",
+        "outcome": {
+          "text": "你们在空白处画下一颗种子。故事即将翻过一页，那个约定却会继续发芽。",
+          "flag": "spring_return:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_mira_0",
+    "kind": "side",
+    "title": "靠窗的位置",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "literature": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "借给她一支笔",
+        "outcome": {
+          "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。",
+          "flag": "relation:mira:0:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "mira",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "先问她需不需要帮忙",
+        "outcome": {
+          "text": "米拉点点头，第一次主动告诉艾莉自己的名字。",
+          "flag": "relation:mira:0:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "mira",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_mira_1",
+    "kind": "side",
+    "title": "折角的书页",
+    "minAge": 11,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "literature": 3
+      },
+      "flags": [
+        "event:side_mira_0"
+      ]
+    },
+    "choices": [
+      {
+        "label": "告诉她书比不上朋友重要",
+        "outcome": {
+          "text": "你们一起把书页压平。米拉终于把憋着的道歉说了出来。",
+          "flag": "relation:mira:1:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "mira",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "一起学会保护借来的东西",
+        "outcome": {
+          "text": "她们做了两枚书签，一人一枚，也约定有事直接说。",
+          "flag": "relation:mira:1:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "mira",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_mira_2",
+    "kind": "side",
+    "title": "不一样的读后感",
+    "minAge": 12,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "literature": 5
+      },
+      "flags": [
+        "event:side_mira_1"
+      ]
+    },
+    "choices": [
+      {
+        "label": "交换理由，听完再回答",
+        "outcome": {
+          "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。",
+          "flag": "relation:mira:2:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "mira",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "一起找老师讨论",
+        "outcome": {
+          "text": "老师没有评出谁对，只请她们分别续写结尾。两个人都迫不及待想读对方的故事。",
+          "flag": "relation:mira:2:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "mira",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_mira_3",
+    "kind": "side",
+    "title": "没有寄出的邀请",
+    "minAge": 13,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "literature": 7
+      },
+      "flags": [
+        "event:side_mira_2"
+      ]
+    },
+    "choices": [
+      {
+        "label": "寄出信，把想念说清楚",
+        "outcome": {
+          "text": "回信来得很快。原来米拉也一直担心打扰她，两封信把沉默填满了。",
+          "flag": "relation:mira:3:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "mira",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "先问问老师她的近况",
+        "outcome": {
+          "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。",
+          "flag": "relation:mira:3:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "mira",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_mira_4",
+    "kind": "side",
+    "title": "两个人的书架",
+    "minAge": 14,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "literature": 9
+      },
+      "flags": [
+        "event:side_mira_3"
+      ]
+    },
+    "choices": [
+      {
+        "label": "每人挑三本喜欢的书",
+        "outcome": {
+          "text": "她们在扉页写下推荐理由。小书角慢慢成了大家停下来聊天的地方。",
+          "flag": "relation:mira:4:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "mira",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "留一格给后来的人",
+        "outcome": {
+          "text": "第六格先空着。几天后，一位害羞的新同学放进了自己的第一本书。",
+          "flag": "relation:mira:4:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "mira",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_rowan_0",
+    "kind": "side",
+    "title": "木剑的重量",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "sword": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "认真完成基础练习",
+        "outcome": {
+          "text": "罗恩说守护别人先要站得稳。她第一次理解训练不是只有挥剑。",
+          "flag": "relation:rowan:0:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "请教这项练习的用处",
+        "outcome": {
+          "text": "得到解释以后，她不再赌气。罗恩也学会先把理由讲清楚。",
+          "flag": "relation:rowan:0:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_rowan_1",
+    "kind": "side",
+    "title": "退后的那一步",
+    "minAge": 11,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "sword": 3
+      },
+      "flags": [
+        "event:side_rowan_0"
+      ]
+    },
+    "choices": [
+      {
+        "label": "肯定保护自己的判断",
+        "outcome": {
+          "text": "罗恩教她把后退接成防守。她发现谨慎与勇气并不冲突。",
+          "flag": "relation:rowan:1:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "陪她慢慢重新练习",
+        "outcome": {
+          "text": "一次、两次，她终于能看清对手动作，不再只顾闭眼冲上去。",
+          "flag": "relation:rowan:1:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_rowan_2",
+    "kind": "side",
+    "title": "没有赢的练习赛",
+    "minAge": 12,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "sword": 5
+      },
+      "flags": [
+        "event:side_rowan_1"
+      ]
+    },
+    "choices": [
+      {
+        "label": "请她复盘做得最好的一招",
+        "outcome": {
+          "text": "她记起自己成功挡住过一次进攻。罗恩第二天从那一招继续教起。",
+          "flag": "relation:rowan:2:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "给她时间，再问要不要继续",
+        "outcome": {
+          "text": "休息以后，她自己把木剑拿了出来。这次她想学会的不是证明自己。",
+          "flag": "relation:rowan:2:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_rowan_3",
+    "kind": "side",
+    "title": "不需要拔剑的时候",
+    "minAge": 13,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "sword": 7
+      },
+      "flags": [
+        "event:side_rowan_2"
+      ]
+    },
+    "choices": [
+      {
+        "label": "先请守卫与摊主一起商量",
+        "outcome": {
+          "text": "争执在几句话后平息。罗恩说她已经学会了木剑教不了的事。",
+          "flag": "relation:rowan:3:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "保持距离，帮助旁边的小孩",
+        "outcome": {
+          "text": "她把孩子带离拥挤处。没有挥剑，也有人因为她而安全。",
+          "flag": "relation:rowan:3:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_rowan_4",
+    "kind": "side",
+    "title": "送给下一位学徒",
+    "minAge": 14,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "sword": 9
+      },
+      "flags": [
+        "event:side_rowan_3"
+      ]
+    },
+    "choices": [
+      {
+        "label": "把划痕的故事讲给新人听",
+        "outcome": {
+          "text": "新人听得认真。她第一次站到了教人的位置，声音像当年的罗恩一样耐心。",
+          "flag": "relation:rowan:4:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "留下木剑，另做一把送给新人",
+        "outcome": {
+          "text": "旧剑成为纪念，新剑成为开始。罗恩笑着帮她磨平了最后一点毛刺。",
+          "flag": "relation:rowan:4:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "rowan",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_nora_0",
+    "kind": "side",
+    "title": "第一只歪饼干",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "cafe": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "问问客人的真实感受",
+        "outcome": {
+          "text": "客人说看起来像小云朵。诺拉教她分清做得不完美和做得不好。",
+          "flag": "relation:nora:0:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "nora",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "留一块自己尝，再继续练习",
+        "outcome": {
+          "text": "她认真记下烘烤时间，最后一盘终于有了整齐的边缘。",
+          "flag": "relation:nora:0:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "nora",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_nora_1",
+    "kind": "side",
+    "title": "忙碌时的小误会",
+    "minAge": 11,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "cafe": 3
+      },
+      "flags": [
+        "event:side_nora_0"
+      ]
+    },
+    "choices": [
+      {
+        "label": "陪她道歉并重新送茶",
+        "outcome": {
+          "text": "客人接受了道歉。诺拉说服务不是从不犯错，而是愿意好好补救。",
+          "flag": "relation:nora:1:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "nora",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "请诺拉教她记订单的方法",
+        "outcome": {
+          "text": "她给每张桌子画了小记号。忙起来时，纸条成了可靠的帮手。",
+          "flag": "relation:nora:1:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "nora",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_nora_2",
+    "kind": "side",
+    "title": "常客空着的座位",
+    "minAge": 12,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "cafe": 5
+      },
+      "flags": [
+        "event:side_nora_1"
+      ]
+    },
+    "choices": [
+      {
+        "label": "请诺拉帮忙问候",
+        "outcome": {
+          "text": "原来老人只是扭伤了脚。你们送去一小袋饼干，他笑着说茶屋还记得自己。",
+          "flag": "relation:nora:2:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "nora",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "为他留下一张问候卡",
+        "outcome": {
+          "text": "几天后卡片被带走，桌上多了一篮自家种的苹果。",
+          "flag": "relation:nora:2:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "nora",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_nora_3",
+    "kind": "side",
+    "title": "属于她的一道点心",
+    "minAge": 13,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "cafe": 7
+      },
+      "flags": [
+        "event:side_nora_2"
+      ]
+    },
+    "choices": [
+      {
+        "label": "限定小份试做，慢慢调整",
+        "outcome": {
+          "text": "她学会先写配方再动手。失败的成本变小了，试新想法也不再那么可怕。",
+          "flag": "relation:nora:3:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "nora",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "从家里熟悉的味道开始",
+        "outcome": {
+          "text": "她把蜂蜜饼改成小小星形。尝到第一口时，她想起了家中的餐桌。",
+          "flag": "relation:nora:3:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "nora",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_nora_4",
+    "kind": "side",
+    "title": "招牌背面的小字",
+    "minAge": 14,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "cafe": 9
+      },
+      "flags": [
+        "event:side_nora_3"
+      ]
+    },
+    "choices": [
+      {
+        "label": "大方写下自己的名字",
+        "outcome": {
+          "text": "她学会承认付出的价值，也在介绍时认真感谢了诺拉。",
+          "flag": "relation:nora:4:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "nora",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "加上一句送给大家的感谢",
+        "outcome": {
+          "text": "菜单背面多了小小一行字。熟客们发现以后，都特意翻过去读了一遍。",
+          "flag": "relation:nora:4:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "nora",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_fern_0",
+    "kind": "side",
+    "title": "路标旁的背包",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "forest": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "约定范围，一起寻找",
+        "outcome": {
+          "text": "背包就在第一块路标后。菲恩感谢她，也记住了出发前确认物品的习惯。",
+          "flag": "relation:fern:0:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "fern",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "先把消息告诉巡林员",
+        "outcome": {
+          "text": "巡林员很快找到背包，还教她们如何描述准确位置。",
+          "flag": "relation:fern:0:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "fern",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_fern_1",
+    "kind": "side",
+    "title": "看起来相似的叶子",
+    "minAge": 11,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "forest": 3
+      },
+      "flags": [
+        "event:side_fern_0"
+      ]
+    },
+    "choices": [
+      {
+        "label": "承认不知道，查阅图册",
+        "outcome": {
+          "text": "图册上的叶脉差别救了她们一次冒失。菲恩说不知道时停下也是本领。",
+          "flag": "relation:fern:1:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "fern",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "带回给老师辨认",
+        "outcome": {
+          "text": "老师仔细讲解了区别。她们把新知识画进各自的采集本。",
+          "flag": "relation:fern:1:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "fern",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_fern_2",
+    "kind": "side",
+    "title": "走到一半的山路",
+    "minAge": 12,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "forest": 5
+      },
+      "flags": [
+        "event:side_fern_1"
+      ]
+    },
+    "choices": [
+      {
+        "label": "坚持今天先安全返回",
+        "outcome": {
+          "text": "第二天她们从容抵达花谷。那些花没有离开，约定也没有因为等待而变少。",
+          "flag": "relation:fern:2:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "fern",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "记下路线，另定出发时间",
+        "outcome": {
+          "text": "菲恩起初失望，看到详细路线后又兴奋起来。她们有了更可靠的计划。",
+          "flag": "relation:fern:2:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "fern",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_fern_3",
+    "kind": "side",
+    "title": "森林留下的痕迹",
+    "minAge": 13,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "forest": 7
+      },
+      "flags": [
+        "event:side_fern_2"
+      ]
+    },
+    "choices": [
+      {
+        "label": "先记录位置并报告巡林员",
+        "outcome": {
+          "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。生气终于变成了能做的事。",
+          "flag": "relation:fern:3:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "fern",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "先照顾受损的幼树",
+        "outcome": {
+          "text": "她们为能救回的小树支起木架。回程时，菲恩的脚步没有那么急了。",
+          "flag": "relation:fern:3:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "fern",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_fern_4",
+    "kind": "side",
+    "title": "留在地图边上的名字",
+    "minAge": 14,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "forest": 9
+      },
+      "flags": [
+        "event:side_fern_3"
+      ]
+    },
+    "choices": [
+      {
+        "label": "一起检查每个安全标记",
+        "outcome": {
+          "text": "图上补上了水源、避雨处和回程时间。她们把可靠放在了好看之前。",
+          "flag": "relation:fern:4:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          },
+          "relation": {
+            "id": "fern",
+            "value": 12
+          }
+        }
+      },
+      {
+        "label": "把地图送给第一次探索的人",
+        "outcome": {
+          "text": "新手认真收好地图。那些走过的弯路，成了别人平安回家的帮助。",
+          "flag": "relation:fern:4:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          },
+          "relation": {
+            "id": "fern",
+            "value": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_tired_cup",
+    "kind": "daily",
+    "title": "桌边放凉的茶",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "minStress": 65
+    },
+    "choices": [
+      {
+        "label": "今晚先睡，练习明天再说",
+        "outcome": {
+          "text": "你替她收好练习。第二天，她终于吃完了一顿不慌不忙的早餐。",
+          "flag": "memory:tired_cup:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起把明天的事情减少一点",
+        "outcome": {
+          "text": "她划去不必要的安排，小声说原来计划也可以为休息让路。",
+          "flag": "memory:tired_cup:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_summer_hat",
+    "kind": "daily",
+    "title": "风把帽子吹走了",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "outfit": "summer"
+    },
+    "choices": [
+      {
+        "label": "认真向孩子道谢",
+        "outcome": {
+          "text": "她蹲下来道谢，孩子笑着跑开。那顶帽子忽然成了今天最喜欢的东西。",
+          "flag": "memory:summer_hat:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "邀请孩子一起在树荫下休息",
+        "outcome": {
+          "text": "你们分了水壶里的水。炎热的午后多了一位短暂的小伙伴。",
+          "flag": "memory:summer_hat:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_winter_pocket",
+    "kind": "daily",
+    "title": "披肩口袋里的栗子",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "months": [
+        1,
+        11,
+        12
+      ],
+      "outfit": "winter"
+    },
+    "choices": [
+      {
+        "label": "一起坐下来慢慢吃",
+        "outcome": {
+          "text": "你们在避风处剥栗子，手掌和心都渐渐暖了起来。",
+          "flag": "memory:winter_pocket:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "留几颗带给茶屋的朋友",
+        "outcome": {
+          "text": "她认真包好另一份。冬天的温暖被分成了不止两份。",
+          "flag": "memory:winter_pocket:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_dress_mirror",
+    "kind": "daily",
+    "title": "镜子前的练习",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "outfit": "festival"
+    },
+    "choices": [
+      {
+        "label": "夸她刚才笑起来的样子",
+        "outcome": {
+          "text": "她终于又转了一圈。裙摆展开时，笑容也不再需要练习。",
+          "flag": "memory:dress_mirror:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "陪她练习第一次入场",
+        "outcome": {
+          "text": "你们轮流扮演来宾，把紧张的开场练成了一段笑声。",
+          "flag": "memory:dress_mirror:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_first_wage",
+    "kind": "daily",
+    "title": "钱袋上的结",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "farm": 2
+      }
+    },
+    "choices": [
+      {
+        "label": "请她决定留多少作零用",
+        "outcome": {
+          "text": "她分出一小份，又把其余认真收好。挣来的金币有了具体的打算。",
+          "flag": "memory:first_wage:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起记进家庭账本",
+        "outcome": {
+          "text": "数字旁边，她写下了今天学会辨认的一种蔬菜。",
+          "flag": "memory:first_wage:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_paint_wall",
+    "kind": "daily",
+    "title": "墙角多出的颜色",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "painting": 2
+      }
+    },
+    "choices": [
+      {
+        "label": "先在纸上完成草图",
+        "outcome": {
+          "text": "一张小画变成了四张，她已经开始期待下一季的颜色。",
+          "flag": "memory:paint_wall:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "帮她找一块可以悬挂的画板",
+        "outcome": {
+          "text": "画板有了自己的位置，房间也多了一块属于她的风景。",
+          "flag": "memory:paint_wall:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_dance_steps",
+    "kind": "daily",
+    "title": "地板上的三拍子",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "dance": 2
+      }
+    },
+    "choices": [
+      {
+        "label": "替她轻轻打拍子",
+        "outcome": {
+          "text": "她跟着节奏又试了一次，最后那一步终于自然地落下。",
+          "flag": "memory:dance_steps:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "请她教你最简单的一段",
+        "outcome": {
+          "text": "你总踩错方向，她笑着重新示范，自己也不知不觉记熟了。",
+          "flag": "memory:dance_steps:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_magic_lamp",
+    "kind": "daily",
+    "title": "没有亮起的小灯",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "magic": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "陪她把步骤从头理一遍",
+        "outcome": {
+          "text": "原来只是忘了一处小小的连接。灯亮起时，她长长地松了一口气。",
+          "flag": "memory:magic_lamp:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "请老师解释原理",
+        "outcome": {
+          "text": "知道每一步为什么这样做以后，她终于不再只凭记忆尝试。",
+          "flag": "memory:magic_lamp:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_library_note",
+    "kind": "daily",
+    "title": "夹在书里的便签",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "library": 2
+      }
+    },
+    "choices": [
+      {
+        "label": "把便签留给下一位读者",
+        "outcome": {
+          "text": "她又加了一句自己的鼓励。小小的接力安静地留在了书页里。",
+          "flag": "memory:library_note:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "问问馆员能否收藏下来",
+        "outcome": {
+          "text": "馆员给她一本留言册，让每一段鼓励都有可以留下的位置。",
+          "flag": "memory:library_note:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_church_seed",
+    "kind": "daily",
+    "title": "暂时没有发芽",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "church": 2
+      }
+    },
+    "choices": [
+      {
+        "label": "一起确认水和阳光是否合适",
+        "outcome": {
+          "text": "调整位置后，你们继续等待。她学会了照顾，也学会不是每件事都立刻有答案。",
+          "flag": "memory:church_seed:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "请教照顾花圃的人",
+        "outcome": {
+          "text": "对方告诉她种子各有自己的季节。她在花盆旁放下一张写着日期的小牌。",
+          "flag": "memory:church_seed:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_guard_gate",
+    "kind": "daily",
+    "title": "城门外的问路人",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "guard": 2
+      }
+    },
+    "choices": [
+      {
+        "label": "画一张简单的路线图",
+        "outcome": {
+          "text": "老人终于看明白了，临走认真向她道谢。她也学会换一种方式解释。",
+          "flag": "memory:guard_gate:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "请同伴暂时代班，陪老人走一段",
+        "outcome": {
+          "text": "她说明情况后得到同伴支持，回程时也主动接下了对方的一项任务。",
+          "flag": "memory:guard_gate:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_sea_shell",
+    "kind": "daily",
+    "title": "贝壳里真的有海吗",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "vacation": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "一起记住这一天的声音",
+        "outcome": {
+          "text": "她把海浪、风和你说话的样子写进手账。冬天也能从纸上找到这次旅行。",
+          "flag": "memory:sea_shell:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "告诉她声音的来由",
+        "outcome": {
+          "text": "她听懂后仍把贝壳留在床头。知道原理并不妨碍珍惜回忆。",
+          "flag": "memory:sea_shell:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_ruins_mark",
+    "kind": "daily",
+    "title": "石壁上的旧刻痕",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "ruins": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "用纸笔在旁边记录",
+        "outcome": {
+          "text": "她没有触碰石壁，却把每个位置都画得仔细。回来后，馆员认出了其中的年代。",
+          "flag": "memory:ruins_mark:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "先向看守询问允许的做法",
+        "outcome": {
+          "text": "看守借给她适合记录的工具，也赞许她先问再做。",
+          "flag": "memory:ruins_mark:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_mountain_cloud",
+    "kind": "daily",
+    "title": "云层下面的城镇",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "activities": {
+        "mountain": 1
+      }
+    },
+    "choices": [
+      {
+        "label": "一起找找熟悉的屋顶",
+        "outcome": {
+          "text": "你们认了很久，她说看不清也没关系，自己知道回去的路。",
+          "flag": "memory:mountain_cloud:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "给她安静看风景的时间",
+        "outcome": {
+          "text": "下山时，她主动说起以后还想去的地方。远方开始有了真实的形状。",
+          "flag": "memory:mountain_cloud:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_quiet_trust",
+    "kind": "daily",
+    "title": "不用说话的陪伴",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "minBond": 80
+    },
+    "choices": [
+      {
+        "label": "陪她看窗外的灯",
+        "outcome": {
+          "text": "有些亲近不需要解释。灯一盏盏熄灭，你们才想起已经很晚了。",
+          "flag": "memory:quiet_trust:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起整理桌上的旧照片",
+        "outcome": {
+          "text": "照片背后的小字引出好多旧事，热水放凉了，你们也没有察觉。",
+          "flag": "memory:quiet_trust:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "daily_spring_shoot",
+    "kind": "daily",
+    "title": "窗台上的新芽",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {
+      "months": [
+        2,
+        3,
+        4
+      ]
+    },
+    "choices": [
+      {
+        "label": "为新芽记下今天的日期",
+        "outcome": {
+          "text": "手账上多了一枚小小绿点。等待终于有了可以看见的形状。",
+          "flag": "memory:spring_shoot:warm",
+          "bond": 5,
+          "stress": -6,
+          "gains": {
+            "kindness": 4
+          }
+        }
+      },
+      {
+        "label": "一起给花盆换一个位置",
+        "outcome": {
+          "text": "新芽靠近了阳光。她说以后每天都要来看看，又认真补了一句：也不能浇太多水。",
+          "flag": "memory:spring_shoot:independent",
+          "bond": 3,
+          "stress": -3,
+          "gains": {
+            "intellect": 4,
+            "grace": 2
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "kitten",
+    "kind": "daily",
+    "title": "雨檐下的小客人",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "把它抱回家照顾",
+        "outcome": {
+          "text": "小猫在壁炉旁睡着了。她望着你笑，眼睛亮得像星星。",
+          "gold": -20,
+          "gains": {
+            "kindness": 12
+          },
+          "bond": 5,
+          "flag": "cat"
+        }
+      },
+      {
+        "label": "一起为它寻找主人",
+        "outcome": {
+          "text": "你们敲开一扇扇门，终于找到了焦急的主人。她学会了责任。",
+          "gains": {
+            "kindness": 8,
+            "intellect": 4
+          },
+          "bond": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "book",
+    "kind": "daily",
+    "title": "旧书店的星图",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "陪她一起认识星空",
+        "outcome": {
+          "text": "这个夜晚，你们给窗外最亮的星星取了一个只有彼此知道的名字。",
+          "gains": {
+            "intellect": 10
+          },
+          "bond": 6,
+          "stress": -8
+        }
+      },
+      {
+        "label": "鼓励她自己研究",
+        "outcome": {
+          "text": "她认真写满了三页笔记，兴奋地把新发现讲给你听。",
+          "gains": {
+            "intellect": 15,
+            "grace": 3
+          },
+          "bond": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "friend",
+    "kind": "daily",
+    "title": "一封花香的邀请",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "一起准备小点心",
+        "outcome": {
+          "text": "带着微微烤焦的小饼干，她收获了第一个真正的朋友。",
+          "gold": -15,
+          "gains": {
+            "charm": 10,
+            "kindness": 4
+          },
+          "stress": -10
+        }
+      },
+      {
+        "label": "教她大方地介绍自己",
+        "outcome": {
+          "text": "她在镜子前练习了许多次。茶会上，那个自信的笑容恰到好处。",
+          "gains": {
+            "grace": 10,
+            "charm": 5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sword",
+    "kind": "daily",
+    "title": "老骑士的木剑",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "鼓励她上前试一试",
+        "outcome": {
+          "text": "手心磨出了小水泡，她却舍不得放下木剑。“我也想保护重要的人。”",
+          "gains": {
+            "combat": 14,
+            "stamina": 4
+          },
+          "stress": 5
+        }
+      },
+      {
+        "label": "听老骑士讲冒险故事",
+        "outcome": {
+          "text": "勇气、承诺、回家的路。她把这些故事认真地记在了心里。",
+          "gains": {
+            "kindness": 10,
+            "intellect": 5
+          },
+          "bond": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "painting",
+    "kind": "daily",
+    "title": "画里的人",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "认真把画挂在墙上",
+        "outcome": {
+          "text": "“其实画得还不够好……”她红了脸，但一整天都在偷偷微笑。",
+          "gains": {
+            "charm": 8,
+            "grace": 6
+          },
+          "bond": 8
+        }
+      },
+      {
+        "label": "送她一套新的画笔",
+        "outcome": {
+          "text": "她用新画笔，在画上又添了一个牵着你的自己。",
+          "gold": -35,
+          "gains": {
+            "grace": 14
+          },
+          "bond": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "market",
+    "kind": "daily",
+    "title": "集市的找零",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "一起把钱送回去",
+        "outcome": {
+          "text": "老板笑着送了她一块蜂蜜饼。“诚实的心，比金币更珍贵。”",
+          "gains": {
+            "kindness": 15
+          },
+          "bond": 4
+        }
+      },
+      {
+        "label": "让她自己做决定",
+        "outcome": {
+          "text": "想了很久，她还是跑回了面包店。这是她自己的选择。",
+          "gains": {
+            "kindness": 10,
+            "intellect": 5
+          },
+          "bond": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "dream",
+    "kind": "daily",
+    "title": "枕边的小小愿望",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "你快乐，就已经很好了",
+        "outcome": {
+          "text": "她轻轻靠过来。“那我也希望你一直快乐。”",
+          "bond": 10,
+          "stress": -18,
+          "gains": {
+            "kindness": 5
+          }
+        }
+      },
+      {
+        "label": "找到你真正喜欢的事就好",
+        "outcome": {
+          "text": "她认真想了想，在日记本上写下了一个新的愿望。",
+          "bond": 6,
+          "gains": {
+            "intellect": 8,
+            "grace": 5
+          },
+          "stress": -8
+        }
+      }
+    ]
+  },
+  {
+    "id": "flowers",
+    "kind": "daily",
+    "title": "第一朵属于她的花",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "为这朵花画一张纪念画",
+        "outcome": {
+          "text": "画纸上有花、有阳光，还有你们并肩坐着的影子。",
+          "gains": {
+            "grace": 9,
+            "kindness": 6
+          },
+          "bond": 5
+        }
+      },
+      {
+        "label": "一起种下更多的种子",
+        "outcome": {
+          "text": "她把新的花盆排得整整齐齐。“明年这里会是一座小花园。”",
+          "gains": {
+            "stamina": 5,
+            "kindness": 12
+          },
+          "stress": -6
+        }
+      }
+    ]
+  },
+  {
+    "id": "music",
+    "kind": "daily",
+    "title": "广场上的提琴声",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "鼓掌，陪她跳完这一曲",
+        "outcome": {
+          "text": "她跳错了好几步，你们却笑得停不下来。这是很普通，也很珍贵的一天。",
+          "gains": {
+            "charm": 12,
+            "grace": 4
+          },
+          "stress": -12,
+          "bond": 4
+        }
+      },
+      {
+        "label": "请旅人教她一点乐理",
+        "outcome": {
+          "text": "她学会了第一个音阶，也记住了旅人说的：音乐要先听见自己的心。",
+          "gold": -20,
+          "gains": {
+            "intellect": 8,
+            "grace": 12
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lost",
+    "kind": "daily",
+    "title": "森林里的岔路",
+    "minAge": 10,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "做好标记，勇敢探索",
+        "outcome": {
+          "text": "小路尽头是一片铺满蓝色野花的山谷。她拾到一枚古老的银币。",
+          "gains": {
+            "combat": 10,
+            "stamina": 6
+          },
+          "gold": 40,
+          "stress": 5
+        }
+      },
+      {
+        "label": "记下位置，改天再来",
+        "outcome": {
+          "text": "谨慎也是勇气的一部分。她画了一张歪歪扭扭、但准确的小地图。",
+          "gains": {
+            "intellect": 10,
+            "kindness": 3
+          },
+          "bond": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "exam",
+    "kind": "daily",
+    "title": "没有答对的那道题",
+    "minAge": 12,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "先抱抱她，再一起看看题目",
+        "outcome": {
+          "text": "眼泪干了以后，那道题似乎也没有那么难了。她知道，成绩之外还有一个永远支持自己的人。",
+          "gains": {
+            "intellect": 12
+          },
+          "bond": 7,
+          "stress": -12
+        }
+      },
+      {
+        "label": "告诉她，犯错也是成长的一部分",
+        "outcome": {
+          "text": "她把错题认真抄进本子，写下了“下次再试一次”。",
+          "gains": {
+            "intellect": 15,
+            "kindness": 4
+          },
+          "bond": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "friendship",
+    "kind": "daily",
+    "title": "和朋友吵架的傍晚",
+    "minAge": 12,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "陪她写一封真诚的信",
+        "outcome": {
+          "text": "第二天，回信里夹着一朵小花。有些友谊经过雨天，反而更加明亮。",
+          "gains": {
+            "kindness": 14,
+            "grace": 5
+          },
+          "bond": 4
+        }
+      },
+      {
+        "label": "给她一点时间，自己理清心情",
+        "outcome": {
+          "text": "她在花园里坐了一下午，最终决定先说出那句“我们聊聊吧”。",
+          "gains": {
+            "grace": 10,
+            "intellect": 7
+          },
+          "stress": -8
+        }
+      }
+    ]
+  },
+  {
+    "id": "sewing",
+    "kind": "daily",
+    "title": "袖口上的小花",
+    "minAge": 12,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "坐下来，陪她一针一线地缝",
+        "outcome": {
+          "text": "花瓣有些歪，她却穿得格外骄傲。这件裙子，又多了一层回忆。",
+          "gains": {
+            "grace": 12,
+            "kindness": 5
+          },
+          "bond": 5
+        }
+      },
+      {
+        "label": "夸夸她，把创意放心交给她",
+        "outcome": {
+          "text": "她不仅绣好了袖口，还在你的手帕上也绣了一朵。",
+          "gains": {
+            "charm": 10,
+            "grace": 8
+          },
+          "bond": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "mentor",
+    "kind": "daily",
+    "title": "骑士的第二次邀请",
+    "minAge": 14,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "支持她，接受新的挑战",
+        "outcome": {
+          "text": "日落时，她带着一身尘土回来，眼神却格外坚定。木剑早已不再沉重。",
+          "gains": {
+            "combat": 22,
+            "stamina": 10
+          },
+          "stress": 8,
+          "bond": 3
+        }
+      },
+      {
+        "label": "先听听她自己的想法",
+        "outcome": {
+          "text": "她认真说完自己的担忧与期待。你发现，她已经能够为自己的选择负责。",
+          "gains": {
+            "kindness": 12,
+            "grace": 10
+          },
+          "bond": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "stage",
+    "kind": "daily",
+    "title": "帷幕拉开之前",
+    "minAge": 14,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "告诉她：我会坐在第一排",
+        "outcome": {
+          "text": "聚光灯下，她看见了你的笑容。那一瞬间，台词和勇气都回来了。",
+          "gains": {
+            "charm": 18,
+            "grace": 10
+          },
+          "bond": 6
+        }
+      },
+      {
+        "label": "陪她再练最后一遍",
+        "outcome": {
+          "text": "一遍又一遍的练习，终于变成了舞台上自然舒展的姿态。",
+          "gains": {
+            "grace": 18,
+            "intellect": 8
+          },
+          "stress": -6
+        }
+      }
+    ]
+  },
+  {
+    "id": "independent",
+    "kind": "daily",
+    "title": "第一份自己的薪水",
+    "minAge": 14,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "郑重地谢谢她，请她决定菜单",
+        "outcome": {
+          "text": "晚餐并不昂贵，但她一整晚都笑得很开心。付出被看见的感觉，像阳光一样温暖。",
+          "gold": 40,
+          "gains": {
+            "kindness": 10
+          },
+          "bond": 8
+        }
+      },
+      {
+        "label": "留一半，帮她存下另一半",
+        "outcome": {
+          "text": "你们给储蓄罐贴上“未来的冒险”标签。她第一次认真计算起自己的梦想。",
+          "gold": 60,
+          "gains": {
+            "intellect": 12
+          },
+          "bond": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "choice",
+    "kind": "daily",
+    "title": "想要成为的自己",
+    "minAge": 16,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "无论选哪条路，我都会支持你",
+        "outcome": {
+          "text": "她没有再问你哪一个答案正确。她知道，自己终于可以带着爱，勇敢走向远方。",
+          "gains": {
+            "kindness": 15,
+            "grace": 12
+          },
+          "bond": 10,
+          "stress": -10
+        }
+      },
+      {
+        "label": "一起认真分析每个选择",
+        "outcome": {
+          "text": "你们聊到月亮升起。未来仍有未知，但地图上的线条已经渐渐清晰。",
+          "gains": {
+            "intellect": 18,
+            "grace": 8
+          },
+          "bond": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "letter",
+    "kind": "daily",
+    "title": "寄往远方的信",
+    "minAge": 16,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "当然会，但我更想看见你快乐",
+        "outcome": {
+          "text": "她把信仔细收好，又在背面写下了回家的地址。有些牵挂，让远行也变得温柔。",
+          "gains": {
+            "intellect": 15,
+            "kindness": 10
+          },
+          "bond": 8
+        }
+      },
+      {
+        "label": "约定每个月都给彼此写信",
+        "outcome": {
+          "text": "她认真选了一叠淡绿色的信纸。“第一封，就从出发那天开始写。”",
+          "gains": {
+            "grace": 16,
+            "charm": 8
+          },
+          "bond": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "portrait",
+    "kind": "daily",
+    "title": "和从前的自己合影",
+    "minAge": 16,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "再为她画一幅现在的画像",
+        "outcome": {
+          "text": "两幅画并排放着，中间隔着的，是许许多多个被认真度过的日子。",
+          "gains": {
+            "charm": 16,
+            "grace": 12
+          },
+          "bond": 8
+        }
+      },
+      {
+        "label": "一起重走小时候的花园小径",
+        "outcome": {
+          "text": "小径似乎变短了，蔷薇却开得和从前一样。她自然地挽起你的手。",
+          "gains": {
+            "stamina": 10,
+            "kindness": 16
+          },
+          "bond": 7,
+          "stress": -15
+        }
+      }
+    ]
+  },
+  {
+    "id": "promise",
+    "kind": "daily",
+    "title": "下一个春天的约定",
+    "minAge": 17,
+    "maxAge": 17,
+    "dueMonth": null,
+    "conditions": {},
+    "choices": [
+      {
+        "label": "约好以后每个春天都回来看看",
+        "outcome": {
+          "text": "她在树旁埋下一只装着信的盒子。等到树长大，你们再一起打开它。",
+          "gains": {
+            "kindness": 18,
+            "grace": 10
+          },
+          "bond": 10,
+          "flag": "promise"
+        }
+      },
+      {
+        "label": "把这份心意画进成长手账",
+        "outcome": {
+          "text": "手账的最后几页还空着。她拿起画笔，画下了你、她，以及未来茂盛的树。",
+          "gains": {
+            "grace": 18,
+            "charm": 12
+          },
+          "bond": 7,
+          "flag": "promise"
+        }
+      }
+    ]
+  }
+]

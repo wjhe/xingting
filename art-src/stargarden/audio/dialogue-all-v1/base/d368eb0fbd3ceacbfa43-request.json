@@ -1,0 +1,310 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "4c9d5616-40a2-4b9b-a45e-0a3ad910da17",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“一场突来的雨毁掉了她准备许久的展示材料。艾莉站在门口，没有哭，只说：“没关系。”湿透的纸却被她攥得很紧。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110504561421E28DADAFF2951A9FA9",
+  "response": {
+    "duration": 13.68,
+    "original_duration": 13.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4600,
+          "start_time": 400,
+          "text": "一场突来的雨毁掉了她准备许久的展示材料。",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 400,
+              "text": "一"
+            },
+            {
+              "end_time": 800,
+              "start_time": 600,
+              "text": "场"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 840,
+              "text": "突"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1120,
+              "text": "来"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1280,
+              "text": "的"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1400,
+              "text": "雨"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1920,
+              "text": "毁"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2160,
+              "text": "掉"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2320,
+              "text": "了"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2520,
+              "text": "她"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2720,
+              "text": "准"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 2880,
+              "text": "备"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3040,
+              "text": "许"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3280,
+              "text": "久"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3480,
+              "text": "的"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3640,
+              "text": "展"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3840,
+              "text": "示"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4080,
+              "text": "材"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4320,
+              "text": "料"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4600,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10160,
+          "start_time": 5280,
+          "text": "艾莉站在门口，没有哭，只说：‘没关系。",
+          "words": [
+            {
+              "end_time": 5400,
+              "start_time": 5280,
+              "text": "艾"
+            },
+            {
+              "end_time": 5640,
+              "start_time": 5600,
+              "text": "莉"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5880,
+              "text": "站"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6080,
+              "text": "在"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6280,
+              "text": "门"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6440,
+              "text": "口"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6680,
+              "text": "，"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7360,
+              "text": "没"
+            },
+            {
+              "end_time": 7640,
+              "start_time": 7520,
+              "text": "有"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7640,
+              "text": "哭"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 8040,
+              "text": "，"
+            },
+            {
+              "end_time": 8960,
+              "start_time": 8720,
+              "text": "只"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 8960,
+              "text": "说"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9360,
+              "text": "："
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9360,
+              "text": "‘"
+            },
+            {
+              "end_time": 9800,
+              "start_time": 9560,
+              "text": "没"
+            },
+            {
+              "end_time": 9960,
+              "start_time": 9800,
+              "text": "关"
+            },
+            {
+              "end_time": 10160,
+              "start_time": 9960,
+              "text": "系"
+            },
+            {
+              "end_time": 10160,
+              "start_time": 10160,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 13560,
+          "start_time": 10160,
+          "text": "’湿透的纸却被她攥得很紧。",
+          "words": [
+            {
+              "end_time": 10160,
+              "start_time": 10160,
+              "text": "’"
+            },
+            {
+              "end_time": 11200,
+              "start_time": 11120,
+              "text": "湿"
+            },
+            {
+              "end_time": 11560,
+              "start_time": 11400,
+              "text": "透"
+            },
+            {
+              "end_time": 11760,
+              "start_time": 11560,
+              "text": "的"
+            },
+            {
+              "end_time": 11920,
+              "start_time": 11800,
+              "text": "纸"
+            },
+            {
+              "end_time": 12360,
+              "start_time": 12160,
+              "text": "却"
+            },
+            {
+              "end_time": 12480,
+              "start_time": 12360,
+              "text": "被"
+            },
+            {
+              "end_time": 12640,
+              "start_time": 12480,
+              "text": "她"
+            },
+            {
+              "end_time": 12960,
+              "start_time": 12760,
+              "text": "攥"
+            },
+            {
+              "end_time": 13160,
+              "start_time": 12960,
+              "text": "得"
+            },
+            {
+              "end_time": 13320,
+              "start_time": 13160,
+              "text": "很"
+            },
+            {
+              "end_time": 13560,
+              "start_time": 13320,
+              "text": "紧"
+            },
+            {
+              "end_time": 13560,
+              "start_time": 13560,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "一场突来的雨毁掉了她准备许久的展示材料。艾莉站在门口，没有哭，只说：‘没关系。’湿透的纸却被她攥得很紧。"
+    }
+  }
+}

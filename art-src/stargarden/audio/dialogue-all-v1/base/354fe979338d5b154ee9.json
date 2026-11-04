@@ -1,0 +1,64 @@
+{
+  "src": "354fe979338d5b154ee9.wav",
+  "duration": 3.08,
+  "gain": 0.85,
+  "source_sha256": "05f56e6bf2c8fdedf2a7dd1c9ec053fa6b909b84ba47b8851691a33a4de241f3",
+  "id": "event.main_7_2.choice.0",
+  "text": "把钥匙交还给她",
+  "group": "event:main_7_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2040,
+        "start_time": 240,
+        "text": "把钥匙交还给她",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 240,
+            "text": "把"
+          },
+          {
+            "end_time": 800,
+            "start_time": 520,
+            "text": "钥"
+          },
+          {
+            "end_time": 960,
+            "start_time": 800,
+            "text": "匙"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1200,
+            "text": "交"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "还"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "给"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1920,
+            "text": "她"
+          }
+        ]
+      }
+    ],
+    "text": "把钥匙交还给她"
+  }
+}

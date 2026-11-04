@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>星庭物语 · 按钮音效对比</title>
+<style>
+  body{margin:0 auto;padding:20px 16px 40px;max-width:760px;font:15px/1.7 system-ui,"Microsoft YaHei",sans-serif;background:#faf5e5;color:#4f5d42}
+  h1{font-size:22px;margin:0 0 4px}.note{color:#8a8364;font-size:14px}
+  table{width:100%;border-collapse:collapse;background:#fffbee;border:1px solid #d6cca5;border-radius:12px;overflow:hidden}
+  th,td{padding:8px 10px;border-bottom:1px solid #ebe4c9;text-align:left;vertical-align:middle;font-size:14px}
+  th{background:#eef1dc}button{min-height:36px;padding:0 14px;border-radius:18px;border:1px solid #c9bd92;background:#fff8e3;color:#56664a;font-size:14px;cursor:pointer}
+  button.new{background:#8ea36f;color:#fff;border-color:#7f9663}
+</style>
+</head>
+<body>
+<h1>按钮音效对比</h1>
+<p class="note">仅供开发环境使用（npm run dev 后打开 /art-src/stargarden/audio/sfx-review.html）。“现在”是游戏正在使用的新音效；“旧”是替换前的 Kenney Interface Sounds；“备选”是另一套 CC0 界面音效里较柔和的几个。想换哪个，告诉程序侧修改 scripts/stargarden-sfx-build.py 的映射后重新运行。</p>
+<table>
+<thead><tr><th>用途</th><th>现在</th><th>旧</th><th>备选</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+<script>
+const ROWS = [
+  ['一般按钮', 'click', 'click', ['kenney-ui-sfx/rollover5.wav', 'kenney-ui-sfx/rollover6.wav', 'kenney-ui-sfx/click2.wav']],
+  ['切换页面 / 分页', 'page', null, []],
+  ['关闭 / 返回', 'back', 'back', []],
+  ['放进旬格', 'place', null, []],
+  ['购买', 'buy', 'buy', []],
+  ['换装', 'dress', 'dress', []],
+  ['事件出现（关闭音乐时）', 'event', 'event', []],
+];
+const play = src => { const a = new Audio(src); a.volume = .8; a.play(); };
+document.getElementById('rows').innerHTML = ROWS.map(([label, now, old, alts]) => `<tr><td>${label}</td>
+  <td><button class="new" data-src="/assets/stargarden/audio/${now}.ogg">▶ 现在</button></td>
+  <td>${old ? `<button data-src="sfx-previous/${old}.ogg">▶ 旧</button>` : '—'}</td>
+  <td>${alts.map((a, i) => `<button data-src="sfx-sources/${a}">▶ 备选 ${i + 1}</button>`).join(' ') || '—'}</td></tr>`).join('');
+document.addEventListener('click', e => { const b = e.target.closest('[data-src]'); if (b) play(b.dataset.src); });
+</script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+{
+  "src": "35a3ed4991cd33f8914c.wav",
+  "duration": 9.68,
+  "gain": 1.5637093844386527,
+  "source_sha256": "06ed5235126f93b7c453dd78bbbd858bfbf27a4631fdf595dfba4466da4ddba4",
+  "id": "event.main_2_2.outcome.0",
+  "text": "你为她整理绳结。她抬头时没有看向评奖台，而是看向了明年还想尝试的地方。",
+  "group": "event:main_2_2",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1640,
+        "start_time": 160,
+        "text": "你为她整理绳结。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 160,
+            "text": "你"
+          },
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "为"
+          },
+          {
+            "end_time": 800,
+            "start_time": 640,
+            "text": "她"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 840,
+            "text": "整"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "理"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1240,
+            "text": "绳"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1560,
+            "text": "结"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1640,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9360,
+        "start_time": 2920,
+        "text": "她抬头时没有看向评奖台，而是看向了明年还想尝试的地方。",
+        "words": [
+          {
+            "end_time": 3120,
+            "start_time": 2920,
+            "text": "她"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3160,
+            "text": "抬"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3440,
+            "text": "头"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 3720,
+            "text": "时"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4240,
+            "text": "没"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4440,
+            "text": "有"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4560,
+            "text": "看"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4760,
+            "text": "向"
+          },
+          {
+            "end_time": 5200,
+            "start_time": 5120,
+            "text": "评"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5400,
+            "text": "奖"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5600,
+            "text": "台"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5840,
+            "text": "，"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6560,
+            "text": "而"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6760,
+            "text": "是"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 6960,
+            "text": "看"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7160,
+            "text": "向"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7360,
+            "text": "了"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7560,
+            "text": "明"
+          },
+          {
+            "end_time": 8040,
+            "start_time": 7760,
+            "text": "年"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8040,
+            "text": "还"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8240,
+            "text": "想"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8440,
+            "text": "尝"
+          },
+          {
+            "end_time": 8840,
+            "start_time": 8680,
+            "text": "试"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 8920,
+            "text": "的"
+          },
+          {
+            "end_time": 9200,
+            "start_time": 9080,
+            "text": "地"
+          },
+          {
+            "end_time": 9360,
+            "start_time": 9200,
+            "text": "方"
+          },
+          {
+            "end_time": 9360,
+            "start_time": 9360,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你为她整理绳结。她抬头时没有看向评奖台，而是看向了明年还想尝试的地方。"
+  }
+}

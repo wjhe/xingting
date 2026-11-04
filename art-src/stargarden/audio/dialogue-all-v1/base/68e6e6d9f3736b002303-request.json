@@ -1,0 +1,228 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "592de063-6dd2-4bc6-b547-a74b4afb7937",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“你的奖章上写着“学会听完再说”。她笑着给你戴好，你们都在这一年长大了一点。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050434BBA7052C8866FF205AF6",
+  "response": {
+    "duration": 8.8,
+    "original_duration": 8.8,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4000,
+          "start_time": 40,
+          "text": "你的奖章上写着‘学会听完再说’。",
+          "words": [
+            {
+              "end_time": 320,
+              "start_time": 40,
+              "text": "你"
+            },
+            {
+              "end_time": 440,
+              "start_time": 320,
+              "text": "的"
+            },
+            {
+              "end_time": 560,
+              "start_time": 520,
+              "text": "奖"
+            },
+            {
+              "end_time": 840,
+              "start_time": 800,
+              "text": "章"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1000,
+              "text": "上"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1240,
+              "text": "写"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1480,
+              "text": "着"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1720,
+              "text": "‘"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2400,
+              "text": "学"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2680,
+              "text": "会"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 2960,
+              "text": "听"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3200,
+              "text": "完"
+            },
+            {
+              "end_time": 3680,
+              "start_time": 3480,
+              "text": "再"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3680,
+              "text": "说"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 4000,
+              "text": "’"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 4000,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8600,
+          "start_time": 4720,
+          "text": "她笑着给你戴好，你们都在这一年长大了一点。",
+          "words": [
+            {
+              "end_time": 4840,
+              "start_time": 4720,
+              "text": "她"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 4960,
+              "text": "笑"
+            },
+            {
+              "end_time": 5400,
+              "start_time": 5160,
+              "text": "着"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5400,
+              "text": "给"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5560,
+              "text": "你"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5720,
+              "text": "戴"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 5960,
+              "text": "好"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6280,
+              "text": "，"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6600,
+              "text": "你"
+            },
+            {
+              "end_time": 6880,
+              "start_time": 6760,
+              "text": "们"
+            },
+            {
+              "end_time": 7040,
+              "start_time": 6880,
+              "text": "都"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 7040,
+              "text": "在"
+            },
+            {
+              "end_time": 7360,
+              "start_time": 7200,
+              "text": "这"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7360,
+              "text": "一"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7480,
+              "text": "年"
+            },
+            {
+              "end_time": 8000,
+              "start_time": 7800,
+              "text": "长"
+            },
+            {
+              "end_time": 8200,
+              "start_time": 8000,
+              "text": "大"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8200,
+              "text": "了"
+            },
+            {
+              "end_time": 8440,
+              "start_time": 8360,
+              "text": "一"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8440,
+              "text": "点"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8600,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "你的奖章上写着‘学会听完再说’。她笑着给你戴好，你们都在这一年长大了一点。"
+    }
+  }
+}

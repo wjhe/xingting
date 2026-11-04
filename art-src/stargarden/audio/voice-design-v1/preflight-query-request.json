@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/get_voice",
+  "request_id": "c9e8456c-014f-44d5-bacf-5ff152e541eb",
+  "request": {
+    "speaker_id": "S_jPukgGbk2"
+  },
+  "status": "complete",
+  "provider_log_id": "20261104034713080E617456142E828EB4",
+  "response": {
+    "available_training_times": 15,
+    "create_time": 0,
+    "speaker_id": "S_jPukgGbk2",
+    "status": 0
+  }
+}

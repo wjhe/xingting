@@ -1,0 +1,74 @@
+{
+  "src": "676fc9eb3f071bbaa3aa.wav",
+  "duration": 3.5,
+  "gain": 1.27589833713597,
+  "source_sha256": "dccfd01da096f3579c4afad69cc2f7b16299b3bdbf38e55a84985726728aeda4",
+  "id": "event.main_1_2.choice.1",
+  "text": "帮她邀请第一位观众",
+  "group": "event:main_1_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3120,
+        "start_time": 760,
+        "text": "帮她邀请第一位观众",
+        "words": [
+          {
+            "end_time": 1120,
+            "start_time": 760,
+            "text": "帮"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1120,
+            "text": "她"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1440,
+            "text": "邀"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1720,
+            "text": "请"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "第"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2360,
+            "text": "一"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2440,
+            "text": "位"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2720,
+            "text": "观"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 3000,
+            "text": "众"
+          }
+        ]
+      }
+    ],
+    "text": "帮她邀请第一位观众"
+  }
+}

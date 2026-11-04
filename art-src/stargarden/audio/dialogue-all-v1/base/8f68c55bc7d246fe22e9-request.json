@@ -1,0 +1,91 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "86fd0e41-3a36-4d2c-822d-d8a87894a4f6",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“约好明年春天再一起种花”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050502309ABD252EF4E3791F7DB1",
+  "response": {
+    "duration": 4.18,
+    "original_duration": 4.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3000,
+          "start_time": 400,
+          "text": "约好明年春天再一起种花",
+          "words": [
+            {
+              "end_time": 680,
+              "start_time": 400,
+              "text": "约"
+            },
+            {
+              "end_time": 960,
+              "start_time": 680,
+              "text": "好"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 960,
+              "text": "明"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1120,
+              "text": "年"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1320,
+              "text": "春"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1560,
+              "text": "天"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1920,
+              "text": "再"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2120,
+              "text": "一"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2280,
+              "text": "起"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2600,
+              "text": "种"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 2840,
+              "text": "花"
+            }
+          ]
+        }
+      ],
+      "text": "约好明年春天再一起种花"
+    }
+  }
+}
