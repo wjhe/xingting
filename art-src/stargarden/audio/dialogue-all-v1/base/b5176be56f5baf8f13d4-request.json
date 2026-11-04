@@ -1,0 +1,208 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "c998ff85-195e-4142-bc22-2510490118e7",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她红着脸说只是想起了以前。那些曾被给予的耐心，如今正被她传给别人。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050636C9B0E31512A43A216C5F",
+  "response": {
+    "duration": 8.38,
+    "original_duration": 8.38,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2560,
+          "start_time": 0,
+          "text": "她红着脸说只是想起了以前。",
+          "words": [
+            {
+              "end_time": 160,
+              "start_time": 0,
+              "text": "她"
+            },
+            {
+              "end_time": 440,
+              "start_time": 240,
+              "text": "红"
+            },
+            {
+              "end_time": 640,
+              "start_time": 440,
+              "text": "着"
+            },
+            {
+              "end_time": 880,
+              "start_time": 640,
+              "text": "脸"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 880,
+              "text": "说"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1280,
+              "text": "只"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1480,
+              "text": "是"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1600,
+              "text": "想"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1840,
+              "text": "起"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 2000,
+              "text": "了"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2160,
+              "text": "以"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2320,
+              "text": "前"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2560,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8080,
+          "start_time": 3560,
+          "text": "那些曾被给予的耐心，如今正被她传给别人。",
+          "words": [
+            {
+              "end_time": 3760,
+              "start_time": 3560,
+              "text": "那"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3760,
+              "text": "些"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3960,
+              "text": "曾"
+            },
+            {
+              "end_time": 4400,
+              "start_time": 4240,
+              "text": "被"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4560,
+              "text": "给"
+            },
+            {
+              "end_time": 4880,
+              "start_time": 4800,
+              "text": "予"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 4960,
+              "text": "的"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5160,
+              "text": "耐"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5320,
+              "text": "心"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5560,
+              "text": "，"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6080,
+              "text": "如"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6320,
+              "text": "今"
+            },
+            {
+              "end_time": 6920,
+              "start_time": 6640,
+              "text": "正"
+            },
+            {
+              "end_time": 7080,
+              "start_time": 6920,
+              "text": "被"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 7120,
+              "text": "她"
+            },
+            {
+              "end_time": 7600,
+              "start_time": 7320,
+              "text": "传"
+            },
+            {
+              "end_time": 7800,
+              "start_time": 7600,
+              "text": "给"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7800,
+              "text": "别"
+            },
+            {
+              "end_time": 8080,
+              "start_time": 7960,
+              "text": "人"
+            },
+            {
+              "end_time": 8080,
+              "start_time": 8080,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她红着脸说只是想起了以前。那些曾被给予的耐心，如今正被她传给别人。"
+    }
+  }
+}

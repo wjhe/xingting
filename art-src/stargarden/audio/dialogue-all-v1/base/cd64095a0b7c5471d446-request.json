@@ -1,0 +1,238 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "3b30b2d5-b4b9-48a7-a6e3-854a061e65dc",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“新点心卖得很好，诺拉让她把名字写进菜单。她犹豫了一会儿，想起一路帮过自己的人。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050509592589341F170B9A1EFFF1",
+  "response": {
+    "duration": 10.18,
+    "original_duration": 10.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5120,
+          "start_time": 120,
+          "text": "新点心卖得很好，诺拉让她把名字写进菜单。",
+          "words": [
+            {
+              "end_time": 360,
+              "start_time": 120,
+              "text": "新"
+            },
+            {
+              "end_time": 560,
+              "start_time": 400,
+              "text": "点"
+            },
+            {
+              "end_time": 840,
+              "start_time": 720,
+              "text": "心"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "卖"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1240,
+              "text": "得"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1440,
+              "text": "很"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1560,
+              "text": "好"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1880,
+              "text": "，"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2480,
+              "text": "诺"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 2800,
+              "text": "拉"
+            },
+            {
+              "end_time": 3400,
+              "start_time": 3160,
+              "text": "让"
+            },
+            {
+              "end_time": 3600,
+              "start_time": 3400,
+              "text": "她"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3640,
+              "text": "把"
+            },
+            {
+              "end_time": 3960,
+              "start_time": 3760,
+              "text": "名"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3960,
+              "text": "字"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4160,
+              "text": "写"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4440,
+              "text": "进"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4640,
+              "text": "菜"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4920,
+              "text": "单"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 5120,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10000,
+          "start_time": 5960,
+          "text": "她犹豫了一会儿，想起一路帮过自己的人。",
+          "words": [
+            {
+              "end_time": 6080,
+              "start_time": 5960,
+              "text": "她"
+            },
+            {
+              "end_time": 6400,
+              "start_time": 6200,
+              "text": "犹"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6400,
+              "text": "豫"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6640,
+              "text": "了"
+            },
+            {
+              "end_time": 6920,
+              "start_time": 6800,
+              "text": "一"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6920,
+              "text": "会"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 6960,
+              "text": "儿"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 7320,
+              "text": "，"
+            },
+            {
+              "end_time": 8240,
+              "start_time": 8000,
+              "text": "想"
+            },
+            {
+              "end_time": 8520,
+              "start_time": 8240,
+              "text": "起"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8600,
+              "text": "一"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 8800,
+              "text": "路"
+            },
+            {
+              "end_time": 9280,
+              "start_time": 9040,
+              "text": "帮"
+            },
+            {
+              "end_time": 9480,
+              "start_time": 9280,
+              "text": "过"
+            },
+            {
+              "end_time": 9600,
+              "start_time": 9480,
+              "text": "自"
+            },
+            {
+              "end_time": 9680,
+              "start_time": 9600,
+              "text": "己"
+            },
+            {
+              "end_time": 9800,
+              "start_time": 9680,
+              "text": "的"
+            },
+            {
+              "end_time": 10000,
+              "start_time": 9800,
+              "text": "人"
+            },
+            {
+              "end_time": 10000,
+              "start_time": 10000,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "新点心卖得很好，诺拉让她把名字写进菜单。她犹豫了一会儿，想起一路帮过自己的人。"
+    }
+  }
+}

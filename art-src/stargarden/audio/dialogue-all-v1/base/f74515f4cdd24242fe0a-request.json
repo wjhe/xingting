@@ -1,0 +1,218 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "31909c5b-f3ec-4940-9c96-d4ef719a525f",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050510006917CF117DDEE41F5E58",
+  "response": {
+    "duration": 9.3,
+    "original_duration": 9.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3560,
+          "start_time": 240,
+          "text": "老骑士罗恩让艾莉先提一桶水。",
+          "words": [
+            {
+              "end_time": 480,
+              "start_time": 240,
+              "text": "老"
+            },
+            {
+              "end_time": 640,
+              "start_time": 600,
+              "text": "骑"
+            },
+            {
+              "end_time": 920,
+              "start_time": 880,
+              "text": "士"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1080,
+              "text": "罗"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1360,
+              "text": "恩"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1640,
+              "text": "让"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1960,
+              "text": "艾"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2200,
+              "text": "莉"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2440,
+              "text": "先"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2640,
+              "text": "提"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2880,
+              "text": "一"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3080,
+              "text": "桶"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3240,
+              "text": "水"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3560,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9040,
+          "start_time": 4280,
+          "text": "她以为是惩罚，直到发现自己的手臂很快酸了。",
+          "words": [
+            {
+              "end_time": 4480,
+              "start_time": 4280,
+              "text": "她"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4520,
+              "text": "以"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4640,
+              "text": "为"
+            },
+            {
+              "end_time": 5080,
+              "start_time": 4800,
+              "text": "是"
+            },
+            {
+              "end_time": 5400,
+              "start_time": 5120,
+              "text": "惩"
+            },
+            {
+              "end_time": 5600,
+              "start_time": 5400,
+              "text": "罚"
+            },
+            {
+              "end_time": 5600,
+              "start_time": 5600,
+              "text": "，"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6200,
+              "text": "直"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6440,
+              "text": "到"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6680,
+              "text": "发"
+            },
+            {
+              "end_time": 7080,
+              "start_time": 6840,
+              "text": "现"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 7080,
+              "text": "自"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 7200,
+              "text": "己"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7320,
+              "text": "的"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7480,
+              "text": "手"
+            },
+            {
+              "end_time": 8000,
+              "start_time": 7760,
+              "text": "臂"
+            },
+            {
+              "end_time": 8320,
+              "start_time": 8160,
+              "text": "很"
+            },
+            {
+              "end_time": 8480,
+              "start_time": 8320,
+              "text": "快"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8480,
+              "text": "酸"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 8800,
+              "text": "了"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 9040,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。"
+    }
+  }
+}

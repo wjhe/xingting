@@ -1,0 +1,216 @@
+{
+  "src": "0303376be7f8fb7cda42.wav",
+  "duration": 9.509666666666666,
+  "gain": 2.0274322086437433,
+  "source_sha256": "b3b0cc52b173d1fc17f56e5ecc5a2bc4e9743ad8e675f82c0c683a2811b58cf0",
+  "id": "event.main_6_1.outcome.0",
+  "text": "她把“别人会怎么看”划掉，留下“我想怎样生活”。这一次，答案更像她自己。",
+  "group": "event:main_6_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5600,
+        "start_time": 960,
+        "text": "她把‘别人会怎么看’划掉，留下‘我想怎样生活’。",
+        "words": [
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "她"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1280,
+            "text": "把"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1600,
+            "text": "‘"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "别"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "人"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2040,
+            "text": "会"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2240,
+            "text": "怎"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2360,
+            "text": "么"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2480,
+            "text": "看"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2720,
+            "text": "’"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2840,
+            "text": "划"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3080,
+            "text": "掉"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "，"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3720,
+            "text": "留"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 3960,
+            "text": "下"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4240,
+            "text": "‘"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4280,
+            "text": "我"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4600,
+            "text": "想"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4800,
+            "text": "怎"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "样"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5160,
+            "text": "生"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5320,
+            "text": "活"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5600,
+            "text": "’"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5600,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9080,
+        "start_time": 6360,
+        "text": "这一次，答案更像她自己。",
+        "words": [
+          {
+            "end_time": 6560,
+            "start_time": 6360,
+            "text": "这"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6560,
+            "text": "一"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6720,
+            "text": "次"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6960,
+            "text": "，"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7360,
+            "text": "答"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7640,
+            "text": "案"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 7960,
+            "text": "更"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8200,
+            "text": "像"
+          },
+          {
+            "end_time": 8720,
+            "start_time": 8520,
+            "text": "她"
+          },
+          {
+            "end_time": 8840,
+            "start_time": 8720,
+            "text": "自"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 8840,
+            "text": "己"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 9080,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她把‘别人会怎么看’划掉，留下‘我想怎样生活’。这一次，答案更像她自己。"
+  }
+}

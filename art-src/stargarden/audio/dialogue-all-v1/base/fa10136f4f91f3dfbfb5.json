@@ -1,0 +1,80 @@
+{
+  "src": "fa10136f4f91f3dfbfb5.wav",
+  "duration": 3.28,
+  "gain": 1.5424001765373547,
+  "source_sha256": "fa32465ad52d73d53eb46c5602cbf87ae15635318a764c231461c9f5dac12141",
+  "id": "event.side_fern_4.choice.0",
+  "text": "一起检查每个安全标记",
+  "group": "event:side_fern_4",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2880,
+        "start_time": 480,
+        "text": "一起检查每个安全标记",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 480,
+            "text": "一"
+          },
+          {
+            "end_time": 880,
+            "start_time": 680,
+            "text": "起"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "检"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1120,
+            "text": "查"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1640,
+            "text": "每"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1880,
+            "text": "个"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "安"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "全"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "标"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2800,
+            "text": "记"
+          }
+        ]
+      }
+    ],
+    "text": "一起检查每个安全标记"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "src": "1efe2e1cee9063e2c61a.wav",
+  "duration": 2.78,
+  "gain": 1.6344091129839566,
+  "source_sha256": "8dd8429a9aa9ffff164ed5ecd1424a5f5ec827696ec5b6625496d0781646bad2",
+  "id": "event.side_mira_0.choice.0",
+  "text": "借给她一支笔",
+  "group": "event:side_mira_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2360,
+        "start_time": 560,
+        "text": "借给她一支笔",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 560,
+            "text": "借"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 880,
+            "text": "给"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1200,
+            "text": "她"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "一"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "支"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "笔"
+          }
+        ]
+      }
+    ],
+    "text": "借给她一支笔"
+  }
+}

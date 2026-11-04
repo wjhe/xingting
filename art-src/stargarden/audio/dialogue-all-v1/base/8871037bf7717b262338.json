@@ -1,0 +1,199 @@
+{
+  "src": "8871037bf7717b262338.wav",
+  "duration": 11.8,
+  "gain": 1.490766923511809,
+  "source_sha256": "5874cc1e021ac335e14ab21f88e8a9817d6062b9672ba20501821a1650d61d29",
+  "id": "event.main_6_1.outcome.1",
+  "text": "两张纸写满以后，她发现每条路都有值得珍惜的事，也都有需要承担的代价。",
+  "group": "event:main_6_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 11640,
+        "start_time": 320,
+        "text": "两张纸写满以后，她发现每条路都有值得珍惜的事，也都有需要承担的代价。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 320,
+            "text": "两"
+          },
+          {
+            "end_time": 880,
+            "start_time": 600,
+            "text": "张"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "纸"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1800,
+            "text": "写"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "满"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2440,
+            "text": "以"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2640,
+            "text": "后"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2920,
+            "text": "，"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4080,
+            "text": "她"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4360,
+            "text": "发"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4520,
+            "text": "现"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5480,
+            "text": "每"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5760,
+            "text": "条"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6040,
+            "text": "路"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6760,
+            "text": "都"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7000,
+            "text": "有"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7240,
+            "text": "值"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7440,
+            "text": "得"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7680,
+            "text": "珍"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 7920,
+            "text": "惜"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8160,
+            "text": "的"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8440,
+            "text": "事"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8680,
+            "text": "，"
+          },
+          {
+            "end_time": 9760,
+            "start_time": 9440,
+            "text": "也"
+          },
+          {
+            "end_time": 9960,
+            "start_time": 9760,
+            "text": "都"
+          },
+          {
+            "end_time": 10200,
+            "start_time": 9960,
+            "text": "有"
+          },
+          {
+            "end_time": 10400,
+            "start_time": 10200,
+            "text": "需"
+          },
+          {
+            "end_time": 10520,
+            "start_time": 10400,
+            "text": "要"
+          },
+          {
+            "end_time": 10800,
+            "start_time": 10560,
+            "text": "承"
+          },
+          {
+            "end_time": 11000,
+            "start_time": 10800,
+            "text": "担"
+          },
+          {
+            "end_time": 11240,
+            "start_time": 11000,
+            "text": "的"
+          },
+          {
+            "end_time": 11360,
+            "start_time": 11240,
+            "text": "代"
+          },
+          {
+            "end_time": 11640,
+            "start_time": 11480,
+            "text": "价"
+          },
+          {
+            "end_time": 11640,
+            "start_time": 11640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "两张纸写满以后，她发现每条路都有值得珍惜的事，也都有需要承担的代价。"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "src": "00b238c02c86e9fdb09e.wav",
+  "duration": 8.6,
+  "gain": 1.5414602340396493,
+  "source_sha256": "3a73303d9e910074ff834855f3757af7a71f9896c344b4758d4216dd44fd4d72",
+  "id": "event.side_mira_1.text",
+  "text": "米拉借来的书有一页折了角。她以为艾莉会生气，整节课都没有说话。",
+  "group": "event:side_mira_1",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3000,
+        "start_time": 240,
+        "text": "米拉借来的书有一页折了角。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 240,
+            "text": "米"
+          },
+          {
+            "end_time": 680,
+            "start_time": 560,
+            "text": "拉"
+          },
+          {
+            "end_time": 960,
+            "start_time": 840,
+            "text": "借"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "来"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1200,
+            "text": "的"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1320,
+            "text": "书"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1640,
+            "text": "有"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1880,
+            "text": "一"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2120,
+            "text": "页"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2440,
+            "text": "折"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2640,
+            "text": "了"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2800,
+            "text": "角"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8040,
+        "start_time": 3800,
+        "text": "她以为艾莉会生气，整节课都没有说话。",
+        "words": [
+          {
+            "end_time": 4040,
+            "start_time": 3800,
+            "text": "她"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4040,
+            "text": "以"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4160,
+            "text": "为"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4400,
+            "text": "艾"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4680,
+            "text": "莉"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4880,
+            "text": "会"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5040,
+            "text": "生"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5240,
+            "text": "气"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5480,
+            "text": "，"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6320,
+            "text": "整"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6680,
+            "text": "节"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6960,
+            "text": "课"
+          },
+          {
+            "end_time": 7400,
+            "start_time": 7200,
+            "text": "都"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7400,
+            "text": "没"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7520,
+            "text": "有"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7600,
+            "text": "说"
+          },
+          {
+            "end_time": 8040,
+            "start_time": 7800,
+            "text": "话"
+          },
+          {
+            "end_time": 8040,
+            "start_time": 8040,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "米拉借来的书有一页折了角。她以为艾莉会生气，整节课都没有说话。"
+  }
+}

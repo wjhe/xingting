@@ -2,7 +2,7 @@
   "version": 1,
   "text": "全部正式剧情与游戏演出文本",
   "parentVariants": "角色选择为爸爸或妈妈时播放对应录音",
-  "count": 505,
+  "count": 507,
   "ageSemitones": {
     "child": 1,
     "teen": 0,
@@ -5622,6 +5622,19 @@
       "priority": 35
     },
     {
+      "id": "birthday.story",
+      "text": "蜡烛又多了一根。艾莉许完愿，笑着说：“明年也要一起过生日。”",
+      "group": "birthday",
+      "role": "story",
+      "emotion": "温暖、开心，带着一点期待",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 35
+    },
+    {
       "id": "festival.loss",
       "text": "你们一起参加了收获祭，吃了热乎乎的南瓜派，还收到了纪念礼物。",
       "group": "festival",
@@ -5724,6 +5737,19 @@
         "grown"
       ],
       "priority": 42
+    },
+    {
+      "id": "battle.intro",
+      "text": "深呼吸，勇敢地迈出第一步。",
+      "group": "battle",
+      "role": "story",
+      "emotion": "温柔鼓励，略带冒险前的紧张",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 43
     },
     {
       "id": "battle.古塔石像.retreat",

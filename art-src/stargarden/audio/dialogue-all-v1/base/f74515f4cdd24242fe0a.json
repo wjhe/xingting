@@ -1,0 +1,213 @@
+{
+  "src": "f74515f4cdd24242fe0a.wav",
+  "duration": 9.3,
+  "gain": 1.3763661427533642,
+  "source_sha256": "b8654e1e46dbd639bb30c7e754be1d8f50233eb761d5334546b0ed6e411446e8",
+  "id": "event.side_rowan_0.text",
+  "text": "老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。",
+  "group": "event:side_rowan_0",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3560,
+        "start_time": 240,
+        "text": "老骑士罗恩让艾莉先提一桶水。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 240,
+            "text": "老"
+          },
+          {
+            "end_time": 640,
+            "start_time": 600,
+            "text": "骑"
+          },
+          {
+            "end_time": 920,
+            "start_time": 880,
+            "text": "士"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1080,
+            "text": "罗"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1360,
+            "text": "恩"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1640,
+            "text": "让"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1960,
+            "text": "艾"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2200,
+            "text": "莉"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2440,
+            "text": "先"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2640,
+            "text": "提"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "一"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3080,
+            "text": "桶"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3240,
+            "text": "水"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3560,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9040,
+        "start_time": 4280,
+        "text": "她以为是惩罚，直到发现自己的手臂很快酸了。",
+        "words": [
+          {
+            "end_time": 4480,
+            "start_time": 4280,
+            "text": "她"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4520,
+            "text": "以"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4640,
+            "text": "为"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4800,
+            "text": "是"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5120,
+            "text": "惩"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5400,
+            "text": "罚"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5600,
+            "text": "，"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6200,
+            "text": "直"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6440,
+            "text": "到"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6680,
+            "text": "发"
+          },
+          {
+            "end_time": 7080,
+            "start_time": 6840,
+            "text": "现"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7080,
+            "text": "自"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7200,
+            "text": "己"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7320,
+            "text": "的"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7480,
+            "text": "手"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7760,
+            "text": "臂"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8160,
+            "text": "很"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8320,
+            "text": "快"
+          },
+          {
+            "end_time": 8800,
+            "start_time": 8480,
+            "text": "酸"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8800,
+            "text": "了"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 9040,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。"
+  }
+}

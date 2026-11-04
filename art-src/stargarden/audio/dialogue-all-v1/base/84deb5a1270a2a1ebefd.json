@@ -1,0 +1,218 @@
+{
+  "src": "84deb5a1270a2a1ebefd.wav",
+  "duration": 9.5,
+  "gain": 0.9960234587326563,
+  "source_sha256": "c709a254174f3c97925b0963305f52e1f586bfab71ce362374e045c9850d8e99",
+  "id": "event.side_mira_3.text",
+  "text": "米拉请假许久，艾莉写好的邀请信一直放在抽屉。她担心朋友已经有了新的伙伴。",
+  "group": "event:side_mira_3",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5760,
+        "start_time": 960,
+        "text": "米拉请假许久，艾莉写好的邀请信一直放在抽屉。",
+        "words": [
+          {
+            "end_time": 1120,
+            "start_time": 960,
+            "text": "米"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1280,
+            "text": "拉"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "请"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1800,
+            "text": "假"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2040,
+            "text": "许"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2240,
+            "text": "久"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2520,
+            "text": "，"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2920,
+            "text": "艾"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3200,
+            "text": "莉"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3440,
+            "text": "写"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3600,
+            "text": "好"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3760,
+            "text": "的"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3920,
+            "text": "邀"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4080,
+            "text": "请"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4400,
+            "text": "信"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4680,
+            "text": "一"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4800,
+            "text": "直"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4960,
+            "text": "放"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5120,
+            "text": "在"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5320,
+            "text": "抽"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5600,
+            "text": "屉"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5760,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9040,
+        "start_time": 6560,
+        "text": "她担心朋友已经有了新的伙伴。",
+        "words": [
+          {
+            "end_time": 6840,
+            "start_time": 6560,
+            "text": "她"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6840,
+            "text": "担"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7000,
+            "text": "心"
+          },
+          {
+            "end_time": 7400,
+            "start_time": 7200,
+            "text": "朋"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7400,
+            "text": "友"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7680,
+            "text": "已"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7840,
+            "text": "经"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7960,
+            "text": "有"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8120,
+            "text": "了"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8280,
+            "text": "新"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8480,
+            "text": "的"
+          },
+          {
+            "end_time": 8840,
+            "start_time": 8680,
+            "text": "伙"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8840,
+            "text": "伴"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 9040,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "米拉请假许久，艾莉写好的邀请信一直放在抽屉。她担心朋友已经有了新的伙伴。"
+  }
+}

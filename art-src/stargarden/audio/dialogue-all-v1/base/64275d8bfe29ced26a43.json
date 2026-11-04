@@ -1,0 +1,81 @@
+{
+  "src": "64275d8bfe29ced26a43.wav",
+  "duration": 3.28,
+  "gain": 1.4283654907632957,
+  "source_sha256": "4b644ba1cca0e30a079131f5cf807120c0470dc78406c7f9b1c395d8335f3d4e",
+  "id": "event.side_fern_0.choice.0",
+  "text": "约定范围，一起寻找",
+  "group": "event:side_fern_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3120,
+        "start_time": 200,
+        "text": "约定范围，一起寻找。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 200,
+            "text": "约"
+          },
+          {
+            "end_time": 680,
+            "start_time": 440,
+            "text": "定"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "范"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1080,
+            "text": "围"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1320,
+            "text": "，"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "一"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2320,
+            "text": "起"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2600,
+            "text": "寻"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "找"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 3120,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "约定范围，一起寻找。"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "c9c0ca1f-1852-4afc-a6b4-34012fff3c53",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“米拉带来一个小木架，想和艾莉一起建立交换书角。第一层只能放下六本书。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050922261C1C3F4EA8FA19E891",
+  "response": {
+    "duration": 9.3,
+    "original_duration": 9.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5800,
+          "start_time": 440,
+          "text": "米拉带来一个小木架，想和艾莉一起建立交换书角。",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 440,
+              "text": "米"
+            },
+            {
+              "end_time": 920,
+              "start_time": 800,
+              "text": "拉"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1200,
+              "text": "带"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1400,
+              "text": "来"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1560,
+              "text": "一"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1680,
+              "text": "个"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1800,
+              "text": "小"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 2000,
+              "text": "木"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2400,
+              "text": "架"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2440,
+              "text": "，"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 2960,
+              "text": "想"
+            },
+            {
+              "end_time": 3400,
+              "start_time": 3240,
+              "text": "和"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3560,
+              "text": "艾"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3840,
+              "text": "莉"
+            },
+            {
+              "end_time": 4280,
+              "start_time": 4160,
+              "text": "一"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4280,
+              "text": "起"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4440,
+              "text": "建"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4640,
+              "text": "立"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4880,
+              "text": "交"
+            },
+            {
+              "end_time": 5280,
+              "start_time": 5120,
+              "text": "换"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5440,
+              "text": "书"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5680,
+              "text": "角"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5800,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8720,
+          "start_time": 6600,
+          "text": "第一层只能放下六本书。",
+          "words": [
+            {
+              "end_time": 6800,
+              "start_time": 6600,
+              "text": "第"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6800,
+              "text": "一"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 6960,
+              "text": "层"
+            },
+            {
+              "end_time": 7560,
+              "start_time": 7400,
+              "text": "只"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7560,
+              "text": "能"
+            },
+            {
+              "end_time": 7920,
+              "start_time": 7680,
+              "text": "放"
+            },
+            {
+              "end_time": 8080,
+              "start_time": 7920,
+              "text": "下"
+            },
+            {
+              "end_time": 8280,
+              "start_time": 8080,
+              "text": "六"
+            },
+            {
+              "end_time": 8520,
+              "start_time": 8280,
+              "text": "本"
+            },
+            {
+              "end_time": 8720,
+              "start_time": 8520,
+              "text": "书"
+            },
+            {
+              "end_time": 8720,
+              "start_time": 8720,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "米拉带来一个小木架，想和艾莉一起建立交换书角。第一层只能放下六本书。"
+    }
+  }
+}

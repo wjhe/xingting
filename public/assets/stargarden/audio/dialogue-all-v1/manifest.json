@@ -7,11 +7,326 @@
     "teen": 0,
     "grown": -1
   },
-  "catalog_count": 475,
-  "clip_count": 1,
+  "catalog_count": 507,
+  "clip_count": 203,
   "complete": false,
   "failures": [],
   "clips": [
+    {
+      "id": "opening.0.0",
+      "age": "child",
+      "src": "child/db68f576042d16e4fd5b-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "星历 1000 年，冬至的夜晚。"
+    },
+    {
+      "id": "opening.0.1",
+      "age": "child",
+      "src": "child/230cc0e81a6bea1acc91-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "星庭小城的人们都睡了。只有一颗星，悄悄离开了天空。"
+    },
+    {
+      "id": "opening.1.0",
+      "age": "child",
+      "src": "child/4b6fd8dd9ffdae38324f-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "你听见庭院里传来很轻的声响。"
+    },
+    {
+      "id": "opening.1.1",
+      "age": "child",
+      "src": "child/f40a21100fdea1db4bd8-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "花丛中间，坐着一个抱着旧旅行包的小女孩。她身边的星光，正一点一点熄灭。"
+    },
+    {
+      "id": "opening.1.2",
+      "age": "child",
+      "src": "child/233ff1cae18a29bc0d25-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "……这里，是哪里？"
+    },
+    {
+      "id": "opening.2.0",
+      "age": "child",
+      "src": "child/8a86721e24f3b8f99615-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "她不记得自己从哪里来，也说不出自己的名字。"
+    },
+    {
+      "id": "opening.2.1",
+      "age": "child",
+      "src": "child/6aa1a8ffb1beb6b7de7a-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "我只记得……要找一个，有灯亮着的地方。"
+    },
+    {
+      "id": "opening.2.2",
+      "age": "child",
+      "src": "child/7192583477c277c1e971-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "你蹲下来，向她伸出手。"
+    },
+    {
+      "id": "opening.2.3",
+      "age": "child",
+      "src": "child/bc64a4d467130c9df901-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "……可以吗？"
+    },
+    {
+      "id": "opening.3.0",
+      "age": "child",
+      "src": "child/1623af331884f4b0aea2-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "那一晚，屋里的灯一直亮着。"
+    },
+    {
+      "id": "opening.3.1",
+      "age": "child",
+      "src": "child/7938f5587495a8aadeb4-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "好暖和。"
+    },
+    {
+      "id": "opening.3.2",
+      "age": "child",
+      "src": "child/4714531f5ab95f60ccaf-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "她捧着汤，一小口一小口地喝完了，却始终把旅行包放在脚边。"
+    },
+    {
+      "id": "opening.4.0",
+      "age": "child",
+      "src": "child/60af80fdefa268281404-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "天亮了。她站在窗边，看着星庭小城慢慢醒来。"
+    },
+    {
+      "id": "opening.4.1",
+      "age": "child",
+      "src": "child/1a9941f731e448a02971-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "我……没有名字。"
+    },
+    {
+      "id": "opening.4.10",
+      "age": "child",
+      "src": "child/2875795e26671c87c727-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "你点了点头。"
+    },
+    {
+      "id": "opening.4.2",
+      "age": "child",
+      "src": "child/a89d4354a709e890bc51-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "你可以，给我一个吗？"
+    },
+    {
+      "id": "opening.4.3",
+      "age": "child",
+      "src": "child/c5200c2e3a93e968a7df-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "你想起昨夜，她说自己在找一个有灯亮着的地方。"
+    },
+    {
+      "id": "opening.4.4",
+      "age": "child",
+      "src": "child/b74fe8d010326c5ab38b-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "在星庭的老话里，“艾莉”的意思是——被灯光找到的人。"
+    },
+    {
+      "id": "opening.4.5",
+      "age": "child",
+      "src": "child/c86e7c58644b587225d2-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "“艾莉。”你说。"
+    },
+    {
+      "id": "opening.4.6",
+      "age": "child",
+      "src": "child/d968e4ba37fda70b5a0a-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "艾莉……艾莉。"
+    },
+    {
+      "id": "opening.4.7",
+      "age": "child",
+      "src": "child/c1d087689c9019db9be7-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "story",
+      "text": "她小声念了两遍，然后笑了。"
+    },
+    {
+      "id": "opening.4.8",
+      "age": "child",
+      "src": "child/0b616cdca239d9fa809d-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "dialogue",
+      "text": "那，我该怎么称呼你呢？"
+    },
+    {
+      "id": "opening.4.9.dad",
+      "age": "child",
+      "src": "child/4d36565b8195c63fff31-child.wav",
+      "parent": "爸爸",
+      "group": "opening",
+      "role": "dialogue",
+      "text": "爸爸。……从今天起，这里就是我的家了吗？"
+    },
+    {
+      "id": "opening.4.9.mom",
+      "age": "child",
+      "src": "child/81094c38e936baba04a7-child.wav",
+      "parent": "妈妈",
+      "group": "opening",
+      "role": "dialogue",
+      "text": "妈妈。……从今天起，这里就是我的家了吗？"
+    },
+    {
+      "id": "ending.artist",
+      "age": "grown",
+      "src": "grown/64ffdecce29d551b52f7-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "她的画作挂进了王宫，但最珍视的作品，仍是小时候画下的那幅庭院。她说，世上最难画的不是风景，而是回家的心情。"
+    },
+    {
+      "id": "ending.dancer",
+      "age": "grown",
+      "src": "grown/0398b78b15a2d50c868d-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "剧院的灯光亮起，所有目光都追随着她。但在谢幕的时候，她先看向了你坐着的那个位置，像小时候第一次跳舞时那样。"
+    },
+    {
+      "id": "ending.explorer",
+      "age": "grown",
+      "src": "grown/ebf9676579ba59b40f0c-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "她背上行囊走向远方，去见地图上尚未命名的山海。每一封寄回家的信里，都夹着一朵来自异乡的花。"
+    },
+    {
+      "id": "ending.gardener",
+      "age": "grown",
+      "src": "grown/0e19d395a5e3f760c470-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "她种出了城里最美的花园，每个季节都有新的颜色。她把第一束自己培育的蔷薇送给你，说：“谢谢你，耐心等我长大。”"
+    },
+    {
+      "id": "ending.healer",
+      "age": "grown",
+      "src": "grown/fa0b61f0a3e2f90182bc-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "小小的诊所在春天开了门，她认真照顾每一位来访的人。门旁收养的小猫伸着懒腰，阳光照着那块写着“愿你安好”的木牌。"
+    },
+    {
+      "id": "ending.home",
+      "age": "grown",
+      "src": "grown/eff604aaf39e355abcf1-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "她没有成为传说中的人物，却长成了一个善良、独立、热爱生活的人。晚饭后你们依旧在花园里散步。那些一起度过的普通日子，就是最好的结局。"
+    },
+    {
+      "id": "ending.host",
+      "age": "grown",
+      "src": "grown/b5fe3838a14c6ee0a630-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "她在庭院旁开了一间茶屋。熟客说这里的茶有家的味道，她总是笑着望向窗外——你正坐在那张熟悉的藤椅上。"
+    },
+    {
+      "id": "ending.knight",
+      "age": "grown",
+      "src": "grown/0a2f70eaf759955a857f-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "授勋那天，她把骑士徽章放进你的掌心。那个曾经握不稳木剑的孩子，已经能够保护一整座城。“这一次，换我来保护你。”"
+    },
+    {
+      "id": "ending.sage",
+      "age": "grown",
+      "src": "grown/b0c2181c7a23f31545cd-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "她带着亲手绘制的星图进入高塔，成为了研究星辰魔法的年轻贤者。每当发现一颗新星，她总会给家里写一封很长的信。"
+    },
+    {
+      "id": "ending.scholar",
+      "age": "grown",
+      "src": "grown/6664d9768c2e387e78d2-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "她成为学院里最年轻的讲师。学生们说，她讲故事时眼睛会发光。她笑着说，那是因为从小就有人认真听她说话。"
+    },
+    {
+      "id": "ending.star",
+      "age": "grown",
+      "src": "grown/f431b6c252bea9ad288a-grown.wav",
+      "parent": null,
+      "group": "ending",
+      "role": "ending",
+      "text": "王宫的邀请函送到时，她正在庭院里浇花。多年积累的学识、优雅与善意，让她成为王国年轻的执政官。她没有搬走窗台上的那盆花——那是故事开始的地方。"
+    },
     {
       "id": "event.main_0_0.text",
       "age": "child",
@@ -20,6 +335,1509 @@
       "group": "event:main_0_0",
       "role": "story",
       "text": "来到这个家的第一个月，艾莉总把行李放在门边。今晚你发现，她把小小的房门钥匙系在了手腕上。“如果我弄丢了，还能回来吗？”"
+    },
+    {
+      "id": "event.main_0_1.text",
+      "age": "child",
+      "src": "child/39872fa7698bd45e3d8e-child.wav",
+      "parent": null,
+      "group": "event:main_0_1",
+      "role": "story",
+      "text": "图书馆整理旧物时，艾莉找到一本空白手账。扉页写着：把想做的事留给明天。她问：“没有很厉害的愿望，也可以写吗？”"
+    },
+    {
+      "id": "event.main_0_2.text",
+      "age": "child",
+      "src": "child/42e701fa18e29893f17b-child.wav",
+      "parent": null,
+      "group": "event:main_0_2",
+      "role": "story",
+      "text": "收获祭给每个孩子留了一张桌子。有人摆奖牌，有人摆漂亮的画。艾莉把手账抱得很紧：“我的东西，好像不值得别人看。”"
+    },
+    {
+      "id": "event.main_1_0.text",
+      "age": "child",
+      "src": "child/798db2afee935380123b-child.wav",
+      "parent": null,
+      "group": "event:main_1_0",
+      "role": "story",
+      "text": "艾莉重新翻开去年的手账，发现不少愿望已经实现。她想写信给一年后的自己，却在“我希望成为”后面停住了。"
+    },
+    {
+      "id": "event.main_1_1.text",
+      "age": "child",
+      "src": "child/c931badf1fd80595affc-child.wav",
+      "parent": null,
+      "group": "event:main_1_1",
+      "role": "story",
+      "text": "第一次尝试没有想象中顺利，艾莉悄悄划掉了清单上的一项。“以前说喜欢，现在又不喜欢了，是不是很没用？”"
+    },
+    {
+      "id": "event.main_1_2.text",
+      "age": "child",
+      "src": "child/25acf092b7df17bbe9cc-child.wav",
+      "parent": null,
+      "group": "event:main_1_2",
+      "role": "story",
+      "text": "今年的展台前来了比去年更多的人。艾莉请你坐在一旁：“这次，我想自己讲。”你看见她握着纸稿的手还在发抖。"
+    },
+    {
+      "id": "event.main_2_0.text",
+      "age": "child",
+      "src": "child/4790c8d6f33832199245-child.wav",
+      "parent": null,
+      "group": "event:main_2_0",
+      "role": "story",
+      "text": "邻居的孩子带回一张奖状。艾莉真心替朋友高兴，回家却盯着自己的空墙发呆。“我是不是学得太慢了？”"
+    },
+    {
+      "id": "event.main_2_1.text",
+      "age": "child",
+      "src": "child/98f970c5fce173db2587-child.wav",
+      "parent": null,
+      "group": "event:main_2_1",
+      "role": "story",
+      "text": "准备合作展品时，朋友希望照老师的范例做，艾莉却有自己的想法。她不愿伤害朋友，也不想再把意见藏起来。"
+    },
+    {
+      "id": "event.main_2_2.text",
+      "age": "child",
+      "src": "child/5b2c15216c75fa9bb9ad-child.wav",
+      "parent": null,
+      "group": "event:main_2_2",
+      "role": "story",
+      "text": "收获祭结束后，艾莉用木片做了一枚奖章，写着“今年没有放弃”。她把绳子递给你：“能帮我戴上吗？”"
+    },
+    {
+      "id": "event.main_3_0.text",
+      "age": "child",
+      "src": "child/d368eb0fbd3ceacbfa43-child.wav",
+      "parent": null,
+      "group": "event:main_3_0",
+      "role": "story",
+      "text": "一场突来的雨毁掉了她准备许久的展示材料。艾莉站在门口，没有哭，只说：“没关系。”湿透的纸却被她攥得很紧。"
+    },
+    {
+      "id": "event.main_3_1.text",
+      "age": "child",
+      "src": "child/159a1145a47603179095-child.wav",
+      "parent": null,
+      "group": "event:main_3_1",
+      "role": "story",
+      "text": "雨后的几周，艾莉不再提展览。她问你能不能暂时什么都不做。桌边那本手账已经很久没有翻开。"
+    },
+    {
+      "id": "event.main_3_2.text",
+      "age": "child",
+      "src": "child/b3f689c7d4cb6b2b085f-child.wav",
+      "parent": null,
+      "group": "event:main_3_2",
+      "role": "story",
+      "text": "今年她只带了一页展品：雨水晕开的旧稿，旁边贴着重新完成的一小块。“这次，我想讲失败以后发生的事。”"
+    },
+    {
+      "id": "event.main_4_0.text",
+      "age": "teen",
+      "src": "teen/36c943a4860ae5cc1062-teen.wav",
+      "parent": null,
+      "group": "event:main_4_0",
+      "role": "story",
+      "text": "艾莉递来一份亲手写的计划。它和你原先的安排并不一样。“我知道你是为我好，但这一次，可以先听我说完吗？”"
+    },
+    {
+      "id": "event.main_4_1.text",
+      "age": "teen",
+      "src": "teen/4a0af7a1377f22084dc9-teen.wav",
+      "parent": null,
+      "group": "event:main_4_1",
+      "role": "story",
+      "text": "她答应替朋友承担一项任务，却没有先与你商量。当天的安排被打乱了，厨房里第一次有了长久的沉默。"
+    },
+    {
+      "id": "event.main_4_2.text",
+      "age": "teen",
+      "src": "teen/6612e8679ce7d51ac3b0-teen.wav",
+      "parent": null,
+      "group": "event:main_4_2",
+      "role": "story",
+      "text": "展览登记表有一栏写着“负责人”。她把笔停在你面前：“今年可以写我的名字吗？”你发现，她已经准备了很久。"
+    },
+    {
+      "id": "event.main_5_0.text",
+      "age": "teen",
+      "src": "teen/c8475029e4681e2c4d14-teen.wav",
+      "parent": null,
+      "group": "event:main_5_0",
+      "role": "story",
+      "text": "图书馆员把旧展览室钥匙交给艾莉，请她照顾新来的孩子。她回家后问：“他们不听我的话怎么办？”"
+    },
+    {
+      "id": "event.main_5_1.text",
+      "age": "teen",
+      "src": "teen/a06d6cecfb4898d079a9-teen.wav",
+      "parent": null,
+      "group": "event:main_5_1",
+      "role": "story",
+      "text": "一个孩子弄坏了借来的工具，又因为害怕而撒了谎。艾莉很生气，却记得自己也曾经不敢承认错误。"
+    },
+    {
+      "id": "event.main_5_2.text",
+      "age": "teen",
+      "src": "teen/732b4d31ecc2b998566c-teen.wav",
+      "parent": null,
+      "group": "event:main_5_2",
+      "role": "story",
+      "text": "今年有个孩子因为紧张躲在桌子下面。艾莉蹲下来，说了与你多年前相似的话。你站在不远处，没有打断。"
+    },
+    {
+      "id": "event.main_6_0.text",
+      "age": "grown",
+      "src": "grown/72cbdd880908f201e947-grown.wav",
+      "parent": null,
+      "group": "event:main_6_0",
+      "role": "story",
+      "text": "艾莉收到了城外交流会的邀请。她沿着地图找了很久：“如果我想去的地方，这上面没有呢？”"
+    },
+    {
+      "id": "event.main_6_1.text",
+      "age": "grown",
+      "src": "grown/aea33af7d4cfb1d8dd7d-grown.wav",
+      "parent": null,
+      "group": "event:main_6_1",
+      "role": "story",
+      "text": "朋友们开始谈论各自的去处。有人想留下，有人想远行。艾莉问：“留下会不会显得不够勇敢？”"
+    },
+    {
+      "id": "event.main_6_2.text",
+      "age": "grown",
+      "src": "grown/0c1ce936f2bb20a0c60b-grown.wav",
+      "parent": null,
+      "group": "event:main_6_2",
+      "role": "story",
+      "text": "她准备向外面的世界介绍自己，草稿里却全是成绩和经历。翻到手账第一页时，她忽然停下了笔。"
+    },
+    {
+      "id": "event.main_7_0.text",
+      "age": "grown",
+      "src": "grown/5a7bcabdf65f30868e98-grown.wav",
+      "parent": null,
+      "group": "event:main_7_0",
+      "role": "story",
+      "text": "新手账只剩下最后几页。艾莉把十岁时的木钥匙牌放在桌上：“那时候的字，怎么这么小？”你们同时笑了。"
+    },
+    {
+      "id": "event.main_7_1.text",
+      "age": "grown",
+      "src": "grown/8cb51e649a7d061d66d7-grown.wav",
+      "parent": null,
+      "group": "event:main_7_1",
+      "role": "story",
+      "text": "今年收获祭的邀请函是艾莉亲手写的。她把你放在第一位：“不管最后做得怎样，你会来吗？”"
+    },
+    {
+      "id": "event.main_7_2.text",
+      "age": "grown",
+      "src": "grown/f4e611ace6ca5edf81e9-grown.wav",
+      "parent": null,
+      "group": "event:main_7_2",
+      "role": "story",
+      "text": "最后一次展览结束，艾莉把手账交给你。最后一页写着：“我已经知道自己要往哪里走，但这里永远是回家的方向。”"
+    },
+    {
+      "id": "event.main_0_0.choice.0",
+      "age": "child",
+      "src": "child/f7dec664801afe1198b8-child.wav",
+      "parent": null,
+      "group": "event:main_0_0",
+      "role": "choice",
+      "text": "告诉她这里永远是她的家"
+    },
+    {
+      "id": "event.main_0_0.choice.1",
+      "age": "child",
+      "src": "child/d7ef3482d58c45ffc7a2-child.wav",
+      "parent": null,
+      "group": "event:main_0_0",
+      "role": "choice",
+      "text": "一起做一枚钥匙牌"
+    },
+    {
+      "id": "event.main_0_1.choice.0",
+      "age": "child",
+      "src": "child/8279871999383a8b1d7f-child.wav",
+      "parent": null,
+      "group": "event:main_0_1",
+      "role": "choice",
+      "text": "先写一件今天开心的事"
+    },
+    {
+      "id": "event.main_0_1.choice.1",
+      "age": "child",
+      "src": "child/4297849b1573e9ccb56e-child.wav",
+      "parent": null,
+      "group": "event:main_0_1",
+      "role": "choice",
+      "text": "让她画出第一个愿望"
+    },
+    {
+      "id": "event.main_0_2.choice.0",
+      "age": "child",
+      "src": "child/0e797eaf19ad962b4dec-child.wav",
+      "parent": null,
+      "group": "event:main_0_2",
+      "role": "choice",
+      "text": "一起布置生活小展台"
+    },
+    {
+      "id": "event.main_0_2.choice.1",
+      "age": "child",
+      "src": "child/013b7683e3d27841eca5-child.wav",
+      "parent": null,
+      "group": "event:main_0_2",
+      "role": "choice",
+      "text": "让她决定要不要参加"
+    },
+    {
+      "id": "event.main_1_0.choice.0",
+      "age": "child",
+      "src": "child/eb1bc8af6ddc30472346-child.wav",
+      "parent": null,
+      "group": "event:main_1_0",
+      "role": "choice",
+      "text": "先写希望怎样度过每一天"
+    },
+    {
+      "id": "event.main_1_0.choice.1",
+      "age": "child",
+      "src": "child/dabc0dc3aaf8a34117e3-child.wav",
+      "parent": null,
+      "group": "event:main_1_0",
+      "role": "choice",
+      "text": "列出最想尝试的三件事"
+    },
+    {
+      "id": "event.main_1_1.choice.0",
+      "age": "child",
+      "src": "child/5539c7e61244644d0ff3-child.wav",
+      "parent": null,
+      "group": "event:main_1_1",
+      "role": "choice",
+      "text": "告诉她可以重新认识自己"
+    },
+    {
+      "id": "event.main_1_1.choice.1",
+      "age": "child",
+      "src": "child/5cbdf23ab9e29d47e57d-child.wav",
+      "parent": null,
+      "group": "event:main_1_1",
+      "role": "choice",
+      "text": "一起找找不喜欢的原因"
+    },
+    {
+      "id": "event.main_1_2.choice.0",
+      "age": "child",
+      "src": "child/f9934f92a4e6e9d8ae99-child.wav",
+      "parent": null,
+      "group": "event:main_1_2",
+      "role": "choice",
+      "text": "坐在她看得见的地方"
+    },
+    {
+      "id": "event.main_1_2.choice.1",
+      "age": "child",
+      "src": "child/676fc9eb3f071bbaa3aa-child.wav",
+      "parent": null,
+      "group": "event:main_1_2",
+      "role": "choice",
+      "text": "帮她邀请第一位观众"
+    },
+    {
+      "id": "event.main_2_0.choice.0",
+      "age": "child",
+      "src": "child/697fa691a16635623014-child.wav",
+      "parent": null,
+      "group": "event:main_2_0",
+      "role": "choice",
+      "text": "一起翻看她这一年的进步"
+    },
+    {
+      "id": "event.main_2_0.choice.1",
+      "age": "child",
+      "src": "child/58e507c3fbc8abf33765-child.wav",
+      "parent": null,
+      "group": "event:main_2_0",
+      "role": "choice",
+      "text": "问问她真正羡慕的是什么"
+    },
+    {
+      "id": "event.main_2_1.choice.0",
+      "age": "child",
+      "src": "child/070326f4ddeb217c83e8-child.wav",
+      "parent": null,
+      "group": "event:main_2_1",
+      "role": "choice",
+      "text": "练习清楚地说出自己的理由"
+    },
+    {
+      "id": "event.main_2_1.choice.1",
+      "age": "child",
+      "src": "child/f433e44f9315cc1ec148-child.wav",
+      "parent": null,
+      "group": "event:main_2_1",
+      "role": "choice",
+      "text": "建议各做一份再放在一起"
+    },
+    {
+      "id": "event.main_2_2.choice.0",
+      "age": "child",
+      "src": "child/f6f3c5ee9f471c805497-child.wav",
+      "parent": null,
+      "group": "event:main_2_2",
+      "role": "choice",
+      "text": "郑重为她戴上"
+    },
+    {
+      "id": "event.main_2_2.choice.1",
+      "age": "child",
+      "src": "child/e5975e8f3a84825c4981-child.wav",
+      "parent": null,
+      "group": "event:main_2_2",
+      "role": "choice",
+      "text": "也做一枚自己的奖章"
+    },
+    {
+      "id": "event.main_3_0.choice.0",
+      "age": "child",
+      "src": "child/5a45c4e8bac0ae9fa050-child.wav",
+      "parent": null,
+      "group": "event:main_3_0",
+      "role": "choice",
+      "text": "先陪她难过一会儿"
+    },
+    {
+      "id": "event.main_3_0.choice.1",
+      "age": "child",
+      "src": "child/7263e91f835e3b16d136-child.wav",
+      "parent": null,
+      "group": "event:main_3_0",
+      "role": "choice",
+      "text": "一起抢救还能留下的部分"
+    },
+    {
+      "id": "event.main_3_1.choice.0",
+      "age": "child",
+      "src": "child/598399aecf3949a421c1-child.wav",
+      "parent": null,
+      "group": "event:main_3_1",
+      "role": "choice",
+      "text": "给她一个不用证明自己的假日"
+    },
+    {
+      "id": "event.main_3_1.choice.1",
+      "age": "child",
+      "src": "child/ab44eaacf55911091bf6-child.wav",
+      "parent": null,
+      "group": "event:main_3_1",
+      "role": "choice",
+      "text": "邀请她做一件很小的事"
+    },
+    {
+      "id": "event.main_3_2.choice.0",
+      "age": "child",
+      "src": "child/169ad103e36827bf77d4-child.wav",
+      "parent": null,
+      "group": "event:main_3_2",
+      "role": "choice",
+      "text": "把介绍的机会交给她"
+    },
+    {
+      "id": "event.main_3_2.choice.1",
+      "age": "child",
+      "src": "child/68f2060037856a3be999-child.wav",
+      "parent": null,
+      "group": "event:main_3_2",
+      "role": "choice",
+      "text": "写一张家人的留言"
+    },
+    {
+      "id": "event.main_4_0.choice.0",
+      "age": "teen",
+      "src": "teen/45cc0e8206c10031d565-teen.wav",
+      "parent": null,
+      "group": "event:main_4_0",
+      "role": "choice",
+      "text": "听完她的安排与理由"
+    },
+    {
+      "id": "event.main_4_0.choice.1",
+      "age": "teen",
+      "src": "teen/38891a5f06f99dce0c88-teen.wav",
+      "parent": null,
+      "group": "event:main_4_0",
+      "role": "choice",
+      "text": "约定先试一个月再讨论"
+    },
+    {
+      "id": "event.main_4_1.choice.0",
+      "age": "teen",
+      "src": "teen/0711533fcdbe687672d6-teen.wav",
+      "parent": null,
+      "group": "event:main_4_1",
+      "role": "choice",
+      "text": "说明担心，也听她解释"
+    },
+    {
+      "id": "event.main_4_1.choice.1",
+      "age": "teen",
+      "src": "teen/63a4bff17872da5d4bad-teen.wav",
+      "parent": null,
+      "group": "event:main_4_1",
+      "role": "choice",
+      "text": "一起承担后果，再谈规则"
+    },
+    {
+      "id": "event.main_4_2.choice.0",
+      "age": "teen",
+      "src": "teen/a81ff0d445d95b37e10d-teen.wav",
+      "parent": null,
+      "group": "event:main_4_2",
+      "role": "choice",
+      "text": "让她签下自己的名字"
+    },
+    {
+      "id": "event.main_4_2.choice.1",
+      "age": "teen",
+      "src": "teen/5f364447d43f51de2851-teen.wav",
+      "parent": null,
+      "group": "event:main_4_2",
+      "role": "choice",
+      "text": "在协助人一栏留下名字"
+    },
+    {
+      "id": "event.main_5_0.choice.0",
+      "age": "teen",
+      "src": "teen/216b972ec8aeb0fd67e0-teen.wav",
+      "parent": null,
+      "group": "event:main_5_0",
+      "role": "choice",
+      "text": "提醒她先记住被帮助的感觉"
+    },
+    {
+      "id": "event.main_5_0.choice.1",
+      "age": "teen",
+      "src": "teen/d60c7b6973855f2b0f0a-teen.wav",
+      "parent": null,
+      "group": "event:main_5_0",
+      "role": "choice",
+      "text": "一起整理一份简单的约定"
+    },
+    {
+      "id": "event.main_5_1.choice.0",
+      "age": "teen",
+      "src": "teen/a804354f4d0811ac2c95-teen.wav",
+      "parent": null,
+      "group": "event:main_5_1",
+      "role": "choice",
+      "text": "陪她区分错误和犯错的人"
+    },
+    {
+      "id": "event.main_5_1.choice.1",
+      "age": "teen",
+      "src": "teen/aedcc1d24de05c692e82-teen.wav",
+      "parent": null,
+      "group": "event:main_5_1",
+      "role": "choice",
+      "text": "支持她让对方亲自补救"
+    },
+    {
+      "id": "event.main_5_2.choice.0",
+      "age": "teen",
+      "src": "teen/abe652410957561db54c-teen.wav",
+      "parent": null,
+      "group": "event:main_5_2",
+      "role": "choice",
+      "text": "等她忙完，告诉她你看见了"
+    },
+    {
+      "id": "event.main_5_2.choice.1",
+      "age": "teen",
+      "src": "teen/453d4fce5e81725a3f4d-teen.wav",
+      "parent": null,
+      "group": "event:main_5_2",
+      "role": "choice",
+      "text": "替她照看身后的准备工作"
+    },
+    {
+      "id": "event.main_6_0.choice.0",
+      "age": "grown",
+      "src": "grown/541d3323abd792afbf8f-grown.wav",
+      "parent": null,
+      "group": "event:main_6_0",
+      "role": "choice",
+      "text": "鼓励她画上自己的路线"
+    },
+    {
+      "id": "event.main_6_0.choice.1",
+      "age": "grown",
+      "src": "grown/25a9661b020771e02a64-grown.wav",
+      "parent": null,
+      "group": "event:main_6_0",
+      "role": "choice",
+      "text": "一起讨论远行需要的准备"
+    },
+    {
+      "id": "event.main_6_1.choice.0",
+      "age": "grown",
+      "src": "grown/c43d4c51e56ab538db53-grown.wav",
+      "parent": null,
+      "group": "event:main_6_1",
+      "role": "choice",
+      "text": "告诉她勇气不由距离决定"
+    },
+    {
+      "id": "event.main_6_1.choice.1",
+      "age": "grown",
+      "src": "grown/ce8c77d797670af05406-grown.wav",
+      "parent": null,
+      "group": "event:main_6_1",
+      "role": "choice",
+      "text": "让她分别写下两种生活"
+    },
+    {
+      "id": "event.main_6_2.choice.0",
+      "age": "grown",
+      "src": "grown/5b65846880d9ad2646b2-grown.wav",
+      "parent": null,
+      "group": "event:main_6_2",
+      "role": "choice",
+      "text": "请她加上一件真正珍惜的事"
+    },
+    {
+      "id": "event.main_6_2.choice.1",
+      "age": "grown",
+      "src": "grown/6332d1f15ae0536d727c-grown.wav",
+      "parent": null,
+      "group": "event:main_6_2",
+      "role": "choice",
+      "text": "请她写下还想学会的东西"
+    },
+    {
+      "id": "event.main_7_0.choice.0",
+      "age": "grown",
+      "src": "grown/78dd72bc8d48fa87bf31-grown.wav",
+      "parent": null,
+      "group": "event:main_7_0",
+      "role": "choice",
+      "text": "一起重读最早的愿望"
+    },
+    {
+      "id": "event.main_7_0.choice.1",
+      "age": "grown",
+      "src": "grown/166bce56ffbf4969ab0a-grown.wav",
+      "parent": null,
+      "group": "event:main_7_0",
+      "role": "choice",
+      "text": "给最后几页留一点空白"
+    },
+    {
+      "id": "event.main_7_1.choice.0",
+      "age": "grown",
+      "src": "grown/1e99214df8ecf38ea494-grown.wav",
+      "parent": null,
+      "group": "event:main_7_1",
+      "role": "choice",
+      "text": "答应她，提前留好那一天"
+    },
+    {
+      "id": "event.main_7_1.choice.1",
+      "age": "grown",
+      "src": "grown/d01b2d83476f92bdb1f0-grown.wav",
+      "parent": null,
+      "group": "event:main_7_1",
+      "role": "choice",
+      "text": "请她也邀请曾经帮助过的人"
+    },
+    {
+      "id": "event.main_7_2.choice.0",
+      "age": "grown",
+      "src": "grown/354fe979338d5b154ee9-grown.wav",
+      "parent": null,
+      "group": "event:main_7_2",
+      "role": "choice",
+      "text": "把钥匙交还给她"
+    },
+    {
+      "id": "event.main_7_2.choice.1",
+      "age": "grown",
+      "src": "grown/8f68c55bc7d246fe22e9-grown.wav",
+      "parent": null,
+      "group": "event:main_7_2",
+      "role": "choice",
+      "text": "约好明年春天再一起种花"
+    },
+    {
+      "id": "event.main_0_0.outcome.0",
+      "age": "child",
+      "src": "child/f7127a0588a5dbf904af-child.wav",
+      "parent": null,
+      "group": "event:main_0_0",
+      "role": "result",
+      "text": "你把备用钥匙放进她掌心。“门会等你，我们也会。”那晚，她终于把行李收进了柜子。"
+    },
+    {
+      "id": "event.main_0_0.outcome.1",
+      "age": "child",
+      "src": "child/bf102dd907660e4b603f-child.wav",
+      "parent": null,
+      "group": "event:main_0_0",
+      "role": "result",
+      "text": "她在木牌上刻下一颗歪歪的星星，又在背面写下了你们的姓氏。"
+    },
+    {
+      "id": "event.main_0_1.outcome.0",
+      "age": "child",
+      "src": "child/b956945b042f0b442640-child.wav",
+      "parent": null,
+      "group": "event:main_0_1",
+      "role": "result",
+      "text": "她写下“今天的汤很好喝”。你在旁边补了一句：“今天有人等我吃饭。”"
+    },
+    {
+      "id": "event.main_0_1.outcome.1",
+      "age": "child",
+      "src": "child/82178d9fcbe57f4ba6d1-child.wav",
+      "parent": null,
+      "group": "event:main_0_1",
+      "role": "result",
+      "text": "纸上出现了一间有窗台和小花的房子。原来她想留下的，正是眼前的日常。"
+    },
+    {
+      "id": "event.main_0_2.outcome.0",
+      "age": "child",
+      "src": "child/2a002a6a13691d62d581-child.wav",
+      "parent": null,
+      "group": "event:main_0_2",
+      "role": "result",
+      "text": "桌上摆着她种的花、练习纸和找到的石头。邻居们停下来，认真听完了每件小东西的故事。"
+    },
+    {
+      "id": "event.main_0_2.outcome.1",
+      "age": "child",
+      "src": "child/f6e8c65c49b3312803cb-child.wav",
+      "parent": null,
+      "group": "event:main_0_2",
+      "role": "result",
+      "text": "她犹豫到午后，终于自己搬出了桌子。“我想先讲给一个人听。”你成为了第一位观众。"
+    },
+    {
+      "id": "event.main_1_0.outcome.0",
+      "age": "child",
+      "src": "child/b9c3ae2fb3b61f7ccce5-child.wav",
+      "parent": null,
+      "group": "event:main_1_0",
+      "role": "result",
+      "text": "她写下“睡得好、学一点新东西，还有记得回家”。未来第一次显得不那么遥远。"
+    },
+    {
+      "id": "event.main_1_0.outcome.1",
+      "age": "child",
+      "src": "child/cc9256ab2b7cdd65538c-child.wav",
+      "parent": null,
+      "group": "event:main_1_0",
+      "role": "result",
+      "text": "她把想学的、想去的、想见的人分开写好，还为每一项留了一个小方框。"
+    },
+    {
+      "id": "event.main_1_1.outcome.0",
+      "age": "child",
+      "src": "child/601e3269dd8af5855005-child.wav",
+      "parent": null,
+      "group": "event:main_1_1",
+      "role": "result",
+      "text": "你们把划掉的字保留下来。它证明她试过，也证明她有权作出新的选择。"
+    },
+    {
+      "id": "event.main_1_1.outcome.1",
+      "age": "child",
+      "src": "child/9f1265cc383bdfe0dba3-child.wav",
+      "parent": null,
+      "group": "event:main_1_1",
+      "role": "result",
+      "text": "原来她害怕的并不是这件事，而是当众做不好。你们约定先从一个小练习开始。"
+    },
+    {
+      "id": "event.main_1_2.outcome.0",
+      "age": "child",
+      "src": "child/0e3d72ca2b3aa11f1597-child.wav",
+      "parent": null,
+      "group": "event:main_1_2",
+      "role": "result",
+      "text": "她讲到忘词时看了你一眼，你轻轻点头。很快，她用自己的话把故事讲完了。"
+    },
+    {
+      "id": "event.main_1_2.outcome.1",
+      "age": "child",
+      "src": "child/156b580ec7eeb54af595-child.wav",
+      "parent": null,
+      "group": "event:main_1_2",
+      "role": "result",
+      "text": "你请来熟悉的面包店老板。有人认真提问后，她终于忘记了纸稿，越讲越投入。"
+    },
+    {
+      "id": "event.main_2_0.outcome.0",
+      "age": "child",
+      "src": "child/5a6d5edba1daf7fa3e3d-child.wav",
+      "parent": null,
+      "group": "event:main_2_0",
+      "role": "result",
+      "text": "从第一张练习到今天，她发现变化其实一直存在，只是每天都太靠近自己。"
+    },
+    {
+      "id": "event.main_2_0.outcome.1",
+      "age": "child",
+      "src": "child/cf95e26d346963bd6bb8-child.wav",
+      "parent": null,
+      "group": "event:main_2_0",
+      "role": "result",
+      "text": "她想要的原来不是奖状，而是被认真肯定。你告诉她，你一直看得见她的努力。"
+    },
+    {
+      "id": "event.main_2_1.outcome.0",
+      "age": "child",
+      "src": "child/a7848c793fa176789030-child.wav",
+      "parent": null,
+      "group": "event:main_2_1",
+      "role": "result",
+      "text": "她没有争输赢，而是带着草图去讨论。两个人留下了彼此最喜欢的部分。"
+    },
+    {
+      "id": "event.main_2_1.outcome.1",
+      "age": "child",
+      "src": "child/9d313fb3f8adc6cddd34-child.wav",
+      "parent": null,
+      "group": "event:main_2_1",
+      "role": "result",
+      "text": "两份作品看起来很不同，观众却从中看到了两个人的性格。她们第一次欣赏起差异。"
+    },
+    {
+      "id": "event.main_2_2.outcome.0",
+      "age": "child",
+      "src": "child/35a3ed4991cd33f8914c-child.wav",
+      "parent": null,
+      "group": "event:main_2_2",
+      "role": "result",
+      "text": "你为她整理绳结。她抬头时没有看向评奖台，而是看向了明年还想尝试的地方。"
+    },
+    {
+      "id": "event.main_2_2.outcome.1",
+      "age": "child",
+      "src": "child/68e6e6d9f3736b002303-child.wav",
+      "parent": null,
+      "group": "event:main_2_2",
+      "role": "result",
+      "text": "你的奖章上写着“学会听完再说”。她笑着给你戴好，你们都在这一年长大了一点。"
+    },
+    {
+      "id": "event.main_3_0.outcome.0",
+      "age": "child",
+      "src": "child/9df2122441bc302a025c-child.wav",
+      "parent": null,
+      "group": "event:main_3_0",
+      "role": "result",
+      "text": "你没有立刻谈补救。她终于靠过来，小声说出了那句忍了很久的“我很难过”。"
+    },
+    {
+      "id": "event.main_3_0.outcome.1",
+      "age": "child",
+      "src": "child/90ddc572122d72b0008b-child.wav",
+      "parent": null,
+      "group": "event:main_3_0",
+      "role": "result",
+      "text": "你们把纸一张张铺开。能留下的不多，但有一页草稿让她想起了最初为什么要做这件事。"
+    },
+    {
+      "id": "event.main_3_1.outcome.0",
+      "age": "child",
+      "src": "child/60db2cac3828d5a44619-child.wav",
+      "parent": null,
+      "group": "event:main_3_1",
+      "role": "result",
+      "text": "你们在家煮汤、听雨。她没有突然振作，只是在晚上主动把窗台的花浇好了。"
+    },
+    {
+      "id": "event.main_3_1.outcome.1",
+      "age": "child",
+      "src": "child/32d5ed9f85e34785db24-child.wav",
+      "parent": null,
+      "group": "event:main_3_1",
+      "role": "result",
+      "text": "你请她帮忙修好松动的书架。完成以后，她终于愿意翻开手账，先记下一行字。"
+    },
+    {
+      "id": "event.main_3_2.outcome.0",
+      "age": "child",
+      "src": "child/c72e24e40e30171960a7-child.wav",
+      "parent": null,
+      "group": "event:main_3_2",
+      "role": "result",
+      "text": "她讲得很慢，台下却格外安静。有人告诉她，自己也经历过这样的雨天。"
+    },
+    {
+      "id": "event.main_3_2.outcome.1",
+      "age": "child",
+      "src": "child/6bb77865f927fe5b9097-child.wav",
+      "parent": null,
+      "group": "event:main_3_2",
+      "role": "result",
+      "text": "你把“你回家就好”写在角落。她读到时停了一下，然后继续讲完了自己的故事。"
+    },
+    {
+      "id": "event.main_4_0.outcome.0",
+      "age": "teen",
+      "src": "teen/97b284b7a98d96642041-teen.wav",
+      "parent": null,
+      "group": "event:main_4_0",
+      "role": "result",
+      "text": "她连费用和休息时间都算过了。你们保留了她的主意，也一起补上了遗漏的地方。"
+    },
+    {
+      "id": "event.main_4_0.outcome.1",
+      "age": "teen",
+      "src": "teen/ce4a70a7823837f0db1f-teen.wav",
+      "parent": null,
+      "group": "event:main_4_0",
+      "role": "result",
+      "text": "一个月不是终身承诺。她把约定写在纸上，认真地签下自己的名字。"
+    },
+    {
+      "id": "event.main_4_1.outcome.0",
+      "age": "teen",
+      "src": "teen/3b9a71bc613348e7b441-teen.wav",
+      "parent": null,
+      "group": "event:main_4_1",
+      "role": "result",
+      "text": "你们争论过，最终约定重要决定要提前说。信任没有消失，只是多了一条清楚的边界。"
+    },
+    {
+      "id": "event.main_4_1.outcome.1",
+      "age": "teen",
+      "src": "teen/a2c52ae081d79303008f-teen.wav",
+      "parent": null,
+      "group": "event:main_4_1",
+      "role": "result",
+      "text": "你没有替她取消承诺，而是陪她重新安排剩下的事情。她明白了自由也包括兑现答应过的话。"
+    },
+    {
+      "id": "event.main_4_2.outcome.0",
+      "age": "teen",
+      "src": "teen/08a5e1b8aef36fca1310-teen.wav",
+      "parent": null,
+      "group": "event:main_4_2",
+      "role": "result",
+      "text": "她一笔一画写得郑重。你把备用胶带放进她的包里，像过去一样准备好，却退到了观众席。"
+    },
+    {
+      "id": "event.main_4_2.outcome.1",
+      "age": "teen",
+      "src": "teen/00ddee9b287368a91eae-teen.wav",
+      "parent": null,
+      "group": "event:main_4_2",
+      "role": "result",
+      "text": "两个名字各有自己的位置。她没有离你更远，只是开始站在你身旁。"
+    },
+    {
+      "id": "event.main_5_0.outcome.0",
+      "age": "teen",
+      "src": "teen/ca74cfd3cac6a987be48-teen.wav",
+      "parent": null,
+      "group": "event:main_5_0",
+      "role": "result",
+      "text": "她想起自己第一次站在桌子后面的样子。第二天，她先去听每个孩子想做什么。"
+    },
+    {
+      "id": "event.main_5_0.outcome.1",
+      "age": "teen",
+      "src": "teen/5656a146dacad7f6d6c2-teen.wav",
+      "parent": null,
+      "group": "event:main_5_0",
+      "role": "result",
+      "text": "你们写下开放时间、安全和收拾工具的方法。规则不是为了命令别人，而是让大家安心。"
+    },
+    {
+      "id": "event.main_5_1.outcome.0",
+      "age": "teen",
+      "src": "teen/dfc3106fb1a6c50677ae-teen.wav",
+      "parent": null,
+      "group": "event:main_5_1",
+      "role": "result",
+      "text": "她要求一起修理工具，也为那个孩子留了回来帮忙的机会。责任与温柔终于能同时存在。"
+    },
+    {
+      "id": "event.main_5_1.outcome.1",
+      "age": "teen",
+      "src": "teen/343913784256d5376eb3-teen.wav",
+      "parent": null,
+      "group": "event:main_5_1",
+      "role": "result",
+      "text": "她没有独自承担损失，而是和孩子商定了能做到的补救。那份约定后来被认真完成了。"
+    },
+    {
+      "id": "event.main_5_2.outcome.0",
+      "age": "teen",
+      "src": "teen/b5176be56f5baf8f13d4-teen.wav",
+      "parent": null,
+      "group": "event:main_5_2",
+      "role": "result",
+      "text": "她红着脸说只是想起了以前。那些曾被给予的耐心，如今正被她传给别人。"
+    },
+    {
+      "id": "event.main_5_2.outcome.1",
+      "age": "teen",
+      "src": "teen/474be94da321b74496a7-teen.wav",
+      "parent": null,
+      "group": "event:main_5_2",
+      "role": "result",
+      "text": "你默默整理好散落的材料。她回头时，你朝她点了点头，就像第一年那样。"
+    },
+    {
+      "id": "event.main_6_0.outcome.0",
+      "age": "grown",
+      "src": "grown/01250430f222cb6331d0-grown.wav",
+      "parent": null,
+      "group": "event:main_6_0",
+      "role": "result",
+      "text": "她在地图边缘补了一条线。那里还没有确定的目的地，但已经有了出发的方向。"
+    },
+    {
+      "id": "event.main_6_0.outcome.1",
+      "age": "grown",
+      "src": "grown/c677627ce4d5628de190-grown.wav",
+      "parent": null,
+      "group": "event:main_6_0",
+      "role": "result",
+      "text": "行李、费用、住处与回信地址被一项项写下。认真准备让憧憬有了可以落脚的地方。"
+    },
+    {
+      "id": "event.main_6_1.outcome.0",
+      "age": "grown",
+      "src": "grown/0303376be7f8fb7cda42-grown.wav",
+      "parent": null,
+      "group": "event:main_6_1",
+      "role": "result",
+      "text": "她把“别人会怎么看”划掉，留下“我想怎样生活”。这一次，答案更像她自己。"
+    },
+    {
+      "id": "event.main_6_1.outcome.1",
+      "age": "grown",
+      "src": "grown/8871037bf7717b262338-grown.wav",
+      "parent": null,
+      "group": "event:main_6_1",
+      "role": "result",
+      "text": "两张纸写满以后，她发现每条路都有值得珍惜的事，也都有需要承担的代价。"
+    },
+    {
+      "id": "event.main_6_2.outcome.0",
+      "age": "grown",
+      "src": "grown/f745b6ceaae32bdfd405-grown.wav",
+      "parent": null,
+      "group": "event:main_6_2",
+      "role": "result",
+      "text": "她写进了窗台的花和第一次展览。那些看似普通的日子，原来同样组成了现在的她。"
+    },
+    {
+      "id": "event.main_6_2.outcome.1",
+      "age": "grown",
+      "src": "grown/d507cac907cffab14849-grown.wav",
+      "parent": null,
+      "group": "event:main_6_2",
+      "role": "result",
+      "text": "介绍信末尾，她坦率留下了自己的不足。她开始相信，不必成为完美的人才能出发。"
+    },
+    {
+      "id": "event.main_7_0.outcome.0",
+      "age": "grown",
+      "src": "grown/e606cbc91c4adca5d46c-grown.wav",
+      "parent": null,
+      "group": "event:main_7_0",
+      "role": "result",
+      "text": "很多愿望换了模样，有些依然没有完成。她却不再急着划掉，愿意带着它们继续生活。"
+    },
+    {
+      "id": "event.main_7_0.outcome.1",
+      "age": "grown",
+      "src": "grown/8e7cad887e9196b19a22-grown.wav",
+      "parent": null,
+      "group": "event:main_7_0",
+      "role": "result",
+      "text": "你说未来还会发生没有安排好的事。她合上本子，第一次不觉得空白意味着缺少什么。"
+    },
+    {
+      "id": "event.main_7_1.outcome.0",
+      "age": "grown",
+      "src": "grown/3e9ce9a4ce1500c18cae-grown.wav",
+      "parent": null,
+      "group": "event:main_7_1",
+      "role": "result",
+      "text": "她郑重地在日历上画了星星。你知道，她需要的从来不只是掌声，还有那个会到场的人。"
+    },
+    {
+      "id": "event.main_7_1.outcome.1",
+      "age": "grown",
+      "src": "grown/d1b883eeed666920a4cc-grown.wav",
+      "parent": null,
+      "group": "event:main_7_1",
+      "role": "result",
+      "text": "一封封信寄了出去。她发现自己的成长并不孤单，许多温柔都留在了沿途。"
+    },
+    {
+      "id": "event.main_7_2.outcome.0",
+      "age": "grown",
+      "src": "grown/e60cd99e4667ee94aea8-grown.wav",
+      "parent": null,
+      "group": "event:main_7_2",
+      "role": "result",
+      "text": "她把钥匙收进随身的小袋。长大不是归还家的资格，而是能够带着它走得更远。"
+    },
+    {
+      "id": "event.main_7_2.outcome.1",
+      "age": "grown",
+      "src": "grown/15393c5e469336e314ef-grown.wav",
+      "parent": null,
+      "group": "event:main_7_2",
+      "role": "result",
+      "text": "你们在空白处画下一颗种子。故事即将翻过一页，那个约定却会继续发芽。"
+    },
+    {
+      "id": "event.side_fern_0.text",
+      "age": "child",
+      "src": "child/1c3d09a88386ce7ce607-child.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "story",
+      "text": "森林入口，一个叫菲恩的采集学徒找不到背包。艾莉想帮忙，又怕耽误回家的时间。"
+    },
+    {
+      "id": "event.side_fern_0.text",
+      "age": "teen",
+      "src": "teen/1c3d09a88386ce7ce607-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "story",
+      "text": "森林入口，一个叫菲恩的采集学徒找不到背包。艾莉想帮忙，又怕耽误回家的时间。"
+    },
+    {
+      "id": "event.side_fern_0.text",
+      "age": "grown",
+      "src": "grown/1c3d09a88386ce7ce607-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "story",
+      "text": "森林入口，一个叫菲恩的采集学徒找不到背包。艾莉想帮忙，又怕耽误回家的时间。"
+    },
+    {
+      "id": "event.side_fern_1.text",
+      "age": "child",
+      "src": "child/edfab21df91bb988e97c-child.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "story",
+      "text": "菲恩拿来两片几乎相同的叶子，请艾莉判断哪一种能采。她盯了很久，仍不敢确定。"
+    },
+    {
+      "id": "event.side_fern_1.text",
+      "age": "teen",
+      "src": "teen/edfab21df91bb988e97c-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "story",
+      "text": "菲恩拿来两片几乎相同的叶子，请艾莉判断哪一种能采。她盯了很久，仍不敢确定。"
+    },
+    {
+      "id": "event.side_fern_1.text",
+      "age": "grown",
+      "src": "grown/edfab21df91bb988e97c-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "story",
+      "text": "菲恩拿来两片几乎相同的叶子，请艾莉判断哪一种能采。她盯了很久，仍不敢确定。"
+    },
+    {
+      "id": "event.side_fern_2.text",
+      "age": "child",
+      "src": "child/0901d6292056258c2946-child.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "story",
+      "text": "菲恩想赶在日落前找到一片花谷，艾莉却发现回程时间已经不够。对方不愿就此放弃。"
+    },
+    {
+      "id": "event.side_fern_2.text",
+      "age": "teen",
+      "src": "teen/0901d6292056258c2946-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "story",
+      "text": "菲恩想赶在日落前找到一片花谷，艾莉却发现回程时间已经不够。对方不愿就此放弃。"
+    },
+    {
+      "id": "event.side_fern_2.text",
+      "age": "grown",
+      "src": "grown/0901d6292056258c2946-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "story",
+      "text": "菲恩想赶在日落前找到一片花谷，艾莉却发现回程时间已经不够。对方不愿就此放弃。"
+    },
+    {
+      "id": "event.side_fern_3.text",
+      "age": "child",
+      "src": "child/0efacf4844f92d049a5d-child.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "story",
+      "text": "沿途多了被折断的幼树，菲恩气得想立刻追上前面的采集者。艾莉握住了她的袖口。"
+    },
+    {
+      "id": "event.side_fern_3.text",
+      "age": "teen",
+      "src": "teen/0efacf4844f92d049a5d-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "story",
+      "text": "沿途多了被折断的幼树，菲恩气得想立刻追上前面的采集者。艾莉握住了她的袖口。"
+    },
+    {
+      "id": "event.side_fern_3.text",
+      "age": "grown",
+      "src": "grown/0efacf4844f92d049a5d-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "story",
+      "text": "沿途多了被折断的幼树，菲恩气得想立刻追上前面的采集者。艾莉握住了她的袖口。"
+    },
+    {
+      "id": "event.side_fern_4.text",
+      "age": "teen",
+      "src": "teen/ab19411f6b5fb917e471-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "story",
+      "text": "菲恩画好了一张新手路线图，想在角落写上两个人的名字。艾莉想起她们第一次相遇时丢失的背包。"
+    },
+    {
+      "id": "event.side_fern_4.text",
+      "age": "grown",
+      "src": "grown/ab19411f6b5fb917e471-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "story",
+      "text": "菲恩画好了一张新手路线图，想在角落写上两个人的名字。艾莉想起她们第一次相遇时丢失的背包。"
+    },
+    {
+      "id": "event.side_mira_0.text",
+      "age": "child",
+      "src": "child/84cf6129c650c55f3691-child.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "story",
+      "text": "文学课上，米拉总是一个人坐在窗边。艾莉发现她的笔尖断了，却不知道该不该打扰。"
+    },
+    {
+      "id": "event.side_mira_0.text",
+      "age": "teen",
+      "src": "teen/84cf6129c650c55f3691-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "story",
+      "text": "文学课上，米拉总是一个人坐在窗边。艾莉发现她的笔尖断了，却不知道该不该打扰。"
+    },
+    {
+      "id": "event.side_mira_0.text",
+      "age": "grown",
+      "src": "grown/84cf6129c650c55f3691-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "story",
+      "text": "文学课上，米拉总是一个人坐在窗边。艾莉发现她的笔尖断了，却不知道该不该打扰。"
+    },
+    {
+      "id": "event.side_mira_1.text",
+      "age": "child",
+      "src": "child/00b238c02c86e9fdb09e-child.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "story",
+      "text": "米拉借来的书有一页折了角。她以为艾莉会生气，整节课都没有说话。"
+    },
+    {
+      "id": "event.side_mira_1.text",
+      "age": "teen",
+      "src": "teen/00b238c02c86e9fdb09e-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "story",
+      "text": "米拉借来的书有一页折了角。她以为艾莉会生气，整节课都没有说话。"
+    },
+    {
+      "id": "event.side_mira_1.text",
+      "age": "grown",
+      "src": "grown/00b238c02c86e9fdb09e-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "story",
+      "text": "米拉借来的书有一页折了角。她以为艾莉会生气，整节课都没有说话。"
+    },
+    {
+      "id": "event.side_mira_2.text",
+      "age": "child",
+      "src": "child/6bf235fef081528965d5-child.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "story",
+      "text": "米拉喜欢故事里的冒险者，艾莉却更在意留在家里的人。两个人第一次争论起一本书。"
+    },
+    {
+      "id": "event.side_mira_2.text",
+      "age": "teen",
+      "src": "teen/6bf235fef081528965d5-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "story",
+      "text": "米拉喜欢故事里的冒险者，艾莉却更在意留在家里的人。两个人第一次争论起一本书。"
+    },
+    {
+      "id": "event.side_mira_2.text",
+      "age": "grown",
+      "src": "grown/6bf235fef081528965d5-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "story",
+      "text": "米拉喜欢故事里的冒险者，艾莉却更在意留在家里的人。两个人第一次争论起一本书。"
+    },
+    {
+      "id": "event.side_mira_3.text",
+      "age": "child",
+      "src": "child/84deb5a1270a2a1ebefd-child.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "story",
+      "text": "米拉请假许久，艾莉写好的邀请信一直放在抽屉。她担心朋友已经有了新的伙伴。"
+    },
+    {
+      "id": "event.side_mira_3.text",
+      "age": "teen",
+      "src": "teen/84deb5a1270a2a1ebefd-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "story",
+      "text": "米拉请假许久，艾莉写好的邀请信一直放在抽屉。她担心朋友已经有了新的伙伴。"
+    },
+    {
+      "id": "event.side_mira_3.text",
+      "age": "grown",
+      "src": "grown/84deb5a1270a2a1ebefd-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "story",
+      "text": "米拉请假许久，艾莉写好的邀请信一直放在抽屉。她担心朋友已经有了新的伙伴。"
+    },
+    {
+      "id": "event.side_mira_4.text",
+      "age": "teen",
+      "src": "teen/2f1b7c9e94014e65e006-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "story",
+      "text": "米拉带来一个小木架，想和艾莉一起建立交换书角。第一层只能放下六本书。"
+    },
+    {
+      "id": "event.side_mira_4.text",
+      "age": "grown",
+      "src": "grown/2f1b7c9e94014e65e006-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "story",
+      "text": "米拉带来一个小木架，想和艾莉一起建立交换书角。第一层只能放下六本书。"
+    },
+    {
+      "id": "event.side_nora_0.text",
+      "age": "child",
+      "src": "child/b2f5cb2e4e729d9fc7f1-child.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "story",
+      "text": "茶屋老板诺拉让她尝试烤饼干。形状歪了，味道却很好，艾莉想把它们全部藏起来。"
+    },
+    {
+      "id": "event.side_nora_0.text",
+      "age": "teen",
+      "src": "teen/b2f5cb2e4e729d9fc7f1-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "story",
+      "text": "茶屋老板诺拉让她尝试烤饼干。形状歪了，味道却很好，艾莉想把它们全部藏起来。"
+    },
+    {
+      "id": "event.side_nora_0.text",
+      "age": "grown",
+      "src": "grown/b2f5cb2e4e729d9fc7f1-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "story",
+      "text": "茶屋老板诺拉让她尝试烤饼干。形状歪了，味道却很好，艾莉想把它们全部藏起来。"
+    },
+    {
+      "id": "event.side_nora_1.text",
+      "age": "child",
+      "src": "child/8880753ed16f0123f13b-child.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "story",
+      "text": "艾莉把茶送错了桌，听见客人的叹气，整个人僵在原地。诺拉轻轻把托盘接了过去。"
+    },
+    {
+      "id": "event.side_nora_1.text",
+      "age": "teen",
+      "src": "teen/8880753ed16f0123f13b-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "story",
+      "text": "艾莉把茶送错了桌，听见客人的叹气，整个人僵在原地。诺拉轻轻把托盘接了过去。"
+    },
+    {
+      "id": "event.side_nora_1.text",
+      "age": "grown",
+      "src": "grown/8880753ed16f0123f13b-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "story",
+      "text": "艾莉把茶送错了桌，听见客人的叹气，整个人僵在原地。诺拉轻轻把托盘接了过去。"
+    },
+    {
+      "id": "event.side_nora_2.text",
+      "age": "child",
+      "src": "child/6f6fec34ea3d77b0f662-child.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "story",
+      "text": "总坐在窗边的老客人几天没来。艾莉一边擦桌子，一边看向街口。"
+    },
+    {
+      "id": "event.side_nora_2.text",
+      "age": "teen",
+      "src": "teen/6f6fec34ea3d77b0f662-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "story",
+      "text": "总坐在窗边的老客人几天没来。艾莉一边擦桌子，一边看向街口。"
+    },
+    {
+      "id": "event.side_nora_2.text",
+      "age": "grown",
+      "src": "grown/6f6fec34ea3d77b0f662-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "story",
+      "text": "总坐在窗边的老客人几天没来。艾莉一边擦桌子，一边看向街口。"
+    },
+    {
+      "id": "event.side_nora_3.text",
+      "age": "child",
+      "src": "child/dfa6512b2892aa92c8e7-child.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "story",
+      "text": "诺拉让她设计一款新点心。艾莉试了几次都不满意，担心浪费食材。"
+    },
+    {
+      "id": "event.side_nora_3.text",
+      "age": "teen",
+      "src": "teen/dfa6512b2892aa92c8e7-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "story",
+      "text": "诺拉让她设计一款新点心。艾莉试了几次都不满意，担心浪费食材。"
+    },
+    {
+      "id": "event.side_nora_3.text",
+      "age": "grown",
+      "src": "grown/dfa6512b2892aa92c8e7-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "story",
+      "text": "诺拉让她设计一款新点心。艾莉试了几次都不满意，担心浪费食材。"
+    },
+    {
+      "id": "event.side_nora_4.text",
+      "age": "teen",
+      "src": "teen/cd64095a0b7c5471d446-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_4",
+      "role": "story",
+      "text": "新点心卖得很好，诺拉让她把名字写进菜单。她犹豫了一会儿，想起一路帮过自己的人。"
+    },
+    {
+      "id": "event.side_nora_4.text",
+      "age": "grown",
+      "src": "grown/cd64095a0b7c5471d446-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_4",
+      "role": "story",
+      "text": "新点心卖得很好，诺拉让她把名字写进菜单。她犹豫了一会儿，想起一路帮过自己的人。"
+    },
+    {
+      "id": "event.side_rowan_0.text",
+      "age": "child",
+      "src": "child/f74515f4cdd24242fe0a-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "story",
+      "text": "老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。"
+    },
+    {
+      "id": "event.side_rowan_0.text",
+      "age": "teen",
+      "src": "teen/f74515f4cdd24242fe0a-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "story",
+      "text": "老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。"
+    },
+    {
+      "id": "event.side_rowan_0.text",
+      "age": "grown",
+      "src": "grown/f74515f4cdd24242fe0a-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "story",
+      "text": "老骑士罗恩让艾莉先提一桶水。她以为是惩罚，直到发现自己的手臂很快酸了。"
+    },
+    {
+      "id": "event.side_rowan_1.text",
+      "age": "child",
+      "src": "child/af29041b7d594c8fb58c-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "story",
+      "text": "练习对打时，她下意识躲开了木剑。艾莉为自己不够勇敢而脸红，罗恩却没有责怪。"
+    },
+    {
+      "id": "event.side_rowan_1.text",
+      "age": "teen",
+      "src": "teen/af29041b7d594c8fb58c-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "story",
+      "text": "练习对打时，她下意识躲开了木剑。艾莉为自己不够勇敢而脸红，罗恩却没有责怪。"
+    },
+    {
+      "id": "event.side_rowan_1.text",
+      "age": "grown",
+      "src": "grown/af29041b7d594c8fb58c-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "story",
+      "text": "练习对打时，她下意识躲开了木剑。艾莉为自己不够勇敢而脸红，罗恩却没有责怪。"
     }
   ]
 }

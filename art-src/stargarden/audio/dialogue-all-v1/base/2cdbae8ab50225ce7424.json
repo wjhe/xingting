@@ -1,0 +1,81 @@
+{
+  "src": "2cdbae8ab50225ce7424.wav",
+  "duration": 3.5,
+  "gain": 0.9125483257977852,
+  "source_sha256": "1ce2fc99c277d85ecc654a660190b1f7f397816c4b0e0d533c8fd24aa2a34b7f",
+  "id": "event.side_fern_0.choice.1",
+  "text": "先把消息告诉巡林员",
+  "group": "event:side_fern_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 600,
+        "text": "先把消息告诉巡林员。",
+        "words": [
+          {
+            "end_time": 960,
+            "start_time": 600,
+            "text": "先"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "把"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1160,
+            "text": "消"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "息"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "告"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1880,
+            "text": "诉"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2200,
+            "text": "巡"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2480,
+            "text": "林"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2720,
+            "text": "员"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2840,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "先把消息告诉巡林员。"
+  }
+}

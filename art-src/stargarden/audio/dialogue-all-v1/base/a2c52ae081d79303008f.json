@@ -1,0 +1,241 @@
+{
+  "src": "a2c52ae081d79303008f.wav",
+  "duration": 9.130958333333334,
+  "gain": 1.5643680433314568,
+  "source_sha256": "7f2be0c313fcc9a639e3fd293e874713dbab01efa6d95ec54da715c898b20010",
+  "id": "event.main_4_1.outcome.1",
+  "text": "你没有替她取消承诺，而是陪她重新安排剩下的事情。她明白了自由也包括兑现答应过的话。",
+  "group": "event:main_4_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4880,
+        "start_time": 160,
+        "text": "你没有替她取消承诺，而是陪她重新安排剩下的事情。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 160,
+            "text": "你"
+          },
+          {
+            "end_time": 520,
+            "start_time": 440,
+            "text": "没"
+          },
+          {
+            "end_time": 600,
+            "start_time": 520,
+            "text": "有"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "替"
+          },
+          {
+            "end_time": 920,
+            "start_time": 840,
+            "text": "她"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1000,
+            "text": "取"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1240,
+            "text": "消"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "承"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1720,
+            "text": "诺"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1960,
+            "text": "，"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2320,
+            "text": "而"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2480,
+            "text": "是"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2640,
+            "text": "陪"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2880,
+            "text": "她"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3080,
+            "text": "重"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3280,
+            "text": "新"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3440,
+            "text": "安"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3600,
+            "text": "排"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 3880,
+            "text": "剩"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4160,
+            "text": "下"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4360,
+            "text": "的"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4560,
+            "text": "事"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4680,
+            "text": "情"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4880,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8960,
+        "start_time": 5600,
+        "text": "她明白了自由也包括兑现答应过的话。",
+        "words": [
+          {
+            "end_time": 5720,
+            "start_time": 5600,
+            "text": "她"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5760,
+            "text": "明"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 5920,
+            "text": "白"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6080,
+            "text": "了"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6280,
+            "text": "自"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6520,
+            "text": "由"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 6920,
+            "text": "也"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7120,
+            "text": "包"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7240,
+            "text": "括"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7520,
+            "text": "兑"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7800,
+            "text": "现"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8120,
+            "text": "答"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8280,
+            "text": "应"
+          },
+          {
+            "end_time": 8640,
+            "start_time": 8440,
+            "text": "过"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8640,
+            "text": "的"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8760,
+            "text": "话"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8960,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你没有替她取消承诺，而是陪她重新安排剩下的事情。她明白了自由也包括兑现答应过的话。"
+  }
+}

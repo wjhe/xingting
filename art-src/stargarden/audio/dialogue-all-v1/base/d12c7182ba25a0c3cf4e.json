@@ -1,0 +1,91 @@
+{
+  "src": "d12c7182ba25a0c3cf4e.wav",
+  "duration": 3.5,
+  "gain": 1.4597240949728907,
+  "source_sha256": "73f33aed279cb71adbe72765afb1dff3a8f72f3e003ffd4cef2acb0f117a7606",
+  "id": "event.side_fern_2.choice.1",
+  "text": "记下路线，另定出发时间",
+  "group": "event:side_fern_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3240,
+        "start_time": 320,
+        "text": "记下路线，另定出发时间。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 320,
+            "text": "记"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "下"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 840,
+            "text": "路"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1080,
+            "text": "线"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1280,
+            "text": "，"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1760,
+            "text": "另"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2080,
+            "text": "定"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2400,
+            "text": "出"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2600,
+            "text": "发"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2880,
+            "text": "时"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "间"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "记下路线，另定出发时间。"
+  }
+}

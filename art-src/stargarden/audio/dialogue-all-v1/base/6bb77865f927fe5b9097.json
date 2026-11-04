@@ -1,0 +1,216 @@
+{
+  "src": "6bb77865f927fe5b9097.wav",
+  "duration": 10.18,
+  "gain": 1.7633579519736697,
+  "source_sha256": "774c41cdb0f36aab48504ec6f1e1486029087fbda97d22d68f80fd5d62c67abe",
+  "id": "event.main_3_2.outcome.1",
+  "text": "你把“你回家就好”写在角落。她读到时停了一下，然后继续讲完了自己的故事。",
+  "group": "event:main_3_2",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3640,
+        "start_time": 360,
+        "text": "你把‘你回家就好’写在角落。",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 360,
+            "text": "你"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 680,
+            "text": "把"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1080,
+            "text": "‘"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1080,
+            "text": "你"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1440,
+            "text": "回"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1680,
+            "text": "家"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "就"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2200,
+            "text": "好"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2560,
+            "text": "’"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "写"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2920,
+            "text": "在"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3160,
+            "text": "角"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3440,
+            "text": "落"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3640,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9640,
+        "start_time": 4440,
+        "text": "她读到时停了一下，然后继续讲完了自己的故事。",
+        "words": [
+          {
+            "end_time": 4600,
+            "start_time": 4440,
+            "text": "她"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4720,
+            "text": "读"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4920,
+            "text": "到"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5160,
+            "text": "时"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5560,
+            "text": "停"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 5920,
+            "text": "了"
+          },
+          {
+            "end_time": 6240,
+            "start_time": 6080,
+            "text": "一"
+          },
+          {
+            "end_time": 6480,
+            "start_time": 6240,
+            "text": "下"
+          },
+          {
+            "end_time": 6480,
+            "start_time": 6480,
+            "text": "，"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7320,
+            "text": "然"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7520,
+            "text": "后"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7800,
+            "text": "继"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8000,
+            "text": "续"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8200,
+            "text": "讲"
+          },
+          {
+            "end_time": 8720,
+            "start_time": 8520,
+            "text": "完"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8720,
+            "text": "了"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8920,
+            "text": "自"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 9040,
+            "text": "己"
+          },
+          {
+            "end_time": 9320,
+            "start_time": 9160,
+            "text": "的"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9320,
+            "text": "故"
+          },
+          {
+            "end_time": 9640,
+            "start_time": 9480,
+            "text": "事"
+          },
+          {
+            "end_time": 9640,
+            "start_time": 9640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你把‘你回家就好’写在角落。她读到时停了一下，然后继续讲完了自己的故事。"
+  }
+}

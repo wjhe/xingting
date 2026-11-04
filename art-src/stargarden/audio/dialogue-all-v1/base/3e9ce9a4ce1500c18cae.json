@@ -1,0 +1,231 @@
+{
+  "src": "3e9ce9a4ce1500c18cae.wav",
+  "duration": 9.68,
+  "gain": 1.5674027086114546,
+  "source_sha256": "877ccfb4d2a7a39941eabc9f39093c799d6e5ace2817aca539a0f592276e037d",
+  "id": "event.main_7_1.outcome.0",
+  "text": "她郑重地在日历上画了星星。你知道，她需要的从来不只是掌声，还有那个会到场的人。",
+  "group": "event:main_7_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2760,
+        "start_time": 280,
+        "text": "她郑重地在日历上画了星星。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 280,
+            "text": "她"
+          },
+          {
+            "end_time": 640,
+            "start_time": 600,
+            "text": "郑"
+          },
+          {
+            "end_time": 920,
+            "start_time": 800,
+            "text": "重"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "地"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1160,
+            "text": "在"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1280,
+            "text": "日"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1560,
+            "text": "历"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1680,
+            "text": "上"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 2000,
+            "text": "画"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2160,
+            "text": "了"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2440,
+            "text": "星"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2720,
+            "text": "星"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2760,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9480,
+        "start_time": 3720,
+        "text": "你知道，她需要的从来不只是掌声，还有那个会到场的人。",
+        "words": [
+          {
+            "end_time": 3960,
+            "start_time": 3720,
+            "text": "你"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3960,
+            "text": "知"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4120,
+            "text": "道"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4320,
+            "text": "，"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4760,
+            "text": "她"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5040,
+            "text": "需"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5240,
+            "text": "要"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5400,
+            "text": "的"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5680,
+            "text": "从"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "来"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 6000,
+            "text": "不"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6160,
+            "text": "只"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6280,
+            "text": "是"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6440,
+            "text": "掌"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6760,
+            "text": "声"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6960,
+            "text": "，"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7600,
+            "text": "还"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7800,
+            "text": "有"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7920,
+            "text": "那"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8120,
+            "text": "个"
+          },
+          {
+            "end_time": 8520,
+            "start_time": 8240,
+            "text": "会"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8520,
+            "text": "到"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 8800,
+            "text": "场"
+          },
+          {
+            "end_time": 9240,
+            "start_time": 9080,
+            "text": "的"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9240,
+            "text": "人"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9480,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她郑重地在日历上画了星星。你知道，她需要的从来不只是掌声，还有那个会到场的人。"
+  }
+}

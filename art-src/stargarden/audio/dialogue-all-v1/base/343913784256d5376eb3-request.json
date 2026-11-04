@@ -1,0 +1,233 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "e77863d6-0ab9-460c-9e28-a9d3a7389f76",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她没有独自承担损失，而是和孩子商定了能做到的补救。那份约定后来被认真完成了。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050630EDAF3426F078BD1A256F",
+  "response": {
+    "duration": 10.8,
+    "original_duration": 10.8,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 7200,
+          "start_time": 2200,
+          "text": "她没有独自承担损失，而是和孩子商定了能做到的补救。",
+          "words": [
+            {
+              "end_time": 2520,
+              "start_time": 2200,
+              "text": "她"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2520,
+              "text": "没"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2640,
+              "text": "有"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2720,
+              "text": "独"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2920,
+              "text": "自"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3120,
+              "text": "承"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3320,
+              "text": "担"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3560,
+              "text": "损"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3800,
+              "text": "失"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 4040,
+              "text": "，"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4520,
+              "text": "而"
+            },
+            {
+              "end_time": 4840,
+              "start_time": 4680,
+              "text": "是"
+            },
+            {
+              "end_time": 5040,
+              "start_time": 4840,
+              "text": "和"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 5040,
+              "text": "孩"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5240,
+              "text": "子"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5360,
+              "text": "商"
+            },
+            {
+              "end_time": 5840,
+              "start_time": 5640,
+              "text": "定"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5840,
+              "text": "了"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6080,
+              "text": "能"
+            },
+            {
+              "end_time": 6480,
+              "start_time": 6280,
+              "text": "做"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6480,
+              "text": "到"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6640,
+              "text": "的"
+            },
+            {
+              "end_time": 6920,
+              "start_time": 6840,
+              "text": "补"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 7120,
+              "text": "救"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 7200,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10600,
+          "start_time": 7920,
+          "text": "那份约定后来被认真完成了。",
+          "words": [
+            {
+              "end_time": 8120,
+              "start_time": 7920,
+              "text": "那"
+            },
+            {
+              "end_time": 8360,
+              "start_time": 8120,
+              "text": "份"
+            },
+            {
+              "end_time": 8640,
+              "start_time": 8360,
+              "text": "约"
+            },
+            {
+              "end_time": 8960,
+              "start_time": 8640,
+              "text": "定"
+            },
+            {
+              "end_time": 9280,
+              "start_time": 9120,
+              "text": "后"
+            },
+            {
+              "end_time": 9440,
+              "start_time": 9280,
+              "text": "来"
+            },
+            {
+              "end_time": 9600,
+              "start_time": 9440,
+              "text": "被"
+            },
+            {
+              "end_time": 9840,
+              "start_time": 9600,
+              "text": "认"
+            },
+            {
+              "end_time": 10000,
+              "start_time": 9840,
+              "text": "真"
+            },
+            {
+              "end_time": 10240,
+              "start_time": 10040,
+              "text": "完"
+            },
+            {
+              "end_time": 10400,
+              "start_time": 10240,
+              "text": "成"
+            },
+            {
+              "end_time": 10600,
+              "start_time": 10400,
+              "text": "了"
+            },
+            {
+              "end_time": 10600,
+              "start_time": 10600,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她没有独自承担损失，而是和孩子商定了能做到的补救。那份约定后来被认真完成了。"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "73f87a5f-6bad-4b1c-ab01-14e05078e192",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“总坐在窗边的老客人几天没来。艾莉一边擦桌子，一边看向街口。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105050942B31BED2B1BD2342055A0",
+  "response": {
+    "duration": 8.38,
+    "original_duration": 8.38,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4000,
+          "start_time": 880,
+          "text": "总坐在窗边的老客人几天没来。",
+          "words": [
+            {
+              "end_time": 1240,
+              "start_time": 880,
+              "text": "总"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1320,
+              "text": "坐"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1480,
+              "text": "在"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1680,
+              "text": "窗"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1880,
+              "text": "边"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2080,
+              "text": "的"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2280,
+              "text": "老"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2440,
+              "text": "客"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2720,
+              "text": "人"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3080,
+              "text": "几"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3240,
+              "text": "天"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3440,
+              "text": "没"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3640,
+              "text": "来"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 4000,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8040,
+          "start_time": 4640,
+          "text": "艾莉一边擦桌子，一边看向街口。",
+          "words": [
+            {
+              "end_time": 4720,
+              "start_time": 4640,
+              "text": "艾"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4920,
+              "text": "莉"
+            },
+            {
+              "end_time": 5280,
+              "start_time": 5160,
+              "text": "一"
+            },
+            {
+              "end_time": 5440,
+              "start_time": 5280,
+              "text": "边"
+            },
+            {
+              "end_time": 5760,
+              "start_time": 5480,
+              "text": "擦"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5800,
+              "text": "桌"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6080,
+              "text": "子"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6320,
+              "text": "，"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6600,
+              "text": "一"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6760,
+              "text": "边"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 6960,
+              "text": "看"
+            },
+            {
+              "end_time": 7440,
+              "start_time": 7240,
+              "text": "向"
+            },
+            {
+              "end_time": 7640,
+              "start_time": 7600,
+              "text": "街"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7840,
+              "text": "口"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 8040,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "总坐在窗边的老客人几天没来。艾莉一边擦桌子，一边看向街口。"
+    }
+  }
+}

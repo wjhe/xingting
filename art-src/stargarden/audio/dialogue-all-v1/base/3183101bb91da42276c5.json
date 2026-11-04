@@ -1,0 +1,222 @@
+{
+  "src": "3183101bb91da42276c5.wav",
+  "duration": 9.88,
+  "gain": 0.8943231441048035,
+  "source_sha256": "58f905f691c0e4be80c57ae659b0dfb808bf9ea3c950b3bc90206766b19649f9",
+  "id": "event.side_rowan_4.text",
+  "text": "罗恩请她把旧木剑交给新学员。握柄上还有她早年留下的划痕，她忽然有些舍不得。",
+  "group": "event:side_rowan_4",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3000,
+        "start_time": 0,
+        "text": "罗恩请她把旧木剑交给新学员。",
+        "words": [
+          {
+            "end_time": 120,
+            "start_time": 0,
+            "text": "罗"
+          },
+          {
+            "end_time": 360,
+            "start_time": 280,
+            "text": "恩"
+          },
+          {
+            "end_time": 720,
+            "start_time": 520,
+            "text": "请"
+          },
+          {
+            "end_time": 880,
+            "start_time": 760,
+            "text": "她"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 960,
+            "text": "把"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1200,
+            "text": "旧"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1480,
+            "text": "木"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1760,
+            "text": "剑"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2000,
+            "text": "交"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2160,
+            "text": "给"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "新"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2640,
+            "text": "学"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2880,
+            "text": "员"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9320,
+        "start_time": 4000,
+        "text": "握柄上还有她早年留下的划痕，她忽然有些舍不得。",
+        "words": [
+          {
+            "end_time": 4040,
+            "start_time": 4000,
+            "text": "握"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4280,
+            "text": "柄"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4520,
+            "text": "上"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4840,
+            "text": "还"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4960,
+            "text": "有"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5120,
+            "text": "她"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5320,
+            "text": "早"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5520,
+            "text": "年"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5800,
+            "text": "留"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 5960,
+            "text": "下"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6120,
+            "text": "的"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6280,
+            "text": "划"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6600,
+            "text": "痕"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6680,
+            "text": "，"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7560,
+            "text": "她"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7760,
+            "text": "忽"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 7960,
+            "text": "然"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8240,
+            "text": "有"
+          },
+          {
+            "end_time": 8640,
+            "start_time": 8480,
+            "text": "些"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8680,
+            "text": "舍"
+          },
+          {
+            "end_time": 9120,
+            "start_time": 8920,
+            "text": "不"
+          },
+          {
+            "end_time": 9320,
+            "start_time": 9120,
+            "text": "得"
+          },
+          {
+            "end_time": 9320,
+            "start_time": 9320,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "罗恩请她把旧木剑交给新学员。握柄上还有她早年留下的划痕，她忽然有些舍不得。"
+  }
+}

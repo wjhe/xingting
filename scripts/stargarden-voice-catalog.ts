@@ -196,6 +196,15 @@ add({
   ages: ['child', 'teen', 'grown'],
   priority: 35,
 });
+add({
+  id: 'birthday.story',
+  text: '蜡烛又多了一根。艾莉许完愿，笑着说：“明年也要一起过生日。”',
+  group: 'birthday',
+  role: 'story',
+  emotion: '温暖、开心，带着一点期待',
+  ages: ['child', 'teen', 'grown'],
+  priority: 35,
+});
 
 for (const [id, text] of [
   ['festival.win', '她在收获祭的展示赛中获得优胜！笑着向你挥手的那一刻，整个秋天都亮了。'],
@@ -249,6 +258,15 @@ const encounters = [
   '山巅风灵',
   '雪羽山鸟',
 ];
+add({
+  id: 'battle.intro',
+  text: '深呼吸，勇敢地迈出第一步。',
+  group: 'battle',
+  role: 'story',
+  emotion: '温柔鼓励，略带冒险前的紧张',
+  ages: ['child', 'teen', 'grown'],
+  priority: 43,
+});
 for (const enemy of encounters) {
   add({
     id: `battle.${enemy}.win`,

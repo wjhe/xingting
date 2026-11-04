@@ -1,0 +1,81 @@
+{
+  "src": "357580a18b4d77cc44c8.wav",
+  "duration": 3.5,
+  "gain": 1.4692487571513486,
+  "source_sha256": "8623d7469a68090f36345794517b80e07ed6061347f96150f32e38dcdf02ddbe",
+  "id": "event.side_fern_1.choice.0",
+  "text": "承认不知道，查阅图册",
+  "group": "event:side_fern_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3080,
+        "start_time": 760,
+        "text": "承认不知道，查阅图册",
+        "words": [
+          {
+            "end_time": 1040,
+            "start_time": 760,
+            "text": "承"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1040,
+            "text": "认"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1440,
+            "text": "不"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1560,
+            "text": "知"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "道"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1920,
+            "text": "，"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2200,
+            "text": "查"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2480,
+            "text": "阅"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2760,
+            "text": "图"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3040,
+            "text": "册"
+          }
+        ]
+      }
+    ],
+    "text": "承认不知道，查阅图册"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "src": "4e350a51444104d74571.wav",
+  "duration": 3.28,
+  "gain": 1.5638205180360836,
+  "source_sha256": "f58669fc884263c003826c80ea967f727862ba5c18c8123175c3ed532cd07820",
+  "id": "event.side_fern_2.choice.0",
+  "text": "坚持今天先安全返回",
+  "group": "event:side_fern_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2760,
+        "start_time": 400,
+        "text": "坚持今天先安全返回",
+        "words": [
+          {
+            "end_time": 640,
+            "start_time": 400,
+            "text": "坚"
+          },
+          {
+            "end_time": 920,
+            "start_time": 640,
+            "text": "持"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "今"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "天"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1440,
+            "text": "先"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "安"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "全"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2280,
+            "text": "返"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2520,
+            "text": "回"
+          }
+        ]
+      }
+    ],
+    "text": "坚持今天先安全返回"
+  }
+}

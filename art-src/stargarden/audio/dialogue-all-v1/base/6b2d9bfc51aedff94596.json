@@ -1,0 +1,86 @@
+{
+  "src": "6b2d9bfc51aedff94596.wav",
+  "duration": 3.9,
+  "gain": 1.326968290507344,
+  "source_sha256": "c33dcc14b0b2a8b4a70d25e8f52195ca1b165c47ccd199b63d02fd1f192ffec7",
+  "id": "event.side_fern_3.choice.0",
+  "text": "先记录位置并报告巡林员",
+  "group": "event:side_fern_3",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3440,
+        "start_time": 920,
+        "text": "先记录位置并报告巡林员",
+        "words": [
+          {
+            "end_time": 1280,
+            "start_time": 920,
+            "text": "先"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1280,
+            "text": "记"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1440,
+            "text": "录"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "位"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "置"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2120,
+            "text": "并"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2360,
+            "text": "报"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2560,
+            "text": "告"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2840,
+            "text": "巡"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3120,
+            "text": "林"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3320,
+            "text": "员"
+          }
+        ]
+      }
+    ],
+    "text": "先记录位置并报告巡林员"
+  }
+}

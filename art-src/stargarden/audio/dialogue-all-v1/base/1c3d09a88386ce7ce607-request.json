@@ -1,0 +1,228 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "47392b75-2be5-452c-b932-9d408e34e391",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“森林入口，一个叫菲恩的采集学徒找不到背包。艾莉想帮忙，又怕耽误回家的时间。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505081495809BDCE3EA0F193BD8",
+  "response": {
+    "duration": 8.410525,
+    "original_duration": 8.410525,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4600,
+          "start_time": 320,
+          "text": "森林入口，一个叫菲恩的采集学徒找不到背包。",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 320,
+              "text": "森"
+            },
+            {
+              "end_time": 760,
+              "start_time": 600,
+              "text": "林"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 920,
+              "text": "入"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1120,
+              "text": "口"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1440,
+              "text": "，"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1640,
+              "text": "一"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1760,
+              "text": "个"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1880,
+              "text": "叫"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2120,
+              "text": "菲"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2440,
+              "text": "恩"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2560,
+              "text": "的"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2760,
+              "text": "采"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2960,
+              "text": "集"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3200,
+              "text": "学"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3440,
+              "text": "徒"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3720,
+              "text": "找"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3920,
+              "text": "不"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4000,
+              "text": "到"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 4160,
+              "text": "背"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4360,
+              "text": "包"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4600,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8040,
+          "start_time": 5280,
+          "text": "艾莉想帮忙，又怕耽误回家的时间。",
+          "words": [
+            {
+              "end_time": 5360,
+              "start_time": 5280,
+              "text": "艾"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5520,
+              "text": "莉"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5720,
+              "text": "想"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5920,
+              "text": "帮"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6080,
+              "text": "忙"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6320,
+              "text": "，"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6440,
+              "text": "又"
+            },
+            {
+              "end_time": 6920,
+              "start_time": 6680,
+              "text": "怕"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 6920,
+              "text": "耽"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7160,
+              "text": "误"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7360,
+              "text": "回"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7520,
+              "text": "家"
+            },
+            {
+              "end_time": 7800,
+              "start_time": 7680,
+              "text": "的"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7800,
+              "text": "时"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7880,
+              "text": "间"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 8040,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "森林入口，一个叫菲恩的采集学徒找不到背包。艾莉想帮忙，又怕耽误回家的时间。"
+    }
+  }
+}

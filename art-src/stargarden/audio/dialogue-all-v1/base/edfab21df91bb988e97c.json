@@ -1,0 +1,223 @@
+{
+  "src": "edfab21df91bb988e97c.wav",
+  "duration": 9.88,
+  "gain": 1.3162924097758628,
+  "source_sha256": "d5fa3f4826243ab33337829d276b941c785c280bd7128e38f2dda2789769b25c",
+  "id": "event.side_fern_1.text",
+  "text": "菲恩拿来两片几乎相同的叶子，请艾莉判断哪一种能采。她盯了很久，仍不敢确定。",
+  "group": "event:side_fern_1",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6000,
+        "start_time": 360,
+        "text": "菲恩拿来两片几乎相同的叶子，请艾莉判断哪一种能采。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 360,
+            "text": "菲"
+          },
+          {
+            "end_time": 800,
+            "start_time": 680,
+            "text": "恩"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 920,
+            "text": "拿"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "来"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1240,
+            "text": "两"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1400,
+            "text": "片"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "几"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "乎"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "相"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2280,
+            "text": "同"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2520,
+            "text": "的"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2760,
+            "text": "叶"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2960,
+            "text": "子"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3200,
+            "text": "，"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3560,
+            "text": "请"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 4000,
+            "text": "艾"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4240,
+            "text": "莉"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4440,
+            "text": "判"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4640,
+            "text": "断"
+          },
+          {
+            "end_time": 5200,
+            "start_time": 4960,
+            "text": "哪"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5200,
+            "text": "一"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5360,
+            "text": "种"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5600,
+            "text": "能"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5920,
+            "text": "采"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 6000,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9440,
+        "start_time": 6960,
+        "text": "她盯了很久，仍不敢确定。",
+        "words": [
+          {
+            "end_time": 7120,
+            "start_time": 6960,
+            "text": "她"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7240,
+            "text": "盯"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7520,
+            "text": "了"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7680,
+            "text": "很"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7840,
+            "text": "久"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 8120,
+            "text": "，"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8360,
+            "text": "仍"
+          },
+          {
+            "end_time": 8840,
+            "start_time": 8680,
+            "text": "不"
+          },
+          {
+            "end_time": 9000,
+            "start_time": 8840,
+            "text": "敢"
+          },
+          {
+            "end_time": 9240,
+            "start_time": 9000,
+            "text": "确"
+          },
+          {
+            "end_time": 9440,
+            "start_time": 9240,
+            "text": "定"
+          },
+          {
+            "end_time": 9440,
+            "start_time": 9440,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "菲恩拿来两片几乎相同的叶子，请艾莉判断哪一种能采。她盯了很久，仍不敢确定。"
+  }
+}

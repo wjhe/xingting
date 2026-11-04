@@ -192,6 +192,7 @@ def main():
     parser.add_argument("--workers", type=int, default=2)
     parser.add_argument("--only", nargs="*", help="Exact voice line IDs")
     parser.add_argument("--limit", type=int)
+    parser.add_argument("--finalize-only", action="store_true")
     args = parser.parse_args()
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
     lines = catalog["lines"]
@@ -202,6 +203,9 @@ def main():
             raise SystemExit("Unknown or duplicate voice line ID")
     if args.limit:
         lines = lines[:args.limit]
+    if args.finalize_only:
+        finalize(catalog)
+        return
     voice, pitch = setup()
     failures = []
     lock = threading.Lock()

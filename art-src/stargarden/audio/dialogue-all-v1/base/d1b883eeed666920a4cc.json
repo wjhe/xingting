@@ -1,0 +1,201 @@
+{
+  "src": "d1b883eeed666920a4cc.wav",
+  "duration": 9.3,
+  "gain": 0.9561879913488276,
+  "source_sha256": "a2b1d230978eba4d6c416705d669180b6cf2692b88da5ccf69035ed6b6fa67fd",
+  "id": "event.main_7_1.outcome.1",
+  "text": "一封封信寄了出去。她发现自己的成长并不孤单，许多温柔都留在了沿途。",
+  "group": "event:main_7_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2160,
+        "start_time": 360,
+        "text": "一封封信寄了出去。",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 360,
+            "text": "一"
+          },
+          {
+            "end_time": 720,
+            "start_time": 640,
+            "text": "封"
+          },
+          {
+            "end_time": 960,
+            "start_time": 880,
+            "text": "封"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1080,
+            "text": "信"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1440,
+            "text": "寄"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1640,
+            "text": "了"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1800,
+            "text": "出"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "去"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2160,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7920,
+        "start_time": 2800,
+        "text": "她发现自己的成长并不孤单，许多温柔都留在了沿途。",
+        "words": [
+          {
+            "end_time": 3080,
+            "start_time": 2800,
+            "text": "她"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3080,
+            "text": "发"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3200,
+            "text": "现"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3400,
+            "text": "自"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3520,
+            "text": "己"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3600,
+            "text": "的"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3760,
+            "text": "成"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4000,
+            "text": "长"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4400,
+            "text": "并"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4600,
+            "text": "不"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4800,
+            "text": "孤"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 4960,
+            "text": "单"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5240,
+            "text": "，"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5800,
+            "text": "许"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 6000,
+            "text": "多"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6120,
+            "text": "温"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6360,
+            "text": "柔"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6720,
+            "text": "都"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 6920,
+            "text": "留"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7160,
+            "text": "在"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7320,
+            "text": "了"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7560,
+            "text": "沿"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7880,
+            "text": "途"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7920,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "一封封信寄了出去。她发现自己的成长并不孤单，许多温柔都留在了沿途。"
+  }
+}

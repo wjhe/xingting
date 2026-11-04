@@ -26,13 +26,20 @@ KEY_FILE = ROOT / 'gpt_image_2_5_key.txt'
 LOG = ROOT / 'art-src' / 'generation_log.jsonl'
 
 
-def generate(prompt: str, size: str) -> bytes:
+def generate(
+    prompt: str,
+    size: str,
+    model: str | None = None,
+    quality: str | None = None,
+) -> bytes:
     key = KEY_FILE.read_text(encoding='utf-8').strip()
+    selected_model = model or MODEL
+    selected_quality = quality or QUALITY
     body = json.dumps({
-        'model': MODEL,
+        'model': selected_model,
         'prompt': prompt,
         'size': size,
-        'quality': QUALITY,
+        'quality': selected_quality,
         'n': 1,
     }).encode('utf-8')
     req = urllib.request.Request(API, data=body, headers={

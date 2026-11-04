@@ -15,5 +15,189 @@
       "enable_subtitle": true
     }
   },
-  "status": "submitted"
+  "status": "complete",
+  "provider_log_id": "202611050505132CA9A50660607A1DA780",
+  "response": {
+    "duration": 8.8,
+    "original_duration": 8.8,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3960,
+          "start_time": 360,
+          "text": "她讲得很慢，台下却格外安静。",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 360,
+              "text": "她"
+            },
+            {
+              "end_time": 840,
+              "start_time": 640,
+              "text": "讲"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 840,
+              "text": "得"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "很"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1240,
+              "text": "慢"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1400,
+              "text": "，"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2160,
+              "text": "台"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2440,
+              "text": "下"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2800,
+              "text": "却"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3080,
+              "text": "格"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3280,
+              "text": "外"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3520,
+              "text": "安"
+            },
+            {
+              "end_time": 3960,
+              "start_time": 3760,
+              "text": "静"
+            },
+            {
+              "end_time": 3960,
+              "start_time": 3960,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8480,
+          "start_time": 4720,
+          "text": "有人告诉她，自己也经历过这样的雨天。",
+          "words": [
+            {
+              "end_time": 4960,
+              "start_time": 4720,
+              "text": "有"
+            },
+            {
+              "end_time": 5080,
+              "start_time": 4960,
+              "text": "人"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 5080,
+              "text": "告"
+            },
+            {
+              "end_time": 5440,
+              "start_time": 5240,
+              "text": "诉"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5480,
+              "text": "她"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5680,
+              "text": "，"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6320,
+              "text": "自"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6520,
+              "text": "己"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6680,
+              "text": "也"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 6960,
+              "text": "经"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7200,
+              "text": "历"
+            },
+            {
+              "end_time": 7640,
+              "start_time": 7400,
+              "text": "过"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7640,
+              "text": "这"
+            },
+            {
+              "end_time": 7840,
+              "start_time": 7760,
+              "text": "样"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7840,
+              "text": "的"
+            },
+            {
+              "end_time": 8080,
+              "start_time": 8000,
+              "text": "雨"
+            },
+            {
+              "end_time": 8480,
+              "start_time": 8280,
+              "text": "天"
+            },
+            {
+              "end_time": 8480,
+              "start_time": 8480,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她讲得很慢，台下却格外安静。有人告诉她，自己也经历过这样的雨天。"
+    }
+  }
 }

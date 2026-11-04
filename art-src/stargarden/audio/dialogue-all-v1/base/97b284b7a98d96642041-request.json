@@ -1,0 +1,223 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "c3d2c2c5-ddf9-42bd-a526-675849f1f50e",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她连费用和休息时间都算过了。你们保留了她的主意，也一起补上了遗漏的地方。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050505299C4918F1377BC4DF891F",
+  "response": {
+    "duration": 9.1,
+    "original_duration": 9.1,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3840,
+          "start_time": 400,
+          "text": "她连费用和休息时间都算过了。",
+          "words": [
+            {
+              "end_time": 560,
+              "start_time": 400,
+              "text": "她"
+            },
+            {
+              "end_time": 920,
+              "start_time": 640,
+              "text": "连"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 920,
+              "text": "费"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1160,
+              "text": "用"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1560,
+              "text": "和"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1800,
+              "text": "休"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2000,
+              "text": "息"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2240,
+              "text": "时"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2400,
+              "text": "间"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2640,
+              "text": "都"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 2880,
+              "text": "算"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3280,
+              "text": "过"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3560,
+              "text": "了"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3840,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8880,
+          "start_time": 4400,
+          "text": "你们保留了她的主意，也一起补上了遗漏的地方。",
+          "words": [
+            {
+              "end_time": 4600,
+              "start_time": 4400,
+              "text": "你"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4600,
+              "text": "们"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4720,
+              "text": "保"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 4960,
+              "text": "留"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5160,
+              "text": "了"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5440,
+              "text": "她"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5520,
+              "text": "的"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5720,
+              "text": "主"
+            },
+            {
+              "end_time": 6120,
+              "start_time": 5960,
+              "text": "意"
+            },
+            {
+              "end_time": 6120,
+              "start_time": 6120,
+              "text": "，"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6640,
+              "text": "也"
+            },
+            {
+              "end_time": 7080,
+              "start_time": 6960,
+              "text": "一"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 7080,
+              "text": "起"
+            },
+            {
+              "end_time": 7560,
+              "start_time": 7360,
+              "text": "补"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7600,
+              "text": "上"
+            },
+            {
+              "end_time": 7920,
+              "start_time": 7760,
+              "text": "了"
+            },
+            {
+              "end_time": 8120,
+              "start_time": 8040,
+              "text": "遗"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8280,
+              "text": "漏"
+            },
+            {
+              "end_time": 8640,
+              "start_time": 8520,
+              "text": "的"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8640,
+              "text": "地"
+            },
+            {
+              "end_time": 8880,
+              "start_time": 8760,
+              "text": "方"
+            },
+            {
+              "end_time": 8880,
+              "start_time": 8880,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她连费用和休息时间都算过了。你们保留了她的主意，也一起补上了遗漏的地方。"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "src": "0efacf4844f92d049a5d.wav",
+  "duration": 10.18,
+  "gain": 1.4761901713715595,
+  "source_sha256": "cec94760b37cbd638a498ae3851d8ffe96875c634c23dccab29b77bd14ef605f",
+  "id": "event.side_fern_3.text",
+  "text": "沿途多了被折断的幼树，菲恩气得想立刻追上前面的采集者。艾莉握住了她的袖口。",
+  "group": "event:side_fern_3",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7560,
+        "start_time": 1600,
+        "text": "沿途多了被折断的幼树，菲恩气得想立刻追上前面的采集者。",
+        "words": [
+          {
+            "end_time": 1680,
+            "start_time": 1600,
+            "text": "沿"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1960,
+            "text": "途"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "多"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "了"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2520,
+            "text": "被"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "折"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2920,
+            "text": "断"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3080,
+            "text": "的"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3240,
+            "text": "幼"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3560,
+            "text": "树"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3640,
+            "text": "，"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4400,
+            "text": "菲"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4680,
+            "text": "恩"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "气"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5160,
+            "text": "得"
+          },
+          {
+            "end_time": 5640,
+            "start_time": 5400,
+            "text": "想"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5640,
+            "text": "立"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5760,
+            "text": "刻"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 5920,
+            "text": "追"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6120,
+            "text": "上"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6320,
+            "text": "前"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6520,
+            "text": "面"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6640,
+            "text": "的"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6840,
+            "text": "采"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7080,
+            "text": "集"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7360,
+            "text": "者"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7560,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10000,
+        "start_time": 8320,
+        "text": "艾莉握住了她的袖口。",
+        "words": [
+          {
+            "end_time": 8400,
+            "start_time": 8320,
+            "text": "艾"
+          },
+          {
+            "end_time": 8640,
+            "start_time": 8560,
+            "text": "莉"
+          },
+          {
+            "end_time": 9000,
+            "start_time": 8800,
+            "text": "握"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 9000,
+            "text": "住"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9160,
+            "text": "了"
+          },
+          {
+            "end_time": 9440,
+            "start_time": 9280,
+            "text": "她"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9440,
+            "text": "的"
+          },
+          {
+            "end_time": 9680,
+            "start_time": 9640,
+            "text": "袖"
+          },
+          {
+            "end_time": 10000,
+            "start_time": 9800,
+            "text": "口"
+          },
+          {
+            "end_time": 10000,
+            "start_time": 10000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "沿途多了被折断的幼树，菲恩气得想立刻追上前面的采集者。艾莉握住了她的袖口。"
+  }
+}

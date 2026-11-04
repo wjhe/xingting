@@ -1,0 +1,196 @@
+{
+  "src": "c6dfdbafc240263822f8.wav",
+  "duration": 8.18,
+  "gain": 1.4052626982671188,
+  "source_sha256": "43de975e568660ddc6bbca34d7ee33f0fa887deae5fe9282064c31dd3d1b7ffb",
+  "id": "event.side_rowan_3.text",
+  "text": "集市上有人为摊位争吵，艾莉想到罗恩教过的话，却不确定该不该站出来。",
+  "group": "event:side_rowan_3",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7720,
+        "start_time": 440,
+        "text": "集市上有人为摊位争吵，艾莉想到罗恩教过的话，却不确定该不该站出来。",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 440,
+            "text": "集"
+          },
+          {
+            "end_time": 960,
+            "start_time": 760,
+            "text": "市"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 960,
+            "text": "上"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "有"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "人"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1600,
+            "text": "为"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1920,
+            "text": "摊"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2120,
+            "text": "位"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "争"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2640,
+            "text": "吵"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2800,
+            "text": "，"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3480,
+            "text": "艾"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3720,
+            "text": "莉"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3920,
+            "text": "想"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4040,
+            "text": "到"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4200,
+            "text": "罗"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4480,
+            "text": "恩"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4720,
+            "text": "教"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4920,
+            "text": "过"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5120,
+            "text": "的"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5280,
+            "text": "话"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5520,
+            "text": "，"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5760,
+            "text": "却"
+          },
+          {
+            "end_time": 6240,
+            "start_time": 6000,
+            "text": "不"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6240,
+            "text": "确"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6400,
+            "text": "定"
+          },
+          {
+            "end_time": 6880,
+            "start_time": 6640,
+            "text": "该"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6880,
+            "text": "不"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7040,
+            "text": "该"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7200,
+            "text": "站"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7440,
+            "text": "出"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7600,
+            "text": "来"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7720,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "集市上有人为摊位争吵，艾莉想到罗恩教过的话，却不确定该不该站出来。"
+  }
+}

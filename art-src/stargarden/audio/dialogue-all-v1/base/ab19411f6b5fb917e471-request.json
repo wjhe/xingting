@@ -1,0 +1,263 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "2b1a53c8-2014-4cbb-9d54-007932d92590",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“菲恩画好了一张新手路线图，想在角落写上两个人的名字。艾莉想起她们第一次相遇时丢失的背包。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050508425A3ADB431261EA173098",
+  "response": {
+    "duration": 9.68,
+    "original_duration": 9.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5640,
+          "start_time": 360,
+          "text": "菲恩画好了一张新手路线图，想在角落写上两个人的名字。",
+          "words": [
+            {
+              "end_time": 480,
+              "start_time": 360,
+              "text": "菲"
+            },
+            {
+              "end_time": 760,
+              "start_time": 680,
+              "text": "恩"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 960,
+              "text": "画"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1160,
+              "text": "好"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1320,
+              "text": "了"
+            },
+            {
+              "end_time": 1520,
+              "start_time": 1400,
+              "text": "一"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1520,
+              "text": "张"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1680,
+              "text": "新"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1960,
+              "text": "手"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2200,
+              "text": "路"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2440,
+              "text": "线"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2720,
+              "text": "图"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2880,
+              "text": "，"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3320,
+              "text": "想"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3560,
+              "text": "在"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3760,
+              "text": "角"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4040,
+              "text": "落"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4360,
+              "text": "写"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4560,
+              "text": "上"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4800,
+              "text": "两"
+            },
+            {
+              "end_time": 5080,
+              "start_time": 4960,
+              "text": "个"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 5080,
+              "text": "人"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5200,
+              "text": "的"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5320,
+              "text": "名"
+            },
+            {
+              "end_time": 5640,
+              "start_time": 5480,
+              "text": "字"
+            },
+            {
+              "end_time": 5640,
+              "start_time": 5640,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9640,
+          "start_time": 6440,
+          "text": "艾莉想起她们第一次相遇时丢失的背包。",
+          "words": [
+            {
+              "end_time": 6600,
+              "start_time": 6440,
+              "text": "艾"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6720,
+              "text": "莉"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 6960,
+              "text": "想"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 7120,
+              "text": "起"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7320,
+              "text": "她"
+            },
+            {
+              "end_time": 7640,
+              "start_time": 7520,
+              "text": "们"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7640,
+              "text": "第"
+            },
+            {
+              "end_time": 7840,
+              "start_time": 7720,
+              "text": "一"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7840,
+              "text": "次"
+            },
+            {
+              "end_time": 8240,
+              "start_time": 8040,
+              "text": "相"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8280,
+              "text": "遇"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8560,
+              "text": "时"
+            },
+            {
+              "end_time": 9000,
+              "start_time": 8760,
+              "text": "丢"
+            },
+            {
+              "end_time": 9120,
+              "start_time": 9000,
+              "text": "失"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9200,
+              "text": "的"
+            },
+            {
+              "end_time": 9480,
+              "start_time": 9360,
+              "text": "背"
+            },
+            {
+              "end_time": 9640,
+              "start_time": 9480,
+              "text": "包"
+            },
+            {
+              "end_time": 9640,
+              "start_time": 9640,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "菲恩画好了一张新手路线图，想在角落写上两个人的名字。艾莉想起她们第一次相遇时丢失的背包。"
+    }
+  }
+}

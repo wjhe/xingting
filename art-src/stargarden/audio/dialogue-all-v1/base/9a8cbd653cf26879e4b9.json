@@ -1,0 +1,95 @@
+{
+  "src": "9a8cbd653cf26879e4b9.wav",
+  "duration": 4.4,
+  "gain": 1.1144240387308446,
+  "source_sha256": "3477b968a18480e86182f163b3dbb1d57a390654161c2dc0e1758e8429326f55",
+  "id": "event.side_fern_4.choice.1",
+  "text": "把地图送给第一次探索的人",
+  "group": "event:side_fern_4",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4000,
+        "start_time": 920,
+        "text": "把地图送给第一次探索的人。",
+        "words": [
+          {
+            "end_time": 1280,
+            "start_time": 920,
+            "text": "把"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1280,
+            "text": "地"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1520,
+            "text": "图"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2040,
+            "text": "送"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2320,
+            "text": "给"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2560,
+            "text": "第"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2680,
+            "text": "一"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2800,
+            "text": "次"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3000,
+            "text": "探"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3280,
+            "text": "索"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3520,
+            "text": "的"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3720,
+            "text": "人"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 4000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "把地图送给第一次探索的人。"
+  }
+}

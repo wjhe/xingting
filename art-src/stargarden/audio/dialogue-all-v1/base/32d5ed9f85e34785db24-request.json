@@ -15,5 +15,204 @@
       "enable_subtitle": true
     }
   },
-  "status": "submitted"
+  "status": "complete",
+  "provider_log_id": "20261105050508EDD93190539CA31DD0CB",
+  "response": {
+    "duration": 10.38,
+    "original_duration": 10.38,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3680,
+          "start_time": 880,
+          "text": "你请她帮忙修好松动的书架。",
+          "words": [
+            {
+              "end_time": 1200,
+              "start_time": 880,
+              "text": "你"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1200,
+              "text": "请"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1440,
+              "text": "她"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1680,
+              "text": "帮"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1840,
+              "text": "忙"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2120,
+              "text": "修"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2400,
+              "text": "好"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2640,
+              "text": "松"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2960,
+              "text": "动"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3120,
+              "text": "的"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3280,
+              "text": "书"
+            },
+            {
+              "end_time": 3680,
+              "start_time": 3520,
+              "text": "架"
+            },
+            {
+              "end_time": 3680,
+              "start_time": 3680,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9840,
+          "start_time": 4520,
+          "text": "完成以后，她终于愿意翻开手账，先记下一行字。",
+          "words": [
+            {
+              "end_time": 4800,
+              "start_time": 4520,
+              "text": "完"
+            },
+            {
+              "end_time": 5000,
+              "start_time": 4800,
+              "text": "成"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 5000,
+              "text": "以"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5240,
+              "text": "后"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5480,
+              "text": "，"
+            },
+            {
+              "end_time": 6200,
+              "start_time": 5960,
+              "text": "她"
+            },
+            {
+              "end_time": 6400,
+              "start_time": 6200,
+              "text": "终"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6400,
+              "text": "于"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6560,
+              "text": "愿"
+            },
+            {
+              "end_time": 6920,
+              "start_time": 6760,
+              "text": "意"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 6960,
+              "text": "翻"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7240,
+              "text": "开"
+            },
+            {
+              "end_time": 7640,
+              "start_time": 7480,
+              "text": "手"
+            },
+            {
+              "end_time": 7840,
+              "start_time": 7800,
+              "text": "账"
+            },
+            {
+              "end_time": 7840,
+              "start_time": 7840,
+              "text": "，"
+            },
+            {
+              "end_time": 8640,
+              "start_time": 8440,
+              "text": "先"
+            },
+            {
+              "end_time": 8880,
+              "start_time": 8800,
+              "text": "记"
+            },
+            {
+              "end_time": 9240,
+              "start_time": 9040,
+              "text": "下"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9240,
+              "text": "一"
+            },
+            {
+              "end_time": 9560,
+              "start_time": 9440,
+              "text": "行"
+            },
+            {
+              "end_time": 9840,
+              "start_time": 9720,
+              "text": "字"
+            },
+            {
+              "end_time": 9840,
+              "start_time": 9840,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "你请她帮忙修好松动的书架。完成以后，她终于愿意翻开手账，先记下一行字。"
+    }
+  }
 }

@@ -1,0 +1,66 @@
+{
+  "src": "c7947ea0d494b370d536.wav",
+  "duration": 3.08,
+  "gain": 1.7291521687991849,
+  "source_sha256": "69ad06163b3bc6285a522d441f7f510f54329d5d3f83a81c0c509b1c8051e4b3",
+  "id": "event.side_fern_1.choice.1",
+  "text": "带回给老师辨认",
+  "group": "event:side_fern_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2720,
+        "start_time": 1240,
+        "text": "带回给老师辨认",
+        "words": [
+          {
+            "end_time": 1440,
+            "start_time": 1240,
+            "text": "带"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "回"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "给"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "老"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2080,
+            "text": "师"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2400,
+            "text": "辨"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2640,
+            "text": "认"
+          }
+        ]
+      }
+    ],
+    "text": "带回给老师辨认"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "src": "5656a146dacad7f6d6c2.wav",
+  "duration": 10.8,
+  "gain": 1.563137667594589,
+  "source_sha256": "34402153042b88843a2c582f24cb71ef4e8122fcffb658686947a2a9404d8b5b",
+  "id": "event.main_5_0.outcome.1",
+  "text": "你们写下开放时间、安全和收拾工具的方法。规则不是为了命令别人，而是让大家安心。",
+  "group": "event:main_5_0",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6240,
+        "start_time": 40,
+        "text": "你们写下开放时间、安全和收拾工具的方法。",
+        "words": [
+          {
+            "end_time": 280,
+            "start_time": 40,
+            "text": "你"
+          },
+          {
+            "end_time": 440,
+            "start_time": 280,
+            "text": "们"
+          },
+          {
+            "end_time": 680,
+            "start_time": 440,
+            "text": "写"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 680,
+            "text": "下"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1440,
+            "text": "开"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "放"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2080,
+            "text": "时"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2240,
+            "text": "间"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2520,
+            "text": "、"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3280,
+            "text": "安"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3520,
+            "text": "全"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4360,
+            "text": "和"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4760,
+            "text": "收"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5080,
+            "text": "拾"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5280,
+            "text": "工"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5480,
+            "text": "具"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5680,
+            "text": "的"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5880,
+            "text": "方"
+          },
+          {
+            "end_time": 6240,
+            "start_time": 6000,
+            "text": "法"
+          },
+          {
+            "end_time": 6240,
+            "start_time": 6240,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10560,
+        "start_time": 6920,
+        "text": "规则不是为了命令别人，而是让大家安心。",
+        "words": [
+          {
+            "end_time": 7080,
+            "start_time": 6920,
+            "text": "规"
+          },
+          {
+            "end_time": 7400,
+            "start_time": 7200,
+            "text": "则"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7560,
+            "text": "不"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7720,
+            "text": "是"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7800,
+            "text": "为"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7960,
+            "text": "了"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8080,
+            "text": "命"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8280,
+            "text": "令"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8560,
+            "text": "别"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8760,
+            "text": "人"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8960,
+            "text": "，"
+          },
+          {
+            "end_time": 9600,
+            "start_time": 9400,
+            "text": "而"
+          },
+          {
+            "end_time": 9800,
+            "start_time": 9600,
+            "text": "是"
+          },
+          {
+            "end_time": 10000,
+            "start_time": 9800,
+            "text": "让"
+          },
+          {
+            "end_time": 10120,
+            "start_time": 10000,
+            "text": "大"
+          },
+          {
+            "end_time": 10200,
+            "start_time": 10120,
+            "text": "家"
+          },
+          {
+            "end_time": 10400,
+            "start_time": 10200,
+            "text": "安"
+          },
+          {
+            "end_time": 10560,
+            "start_time": 10400,
+            "text": "心"
+          },
+          {
+            "end_time": 10560,
+            "start_time": 10560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "你们写下开放时间、安全和收拾工具的方法。规则不是为了命令别人，而是让大家安心。"
+  }
+}

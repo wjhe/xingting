@@ -1,0 +1,223 @@
+{
+  "src": "8880753ed16f0123f13b.wav",
+  "duration": 9.5,
+  "gain": 1.6668721065730825,
+  "source_sha256": "01f6b84ce83ece960eff084d722cd094be305e5c43437ea083eb8910c11a580e",
+  "id": "event.side_nora_1.text",
+  "text": "艾莉把茶送错了桌，听见客人的叹气，整个人僵在原地。诺拉轻轻把托盘接了过去。",
+  "group": "event:side_nora_1",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6120,
+        "start_time": 400,
+        "text": "艾莉把茶送错了桌，听见客人的叹气，整个人僵在原地。",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 400,
+            "text": "艾"
+          },
+          {
+            "end_time": 760,
+            "start_time": 680,
+            "text": "莉"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 920,
+            "text": "把"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1080,
+            "text": "茶"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "送"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "错"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1760,
+            "text": "了"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 1920,
+            "text": "桌"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2240,
+            "text": "，"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2680,
+            "text": "听"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2880,
+            "text": "见"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3120,
+            "text": "客"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3360,
+            "text": "人"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3560,
+            "text": "的"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3760,
+            "text": "叹"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 4040,
+            "text": "气"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 4120,
+            "text": "，"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4720,
+            "text": "整"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4920,
+            "text": "个"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5040,
+            "text": "人"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5280,
+            "text": "僵"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5480,
+            "text": "在"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5680,
+            "text": "原"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 5920,
+            "text": "地"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 6120,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9280,
+        "start_time": 6800,
+        "text": "诺拉轻轻把托盘接了过去。",
+        "words": [
+          {
+            "end_time": 6880,
+            "start_time": 6800,
+            "text": "诺"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7120,
+            "text": "拉"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7360,
+            "text": "轻"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7560,
+            "text": "轻"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7680,
+            "text": "把"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7920,
+            "text": "托"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8160,
+            "text": "盘"
+          },
+          {
+            "end_time": 8880,
+            "start_time": 8640,
+            "text": "接"
+          },
+          {
+            "end_time": 9000,
+            "start_time": 8880,
+            "text": "了"
+          },
+          {
+            "end_time": 9120,
+            "start_time": 9000,
+            "text": "过"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9120,
+            "text": "去"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "艾莉把茶送错了桌，听见客人的叹气，整个人僵在原地。诺拉轻轻把托盘接了过去。"
+  }
+}

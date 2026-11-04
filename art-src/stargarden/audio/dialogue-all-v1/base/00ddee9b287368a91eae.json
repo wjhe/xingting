@@ -1,0 +1,186 @@
+{
+  "src": "00ddee9b287368a91eae.wav",
+  "duration": 7.048041666666666,
+  "gain": 1.3911038202590442,
+  "source_sha256": "752938c0960cad8b185aca28e32dfc0372ea0d5201d76e7ba084612e841fb83e",
+  "id": "event.main_4_2.outcome.1",
+  "text": "两个名字各有自己的位置。她没有离你更远，只是开始站在你身旁。",
+  "group": "event:main_4_2",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2440,
+        "start_time": 160,
+        "text": "两个名字各有自己的位置。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 160,
+            "text": "两"
+          },
+          {
+            "end_time": 520,
+            "start_time": 400,
+            "text": "个"
+          },
+          {
+            "end_time": 720,
+            "start_time": 520,
+            "text": "名"
+          },
+          {
+            "end_time": 960,
+            "start_time": 720,
+            "text": "字"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1120,
+            "text": "各"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1440,
+            "text": "有"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "自"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1840,
+            "text": "己"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1960,
+            "text": "的"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2080,
+            "text": "位"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "置"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2440,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 6600,
+        "start_time": 3200,
+        "text": "她没有离你更远，只是开始站在你身旁。",
+        "words": [
+          {
+            "end_time": 3280,
+            "start_time": 3200,
+            "text": "她"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3360,
+            "text": "没"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3480,
+            "text": "有"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3600,
+            "text": "离"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3760,
+            "text": "你"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 3960,
+            "text": "更"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4160,
+            "text": "远"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4480,
+            "text": "，"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4840,
+            "text": "只"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5040,
+            "text": "是"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5160,
+            "text": "开"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5360,
+            "text": "始"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5560,
+            "text": "站"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5840,
+            "text": "在"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 6040,
+            "text": "你"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6160,
+            "text": "身"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6360,
+            "text": "旁"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6600,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "两个名字各有自己的位置。她没有离你更远，只是开始站在你身旁。"
+  }
+}

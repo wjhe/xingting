@@ -1,0 +1,233 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "5a8b3508-3bcb-42f7-8ac3-1611683e0b46",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“文学课上，米拉总是一个人坐在窗边。艾莉发现她的笔尖断了，却不知道该不该打扰。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050508503D9A0BB31D5DB1DF464A",
+  "response": {
+    "duration": 9.68,
+    "original_duration": 9.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3920,
+          "start_time": 240,
+          "text": "文学课上，米拉总是一个人坐在窗边。",
+          "words": [
+            {
+              "end_time": 520,
+              "start_time": 240,
+              "text": "文"
+            },
+            {
+              "end_time": 760,
+              "start_time": 520,
+              "text": "学"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 880,
+              "text": "课"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1120,
+              "text": "上"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1360,
+              "text": "，"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1600,
+              "text": "米"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1920,
+              "text": "拉"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2320,
+              "text": "总"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2520,
+              "text": "是"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2680,
+              "text": "一"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2800,
+              "text": "个"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2920,
+              "text": "人"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3120,
+              "text": "坐"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3320,
+              "text": "在"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3520,
+              "text": "窗"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3720,
+              "text": "边"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3920,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9360,
+          "start_time": 4720,
+          "text": "艾莉发现她的笔尖断了，却不知道该不该打扰。",
+          "words": [
+            {
+              "end_time": 4840,
+              "start_time": 4720,
+              "text": "艾"
+            },
+            {
+              "end_time": 5080,
+              "start_time": 5040,
+              "text": "莉"
+            },
+            {
+              "end_time": 5440,
+              "start_time": 5280,
+              "text": "发"
+            },
+            {
+              "end_time": 5600,
+              "start_time": 5440,
+              "text": "现"
+            },
+            {
+              "end_time": 5840,
+              "start_time": 5680,
+              "text": "她"
+            },
+            {
+              "end_time": 5960,
+              "start_time": 5840,
+              "text": "的"
+            },
+            {
+              "end_time": 6120,
+              "start_time": 5960,
+              "text": "笔"
+            },
+            {
+              "end_time": 6360,
+              "start_time": 6320,
+              "text": "尖"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6600,
+              "text": "断"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 6840,
+              "text": "了"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7160,
+              "text": "，"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7560,
+              "text": "却"
+            },
+            {
+              "end_time": 8000,
+              "start_time": 7880,
+              "text": "不"
+            },
+            {
+              "end_time": 8120,
+              "start_time": 8000,
+              "text": "知"
+            },
+            {
+              "end_time": 8320,
+              "start_time": 8120,
+              "text": "道"
+            },
+            {
+              "end_time": 8560,
+              "start_time": 8320,
+              "text": "该"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8560,
+              "text": "不"
+            },
+            {
+              "end_time": 8920,
+              "start_time": 8760,
+              "text": "该"
+            },
+            {
+              "end_time": 9120,
+              "start_time": 8920,
+              "text": "打"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9120,
+              "text": "扰"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9360,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "文学课上，米拉总是一个人坐在窗边。艾莉发现她的笔尖断了，却不知道该不该打扰。"
+    }
+  }
+}

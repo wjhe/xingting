@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "3f970d72-d7db-4757-97cc-07d4818b6834",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“一起检查每个安全标记”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505113090FCADA9F909F407E004",
+  "response": {
+    "duration": 3.28,
+    "original_duration": 3.28,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2880,
+          "start_time": 480,
+          "text": "一起检查每个安全标记",
+          "words": [
+            {
+              "end_time": 680,
+              "start_time": 480,
+              "text": "一"
+            },
+            {
+              "end_time": 880,
+              "start_time": 680,
+              "text": "起"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 920,
+              "text": "检"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1120,
+              "text": "查"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1640,
+              "text": "每"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1880,
+              "text": "个"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2000,
+              "text": "安"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2200,
+              "text": "全"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2440,
+              "text": "标"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2800,
+              "text": "记"
+            }
+          ]
+        }
+      ],
+      "text": "一起检查每个安全标记"
+    }
+  }
+}

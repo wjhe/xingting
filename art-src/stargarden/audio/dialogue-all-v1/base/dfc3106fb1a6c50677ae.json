@@ -1,0 +1,231 @@
+{
+  "src": "dfc3106fb1a6c50677ae.wav",
+  "duration": 9.507416666666666,
+  "gain": 1.1717053154719599,
+  "source_sha256": "4ccbf746fc729ba750b969442042911bd7ed84b5d6f057561b44cc461f2a95e7",
+  "id": "event.main_5_1.outcome.0",
+  "text": "她要求一起修理工具，也为那个孩子留了回来帮忙的机会。责任与温柔终于能同时存在。",
+  "group": "event:main_5_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5360,
+        "start_time": 280,
+        "text": "她要求一起修理工具，也为那个孩子留了回来帮忙的机会。",
+        "words": [
+          {
+            "end_time": 560,
+            "start_time": 280,
+            "text": "她"
+          },
+          {
+            "end_time": 760,
+            "start_time": 600,
+            "text": "要"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 760,
+            "text": "求"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1040,
+            "text": "一"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1200,
+            "text": "起"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "修"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "理"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "工"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "具"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2280,
+            "text": "，"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "也"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2920,
+            "text": "为"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3200,
+            "text": "那"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3320,
+            "text": "个"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3400,
+            "text": "孩"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3560,
+            "text": "子"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "留"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3920,
+            "text": "了"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4080,
+            "text": "回"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4200,
+            "text": "来"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4360,
+            "text": "帮"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4520,
+            "text": "忙"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4720,
+            "text": "的"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4960,
+            "text": "机"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5120,
+            "text": "会"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5360,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9160,
+        "start_time": 6160,
+        "text": "责任与温柔终于能同时存在。",
+        "words": [
+          {
+            "end_time": 6440,
+            "start_time": 6160,
+            "text": "责"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6440,
+            "text": "任"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6720,
+            "text": "与"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7000,
+            "text": "温"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7200,
+            "text": "柔"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7720,
+            "text": "终"
+          },
+          {
+            "end_time": 8040,
+            "start_time": 7920,
+            "text": "于"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8040,
+            "text": "能"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8240,
+            "text": "同"
+          },
+          {
+            "end_time": 8560,
+            "start_time": 8480,
+            "text": "时"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8720,
+            "text": "存"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 8920,
+            "text": "在"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 9160,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她要求一起修理工具，也为那个孩子留了回来帮忙的机会。责任与温柔终于能同时存在。"
+  }
+}

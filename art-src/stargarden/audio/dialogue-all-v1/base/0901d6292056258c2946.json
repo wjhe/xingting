@@ -1,0 +1,228 @@
+{
+  "src": "0901d6292056258c2946.wav",
+  "duration": 11.5,
+  "gain": 1.5045091922403429,
+  "source_sha256": "27e8f1fe9e5c8510a8b35607b3d180b35fbfff5bea1e3d460df48cd6f641a6c6",
+  "id": "event.side_fern_2.text",
+  "text": "菲恩想赶在日落前找到一片花谷，艾莉却发现回程时间已经不够。对方不愿就此放弃。",
+  "group": "event:side_fern_2",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 8560,
+        "start_time": 880,
+        "text": "菲恩想赶在日落前找到一片花谷，艾莉却发现回程时间已经不够。",
+        "words": [
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "菲"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1280,
+            "text": "恩"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "想"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "赶"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2040,
+            "text": "在"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2200,
+            "text": "日"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2440,
+            "text": "落"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2680,
+            "text": "前"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3120,
+            "text": "找"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3320,
+            "text": "到"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3480,
+            "text": "一"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "片"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 3840,
+            "text": "花"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4240,
+            "text": "谷"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4320,
+            "text": "，"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5360,
+            "text": "艾"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5640,
+            "text": "莉"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 5960,
+            "text": "却"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6200,
+            "text": "发"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6360,
+            "text": "现"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6720,
+            "text": "回"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7120,
+            "text": "程"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7360,
+            "text": "时"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7560,
+            "text": "间"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7840,
+            "text": "已"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 8000,
+            "text": "经"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8120,
+            "text": "不"
+          },
+          {
+            "end_time": 8560,
+            "start_time": 8320,
+            "text": "够"
+          },
+          {
+            "end_time": 8560,
+            "start_time": 8560,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11280,
+        "start_time": 9440,
+        "text": "对方不愿就此放弃。",
+        "words": [
+          {
+            "end_time": 9560,
+            "start_time": 9440,
+            "text": "对"
+          },
+          {
+            "end_time": 9840,
+            "start_time": 9560,
+            "text": "方"
+          },
+          {
+            "end_time": 10080,
+            "start_time": 9840,
+            "text": "不"
+          },
+          {
+            "end_time": 10280,
+            "start_time": 10080,
+            "text": "愿"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10320,
+            "text": "就"
+          },
+          {
+            "end_time": 10840,
+            "start_time": 10600,
+            "text": "此"
+          },
+          {
+            "end_time": 11080,
+            "start_time": 10840,
+            "text": "放"
+          },
+          {
+            "end_time": 11280,
+            "start_time": 11080,
+            "text": "弃"
+          },
+          {
+            "end_time": 11280,
+            "start_time": 11280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "菲恩想赶在日落前找到一片花谷，艾莉却发现回程时间已经不够。对方不愿就此放弃。"
+  }
+}

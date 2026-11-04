@@ -1,0 +1,223 @@
+{
+  "src": "b2f5cb2e4e729d9fc7f1.wav",
+  "duration": 9.5,
+  "gain": 1.4621623430288522,
+  "source_sha256": "149324620f3761d13273139ed56d3b3351b2f98a02b8bbaad801380c038fda37",
+  "id": "event.side_nora_0.text",
+  "text": "茶屋老板诺拉让她尝试烤饼干。形状歪了，味道却很好，艾莉想把它们全部藏起来。",
+  "group": "event:side_nora_0",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3320,
+        "start_time": 320,
+        "text": "茶屋老板诺拉让她尝试烤饼干。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 320,
+            "text": "茶"
+          },
+          {
+            "end_time": 760,
+            "start_time": 640,
+            "text": "屋"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 880,
+            "text": "老"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1040,
+            "text": "板"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1320,
+            "text": "诺"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1600,
+            "text": "拉"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "让"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2000,
+            "text": "她"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "尝"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2400,
+            "text": "试"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "烤"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "饼"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3120,
+            "text": "干"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3320,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9080,
+        "start_time": 3960,
+        "text": "形状歪了，味道却很好，艾莉想把它们全部藏起来。",
+        "words": [
+          {
+            "end_time": 4160,
+            "start_time": 3960,
+            "text": "形"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4160,
+            "text": "状"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4560,
+            "text": "歪"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4800,
+            "text": "了"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5160,
+            "text": "，"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5280,
+            "text": "味"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5440,
+            "text": "道"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5600,
+            "text": "却"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "很"
+          },
+          {
+            "end_time": 6240,
+            "start_time": 6000,
+            "text": "好"
+          },
+          {
+            "end_time": 6240,
+            "start_time": 6240,
+            "text": "，"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6960,
+            "text": "艾"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7240,
+            "text": "莉"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7520,
+            "text": "想"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7720,
+            "text": "把"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7880,
+            "text": "它"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 8000,
+            "text": "们"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8160,
+            "text": "全"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8320,
+            "text": "部"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8480,
+            "text": "藏"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8760,
+            "text": "起"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 8920,
+            "text": "来"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 9080,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "茶屋老板诺拉让她尝试烤饼干。形状歪了，味道却很好，艾莉想把它们全部藏起来。"
+  }
+}

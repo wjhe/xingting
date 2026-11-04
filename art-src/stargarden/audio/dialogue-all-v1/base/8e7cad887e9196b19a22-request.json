@@ -1,0 +1,233 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "82c29664-5e9e-4922-9e35-149f73c57850",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“你说未来还会发生没有安排好的事。她合上本子，第一次不觉得空白意味着缺少什么。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505073754D95418AA0DEF1DDADA",
+  "response": {
+    "duration": 8.147725,
+    "original_duration": 8.147725,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2760,
+          "start_time": 80,
+          "text": "你说未来还会发生没有安排好的事。",
+          "words": [
+            {
+              "end_time": 320,
+              "start_time": 80,
+              "text": "你"
+            },
+            {
+              "end_time": 520,
+              "start_time": 320,
+              "text": "说"
+            },
+            {
+              "end_time": 720,
+              "start_time": 520,
+              "text": "未"
+            },
+            {
+              "end_time": 840,
+              "start_time": 720,
+              "text": "来"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 840,
+              "text": "还"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1040,
+              "text": "会"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1160,
+              "text": "发"
+            },
+            {
+              "end_time": 1520,
+              "start_time": 1360,
+              "text": "生"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1600,
+              "text": "没"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1720,
+              "text": "有"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1800,
+              "text": "安"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1960,
+              "text": "排"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2160,
+              "text": "好"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2360,
+              "text": "的"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2560,
+              "text": "事"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2760,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7880,
+          "start_time": 3400,
+          "text": "她合上本子，第一次不觉得空白意味着缺少什么。",
+          "words": [
+            {
+              "end_time": 3480,
+              "start_time": 3400,
+              "text": "她"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3640,
+              "text": "合"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3880,
+              "text": "上"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4080,
+              "text": "本"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4320,
+              "text": "子"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4560,
+              "text": "，"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 5080,
+              "text": "第"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5240,
+              "text": "一"
+            },
+            {
+              "end_time": 5480,
+              "start_time": 5360,
+              "text": "次"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5480,
+              "text": "不"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5720,
+              "text": "觉"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5880,
+              "text": "得"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6120,
+              "text": "空"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6360,
+              "text": "白"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6680,
+              "text": "意"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6840,
+              "text": "味"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 7000,
+              "text": "着"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7160,
+              "text": "缺"
+            },
+            {
+              "end_time": 7600,
+              "start_time": 7400,
+              "text": "少"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7600,
+              "text": "什"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7760,
+              "text": "么"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7880,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "你说未来还会发生没有安排好的事。她合上本子，第一次不觉得空白意味着缺少什么。"
+    }
+  }
+}

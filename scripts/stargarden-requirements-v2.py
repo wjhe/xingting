@@ -30,6 +30,8 @@ EDIT_API = BASE_URL + "/v1/images/edits"
 SIZE_LANDSCAPE = "1536x1024"
 SIZE_PORTRAIT = "1024x1536"
 LOCK = threading.Lock()
+ACTIVE_MODEL = MODEL
+ACTIVE_QUALITY = QUALITY
 
 STYLE = (
     "Original early 1990s Japanese fantasy daughter-raising game cel illustration. "
@@ -200,10 +202,10 @@ def request_edit(source: Path, mask: Path, prompt: str, size: str) -> tuple[byte
     key = KEY_FILE.read_text(encoding="utf-8").strip()
     body, boundary = multipart_body(
         {
-            "model": MODEL,
+            "model": ACTIVE_MODEL,
             "prompt": prompt,
             "size": size,
-            "quality": QUALITY,
+            "quality": ACTIVE_QUALITY,
             "n": "1",
         },
         [("image", source), ("mask", mask)],
@@ -288,7 +290,12 @@ def run_birthday(task: tuple[str, str, int]) -> str:
             image.verify()
         return f"{path.name} cached"
     started = time.time()
-    data = generate(prompt, SIZE_LANDSCAPE)
+    data = generate(
+        prompt,
+        SIZE_LANDSCAPE,
+        model=ACTIVE_MODEL,
+        quality=ACTIVE_QUALITY,
+    )
     with Image.open(io.BytesIO(data)) as image:
         image.verify()
     with LOCK:
@@ -297,10 +304,10 @@ def run_birthday(task: tuple[str, str, int]) -> str:
         append_log(
             {
                 "file": path.relative_to(ROOT).as_posix(),
-                "model": MODEL,
+                "model": ACTIVE_MODEL,
                 "api": API,
                 "size": SIZE_LANDSCAPE,
-                "quality": QUALITY,
+                "quality": ACTIVE_QUALITY,
                 "prompt": prompt,
                 "time": datetime.datetime.now().isoformat(timespec="seconds"),
                 "batch": "requirements-v2",
@@ -343,10 +350,10 @@ def run_room(task: tuple[str, str, int]) -> str:
         append_log(
             {
                 "file": path.relative_to(ROOT).as_posix(),
-                "model": MODEL,
+                "model": ACTIVE_MODEL,
                 "api": EDIT_API,
                 "size": SIZE_PORTRAIT,
-                "quality": QUALITY,
+                "quality": ACTIVE_QUALITY,
                 "prompt": prompt,
                 "source_image": BASE_ROOM.relative_to(ROOT).as_posix(),
                 "mask": mask_path.relative_to(ROOT).as_posix(),
@@ -378,10 +385,12 @@ def jobs_for(selected: set[str]) -> list[tuple[str, tuple]]:
 
 
 def main() -> int:
-    global OUT
+    global ACTIVE_MODEL, ACTIVE_QUALITY, OUT
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", nargs="*", choices=list(BIRTHDAYS) + list(ROOMS))
     parser.add_argument("--workers", type=int, default=2)
+    parser.add_argument("--model", default=MODEL)
+    parser.add_argument("--quality", default=QUALITY, choices=("low", "medium", "high", "auto"))
     parser.add_argument(
         "--out",
         type=Path,
@@ -391,6 +400,8 @@ def main() -> int:
     args = parser.parse_args()
     if not BASE_ROOM.exists():
         raise SystemExit(f"Missing room base: {BASE_ROOM}")
+    ACTIVE_MODEL = args.model
+    ACTIVE_QUALITY = args.quality
     OUT = args.out.resolve()
     if ROOT not in OUT.parents:
         raise SystemExit("--out must be inside the project root")
