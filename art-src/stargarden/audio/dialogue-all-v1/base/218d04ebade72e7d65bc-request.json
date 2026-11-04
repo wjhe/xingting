@@ -1,0 +1,156 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "ee5c3c74-985e-4d77-b036-25479852cb16",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“她认真记下烘烤时间，最后一盘终于有了整齐的边缘。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051716B2D6A8712CC7A119C8C3",
+  "response": {
+    "duration": 6.4,
+    "original_duration": 6.4,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5920,
+          "start_time": 320,
+          "text": "她认真记下烘烤时间，最后一盘终于有了整齐的边缘。",
+          "words": [
+            {
+              "end_time": 520,
+              "start_time": 320,
+              "text": "她"
+            },
+            {
+              "end_time": 800,
+              "start_time": 600,
+              "text": "认"
+            },
+            {
+              "end_time": 960,
+              "start_time": 800,
+              "text": "真"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 1080,
+              "text": "记"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1320,
+              "text": "下"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1600,
+              "text": "烘"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1840,
+              "text": "烤"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2080,
+              "text": "时"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2360,
+              "text": "间"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2480,
+              "text": "，"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3240,
+              "text": "最"
+            },
+            {
+              "end_time": 3600,
+              "start_time": 3440,
+              "text": "后"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3600,
+              "text": "一"
+            },
+            {
+              "end_time": 4120,
+              "start_time": 3800,
+              "text": "盘"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4280,
+              "text": "终"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4440,
+              "text": "于"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4560,
+              "text": "有"
+            },
+            {
+              "end_time": 4880,
+              "start_time": 4720,
+              "text": "了"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 4880,
+              "text": "整"
+            },
+            {
+              "end_time": 5280,
+              "start_time": 5160,
+              "text": "齐"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5400,
+              "text": "的"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5560,
+              "text": "边"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5800,
+              "text": "缘"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5920,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "她认真记下烘烤时间，最后一盘终于有了整齐的边缘。"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "src": "ccab7e4ccf143bd19a29.wav",
+  "duration": 3.9,
+  "gain": 0.8949840943414414,
+  "source_sha256": "b314e8a8f21665f46602601b2f19acf3bba4d9d880490c0b291c30a18c925aba",
+  "id": "event.daily_ruins_mark.choice.1",
+  "text": "先向看守询问允许的做法",
+  "group": "event:daily_ruins_mark",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3440,
+        "start_time": 400,
+        "text": "先向看守询问允许的做法。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "先"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "向"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 960,
+            "text": "看"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1280,
+            "text": "守"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "询"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "问"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2360,
+            "text": "允"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2640,
+            "text": "许"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2880,
+            "text": "的"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3120,
+            "text": "做"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3240,
+            "text": "法"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3440,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "先向看守询问允许的做法。"
+  }
+}

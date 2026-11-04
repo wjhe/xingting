@@ -1,4 +1,4 @@
-const VOICE_ROOT = `${import.meta.env.BASE_URL}assets/stargarden/audio/dialogue-all-v1/`;
+const VOICE_ROOT = `${import.meta.env.BASE_URL}assets/stargarden/audio/dialogue-daughter-v1/`;
 
 type Stage = 'child' | 'teen' | 'grown';
 type VoiceClip = {
@@ -12,11 +12,15 @@ type VoiceManifest = { clips: VoiceClip[] };
 /** One reusable HTMLAudio voice channel; a new line always replaces the previous one. */
 export class DialogueVoice {
   enabled = true;
-  volume = .8;
+  volume = 1;
+  onActiveChange?: (active: boolean) => void;
   private audio: HTMLAudioElement | null = null;
   private playVersion = 0;
   private clips = new Map<string, VoiceClip>();
   private ready: Promise<void>;
+  private lastRequest: { ids: string[]; age: number; parent: '爸爸' | '妈妈' } | null = null;
+  private blocked = false;
+  private speaking = false;
 
   constructor() {
     this.ready = this.load();
@@ -42,15 +46,19 @@ export class DialogueVoice {
   }
 
   async playSequence(ids: string[], age: number, parent: '爸爸' | '妈妈'): Promise<void> {
+    this.lastRequest = { ids: [...ids], age, parent };
+    this.blocked = false;
     const version = ++this.playVersion;
     await this.ready;
     if (version !== this.playVersion || !this.enabled || document.hidden) return;
     const stage = this.stage(age);
     const parentSuffix = parent === '爸爸' ? '.dad' : '.mom';
+    this.stopAudio();
     for (const id of ids) {
       if (version !== this.playVersion || !this.enabled || document.hidden) return;
       const clip = this.clips.get(`${stage}|${id}${parentSuffix}`) ?? this.clips.get(`${stage}|${id}`);
       if (!clip) continue;
+      this.setSpeaking(true);
       this.stopAudio();
       const audio = new Audio(`${VOICE_ROOT}${clip.src}`);
       audio.volume = this.volume;
@@ -62,16 +70,25 @@ export class DialogueVoice {
           void audio.play().catch(reject);
         });
       } catch {
+        this.blocked = true;
         // Continue to the next stable line; a missing or blocked clip must not stall play.
       } finally {
         if (this.audio === audio) this.audio = null;
       }
     }
+    if (version === this.playVersion) this.setSpeaking(false);
   }
 
   pause(): void {
     this.playVersion++;
     this.stopAudio();
+    this.setSpeaking(false);
+  }
+
+  retry(): void {
+    if (!this.blocked || !this.lastRequest || this.audio) return;
+    const request = this.lastRequest;
+    void this.playSequence(request.ids, request.age, request.parent);
   }
 
   private stopAudio(): void {
@@ -90,5 +107,11 @@ export class DialogueVoice {
   setVolume(volume: number): void {
     this.volume = Math.max(0, Math.min(1, volume));
     if (this.audio) this.audio.volume = this.volume;
+  }
+
+  private setSpeaking(active: boolean): void {
+    if (this.speaking === active) return;
+    this.speaking = active;
+    this.onActiveChange?.(active);
   }
 }

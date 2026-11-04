@@ -1,0 +1,506 @@
+[
+  {
+    "file": "child/233ff1cae18a29bc0d25-child.wav",
+    "before_rms_dbfs": -31.01748810258033,
+    "after_rms_dbfs": -18.471402658813638,
+    "after_peak_dbfs": -2.3926894295235677
+  },
+  {
+    "file": "child/6aa1a8ffb1beb6b7de7a-child.wav",
+    "before_rms_dbfs": -29.210272624124542,
+    "after_rms_dbfs": -19.9613470042122,
+    "after_peak_dbfs": -3.20073461980519
+  },
+  {
+    "file": "child/bc64a4d467130c9df901-child.wav",
+    "before_rms_dbfs": -32.50632379764636,
+    "after_rms_dbfs": -22.753911209342558,
+    "after_peak_dbfs": -2.115069134835298
+  },
+  {
+    "file": "child/7938f5587495a8aadeb4-child.wav",
+    "before_rms_dbfs": -26.04065996413759,
+    "after_rms_dbfs": -26.387641066193005,
+    "after_peak_dbfs": -2.020563140343144
+  },
+  {
+    "file": "child/1a9941f731e448a02971-child.wav",
+    "before_rms_dbfs": -24.189549093121986,
+    "after_rms_dbfs": -19.158766548847026,
+    "after_peak_dbfs": -2.0601237682991167
+  },
+  {
+    "file": "child/774e6d12fd14a8179e45-child.wav",
+    "before_rms_dbfs": -28.954768529398166,
+    "after_rms_dbfs": -19.08907088578912,
+    "after_peak_dbfs": -2.003520512136589
+  },
+  {
+    "file": "child/4dfa1fc8b43b521fb800-child.wav",
+    "before_rms_dbfs": -29.46858194689383,
+    "after_rms_dbfs": -20.362044283912194,
+    "after_peak_dbfs": -2.004855981025761
+  },
+  {
+    "file": "child/a89d4354a709e890bc51-child.wav",
+    "before_rms_dbfs": -31.341167450139498,
+    "after_rms_dbfs": -21.008119998509628,
+    "after_peak_dbfs": -5.633344397495396
+  },
+  {
+    "file": "child/d968e4ba37fda70b5a0a-child.wav",
+    "before_rms_dbfs": -25.377543165718684,
+    "after_rms_dbfs": -21.16833902004346,
+    "after_peak_dbfs": -4.127472662747728
+  },
+  {
+    "file": "child/0b616cdca239d9fa809d-child.wav",
+    "before_rms_dbfs": -27.684255954533718,
+    "after_rms_dbfs": -20.872782715735205,
+    "after_peak_dbfs": -3.9669624512342567
+  },
+  {
+    "file": "grown/07b127921ce79fb56cf9-grown.wav",
+    "before_rms_dbfs": -29.242214397144643,
+    "after_rms_dbfs": -21.84443092289982,
+    "after_peak_dbfs": -1.9948449656971774
+  },
+  {
+    "file": "grown/95366cf7d4176f7b6293-grown.wav",
+    "before_rms_dbfs": -29.253183569483934,
+    "after_rms_dbfs": -20.598591883683106,
+    "after_peak_dbfs": -1.9931775843475261
+  },
+  {
+    "file": "child/4a43eacc6154e9223bab-child.wav",
+    "before_rms_dbfs": -26.102790320038487,
+    "after_rms_dbfs": -20.077751701147765,
+    "after_peak_dbfs": -1.7761713479654584
+  },
+  {
+    "file": "teen/4a43eacc6154e9223bab-teen.wav",
+    "before_rms_dbfs": -26.10592346783763,
+    "after_rms_dbfs": -20.051762005752465,
+    "after_peak_dbfs": -1.7427384461069888
+  },
+  {
+    "file": "grown/4a43eacc6154e9223bab-grown.wav",
+    "before_rms_dbfs": -26.12414227766859,
+    "after_rms_dbfs": -19.988304701517087,
+    "after_peak_dbfs": -1.7950544319425372
+  },
+  {
+    "file": "child/8b4a4d974d17e3b6253a-child.wav",
+    "before_rms_dbfs": -23.89272460895699,
+    "after_rms_dbfs": -20.72248575985632,
+    "after_peak_dbfs": -2.0487064525094323
+  },
+  {
+    "file": "teen/8b4a4d974d17e3b6253a-teen.wav",
+    "before_rms_dbfs": -25.005285564851224,
+    "after_rms_dbfs": -20.96297795941298,
+    "after_peak_dbfs": -1.9267434416915226
+  },
+  {
+    "file": "grown/8b4a4d974d17e3b6253a-grown.wav",
+    "before_rms_dbfs": -25.254954800573305,
+    "after_rms_dbfs": -20.868458972282156,
+    "after_peak_dbfs": -1.9459570879322605
+  },
+  {
+    "file": "child/361ee05bdaabebe5a148-child.wav",
+    "before_rms_dbfs": -27.46044551324371,
+    "after_rms_dbfs": -19.796507887613252,
+    "after_peak_dbfs": -2.397578756777954
+  },
+  {
+    "file": "teen/361ee05bdaabebe5a148-teen.wav",
+    "before_rms_dbfs": -27.57213433243865,
+    "after_rms_dbfs": -19.772720546891428,
+    "after_peak_dbfs": -2.2527701593553866
+  },
+  {
+    "file": "grown/361ee05bdaabebe5a148-grown.wav",
+    "before_rms_dbfs": -27.654226927939995,
+    "after_rms_dbfs": -19.76302545331355,
+    "after_peak_dbfs": -2.2030962383486203
+  },
+  {
+    "file": "child/b179a5d0a9bc754f01c2-child.wav",
+    "before_rms_dbfs": -30.40507340329187,
+    "after_rms_dbfs": -21.5159045077067,
+    "after_peak_dbfs": -2.230467402568989
+  },
+  {
+    "file": "teen/b179a5d0a9bc754f01c2-teen.wav",
+    "before_rms_dbfs": -30.56221213001265,
+    "after_rms_dbfs": -21.509873982034353,
+    "after_peak_dbfs": -2.0739116982966324
+  },
+  {
+    "file": "grown/b179a5d0a9bc754f01c2-grown.wav",
+    "before_rms_dbfs": -30.6691058707585,
+    "after_rms_dbfs": -21.551381998596312,
+    "after_peak_dbfs": -1.9998490310736532
+  },
+  {
+    "file": "child/bd11fae74257f67c68b4-child.wav",
+    "before_rms_dbfs": -27.187969164034907,
+    "after_rms_dbfs": -20.731329796236903,
+    "after_peak_dbfs": -2.4164634137501766
+  },
+  {
+    "file": "teen/bd11fae74257f67c68b4-teen.wav",
+    "before_rms_dbfs": -27.28257898124561,
+    "after_rms_dbfs": -20.707319397425174,
+    "after_peak_dbfs": -2.0058577174579795
+  },
+  {
+    "file": "grown/bd11fae74257f67c68b4-grown.wav",
+    "before_rms_dbfs": -27.537030721156622,
+    "after_rms_dbfs": -20.719340554709312,
+    "after_peak_dbfs": -5.306944597901834
+  },
+  {
+    "file": "child/4efaf8fe2c864f279749-child.wav",
+    "before_rms_dbfs": -30.01892837174759,
+    "after_rms_dbfs": -24.264919693944726,
+    "after_peak_dbfs": -7.615258848057288
+  },
+  {
+    "file": "teen/4efaf8fe2c864f279749-teen.wav",
+    "before_rms_dbfs": -30.072506675563613,
+    "after_rms_dbfs": -24.25296261225375,
+    "after_peak_dbfs": -7.495067648266067
+  },
+  {
+    "file": "grown/4efaf8fe2c864f279749-grown.wav",
+    "before_rms_dbfs": -30.00146074362316,
+    "after_rms_dbfs": -24.195759816792794,
+    "after_peak_dbfs": -7.59871307921863
+  },
+  {
+    "file": "teen/4ad648a80ea8a879b7c9-teen.wav",
+    "before_rms_dbfs": -27.330706596165562,
+    "after_rms_dbfs": -21.15766050174099,
+    "after_peak_dbfs": -4.928084506041899
+  },
+  {
+    "file": "grown/4ad648a80ea8a879b7c9-grown.wav",
+    "before_rms_dbfs": -27.424628618219494,
+    "after_rms_dbfs": -21.156186236093607,
+    "after_peak_dbfs": -4.843416066662821
+  },
+  {
+    "file": "child/3466fde7c164468d3d09-child.wav",
+    "before_rms_dbfs": -30.218465934992228,
+    "after_rms_dbfs": -21.306456292706237,
+    "after_peak_dbfs": -1.9908437880580245
+  },
+  {
+    "file": "teen/3466fde7c164468d3d09-teen.wav",
+    "before_rms_dbfs": -30.397629910418445,
+    "after_rms_dbfs": -21.39196194892851,
+    "after_peak_dbfs": -2.009197673523922
+  },
+  {
+    "file": "grown/3466fde7c164468d3d09-grown.wav",
+    "before_rms_dbfs": -30.357577851119963,
+    "after_rms_dbfs": -21.364000179636925,
+    "after_peak_dbfs": -1.987177660343305
+  },
+  {
+    "file": "grown/4bf4f5a0193cf65d24d0-grown.wav",
+    "before_rms_dbfs": -28.163199907746158,
+    "after_rms_dbfs": -19.990463539724985,
+    "after_peak_dbfs": -1.9848454753897469
+  },
+  {
+    "file": "grown/e06a317fb3328d56a3d9-grown.wav",
+    "before_rms_dbfs": -27.896326528415308,
+    "after_rms_dbfs": -22.08218234128287,
+    "after_peak_dbfs": -3.9377155971707722
+  },
+  {
+    "file": "child/d313f6841ae217dd58c8-child.wav",
+    "before_rms_dbfs": -26.197863753239105,
+    "after_rms_dbfs": -22.269467825961833,
+    "after_peak_dbfs": -5.8395990759559515
+  },
+  {
+    "file": "child/13c055d08dcfafe82b32-child.wav",
+    "before_rms_dbfs": -29.301105225209476,
+    "after_rms_dbfs": -22.330687383234444,
+    "after_peak_dbfs": -5.451216255407264
+  },
+  {
+    "file": "child/b7bc6adc67b38f96703f-child.wav",
+    "before_rms_dbfs": -28.052663452907126,
+    "after_rms_dbfs": -21.67731687223817,
+    "after_peak_dbfs": -2.7953607060068677
+  },
+  {
+    "file": "child/7c2083dd7723d5c5cf2f-child.wav",
+    "before_rms_dbfs": -25.93310536566428,
+    "after_rms_dbfs": -20.439643663839604,
+    "after_peak_dbfs": -1.9761885524287393
+  },
+  {
+    "file": "child/58c28c4a119b0ad70368-child.wav",
+    "before_rms_dbfs": -28.894336995046665,
+    "after_rms_dbfs": -21.49098301779482,
+    "after_peak_dbfs": -2.0655018201798088
+  },
+  {
+    "file": "child/8fe66ecf93ef30f33a4e-child.wav",
+    "before_rms_dbfs": -28.696235594578816,
+    "after_rms_dbfs": -20.995077329686747,
+    "after_peak_dbfs": -3.144208535758928
+  },
+  {
+    "file": "child/f63ab90507e8cf51fc07-child.wav",
+    "before_rms_dbfs": -28.459306145938818,
+    "after_rms_dbfs": -21.307477826049386,
+    "after_peak_dbfs": -2.1781950905152554
+  },
+  {
+    "file": "child/a5076754f8c3cc7f9773-child.wav",
+    "before_rms_dbfs": -26.359468380122244,
+    "after_rms_dbfs": -26.835071371955372,
+    "after_peak_dbfs": -2.098177741316091
+  },
+  {
+    "file": "child/ab50aa07f5fe0d9087e9-child.wav",
+    "before_rms_dbfs": -26.032357378900514,
+    "after_rms_dbfs": -21.9168328141416,
+    "after_peak_dbfs": -7.613348111557249
+  },
+  {
+    "file": "child/8de5a2df1ac176af752f-child.wav",
+    "before_rms_dbfs": -33.008807102504875,
+    "after_rms_dbfs": -28.495467026596287,
+    "after_peak_dbfs": -2.1086465351333046
+  },
+  {
+    "file": "child/5fc4f52e628c47091660-child.wav",
+    "before_rms_dbfs": -28.096080166204608,
+    "after_rms_dbfs": -21.01414428964068,
+    "after_peak_dbfs": -4.878206987318291
+  },
+  {
+    "file": "teen/d739aa6b7f73914297b7-teen.wav",
+    "before_rms_dbfs": -26.86680322774455,
+    "after_rms_dbfs": -22.066601704435346,
+    "after_peak_dbfs": -3.8890503633099414
+  },
+  {
+    "file": "teen/2e6a972a278cd1308291-teen.wav",
+    "before_rms_dbfs": -26.371128066906877,
+    "after_rms_dbfs": -21.382633377428274,
+    "after_peak_dbfs": -4.80968620840863
+  },
+  {
+    "file": "teen/9e24454b312a3fca22b6-teen.wav",
+    "before_rms_dbfs": -29.79312521200495,
+    "after_rms_dbfs": -20.890822711733108,
+    "after_peak_dbfs": -1.7042716309641497
+  },
+  {
+    "file": "grown/31d495a6375d7cf9262b-grown.wav",
+    "before_rms_dbfs": -26.660122580643844,
+    "after_rms_dbfs": -20.465902339015276,
+    "after_peak_dbfs": -4.3577275570072205
+  },
+  {
+    "file": "grown/e8cb0a0db700655bd047-grown.wav",
+    "before_rms_dbfs": -27.66290652408933,
+    "after_rms_dbfs": -20.143333350759235,
+    "after_peak_dbfs": -2.8492865798551277
+  },
+  {
+    "file": "grown/f06e1f0351c94ad6e4f3-grown.wav",
+    "before_rms_dbfs": -30.44140065236092,
+    "after_rms_dbfs": -20.80780274888108,
+    "after_peak_dbfs": -4.934631776848482
+  },
+  {
+    "file": "grown/71fc60274d9a032e2fbb-grown.wav",
+    "before_rms_dbfs": -28.69939405509708,
+    "after_rms_dbfs": -21.1180569840565,
+    "after_peak_dbfs": -1.9725286038572742
+  },
+  {
+    "file": "child/adcb727fb9fa7fecd81f-child.wav",
+    "before_rms_dbfs": -28.86537177951366,
+    "after_rms_dbfs": -21.46152645254872,
+    "after_peak_dbfs": -1.9174830779515677
+  },
+  {
+    "file": "teen/adcb727fb9fa7fecd81f-teen.wav",
+    "before_rms_dbfs": -28.937167245953844,
+    "after_rms_dbfs": -21.43805765799687,
+    "after_peak_dbfs": -2.020228649551225
+  },
+  {
+    "file": "grown/adcb727fb9fa7fecd81f-grown.wav",
+    "before_rms_dbfs": -28.969387982954217,
+    "after_rms_dbfs": -21.38350150554123,
+    "after_peak_dbfs": -1.9875108807464712
+  },
+  {
+    "file": "grown/1ddadc42da1bb18abf6f-grown.wav",
+    "before_rms_dbfs": -27.475909259501194,
+    "after_rms_dbfs": -21.30426995315752,
+    "after_peak_dbfs": -5.074227752143603
+  },
+  {
+    "file": "child/a82188e0dda512072617-child.wav",
+    "before_rms_dbfs": -27.320047124670445,
+    "after_rms_dbfs": -19.49952459561718,
+    "after_peak_dbfs": -2.015212832793451
+  },
+  {
+    "file": "teen/a82188e0dda512072617-teen.wav",
+    "before_rms_dbfs": -27.468663627459826,
+    "after_rms_dbfs": -19.50333692963455,
+    "after_peak_dbfs": -2.0440095634443085
+  },
+  {
+    "file": "grown/a82188e0dda512072617-grown.wav",
+    "before_rms_dbfs": -27.46805888707124,
+    "after_rms_dbfs": -19.44158362612491,
+    "after_peak_dbfs": -1.9978470589601351
+  },
+  {
+    "file": "grown/f72d1b4cf60ecc2be2ba-grown.wav",
+    "before_rms_dbfs": -31.63696583610384,
+    "after_rms_dbfs": -20.88832847522921,
+    "after_peak_dbfs": -5.116643362907675
+  },
+  {
+    "file": "child/00f50808cc239134aac9-child.wav",
+    "before_rms_dbfs": -28.699764936877372,
+    "after_rms_dbfs": -21.071919734221296,
+    "after_peak_dbfs": -3.6319957971434573
+  },
+  {
+    "file": "teen/00f50808cc239134aac9-teen.wav",
+    "before_rms_dbfs": -28.853206153242784,
+    "after_rms_dbfs": -21.032155544962414,
+    "after_peak_dbfs": -3.4807039291577664
+  },
+  {
+    "file": "grown/00f50808cc239134aac9-grown.wav",
+    "before_rms_dbfs": -28.922383145103908,
+    "after_rms_dbfs": -20.991597560262193,
+    "after_peak_dbfs": -3.401916236351811
+  },
+  {
+    "file": "child/5c83d84018f459038a3b-child.wav",
+    "before_rms_dbfs": -28.28072685235574,
+    "after_rms_dbfs": -21.76200532849247,
+    "after_peak_dbfs": -4.24075728725952
+  },
+  {
+    "file": "teen/5c83d84018f459038a3b-teen.wav",
+    "before_rms_dbfs": -28.40792587916503,
+    "after_rms_dbfs": -21.741885542594865,
+    "after_peak_dbfs": -4.31928855597012
+  },
+  {
+    "file": "grown/5c83d84018f459038a3b-grown.wav",
+    "before_rms_dbfs": -28.45584060031978,
+    "after_rms_dbfs": -21.73021083264283,
+    "after_peak_dbfs": -4.112989787159686
+  },
+  {
+    "file": "child/b1f9a61e24401157858b-child.wav",
+    "before_rms_dbfs": -26.211913208358666,
+    "after_rms_dbfs": -22.374219695173228,
+    "after_peak_dbfs": -5.287920655448205
+  },
+  {
+    "file": "teen/b1f9a61e24401157858b-teen.wav",
+    "before_rms_dbfs": -26.29352856342548,
+    "after_rms_dbfs": -22.350317278962795,
+    "after_peak_dbfs": -4.958993511329046
+  },
+  {
+    "file": "grown/b1f9a61e24401157858b-grown.wav",
+    "before_rms_dbfs": -26.3448505859423,
+    "after_rms_dbfs": -22.333301237858663,
+    "after_peak_dbfs": -4.936035405762318
+  },
+  {
+    "file": "child/2b86b6daab7e7573db93-child.wav",
+    "before_rms_dbfs": -27.599370759746705,
+    "after_rms_dbfs": -20.927400006426907,
+    "after_peak_dbfs": -2.7319597702167355
+  },
+  {
+    "file": "teen/2b86b6daab7e7573db93-teen.wav",
+    "before_rms_dbfs": -27.697390065747545,
+    "after_rms_dbfs": -20.845363719041615,
+    "after_peak_dbfs": -2.506907422685667
+  },
+  {
+    "file": "grown/2b86b6daab7e7573db93-grown.wav",
+    "before_rms_dbfs": -27.665749771867105,
+    "after_rms_dbfs": -20.783937281152937,
+    "after_peak_dbfs": -2.4596323583172723
+  },
+  {
+    "file": "child/f90a050b44831a0f2a1f-child.wav",
+    "before_rms_dbfs": -29.279092534355307,
+    "after_rms_dbfs": -19.617265831548586,
+    "after_peak_dbfs": -1.9446306435150582
+  },
+  {
+    "file": "teen/f90a050b44831a0f2a1f-teen.wav",
+    "before_rms_dbfs": -29.48213497705605,
+    "after_rms_dbfs": -19.768750973237157,
+    "after_peak_dbfs": -1.9323706259681823
+  },
+  {
+    "file": "grown/f90a050b44831a0f2a1f-grown.wav",
+    "before_rms_dbfs": -29.50715327139305,
+    "after_rms_dbfs": -19.850557580453806,
+    "after_peak_dbfs": -1.9975134417974485
+  },
+  {
+    "file": "child/4c12e89ce455c6aa42c7-child.wav",
+    "before_rms_dbfs": -24.706016763516757,
+    "after_rms_dbfs": -21.596483452193965,
+    "after_peak_dbfs": -3.2379826839119303
+  },
+  {
+    "file": "teen/4c12e89ce455c6aa42c7-teen.wav",
+    "before_rms_dbfs": -24.87858794403802,
+    "after_rms_dbfs": -21.612679984484302,
+    "after_peak_dbfs": -3.127094226142804
+  },
+  {
+    "file": "grown/4c12e89ce455c6aa42c7-grown.wav",
+    "before_rms_dbfs": -24.83606203236056,
+    "after_rms_dbfs": -21.57544182166888,
+    "after_peak_dbfs": -3.124814863908398
+  },
+  {
+    "file": "child/2dcb867de5c55c73e226-child.wav",
+    "before_rms_dbfs": -26.272895820009406,
+    "after_rms_dbfs": -21.12267324356749,
+    "after_peak_dbfs": -2.2256712182184852
+  },
+  {
+    "file": "teen/2dcb867de5c55c73e226-teen.wav",
+    "before_rms_dbfs": -26.468699863865783,
+    "after_rms_dbfs": -21.1259908082919,
+    "after_peak_dbfs": -1.8476874325924624
+  },
+  {
+    "file": "grown/2dcb867de5c55c73e226-grown.wav",
+    "before_rms_dbfs": -26.51145308958388,
+    "after_rms_dbfs": -21.132544216841545,
+    "after_peak_dbfs": -2.084688237691502
+  }
+]

@@ -164,7 +164,31 @@
       "priority": 0
     },
     {
-      "id": "opening.4.10",
+      "id": "opening.4.10.dad",
+      "text": "爸爸。……从今天起，这里就是我的家了吗？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "parent": "爸爸",
+      "priority": 0
+    },
+    {
+      "id": "opening.4.10.mom",
+      "text": "妈妈。……从今天起，这里就是我的家了吗？",
+      "group": "opening",
+      "role": "dialogue",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "parent": "妈妈",
+      "priority": 0
+    },
+    {
+      "id": "opening.4.11",
       "text": "你点了点头。",
       "group": "opening",
       "role": "story",
@@ -249,30 +273,6 @@
       "ages": [
         "child"
       ],
-      "priority": 0
-    },
-    {
-      "id": "opening.4.9.dad",
-      "text": "爸爸。……从今天起，这里就是我的家了吗？",
-      "group": "opening",
-      "role": "dialogue",
-      "emotion": "年幼、自然，符合开场当下的情绪",
-      "ages": [
-        "child"
-      ],
-      "parent": "爸爸",
-      "priority": 0
-    },
-    {
-      "id": "opening.4.9.mom",
-      "text": "妈妈。……从今天起，这里就是我的家了吗？",
-      "group": "opening",
-      "role": "dialogue",
-      "emotion": "年幼、自然，符合开场当下的情绪",
-      "ages": [
-        "child"
-      ],
-      "parent": "妈妈",
       "priority": 0
     },
     {

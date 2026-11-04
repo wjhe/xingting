@@ -1,0 +1,176 @@
+{
+  "src": "5891e6338720f1c3fed6.wav",
+  "duration": 8.38,
+  "gain": 1.5931215115633348,
+  "source_sha256": "a98275e276c2f669dd2795b111a161e2e54db77d7994e2ff1e0a43ed5772a17a",
+  "id": "event.side_mira_2.outcome.0",
+  "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。",
+  "group": "event:side_mira_2",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7800,
+        "start_time": 480,
+        "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 480,
+            "text": "她"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "们"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 880,
+            "text": "发"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1040,
+            "text": "现"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1560,
+            "text": "同"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1880,
+            "text": "一"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2040,
+            "text": "个"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2200,
+            "text": "故"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2480,
+            "text": "事"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "竟"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3080,
+            "text": "能"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "有"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "两"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "种"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 3920,
+            "text": "模"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4160,
+            "text": "样"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4400,
+            "text": "，"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5040,
+            "text": "于"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5320,
+            "text": "是"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5640,
+            "text": "把"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 5880,
+            "text": "两"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6080,
+            "text": "份"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6400,
+            "text": "感"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6720,
+            "text": "想"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7120,
+            "text": "订"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7320,
+            "text": "在"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7440,
+            "text": "一"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7560,
+            "text": "起"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7800,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。"
+  }
+}

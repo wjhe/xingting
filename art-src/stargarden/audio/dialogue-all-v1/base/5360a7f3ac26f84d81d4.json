@@ -1,0 +1,71 @@
+{
+  "src": "5360a7f3ac26f84d81d4.wav",
+  "duration": 3.08,
+  "gain": 1.7447586946783358,
+  "source_sha256": "487fd7bfb3b89c82b691f6a854ca4ec238b22e172bf64f027f1d24535f555402",
+  "id": "event.kitten.choice.0",
+  "text": "把它抱回家照顾",
+  "group": "event:kitten",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1720,
+        "start_time": 0,
+        "text": "把它抱回家照顾。",
+        "words": [
+          {
+            "end_time": 240,
+            "start_time": 0,
+            "text": "把"
+          },
+          {
+            "end_time": 400,
+            "start_time": 240,
+            "text": "它"
+          },
+          {
+            "end_time": 720,
+            "start_time": 520,
+            "text": "抱"
+          },
+          {
+            "end_time": 920,
+            "start_time": 720,
+            "text": "回"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "家"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1200,
+            "text": "照"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "顾"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1720,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "把它抱回家照顾。"
+  }
+}

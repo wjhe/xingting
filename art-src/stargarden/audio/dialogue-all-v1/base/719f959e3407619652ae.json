@@ -1,0 +1,86 @@
+{
+  "src": "719f959e3407619652ae.wav",
+  "duration": 3.7,
+  "gain": 1.5146211540931918,
+  "source_sha256": "f2cfb87467dad56ed35b6b832a693abddd57a66af419c84965c51d29e9186b80",
+  "id": "event.daily_first_wage.choice.0",
+  "text": "请她决定留多少作零用",
+  "group": "event:daily_first_wage",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2760,
+        "start_time": 0,
+        "text": "请她决定留多少作零用。",
+        "words": [
+          {
+            "end_time": 280,
+            "start_time": 0,
+            "text": "请"
+          },
+          {
+            "end_time": 480,
+            "start_time": 360,
+            "text": "她"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "决"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 800,
+            "text": "定"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1160,
+            "text": "留"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "多"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1600,
+            "text": "少"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1920,
+            "text": "作"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2320,
+            "text": "零"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2600,
+            "text": "用"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2760,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "请她决定留多少作零用。"
+  }
+}

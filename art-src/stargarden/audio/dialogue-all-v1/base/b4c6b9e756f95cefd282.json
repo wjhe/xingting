@@ -1,0 +1,76 @@
+{
+  "src": "b4c6b9e756f95cefd282.wav",
+  "duration": 3.28,
+  "gain": 1.5324693739884778,
+  "source_sha256": "16d3a9d7561624e440d2655ebfe518ecf35215f6309e998574f9d5ec883f61bc",
+  "id": "event.side_nora_0.choice.0",
+  "text": "问问客人的真实感受",
+  "group": "event:side_nora_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 680,
+        "text": "问问客人的真实感受",
+        "words": [
+          {
+            "end_time": 960,
+            "start_time": 680,
+            "text": "问"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1000,
+            "text": "问"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1160,
+            "text": "客"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1480,
+            "text": "人"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "的"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "真"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "实"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2360,
+            "text": "感"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2560,
+            "text": "受"
+          }
+        ]
+      }
+    ],
+    "text": "问问客人的真实感受"
+  }
+}

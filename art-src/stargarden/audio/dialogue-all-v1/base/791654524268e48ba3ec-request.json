@@ -1,0 +1,193 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "0a94cb94-7459-4bd2-a772-1cb09074f917",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“休息以后，她自己把木剑拿了出来。这次她想学会的不是证明自己。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051849F3C130FB173CB020CF6B",
+  "response": {
+    "duration": 7.68,
+    "original_duration": 7.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4160,
+          "start_time": 920,
+          "text": "休息以后，她自己把木剑拿了出来。",
+          "words": [
+            {
+              "end_time": 1160,
+              "start_time": 920,
+              "text": "休"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1160,
+              "text": "息"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1440,
+              "text": "以"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1640,
+              "text": "后"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1880,
+              "text": "，"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2080,
+              "text": "她"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2320,
+              "text": "自"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2480,
+              "text": "己"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2600,
+              "text": "把"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2880,
+              "text": "木"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3120,
+              "text": "剑"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3440,
+              "text": "拿"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3640,
+              "text": "了"
+            },
+            {
+              "end_time": 3960,
+              "start_time": 3800,
+              "text": "出"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3960,
+              "text": "来"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4160,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7560,
+          "start_time": 4880,
+          "text": "这次她想学会的不是证明自己。",
+          "words": [
+            {
+              "end_time": 5040,
+              "start_time": 4880,
+              "text": "这"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5040,
+              "text": "次"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5320,
+              "text": "她"
+            },
+            {
+              "end_time": 5760,
+              "start_time": 5520,
+              "text": "想"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5760,
+              "text": "学"
+            },
+            {
+              "end_time": 6120,
+              "start_time": 5920,
+              "text": "会"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6120,
+              "text": "的"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6440,
+              "text": "不"
+            },
+            {
+              "end_time": 6720,
+              "start_time": 6600,
+              "text": "是"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6800,
+              "text": "证"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7000,
+              "text": "明"
+            },
+            {
+              "end_time": 7360,
+              "start_time": 7240,
+              "text": "自"
+            },
+            {
+              "end_time": 7560,
+              "start_time": 7360,
+              "text": "己"
+            },
+            {
+              "end_time": 7560,
+              "start_time": 7560,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "休息以后，她自己把木剑拿了出来。这次她想学会的不是证明自己。"
+    }
+  }
+}

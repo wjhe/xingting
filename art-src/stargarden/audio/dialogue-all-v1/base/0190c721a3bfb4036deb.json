@@ -1,0 +1,198 @@
+{
+  "src": "0190c721a3bfb4036deb.wav",
+  "duration": 9.68,
+  "gain": 1.861828093732079,
+  "source_sha256": "a88a31ee87a4ccbc17eccbb68b852d3e55b45e3256ae6e142d4e154ed1203a78",
+  "id": "event.side_nora_3.outcome.0",
+  "text": "她学会先写配方再动手。失败的成本变小了，试新想法也不再那么可怕。",
+  "group": "event:side_nora_3",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2920,
+        "start_time": 280,
+        "text": "她学会先写配方再动手。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 280,
+            "text": "她"
+          },
+          {
+            "end_time": 840,
+            "start_time": 600,
+            "text": "学"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 840,
+            "text": "会"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1200,
+            "text": "先"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1520,
+            "text": "写"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1800,
+            "text": "配"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2040,
+            "text": "方"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2320,
+            "text": "再"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2520,
+            "text": "动"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2800,
+            "text": "手"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2920,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8320,
+        "start_time": 3720,
+        "text": "失败的成本变小了，试新想法也不再那么可怕。",
+        "words": [
+          {
+            "end_time": 3880,
+            "start_time": 3720,
+            "text": "失"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3880,
+            "text": "败"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4040,
+            "text": "的"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4240,
+            "text": "成"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4400,
+            "text": "本"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4560,
+            "text": "变"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4800,
+            "text": "小"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5080,
+            "text": "了"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5440,
+            "text": "，"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5920,
+            "text": "试"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6280,
+            "text": "新"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6520,
+            "text": "想"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6760,
+            "text": "法"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7120,
+            "text": "也"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7360,
+            "text": "不"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7520,
+            "text": "再"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7720,
+            "text": "那"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7840,
+            "text": "么"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7960,
+            "text": "可"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8120,
+            "text": "怕"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8320,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她学会先写配方再动手。失败的成本变小了，试新想法也不再那么可怕。"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "src": "865e6008cfffe6411634.wav",
+  "duration": 3.9,
+  "gain": 2.4472972364500922,
+  "source_sha256": "9480c04e8082f508609db0ff1a096ad3c244ed0dd636a7732f5b4fc911365e72",
+  "id": "event.daily_sea_shell.choice.0",
+  "text": "一起记住这一天的声音",
+  "group": "event:daily_sea_shell",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3480,
+        "start_time": 1600,
+        "text": "一起记住这一天的声音",
+        "words": [
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "一"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1840,
+            "text": "起"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2120,
+            "text": "记"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2360,
+            "text": "住"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2560,
+            "text": "这"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2720,
+            "text": "一"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2840,
+            "text": "天"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3000,
+            "text": "的"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3160,
+            "text": "声"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3320,
+            "text": "音"
+          }
+        ]
+      }
+    ],
+    "text": "一起记住这一天的声音"
+  }
+}

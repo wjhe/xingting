@@ -1,0 +1,81 @@
+{
+  "src": "14ae2176ae94844c92a6.wav",
+  "duration": 3.7,
+  "gain": 1.5544185072131966,
+  "source_sha256": "43446937f11073a283740adb9ed00633475a16709496c177a159ca36eee703c9",
+  "id": "event.side_nora_3.choice.1",
+  "text": "从家里熟悉的味道开始",
+  "group": "event:side_nora_3",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2960,
+        "start_time": 360,
+        "text": "从家里熟悉的味道开始",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 360,
+            "text": "从"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 720,
+            "text": "家"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1000,
+            "text": "里"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1480,
+            "text": "熟"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "悉"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2000,
+            "text": "的"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "味"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "道"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "开"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2800,
+            "text": "始"
+          }
+        ]
+      }
+    ],
+    "text": "从家里熟悉的味道开始"
+  }
+}

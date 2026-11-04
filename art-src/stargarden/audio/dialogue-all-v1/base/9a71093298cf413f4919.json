@@ -1,0 +1,91 @@
+{
+  "src": "9a71093298cf413f4919.wav",
+  "duration": 4.18,
+  "gain": 1.6042327963855705,
+  "source_sha256": "e1df130180cc2c436e080028200c556efcdb63d9d5c747645da39d5ba813ae54",
+  "id": "event.side_rowan_2.choice.1",
+  "text": "给她时间，再问要不要继续",
+  "group": "event:side_rowan_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3520,
+        "start_time": 320,
+        "text": "给她时间，再问要不要继续",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 320,
+            "text": "给"
+          },
+          {
+            "end_time": 760,
+            "start_time": 600,
+            "text": "她"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "时"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "间"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1280,
+            "text": "，"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2000,
+            "text": "再"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2240,
+            "text": "问"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2560,
+            "text": "要"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2800,
+            "text": "不"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3000,
+            "text": "要"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3080,
+            "text": "继"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3280,
+            "text": "续"
+          }
+        ]
+      }
+    ],
+    "text": "给她时间，再问要不要继续"
+  }
+}

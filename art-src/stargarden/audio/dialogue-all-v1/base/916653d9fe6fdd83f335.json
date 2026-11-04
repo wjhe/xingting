@@ -1,0 +1,193 @@
+{
+  "src": "916653d9fe6fdd83f335.wav",
+  "duration": 8.38,
+  "gain": 1.52631140721635,
+  "source_sha256": "087b7c9ee33946ef7456629b7dfff88d237fc6410c142716e9bab6886383bab5",
+  "id": "event.side_fern_2.outcome.1",
+  "text": "菲恩起初失望，看到详细路线后又兴奋起来。她们有了更可靠的计划。",
+  "group": "event:side_fern_2",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5520,
+        "start_time": 1000,
+        "text": "菲恩起初失望，看到详细路线后又兴奋起来。",
+        "words": [
+          {
+            "end_time": 1080,
+            "start_time": 1000,
+            "text": "菲"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1360,
+            "text": "恩"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "起"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "初"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2240,
+            "text": "失"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2480,
+            "text": "望"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2640,
+            "text": "，"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3000,
+            "text": "看"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3160,
+            "text": "到"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3360,
+            "text": "详"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3600,
+            "text": "细"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3920,
+            "text": "路"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4120,
+            "text": "线"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4360,
+            "text": "后"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4600,
+            "text": "又"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4760,
+            "text": "兴"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4920,
+            "text": "奋"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5160,
+            "text": "起"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5320,
+            "text": "来"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5520,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8200,
+        "start_time": 6360,
+        "text": "她们有了更可靠的计划。",
+        "words": [
+          {
+            "end_time": 6560,
+            "start_time": 6360,
+            "text": "她"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6560,
+            "text": "们"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6680,
+            "text": "有"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6840,
+            "text": "了"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7040,
+            "text": "更"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7280,
+            "text": "可"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7480,
+            "text": "靠"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7680,
+            "text": "的"
+          },
+          {
+            "end_time": 8040,
+            "start_time": 7880,
+            "text": "计"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8040,
+            "text": "划"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8200,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "菲恩起初失望，看到详细路线后又兴奋起来。她们有了更可靠的计划。"
+  }
+}

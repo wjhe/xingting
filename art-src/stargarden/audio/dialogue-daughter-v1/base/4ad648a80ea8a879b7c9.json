@@ -1,0 +1,80 @@
+{
+  "src": "4ad648a80ea8a879b7c9.wav",
+  "duration": 3.28,
+  "gain": 1.5116410585252633,
+  "source_sha256": "bff5b34a5a1206293d494f02bd15d11db1e9ad111cb502a2cd44556aa5f0fd9a",
+  "id": "dialogue.independent.text.0",
+  "text": "这次的晚餐，我来请。",
+  "group": "event:independent",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 360,
+        "text": "这次的晚餐，我来请。",
+        "words": [
+          {
+            "end_time": 560,
+            "start_time": 360,
+            "text": "这"
+          },
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "次"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 800,
+            "text": "的"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "晚"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1160,
+            "text": "餐"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1520,
+            "text": "，"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2000,
+            "text": "我"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2240,
+            "text": "来"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2480,
+            "text": "请"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2800,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "这次的晚餐，我来请。"
+  }
+}

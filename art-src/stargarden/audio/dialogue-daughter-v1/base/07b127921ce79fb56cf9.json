@@ -1,0 +1,84 @@
+{
+  "src": "07b127921ce79fb56cf9.wav",
+  "duration": 4.0,
+  "gain": 1.3494573643410852,
+  "source_sha256": "a53d5a71c8ce5c6ec8217bbadbe4eeb0edaee587a9d5d929a9553c6ac35c6944",
+  "id": "ending.gardener.0",
+  "text": "谢谢你，耐心等我长大。",
+  "group": "ending:gardener",
+  "role": "ending",
+  "emotion": "成年后自然、成熟、温柔",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3120,
+        "start_time": 760,
+        "text": "谢谢你，耐心等我长大。",
+        "words": [
+          {
+            "end_time": 1000,
+            "start_time": 760,
+            "text": "谢"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1040,
+            "text": "谢"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1200,
+            "text": "你"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1520,
+            "text": "，"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1800,
+            "text": "耐"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "心"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "等"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "我"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "长"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2840,
+            "text": "大"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 3120,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "谢谢你，耐心等我长大。"
+  }
+}

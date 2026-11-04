@@ -1,0 +1,81 @@
+{
+  "src": "4c12e89ce455c6aa42c7.wav",
+  "duration": 3.5,
+  "gain": 1.1398369863222355,
+  "source_sha256": "a6ec06bc8491040452eb5b013513b1e41085f5187a8af364ad883c110077631f",
+  "id": "birthday.girl",
+  "text": "明年也要一起过生日。",
+  "group": "birthday",
+  "role": "birthday",
+  "emotion": "温暖、开心，带着一点期待",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3040,
+        "start_time": 880,
+        "text": "明年也要一起过生日。",
+        "words": [
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "明"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1080,
+            "text": "年"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "也"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1720,
+            "text": "要"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1960,
+            "text": "一"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2120,
+            "text": "起"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2280,
+            "text": "过"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2560,
+            "text": "生"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2800,
+            "text": "日"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 3040,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "明年也要一起过生日。"
+  }
+}

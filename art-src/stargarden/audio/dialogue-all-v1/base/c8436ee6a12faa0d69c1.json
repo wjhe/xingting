@@ -1,0 +1,278 @@
+{
+  "src": "c8436ee6a12faa0d69c1.wav",
+  "duration": 11.88,
+  "gain": 1.3980228510405153,
+  "source_sha256": "b070e1a297cb9aa353da39da2a2307de33fea2e451963b1e9627e948a059a443",
+  "id": "event.choice.text",
+  "text": "她在窗边写了很久，最后把日记递给你。上面列着许多未来，最后一句是：“我想选一条属于自己的路。”",
+  "group": "event:choice",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4400,
+        "start_time": 400,
+        "text": "她在窗边写了很久，最后把日记递给你。",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 400,
+            "text": "她"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "在"
+          },
+          {
+            "end_time": 960,
+            "start_time": 800,
+            "text": "窗"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "边"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1280,
+            "text": "写"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1560,
+            "text": "了"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1720,
+            "text": "很"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1880,
+            "text": "久"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2160,
+            "text": "，"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2560,
+            "text": "最"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2720,
+            "text": "后"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "把"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3080,
+            "text": "日"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3360,
+            "text": "记"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3720,
+            "text": "递"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3880,
+            "text": "给"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4080,
+            "text": "你"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4400,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11400,
+        "start_time": 4880,
+        "text": "上面列着许多未来，最后一句是：‘我想选一条属于自己的路。",
+        "words": [
+          {
+            "end_time": 5080,
+            "start_time": 4880,
+            "text": "上"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5080,
+            "text": "面"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5400,
+            "text": "列"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5640,
+            "text": "着"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5880,
+            "text": "许"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6040,
+            "text": "多"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6200,
+            "text": "未"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6400,
+            "text": "来"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6640,
+            "text": "，"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7280,
+            "text": "最"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7440,
+            "text": "后"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7560,
+            "text": "一"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7720,
+            "text": "句"
+          },
+          {
+            "end_time": 8360,
+            "start_time": 8000,
+            "text": "是"
+          },
+          {
+            "end_time": 8360,
+            "start_time": 8360,
+            "text": "："
+          },
+          {
+            "end_time": 8360,
+            "start_time": 8360,
+            "text": "‘"
+          },
+          {
+            "end_time": 9320,
+            "start_time": 9040,
+            "text": "我"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9320,
+            "text": "想"
+          },
+          {
+            "end_time": 9800,
+            "start_time": 9520,
+            "text": "选"
+          },
+          {
+            "end_time": 10000,
+            "start_time": 9800,
+            "text": "一"
+          },
+          {
+            "end_time": 10320,
+            "start_time": 10000,
+            "text": "条"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10360,
+            "text": "属"
+          },
+          {
+            "end_time": 10760,
+            "start_time": 10600,
+            "text": "于"
+          },
+          {
+            "end_time": 10880,
+            "start_time": 10760,
+            "text": "自"
+          },
+          {
+            "end_time": 11000,
+            "start_time": 10880,
+            "text": "己"
+          },
+          {
+            "end_time": 11200,
+            "start_time": 11000,
+            "text": "的"
+          },
+          {
+            "end_time": 11400,
+            "start_time": 11200,
+            "text": "路"
+          },
+          {
+            "end_time": 11400,
+            "start_time": 11400,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11400,
+        "start_time": 11400,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 11400,
+            "start_time": 11400,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "她在窗边写了很久，最后把日记递给你。上面列着许多未来，最后一句是：‘我想选一条属于自己的路。’"
+  }
+}

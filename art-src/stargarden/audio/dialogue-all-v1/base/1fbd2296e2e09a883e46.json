@@ -1,0 +1,96 @@
+{
+  "src": "1fbd2296e2e09a883e46.wav",
+  "duration": 4.4,
+  "gain": 2.065512983404202,
+  "source_sha256": "a4d2c92f548ab80a1f83d74ec0db134ef616ddbd42a0ce5ba904b0ecb1d6b360",
+  "id": "event.daily_summer_hat.choice.1",
+  "text": "邀请孩子一起在树荫下休息",
+  "group": "event:daily_summer_hat",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3840,
+        "start_time": 1040,
+        "text": "邀请孩子一起在树荫下休息。",
+        "words": [
+          {
+            "end_time": 1320,
+            "start_time": 1040,
+            "text": "邀"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1320,
+            "text": "请"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1600,
+            "text": "孩"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1880,
+            "text": "子"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2040,
+            "text": "一"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "起"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "在"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2720,
+            "text": "树"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3000,
+            "text": "荫"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3240,
+            "text": "下"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3480,
+            "text": "休"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "息"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3840,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "邀请孩子一起在树荫下休息。"
+  }
+}

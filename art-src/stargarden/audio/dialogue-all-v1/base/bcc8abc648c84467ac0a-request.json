@@ -15,5 +15,67 @@
       "enable_subtitle": true
     }
   },
-  "status": "submitted"
+  "status": "complete",
+  "provider_log_id": "20261105051151D4C09082ACACEC1916C2",
+  "response": {
+    "duration": 3.5,
+    "original_duration": 3.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3040,
+          "start_time": 360,
+          "text": "先问她需不需要帮忙",
+          "words": [
+            {
+              "end_time": 720,
+              "start_time": 360,
+              "text": "先"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 720,
+              "text": "问"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "她"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1640,
+              "text": "需"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1880,
+              "text": "不"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2080,
+              "text": "需"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2240,
+              "text": "要"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2440,
+              "text": "帮"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2760,
+              "text": "忙"
+            }
+          ]
+        }
+      ],
+      "text": "先问她需不需要帮忙"
+    }
+  }
 }

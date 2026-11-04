@@ -1,0 +1,228 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "058e3950-4d8f-4c54-ad74-09f580307b1d",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“傍晚的广场，有位旅人拉起了小提琴。她情不自禁地转了个圈，裙摆像花一样散开。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505223815A42A4E48EF21F1FC91",
+  "response": {
+    "duration": 10.18,
+    "original_duration": 10.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4640,
+          "start_time": 880,
+          "text": "傍晚的广场，有位旅人拉起了小提琴。",
+          "words": [
+            {
+              "end_time": 920,
+              "start_time": 880,
+              "text": "傍"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1120,
+              "text": "晚"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1320,
+              "text": "的"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1480,
+              "text": "广"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1720,
+              "text": "场"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 2000,
+              "text": "，"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2440,
+              "text": "有"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2720,
+              "text": "位"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2960,
+              "text": "旅"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3160,
+              "text": "人"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3480,
+              "text": "拉"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3720,
+              "text": "起"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3880,
+              "text": "了"
+            },
+            {
+              "end_time": 4200,
+              "start_time": 4000,
+              "text": "小"
+            },
+            {
+              "end_time": 4400,
+              "start_time": 4200,
+              "text": "提"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4600,
+              "text": "琴"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4640,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9840,
+          "start_time": 5440,
+          "text": "她情不自禁地转了个圈，裙摆像花一样散开。",
+          "words": [
+            {
+              "end_time": 5600,
+              "start_time": 5440,
+              "text": "她"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5680,
+              "text": "情"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5920,
+              "text": "不"
+            },
+            {
+              "end_time": 6200,
+              "start_time": 6080,
+              "text": "自"
+            },
+            {
+              "end_time": 6360,
+              "start_time": 6200,
+              "text": "禁"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6360,
+              "text": "地"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6560,
+              "text": "转"
+            },
+            {
+              "end_time": 6880,
+              "start_time": 6760,
+              "text": "了"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6880,
+              "text": "个"
+            },
+            {
+              "end_time": 7360,
+              "start_time": 7000,
+              "text": "圈"
+            },
+            {
+              "end_time": 7360,
+              "start_time": 7360,
+              "text": "，"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7920,
+              "text": "裙"
+            },
+            {
+              "end_time": 8280,
+              "start_time": 8240,
+              "text": "摆"
+            },
+            {
+              "end_time": 8720,
+              "start_time": 8480,
+              "text": "像"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 8720,
+              "text": "花"
+            },
+            {
+              "end_time": 9160,
+              "start_time": 9040,
+              "text": "一"
+            },
+            {
+              "end_time": 9280,
+              "start_time": 9160,
+              "text": "样"
+            },
+            {
+              "end_time": 9560,
+              "start_time": 9320,
+              "text": "散"
+            },
+            {
+              "end_time": 9840,
+              "start_time": 9560,
+              "text": "开"
+            },
+            {
+              "end_time": 9840,
+              "start_time": 9840,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "傍晚的广场，有位旅人拉起了小提琴。她情不自禁地转了个圈，裙摆像花一样散开。"
+    }
+  }
+}

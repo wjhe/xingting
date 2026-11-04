@@ -1,0 +1,81 @@
+{
+  "src": "7032145ebbd040762ac3.wav",
+  "duration": 3.9,
+  "gain": 0.8597073893450212,
+  "source_sha256": "46305e7abef6ace40cbf4e3d9616de61c0ebdab68ae93c5fe9308c8c2b0b796c",
+  "id": "event.daily_dance_steps.choice.1",
+  "text": "请她教你最简单的一段",
+  "group": "event:daily_dance_steps",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2760,
+        "start_time": 440,
+        "text": "请她教你最简单的一段",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 440,
+            "text": "请"
+          },
+          {
+            "end_time": 960,
+            "start_time": 800,
+            "text": "她"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1200,
+            "text": "教"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "你"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1720,
+            "text": "最"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1880,
+            "text": "简"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2000,
+            "text": "单"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "的"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "一"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2520,
+            "text": "段"
+          }
+        ]
+      }
+    ],
+    "text": "请她教你最简单的一段"
+  }
+}

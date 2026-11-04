@@ -1,0 +1,146 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "feeea6f4-54b4-4d9c-9fc5-0efefaefe5fd",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“几天后卡片被带走，桌上多了一篮自家种的苹果。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505174907EC19C301EBAF198FA0",
+  "response": {
+    "duration": 6.4,
+    "original_duration": 6.4,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5560,
+          "start_time": 760,
+          "text": "几天后卡片被带走，桌上多了一篮自家种的苹果。",
+          "words": [
+            {
+              "end_time": 1000,
+              "start_time": 760,
+              "text": "几"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1000,
+              "text": "天"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1200,
+              "text": "后"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1480,
+              "text": "卡"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1800,
+              "text": "片"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2080,
+              "text": "被"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2280,
+              "text": "带"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2520,
+              "text": "走"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2800,
+              "text": "，"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3040,
+              "text": "桌"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3320,
+              "text": "上"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3520,
+              "text": "多"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3760,
+              "text": "了"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3880,
+              "text": "一"
+            },
+            {
+              "end_time": 4120,
+              "start_time": 4080,
+              "text": "篮"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4280,
+              "text": "自"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4520,
+              "text": "家"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4760,
+              "text": "种"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 4960,
+              "text": "的"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5160,
+              "text": "苹"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5360,
+              "text": "果"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5560,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "几天后卡片被带走，桌上多了一篮自家种的苹果。"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "26bba7c1-619d-4539-99bc-3182c610f352",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“得到解释以后，她不再赌气。罗恩也学会先把理由讲清楚。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051824274989350BA3361E15CF",
+  "response": {
+    "duration": 6.8,
+    "original_duration": 6.8,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2880,
+          "start_time": 200,
+          "text": "得到解释以后，她不再赌气。",
+          "words": [
+            {
+              "end_time": 440,
+              "start_time": 200,
+              "text": "得"
+            },
+            {
+              "end_time": 560,
+              "start_time": 440,
+              "text": "到"
+            },
+            {
+              "end_time": 800,
+              "start_time": 680,
+              "text": "解"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 960,
+              "text": "释"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1160,
+              "text": "以"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1320,
+              "text": "后"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1560,
+              "text": "，"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1840,
+              "text": "她"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2120,
+              "text": "不"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2280,
+              "text": "再"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2560,
+              "text": "赌"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2800,
+              "text": "气"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2880,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 6600,
+          "start_time": 3840,
+          "text": "罗恩也学会先把理由讲清楚。",
+          "words": [
+            {
+              "end_time": 3920,
+              "start_time": 3840,
+              "text": "罗"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4160,
+              "text": "恩"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4360,
+              "text": "也"
+            },
+            {
+              "end_time": 4840,
+              "start_time": 4600,
+              "text": "学"
+            },
+            {
+              "end_time": 5080,
+              "start_time": 4840,
+              "text": "会"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5120,
+              "text": "先"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5320,
+              "text": "把"
+            },
+            {
+              "end_time": 5760,
+              "start_time": 5520,
+              "text": "理"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5760,
+              "text": "由"
+            },
+            {
+              "end_time": 6240,
+              "start_time": 6000,
+              "text": "讲"
+            },
+            {
+              "end_time": 6400,
+              "start_time": 6240,
+              "text": "清"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6400,
+              "text": "楚"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6600,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "得到解释以后，她不再赌气。罗恩也学会先把理由讲清楚。"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "src": "e74e303803830a61e38f.wav",
+  "duration": 7.5,
+  "gain": 1.4980889582824324,
+  "source_sha256": "24d74457b194af030fbed7b7ef2ebf2de8925fa55ed5720c1228fc843ce5bf61",
+  "id": "event.independent.text",
+  "text": "她把一小袋金币放在餐桌上，推到你面前：“这次的晚餐，我来请。”",
+  "group": "event:independent",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7320,
+        "start_time": 320,
+        "text": "她把一小袋金币放在餐桌上，推到你面前：‘这次的晚餐，我来请。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 320,
+            "text": "她"
+          },
+          {
+            "end_time": 680,
+            "start_time": 520,
+            "text": "把"
+          },
+          {
+            "end_time": 840,
+            "start_time": 680,
+            "text": "一"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 840,
+            "text": "小"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1040,
+            "text": "袋"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1320,
+            "text": "金"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1600,
+            "text": "币"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1960,
+            "text": "放"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2120,
+            "text": "在"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2280,
+            "text": "餐"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2560,
+            "text": "桌"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2760,
+            "text": "上"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 3120,
+            "text": "，"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3360,
+            "text": "推"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "到"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3840,
+            "text": "你"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4000,
+            "text": "面"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4160,
+            "text": "前"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4440,
+            "text": "："
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4440,
+            "text": "‘"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5240,
+            "text": "这"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5440,
+            "text": "次"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5680,
+            "text": "的"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "晚"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6000,
+            "text": "餐"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6320,
+            "text": "，"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6600,
+            "text": "我"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6840,
+            "text": "来"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7040,
+            "text": "请"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7320,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7320,
+        "start_time": 7320,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 7320,
+            "start_time": 7320,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "她把一小袋金币放在餐桌上，推到你面前：‘这次的晚餐，我来请。’"
+  }
+}

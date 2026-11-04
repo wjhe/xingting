@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "f3cda71c-6a76-4ea8-bfba-5f8c34d9c332",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“留一半，帮她存下另一半”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050528038C583A7DD673321BDBB0",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3640,
+          "start_time": 1080,
+          "text": "留一半，帮她存下另一半。",
+          "words": [
+            {
+              "end_time": 1320,
+              "start_time": 1080,
+              "text": "留"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1360,
+              "text": "一"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1560,
+              "text": "半"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1760,
+              "text": "，"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2120,
+              "text": "帮"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2400,
+              "text": "她"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2680,
+              "text": "存"
+            },
+            {
+              "end_time": 3160,
+              "start_time": 2920,
+              "text": "下"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3160,
+              "text": "另"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3360,
+              "text": "一"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3520,
+              "text": "半"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3640,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "留一半，帮她存下另一半。"
+    }
+  }
+}

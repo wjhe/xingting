@@ -1,0 +1,238 @@
+{
+  "src": "bd635dfa8324558dd7f4.wav",
+  "duration": 9.88,
+  "gain": 1.6385406781474119,
+  "source_sha256": "ea4dc5c76a6948553729f1acdad5b1fb490e99086881be8fd91e549345cc721d",
+  "id": "event.daily_mountain_cloud.text",
+  "text": "登上山路的高处，她第一次看见城镇变成那么小的一点。她指着家的方向，忽然不再说话。",
+  "group": "event:daily_mountain_cloud",
+  "role": "story",
+  "emotion": "温和、自然、像在回忆生活小事",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5720,
+        "start_time": 680,
+        "text": "登上山路的高处，她第一次看见城镇变成那么小的一点。",
+        "words": [
+          {
+            "end_time": 920,
+            "start_time": 680,
+            "text": "登"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 920,
+            "text": "上"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1240,
+            "text": "山"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1560,
+            "text": "路"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1720,
+            "text": "的"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "高"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "处"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2320,
+            "text": "，"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2840,
+            "text": "她"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3080,
+            "text": "第"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3200,
+            "text": "一"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3280,
+            "text": "次"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3360,
+            "text": "看"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "见"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3840,
+            "text": "城"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4080,
+            "text": "镇"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4440,
+            "text": "变"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4640,
+            "text": "成"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4800,
+            "text": "那"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4880,
+            "text": "么"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4960,
+            "text": "小"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5160,
+            "text": "的"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5320,
+            "text": "一"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5440,
+            "text": "点"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5720,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9480,
+        "start_time": 6320,
+        "text": "她指着家的方向，忽然不再说话。",
+        "words": [
+          {
+            "end_time": 6520,
+            "start_time": 6320,
+            "text": "她"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6600,
+            "text": "指"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6800,
+            "text": "着"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7040,
+            "text": "家"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7280,
+            "text": "的"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7480,
+            "text": "方"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7680,
+            "text": "向"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7920,
+            "text": "，"
+          },
+          {
+            "end_time": 8600,
+            "start_time": 8400,
+            "text": "忽"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8600,
+            "text": "然"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8760,
+            "text": "不"
+          },
+          {
+            "end_time": 9080,
+            "start_time": 8960,
+            "text": "再"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9080,
+            "text": "说"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9280,
+            "text": "话"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9480,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "登上山路的高处，她第一次看见城镇变成那么小的一点。她指着家的方向，忽然不再说话。"
+  }
+}

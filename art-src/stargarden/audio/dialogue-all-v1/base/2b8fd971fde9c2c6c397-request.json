@@ -1,0 +1,181 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "a05d9203-8f35-4af9-a07f-4537b9671261",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温和、自然、像在回忆生活小事。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“整理图书时，她找到一张写着“读到这里请不要放弃”的旧便签。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050520057600D647D28344915FDE",
+  "response": {
+    "duration": 7.68,
+    "original_duration": 7.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 7160,
+          "start_time": 360,
+          "text": "整理图书时，她找到一张写着‘读到这里请不要放弃’的旧便签。",
+          "words": [
+            {
+              "end_time": 560,
+              "start_time": 360,
+              "text": "整"
+            },
+            {
+              "end_time": 760,
+              "start_time": 560,
+              "text": "理"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 960,
+              "text": "图"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1120,
+              "text": "书"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1400,
+              "text": "时"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1720,
+              "text": "，"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1880,
+              "text": "她"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2160,
+              "text": "找"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2320,
+              "text": "到"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2440,
+              "text": "一"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2640,
+              "text": "张"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 2920,
+              "text": "写"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3200,
+              "text": "着"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3440,
+              "text": "‘"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4080,
+              "text": "读"
+            },
+            {
+              "end_time": 4520,
+              "start_time": 4280,
+              "text": "到"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4520,
+              "text": "这"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4680,
+              "text": "里"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5200,
+              "text": "请"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5520,
+              "text": "不"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5680,
+              "text": "要"
+            },
+            {
+              "end_time": 6000,
+              "start_time": 5800,
+              "text": "放"
+            },
+            {
+              "end_time": 6160,
+              "start_time": 6000,
+              "text": "弃"
+            },
+            {
+              "end_time": 6160,
+              "start_time": 6160,
+              "text": "’"
+            },
+            {
+              "end_time": 6400,
+              "start_time": 6160,
+              "text": "的"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6520,
+              "text": "旧"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6800,
+              "text": "便"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7080,
+              "text": "签"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7160,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "整理图书时，她找到一张写着‘读到这里请不要放弃’的旧便签。"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "9e3ccd1a-1afa-4431-8107-fb7fcb302d51",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：自然入戏，像一个正在成长的孩子直接说话，不朗读叙述。以故事中同一个女孩的声音直接说出台词。\n请完整念出以下文本：“明年这里会是一座小花园。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050538551EDB7D0FA9700819AD61",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3240,
+          "start_time": 840,
+          "text": "明年这里会是一座小花园。",
+          "words": [
+            {
+              "end_time": 1080,
+              "start_time": 840,
+              "text": "明"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1080,
+              "text": "年"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1520,
+              "text": "这"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1720,
+              "text": "里"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1920,
+              "text": "会"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2120,
+              "text": "是"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2280,
+              "text": "一"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2480,
+              "text": "座"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2680,
+              "text": "小"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2880,
+              "text": "花"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3080,
+              "text": "园"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3240,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "明年这里会是一座小花园。"
+    }
+  }
+}

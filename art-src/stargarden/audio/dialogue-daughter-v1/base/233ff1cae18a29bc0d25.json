@@ -1,0 +1,75 @@
+{
+  "src": "233ff1cae18a29bc0d25.wav",
+  "duration": 4.0,
+  "gain": 2.327304463616351,
+  "source_sha256": "6484e535dbdc483846de70fb7520ea7aa43a505a1139fefa7e23db716c61bdf8",
+  "id": "opening.1.2",
+  "text": "……这里，是哪里？",
+  "group": "opening",
+  "role": "daughter",
+  "emotion": "年幼、自然，符合开场当下的情绪",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3400,
+        "start_time": 1680,
+        "text": "……这里，是哪里？",
+        "words": [
+          {
+            "end_time": 1680,
+            "start_time": 1680,
+            "text": "…"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1680,
+            "text": "…"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1680,
+            "text": "这"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2000,
+            "text": "里"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2360,
+            "text": "，"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2520,
+            "text": "是"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2960,
+            "text": "哪"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3200,
+            "text": "里"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3400,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "……这里，是哪里？"
+  },
+  "source_kind": "reused dialogue cache"
+}

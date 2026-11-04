@@ -1,0 +1,193 @@
+{
+  "src": "accd225c712d23b15533.wav",
+  "duration": 10.1,
+  "gain": 1.616918905546885,
+  "source_sha256": "491528fa83b3a424c718ac21a4c836a28b319ab4efe7d5ae752288dde42f797d",
+  "id": "event.daily_guard_gate.text",
+  "text": "见习时，她遇到一位听不清指路的老人。队伍越来越长，她有点着急。",
+  "group": "event:daily_guard_gate",
+  "role": "story",
+  "emotion": "温和、自然、像在回忆生活小事",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4960,
+        "start_time": 440,
+        "text": "见习时，她遇到一位听不清指路的老人。",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 440,
+            "text": "见"
+          },
+          {
+            "end_time": 920,
+            "start_time": 840,
+            "text": "习"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "时"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1400,
+            "text": "，"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "她"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "遇"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "到"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2520,
+            "text": "一"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2720,
+            "text": "位"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2920,
+            "text": "听"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3200,
+            "text": "不"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3400,
+            "text": "清"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3760,
+            "text": "指"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 4040,
+            "text": "路"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4240,
+            "text": "的"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4440,
+            "text": "老"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4640,
+            "text": "人"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4960,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9480,
+        "start_time": 5760,
+        "text": "队伍越来越长，她有点着急。",
+        "words": [
+          {
+            "end_time": 6000,
+            "start_time": 5760,
+            "text": "队"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 6000,
+            "text": "伍"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6480,
+            "text": "越"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6760,
+            "text": "来"
+          },
+          {
+            "end_time": 7080,
+            "start_time": 6920,
+            "text": "越"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7080,
+            "text": "长"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7480,
+            "text": "，"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8520,
+            "text": "她"
+          },
+          {
+            "end_time": 8880,
+            "start_time": 8720,
+            "text": "有"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8880,
+            "text": "点"
+          },
+          {
+            "end_time": 9320,
+            "start_time": 9040,
+            "text": "着"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9320,
+            "text": "急"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9480,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "见习时，她遇到一位听不清指路的老人。队伍越来越长，她有点着急。"
+  }
+}

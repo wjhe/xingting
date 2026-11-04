@@ -1,0 +1,176 @@
+{
+  "src": "a4ad6d93735579f7c0a8.wav",
+  "duration": 7.3,
+  "gain": 1.3581931197745738,
+  "source_sha256": "0e4753b1f17648b9ab9525ae395a3e5ac9ef1f847132ab64972e7fe5ea928726",
+  "id": "event.daily_winter_pocket.text",
+  "text": "她把一袋热栗子塞进你的手里，说新披肩的口袋刚好能装下两份。",
+  "group": "event:daily_winter_pocket",
+  "role": "story",
+  "emotion": "温和、自然、像在回忆生活小事",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7000,
+        "start_time": 240,
+        "text": "她把一袋热栗子塞进你的手里，说新披肩的口袋刚好能装下两份。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 240,
+            "text": "她"
+          },
+          {
+            "end_time": 640,
+            "start_time": 480,
+            "text": "把"
+          },
+          {
+            "end_time": 840,
+            "start_time": 640,
+            "text": "一"
+          },
+          {
+            "end_time": 880,
+            "start_time": 840,
+            "text": "袋"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "热"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1280,
+            "text": "栗"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "子"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "塞"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "进"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "你"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2600,
+            "text": "的"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2720,
+            "text": "手"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 2960,
+            "text": "里"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "，"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3640,
+            "text": "说"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4080,
+            "text": "新"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4360,
+            "text": "披"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4680,
+            "text": "肩"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4840,
+            "text": "的"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "口"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5160,
+            "text": "袋"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5560,
+            "text": "刚"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5720,
+            "text": "好"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 5920,
+            "text": "能"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6080,
+            "text": "装"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6400,
+            "text": "下"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6560,
+            "text": "两"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6760,
+            "text": "份"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 7000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她把一袋热栗子塞进你的手里，说新披肩的口袋刚好能装下两份。"
+  }
+}

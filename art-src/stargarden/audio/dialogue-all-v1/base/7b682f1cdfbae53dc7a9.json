@@ -1,0 +1,86 @@
+{
+  "src": "7b682f1cdfbae53dc7a9.wav",
+  "duration": 3.9,
+  "gain": 1.723925698633167,
+  "source_sha256": "ad8af4b38030bc9091c96fe1471ef3090fdaee9f089b187cb272b51bf9339821",
+  "id": "event.daily_mountain_cloud.choice.1",
+  "text": "给她安静看风景的时间",
+  "group": "event:daily_mountain_cloud",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3520,
+        "start_time": 920,
+        "text": "给她安静看风景的时间。",
+        "words": [
+          {
+            "end_time": 1240,
+            "start_time": 920,
+            "text": "给"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1240,
+            "text": "她"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1480,
+            "text": "安"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1760,
+            "text": "静"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2040,
+            "text": "看"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2400,
+            "text": "风"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "景"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2960,
+            "text": "的"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3200,
+            "text": "时"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "间"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3520,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "给她安静看风景的时间。"
+  }
+}

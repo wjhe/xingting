@@ -1,0 +1,71 @@
+{
+  "src": "e0cd6fda69613a4c98f9.wav",
+  "duration": 3.28,
+  "gain": 1.4748541585197923,
+  "source_sha256": "2ca32105498603a1b49a04d53006c09dad2871b879b66bd4b429daed3a960ff5",
+  "id": "event.daily_church_seed.choice.1",
+  "text": "请教照顾花圃的人",
+  "group": "event:daily_church_seed",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 0,
+        "text": "请教照顾花圃的人",
+        "words": [
+          {
+            "end_time": 40,
+            "start_time": 0,
+            "text": "请"
+          },
+          {
+            "end_time": 80,
+            "start_time": 40,
+            "text": "教"
+          },
+          {
+            "end_time": 120,
+            "start_time": 80,
+            "text": "照"
+          },
+          {
+            "end_time": 160,
+            "start_time": 120,
+            "text": "顾"
+          },
+          {
+            "end_time": 200,
+            "start_time": 160,
+            "text": "花"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 200,
+            "text": "圃"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "的"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "人"
+          }
+        ]
+      }
+    ],
+    "text": "请教照顾花圃的人"
+  }
+}

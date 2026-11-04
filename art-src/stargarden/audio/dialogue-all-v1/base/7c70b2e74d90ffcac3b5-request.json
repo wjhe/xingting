@@ -1,0 +1,208 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "89167253-c08e-4700-83e1-276380ff41a0",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“原来老人只是扭伤了脚。你们送去一小袋饼干，他笑着说茶屋还记得自己。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051738812420F5ED046AD32A46",
+  "response": {
+    "duration": 8.38,
+    "original_duration": 8.38,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2920,
+          "start_time": 560,
+          "text": "原来老人只是扭伤了脚。",
+          "words": [
+            {
+              "end_time": 840,
+              "start_time": 560,
+              "text": "原"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 840,
+              "text": "来"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1120,
+              "text": "老"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1400,
+              "text": "人"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1640,
+              "text": "只"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1840,
+              "text": "是"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2040,
+              "text": "扭"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2320,
+              "text": "伤"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2560,
+              "text": "了"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2800,
+              "text": "脚"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2920,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8040,
+          "start_time": 3800,
+          "text": "你们送去一小袋饼干，他笑着说茶屋还记得自己。",
+          "words": [
+            {
+              "end_time": 4000,
+              "start_time": 3800,
+              "text": "你"
+            },
+            {
+              "end_time": 4120,
+              "start_time": 4000,
+              "text": "们"
+            },
+            {
+              "end_time": 4280,
+              "start_time": 4120,
+              "text": "送"
+            },
+            {
+              "end_time": 4480,
+              "start_time": 4280,
+              "text": "去"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4480,
+              "text": "一"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4640,
+              "text": "小"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4840,
+              "text": "袋"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5120,
+              "text": "饼"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5320,
+              "text": "干"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5520,
+              "text": "，"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5840,
+              "text": "他"
+            },
+            {
+              "end_time": 6240,
+              "start_time": 6040,
+              "text": "笑"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6240,
+              "text": "着"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6440,
+              "text": "说"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6720,
+              "text": "茶"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 7000,
+              "text": "屋"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7240,
+              "text": "还"
+            },
+            {
+              "end_time": 7560,
+              "start_time": 7400,
+              "text": "记"
+            },
+            {
+              "end_time": 7760,
+              "start_time": 7560,
+              "text": "得"
+            },
+            {
+              "end_time": 7880,
+              "start_time": 7760,
+              "text": "自"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7880,
+              "text": "己"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 8040,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "原来老人只是扭伤了脚。你们送去一小袋饼干，他笑着说茶屋还记得自己。"
+    }
+  }
+}

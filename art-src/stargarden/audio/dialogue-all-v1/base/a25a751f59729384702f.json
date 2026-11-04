@@ -1,0 +1,183 @@
+{
+  "src": "a25a751f59729384702f.wav",
+  "duration": 8.6,
+  "gain": 1.501899573471326,
+  "source_sha256": "0f9bbcb10d0161764a7444fd403ec73ab1bae2eaf0ea023651371a786d09414c",
+  "id": "event.side_rowan_2.outcome.0",
+  "text": "她记起自己成功挡住过一次进攻。罗恩第二天从那一招继续教起。",
+  "group": "event:side_rowan_2",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3680,
+        "start_time": 360,
+        "text": "她记起自己成功挡住过一次进攻。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 360,
+            "text": "她"
+          },
+          {
+            "end_time": 800,
+            "start_time": 720,
+            "text": "记"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1000,
+            "text": "起"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1200,
+            "text": "自"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "己"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "成"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2000,
+            "text": "功"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2240,
+            "text": "挡"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2520,
+            "text": "住"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2720,
+            "text": "过"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "一"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3120,
+            "text": "次"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "进"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "攻"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3680,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8160,
+        "start_time": 4600,
+        "text": "罗恩第二天从那一招继续教起。",
+        "words": [
+          {
+            "end_time": 4760,
+            "start_time": 4600,
+            "text": "罗"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4960,
+            "text": "恩"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5280,
+            "text": "第"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5440,
+            "text": "二"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5600,
+            "text": "天"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 5960,
+            "text": "从"
+          },
+          {
+            "end_time": 6480,
+            "start_time": 6280,
+            "text": "那"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6480,
+            "text": "一"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6720,
+            "text": "招"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7160,
+            "text": "继"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7320,
+            "text": "续"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7720,
+            "text": "教"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 7960,
+            "text": "起"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 8160,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她记起自己成功挡住过一次进攻。罗恩第二天从那一招继续教起。"
+  }
+}

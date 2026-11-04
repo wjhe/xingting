@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "4c86af1e-13c5-4090-bf9f-6bbfd366d046",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“陪她练习第一次入场”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050524326EA58FFEEDBDB61F4DF1",
+  "response": {
+    "duration": 3.5,
+    "original_duration": 3.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2560,
+          "start_time": 360,
+          "text": "陪她练习第一次入场。",
+          "words": [
+            {
+              "end_time": 520,
+              "start_time": 360,
+              "text": "陪"
+            },
+            {
+              "end_time": 760,
+              "start_time": 680,
+              "text": "她"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 880,
+              "text": "练"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1120,
+              "text": "习"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1640,
+              "text": "第"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1760,
+              "text": "一"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1880,
+              "text": "次"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2040,
+              "text": "入"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2360,
+              "text": "场"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2560,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "陪她练习第一次入场。"
+    }
+  }
+}

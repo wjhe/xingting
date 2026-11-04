@@ -1,0 +1,66 @@
+{
+  "src": "089697ddaa02a3e8875c.wav",
+  "duration": 3.28,
+  "gain": 1.1885129080435246,
+  "source_sha256": "8db7c96fccc3685edbdaa5143f793d97acc8b587adb5c50034e25f3462f3eddb",
+  "id": "event.daily_magic_lamp.choice.1",
+  "text": "请老师解释原理",
+  "group": "event:daily_magic_lamp",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2520,
+        "start_time": 560,
+        "text": "请老师解释原理",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "请"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "老"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "师"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1440,
+            "text": "解"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "释"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2000,
+            "text": "原"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2280,
+            "text": "理"
+          }
+        ]
+      }
+    ],
+    "text": "请老师解释原理"
+  }
+}

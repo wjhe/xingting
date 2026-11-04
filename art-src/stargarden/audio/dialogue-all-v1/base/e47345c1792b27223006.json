@@ -1,0 +1,76 @@
+{
+  "src": "e47345c1792b27223006.wav",
+  "duration": 3.5,
+  "gain": 1.5466460956288586,
+  "source_sha256": "55fc7eec5394a45e4e4378c7df9c9a6f98d971312612d433ff498c4ae57e00d3",
+  "id": "event.friend.choice.1",
+  "text": "教她大方地介绍自己",
+  "group": "event:friend",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2520,
+        "start_time": 480,
+        "text": "教她大方地介绍自己",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 480,
+            "text": "教"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 800,
+            "text": "她"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1080,
+            "text": "大"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1320,
+            "text": "方"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1360,
+            "text": "地"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "介"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "绍"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "自"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "己"
+          }
+        ]
+      }
+    ],
+    "text": "教她大方地介绍自己"
+  }
+}

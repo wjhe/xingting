@@ -1,0 +1,163 @@
+{
+  "src": "1a8784f2c0198c22fce7.wav",
+  "duration": 7.3,
+  "gain": 1.524103343000314,
+  "source_sha256": "c0ffb5d553247ecf3241cb115323cfbda6e10663e5b24b5ae3e3f70e48d9a4ea",
+  "id": "event.side_rowan_1.outcome.0",
+  "text": "罗恩教她把后退接成防守。她发现谨慎与勇气并不冲突。",
+  "group": "event:side_rowan_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3240,
+        "start_time": 360,
+        "text": "罗恩教她把后退接成防守。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 360,
+            "text": "罗"
+          },
+          {
+            "end_time": 800,
+            "start_time": 640,
+            "text": "恩"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 960,
+            "text": "教"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1200,
+            "text": "她"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "把"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1600,
+            "text": "后"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "退"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2320,
+            "text": "接"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2560,
+            "text": "成"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2760,
+            "text": "防"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3000,
+            "text": "守"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7200,
+        "start_time": 4280,
+        "text": "她发现谨慎与勇气并不冲突。",
+        "words": [
+          {
+            "end_time": 4520,
+            "start_time": 4280,
+            "text": "她"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4520,
+            "text": "发"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4680,
+            "text": "现"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5160,
+            "text": "谨"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5440,
+            "text": "慎"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5720,
+            "text": "与"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 5960,
+            "text": "勇"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6200,
+            "text": "气"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6480,
+            "text": "并"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6640,
+            "text": "不"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6800,
+            "text": "冲"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7000,
+            "text": "突"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7200,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "罗恩教她把后退接成防守。她发现谨慎与勇气并不冲突。"
+  }
+}

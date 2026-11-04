@@ -1,0 +1,270 @@
+{
+  "src": "8fdcc1d97ab0983d3846.wav",
+  "duration": 11.3,
+  "gain": 1.588250692859104,
+  "source_sha256": "e95c141e1a3b1674f80fa327c9b244b4e760044ac6c77256849a160da03d5805",
+  "id": "event.kitten.text",
+  "text": "回家的路上下起了雨。艾莉在屋檐下发现了一只发抖的小猫，抬头小声问你：“我们可以帮帮它吗？”",
+  "group": "event:kitten",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 560,
+        "text": "回家的路上下起了雨。",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 560,
+            "text": "回"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 840,
+            "text": "家"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "的"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1200,
+            "text": "路"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1400,
+            "text": "上"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1720,
+            "text": "下"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "起"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2280,
+            "text": "了"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2400,
+            "text": "雨"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2640,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10960,
+        "start_time": 3600,
+        "text": "艾莉在屋檐下发现了一只发抖的小猫，抬头小声问你：‘我们可以帮帮它吗？",
+        "words": [
+          {
+            "end_time": 3680,
+            "start_time": 3600,
+            "text": "艾"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3880,
+            "text": "莉"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4120,
+            "text": "在"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4320,
+            "text": "屋"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4520,
+            "text": "檐"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4800,
+            "text": "下"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5120,
+            "text": "发"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5240,
+            "text": "现"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5360,
+            "text": "了"
+          },
+          {
+            "end_time": 5640,
+            "start_time": 5520,
+            "text": "一"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5640,
+            "text": "只"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5800,
+            "text": "发"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6040,
+            "text": "抖"
+          },
+          {
+            "end_time": 6480,
+            "start_time": 6280,
+            "text": "的"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6480,
+            "text": "小"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6600,
+            "text": "猫"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6920,
+            "text": "，"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7400,
+            "text": "抬"
+          },
+          {
+            "end_time": 7920,
+            "start_time": 7640,
+            "text": "头"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 7960,
+            "text": "小"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8200,
+            "text": "声"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8520,
+            "text": "问"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8760,
+            "text": "你"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 9040,
+            "text": "："
+          },
+          {
+            "end_time": 9040,
+            "start_time": 9040,
+            "text": "‘"
+          },
+          {
+            "end_time": 9760,
+            "start_time": 9600,
+            "text": "我"
+          },
+          {
+            "end_time": 9840,
+            "start_time": 9760,
+            "text": "们"
+          },
+          {
+            "end_time": 9960,
+            "start_time": 9840,
+            "text": "可"
+          },
+          {
+            "end_time": 10040,
+            "start_time": 9960,
+            "text": "以"
+          },
+          {
+            "end_time": 10320,
+            "start_time": 10040,
+            "text": "帮"
+          },
+          {
+            "end_time": 10440,
+            "start_time": 10360,
+            "text": "帮"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10440,
+            "text": "它"
+          },
+          {
+            "end_time": 10960,
+            "start_time": 10760,
+            "text": "吗"
+          },
+          {
+            "end_time": 10960,
+            "start_time": 10960,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 10960,
+        "start_time": 10960,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 10960,
+            "start_time": 10960,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "回家的路上下起了雨。艾莉在屋檐下发现了一只发抖的小猫，抬头小声问你：‘我们可以帮帮它吗？’"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "7109018e-1ba3-4c82-835e-2bbd9902f66a",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“争执在几句话后平息。罗恩说她已经学会了木剑教不了的事。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051854126460A094966918D9E7",
+  "response": {
+    "duration": 7.9,
+    "original_duration": 7.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2840,
+          "start_time": 720,
+          "text": "争执在几句话后平息。",
+          "words": [
+            {
+              "end_time": 800,
+              "start_time": 720,
+              "text": "争"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1120,
+              "text": "执"
+            },
+            {
+              "end_time": 1520,
+              "start_time": 1320,
+              "text": "在"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1520,
+              "text": "几"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1720,
+              "text": "句"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1880,
+              "text": "话"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2120,
+              "text": "后"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2440,
+              "text": "平"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2720,
+              "text": "息"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2840,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7480,
+          "start_time": 3680,
+          "text": "罗恩说她已经学会了木剑教不了的事。",
+          "words": [
+            {
+              "end_time": 3920,
+              "start_time": 3680,
+              "text": "罗"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4040,
+              "text": "恩"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4280,
+              "text": "说"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4680,
+              "text": "她"
+            },
+            {
+              "end_time": 5040,
+              "start_time": 4920,
+              "text": "已"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 5040,
+              "text": "经"
+            },
+            {
+              "end_time": 5400,
+              "start_time": 5200,
+              "text": "学"
+            },
+            {
+              "end_time": 5600,
+              "start_time": 5400,
+              "text": "会"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5600,
+              "text": "了"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 6000,
+              "text": "木"
+            },
+            {
+              "end_time": 6480,
+              "start_time": 6240,
+              "text": "剑"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6640,
+              "text": "教"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6800,
+              "text": "不"
+            },
+            {
+              "end_time": 7080,
+              "start_time": 6960,
+              "text": "了"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7080,
+              "text": "的"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7240,
+              "text": "事"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7480,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "争执在几句话后平息。罗恩说她已经学会了木剑教不了的事。"
+    }
+  }
+}

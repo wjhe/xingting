@@ -1,0 +1,91 @@
+{
+  "src": "7628db9cfbcbf76d39ab.wav",
+  "duration": 3.9,
+  "gain": 1.5156580094978505,
+  "source_sha256": "ec40b7979dbf2ed44488093c9dbe0c9a93edbc41c11e01183212ab900f54e75c",
+  "id": "event.side_rowan_3.choice.0",
+  "text": "先请守卫与摊主一起商量",
+  "group": "event:side_rowan_3",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3400,
+        "start_time": 720,
+        "text": "先请守卫与摊主一起商量。",
+        "words": [
+          {
+            "end_time": 1000,
+            "start_time": 720,
+            "text": "先"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "请"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1400,
+            "text": "守"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1640,
+            "text": "卫"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "与"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2160,
+            "text": "摊"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2400,
+            "text": "主"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2720,
+            "text": "一"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2840,
+            "text": "起"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 3080,
+            "text": "商"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3360,
+            "text": "量"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3400,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "先请守卫与摊主一起商量。"
+  }
+}

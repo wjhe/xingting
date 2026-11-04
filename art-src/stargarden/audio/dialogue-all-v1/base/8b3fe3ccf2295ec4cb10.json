@@ -1,0 +1,218 @@
+{
+  "src": "8b3fe3ccf2295ec4cb10.wav",
+  "duration": 9.1,
+  "gain": 1.6097318722608156,
+  "source_sha256": "15e7856580812acb79a00e4ca7875444b0ca6e2d2c56b89ad1e2c1d4fdd3dd99",
+  "id": "event.painting.text",
+  "text": "整理房间时，你看到一幅藏在抽屉里的画。画上的你站在花园里，笑得特别灿烂。",
+  "group": "event:painting",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4040,
+        "start_time": 320,
+        "text": "整理房间时，你看到一幅藏在抽屉里的画。",
+        "words": [
+          {
+            "end_time": 560,
+            "start_time": 320,
+            "text": "整"
+          },
+          {
+            "end_time": 680,
+            "start_time": 560,
+            "text": "理"
+          },
+          {
+            "end_time": 960,
+            "start_time": 800,
+            "text": "房"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "间"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1160,
+            "text": "时"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1560,
+            "text": "，"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1680,
+            "text": "你"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1920,
+            "text": "看"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2080,
+            "text": "到"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2240,
+            "text": "一"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2480,
+            "text": "幅"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2720,
+            "text": "藏"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2920,
+            "text": "在"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3080,
+            "text": "抽"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3400,
+            "text": "屉"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3560,
+            "text": "里"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3720,
+            "text": "的"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3880,
+            "text": "画"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 4040,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8920,
+        "start_time": 5080,
+        "text": "画上的你站在花园里，笑得特别灿烂。",
+        "words": [
+          {
+            "end_time": 5200,
+            "start_time": 5080,
+            "text": "画"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5240,
+            "text": "上"
+          },
+          {
+            "end_time": 5640,
+            "start_time": 5480,
+            "text": "的"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5640,
+            "text": "你"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 5880,
+            "text": "站"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6120,
+            "text": "在"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6280,
+            "text": "花"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6520,
+            "text": "园"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 6840,
+            "text": "里"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7160,
+            "text": "，"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7640,
+            "text": "笑"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 7840,
+            "text": "得"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8160,
+            "text": "特"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8320,
+            "text": "别"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8480,
+            "text": "灿"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8760,
+            "text": "烂"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8920,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "整理房间时，你看到一幅藏在抽屉里的画。画上的你站在花园里，笑得特别灿烂。"
+  }
+}

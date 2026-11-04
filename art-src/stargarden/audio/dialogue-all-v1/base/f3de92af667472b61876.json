@@ -1,0 +1,106 @@
+{
+  "src": "f3de92af667472b61876.wav",
+  "duration": 4.8,
+  "gain": 1.2399414829434678,
+  "source_sha256": "4b7f4b43c22a111bf9d584eb403196b3098d7d9cafea0e53ca4b0447dbb024de",
+  "id": "event.daily_guard_gate.choice.1",
+  "text": "请同伴暂时代班，陪老人走一段",
+  "group": "event:daily_guard_gate",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4320,
+        "start_time": 440,
+        "text": "请同伴暂时代班，陪老人走一段。",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 440,
+            "text": "请"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "同"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1040,
+            "text": "伴"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1440,
+            "text": "暂"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1720,
+            "text": "时"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 2080,
+            "text": "代"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2320,
+            "text": "班"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2440,
+            "text": "，"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2880,
+            "text": "陪"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3160,
+            "text": "老"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3400,
+            "text": "人"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "走"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3920,
+            "text": "一"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4080,
+            "text": "段"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4320,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "请同伴暂时代班，陪老人走一段。"
+  }
+}

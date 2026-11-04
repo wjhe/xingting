@@ -1,0 +1,265 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "dbdeb2a5-83c2-4108-b075-3ddadeae27a4",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“旧书店老板送来一本缺了封面的星图。她趴在桌边翻了一整晚：“原来，天上的星星也有名字。””\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050519183CFAC9757E6ACCD3A182",
+  "response": {
+    "duration": 10.6,
+    "original_duration": 10.6,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3920,
+          "start_time": 440,
+          "text": "旧书店老板送来一本缺了封面的星图。",
+          "words": [
+            {
+              "end_time": 520,
+              "start_time": 440,
+              "text": "旧"
+            },
+            {
+              "end_time": 840,
+              "start_time": 720,
+              "text": "书"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1000,
+              "text": "店"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1240,
+              "text": "老"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1400,
+              "text": "板"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1720,
+              "text": "送"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1920,
+              "text": "来"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2080,
+              "text": "一"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2240,
+              "text": "本"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2520,
+              "text": "缺"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2760,
+              "text": "了"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 3040,
+              "text": "封"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3160,
+              "text": "面"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3360,
+              "text": "的"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3560,
+              "text": "星"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3840,
+              "text": "图"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3920,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10240,
+          "start_time": 4600,
+          "text": "她趴在桌边翻了一整晚：‘原来，天上的星星也有名字。",
+          "words": [
+            {
+              "end_time": 4800,
+              "start_time": 4600,
+              "text": "她"
+            },
+            {
+              "end_time": 5080,
+              "start_time": 4840,
+              "text": "趴"
+            },
+            {
+              "end_time": 5240,
+              "start_time": 5080,
+              "text": "在"
+            },
+            {
+              "end_time": 5440,
+              "start_time": 5240,
+              "text": "桌"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5440,
+              "text": "边"
+            },
+            {
+              "end_time": 5960,
+              "start_time": 5680,
+              "text": "翻"
+            },
+            {
+              "end_time": 6120,
+              "start_time": 5960,
+              "text": "了"
+            },
+            {
+              "end_time": 6240,
+              "start_time": 6120,
+              "text": "一"
+            },
+            {
+              "end_time": 6400,
+              "start_time": 6240,
+              "text": "整"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6400,
+              "text": "晚"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6640,
+              "text": "："
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6640,
+              "text": "‘"
+            },
+            {
+              "end_time": 7840,
+              "start_time": 7640,
+              "text": "原"
+            },
+            {
+              "end_time": 8120,
+              "start_time": 7840,
+              "text": "来"
+            },
+            {
+              "end_time": 8120,
+              "start_time": 8120,
+              "text": "，"
+            },
+            {
+              "end_time": 8640,
+              "start_time": 8280,
+              "text": "天"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8640,
+              "text": "上"
+            },
+            {
+              "end_time": 9000,
+              "start_time": 8800,
+              "text": "的"
+            },
+            {
+              "end_time": 9160,
+              "start_time": 9080,
+              "text": "星"
+            },
+            {
+              "end_time": 9400,
+              "start_time": 9320,
+              "text": "星"
+            },
+            {
+              "end_time": 9760,
+              "start_time": 9560,
+              "text": "也"
+            },
+            {
+              "end_time": 9880,
+              "start_time": 9760,
+              "text": "有"
+            },
+            {
+              "end_time": 10080,
+              "start_time": 9880,
+              "text": "名"
+            },
+            {
+              "end_time": 10240,
+              "start_time": 10080,
+              "text": "字"
+            },
+            {
+              "end_time": 10240,
+              "start_time": 10240,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10240,
+          "start_time": 10240,
+          "text": "’",
+          "words": [
+            {
+              "end_time": 10240,
+              "start_time": 10240,
+              "text": "’"
+            }
+          ]
+        }
+      ],
+      "text": "旧书店老板送来一本缺了封面的星图。她趴在桌边翻了一整晚：‘原来，天上的星星也有名字。’"
+    }
+  }
+}

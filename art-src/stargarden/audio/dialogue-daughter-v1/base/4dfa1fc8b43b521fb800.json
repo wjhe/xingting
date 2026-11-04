@@ -1,0 +1,137 @@
+{
+  "src": "4dfa1fc8b43b521fb800.wav",
+  "duration": 4.958333333333333,
+  "gain": 1.9620074958805636,
+  "source_sha256": "cb751a410e26bf070d75d3d525bb425bfaf930ab8abb0661b067a7ae447fe919",
+  "id": "opening.4.10.mom",
+  "text": "妈妈。……从今天起，这里就是我的家了吗？",
+  "group": "opening",
+  "role": "daughter",
+  "emotion": "年幼、自然，刚确认家人称呼",
+  "ages": [
+    "child"
+  ],
+  "parent": "妈妈",
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 920,
+        "start_time": 480,
+        "text": "妈妈。",
+        "words": [
+          {
+            "end_time": 760,
+            "start_time": 480,
+            "text": "妈"
+          },
+          {
+            "end_time": 920,
+            "start_time": 800,
+            "text": "妈"
+          },
+          {
+            "end_time": 920,
+            "start_time": 920,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 4840,
+        "start_time": 920,
+        "text": "……从今天起，这里就是我的家了吗？",
+        "words": [
+          {
+            "end_time": 920,
+            "start_time": 920,
+            "text": "…"
+          },
+          {
+            "end_time": 920,
+            "start_time": 920,
+            "text": "…"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1760,
+            "text": "从"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "今"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "天"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2640,
+            "text": "起"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "，"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3360,
+            "text": "这"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3520,
+            "text": "里"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3720,
+            "text": "就"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3920,
+            "text": "是"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 4040,
+            "text": "我"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4120,
+            "text": "的"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4200,
+            "text": "家"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4480,
+            "text": "了"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4680,
+            "text": "吗"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4840,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "妈妈。……从今天起，这里就是我的家了吗？"
+  },
+  "source_kind": "reused dialogue cache"
+}

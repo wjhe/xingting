@@ -1,0 +1,81 @@
+{
+  "src": "adcb727fb9fa7fecd81f.wav",
+  "duration": 3.5,
+  "gain": 0.8797473152242578,
+  "source_sha256": "864ea7be16d163a0e88093d9e9b4fd6b6d3267edbf7750bf0b8490466f583197",
+  "id": "dialogue.painting.outcome0.0",
+  "text": "其实画得还不够好……",
+  "group": "event:painting",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3000,
+        "start_time": 480,
+        "text": "其实画得还不够好……",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 480,
+            "text": "其"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 800,
+            "text": "实"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "画"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "得"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2040,
+            "text": "还"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2280,
+            "text": "不"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "够"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2600,
+            "text": "好"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "…"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "…"
+          }
+        ]
+      }
+    ],
+    "text": "其实画得还不够好……"
+  }
+}

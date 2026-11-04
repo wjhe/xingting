@@ -1,0 +1,81 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "2fad2162-6a99-4442-9006-26b65661804c",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“教她大方地介绍自己”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105052747CE7884CE025DC9E10D81",
+  "response": {
+    "duration": 3.5,
+    "original_duration": 3.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2520,
+          "start_time": 480,
+          "text": "教她大方地介绍自己",
+          "words": [
+            {
+              "end_time": 720,
+              "start_time": 480,
+              "text": "教"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 800,
+              "text": "她"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1080,
+              "text": "大"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1320,
+              "text": "方"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1360,
+              "text": "地"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1840,
+              "text": "介"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2000,
+              "text": "绍"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2200,
+              "text": "自"
+            },
+            {
+              "end_time": 2520,
+              "start_time": 2360,
+              "text": "己"
+            }
+          ]
+        }
+      ],
+      "text": "教她大方地介绍自己"
+    }
+  }
+}

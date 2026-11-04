@@ -1,0 +1,86 @@
+{
+  "src": "86509b762418f4d2174a.wav",
+  "duration": 3.28,
+  "gain": 1.3635909762661598,
+  "source_sha256": "95e32715e3258a6e3a168a3130959487a4123fc79dbccde057b99004588ee19f",
+  "id": "event.side_nora_3.choice.0",
+  "text": "限定小份试做，慢慢调整",
+  "group": "event:side_nora_3",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 400,
+        "text": "限定小份试做，慢慢调整",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 400,
+            "text": "限"
+          },
+          {
+            "end_time": 760,
+            "start_time": 640,
+            "text": "定"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "小"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1120,
+            "text": "份"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1440,
+            "text": "试"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1680,
+            "text": "做"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1760,
+            "text": "，"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2080,
+            "text": "慢"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2280,
+            "text": "慢"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2440,
+            "text": "调"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2680,
+            "text": "整"
+          }
+        ]
+      }
+    ],
+    "text": "限定小份试做，慢慢调整"
+  }
+}

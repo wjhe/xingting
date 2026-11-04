@@ -1,0 +1,76 @@
+{
+  "src": "c2d75f57921d84433b2b.wav",
+  "duration": 3.7,
+  "gain": 1.538206150904243,
+  "source_sha256": "6c7a1f87dcec2d09cb9bc2254ca78fb0e310d4a4227a45831db329bd67b0d912",
+  "id": "event.side_nora_1.choice.0",
+  "text": "陪她道歉并重新送茶",
+  "group": "event:side_nora_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3080,
+        "start_time": 160,
+        "text": "陪她道歉并重新送茶",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 160,
+            "text": "陪"
+          },
+          {
+            "end_time": 600,
+            "start_time": 480,
+            "text": "她"
+          },
+          {
+            "end_time": 920,
+            "start_time": 720,
+            "text": "道"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "歉"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1600,
+            "text": "并"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2000,
+            "text": "重"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "新"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2640,
+            "text": "送"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2920,
+            "text": "茶"
+          }
+        ]
+      }
+    ],
+    "text": "陪她道歉并重新送茶"
+  }
+}

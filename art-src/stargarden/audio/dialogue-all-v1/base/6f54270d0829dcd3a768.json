@@ -1,0 +1,91 @@
+{
+  "src": "6f54270d0829dcd3a768.wav",
+  "duration": 4.4,
+  "gain": 1.2612318145378096,
+  "source_sha256": "1d649459b68778572c93e2d61eba8aa77152cbbcd1193417cf9e45798db7bc3d",
+  "id": "event.daily_church_seed.choice.0",
+  "text": "一起确认水和阳光是否合适",
+  "group": "event:daily_church_seed",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3880,
+        "start_time": 480,
+        "text": "一起确认水和阳光是否合适",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 480,
+            "text": "一"
+          },
+          {
+            "end_time": 920,
+            "start_time": 720,
+            "text": "起"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 960,
+            "text": "确"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "认"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1560,
+            "text": "水"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "和"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2200,
+            "text": "阳"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2480,
+            "text": "光"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2960,
+            "text": "是"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3160,
+            "text": "否"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3520,
+            "text": "合"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3720,
+            "text": "适"
+          }
+        ]
+      }
+    ],
+    "text": "一起确认水和阳光是否合适"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "src": "a5076754f8c3cc7f9773.wav",
+  "duration": 2.78,
+  "gain": 1.0376187460417985,
+  "source_sha256": "8f4119a375a598f0661a6970dab01c15020f5cdc6c977ad17d9fdab71b560c26",
+  "id": "dialogue.main_2_2.text.0",
+  "text": "能帮我戴上吗？",
+  "group": "event:main_2_2",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1920,
+        "start_time": 400,
+        "text": "能帮我戴上吗？",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 400,
+            "text": "能"
+          },
+          {
+            "end_time": 880,
+            "start_time": 680,
+            "text": "帮"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "我"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "戴"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1360,
+            "text": "上"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1640,
+            "text": "吗"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1920,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "能帮我戴上吗？"
+  }
+}

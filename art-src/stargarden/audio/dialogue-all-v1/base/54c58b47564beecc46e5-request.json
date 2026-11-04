@@ -1,0 +1,151 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "b771a92e-df23-4ac7-b51c-c8d2cdbe5342",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“巡林员很快找到背包，还教她们如何描述准确位置。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051445957C4E35BF0F9818F713",
+  "response": {
+    "duration": 6.4,
+    "original_duration": 6.4,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 6160,
+          "start_time": 1360,
+          "text": "巡林员很快找到背包，还教她们如何描述准确位置。",
+          "words": [
+            {
+              "end_time": 1440,
+              "start_time": 1360,
+              "text": "巡"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1640,
+              "text": "林"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1920,
+              "text": "员"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2280,
+              "text": "很"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2440,
+              "text": "快"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2600,
+              "text": "找"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2760,
+              "text": "到"
+            },
+            {
+              "end_time": 3160,
+              "start_time": 2920,
+              "text": "背"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3160,
+              "text": "包"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3480,
+              "text": "，"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3840,
+              "text": "还"
+            },
+            {
+              "end_time": 4280,
+              "start_time": 4040,
+              "text": "教"
+            },
+            {
+              "end_time": 4400,
+              "start_time": 4280,
+              "text": "她"
+            },
+            {
+              "end_time": 4560,
+              "start_time": 4400,
+              "text": "们"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4560,
+              "text": "如"
+            },
+            {
+              "end_time": 4840,
+              "start_time": 4680,
+              "text": "何"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4880,
+              "text": "描"
+            },
+            {
+              "end_time": 5280,
+              "start_time": 5120,
+              "text": "述"
+            },
+            {
+              "end_time": 5600,
+              "start_time": 5440,
+              "text": "准"
+            },
+            {
+              "end_time": 5840,
+              "start_time": 5640,
+              "text": "确"
+            },
+            {
+              "end_time": 6000,
+              "start_time": 5880,
+              "text": "位"
+            },
+            {
+              "end_time": 6160,
+              "start_time": 6000,
+              "text": "置"
+            },
+            {
+              "end_time": 6160,
+              "start_time": 6160,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "巡林员很快找到背包，还教她们如何描述准确位置。"
+    }
+  }
+}

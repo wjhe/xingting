@@ -1,0 +1,66 @@
+{
+  "src": "e3347ff214f308b9e19d.wav",
+  "duration": 3.08,
+  "gain": 1.7127076328311974,
+  "source_sha256": "def8ad6998a8d0b73ad2c6fd37557efdaf85fe57e15a7af26ca2bc4534f8d4ec",
+  "id": "event.friend.choice.0",
+  "text": "一起准备小点心",
+  "group": "event:friend",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2600,
+        "start_time": 960,
+        "text": "一起准备小点心",
+        "words": [
+          {
+            "end_time": 1240,
+            "start_time": 960,
+            "text": "一"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1240,
+            "text": "起"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1520,
+            "text": "准"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "备"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1880,
+            "text": "小"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2160,
+            "text": "点"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2480,
+            "text": "心"
+          }
+        ]
+      }
+    ],
+    "text": "一起准备小点心"
+  }
+}

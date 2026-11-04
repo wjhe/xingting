@@ -15,5 +15,82 @@
       "enable_subtitle": true
     }
   },
-  "status": "submitted"
+  "status": "complete",
+  "provider_log_id": "20261105051152B3C02AC8A8C0C1197E08",
+  "response": {
+    "duration": 4.18,
+    "original_duration": 4.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3560,
+          "start_time": 880,
+          "text": "告诉她书比不上朋友重要。",
+          "words": [
+            {
+              "end_time": 1120,
+              "start_time": 880,
+              "text": "告"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1120,
+              "text": "诉"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1320,
+              "text": "她"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1840,
+              "text": "书"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2240,
+              "text": "比"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2440,
+              "text": "不"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2640,
+              "text": "上"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2800,
+              "text": "朋"
+            },
+            {
+              "end_time": 3160,
+              "start_time": 2960,
+              "text": "友"
+            },
+            {
+              "end_time": 3400,
+              "start_time": 3200,
+              "text": "重"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3400,
+              "text": "要"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3560,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "告诉她书比不上朋友重要。"
+    }
+  }
 }

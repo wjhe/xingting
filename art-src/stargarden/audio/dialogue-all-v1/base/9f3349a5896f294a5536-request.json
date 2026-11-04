@@ -1,0 +1,208 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "717b7f3b-2ef6-48e7-8381-b98b4ad7e65e",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“第二天她们从容抵达花谷。那些花没有离开，约定也没有因为等待而变少。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051521D821B813A919C598B27B",
+  "response": {
+    "duration": 7.88835,
+    "original_duration": 7.88835,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2200,
+          "start_time": 240,
+          "text": "第二天她们从容抵达花谷。",
+          "words": [
+            {
+              "end_time": 400,
+              "start_time": 240,
+              "text": "第"
+            },
+            {
+              "end_time": 520,
+              "start_time": 400,
+              "text": "二"
+            },
+            {
+              "end_time": 680,
+              "start_time": 520,
+              "text": "天"
+            },
+            {
+              "end_time": 840,
+              "start_time": 680,
+              "text": "她"
+            },
+            {
+              "end_time": 920,
+              "start_time": 840,
+              "text": "们"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 920,
+              "text": "从"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1200,
+              "text": "容"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1400,
+              "text": "抵"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1600,
+              "text": "达"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1800,
+              "text": "花"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2120,
+              "text": "谷"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2200,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7520,
+          "start_time": 2920,
+          "text": "那些花没有离开，约定也没有因为等待而变少。",
+          "words": [
+            {
+              "end_time": 3080,
+              "start_time": 2920,
+              "text": "那"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3080,
+              "text": "些"
+            },
+            {
+              "end_time": 3600,
+              "start_time": 3280,
+              "text": "花"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3640,
+              "text": "没"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3800,
+              "text": "有"
+            },
+            {
+              "end_time": 4080,
+              "start_time": 3880,
+              "text": "离"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 4080,
+              "text": "开"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 4360,
+              "text": "，"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 4920,
+              "text": "约"
+            },
+            {
+              "end_time": 5400,
+              "start_time": 5160,
+              "text": "定"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5680,
+              "text": "也"
+            },
+            {
+              "end_time": 6000,
+              "start_time": 5880,
+              "text": "没"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 6000,
+              "text": "有"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6080,
+              "text": "因"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6280,
+              "text": "为"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6440,
+              "text": "等"
+            },
+            {
+              "end_time": 6880,
+              "start_time": 6640,
+              "text": "待"
+            },
+            {
+              "end_time": 7120,
+              "start_time": 6920,
+              "text": "而"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 7120,
+              "text": "变"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7280,
+              "text": "少"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7520,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "第二天她们从容抵达花谷。那些花没有离开，约定也没有因为等待而变少。"
+    }
+  }
+}

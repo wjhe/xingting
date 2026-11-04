@@ -1,0 +1,141 @@
+{
+  "src": "00f50808cc239134aac9.wav",
+  "duration": 5.9,
+  "gain": 1.8012486298177262,
+  "source_sha256": "4bf8b9c47852eef9146d41bbcdc843d55000eadd3e17284148b312dec5fc231b",
+  "id": "talk.0",
+  "text": "今天路过花店，我看到一朵和你笑起来很像的花。",
+  "group": "talk",
+  "role": "talk",
+  "emotion": "亲密、自然，像和养育者说悄悄话",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5760,
+        "start_time": 440,
+        "text": "今天路过花店，我看到一朵和你笑起来很像的花。",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 440,
+            "text": "今"
+          },
+          {
+            "end_time": 880,
+            "start_time": 680,
+            "text": "天"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "路"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1160,
+            "text": "过"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "花"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1640,
+            "text": "店"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1800,
+            "text": "，"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2480,
+            "text": "我"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2720,
+            "text": "看"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2840,
+            "text": "到"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "一"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3240,
+            "text": "朵"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3720,
+            "text": "和"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4000,
+            "text": "你"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4200,
+            "text": "笑"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4480,
+            "text": "起"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4680,
+            "text": "来"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4840,
+            "text": "很"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5040,
+            "text": "像"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5280,
+            "text": "的"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5520,
+            "text": "花"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5760,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "今天路过花店，我看到一朵和你笑起来很像的花。"
+  }
+}

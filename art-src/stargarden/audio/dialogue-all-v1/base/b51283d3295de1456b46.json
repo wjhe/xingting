@@ -1,0 +1,81 @@
+{
+  "src": "b51283d3295de1456b46.wav",
+  "duration": 3.7,
+  "gain": 1.868474719787335,
+  "source_sha256": "697a12d2d964e7168769a0db7ebe31a29f667648d6757c9820a464ac0fe40277",
+  "id": "event.daily_winter_pocket.choice.1",
+  "text": "留几颗带给茶屋的朋友",
+  "group": "event:daily_winter_pocket",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2080,
+        "start_time": 120,
+        "text": "留几颗带给茶屋的朋友",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 120,
+            "text": "留"
+          },
+          {
+            "end_time": 560,
+            "start_time": 400,
+            "text": "几"
+          },
+          {
+            "end_time": 760,
+            "start_time": 560,
+            "text": "颗"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 800,
+            "text": "带"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1000,
+            "text": "给"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1120,
+            "text": "茶"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1440,
+            "text": "屋"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1640,
+            "text": "的"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1800,
+            "text": "朋"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1960,
+            "text": "友"
+          }
+        ]
+      }
+    ],
+    "text": "留几颗带给茶屋的朋友"
+  }
+}

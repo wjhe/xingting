@@ -1,0 +1,171 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "533a61c0-1c62-4f74-9e70-a2ffbb9f2bff",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温和、自然、像在回忆生活小事。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“农场帮工回来，她一遍遍清点工资，把钱袋的绳结系得很紧。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050519532A022F5F14CA91EE6279",
+  "response": {
+    "duration": 7.3,
+    "original_duration": 7.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 6960,
+          "start_time": 280,
+          "text": "农场帮工回来，她一遍遍清点工资，把钱袋的绳结系得很紧。",
+          "words": [
+            {
+              "end_time": 560,
+              "start_time": 280,
+              "text": "农"
+            },
+            {
+              "end_time": 800,
+              "start_time": 560,
+              "text": "场"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 920,
+              "text": "帮"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1240,
+              "text": "工"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1440,
+              "text": "回"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1600,
+              "text": "来"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1840,
+              "text": "，"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2440,
+              "text": "她"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2640,
+              "text": "一"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2840,
+              "text": "遍"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3120,
+              "text": "遍"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3360,
+              "text": "清"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3600,
+              "text": "点"
+            },
+            {
+              "end_time": 4040,
+              "start_time": 3880,
+              "text": "工"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4040,
+              "text": "资"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4320,
+              "text": "，"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4680,
+              "text": "把"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4920,
+              "text": "钱"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5200,
+              "text": "袋"
+            },
+            {
+              "end_time": 5560,
+              "start_time": 5400,
+              "text": "的"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5560,
+              "text": "绳"
+            },
+            {
+              "end_time": 5920,
+              "start_time": 5840,
+              "text": "结"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6200,
+              "text": "系"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6360,
+              "text": "得"
+            },
+            {
+              "end_time": 6720,
+              "start_time": 6560,
+              "text": "很"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6720,
+              "text": "紧"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6960,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "农场帮工回来，她一遍遍清点工资，把钱袋的绳结系得很紧。"
+    }
+  }
+}

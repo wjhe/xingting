@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "4cf23f34-21b4-488a-ba16-2a8776f9dcae",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：自然入戏，像一个正在成长的孩子直接说话，不朗读叙述。以故事中同一个女孩的声音直接说出台词。\n请完整念出以下文本：“那时候的字，怎么这么小？”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050541132E33C5E67E012286B729",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3360,
+          "start_time": 560,
+          "text": "那时候的字，怎么这么小？",
+          "words": [
+            {
+              "end_time": 840,
+              "start_time": 560,
+              "text": "那"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 840,
+              "text": "时"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 1000,
+              "text": "候"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1160,
+              "text": "的"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1400,
+              "text": "字"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1720,
+              "text": "，"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2360,
+              "text": "怎"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2600,
+              "text": "么"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2720,
+              "text": "这"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2880,
+              "text": "么"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 2960,
+              "text": "小"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3360,
+              "text": "？"
+            }
+          ]
+        }
+      ],
+      "text": "那时候的字，怎么这么小？"
+    }
+  }
+}

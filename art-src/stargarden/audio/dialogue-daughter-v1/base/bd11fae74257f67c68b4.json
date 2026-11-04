@@ -1,0 +1,91 @@
+{
+  "src": "bd11fae74257f67c68b4.wav",
+  "duration": 3.9,
+  "gain": 1.0041025271278705,
+  "source_sha256": "5a43a7944a3b6809353517165afb08dc2265f75fe2e7cae8b32ab197f25c8451",
+  "id": "dialogue.flowers.outcome1.0",
+  "text": "明年这里会是一座小花园。",
+  "group": "event:flowers",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3240,
+        "start_time": 840,
+        "text": "明年这里会是一座小花园。",
+        "words": [
+          {
+            "end_time": 1080,
+            "start_time": 840,
+            "text": "明"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1080,
+            "text": "年"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "这"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "里"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "会"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2120,
+            "text": "是"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2280,
+            "text": "一"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2480,
+            "text": "座"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2680,
+            "text": "小"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "花"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3080,
+            "text": "园"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "明年这里会是一座小花园。"
+  }
+}

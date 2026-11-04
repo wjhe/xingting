@@ -1,0 +1,86 @@
+{
+  "src": "b8a8108c88d28f1f932c.wav",
+  "duration": 3.9,
+  "gain": 2.299823239422696,
+  "source_sha256": "83a90964ad8297e389e7f2f6465505913d51cdec8dd07e804c105fcbee826499",
+  "id": "event.dream.choice.1",
+  "text": "找到你真正喜欢的事就好",
+  "group": "event:dream",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 360,
+        "text": "找到你真正喜欢的事就好",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 360,
+            "text": "找"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "到"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 800,
+            "text": "你"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "真"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1160,
+            "text": "正"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1360,
+            "text": "喜"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1520,
+            "text": "欢"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1640,
+            "text": "的"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1880,
+            "text": "事"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2120,
+            "text": "就"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2360,
+            "text": "好"
+          }
+        ]
+      }
+    ],
+    "text": "找到你真正喜欢的事就好"
+  }
+}

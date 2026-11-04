@@ -1,0 +1,90 @@
+{
+  "src": "a23bfeda7fbba17d7be8.wav",
+  "duration": 3.9,
+  "gain": 2.0272949010939607,
+  "source_sha256": "6194ae6b01c9ce5b5cd5ae2800135dce2ef951023c895b5fbb180e112ea48c1c",
+  "id": "event.independent.choice.1",
+  "text": "留一半，帮她存下另一半",
+  "group": "event:independent",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3640,
+        "start_time": 1080,
+        "text": "留一半，帮她存下另一半。",
+        "words": [
+          {
+            "end_time": 1320,
+            "start_time": 1080,
+            "text": "留"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "一"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "半"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1760,
+            "text": "，"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2120,
+            "text": "帮"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2400,
+            "text": "她"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "存"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2920,
+            "text": "下"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3160,
+            "text": "另"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3360,
+            "text": "一"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3520,
+            "text": "半"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "留一半，帮她存下另一半。"
+  }
+}

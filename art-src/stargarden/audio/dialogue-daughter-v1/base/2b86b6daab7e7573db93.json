@@ -1,0 +1,146 @@
+{
+  "src": "2b86b6daab7e7573db93.wav",
+  "duration": 6.4,
+  "gain": 1.5768225877166757,
+  "source_sha256": "c6b3cb6bc615b18cba75cee78767f46f426d043605664ddddff6ef2b3d9646d9",
+  "id": "talk.3",
+  "text": "如果愿望可以装进口袋，我想把每一天都带在身上。",
+  "group": "talk",
+  "role": "talk",
+  "emotion": "亲密、自然，像和养育者说悄悄话",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6200,
+        "start_time": 280,
+        "text": "如果愿望可以装进口袋，我想把每一天都带在身上。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 280,
+            "text": "如"
+          },
+          {
+            "end_time": 640,
+            "start_time": 480,
+            "text": "果"
+          },
+          {
+            "end_time": 800,
+            "start_time": 640,
+            "text": "愿"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 960,
+            "text": "望"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1240,
+            "text": "可"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1360,
+            "text": "以"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1480,
+            "text": "装"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "进"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2040,
+            "text": "口"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2320,
+            "text": "袋"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2480,
+            "text": "，"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3520,
+            "text": "我"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 3800,
+            "text": "想"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4160,
+            "text": "把"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4520,
+            "text": "每"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4760,
+            "text": "一"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4920,
+            "text": "天"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5160,
+            "text": "都"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5480,
+            "text": "带"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5640,
+            "text": "在"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "身"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6000,
+            "text": "上"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6200,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "如果愿望可以装进口袋，我想把每一天都带在身上。"
+  }
+}

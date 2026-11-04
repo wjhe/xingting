@@ -1,0 +1,76 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "6bd792a1-3bf8-413b-b0f1-711ce1b4e8a8",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“请教照顾花圃的人”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105052358DDD7694B3096A091E8E4",
+  "response": {
+    "duration": 3.28,
+    "original_duration": 3.28,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2840,
+          "start_time": 0,
+          "text": "请教照顾花圃的人",
+          "words": [
+            {
+              "end_time": 40,
+              "start_time": 0,
+              "text": "请"
+            },
+            {
+              "end_time": 80,
+              "start_time": 40,
+              "text": "教"
+            },
+            {
+              "end_time": 120,
+              "start_time": 80,
+              "text": "照"
+            },
+            {
+              "end_time": 160,
+              "start_time": 120,
+              "text": "顾"
+            },
+            {
+              "end_time": 200,
+              "start_time": 160,
+              "text": "花"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 200,
+              "text": "圃"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2360,
+              "text": "的"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2600,
+              "text": "人"
+            }
+          ]
+        }
+      ],
+      "text": "请教照顾花圃的人"
+    }
+  }
+}

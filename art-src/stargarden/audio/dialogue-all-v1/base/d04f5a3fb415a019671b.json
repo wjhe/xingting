@@ -1,0 +1,76 @@
+{
+  "src": "d04f5a3fb415a019671b.wav",
+  "duration": 3.28,
+  "gain": 1.6723770487552794,
+  "source_sha256": "49a0d4a1a059811bb1dbcdd7f22d6883cd3652b1651e01fb286613c5d2e055d3",
+  "id": "event.daily_winter_pocket.choice.0",
+  "text": "一起坐下来慢慢吃",
+  "group": "event:daily_winter_pocket",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 920,
+        "text": "一起坐下来慢慢吃。",
+        "words": [
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "一"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1120,
+            "text": "起"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1360,
+            "text": "坐"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "下"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1840,
+            "text": "来"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "慢"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2320,
+            "text": "慢"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2480,
+            "text": "吃"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2800,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "一起坐下来慢慢吃。"
+  }
+}

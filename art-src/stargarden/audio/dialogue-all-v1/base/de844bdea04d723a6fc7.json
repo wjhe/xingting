@@ -1,0 +1,66 @@
+{
+  "src": "de844bdea04d723a6fc7.wav",
+  "duration": 3.08,
+  "gain": 1.1559314677266403,
+  "source_sha256": "b8d356e690f73398174d2d7e4e09f2aa3e8d63e0fc871f89b474d331bd1f2426",
+  "id": "event.side_nora_2.choice.0",
+  "text": "请诺拉帮忙问候",
+  "group": "event:side_nora_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2520,
+        "start_time": 520,
+        "text": "请诺拉帮忙问候",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 520,
+            "text": "请"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 960,
+            "text": "诺"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1280,
+            "text": "拉"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "帮"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "忙"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "问"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "候"
+          }
+        ]
+      }
+    ],
+    "text": "请诺拉帮忙问候"
+  }
+}

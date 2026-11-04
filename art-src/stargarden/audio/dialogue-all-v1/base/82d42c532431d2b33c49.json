@@ -1,0 +1,101 @@
+{
+  "src": "82d42c532431d2b33c49.wav",
+  "duration": 4.58,
+  "gain": 1.2659384270821756,
+  "source_sha256": "b71da699fef29c0fb4e63446d41fc56c8877fba6fb31f1e4a020e4fdac2bdcab",
+  "id": "event.exam.choice.1",
+  "text": "告诉她，犯错也是成长的一部分",
+  "group": "event:exam",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4040,
+        "start_time": 400,
+        "text": "告诉她，犯错也是成长的一部分",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "告"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "诉"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 800,
+            "text": "她"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 1040,
+            "text": "，"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1840,
+            "text": "犯"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2160,
+            "text": "错"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2560,
+            "text": "也"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2760,
+            "text": "是"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2880,
+            "text": "成"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3120,
+            "text": "长"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3360,
+            "text": "的"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3560,
+            "text": "一"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3720,
+            "text": "部"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3840,
+            "text": "分"
+          }
+        ]
+      }
+    ],
+    "text": "告诉她，犯错也是成长的一部分"
+  }
+}

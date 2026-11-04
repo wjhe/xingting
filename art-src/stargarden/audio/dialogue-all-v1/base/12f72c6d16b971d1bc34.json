@@ -1,0 +1,91 @@
+{
+  "src": "12f72c6d16b971d1bc34.wav",
+  "duration": 3.5,
+  "gain": 1.2997215246446714,
+  "source_sha256": "40890c16b8756522f14f602542ab6413d97960802271b434f9c2fbad5410b4f2",
+  "id": "event.side_rowan_3.choice.1",
+  "text": "保持距离，帮助旁边的小孩",
+  "group": "event:side_rowan_3",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3280,
+        "start_time": 440,
+        "text": "保持距离，帮助旁边的小孩",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 440,
+            "text": "保"
+          },
+          {
+            "end_time": 840,
+            "start_time": 600,
+            "text": "持"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "距"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "离"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1400,
+            "text": "，"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "帮"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2120,
+            "text": "助"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2400,
+            "text": "旁"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2640,
+            "text": "边"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2760,
+            "text": "的"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2960,
+            "text": "小"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3080,
+            "text": "孩"
+          }
+        ]
+      }
+    ],
+    "text": "保持距离，帮助旁边的小孩"
+  }
+}

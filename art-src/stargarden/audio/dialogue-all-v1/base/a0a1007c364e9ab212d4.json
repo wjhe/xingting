@@ -1,0 +1,70 @@
+{
+  "src": "a0a1007c364e9ab212d4.wav",
+  "duration": 3.28,
+  "gain": 1.1443958525625124,
+  "source_sha256": "13d948abb9f97569b182921e34c423b8187c0bacd60b22bd1752d2a65edde311",
+  "id": "event.side_mira_4.choice.1",
+  "text": "留一格给后来的人",
+  "group": "event:side_mira_4",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 520,
+        "text": "留一格给后来的人",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 520,
+            "text": "留"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 840,
+            "text": "一"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "格"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1520,
+            "text": "给"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "后"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "来"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "的"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2400,
+            "text": "人"
+          }
+        ]
+      }
+    ],
+    "text": "留一格给后来的人"
+  }
+}

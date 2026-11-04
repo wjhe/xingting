@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "e83dd955-ef5d-40e7-8450-42e6882a1a3b",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“一起给花盆换一个位置”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505262285D7D6F95F3CB118E88D",
+  "response": {
+    "duration": 3.7,
+    "original_duration": 3.7,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3200,
+          "start_time": 680,
+          "text": "一起给花盆换一个位置",
+          "words": [
+            {
+              "end_time": 960,
+              "start_time": 680,
+              "text": "一"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 960,
+              "text": "起"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1320,
+              "text": "给"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1640,
+              "text": "花"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 1960,
+              "text": "盆"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2360,
+              "text": "换"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2640,
+              "text": "一"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2760,
+              "text": "个"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2840,
+              "text": "位"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 3040,
+              "text": "置"
+            }
+          ]
+        }
+      ],
+      "text": "一起给花盆换一个位置"
+    }
+  }
+}

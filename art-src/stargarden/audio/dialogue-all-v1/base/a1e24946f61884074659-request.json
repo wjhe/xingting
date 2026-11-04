@@ -1,0 +1,81 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "e9a9e672-f5f8-428d-99ad-7de3587d70fe",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“用纸笔在旁边记录”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050525588770AD497466331B768B",
+  "response": {
+    "duration": 3.28,
+    "original_duration": 3.28,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2640,
+          "start_time": 360,
+          "text": "用纸笔在旁边记录。",
+          "words": [
+            {
+              "end_time": 640,
+              "start_time": 360,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "start_time": 760,
+              "text": "纸"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1080,
+              "text": "笔"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1440,
+              "text": "在"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1720,
+              "text": "旁"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1920,
+              "text": "边"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2200,
+              "text": "记"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2360,
+              "text": "录"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2640,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "用纸笔在旁边记录。"
+    }
+  }
+}

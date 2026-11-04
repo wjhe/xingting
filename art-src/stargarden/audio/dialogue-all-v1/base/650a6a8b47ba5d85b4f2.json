@@ -1,0 +1,228 @@
+{
+  "src": "650a6a8b47ba5d85b4f2.wav",
+  "duration": 9.5,
+  "gain": 1.4802230859324004,
+  "source_sha256": "01f5d632d281bdd6425eaa35975f3fa496b4059416b1d75895640498547ba4d3",
+  "id": "event.daily_dance_steps.text",
+  "text": "她在厨房外悄悄练舞，脚步声总在第三拍慢下来。发现你在听，她不好意思地停住了。",
+  "group": "event:daily_dance_steps",
+  "role": "story",
+  "emotion": "温和、自然、像在回忆生活小事",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5400,
+        "start_time": 360,
+        "text": "她在厨房外悄悄练舞，脚步声总在第三拍慢下来。",
+        "words": [
+          {
+            "end_time": 560,
+            "start_time": 360,
+            "text": "她"
+          },
+          {
+            "end_time": 720,
+            "start_time": 560,
+            "text": "在"
+          },
+          {
+            "end_time": 960,
+            "start_time": 720,
+            "text": "厨"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "房"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "外"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1440,
+            "text": "悄"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1680,
+            "text": "悄"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1920,
+            "text": "练"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2200,
+            "text": "舞"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2280,
+            "text": "，"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2880,
+            "text": "脚"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3160,
+            "text": "步"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3400,
+            "text": "声"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3680,
+            "text": "总"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3880,
+            "text": "在"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4080,
+            "text": "第"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4240,
+            "text": "三"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4400,
+            "text": "拍"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4720,
+            "text": "慢"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "下"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5160,
+            "text": "来"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5400,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9240,
+        "start_time": 6080,
+        "text": "发现你在听，她不好意思地停住了。",
+        "words": [
+          {
+            "end_time": 6240,
+            "start_time": 6080,
+            "text": "发"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6240,
+            "text": "现"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6360,
+            "text": "你"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6520,
+            "text": "在"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6760,
+            "text": "听"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 7040,
+            "text": "，"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7520,
+            "text": "她"
+          },
+          {
+            "end_time": 7840,
+            "start_time": 7720,
+            "text": "不"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7840,
+            "text": "好"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7960,
+            "text": "意"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8080,
+            "text": "思"
+          },
+          {
+            "end_time": 8480,
+            "start_time": 8200,
+            "text": "地"
+          },
+          {
+            "end_time": 8720,
+            "start_time": 8480,
+            "text": "停"
+          },
+          {
+            "end_time": 9000,
+            "start_time": 8720,
+            "text": "住"
+          },
+          {
+            "end_time": 9240,
+            "start_time": 9000,
+            "text": "了"
+          },
+          {
+            "end_time": 9240,
+            "start_time": 9240,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她在厨房外悄悄练舞，脚步声总在第三拍慢下来。发现你在听，她不好意思地停住了。"
+  }
+}

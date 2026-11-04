@@ -8,7 +8,7 @@
     "grown": -1
   },
   "catalog_count": 507,
-  "clip_count": 203,
+  "clip_count": 382,
   "complete": false,
   "failures": [],
   "clips": [
@@ -139,9 +139,27 @@
       "text": "我……没有名字。"
     },
     {
-      "id": "opening.4.10",
+      "id": "opening.4.10.dad",
       "age": "child",
-      "src": "child/2875795e26671c87c727-child.wav",
+      "src": "child/774e6d12fd14a8179e45-child.wav",
+      "parent": "爸爸",
+      "group": "opening",
+      "role": "dialogue",
+      "text": "爸爸。……从今天起，这里就是我的家了吗？"
+    },
+    {
+      "id": "opening.4.10.mom",
+      "age": "child",
+      "src": "child/4dfa1fc8b43b521fb800-child.wav",
+      "parent": "妈妈",
+      "group": "opening",
+      "role": "dialogue",
+      "text": "妈妈。……从今天起，这里就是我的家了吗？"
+    },
+    {
+      "id": "opening.4.11",
+      "age": "child",
+      "src": "child/6baaac6089adbb81701a-child.wav",
       "parent": null,
       "group": "opening",
       "role": "story",
@@ -209,24 +227,6 @@
       "group": "opening",
       "role": "dialogue",
       "text": "那，我该怎么称呼你呢？"
-    },
-    {
-      "id": "opening.4.9.dad",
-      "age": "child",
-      "src": "child/4d36565b8195c63fff31-child.wav",
-      "parent": "爸爸",
-      "group": "opening",
-      "role": "dialogue",
-      "text": "爸爸。……从今天起，这里就是我的家了吗？"
-    },
-    {
-      "id": "opening.4.9.mom",
-      "age": "child",
-      "src": "child/81094c38e936baba04a7-child.wav",
-      "parent": "妈妈",
-      "group": "opening",
-      "role": "dialogue",
-      "text": "妈妈。……从今天起，这里就是我的家了吗？"
     },
     {
       "id": "ending.artist",
@@ -1838,6 +1838,1617 @@
       "group": "event:side_rowan_1",
       "role": "story",
       "text": "练习对打时，她下意识躲开了木剑。艾莉为自己不够勇敢而脸红，罗恩却没有责怪。"
+    },
+    {
+      "id": "event.side_rowan_2.text",
+      "age": "child",
+      "src": "child/df96e1b091039d5f6f89-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "story",
+      "text": "她第一次输给了比自己年纪小的学员。回家的路上，她把木剑藏进包底。"
+    },
+    {
+      "id": "event.side_rowan_2.text",
+      "age": "teen",
+      "src": "teen/df96e1b091039d5f6f89-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "story",
+      "text": "她第一次输给了比自己年纪小的学员。回家的路上，她把木剑藏进包底。"
+    },
+    {
+      "id": "event.side_rowan_2.text",
+      "age": "grown",
+      "src": "grown/df96e1b091039d5f6f89-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "story",
+      "text": "她第一次输给了比自己年纪小的学员。回家的路上，她把木剑藏进包底。"
+    },
+    {
+      "id": "event.side_rowan_3.text",
+      "age": "child",
+      "src": "child/c6dfdbafc240263822f8-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "story",
+      "text": "集市上有人为摊位争吵，艾莉想到罗恩教过的话，却不确定该不该站出来。"
+    },
+    {
+      "id": "event.side_rowan_3.text",
+      "age": "teen",
+      "src": "teen/c6dfdbafc240263822f8-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "story",
+      "text": "集市上有人为摊位争吵，艾莉想到罗恩教过的话，却不确定该不该站出来。"
+    },
+    {
+      "id": "event.side_rowan_3.text",
+      "age": "grown",
+      "src": "grown/c6dfdbafc240263822f8-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "story",
+      "text": "集市上有人为摊位争吵，艾莉想到罗恩教过的话，却不确定该不该站出来。"
+    },
+    {
+      "id": "event.side_rowan_4.text",
+      "age": "teen",
+      "src": "teen/3183101bb91da42276c5-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_4",
+      "role": "story",
+      "text": "罗恩请她把旧木剑交给新学员。握柄上还有她早年留下的划痕，她忽然有些舍不得。"
+    },
+    {
+      "id": "event.side_rowan_4.text",
+      "age": "grown",
+      "src": "grown/3183101bb91da42276c5-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_4",
+      "role": "story",
+      "text": "罗恩请她把旧木剑交给新学员。握柄上还有她早年留下的划痕，她忽然有些舍不得。"
+    },
+    {
+      "id": "event.side_fern_0.choice.0",
+      "age": "child",
+      "src": "child/64275d8bfe29ced26a43-child.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "text": "约定范围，一起寻找"
+    },
+    {
+      "id": "event.side_fern_0.choice.0",
+      "age": "teen",
+      "src": "teen/64275d8bfe29ced26a43-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "text": "约定范围，一起寻找"
+    },
+    {
+      "id": "event.side_fern_0.choice.0",
+      "age": "grown",
+      "src": "grown/64275d8bfe29ced26a43-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "text": "约定范围，一起寻找"
+    },
+    {
+      "id": "event.side_fern_0.choice.1",
+      "age": "child",
+      "src": "child/2cdbae8ab50225ce7424-child.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "text": "先把消息告诉巡林员"
+    },
+    {
+      "id": "event.side_fern_0.choice.1",
+      "age": "teen",
+      "src": "teen/2cdbae8ab50225ce7424-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "text": "先把消息告诉巡林员"
+    },
+    {
+      "id": "event.side_fern_0.choice.1",
+      "age": "grown",
+      "src": "grown/2cdbae8ab50225ce7424-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "choice",
+      "text": "先把消息告诉巡林员"
+    },
+    {
+      "id": "event.side_fern_1.choice.0",
+      "age": "child",
+      "src": "child/357580a18b4d77cc44c8-child.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "text": "承认不知道，查阅图册"
+    },
+    {
+      "id": "event.side_fern_1.choice.0",
+      "age": "teen",
+      "src": "teen/357580a18b4d77cc44c8-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "text": "承认不知道，查阅图册"
+    },
+    {
+      "id": "event.side_fern_1.choice.0",
+      "age": "grown",
+      "src": "grown/357580a18b4d77cc44c8-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "text": "承认不知道，查阅图册"
+    },
+    {
+      "id": "event.side_fern_1.choice.1",
+      "age": "child",
+      "src": "child/c7947ea0d494b370d536-child.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "text": "带回给老师辨认"
+    },
+    {
+      "id": "event.side_fern_1.choice.1",
+      "age": "teen",
+      "src": "teen/c7947ea0d494b370d536-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "text": "带回给老师辨认"
+    },
+    {
+      "id": "event.side_fern_1.choice.1",
+      "age": "grown",
+      "src": "grown/c7947ea0d494b370d536-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "choice",
+      "text": "带回给老师辨认"
+    },
+    {
+      "id": "event.side_fern_2.choice.0",
+      "age": "child",
+      "src": "child/4e350a51444104d74571-child.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "text": "坚持今天先安全返回"
+    },
+    {
+      "id": "event.side_fern_2.choice.0",
+      "age": "teen",
+      "src": "teen/4e350a51444104d74571-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "text": "坚持今天先安全返回"
+    },
+    {
+      "id": "event.side_fern_2.choice.0",
+      "age": "grown",
+      "src": "grown/4e350a51444104d74571-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "text": "坚持今天先安全返回"
+    },
+    {
+      "id": "event.side_fern_2.choice.1",
+      "age": "child",
+      "src": "child/d12c7182ba25a0c3cf4e-child.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "text": "记下路线，另定出发时间"
+    },
+    {
+      "id": "event.side_fern_2.choice.1",
+      "age": "teen",
+      "src": "teen/d12c7182ba25a0c3cf4e-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "text": "记下路线，另定出发时间"
+    },
+    {
+      "id": "event.side_fern_2.choice.1",
+      "age": "grown",
+      "src": "grown/d12c7182ba25a0c3cf4e-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "choice",
+      "text": "记下路线，另定出发时间"
+    },
+    {
+      "id": "event.side_fern_3.choice.0",
+      "age": "child",
+      "src": "child/6b2d9bfc51aedff94596-child.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "text": "先记录位置并报告巡林员"
+    },
+    {
+      "id": "event.side_fern_3.choice.0",
+      "age": "teen",
+      "src": "teen/6b2d9bfc51aedff94596-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "text": "先记录位置并报告巡林员"
+    },
+    {
+      "id": "event.side_fern_3.choice.0",
+      "age": "grown",
+      "src": "grown/6b2d9bfc51aedff94596-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "text": "先记录位置并报告巡林员"
+    },
+    {
+      "id": "event.side_fern_3.choice.1",
+      "age": "child",
+      "src": "child/c6336338377033a10362-child.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "text": "先照顾受损的幼树"
+    },
+    {
+      "id": "event.side_fern_3.choice.1",
+      "age": "teen",
+      "src": "teen/c6336338377033a10362-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "text": "先照顾受损的幼树"
+    },
+    {
+      "id": "event.side_fern_3.choice.1",
+      "age": "grown",
+      "src": "grown/c6336338377033a10362-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "choice",
+      "text": "先照顾受损的幼树"
+    },
+    {
+      "id": "event.side_fern_4.choice.0",
+      "age": "teen",
+      "src": "teen/fa10136f4f91f3dfbfb5-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "choice",
+      "text": "一起检查每个安全标记"
+    },
+    {
+      "id": "event.side_fern_4.choice.0",
+      "age": "grown",
+      "src": "grown/fa10136f4f91f3dfbfb5-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "choice",
+      "text": "一起检查每个安全标记"
+    },
+    {
+      "id": "event.side_fern_4.choice.1",
+      "age": "teen",
+      "src": "teen/9a8cbd653cf26879e4b9-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "choice",
+      "text": "把地图送给第一次探索的人"
+    },
+    {
+      "id": "event.side_fern_4.choice.1",
+      "age": "grown",
+      "src": "grown/9a8cbd653cf26879e4b9-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "choice",
+      "text": "把地图送给第一次探索的人"
+    },
+    {
+      "id": "event.side_mira_0.choice.0",
+      "age": "child",
+      "src": "child/1efe2e1cee9063e2c61a-child.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "text": "借给她一支笔"
+    },
+    {
+      "id": "event.side_mira_0.choice.0",
+      "age": "teen",
+      "src": "teen/1efe2e1cee9063e2c61a-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "text": "借给她一支笔"
+    },
+    {
+      "id": "event.side_mira_0.choice.0",
+      "age": "grown",
+      "src": "grown/1efe2e1cee9063e2c61a-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "text": "借给她一支笔"
+    },
+    {
+      "id": "event.side_mira_0.choice.1",
+      "age": "child",
+      "src": "child/bcc8abc648c84467ac0a-child.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "text": "先问她需不需要帮忙"
+    },
+    {
+      "id": "event.side_mira_0.choice.1",
+      "age": "teen",
+      "src": "teen/bcc8abc648c84467ac0a-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "text": "先问她需不需要帮忙"
+    },
+    {
+      "id": "event.side_mira_0.choice.1",
+      "age": "grown",
+      "src": "grown/bcc8abc648c84467ac0a-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "choice",
+      "text": "先问她需不需要帮忙"
+    },
+    {
+      "id": "event.side_mira_1.choice.0",
+      "age": "child",
+      "src": "child/be49d60b02855380f7e4-child.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "text": "告诉她书比不上朋友重要"
+    },
+    {
+      "id": "event.side_mira_1.choice.0",
+      "age": "teen",
+      "src": "teen/be49d60b02855380f7e4-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "text": "告诉她书比不上朋友重要"
+    },
+    {
+      "id": "event.side_mira_1.choice.0",
+      "age": "grown",
+      "src": "grown/be49d60b02855380f7e4-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "text": "告诉她书比不上朋友重要"
+    },
+    {
+      "id": "event.side_mira_1.choice.1",
+      "age": "child",
+      "src": "child/42274d73c483ec68fb32-child.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "text": "一起学会保护借来的东西"
+    },
+    {
+      "id": "event.side_mira_1.choice.1",
+      "age": "teen",
+      "src": "teen/42274d73c483ec68fb32-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "text": "一起学会保护借来的东西"
+    },
+    {
+      "id": "event.side_mira_1.choice.1",
+      "age": "grown",
+      "src": "grown/42274d73c483ec68fb32-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "choice",
+      "text": "一起学会保护借来的东西"
+    },
+    {
+      "id": "event.side_mira_2.choice.0",
+      "age": "child",
+      "src": "child/85f804e0a83f06cf7235-child.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "text": "交换理由，听完再回答"
+    },
+    {
+      "id": "event.side_mira_2.choice.0",
+      "age": "teen",
+      "src": "teen/85f804e0a83f06cf7235-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "text": "交换理由，听完再回答"
+    },
+    {
+      "id": "event.side_mira_2.choice.0",
+      "age": "grown",
+      "src": "grown/85f804e0a83f06cf7235-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "text": "交换理由，听完再回答"
+    },
+    {
+      "id": "event.side_mira_2.choice.1",
+      "age": "child",
+      "src": "child/4ef55d40af968b753a97-child.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "text": "一起找老师讨论"
+    },
+    {
+      "id": "event.side_mira_2.choice.1",
+      "age": "teen",
+      "src": "teen/4ef55d40af968b753a97-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "text": "一起找老师讨论"
+    },
+    {
+      "id": "event.side_mira_2.choice.1",
+      "age": "grown",
+      "src": "grown/4ef55d40af968b753a97-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "choice",
+      "text": "一起找老师讨论"
+    },
+    {
+      "id": "event.side_mira_3.choice.0",
+      "age": "child",
+      "src": "child/69ff7044307b8cd7a1f9-child.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "text": "寄出信，把想念说清楚"
+    },
+    {
+      "id": "event.side_mira_3.choice.0",
+      "age": "teen",
+      "src": "teen/69ff7044307b8cd7a1f9-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "text": "寄出信，把想念说清楚"
+    },
+    {
+      "id": "event.side_mira_3.choice.0",
+      "age": "grown",
+      "src": "grown/69ff7044307b8cd7a1f9-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "text": "寄出信，把想念说清楚"
+    },
+    {
+      "id": "event.side_mira_3.choice.1",
+      "age": "child",
+      "src": "child/0fbcf655a015cf6c78b1-child.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "text": "先问问老师她的近况"
+    },
+    {
+      "id": "event.side_mira_3.choice.1",
+      "age": "teen",
+      "src": "teen/0fbcf655a015cf6c78b1-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "text": "先问问老师她的近况"
+    },
+    {
+      "id": "event.side_mira_3.choice.1",
+      "age": "grown",
+      "src": "grown/0fbcf655a015cf6c78b1-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "choice",
+      "text": "先问问老师她的近况"
+    },
+    {
+      "id": "event.side_mira_4.choice.0",
+      "age": "teen",
+      "src": "teen/cd03f9824431d77f4a7d-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "choice",
+      "text": "每人挑三本喜欢的书"
+    },
+    {
+      "id": "event.side_mira_4.choice.0",
+      "age": "grown",
+      "src": "grown/cd03f9824431d77f4a7d-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "choice",
+      "text": "每人挑三本喜欢的书"
+    },
+    {
+      "id": "event.side_mira_4.choice.1",
+      "age": "teen",
+      "src": "teen/a0a1007c364e9ab212d4-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "choice",
+      "text": "留一格给后来的人"
+    },
+    {
+      "id": "event.side_mira_4.choice.1",
+      "age": "grown",
+      "src": "grown/a0a1007c364e9ab212d4-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "choice",
+      "text": "留一格给后来的人"
+    },
+    {
+      "id": "event.side_nora_0.choice.0",
+      "age": "child",
+      "src": "child/b4c6b9e756f95cefd282-child.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "text": "问问客人的真实感受"
+    },
+    {
+      "id": "event.side_nora_0.choice.0",
+      "age": "teen",
+      "src": "teen/b4c6b9e756f95cefd282-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "text": "问问客人的真实感受"
+    },
+    {
+      "id": "event.side_nora_0.choice.0",
+      "age": "grown",
+      "src": "grown/b4c6b9e756f95cefd282-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "text": "问问客人的真实感受"
+    },
+    {
+      "id": "event.side_nora_0.choice.1",
+      "age": "child",
+      "src": "child/d5a45750a8a3081a46b7-child.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "text": "留一块自己尝，再继续练习"
+    },
+    {
+      "id": "event.side_nora_0.choice.1",
+      "age": "teen",
+      "src": "teen/d5a45750a8a3081a46b7-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "text": "留一块自己尝，再继续练习"
+    },
+    {
+      "id": "event.side_nora_0.choice.1",
+      "age": "grown",
+      "src": "grown/d5a45750a8a3081a46b7-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "choice",
+      "text": "留一块自己尝，再继续练习"
+    },
+    {
+      "id": "event.side_nora_1.choice.0",
+      "age": "child",
+      "src": "child/c2d75f57921d84433b2b-child.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "text": "陪她道歉并重新送茶"
+    },
+    {
+      "id": "event.side_nora_1.choice.0",
+      "age": "teen",
+      "src": "teen/c2d75f57921d84433b2b-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "text": "陪她道歉并重新送茶"
+    },
+    {
+      "id": "event.side_nora_1.choice.0",
+      "age": "grown",
+      "src": "grown/c2d75f57921d84433b2b-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "text": "陪她道歉并重新送茶"
+    },
+    {
+      "id": "event.side_nora_1.choice.1",
+      "age": "child",
+      "src": "child/a6096d68925e48100461-child.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "text": "请诺拉教她记订单的方法"
+    },
+    {
+      "id": "event.side_nora_1.choice.1",
+      "age": "teen",
+      "src": "teen/a6096d68925e48100461-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "text": "请诺拉教她记订单的方法"
+    },
+    {
+      "id": "event.side_nora_1.choice.1",
+      "age": "grown",
+      "src": "grown/a6096d68925e48100461-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_1",
+      "role": "choice",
+      "text": "请诺拉教她记订单的方法"
+    },
+    {
+      "id": "event.side_nora_2.choice.0",
+      "age": "child",
+      "src": "child/de844bdea04d723a6fc7-child.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "text": "请诺拉帮忙问候"
+    },
+    {
+      "id": "event.side_nora_2.choice.0",
+      "age": "teen",
+      "src": "teen/de844bdea04d723a6fc7-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "text": "请诺拉帮忙问候"
+    },
+    {
+      "id": "event.side_nora_2.choice.0",
+      "age": "grown",
+      "src": "grown/de844bdea04d723a6fc7-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "text": "请诺拉帮忙问候"
+    },
+    {
+      "id": "event.side_nora_2.choice.1",
+      "age": "child",
+      "src": "child/3a289f9c7eb91dbbe1e4-child.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "text": "为他留下一张问候卡"
+    },
+    {
+      "id": "event.side_nora_2.choice.1",
+      "age": "teen",
+      "src": "teen/3a289f9c7eb91dbbe1e4-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "text": "为他留下一张问候卡"
+    },
+    {
+      "id": "event.side_nora_2.choice.1",
+      "age": "grown",
+      "src": "grown/3a289f9c7eb91dbbe1e4-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_2",
+      "role": "choice",
+      "text": "为他留下一张问候卡"
+    },
+    {
+      "id": "event.side_nora_3.choice.0",
+      "age": "child",
+      "src": "child/86509b762418f4d2174a-child.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "text": "限定小份试做，慢慢调整"
+    },
+    {
+      "id": "event.side_nora_3.choice.0",
+      "age": "teen",
+      "src": "teen/86509b762418f4d2174a-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "text": "限定小份试做，慢慢调整"
+    },
+    {
+      "id": "event.side_nora_3.choice.0",
+      "age": "grown",
+      "src": "grown/86509b762418f4d2174a-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "text": "限定小份试做，慢慢调整"
+    },
+    {
+      "id": "event.side_nora_3.choice.1",
+      "age": "child",
+      "src": "child/14ae2176ae94844c92a6-child.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "text": "从家里熟悉的味道开始"
+    },
+    {
+      "id": "event.side_nora_3.choice.1",
+      "age": "teen",
+      "src": "teen/14ae2176ae94844c92a6-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "text": "从家里熟悉的味道开始"
+    },
+    {
+      "id": "event.side_nora_3.choice.1",
+      "age": "grown",
+      "src": "grown/14ae2176ae94844c92a6-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_3",
+      "role": "choice",
+      "text": "从家里熟悉的味道开始"
+    },
+    {
+      "id": "event.side_nora_4.choice.0",
+      "age": "teen",
+      "src": "teen/a296c5c680d34a1a2811-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_4",
+      "role": "choice",
+      "text": "大方写下自己的名字"
+    },
+    {
+      "id": "event.side_nora_4.choice.0",
+      "age": "grown",
+      "src": "grown/a296c5c680d34a1a2811-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_4",
+      "role": "choice",
+      "text": "大方写下自己的名字"
+    },
+    {
+      "id": "event.side_nora_4.choice.1",
+      "age": "teen",
+      "src": "teen/f5691a90cfcf90d496fc-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_4",
+      "role": "choice",
+      "text": "加上一句送给大家的感谢"
+    },
+    {
+      "id": "event.side_nora_4.choice.1",
+      "age": "grown",
+      "src": "grown/f5691a90cfcf90d496fc-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_4",
+      "role": "choice",
+      "text": "加上一句送给大家的感谢"
+    },
+    {
+      "id": "event.side_rowan_0.choice.0",
+      "age": "child",
+      "src": "child/fb474119e8967a114bc8-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "text": "认真完成基础练习"
+    },
+    {
+      "id": "event.side_rowan_0.choice.0",
+      "age": "teen",
+      "src": "teen/fb474119e8967a114bc8-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "text": "认真完成基础练习"
+    },
+    {
+      "id": "event.side_rowan_0.choice.0",
+      "age": "grown",
+      "src": "grown/fb474119e8967a114bc8-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "text": "认真完成基础练习"
+    },
+    {
+      "id": "event.side_rowan_0.choice.1",
+      "age": "child",
+      "src": "child/26a4c41db784b80fbcbc-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "text": "请教这项练习的用处"
+    },
+    {
+      "id": "event.side_rowan_0.choice.1",
+      "age": "teen",
+      "src": "teen/26a4c41db784b80fbcbc-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "text": "请教这项练习的用处"
+    },
+    {
+      "id": "event.side_rowan_0.choice.1",
+      "age": "grown",
+      "src": "grown/26a4c41db784b80fbcbc-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_0",
+      "role": "choice",
+      "text": "请教这项练习的用处"
+    },
+    {
+      "id": "event.side_rowan_1.choice.0",
+      "age": "child",
+      "src": "child/719932a36e97c3743d72-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "text": "肯定保护自己的判断"
+    },
+    {
+      "id": "event.side_rowan_1.choice.0",
+      "age": "teen",
+      "src": "teen/719932a36e97c3743d72-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "text": "肯定保护自己的判断"
+    },
+    {
+      "id": "event.side_rowan_1.choice.0",
+      "age": "grown",
+      "src": "grown/719932a36e97c3743d72-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "text": "肯定保护自己的判断"
+    },
+    {
+      "id": "event.side_rowan_1.choice.1",
+      "age": "child",
+      "src": "child/0752bb4dfa662a4567d1-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "text": "陪她慢慢重新练习"
+    },
+    {
+      "id": "event.side_rowan_1.choice.1",
+      "age": "teen",
+      "src": "teen/0752bb4dfa662a4567d1-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "text": "陪她慢慢重新练习"
+    },
+    {
+      "id": "event.side_rowan_1.choice.1",
+      "age": "grown",
+      "src": "grown/0752bb4dfa662a4567d1-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_1",
+      "role": "choice",
+      "text": "陪她慢慢重新练习"
+    },
+    {
+      "id": "event.side_rowan_2.choice.0",
+      "age": "child",
+      "src": "child/eaacf9e5ecea9872867c-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "text": "请她复盘做得最好的一招"
+    },
+    {
+      "id": "event.side_rowan_2.choice.0",
+      "age": "teen",
+      "src": "teen/eaacf9e5ecea9872867c-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "text": "请她复盘做得最好的一招"
+    },
+    {
+      "id": "event.side_rowan_2.choice.0",
+      "age": "grown",
+      "src": "grown/eaacf9e5ecea9872867c-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "text": "请她复盘做得最好的一招"
+    },
+    {
+      "id": "event.side_rowan_2.choice.1",
+      "age": "child",
+      "src": "child/9a71093298cf413f4919-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "text": "给她时间，再问要不要继续"
+    },
+    {
+      "id": "event.side_rowan_2.choice.1",
+      "age": "teen",
+      "src": "teen/9a71093298cf413f4919-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "text": "给她时间，再问要不要继续"
+    },
+    {
+      "id": "event.side_rowan_2.choice.1",
+      "age": "grown",
+      "src": "grown/9a71093298cf413f4919-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_2",
+      "role": "choice",
+      "text": "给她时间，再问要不要继续"
+    },
+    {
+      "id": "event.side_rowan_3.choice.0",
+      "age": "child",
+      "src": "child/7628db9cfbcbf76d39ab-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "text": "先请守卫与摊主一起商量"
+    },
+    {
+      "id": "event.side_rowan_3.choice.0",
+      "age": "teen",
+      "src": "teen/7628db9cfbcbf76d39ab-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "text": "先请守卫与摊主一起商量"
+    },
+    {
+      "id": "event.side_rowan_3.choice.0",
+      "age": "grown",
+      "src": "grown/7628db9cfbcbf76d39ab-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "text": "先请守卫与摊主一起商量"
+    },
+    {
+      "id": "event.side_rowan_3.choice.1",
+      "age": "child",
+      "src": "child/12f72c6d16b971d1bc34-child.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "text": "保持距离，帮助旁边的小孩"
+    },
+    {
+      "id": "event.side_rowan_3.choice.1",
+      "age": "teen",
+      "src": "teen/12f72c6d16b971d1bc34-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "text": "保持距离，帮助旁边的小孩"
+    },
+    {
+      "id": "event.side_rowan_3.choice.1",
+      "age": "grown",
+      "src": "grown/12f72c6d16b971d1bc34-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_3",
+      "role": "choice",
+      "text": "保持距离，帮助旁边的小孩"
+    },
+    {
+      "id": "event.side_rowan_4.choice.0",
+      "age": "teen",
+      "src": "teen/de36c831937a349ea067-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_4",
+      "role": "choice",
+      "text": "把划痕的故事讲给新人听"
+    },
+    {
+      "id": "event.side_rowan_4.choice.0",
+      "age": "grown",
+      "src": "grown/de36c831937a349ea067-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_4",
+      "role": "choice",
+      "text": "把划痕的故事讲给新人听"
+    },
+    {
+      "id": "event.side_rowan_4.choice.1",
+      "age": "teen",
+      "src": "teen/92574c5f7efe2ab0b15f-teen.wav",
+      "parent": null,
+      "group": "event:side_rowan_4",
+      "role": "choice",
+      "text": "留下木剑，另做一把送给新人"
+    },
+    {
+      "id": "event.side_rowan_4.choice.1",
+      "age": "grown",
+      "src": "grown/92574c5f7efe2ab0b15f-grown.wav",
+      "parent": null,
+      "group": "event:side_rowan_4",
+      "role": "choice",
+      "text": "留下木剑，另做一把送给新人"
+    },
+    {
+      "id": "event.side_fern_0.outcome.0",
+      "age": "child",
+      "src": "child/dc500608e6bba53fc192-child.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "result",
+      "text": "背包就在第一块路标后。菲恩感谢她，也记住了出发前确认物品的习惯。"
+    },
+    {
+      "id": "event.side_fern_0.outcome.0",
+      "age": "teen",
+      "src": "teen/dc500608e6bba53fc192-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "result",
+      "text": "背包就在第一块路标后。菲恩感谢她，也记住了出发前确认物品的习惯。"
+    },
+    {
+      "id": "event.side_fern_0.outcome.0",
+      "age": "grown",
+      "src": "grown/dc500608e6bba53fc192-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "result",
+      "text": "背包就在第一块路标后。菲恩感谢她，也记住了出发前确认物品的习惯。"
+    },
+    {
+      "id": "event.side_fern_0.outcome.1",
+      "age": "child",
+      "src": "child/54c58b47564beecc46e5-child.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "result",
+      "text": "巡林员很快找到背包，还教她们如何描述准确位置。"
+    },
+    {
+      "id": "event.side_fern_0.outcome.1",
+      "age": "teen",
+      "src": "teen/54c58b47564beecc46e5-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "result",
+      "text": "巡林员很快找到背包，还教她们如何描述准确位置。"
+    },
+    {
+      "id": "event.side_fern_0.outcome.1",
+      "age": "grown",
+      "src": "grown/54c58b47564beecc46e5-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_0",
+      "role": "result",
+      "text": "巡林员很快找到背包，还教她们如何描述准确位置。"
+    },
+    {
+      "id": "event.side_fern_1.outcome.0",
+      "age": "child",
+      "src": "child/605b7ff3ff9619803b40-child.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "result",
+      "text": "图册上的叶脉差别救了她们一次冒失。菲恩说不知道时停下也是本领。"
+    },
+    {
+      "id": "event.side_fern_1.outcome.0",
+      "age": "teen",
+      "src": "teen/605b7ff3ff9619803b40-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "result",
+      "text": "图册上的叶脉差别救了她们一次冒失。菲恩说不知道时停下也是本领。"
+    },
+    {
+      "id": "event.side_fern_1.outcome.0",
+      "age": "grown",
+      "src": "grown/605b7ff3ff9619803b40-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "result",
+      "text": "图册上的叶脉差别救了她们一次冒失。菲恩说不知道时停下也是本领。"
+    },
+    {
+      "id": "event.side_fern_1.outcome.1",
+      "age": "child",
+      "src": "child/b2ad1eeefaaef76acd02-child.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "result",
+      "text": "老师仔细讲解了区别。她们把新知识画进各自的采集本。"
+    },
+    {
+      "id": "event.side_fern_1.outcome.1",
+      "age": "teen",
+      "src": "teen/b2ad1eeefaaef76acd02-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "result",
+      "text": "老师仔细讲解了区别。她们把新知识画进各自的采集本。"
+    },
+    {
+      "id": "event.side_fern_1.outcome.1",
+      "age": "grown",
+      "src": "grown/b2ad1eeefaaef76acd02-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_1",
+      "role": "result",
+      "text": "老师仔细讲解了区别。她们把新知识画进各自的采集本。"
+    },
+    {
+      "id": "event.side_fern_2.outcome.0",
+      "age": "child",
+      "src": "child/9f3349a5896f294a5536-child.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "result",
+      "text": "第二天她们从容抵达花谷。那些花没有离开，约定也没有因为等待而变少。"
+    },
+    {
+      "id": "event.side_fern_2.outcome.0",
+      "age": "teen",
+      "src": "teen/9f3349a5896f294a5536-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "result",
+      "text": "第二天她们从容抵达花谷。那些花没有离开，约定也没有因为等待而变少。"
+    },
+    {
+      "id": "event.side_fern_2.outcome.0",
+      "age": "grown",
+      "src": "grown/9f3349a5896f294a5536-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "result",
+      "text": "第二天她们从容抵达花谷。那些花没有离开，约定也没有因为等待而变少。"
+    },
+    {
+      "id": "event.side_fern_2.outcome.1",
+      "age": "child",
+      "src": "child/916653d9fe6fdd83f335-child.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "result",
+      "text": "菲恩起初失望，看到详细路线后又兴奋起来。她们有了更可靠的计划。"
+    },
+    {
+      "id": "event.side_fern_2.outcome.1",
+      "age": "teen",
+      "src": "teen/916653d9fe6fdd83f335-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "result",
+      "text": "菲恩起初失望，看到详细路线后又兴奋起来。她们有了更可靠的计划。"
+    },
+    {
+      "id": "event.side_fern_2.outcome.1",
+      "age": "grown",
+      "src": "grown/916653d9fe6fdd83f335-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_2",
+      "role": "result",
+      "text": "菲恩起初失望，看到详细路线后又兴奋起来。她们有了更可靠的计划。"
+    },
+    {
+      "id": "event.side_fern_3.outcome.0",
+      "age": "child",
+      "src": "child/55b1339812262f7cfd41-child.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "result",
+      "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。生气终于变成了能做的事。"
+    },
+    {
+      "id": "event.side_fern_3.outcome.0",
+      "age": "teen",
+      "src": "teen/55b1339812262f7cfd41-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "result",
+      "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。生气终于变成了能做的事。"
+    },
+    {
+      "id": "event.side_fern_3.outcome.0",
+      "age": "grown",
+      "src": "grown/55b1339812262f7cfd41-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "result",
+      "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。生气终于变成了能做的事。"
+    },
+    {
+      "id": "event.side_fern_3.outcome.1",
+      "age": "child",
+      "src": "child/3ab1364eb248611c5d5d-child.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "result",
+      "text": "她们为能救回的小树支起木架。回程时，菲恩的脚步没有那么急了。"
+    },
+    {
+      "id": "event.side_fern_3.outcome.1",
+      "age": "teen",
+      "src": "teen/3ab1364eb248611c5d5d-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "result",
+      "text": "她们为能救回的小树支起木架。回程时，菲恩的脚步没有那么急了。"
+    },
+    {
+      "id": "event.side_fern_3.outcome.1",
+      "age": "grown",
+      "src": "grown/3ab1364eb248611c5d5d-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_3",
+      "role": "result",
+      "text": "她们为能救回的小树支起木架。回程时，菲恩的脚步没有那么急了。"
+    },
+    {
+      "id": "event.side_fern_4.outcome.0",
+      "age": "teen",
+      "src": "teen/553154ed80b7b4ae6e33-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "result",
+      "text": "图上补上了水源、避雨处和回程时间。她们把可靠放在了好看之前。"
+    },
+    {
+      "id": "event.side_fern_4.outcome.0",
+      "age": "grown",
+      "src": "grown/553154ed80b7b4ae6e33-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "result",
+      "text": "图上补上了水源、避雨处和回程时间。她们把可靠放在了好看之前。"
+    },
+    {
+      "id": "event.side_fern_4.outcome.1",
+      "age": "teen",
+      "src": "teen/ebbbfce992cc32419e59-teen.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "result",
+      "text": "新手认真收好地图。那些走过的弯路，成了别人平安回家的帮助。"
+    },
+    {
+      "id": "event.side_fern_4.outcome.1",
+      "age": "grown",
+      "src": "grown/ebbbfce992cc32419e59-grown.wav",
+      "parent": null,
+      "group": "event:side_fern_4",
+      "role": "result",
+      "text": "新手认真收好地图。那些走过的弯路，成了别人平安回家的帮助。"
+    },
+    {
+      "id": "event.side_mira_0.outcome.0",
+      "age": "child",
+      "src": "child/410f97f7f32b993caab1-child.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "result",
+      "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。"
+    },
+    {
+      "id": "event.side_mira_0.outcome.0",
+      "age": "teen",
+      "src": "teen/410f97f7f32b993caab1-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "result",
+      "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。"
+    },
+    {
+      "id": "event.side_mira_0.outcome.0",
+      "age": "grown",
+      "src": "grown/410f97f7f32b993caab1-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "result",
+      "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。"
+    },
+    {
+      "id": "event.side_mira_0.outcome.1",
+      "age": "child",
+      "src": "child/d9e2f499a36545666996-child.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "result",
+      "text": "米拉点点头，第一次主动告诉艾莉自己的名字。"
+    },
+    {
+      "id": "event.side_mira_0.outcome.1",
+      "age": "teen",
+      "src": "teen/d9e2f499a36545666996-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "result",
+      "text": "米拉点点头，第一次主动告诉艾莉自己的名字。"
+    },
+    {
+      "id": "event.side_mira_0.outcome.1",
+      "age": "grown",
+      "src": "grown/d9e2f499a36545666996-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_0",
+      "role": "result",
+      "text": "米拉点点头，第一次主动告诉艾莉自己的名字。"
+    },
+    {
+      "id": "event.side_mira_1.outcome.0",
+      "age": "child",
+      "src": "child/205a641e8d6ac29f2c48-child.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "result",
+      "text": "你们一起把书页压平。米拉终于把憋着的道歉说了出来。"
+    },
+    {
+      "id": "event.side_mira_1.outcome.0",
+      "age": "teen",
+      "src": "teen/205a641e8d6ac29f2c48-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "result",
+      "text": "你们一起把书页压平。米拉终于把憋着的道歉说了出来。"
+    },
+    {
+      "id": "event.side_mira_1.outcome.0",
+      "age": "grown",
+      "src": "grown/205a641e8d6ac29f2c48-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "result",
+      "text": "你们一起把书页压平。米拉终于把憋着的道歉说了出来。"
+    },
+    {
+      "id": "event.side_mira_1.outcome.1",
+      "age": "child",
+      "src": "child/05ca23deb6815bcdf5aa-child.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "result",
+      "text": "她们做了两枚书签，一人一枚，也约定有事直接说。"
+    },
+    {
+      "id": "event.side_mira_1.outcome.1",
+      "age": "teen",
+      "src": "teen/05ca23deb6815bcdf5aa-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "result",
+      "text": "她们做了两枚书签，一人一枚，也约定有事直接说。"
+    },
+    {
+      "id": "event.side_mira_1.outcome.1",
+      "age": "grown",
+      "src": "grown/05ca23deb6815bcdf5aa-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_1",
+      "role": "result",
+      "text": "她们做了两枚书签，一人一枚，也约定有事直接说。"
+    },
+    {
+      "id": "event.side_mira_2.outcome.0",
+      "age": "child",
+      "src": "child/5891e6338720f1c3fed6-child.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "result",
+      "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。"
+    },
+    {
+      "id": "event.side_mira_2.outcome.0",
+      "age": "teen",
+      "src": "teen/5891e6338720f1c3fed6-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "result",
+      "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。"
+    },
+    {
+      "id": "event.side_mira_2.outcome.0",
+      "age": "grown",
+      "src": "grown/5891e6338720f1c3fed6-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "result",
+      "text": "她们发现同一个故事竟能有两种模样，于是把两份感想订在一起。"
+    },
+    {
+      "id": "event.side_mira_2.outcome.1",
+      "age": "child",
+      "src": "child/0704b74ac71a6026457c-child.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "result",
+      "text": "老师没有评出谁对，只请她们分别续写结尾。两个人都迫不及待想读对方的故事。"
+    },
+    {
+      "id": "event.side_mira_2.outcome.1",
+      "age": "teen",
+      "src": "teen/0704b74ac71a6026457c-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "result",
+      "text": "老师没有评出谁对，只请她们分别续写结尾。两个人都迫不及待想读对方的故事。"
+    },
+    {
+      "id": "event.side_mira_2.outcome.1",
+      "age": "grown",
+      "src": "grown/0704b74ac71a6026457c-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_2",
+      "role": "result",
+      "text": "老师没有评出谁对，只请她们分别续写结尾。两个人都迫不及待想读对方的故事。"
+    },
+    {
+      "id": "event.side_mira_3.outcome.0",
+      "age": "child",
+      "src": "child/323544a7df5ff6db7466-child.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "result",
+      "text": "回信来得很快。原来米拉也一直担心打扰她，两封信把沉默填满了。"
+    },
+    {
+      "id": "event.side_mira_3.outcome.0",
+      "age": "teen",
+      "src": "teen/323544a7df5ff6db7466-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "result",
+      "text": "回信来得很快。原来米拉也一直担心打扰她，两封信把沉默填满了。"
+    },
+    {
+      "id": "event.side_mira_3.outcome.0",
+      "age": "grown",
+      "src": "grown/323544a7df5ff6db7466-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "result",
+      "text": "回信来得很快。原来米拉也一直担心打扰她，两封信把沉默填满了。"
+    },
+    {
+      "id": "event.side_mira_3.outcome.1",
+      "age": "child",
+      "src": "child/07bec2d369e0c9582b69-child.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "result",
+      "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。"
+    },
+    {
+      "id": "event.side_mira_3.outcome.1",
+      "age": "teen",
+      "src": "teen/07bec2d369e0c9582b69-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "result",
+      "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。"
+    },
+    {
+      "id": "event.side_mira_3.outcome.1",
+      "age": "grown",
+      "src": "grown/07bec2d369e0c9582b69-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_3",
+      "role": "result",
+      "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。"
+    },
+    {
+      "id": "event.side_mira_4.outcome.0",
+      "age": "teen",
+      "src": "teen/59175f51796095f19edc-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "result",
+      "text": "她们在扉页写下推荐理由。小书角慢慢成了大家停下来聊天的地方。"
+    },
+    {
+      "id": "event.side_mira_4.outcome.0",
+      "age": "grown",
+      "src": "grown/59175f51796095f19edc-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "result",
+      "text": "她们在扉页写下推荐理由。小书角慢慢成了大家停下来聊天的地方。"
+    },
+    {
+      "id": "event.side_mira_4.outcome.1",
+      "age": "teen",
+      "src": "teen/b3414ea081a70c3edb88-teen.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "result",
+      "text": "第六格先空着。几天后，一位害羞的新同学放进了自己的第一本书。"
+    },
+    {
+      "id": "event.side_mira_4.outcome.1",
+      "age": "grown",
+      "src": "grown/b3414ea081a70c3edb88-grown.wav",
+      "parent": null,
+      "group": "event:side_mira_4",
+      "role": "result",
+      "text": "第六格先空着。几天后，一位害羞的新同学放进了自己的第一本书。"
+    },
+    {
+      "id": "event.side_nora_0.outcome.0",
+      "age": "child",
+      "src": "child/744696068b0f5b92b155-child.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "result",
+      "text": "客人说看起来像小云朵。诺拉教她分清做得不完美和做得不好。"
+    },
+    {
+      "id": "event.side_nora_0.outcome.0",
+      "age": "teen",
+      "src": "teen/744696068b0f5b92b155-teen.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "result",
+      "text": "客人说看起来像小云朵。诺拉教她分清做得不完美和做得不好。"
+    },
+    {
+      "id": "event.side_nora_0.outcome.0",
+      "age": "grown",
+      "src": "grown/744696068b0f5b92b155-grown.wav",
+      "parent": null,
+      "group": "event:side_nora_0",
+      "role": "result",
+      "text": "客人说看起来像小云朵。诺拉教她分清做得不完美和做得不好。"
     }
   ]
 }

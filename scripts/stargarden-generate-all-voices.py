@@ -10,9 +10,10 @@ import threading
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CATALOG = ROOT / "art-src/stargarden/audio/voice-catalog-v1/lines.json"
-BASE = ROOT / "art-src/stargarden/audio/dialogue-all-v1"
-PUBLIC = ROOT / "public/assets/stargarden/audio/dialogue-all-v1"
+CATALOG = ROOT / "art-src/stargarden/audio/voice-dialogue-v1/lines.json"
+BASE = ROOT / "art-src/stargarden/audio/dialogue-daughter-v1"
+PUBLIC = ROOT / "public/assets/stargarden/audio/dialogue-daughter-v1"
+LEGACY_BASE = ROOT / "art-src/stargarden/audio/dialogue-all-v1/base"
 SPEAKER = "zh_female_roumeinvyou_uranus_bigtts"
 STAGES = {"child": 1, "teen": 0, "grown": -1}
 
@@ -47,6 +48,10 @@ def slug(line_id):
 
 def prompt_for(line):
     role = {
+        "daughter": "以故事中同一个女孩的声音直接说出台词",
+        "talk": "像和养育者说悄悄话一样自然亲近",
+        "gift": "收到礼物时自然开心地道谢",
+        "birthday": "在生日时温暖而开心地说",
         "story": "以自然、温和的故事讲述口吻演出",
         "dialogue": "以故事中同一个女孩的声音自然演出",
         "choice": "清楚、平静地读出一个可供养育者选择的行动",
@@ -64,6 +69,27 @@ def prompt_for(line):
         f"\n请完整念出以下文本：“{line['text']}”\n"
         "只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。"
     )
+
+
+def legacy_audio_for(line):
+    if not LEGACY_BASE.exists():
+        return None
+    parent = line.get("parent")
+    for record_path in LEGACY_BASE.glob("*.json"):
+        if record_path.name.endswith("-request.json"):
+            continue
+        try:
+            record = json.loads(record_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        if record.get("text") != line["text"]:
+            continue
+        if record.get("parent") != parent:
+            continue
+        source = LEGACY_BASE / str(record.get("src", ""))
+        if source.exists():
+            return source, record
+    return None
 
 
 def generate_base(voice, line):
@@ -142,8 +168,28 @@ def process_line(voice, pitch, line):
     audio = BASE / "base" / f"{key}.wav"
     record = BASE / "base" / f"{key}.json"
     if not audio.exists() or not record.exists():
-        print(f"Generate [{line['priority']}] {line['id']}", flush=True)
-        generate_base(voice, line)
+        reused = legacy_audio_for(line)
+        if reused:
+            source, old_record = reused
+            shutil.copy2(source, audio)
+            cached = dict(old_record)
+            cached.update(
+                id=line["id"],
+                text=line["text"],
+                group=line["group"],
+                role=line["role"],
+                emotion=line["emotion"],
+                ages=line["ages"],
+                parent=line.get("parent"),
+                source_kind="reused dialogue cache",
+            )
+            record.write_text(
+                json.dumps(cached, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
+            print(f"Reuse [{line['priority']}] {line['id']}", flush=True)
+        else:
+            print(f"Generate [{line['priority']}] {line['id']}", flush=True)
+            generate_base(voice, line)
     return derive_variants(pitch, line)
 
 

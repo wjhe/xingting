@@ -1,0 +1,188 @@
+{
+  "src": "323544a7df5ff6db7466.wav",
+  "duration": 8.6,
+  "gain": 0.9677495569994093,
+  "source_sha256": "8b1bfff072dfe7ec941e4a51e88807e4ec5ecde63936eee3cabcec8669cd7417",
+  "id": "event.side_mira_3.outcome.0",
+  "text": "回信来得很快。原来米拉也一直担心打扰她，两封信把沉默填满了。",
+  "group": "event:side_mira_3",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1720,
+        "start_time": 400,
+        "text": "回信来得很快。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "回"
+          },
+          {
+            "end_time": 800,
+            "start_time": 720,
+            "text": "信"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "来"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "得"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1320,
+            "text": "很"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1440,
+            "text": "快"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1720,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8280,
+        "start_time": 2480,
+        "text": "原来米拉也一直担心打扰她，两封信把沉默填满了。",
+        "words": [
+          {
+            "end_time": 2680,
+            "start_time": 2480,
+            "text": "原"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2680,
+            "text": "来"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2920,
+            "text": "米"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3240,
+            "text": "拉"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3600,
+            "text": "也"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3840,
+            "text": "一"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3960,
+            "text": "直"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4120,
+            "text": "担"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4320,
+            "text": "心"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4480,
+            "text": "打"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4680,
+            "text": "扰"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4920,
+            "text": "她"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 5120,
+            "text": "，"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 5920,
+            "text": "两"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6160,
+            "text": "封"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6480,
+            "text": "信"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6720,
+            "text": "把"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 6960,
+            "text": "沉"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7280,
+            "text": "默"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7560,
+            "text": "填"
+          },
+          {
+            "end_time": 8040,
+            "start_time": 7760,
+            "text": "满"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8040,
+            "text": "了"
+          },
+          {
+            "end_time": 8280,
+            "start_time": 8280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "回信来得很快。原来米拉也一直担心打扰她，两封信把沉默填满了。"
+  }
+}

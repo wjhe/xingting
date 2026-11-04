@@ -1,0 +1,187 @@
+{
+  "src": "c24108d1ec56094d5448.wav",
+  "duration": 7.68,
+  "gain": 0.9006273038866972,
+  "source_sha256": "74f86652090556ee731d16df4846f0d43a85c081bf8d185365073a2e90eec3b2",
+  "id": "event.side_rowan_4.outcome.1",
+  "text": "旧剑成为纪念，新剑成为开始。罗恩笑着帮她磨平了最后一点毛刺。",
+  "group": "event:side_rowan_4",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3920,
+        "start_time": 520,
+        "text": "旧剑成为纪念，新剑成为开始。",
+        "words": [
+          {
+            "end_time": 640,
+            "start_time": 520,
+            "text": "旧"
+          },
+          {
+            "end_time": 880,
+            "start_time": 840,
+            "text": "剑"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1120,
+            "text": "成"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1280,
+            "text": "为"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "纪"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "念"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1920,
+            "text": "，"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2480,
+            "text": "新"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2840,
+            "text": "剑"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3120,
+            "text": "成"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3280,
+            "text": "为"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3440,
+            "text": "开"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "始"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3920,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7560,
+        "start_time": 4720,
+        "text": "罗恩笑着帮她磨平了最后一点毛刺。",
+        "words": [
+          {
+            "end_time": 4840,
+            "start_time": 4720,
+            "text": "罗"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 5000,
+            "text": "恩"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5280,
+            "text": "笑"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5480,
+            "text": "着"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5680,
+            "text": "帮"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5880,
+            "text": "她"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6120,
+            "text": "磨"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6360,
+            "text": "平"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6520,
+            "text": "了"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6680,
+            "text": "最"
+          },
+          {
+            "end_time": 6880,
+            "start_time": 6800,
+            "text": "后"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6880,
+            "text": "一"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7000,
+            "text": "点"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7240,
+            "text": "毛"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7520,
+            "text": "刺"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "旧剑成为纪念，新剑成为开始。罗恩笑着帮她磨平了最后一点毛刺。"
+  }
+}

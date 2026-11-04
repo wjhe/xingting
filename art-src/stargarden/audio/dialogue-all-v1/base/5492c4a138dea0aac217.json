@@ -1,0 +1,150 @@
+{
+  "src": "5492c4a138dea0aac217.wav",
+  "duration": 6.4,
+  "gain": 1.055870199780128,
+  "source_sha256": "040ef9bbd9ad976d6079a02b681150b8ab93fb10ce6cebf24c3a9152de57ce6f",
+  "id": "event.side_nora_4.outcome.0",
+  "text": "她学会承认付出的价值，也在介绍时认真感谢了诺拉。",
+  "group": "event:side_nora_4",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5880,
+        "start_time": 560,
+        "text": "她学会承认付出的价值，也在介绍时认真感谢了诺拉。",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 560,
+            "text": "她"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "学"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "会"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1280,
+            "text": "承"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1480,
+            "text": "认"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1760,
+            "text": "付"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1960,
+            "text": "出"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2160,
+            "text": "的"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2320,
+            "text": "价"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2480,
+            "text": "值"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2720,
+            "text": "，"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3240,
+            "text": "也"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3480,
+            "text": "在"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3680,
+            "text": "介"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3880,
+            "text": "绍"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4120,
+            "text": "时"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4440,
+            "text": "认"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4640,
+            "text": "真"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4840,
+            "text": "感"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "谢"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5160,
+            "text": "了"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5440,
+            "text": "诺"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5760,
+            "text": "拉"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5880,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她学会承认付出的价值，也在介绍时认真感谢了诺拉。"
+  }
+}

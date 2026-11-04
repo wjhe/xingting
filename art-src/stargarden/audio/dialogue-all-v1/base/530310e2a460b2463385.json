@@ -1,0 +1,178 @@
+{
+  "src": "530310e2a460b2463385.wav",
+  "duration": 7.3,
+  "gain": 1.0305469804693803,
+  "source_sha256": "3691e4b5b918aa942467890c41c19afdc57238bf01058ed60e90eb8322c48058",
+  "id": "event.side_rowan_0.outcome.0",
+  "text": "罗恩说守护别人先要站得稳。她第一次理解训练不是只有挥剑。",
+  "group": "event:side_rowan_0",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3680,
+        "start_time": 760,
+        "text": "罗恩说守护别人先要站得稳。",
+        "words": [
+          {
+            "end_time": 880,
+            "start_time": 760,
+            "text": "罗"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1120,
+            "text": "恩"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1320,
+            "text": "说"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "守"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "护"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2280,
+            "text": "别"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2480,
+            "text": "人"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2640,
+            "text": "先"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2840,
+            "text": "要"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3080,
+            "text": "站"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3280,
+            "text": "得"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3480,
+            "text": "稳"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3680,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7120,
+        "start_time": 4480,
+        "text": "她第一次理解训练不是只有挥剑。",
+        "words": [
+          {
+            "end_time": 4640,
+            "start_time": 4480,
+            "text": "她"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4680,
+            "text": "第"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4760,
+            "text": "一"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4880,
+            "text": "次"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "理"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5160,
+            "text": "解"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5640,
+            "text": "训"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 5920,
+            "text": "练"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6240,
+            "text": "不"
+          },
+          {
+            "end_time": 6480,
+            "start_time": 6400,
+            "text": "是"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6480,
+            "text": "只"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6600,
+            "text": "有"
+          },
+          {
+            "end_time": 6880,
+            "start_time": 6800,
+            "text": "挥"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 7080,
+            "text": "剑"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 7120,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "罗恩说守护别人先要站得稳。她第一次理解训练不是只有挥剑。"
+  }
+}

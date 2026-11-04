@@ -1,0 +1,81 @@
+{
+  "src": "249eb443cd23861b7bcf.wav",
+  "duration": 3.7,
+  "gain": 1.7495307181438529,
+  "source_sha256": "23ffd8c8a1710df41465a0770cb085f34ddd14c1f36607ded6d0783a082ab75a",
+  "id": "event.daily_spring_shoot.choice.1",
+  "text": "一起给花盆换一个位置",
+  "group": "event:daily_spring_shoot",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3200,
+        "start_time": 680,
+        "text": "一起给花盆换一个位置",
+        "words": [
+          {
+            "end_time": 960,
+            "start_time": 680,
+            "text": "一"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 960,
+            "text": "起"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1320,
+            "text": "给"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1640,
+            "text": "花"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 1960,
+            "text": "盆"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2360,
+            "text": "换"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2640,
+            "text": "一"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2760,
+            "text": "个"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2840,
+            "text": "位"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3040,
+            "text": "置"
+          }
+        ]
+      }
+    ],
+    "text": "一起给花盆换一个位置"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "src": "b2ad1eeefaaef76acd02.wav",
+  "duration": 6.8,
+  "gain": 1.554957832792316,
+  "source_sha256": "533ab43809558c70620c19adf67dce4b3054f04681faaab7349e10784adf282e",
+  "id": "event.side_fern_1.outcome.1",
+  "text": "老师仔细讲解了区别。她们把新知识画进各自的采集本。",
+  "group": "event:side_fern_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2480,
+        "start_time": 480,
+        "text": "老师仔细讲解了区别。",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 480,
+            "text": "老"
+          },
+          {
+            "end_time": 920,
+            "start_time": 680,
+            "text": "师"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "仔"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1160,
+            "text": "细"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1360,
+            "text": "讲"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "解"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "了"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "区"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2200,
+            "text": "别"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2480,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 6520,
+        "start_time": 3160,
+        "text": "她们把新知识画进各自的采集本。",
+        "words": [
+          {
+            "end_time": 3360,
+            "start_time": 3160,
+            "text": "她"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3360,
+            "text": "们"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3480,
+            "text": "把"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "新"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4080,
+            "text": "知"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4360,
+            "text": "识"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4760,
+            "text": "画"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4960,
+            "text": "进"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5160,
+            "text": "各"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5400,
+            "text": "自"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5560,
+            "text": "的"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5760,
+            "text": "采"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 6040,
+            "text": "集"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6280,
+            "text": "本"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6520,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "老师仔细讲解了区别。她们把新知识画进各自的采集本。"
+  }
+}

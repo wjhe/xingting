@@ -1,0 +1,71 @@
+{
+  "src": "0752bb4dfa662a4567d1.wav",
+  "duration": 3.08,
+  "gain": 0.7927776614660285,
+  "source_sha256": "9d5efad29307e830db9d46a14f4995b87dee7a511279712c0b29b40608d4913b",
+  "id": "event.side_rowan_1.choice.1",
+  "text": "陪她慢慢重新练习",
+  "group": "event:side_rowan_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2480,
+        "start_time": 440,
+        "text": "陪她慢慢重新练习",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 440,
+            "text": "陪"
+          },
+          {
+            "end_time": 880,
+            "start_time": 800,
+            "text": "她"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1120,
+            "text": "慢"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1320,
+            "text": "慢"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "重"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "新"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2040,
+            "text": "练"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2280,
+            "text": "习"
+          }
+        ]
+      }
+    ],
+    "text": "陪她慢慢重新练习"
+  }
+}

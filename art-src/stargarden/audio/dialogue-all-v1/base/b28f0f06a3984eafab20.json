@@ -1,0 +1,186 @@
+{
+  "src": "b28f0f06a3984eafab20.wav",
+  "duration": 7.68,
+  "gain": 1.346491583927209,
+  "source_sha256": "b902f66408984881bfc382605e9b46404013ce61acae3a59c89f01a325b8be39",
+  "id": "event.daily_sea_shell.text",
+  "text": "海边回来，她把一枚贝壳贴在耳边，问里面的声音会不会在冬天消失。",
+  "group": "event:daily_sea_shell",
+  "role": "story",
+  "emotion": "温和、自然、像在回忆生活小事",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 7280,
+        "start_time": 280,
+        "text": "海边回来，她把一枚贝壳贴在耳边，问里面的声音会不会在冬天消失。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 280,
+            "text": "海"
+          },
+          {
+            "end_time": 840,
+            "start_time": 600,
+            "text": "边"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "回"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1120,
+            "text": "来"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1360,
+            "text": "，"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "她"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1880,
+            "text": "把"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2040,
+            "text": "一"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2240,
+            "text": "枚"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2480,
+            "text": "贝"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2760,
+            "text": "壳"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "贴"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3240,
+            "text": "在"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3440,
+            "text": "耳"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3640,
+            "text": "边"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3920,
+            "text": "，"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4320,
+            "text": "问"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4600,
+            "text": "里"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4760,
+            "text": "面"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4920,
+            "text": "的"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5080,
+            "text": "声"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5280,
+            "text": "音"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5720,
+            "text": "会"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 5920,
+            "text": "不"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6080,
+            "text": "会"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6200,
+            "text": "在"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6400,
+            "text": "冬"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6600,
+            "text": "天"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 6880,
+            "text": "消"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7120,
+            "text": "失"
+          },
+          {
+            "end_time": 7280,
+            "start_time": 7280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "海边回来，她把一枚贝壳贴在耳边，问里面的声音会不会在冬天消失。"
+  }
+}

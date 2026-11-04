@@ -1,0 +1,86 @@
+{
+  "src": "e079663ea0df59958f2e.wav",
+  "duration": 3.7,
+  "gain": 1.4427143231890738,
+  "source_sha256": "ac605bd8ddeb2e46b1b78d82cfecadbd4cc121ae66ecd7b6dc15895eede80fe5",
+  "id": "event.daily_library_note.choice.0",
+  "text": "把便签留给下一位读者",
+  "group": "event:daily_library_note",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3360,
+        "start_time": 840,
+        "text": "把便签留给下一位读者。",
+        "words": [
+          {
+            "end_time": 1160,
+            "start_time": 840,
+            "text": "把"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "便"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1560,
+            "text": "签"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "留"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "给"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2360,
+            "text": "下"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2560,
+            "text": "一"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2680,
+            "text": "位"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3000,
+            "text": "读"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3200,
+            "text": "者"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3360,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "把便签留给下一位读者。"
+  }
+}

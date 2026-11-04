@@ -1,0 +1,49 @@
+{
+  "src": "8de5a2df1ac176af752f.wav",
+  "duration": 2.2,
+  "gain": 2.1129418904566832,
+  "source_sha256": "c3f95d85c5f483b621a43b86f5c1416d190917e6c7b15fd1c59314b2a9dc0d14",
+  "id": "dialogue.main_3_0.text.0",
+  "text": "没关系。",
+  "group": "event:main_3_0",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1720,
+        "start_time": 1000,
+        "text": "没关系。",
+        "words": [
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "没"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1400,
+            "text": "关"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1600,
+            "text": "系"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1720,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "没关系。"
+  }
+}

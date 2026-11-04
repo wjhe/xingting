@@ -1,0 +1,76 @@
+{
+  "src": "26a4c41db784b80fbcbc.wav",
+  "duration": 3.5,
+  "gain": 1.8528717512597916,
+  "source_sha256": "cdc83e0b30b558003133978af7777f37154819f8068c7d164081a5a1ff92058b",
+  "id": "event.side_rowan_0.choice.1",
+  "text": "请教这项练习的用处",
+  "group": "event:side_rowan_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2480,
+        "start_time": 440,
+        "text": "请教这项练习的用处",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 440,
+            "text": "请"
+          },
+          {
+            "end_time": 920,
+            "start_time": 760,
+            "text": "教"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1080,
+            "text": "这"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1360,
+            "text": "项"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1560,
+            "text": "练"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1760,
+            "text": "习"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "的"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "用"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2360,
+            "text": "处"
+          }
+        ]
+      }
+    ],
+    "text": "请教这项练习的用处"
+  }
+}

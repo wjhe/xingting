@@ -128,10 +128,14 @@ const openingSource = readFileSync(resolve(root, 'src/raising/opening.ts'), 'utf
 const beatsPart = openingSource.slice(openingSource.indexOf('const BEATS'));
 const beatChunks = beatsPart.split(/\{\s*art\s*:/).slice(1);
 beatChunks.forEach((chunk, beatIndex) => {
-  const pattern = /\b([ng])\('([^']+)'/g;
+  const pattern = /\b([ng])\('([^']+)'(?:,\s*'[^']+')?\)|\{\s*kind:\s*'parent'\s*\}/g;
   let match: RegExpExecArray | null;
   let lineIndex = 0;
   while ((match = pattern.exec(chunk)) !== null) {
+    if (!match[1]) {
+      lineIndex++;
+      continue;
+    }
     const id = `opening.${beatIndex}.${lineIndex}`;
     const addOpening = (text: string, parent?: '爸爸' | '妈妈', suffix = '') => add({
       id: id + suffix,

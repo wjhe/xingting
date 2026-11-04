@@ -1,0 +1,99 @@
+{
+  "src": "4bf4f5a0193cf65d24d0.wav",
+  "duration": 4.4,
+  "gain": 1.1126877596676255,
+  "source_sha256": "2036b5add4800081313232554379e527a95a552e738a9b4e3b65213baffbdd84",
+  "id": "dialogue.letter.outcome1.0",
+  "text": "第一封，就从出发那天开始写。",
+  "group": "event:letter",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3840,
+        "start_time": 480,
+        "text": "第一封，就从出发那天开始写。",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 480,
+            "text": "第"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "一"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 960,
+            "text": "封"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1080,
+            "text": "，"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1640,
+            "text": "就"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "从"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2200,
+            "text": "出"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2440,
+            "text": "发"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2760,
+            "text": "那"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 2960,
+            "text": "天"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3240,
+            "text": "开"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3400,
+            "text": "始"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3520,
+            "text": "写"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3840,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "第一封，就从出发那天开始写。"
+  }
+}

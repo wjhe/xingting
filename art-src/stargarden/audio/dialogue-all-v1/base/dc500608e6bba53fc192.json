@@ -1,0 +1,198 @@
+{
+  "src": "dc500608e6bba53fc192.wav",
+  "duration": 10.68,
+  "gain": 1.402932356936772,
+  "source_sha256": "de974f072dd7067acd36e727a3979d0d033ac0099932b5ae81c51695943e260d",
+  "id": "event.side_fern_0.outcome.0",
+  "text": "背包就在第一块路标后。菲恩感谢她，也记住了出发前确认物品的习惯。",
+  "group": "event:side_fern_0",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5080,
+        "start_time": 2720,
+        "text": "背包就在第一块路标后。",
+        "words": [
+          {
+            "end_time": 2960,
+            "start_time": 2720,
+            "text": "背"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 2960,
+            "text": "包"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "就"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "在"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3680,
+            "text": "第"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3800,
+            "text": "一"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 3920,
+            "text": "块"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4160,
+            "text": "路"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4480,
+            "text": "标"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4720,
+            "text": "后"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 5080,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10240,
+        "start_time": 5680,
+        "text": "菲恩感谢她，也记住了出发前确认物品的习惯。",
+        "words": [
+          {
+            "end_time": 5800,
+            "start_time": 5680,
+            "text": "菲"
+          },
+          {
+            "end_time": 6120,
+            "start_time": 6000,
+            "text": "恩"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6280,
+            "text": "感"
+          },
+          {
+            "end_time": 6640,
+            "start_time": 6440,
+            "text": "谢"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6640,
+            "text": "她"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6920,
+            "text": "，"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7120,
+            "text": "也"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7360,
+            "text": "记"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7560,
+            "text": "住"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7720,
+            "text": "了"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7880,
+            "text": "出"
+          },
+          {
+            "end_time": 8360,
+            "start_time": 8120,
+            "text": "发"
+          },
+          {
+            "end_time": 8720,
+            "start_time": 8360,
+            "text": "前"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8760,
+            "text": "确"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 9040,
+            "text": "认"
+          },
+          {
+            "end_time": 9520,
+            "start_time": 9280,
+            "text": "物"
+          },
+          {
+            "end_time": 9720,
+            "start_time": 9520,
+            "text": "品"
+          },
+          {
+            "end_time": 9960,
+            "start_time": 9720,
+            "text": "的"
+          },
+          {
+            "end_time": 10040,
+            "start_time": 9960,
+            "text": "习"
+          },
+          {
+            "end_time": 10240,
+            "start_time": 10040,
+            "text": "惯"
+          },
+          {
+            "end_time": 10240,
+            "start_time": 10240,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "背包就在第一块路标后。菲恩感谢她，也记住了出发前确认物品的习惯。"
+  }
+}

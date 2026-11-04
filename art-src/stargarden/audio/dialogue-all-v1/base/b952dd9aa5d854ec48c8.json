@@ -1,0 +1,91 @@
+{
+  "src": "b952dd9aa5d854ec48c8.wav",
+  "duration": 4.4,
+  "gain": 1.3680529620516597,
+  "source_sha256": "9c0345e89013654da4df51d68f44e3120bf8265717aa1f9d7058d05083019a41",
+  "id": "event.daily_paint_wall.choice.1",
+  "text": "帮她找一块可以悬挂的画板",
+  "group": "event:daily_paint_wall",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4240,
+        "start_time": 960,
+        "text": "帮她找一块可以悬挂的画板",
+        "words": [
+          {
+            "end_time": 1280,
+            "start_time": 960,
+            "text": "帮"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1280,
+            "text": "她"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1520,
+            "text": "找"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1800,
+            "text": "一"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "块"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "可"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2840,
+            "text": "以"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "悬"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3440,
+            "text": "挂"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3600,
+            "text": "的"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3880,
+            "text": "画"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4120,
+            "text": "板"
+          }
+        ]
+      }
+    ],
+    "text": "帮她找一块可以悬挂的画板"
+  }
+}

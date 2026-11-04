@@ -1,0 +1,258 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "f0145ae8-a663-4d97-999b-802b781b68fa",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温和、自然、像在回忆生活小事。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“春天到了，去年一直没有动静的花盆冒出一小点绿。她把你叫来，声音压得很轻，仿佛怕惊醒它。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050520527407B5B551DE3791DF85",
+  "response": {
+    "duration": 11.3,
+    "original_duration": 11.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5160,
+          "start_time": 160,
+          "text": "春天到了，去年一直没有动静的花盆冒出一小点绿。",
+          "words": [
+            {
+              "end_time": 400,
+              "start_time": 160,
+              "text": "春"
+            },
+            {
+              "end_time": 720,
+              "start_time": 400,
+              "text": "天"
+            },
+            {
+              "end_time": 960,
+              "start_time": 720,
+              "text": "到"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 960,
+              "text": "了"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1320,
+              "text": "，"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1760,
+              "text": "去"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 2000,
+              "text": "年"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2320,
+              "text": "一"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2440,
+              "text": "直"
+            },
+            {
+              "end_time": 2720,
+              "start_time": 2600,
+              "text": "没"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2720,
+              "text": "有"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2800,
+              "text": "动"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 3080,
+              "text": "静"
+            },
+            {
+              "end_time": 3400,
+              "start_time": 3200,
+              "text": "的"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3400,
+              "text": "花"
+            },
+            {
+              "end_time": 3840,
+              "start_time": 3560,
+              "text": "盆"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3960,
+              "text": "冒"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 4160,
+              "text": "出"
+            },
+            {
+              "end_time": 4520,
+              "start_time": 4360,
+              "text": "一"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4520,
+              "text": "小"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4680,
+              "text": "点"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 5000,
+              "text": "绿"
+            },
+            {
+              "end_time": 5160,
+              "start_time": 5160,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10880,
+          "start_time": 6120,
+          "text": "她把你叫来，声音压得很轻，仿佛怕惊醒它。",
+          "words": [
+            {
+              "end_time": 6240,
+              "start_time": 6120,
+              "text": "她"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6280,
+              "text": "把"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6440,
+              "text": "你"
+            },
+            {
+              "end_time": 6880,
+              "start_time": 6640,
+              "text": "叫"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 6880,
+              "text": "来"
+            },
+            {
+              "end_time": 7320,
+              "start_time": 7320,
+              "text": "，"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7480,
+              "text": "声"
+            },
+            {
+              "end_time": 7920,
+              "start_time": 7720,
+              "text": "音"
+            },
+            {
+              "end_time": 8200,
+              "start_time": 8000,
+              "text": "压"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8240,
+              "text": "得"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8400,
+              "text": "很"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8600,
+              "text": "轻"
+            },
+            {
+              "end_time": 8800,
+              "start_time": 8800,
+              "text": "，"
+            },
+            {
+              "end_time": 9720,
+              "start_time": 9440,
+              "text": "仿"
+            },
+            {
+              "end_time": 9920,
+              "start_time": 9720,
+              "text": "佛"
+            },
+            {
+              "end_time": 10240,
+              "start_time": 9960,
+              "text": "怕"
+            },
+            {
+              "end_time": 10440,
+              "start_time": 10280,
+              "text": "惊"
+            },
+            {
+              "end_time": 10680,
+              "start_time": 10440,
+              "text": "醒"
+            },
+            {
+              "end_time": 10880,
+              "start_time": 10760,
+              "text": "它"
+            },
+            {
+              "end_time": 10880,
+              "start_time": 10880,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "春天到了，去年一直没有动静的花盆冒出一小点绿。她把你叫来，声音压得很轻，仿佛怕惊醒它。"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "src": "4a43eacc6154e9223bab.wav",
+  "duration": 4.18,
+  "gain": 0.8635188342892575,
+  "source_sha256": "005be39cf676522c14468b292ad89cba638cc09b30d7c73ab661945791be2d41",
+  "id": "dialogue.book.text.0",
+  "text": "原来，天上的星星也有名字。",
+  "group": "event:book",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3640,
+        "start_time": 240,
+        "text": "原来，天上的星星也有名字。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 240,
+            "text": "原"
+          },
+          {
+            "end_time": 760,
+            "start_time": 480,
+            "text": "来"
+          },
+          {
+            "end_time": 760,
+            "start_time": 760,
+            "text": "，"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1080,
+            "text": "天"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1480,
+            "text": "上"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "的"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 2000,
+            "text": "星"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2360,
+            "text": "星"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2760,
+            "text": "也"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "有"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3240,
+            "text": "名"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3440,
+            "text": "字"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "原来，天上的星星也有名字。"
+  }
+}

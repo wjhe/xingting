@@ -1,0 +1,84 @@
+{
+  "src": "1ddadc42da1bb18abf6f.wav",
+  "duration": 3.5,
+  "gain": 1.5252128643354625,
+  "source_sha256": "122a734e67138ec9d102d0955b820d1c1ecf16a0556d665c71cfd2f7ad87295c",
+  "id": "dialogue.portrait.text.0",
+  "text": "原来，真的长大了好多。",
+  "group": "event:portrait",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3000,
+        "start_time": 520,
+        "text": "原来，真的长大了好多。",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 520,
+            "text": "原"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 800,
+            "text": "来"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 1080,
+            "text": "，"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1360,
+            "text": "真"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "的"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1840,
+            "text": "长"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2120,
+            "text": "大"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2360,
+            "text": "了"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2560,
+            "text": "好"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2720,
+            "text": "多"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "原来，真的长大了好多。"
+  }
+}

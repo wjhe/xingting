@@ -1,0 +1,111 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "f70051b7-dd08-4e59-9a4d-bacd78db2bc2",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“请同伴暂时代班，陪老人走一段”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050524508550CBF28D9F2D195470",
+  "response": {
+    "duration": 4.8,
+    "original_duration": 4.8,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4320,
+          "start_time": 440,
+          "text": "请同伴暂时代班，陪老人走一段。",
+          "words": [
+            {
+              "end_time": 800,
+              "start_time": 440,
+              "text": "请"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 840,
+              "text": "同"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "伴"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1440,
+              "text": "暂"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1720,
+              "text": "时"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 2080,
+              "text": "代"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2320,
+              "text": "班"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2440,
+              "text": "，"
+            },
+            {
+              "end_time": 3160,
+              "start_time": 2880,
+              "text": "陪"
+            },
+            {
+              "end_time": 3400,
+              "start_time": 3160,
+              "text": "老"
+            },
+            {
+              "end_time": 3680,
+              "start_time": 3400,
+              "text": "人"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3680,
+              "text": "走"
+            },
+            {
+              "end_time": 4080,
+              "start_time": 3920,
+              "text": "一"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4080,
+              "text": "段"
+            },
+            {
+              "end_time": 4320,
+              "start_time": 4320,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "请同伴暂时代班，陪老人走一段。"
+    }
+  }
+}

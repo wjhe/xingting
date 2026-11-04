@@ -1,0 +1,136 @@
+{
+  "src": "d9e2f499a36545666996.wav",
+  "duration": 6.5,
+  "gain": 1.2117288784477507,
+  "source_sha256": "7c9aa39fc7f7f172d31057202b502aa3b1e3e0fc330d74647f631ee9746af4c7",
+  "id": "event.side_mira_0.outcome.1",
+  "text": "米拉点点头，第一次主动告诉艾莉自己的名字。",
+  "group": "event:side_mira_0",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6160,
+        "start_time": 720,
+        "text": "米拉点点头，第一次主动告诉艾莉自己的名字。",
+        "words": [
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "米"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1120,
+            "text": "拉"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1560,
+            "text": "点"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1920,
+            "text": "点"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2040,
+            "text": "头"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2400,
+            "text": "，"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3360,
+            "text": "第"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3560,
+            "text": "一"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "次"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4000,
+            "text": "主"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4200,
+            "text": "动"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4400,
+            "text": "告"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4600,
+            "text": "诉"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4960,
+            "text": "艾"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5240,
+            "text": "莉"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5480,
+            "text": "自"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5600,
+            "text": "己"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5720,
+            "text": "的"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "名"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 6000,
+            "text": "字"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 6160,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "米拉点点头，第一次主动告诉艾莉自己的名字。"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "src": "4990a921382e8f1983cf.wav",
+  "duration": 8.116666666666667,
+  "gain": 1.5025981087443965,
+  "source_sha256": "6e4dbe0f14e761f5635d04cbfcac67b0119c6068e64093df30ff67b17c5d666e",
+  "id": "event.side_nora_1.outcome.0",
+  "text": "客人接受了道歉。诺拉说服务不是从不犯错，而是愿意好好补救。",
+  "group": "event:side_nora_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1800,
+        "start_time": 120,
+        "text": "客人接受了道歉。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 120,
+            "text": "客"
+          },
+          {
+            "end_time": 680,
+            "start_time": 400,
+            "text": "人"
+          },
+          {
+            "end_time": 920,
+            "start_time": 720,
+            "text": "接"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "受"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1160,
+            "text": "了"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "道"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "歉"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1800,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7640,
+        "start_time": 2680,
+        "text": "诺拉说服务不是从不犯错，而是愿意好好补救。",
+        "words": [
+          {
+            "end_time": 2760,
+            "start_time": 2680,
+            "text": "诺"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 3000,
+            "text": "拉"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3280,
+            "text": "说"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "服"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3920,
+            "text": "务"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4200,
+            "text": "不"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4360,
+            "text": "是"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4480,
+            "text": "从"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4760,
+            "text": "不"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5000,
+            "text": "犯"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5240,
+            "text": "错"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5560,
+            "text": "，"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6200,
+            "text": "而"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6360,
+            "text": "是"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6520,
+            "text": "愿"
+          },
+          {
+            "end_time": 6880,
+            "start_time": 6680,
+            "text": "意"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6880,
+            "text": "好"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7040,
+            "text": "好"
+          },
+          {
+            "end_time": 7400,
+            "start_time": 7280,
+            "text": "补"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7560,
+            "text": "救"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "客人接受了道歉。诺拉说服务不是从不犯错，而是愿意好好补救。"
+  }
+}

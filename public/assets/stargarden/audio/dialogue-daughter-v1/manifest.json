@@ -1,0 +1,862 @@
+{
+  "version": 1,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "source_model": "seed-audio-1.0",
+  "age_semitones": {
+    "child": 1,
+    "teen": 0,
+    "grown": -1
+  },
+  "catalog_count": 51,
+  "clip_count": 84,
+  "complete": true,
+  "failures": [],
+  "clips": [
+    {
+      "id": "opening.1.2",
+      "age": "child",
+      "src": "child/233ff1cae18a29bc0d25-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "……这里，是哪里？",
+      "duration": 3.9883333333333333
+    },
+    {
+      "id": "opening.2.1",
+      "age": "child",
+      "src": "child/6aa1a8ffb1beb6b7de7a-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "我只记得……要找一个，有灯亮着的地方。",
+      "duration": 6.484708333333334
+    },
+    {
+      "id": "opening.2.3",
+      "age": "child",
+      "src": "child/bc64a4d467130c9df901-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "……可以吗？",
+      "duration": 2.561
+    },
+    {
+      "id": "opening.3.1",
+      "age": "child",
+      "src": "child/7938f5587495a8aadeb4-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "好暖和。",
+      "duration": 2.26425
+    },
+    {
+      "id": "opening.4.1",
+      "age": "child",
+      "src": "child/1a9941f731e448a02971-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "我……没有名字。",
+      "duration": 3.8945833333333333
+    },
+    {
+      "id": "opening.4.10.dad",
+      "age": "child",
+      "src": "child/774e6d12fd14a8179e45-child.wav",
+      "parent": "爸爸",
+      "group": "opening",
+      "role": "daughter",
+      "text": "爸爸。……从今天起，这里就是我的家了吗？",
+      "duration": 5.150083333333333
+    },
+    {
+      "id": "opening.4.10.mom",
+      "age": "child",
+      "src": "child/4dfa1fc8b43b521fb800-child.wav",
+      "parent": "妈妈",
+      "group": "opening",
+      "role": "daughter",
+      "text": "妈妈。……从今天起，这里就是我的家了吗？",
+      "duration": 4.945916666666666
+    },
+    {
+      "id": "opening.4.2",
+      "age": "child",
+      "src": "child/a89d4354a709e890bc51-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "你可以，给我一个吗？",
+      "duration": 3.4874583333333335
+    },
+    {
+      "id": "opening.4.6",
+      "age": "child",
+      "src": "child/d968e4ba37fda70b5a0a-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "艾莉……艾莉。",
+      "duration": 2.8931666666666667
+    },
+    {
+      "id": "opening.4.8",
+      "age": "child",
+      "src": "child/0b616cdca239d9fa809d-child.wav",
+      "parent": null,
+      "group": "opening",
+      "role": "daughter",
+      "text": "那，我该怎么称呼你呢？",
+      "duration": 3.8795
+    },
+    {
+      "id": "ending.gardener.0",
+      "age": "grown",
+      "src": "grown/07b127921ce79fb56cf9-grown.wav",
+      "parent": null,
+      "group": "ending:gardener",
+      "role": "ending",
+      "text": "谢谢你，耐心等我长大。",
+      "duration": 3.9975416666666668
+    },
+    {
+      "id": "ending.knight.0",
+      "age": "grown",
+      "src": "grown/95366cf7d4176f7b6293-grown.wav",
+      "parent": null,
+      "group": "ending:knight",
+      "role": "ending",
+      "text": "这一次，换我来保护你。",
+      "duration": 4.296166666666666
+    },
+    {
+      "id": "dialogue.book.text.0",
+      "age": "child",
+      "src": "child/4a43eacc6154e9223bab-child.wav",
+      "parent": null,
+      "group": "event:book",
+      "role": "daughter",
+      "text": "原来，天上的星星也有名字。",
+      "duration": 4.161833333333333
+    },
+    {
+      "id": "dialogue.book.text.0",
+      "age": "teen",
+      "src": "teen/4a43eacc6154e9223bab-teen.wav",
+      "parent": null,
+      "group": "event:book",
+      "role": "daughter",
+      "text": "原来，天上的星星也有名字。",
+      "duration": 4.18
+    },
+    {
+      "id": "dialogue.book.text.0",
+      "age": "grown",
+      "src": "grown/4a43eacc6154e9223bab-grown.wav",
+      "parent": null,
+      "group": "event:book",
+      "role": "daughter",
+      "text": "原来，天上的星星也有名字。",
+      "duration": 4.187458333333334
+    },
+    {
+      "id": "dialogue.dream.outcome0.0",
+      "age": "child",
+      "src": "child/8b4a4d974d17e3b6253a-child.wav",
+      "parent": null,
+      "group": "event:dream",
+      "role": "daughter",
+      "text": "那我也希望你一直快乐。",
+      "duration": 3.6945833333333336
+    },
+    {
+      "id": "dialogue.dream.outcome0.0",
+      "age": "teen",
+      "src": "teen/8b4a4d974d17e3b6253a-teen.wav",
+      "parent": null,
+      "group": "event:dream",
+      "role": "daughter",
+      "text": "那我也希望你一直快乐。",
+      "duration": 3.7
+    },
+    {
+      "id": "dialogue.dream.outcome0.0",
+      "age": "grown",
+      "src": "grown/8b4a4d974d17e3b6253a-grown.wav",
+      "parent": null,
+      "group": "event:dream",
+      "role": "daughter",
+      "text": "那我也希望你一直快乐。",
+      "duration": 3.6952083333333334
+    },
+    {
+      "id": "dialogue.dream.text.0",
+      "age": "child",
+      "src": "child/361ee05bdaabebe5a148-child.wav",
+      "parent": null,
+      "group": "event:dream",
+      "role": "daughter",
+      "text": "长大以后，我一定要成为很厉害的人吗？",
+      "duration": 5.284
+    },
+    {
+      "id": "dialogue.dream.text.0",
+      "age": "teen",
+      "src": "teen/361ee05bdaabebe5a148-teen.wav",
+      "parent": null,
+      "group": "event:dream",
+      "role": "daughter",
+      "text": "长大以后，我一定要成为很厉害的人吗？",
+      "duration": 5.3
+    },
+    {
+      "id": "dialogue.dream.text.0",
+      "age": "grown",
+      "src": "grown/361ee05bdaabebe5a148-grown.wav",
+      "parent": null,
+      "group": "event:dream",
+      "role": "daughter",
+      "text": "长大以后，我一定要成为很厉害的人吗？",
+      "duration": 5.315375
+    },
+    {
+      "id": "dialogue.exam.text.0",
+      "age": "child",
+      "src": "child/b179a5d0a9bc754f01c2-child.wav",
+      "parent": null,
+      "group": "event:exam",
+      "role": "daughter",
+      "text": "我明明很努力了，为什么还是做不好？",
+      "duration": 5.071375
+    },
+    {
+      "id": "dialogue.exam.text.0",
+      "age": "teen",
+      "src": "teen/b179a5d0a9bc754f01c2-teen.wav",
+      "parent": null,
+      "group": "event:exam",
+      "role": "daughter",
+      "text": "我明明很努力了，为什么还是做不好？",
+      "duration": 5.08
+    },
+    {
+      "id": "dialogue.exam.text.0",
+      "age": "grown",
+      "src": "grown/b179a5d0a9bc754f01c2-grown.wav",
+      "parent": null,
+      "group": "event:exam",
+      "role": "daughter",
+      "text": "我明明很努力了，为什么还是做不好？",
+      "duration": 5.088166666666667
+    },
+    {
+      "id": "dialogue.flowers.outcome1.0",
+      "age": "child",
+      "src": "child/bd11fae74257f67c68b4-child.wav",
+      "parent": null,
+      "group": "event:flowers",
+      "role": "daughter",
+      "text": "明年这里会是一座小花园。",
+      "duration": 3.883166666666667
+    },
+    {
+      "id": "dialogue.flowers.outcome1.0",
+      "age": "teen",
+      "src": "teen/bd11fae74257f67c68b4-teen.wav",
+      "parent": null,
+      "group": "event:flowers",
+      "role": "daughter",
+      "text": "明年这里会是一座小花园。",
+      "duration": 3.9
+    },
+    {
+      "id": "dialogue.flowers.outcome1.0",
+      "age": "grown",
+      "src": "grown/bd11fae74257f67c68b4-grown.wav",
+      "parent": null,
+      "group": "event:flowers",
+      "role": "daughter",
+      "text": "明年这里会是一座小花园。",
+      "duration": 3.8895416666666667
+    },
+    {
+      "id": "dialogue.friendship.outcome1.0",
+      "age": "child",
+      "src": "child/4efaf8fe2c864f279749-child.wav",
+      "parent": null,
+      "group": "event:friendship",
+      "role": "daughter",
+      "text": "我们聊聊吧。",
+      "duration": 2.564875
+    },
+    {
+      "id": "dialogue.friendship.outcome1.0",
+      "age": "teen",
+      "src": "teen/4efaf8fe2c864f279749-teen.wav",
+      "parent": null,
+      "group": "event:friendship",
+      "role": "daughter",
+      "text": "我们聊聊吧。",
+      "duration": 2.58
+    },
+    {
+      "id": "dialogue.friendship.outcome1.0",
+      "age": "grown",
+      "src": "grown/4efaf8fe2c864f279749-grown.wav",
+      "parent": null,
+      "group": "event:friendship",
+      "role": "daughter",
+      "text": "我们聊聊吧。",
+      "duration": 2.5852916666666665
+    },
+    {
+      "id": "dialogue.independent.text.0",
+      "age": "teen",
+      "src": "teen/4ad648a80ea8a879b7c9-teen.wav",
+      "parent": null,
+      "group": "event:independent",
+      "role": "daughter",
+      "text": "这次的晚餐，我来请。",
+      "duration": 3.28
+    },
+    {
+      "id": "dialogue.independent.text.0",
+      "age": "grown",
+      "src": "grown/4ad648a80ea8a879b7c9-grown.wav",
+      "parent": null,
+      "group": "event:independent",
+      "role": "daughter",
+      "text": "这次的晚餐，我来请。",
+      "duration": 3.294958333333333
+    },
+    {
+      "id": "dialogue.kitten.text.0",
+      "age": "child",
+      "src": "child/3466fde7c164468d3d09-child.wav",
+      "parent": null,
+      "group": "event:kitten",
+      "role": "daughter",
+      "text": "我们可以帮帮它吗？",
+      "duration": 3.480583333333333
+    },
+    {
+      "id": "dialogue.kitten.text.0",
+      "age": "teen",
+      "src": "teen/3466fde7c164468d3d09-teen.wav",
+      "parent": null,
+      "group": "event:kitten",
+      "role": "daughter",
+      "text": "我们可以帮帮它吗？",
+      "duration": 3.5
+    },
+    {
+      "id": "dialogue.kitten.text.0",
+      "age": "grown",
+      "src": "grown/3466fde7c164468d3d09-grown.wav",
+      "parent": null,
+      "group": "event:kitten",
+      "role": "daughter",
+      "text": "我们可以帮帮它吗？",
+      "duration": 3.5030833333333335
+    },
+    {
+      "id": "dialogue.letter.outcome1.0",
+      "age": "grown",
+      "src": "grown/4bf4f5a0193cf65d24d0-grown.wav",
+      "parent": null,
+      "group": "event:letter",
+      "role": "daughter",
+      "text": "第一封，就从出发那天开始写。",
+      "duration": 4.397666666666667
+    },
+    {
+      "id": "dialogue.letter.text.0",
+      "age": "grown",
+      "src": "grown/e06a317fb3328d56a3d9-grown.wav",
+      "parent": null,
+      "group": "event:letter",
+      "role": "daughter",
+      "text": "如果以后离家很远，你会想我吗？",
+      "duration": 5.088916666666667
+    },
+    {
+      "id": "dialogue.main_0_0.text.0",
+      "age": "child",
+      "src": "child/d313f6841ae217dd58c8-child.wav",
+      "parent": null,
+      "group": "event:main_0_0",
+      "role": "daughter",
+      "text": "如果我弄丢了，还能回来吗？",
+      "duration": 4.5677916666666665
+    },
+    {
+      "id": "dialogue.main_0_1.text.0",
+      "age": "child",
+      "src": "child/13c055d08dcfafe82b32-child.wav",
+      "parent": null,
+      "group": "event:main_0_1",
+      "role": "daughter",
+      "text": "没有很厉害的愿望，也可以写吗？",
+      "duration": 5.386458333333334
+    },
+    {
+      "id": "dialogue.main_0_2.outcome1.0",
+      "age": "child",
+      "src": "child/b7bc6adc67b38f96703f-child.wav",
+      "parent": null,
+      "group": "event:main_0_2",
+      "role": "daughter",
+      "text": "我想先讲给一个人听。",
+      "duration": 3.6893333333333334
+    },
+    {
+      "id": "dialogue.main_0_2.text.0",
+      "age": "child",
+      "src": "child/7c2083dd7723d5c5cf2f-child.wav",
+      "parent": null,
+      "group": "event:main_0_2",
+      "role": "daughter",
+      "text": "我的东西，好像不值得别人看。",
+      "duration": 4.163333333333333
+    },
+    {
+      "id": "dialogue.main_1_1.text.0",
+      "age": "child",
+      "src": "child/58c28c4a119b0ad70368-child.wav",
+      "parent": null,
+      "group": "event:main_1_1",
+      "role": "daughter",
+      "text": "以前说喜欢，现在又不喜欢了，是不是很没用？",
+      "duration": 5.483791666666667
+    },
+    {
+      "id": "dialogue.main_1_2.text.0",
+      "age": "child",
+      "src": "child/8fe66ecf93ef30f33a4e-child.wav",
+      "parent": null,
+      "group": "event:main_1_2",
+      "role": "daughter",
+      "text": "这次，我想自己讲。",
+      "duration": 3.063833333333333
+    },
+    {
+      "id": "dialogue.main_2_0.text.0",
+      "age": "child",
+      "src": "child/f63ab90507e8cf51fc07-child.wav",
+      "parent": null,
+      "group": "event:main_2_0",
+      "role": "daughter",
+      "text": "我是不是学得太慢了？",
+      "duration": 3.4895833333333335
+    },
+    {
+      "id": "dialogue.main_2_2.text.0",
+      "age": "child",
+      "src": "child/a5076754f8c3cc7f9773-child.wav",
+      "parent": null,
+      "group": "event:main_2_2",
+      "role": "daughter",
+      "text": "能帮我戴上吗？",
+      "duration": 2.759875
+    },
+    {
+      "id": "dialogue.main_3_0.outcome0.0",
+      "age": "child",
+      "src": "child/ab50aa07f5fe0d9087e9-child.wav",
+      "parent": null,
+      "group": "event:main_3_0",
+      "role": "daughter",
+      "text": "我很难过。",
+      "duration": 2.3841666666666668
+    },
+    {
+      "id": "dialogue.main_3_0.text.0",
+      "age": "child",
+      "src": "child/8de5a2df1ac176af752f-child.wav",
+      "parent": null,
+      "group": "event:main_3_0",
+      "role": "daughter",
+      "text": "没关系。",
+      "duration": 2.19
+    },
+    {
+      "id": "dialogue.main_3_2.text.0",
+      "age": "child",
+      "src": "child/5fc4f52e628c47091660-child.wav",
+      "parent": null,
+      "group": "event:main_3_2",
+      "role": "daughter",
+      "text": "这次，我想讲失败以后发生的事。",
+      "duration": 4.567208333333333
+    },
+    {
+      "id": "dialogue.main_4_0.text.0",
+      "age": "teen",
+      "src": "teen/d739aa6b7f73914297b7-teen.wav",
+      "parent": null,
+      "group": "event:main_4_0",
+      "role": "daughter",
+      "text": "我知道你是为我好，但这一次，可以先听我说完吗？",
+      "duration": 6.58
+    },
+    {
+      "id": "dialogue.main_4_2.text.0",
+      "age": "teen",
+      "src": "teen/2e6a972a278cd1308291-teen.wav",
+      "parent": null,
+      "group": "event:main_4_2",
+      "role": "daughter",
+      "text": "今年可以写我的名字吗？",
+      "duration": 2.114375
+    },
+    {
+      "id": "dialogue.main_5_0.text.0",
+      "age": "teen",
+      "src": "teen/9e24454b312a3fca22b6-teen.wav",
+      "parent": null,
+      "group": "event:main_5_0",
+      "role": "daughter",
+      "text": "他们不听我的话怎么办？",
+      "duration": 3.9
+    },
+    {
+      "id": "dialogue.main_6_0.text.0",
+      "age": "grown",
+      "src": "grown/31d495a6375d7cf9262b-grown.wav",
+      "parent": null,
+      "group": "event:main_6_0",
+      "role": "daughter",
+      "text": "如果我想去的地方，这上面没有呢？",
+      "duration": 4.802208333333334
+    },
+    {
+      "id": "dialogue.main_6_1.text.0",
+      "age": "grown",
+      "src": "grown/e8cb0a0db700655bd047-grown.wav",
+      "parent": null,
+      "group": "event:main_6_1",
+      "role": "daughter",
+      "text": "留下会不会显得不够勇敢？",
+      "duration": 4.398666666666666
+    },
+    {
+      "id": "dialogue.main_7_0.text.0",
+      "age": "grown",
+      "src": "grown/f06e1f0351c94ad6e4f3-grown.wav",
+      "parent": null,
+      "group": "event:main_7_0",
+      "role": "daughter",
+      "text": "那时候的字，怎么这么小？",
+      "duration": 3.9135
+    },
+    {
+      "id": "dialogue.main_7_1.text.0",
+      "age": "grown",
+      "src": "grown/71fc60274d9a032e2fbb-grown.wav",
+      "parent": null,
+      "group": "event:main_7_1",
+      "role": "daughter",
+      "text": "不管最后做得怎样，你会来吗？",
+      "duration": 4.586458333333334
+    },
+    {
+      "id": "dialogue.painting.outcome0.0",
+      "age": "child",
+      "src": "child/adcb727fb9fa7fecd81f-child.wav",
+      "parent": null,
+      "group": "event:painting",
+      "role": "daughter",
+      "text": "其实画得还不够好……",
+      "duration": 3.4844166666666667
+    },
+    {
+      "id": "dialogue.painting.outcome0.0",
+      "age": "teen",
+      "src": "teen/adcb727fb9fa7fecd81f-teen.wav",
+      "parent": null,
+      "group": "event:painting",
+      "role": "daughter",
+      "text": "其实画得还不够好……",
+      "duration": 3.5
+    },
+    {
+      "id": "dialogue.painting.outcome0.0",
+      "age": "grown",
+      "src": "grown/adcb727fb9fa7fecd81f-grown.wav",
+      "parent": null,
+      "group": "event:painting",
+      "role": "daughter",
+      "text": "其实画得还不够好……",
+      "duration": 3.4975416666666668
+    },
+    {
+      "id": "dialogue.portrait.text.0",
+      "age": "grown",
+      "src": "grown/1ddadc42da1bb18abf6f-grown.wav",
+      "parent": null,
+      "group": "event:portrait",
+      "role": "daughter",
+      "text": "原来，真的长大了好多。",
+      "duration": 3.5119583333333333
+    },
+    {
+      "id": "dialogue.sword.outcome0.0",
+      "age": "child",
+      "src": "child/a82188e0dda512072617-child.wav",
+      "parent": null,
+      "group": "event:sword",
+      "role": "daughter",
+      "text": "我也想保护重要的人。",
+      "duration": 3.6970833333333335
+    },
+    {
+      "id": "dialogue.sword.outcome0.0",
+      "age": "teen",
+      "src": "teen/a82188e0dda512072617-teen.wav",
+      "parent": null,
+      "group": "event:sword",
+      "role": "daughter",
+      "text": "我也想保护重要的人。",
+      "duration": 3.7
+    },
+    {
+      "id": "dialogue.sword.outcome0.0",
+      "age": "grown",
+      "src": "grown/a82188e0dda512072617-grown.wav",
+      "parent": null,
+      "group": "event:sword",
+      "role": "daughter",
+      "text": "我也想保护重要的人。",
+      "duration": 3.705625
+    },
+    {
+      "id": "dialogue.main_7_2.memory",
+      "age": "grown",
+      "src": "grown/f72d1b4cf60ecc2be2ba-grown.wav",
+      "parent": null,
+      "group": "event:main_7_2",
+      "role": "daughter",
+      "text": "这些，我都记得。",
+      "duration": 3.4122083333333335
+    },
+    {
+      "id": "talk.0",
+      "age": "child",
+      "src": "child/00f50808cc239134aac9-child.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "今天路过花店，我看到一朵和你笑起来很像的花。",
+      "duration": 5.8865
+    },
+    {
+      "id": "talk.0",
+      "age": "teen",
+      "src": "teen/00f50808cc239134aac9-teen.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "今天路过花店，我看到一朵和你笑起来很像的花。",
+      "duration": 5.9
+    },
+    {
+      "id": "talk.0",
+      "age": "grown",
+      "src": "grown/00f50808cc239134aac9-grown.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "今天路过花店，我看到一朵和你笑起来很像的花。",
+      "duration": 5.911625
+    },
+    {
+      "id": "talk.1",
+      "age": "child",
+      "src": "child/5c83d84018f459038a3b-child.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "长大以后，我想住在能看到星星的地方……最好也有你。",
+      "duration": 7.28325
+    },
+    {
+      "id": "talk.1",
+      "age": "teen",
+      "src": "teen/5c83d84018f459038a3b-teen.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "长大以后，我想住在能看到星星的地方……最好也有你。",
+      "duration": 7.3
+    },
+    {
+      "id": "talk.1",
+      "age": "grown",
+      "src": "grown/5c83d84018f459038a3b-grown.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "长大以后，我想住在能看到星星的地方……最好也有你。",
+      "duration": 7.305916666666667
+    },
+    {
+      "id": "talk.2",
+      "age": "child",
+      "src": "child/b1f9a61e24401157858b-child.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "我有在认真努力哦！不过偶尔，也想和你一起发呆。",
+      "duration": 6.394
+    },
+    {
+      "id": "talk.2",
+      "age": "teen",
+      "src": "teen/b1f9a61e24401157858b-teen.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "我有在认真努力哦！不过偶尔，也想和你一起发呆。",
+      "duration": 6.4
+    },
+    {
+      "id": "talk.2",
+      "age": "grown",
+      "src": "grown/b1f9a61e24401157858b-grown.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "我有在认真努力哦！不过偶尔，也想和你一起发呆。",
+      "duration": 6.397291666666667
+    },
+    {
+      "id": "talk.3",
+      "age": "child",
+      "src": "child/2b86b6daab7e7573db93-child.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "如果愿望可以装进口袋，我想把每一天都带在身上。",
+      "duration": 6.384541666666666
+    },
+    {
+      "id": "talk.3",
+      "age": "teen",
+      "src": "teen/2b86b6daab7e7573db93-teen.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "如果愿望可以装进口袋，我想把每一天都带在身上。",
+      "duration": 6.4
+    },
+    {
+      "id": "talk.3",
+      "age": "grown",
+      "src": "grown/2b86b6daab7e7573db93-grown.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "如果愿望可以装进口袋，我想把每一天都带在身上。",
+      "duration": 6.413833333333334
+    },
+    {
+      "id": "talk.4",
+      "age": "child",
+      "src": "child/f90a050b44831a0f2a1f-child.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "今天也辛苦啦。等我学会做点心，就做给你吃。",
+      "duration": 6.389916666666666
+    },
+    {
+      "id": "talk.4",
+      "age": "teen",
+      "src": "teen/f90a050b44831a0f2a1f-teen.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "今天也辛苦啦。等我学会做点心，就做给你吃。",
+      "duration": 6.4
+    },
+    {
+      "id": "talk.4",
+      "age": "grown",
+      "src": "grown/f90a050b44831a0f2a1f-grown.wav",
+      "parent": null,
+      "group": "talk",
+      "role": "talk",
+      "text": "今天也辛苦啦。等我学会做点心，就做给你吃。",
+      "duration": 6.403208333333334
+    },
+    {
+      "id": "birthday.girl",
+      "age": "child",
+      "src": "child/4c12e89ce455c6aa42c7-child.wav",
+      "parent": null,
+      "group": "birthday",
+      "role": "birthday",
+      "text": "明年也要一起过生日。",
+      "duration": 3.4895416666666668
+    },
+    {
+      "id": "birthday.girl",
+      "age": "teen",
+      "src": "teen/4c12e89ce455c6aa42c7-teen.wav",
+      "parent": null,
+      "group": "birthday",
+      "role": "birthday",
+      "text": "明年也要一起过生日。",
+      "duration": 3.5
+    },
+    {
+      "id": "birthday.girl",
+      "age": "grown",
+      "src": "grown/4c12e89ce455c6aa42c7-grown.wav",
+      "parent": null,
+      "group": "birthday",
+      "role": "birthday",
+      "text": "明年也要一起过生日。",
+      "duration": 3.5079583333333333
+    },
+    {
+      "id": "gift.girl",
+      "age": "child",
+      "src": "child/2dcb867de5c55c73e226-child.wav",
+      "parent": null,
+      "group": "gift",
+      "role": "gift",
+      "text": "是我最喜欢的蜂蜜饼干！谢谢你。",
+      "duration": 5.0629583333333334
+    },
+    {
+      "id": "gift.girl",
+      "age": "teen",
+      "src": "teen/2dcb867de5c55c73e226-teen.wav",
+      "parent": null,
+      "group": "gift",
+      "role": "gift",
+      "text": "是我最喜欢的蜂蜜饼干！谢谢你。",
+      "duration": 5.08
+    },
+    {
+      "id": "gift.girl",
+      "age": "grown",
+      "src": "grown/2dcb867de5c55c73e226-grown.wav",
+      "parent": null,
+      "group": "gift",
+      "role": "gift",
+      "text": "是我最喜欢的蜂蜜饼干！谢谢你。",
+      "duration": 5.0633333333333335
+    }
+  ],
+  "normalization": {
+    "method": "EBU R128 loudnorm",
+    "target_lufs": -18,
+    "true_peak_db": -2,
+    "files": 84
+  }
+}

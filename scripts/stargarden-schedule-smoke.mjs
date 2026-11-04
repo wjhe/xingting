@@ -86,6 +86,15 @@ try {
   await tap('skip-results');
   assert.ok(await page.locator('[data-action="battle"]').count() >= 1);
   assert.ok(await page.evaluate(g => window.__stargarden.game.state.gold !== g, goldBefore));
+  // 跨过 14 岁的那次结算：离开结算后先播“时光流逝”过场，再接着显示事件或回到庭院
+  await tap('close');
+  await page.evaluate(() => { const a = window.__stargarden; Object.assign(a.game.state, { month: 47, pendingEvent: null, ended: false, plan: ['home', 'home', 'home'] }); a.navigate('schedule'); });
+  await tap('advance'); await tap('skip-results'); await tap('after-results');
+  await page.locator('.timelapse').waitFor();
+  assert.match(await page.locator('.tl-text').innerText(), /14 岁/);
+  await page.waitForTimeout(700); await page.locator('.timelapse').click();
+  await page.waitForFunction(() => !document.querySelector('.timelapse'));
+  assert.equal(await page.evaluate(() => window.__stargarden.game.age), 14);
   assert.deepEqual(errors, []);
-  console.log('Schedule replay passed: automatic sequence, rewards, speed, skip, close, no duplicate settlement, festival, birthday, three mobile widths, reduced motion, live battle in replay.');
+  console.log('Schedule replay passed: automatic sequence, rewards, speed, skip, close, no duplicate settlement, festival, birthday, three mobile widths, reduced motion, live battle in replay, age-stage timelapse.');
 } finally { await browser.close(); }

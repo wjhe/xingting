@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { ACTIVITIES, EVENTS, OUTFITS } from '../src/raising/content';
 import { createState, deserialize, RaisingGame } from '../src/raising/game';
-import { eligible, MAIN_EVENTS, SIDE_EVENTS, storyText } from '../src/raising/story';
+import { eligible, MAIN_EVENTS, SIDE_EVENTS, storyText, storyVoiceSequence } from '../src/raising/story';
 
 describe('成长主线、条件事件与新衣装', () => {
   it('80 个事件编号唯一，每个事件都有无需付费的出口', () => {
@@ -72,6 +72,16 @@ describe('成长主线、条件事件与新衣装', () => {
     const state=createState('小星');state.flags=['first_exhibition:warm','repaired_page:warm'];
     const text=storyText(MAIN_EVENTS[MAIN_EVENTS.length-1]!,state);
     expect(text).toContain('小星');expect(text).toContain('生活展台');expect(text).toContain('修补过');
+  });
+  it('配音序列只包含女儿直接说出的台词和终章纪念', () => {
+    const state=createState();
+    state.flags=['first_exhibition:warm','repaired_page:warm','own_plan:independent'];
+    state.relations.mira=40;
+    expect(storyVoiceSequence(MAIN_EVENTS[0]!,state)).toEqual(['dialogue.main_0_0.text.0']);
+    expect(storyVoiceSequence(SIDE_EVENTS[0]!,state)).toEqual([]);
+    expect(storyVoiceSequence(MAIN_EVENTS[MAIN_EVENTS.length-1]!,state)).toEqual([
+      'dialogue.main_7_2.memory',
+    ]);
   });
   it('人物选择积累不同羁绊，存档保留关系并拒绝非法关系值', () => {
     const a=new RaisingGame(createState()),b=new RaisingGame(createState());

@@ -1,0 +1,86 @@
+{
+  "src": "eaacf9e5ecea9872867c.wav",
+  "duration": 3.9,
+  "gain": 2.12749801482369,
+  "source_sha256": "32423eaf95dd50a3464b711fa9089576dafc466405781e292ca4935a72dbabb3",
+  "id": "event.side_rowan_2.choice.0",
+  "text": "请她复盘做得最好的一招",
+  "group": "event:side_rowan_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3480,
+        "start_time": 960,
+        "text": "请她复盘做得最好的一招",
+        "words": [
+          {
+            "end_time": 1320,
+            "start_time": 960,
+            "text": "请"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1360,
+            "text": "她"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1680,
+            "text": "复"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "盘"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2240,
+            "text": "做"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2480,
+            "text": "得"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2680,
+            "text": "最"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2840,
+            "text": "好"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2960,
+            "text": "的"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3120,
+            "text": "一"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3360,
+            "text": "招"
+          }
+        ]
+      }
+    ],
+    "text": "请她复盘做得最好的一招"
+  }
+}

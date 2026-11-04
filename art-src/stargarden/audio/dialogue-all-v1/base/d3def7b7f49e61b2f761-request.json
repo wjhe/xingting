@@ -1,0 +1,250 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "aea09639-f31b-4145-b3d7-12e7ba8b1122",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“茶会回来的路上，她一直低着头。原来，最好的朋友误会了她。她想解释，却又有些生气。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505214879FF4DBDFC30F319A073",
+  "response": {
+    "duration": 11.3,
+    "original_duration": 11.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3320,
+          "start_time": 40,
+          "text": "茶会回来的路上，她一直低着头。",
+          "words": [
+            {
+              "end_time": 200,
+              "start_time": 40,
+              "text": "茶"
+            },
+            {
+              "end_time": 520,
+              "start_time": 360,
+              "text": "会"
+            },
+            {
+              "end_time": 800,
+              "start_time": 640,
+              "text": "回"
+            },
+            {
+              "end_time": 960,
+              "start_time": 800,
+              "text": "来"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 960,
+              "text": "的"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1120,
+              "text": "路"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1280,
+              "text": "上"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1600,
+              "text": "，"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1880,
+              "text": "她"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2160,
+              "text": "一"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2280,
+              "text": "直"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2480,
+              "text": "低"
+            },
+            {
+              "end_time": 2960,
+              "start_time": 2760,
+              "text": "着"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 2960,
+              "text": "头"
+            },
+            {
+              "end_time": 3320,
+              "start_time": 3320,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7400,
+          "start_time": 4240,
+          "text": "原来，最好的朋友误会了她。",
+          "words": [
+            {
+              "end_time": 4480,
+              "start_time": 4240,
+              "text": "原"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4480,
+              "text": "来"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4680,
+              "text": "，"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5280,
+              "text": "最"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5520,
+              "text": "好"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5680,
+              "text": "的"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5880,
+              "text": "朋"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6080,
+              "text": "友"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6520,
+              "text": "误"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6800,
+              "text": "会"
+            },
+            {
+              "end_time": 7200,
+              "start_time": 7000,
+              "text": "了"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7280,
+              "text": "她"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7400,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 11040,
+          "start_time": 8160,
+          "text": "她想解释，却又有些生气。",
+          "words": [
+            {
+              "end_time": 8360,
+              "start_time": 8160,
+              "text": "她"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8360,
+              "text": "想"
+            },
+            {
+              "end_time": 8880,
+              "start_time": 8640,
+              "text": "解"
+            },
+            {
+              "end_time": 9080,
+              "start_time": 8880,
+              "text": "释"
+            },
+            {
+              "end_time": 9080,
+              "start_time": 9080,
+              "text": "，"
+            },
+            {
+              "end_time": 10080,
+              "start_time": 9760,
+              "text": "却"
+            },
+            {
+              "end_time": 10320,
+              "start_time": 10080,
+              "text": "又"
+            },
+            {
+              "end_time": 10520,
+              "start_time": 10320,
+              "text": "有"
+            },
+            {
+              "end_time": 10640,
+              "start_time": 10520,
+              "text": "些"
+            },
+            {
+              "end_time": 10840,
+              "start_time": 10640,
+              "text": "生"
+            },
+            {
+              "end_time": 11040,
+              "start_time": 10840,
+              "text": "气"
+            },
+            {
+              "end_time": 11040,
+              "start_time": 11040,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "茶会回来的路上，她一直低着头。原来，最好的朋友误会了她。她想解释，却又有些生气。"
+    }
+  }
+}

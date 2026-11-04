@@ -1,0 +1,203 @@
+{
+  "src": "55b1339812262f7cfd41.wav",
+  "duration": 8.6,
+  "gain": 1.5229972723192753,
+  "source_sha256": "157f2a21004200f6b05ec9fdb0cb653d466f3bce70f5639ab280b71c0479815a",
+  "id": "event.side_fern_3.outcome.0",
+  "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。生气终于变成了能做的事。",
+  "group": "event:side_fern_3",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5160,
+        "start_time": 1040,
+        "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。",
+        "words": [
+          {
+            "end_time": 1080,
+            "start_time": 1040,
+            "text": "巡"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1360,
+            "text": "林"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1600,
+            "text": "员"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "处"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2000,
+            "text": "理"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2160,
+            "text": "了"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2280,
+            "text": "破"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2520,
+            "text": "坏"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2760,
+            "text": "，"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3040,
+            "text": "也"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3280,
+            "text": "请"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3480,
+            "text": "她"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3640,
+            "text": "们"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3760,
+            "text": "帮"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3920,
+            "text": "忙"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4080,
+            "text": "补"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4280,
+            "text": "上"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4480,
+            "text": "提"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4760,
+            "text": "醒"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4960,
+            "text": "牌"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5160,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8400,
+        "start_time": 6160,
+        "text": "生气终于变成了能做的事。",
+        "words": [
+          {
+            "end_time": 6400,
+            "start_time": 6160,
+            "text": "生"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6400,
+            "text": "气"
+          },
+          {
+            "end_time": 7120,
+            "start_time": 6920,
+            "text": "终"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7120,
+            "text": "于"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7240,
+            "text": "变"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7440,
+            "text": "成"
+          },
+          {
+            "end_time": 7680,
+            "start_time": 7560,
+            "text": "了"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7680,
+            "text": "能"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7880,
+            "text": "做"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8080,
+            "text": "的"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8240,
+            "text": "事"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8400,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "巡林员处理了破坏，也请她们帮忙补上提醒牌。生气终于变成了能做的事。"
+  }
+}

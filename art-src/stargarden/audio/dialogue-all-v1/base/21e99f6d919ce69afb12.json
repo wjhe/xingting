@@ -1,0 +1,81 @@
+{
+  "src": "21e99f6d919ce69afb12.wav",
+  "duration": 3.9,
+  "gain": 0.8652356248640924,
+  "source_sha256": "5e178a6a069488060e54490bc6e6cd6a9ea7cad3e424439e4149d7055927527d",
+  "id": "event.daily_library_note.choice.1",
+  "text": "问问馆员能否收藏下来",
+  "group": "event:daily_library_note",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 280,
+        "text": "问问馆员能否收藏下来",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 280,
+            "text": "问"
+          },
+          {
+            "end_time": 640,
+            "start_time": 560,
+            "text": "问"
+          },
+          {
+            "end_time": 840,
+            "start_time": 800,
+            "text": "馆"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1080,
+            "text": "员"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1480,
+            "text": "能"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1680,
+            "text": "否"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "收"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "藏"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "下"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "来"
+          }
+        ]
+      }
+    ],
+    "text": "问问馆员能否收藏下来"
+  }
+}

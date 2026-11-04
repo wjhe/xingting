@@ -1,0 +1,84 @@
+{
+  "src": "9e24454b312a3fca22b6.wav",
+  "duration": 3.9,
+  "gain": 0.9447712085750144,
+  "source_sha256": "34e41903076560113fa2faa0436e9548e352cc9eec46cfee1e1709f9fe8ae7a7",
+  "id": "dialogue.main_5_0.text.0",
+  "text": "他们不听我的话怎么办？",
+  "group": "event:main_5_0",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3280,
+        "start_time": 1480,
+        "text": "他们不听我的话怎么办？",
+        "words": [
+          {
+            "end_time": 1760,
+            "start_time": 1480,
+            "text": "他"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1760,
+            "text": "们"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "不"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2120,
+            "text": "听"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2360,
+            "text": "我"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2480,
+            "text": "的"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2600,
+            "text": "话"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2880,
+            "text": "怎"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 3000,
+            "text": "么"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3120,
+            "text": "办"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3280,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "他们不听我的话怎么办？"
+  }
+}

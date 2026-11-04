@@ -1,0 +1,144 @@
+{
+  "src": "d739aa6b7f73914297b7.wav",
+  "duration": 6.58,
+  "gain": 1.4330241635876697,
+  "source_sha256": "b36716fe871fe2c2e6a3a072c912995f396382b25021576db29c9b5138b6fe02",
+  "id": "dialogue.main_4_0.text.0",
+  "text": "我知道你是为我好，但这一次，可以先听我说完吗？",
+  "group": "event:main_4_0",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "teen"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6400,
+        "start_time": 400,
+        "text": "我知道你是为我好，但这一次，可以先听我说完吗？",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 400,
+            "text": "我"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "知"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 880,
+            "text": "道"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "你"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "是"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1440,
+            "text": "为"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1680,
+            "text": "我"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 1880,
+            "text": "好"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2240,
+            "text": "，"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3080,
+            "text": "但"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3440,
+            "text": "这"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "一"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3840,
+            "text": "次"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 4080,
+            "text": "，"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4720,
+            "text": "可"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4920,
+            "text": "以"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5080,
+            "text": "先"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5320,
+            "text": "听"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5560,
+            "text": "我"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5680,
+            "text": "说"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 5880,
+            "text": "完"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6160,
+            "text": "吗"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6400,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "我知道你是为我好，但这一次，可以先听我说完吗？"
+  }
+}

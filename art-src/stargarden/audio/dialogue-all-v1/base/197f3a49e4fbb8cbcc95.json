@@ -1,0 +1,84 @@
+{
+  "src": "197f3a49e4fbb8cbcc95.wav",
+  "duration": 3.7,
+  "gain": 0.890805002078869,
+  "source_sha256": "2a4f59e993fd5f1c51899aa36075e38030386803ab52c5a99e75de9d459daca3",
+  "id": "event.choice.choice.1",
+  "text": "一起认真分析每个选择",
+  "group": "event:choice",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3000,
+        "start_time": 80,
+        "text": "一起认真分析每个选择。",
+        "words": [
+          {
+            "end_time": 320,
+            "start_time": 80,
+            "text": "一"
+          },
+          {
+            "end_time": 680,
+            "start_time": 320,
+            "text": "起"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 800,
+            "text": "认"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "真"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1360,
+            "text": "分"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1520,
+            "text": "析"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "每"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "个"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "选"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2800,
+            "text": "择"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "一起认真分析每个选择。"
+  }
+}

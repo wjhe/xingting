@@ -1,0 +1,227 @@
+{
+  "src": "990dfc9223dc6ab12c2d.wav",
+  "duration": 11.3,
+  "gain": 1.3839871701793534,
+  "source_sha256": "3c182b7d19dfa4feab6df2fd92f932e51aba3a8460a67e4f661fcfa1c77b9b43",
+  "id": "event.stage.text",
+  "text": "小剧院缺一位临时演员，她意外地得到了邀请。上台前，她握着你的手，掌心都是汗。",
+  "group": "event:stage",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5920,
+        "start_time": 320,
+        "text": "小剧院缺一位临时演员，她意外地得到了邀请。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 320,
+            "text": "小"
+          },
+          {
+            "end_time": 760,
+            "start_time": 720,
+            "text": "剧"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1040,
+            "text": "院"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1360,
+            "text": "缺"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "一"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "位"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2040,
+            "text": "临"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2360,
+            "text": "时"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2560,
+            "text": "演"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2800,
+            "text": "员"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2960,
+            "text": "，"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3880,
+            "text": "她"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4120,
+            "text": "意"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4160,
+            "text": "外"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4200,
+            "text": "地"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 5000,
+            "text": "得"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5120,
+            "text": "到"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5280,
+            "text": "了"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5480,
+            "text": "邀"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5720,
+            "text": "请"
+          },
+          {
+            "end_time": 5920,
+            "start_time": 5920,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10880,
+        "start_time": 6720,
+        "text": "上台前，她握着你的手，掌心都是汗。",
+        "words": [
+          {
+            "end_time": 6800,
+            "start_time": 6720,
+            "text": "上"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7000,
+            "text": "台"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7240,
+            "text": "前"
+          },
+          {
+            "end_time": 7600,
+            "start_time": 7600,
+            "text": "，"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7880,
+            "text": "她"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8160,
+            "text": "握"
+          },
+          {
+            "end_time": 8600,
+            "start_time": 8400,
+            "text": "着"
+          },
+          {
+            "end_time": 8800,
+            "start_time": 8600,
+            "text": "你"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8800,
+            "text": "的"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 8920,
+            "text": "手"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9280,
+            "text": "，"
+          },
+          {
+            "end_time": 9960,
+            "start_time": 9880,
+            "text": "掌"
+          },
+          {
+            "end_time": 10400,
+            "start_time": 10120,
+            "text": "心"
+          },
+          {
+            "end_time": 10560,
+            "start_time": 10400,
+            "text": "都"
+          },
+          {
+            "end_time": 10720,
+            "start_time": 10560,
+            "text": "是"
+          },
+          {
+            "end_time": 10880,
+            "start_time": 10840,
+            "text": "汗"
+          },
+          {
+            "end_time": 10880,
+            "start_time": 10880,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "小剧院缺一位临时演员，她意外地得到了邀请。上台前，她握着你的手，掌心都是汗。"
+  }
+}

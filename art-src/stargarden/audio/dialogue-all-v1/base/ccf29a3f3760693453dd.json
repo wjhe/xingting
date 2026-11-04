@@ -1,0 +1,76 @@
+{
+  "src": "ccf29a3f3760693453dd.wav",
+  "duration": 3.5,
+  "gain": 1.383611427731049,
+  "source_sha256": "3bf5ddf828f75ca3a91f1b155f0509adea8e825358c6896800a6c6cf96f780be",
+  "id": "event.flowers.choice.1",
+  "text": "一起种下更多的种子",
+  "group": "event:flowers",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3040,
+        "start_time": 800,
+        "text": "一起种下更多的种子",
+        "words": [
+          {
+            "end_time": 1040,
+            "start_time": 800,
+            "text": "一"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1040,
+            "text": "起"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1600,
+            "text": "种"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "下"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2040,
+            "text": "更"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "多"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2360,
+            "text": "的"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2560,
+            "text": "种"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2800,
+            "text": "子"
+          }
+        ]
+      }
+    ],
+    "text": "一起种下更多的种子"
+  }
+}

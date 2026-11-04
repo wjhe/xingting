@@ -1,0 +1,182 @@
+{
+  "src": "ebbbfce992cc32419e59.wav",
+  "duration": 6.958916666666667,
+  "gain": 1.4751868847998058,
+  "source_sha256": "86bb5bda01b8b1be7121952d36a9e07c58085d68c8182eaa601dbddf20cb5c49",
+  "id": "event.side_fern_4.outcome.1",
+  "text": "新手认真收好地图。那些走过的弯路，成了别人平安回家的帮助。",
+  "group": "event:side_fern_4",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 520,
+        "text": "新手认真收好地图。",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 520,
+            "text": "新"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 800,
+            "text": "手"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1240,
+            "text": "认"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "真"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1800,
+            "text": "收"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "好"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2320,
+            "text": "地"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2560,
+            "text": "图"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2800,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 6760,
+        "start_time": 3480,
+        "text": "那些走过的弯路，成了别人平安回家的帮助。",
+        "words": [
+          {
+            "end_time": 3640,
+            "start_time": 3480,
+            "text": "那"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3640,
+            "text": "些"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3760,
+            "text": "走"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4000,
+            "text": "过"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4160,
+            "text": "的"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4320,
+            "text": "弯"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4560,
+            "text": "路"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4680,
+            "text": "，"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "成"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5160,
+            "text": "了"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5320,
+            "text": "别"
+          },
+          {
+            "end_time": 5600,
+            "start_time": 5480,
+            "text": "人"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5600,
+            "text": "平"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5800,
+            "text": "安"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6000,
+            "text": "回"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6200,
+            "text": "家"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6320,
+            "text": "的"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6440,
+            "text": "帮"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6560,
+            "text": "助"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6760,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "新手认真收好地图。那些走过的弯路，成了别人平安回家的帮助。"
+  }
+}

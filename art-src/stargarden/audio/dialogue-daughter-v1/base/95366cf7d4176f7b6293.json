@@ -1,0 +1,84 @@
+{
+  "src": "95366cf7d4176f7b6293.wav",
+  "duration": 4.3,
+  "gain": 1.8625274790774826,
+  "source_sha256": "6d4f1f75e391cf28b635fec6a384025d0c79e38449d798e8edd1d67e87f4e669",
+  "id": "ending.knight.0",
+  "text": "这一次，换我来保护你。",
+  "group": "ending:knight",
+  "role": "ending",
+  "emotion": "成年后自然、成熟、温柔",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3920,
+        "start_time": 880,
+        "text": "这一次，换我来保护你。",
+        "words": [
+          {
+            "end_time": 1160,
+            "start_time": 880,
+            "text": "这"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "一"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1400,
+            "text": "次"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1640,
+            "text": "，"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2480,
+            "text": "换"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2800,
+            "text": "我"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "来"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3240,
+            "text": "保"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3440,
+            "text": "护"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3640,
+            "text": "你"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3920,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "这一次，换我来保护你。"
+  }
+}

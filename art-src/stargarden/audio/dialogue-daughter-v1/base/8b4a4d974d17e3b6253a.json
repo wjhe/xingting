@@ -1,0 +1,86 @@
+{
+  "src": "8b4a4d974d17e3b6253a.wav",
+  "duration": 3.7,
+  "gain": 0.8591770004318589,
+  "source_sha256": "2eab295ec59b8bcaf9534e2f375917fdd40a8fde20ee68500d51f6482b196d2f",
+  "id": "dialogue.dream.outcome0.0",
+  "text": "那我也希望你一直快乐。",
+  "group": "event:dream",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 360,
+        "text": "那我也希望你一直快乐。",
+        "words": [
+          {
+            "end_time": 640,
+            "start_time": 360,
+            "text": "那"
+          },
+          {
+            "end_time": 840,
+            "start_time": 640,
+            "text": "我"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "也"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1040,
+            "text": "希"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1200,
+            "text": "望"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1520,
+            "text": "你"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "一"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "直"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2320,
+            "text": "快"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "乐"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2840,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "那我也希望你一直快乐。"
+  }
+}

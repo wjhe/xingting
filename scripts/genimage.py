@@ -18,10 +18,10 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BASE_URL = 'https://api.aigocode.dev'
+BASE_URL = 'https://deeprouter.top'
 API = BASE_URL + '/v1/images/generations'
-MODEL = 'gpt-image-2.5-sunburst'
-QUALITY = 'high'
+MODEL = 'gpt-image-2.5-flare'
+QUALITY = None
 KEY_FILE = ROOT / 'gpt_image_2_5_key.txt'
 LOG = ROOT / 'art-src' / 'generation_log.jsonl'
 
@@ -31,18 +31,22 @@ def generate(
     size: str,
     model: str | None = None,
     quality: str | None = None,
+    api: str | None = None,
 ) -> bytes:
     key = KEY_FILE.read_text(encoding='utf-8').strip()
     selected_model = model or MODEL
-    selected_quality = quality or QUALITY
-    body = json.dumps({
+    selected_quality = quality if quality is not None else QUALITY
+    selected_api = api or API
+    payload = {
         'model': selected_model,
         'prompt': prompt,
         'size': size,
-        'quality': selected_quality,
         'n': 1,
-    }).encode('utf-8')
-    req = urllib.request.Request(API, data=body, headers={
+    }
+    if selected_quality:
+        payload['quality'] = selected_quality
+    body = json.dumps(payload).encode('utf-8')
+    req = urllib.request.Request(selected_api, data=body, headers={
         'Authorization': f'Bearer {key}',
         'Content-Type': 'application/json',
         'Accept': 'application/json',

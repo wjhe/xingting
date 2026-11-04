@@ -1,0 +1,252 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "006894ed-c205-4854-9a94-89e8c8023834",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“老骑士又来到城里。这次，他邀请她参加一次正式的训练。“愿不愿意走得更远一点？””\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050522378CBD2E3FF7C96C187BE6",
+  "response": {
+    "duration": 9.68,
+    "original_duration": 9.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2360,
+          "start_time": 360,
+          "text": "老骑士又来到城里。",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 360,
+              "text": "老"
+            },
+            {
+              "end_time": 760,
+              "start_time": 680,
+              "text": "骑"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 1040,
+              "text": "士"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1360,
+              "text": "又"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1560,
+              "text": "来"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1720,
+              "text": "到"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1960,
+              "text": "城"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2160,
+              "text": "里"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2360,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 6840,
+          "start_time": 3320,
+          "text": "这次，他邀请她参加一次正式的训练。",
+          "words": [
+            {
+              "end_time": 3520,
+              "start_time": 3320,
+              "text": "这"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3520,
+              "text": "次"
+            },
+            {
+              "end_time": 3800,
+              "start_time": 3800,
+              "text": "，"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 3880,
+              "text": "他"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4240,
+              "text": "邀"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4440,
+              "text": "请"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4640,
+              "text": "她"
+            },
+            {
+              "end_time": 5200,
+              "start_time": 5000,
+              "text": "参"
+            },
+            {
+              "end_time": 5360,
+              "start_time": 5200,
+              "text": "加"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5360,
+              "text": "一"
+            },
+            {
+              "end_time": 5680,
+              "start_time": 5520,
+              "text": "次"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5760,
+              "text": "正"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 6040,
+              "text": "式"
+            },
+            {
+              "end_time": 6360,
+              "start_time": 6160,
+              "text": "的"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6360,
+              "text": "训"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6560,
+              "text": "练"
+            },
+            {
+              "end_time": 6840,
+              "start_time": 6840,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 9360,
+          "start_time": 6840,
+          "text": "‘愿不愿意走得更远一点？",
+          "words": [
+            {
+              "end_time": 6840,
+              "start_time": 6840,
+              "text": "‘"
+            },
+            {
+              "end_time": 7720,
+              "start_time": 7480,
+              "text": "愿"
+            },
+            {
+              "end_time": 7920,
+              "start_time": 7720,
+              "text": "不"
+            },
+            {
+              "end_time": 8040,
+              "start_time": 7920,
+              "text": "愿"
+            },
+            {
+              "end_time": 8200,
+              "start_time": 8040,
+              "text": "意"
+            },
+            {
+              "end_time": 8440,
+              "start_time": 8240,
+              "text": "走"
+            },
+            {
+              "end_time": 8600,
+              "start_time": 8440,
+              "text": "得"
+            },
+            {
+              "end_time": 8840,
+              "start_time": 8640,
+              "text": "更"
+            },
+            {
+              "end_time": 9080,
+              "start_time": 8840,
+              "text": "远"
+            },
+            {
+              "end_time": 9160,
+              "start_time": 9080,
+              "text": "一"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9160,
+              "text": "点"
+            },
+            {
+              "end_time": 9360,
+              "start_time": 9360,
+              "text": "？"
+            }
+          ]
+        },
+        {
+          "end_time": 9360,
+          "start_time": 9360,
+          "text": "’",
+          "words": [
+            {
+              "end_time": 9360,
+              "start_time": 9360,
+              "text": "’"
+            }
+          ]
+        }
+      ],
+      "text": "老骑士又来到城里。这次，他邀请她参加一次正式的训练。‘愿不愿意走得更远一点？’"
+    }
+  }
+}

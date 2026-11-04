@@ -1,0 +1,183 @@
+{
+  "src": "4b6afc4258d99d57a053.wav",
+  "duration": 7.9,
+  "gain": 1.6825529959533871,
+  "source_sha256": "51028ad686b43342e5d53cc47c9eb6400a9a761037af0dd85df7c48044b89af2",
+  "id": "event.side_nora_3.outcome.1",
+  "text": "她把蜂蜜饼改成小小星形。尝到第一口时，她想起了家中的餐桌。",
+  "group": "event:side_nora_3",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2960,
+        "start_time": 200,
+        "text": "她把蜂蜜饼改成小小星形。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 200,
+            "text": "她"
+          },
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "把"
+          },
+          {
+            "end_time": 760,
+            "start_time": 680,
+            "text": "蜂"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 920,
+            "text": "蜜"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1160,
+            "text": "饼"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1520,
+            "text": "改"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1760,
+            "text": "成"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2000,
+            "text": "小"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2440,
+            "text": "小"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2600,
+            "text": "星"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2920,
+            "text": "形"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2960,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7760,
+        "start_time": 4200,
+        "text": "尝到第一口时，她想起了家中的餐桌。",
+        "words": [
+          {
+            "end_time": 4240,
+            "start_time": 4200,
+            "text": "尝"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4400,
+            "text": "到"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4600,
+            "text": "第"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4760,
+            "text": "一"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4880,
+            "text": "口"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5160,
+            "text": "时"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5560,
+            "text": "，"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 5920,
+            "text": "她"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6160,
+            "text": "想"
+          },
+          {
+            "end_time": 6600,
+            "start_time": 6440,
+            "text": "起"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6600,
+            "text": "了"
+          },
+          {
+            "end_time": 6960,
+            "start_time": 6760,
+            "text": "家"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 6960,
+            "text": "中"
+          },
+          {
+            "end_time": 7320,
+            "start_time": 7160,
+            "text": "的"
+          },
+          {
+            "end_time": 7560,
+            "start_time": 7320,
+            "text": "餐"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7560,
+            "text": "桌"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7760,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她把蜂蜜饼改成小小星形。尝到第一口时，她想起了家中的餐桌。"
+  }
+}

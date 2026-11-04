@@ -1,0 +1,71 @@
+{
+  "src": "4070059b9e8d2ae701a2.wav",
+  "duration": 3.28,
+  "gain": 1.7237187539201866,
+  "source_sha256": "7b3ef681431db97b5a52091dd454d22d5440ac75df9dd4fd785fa5cabf936d2e",
+  "id": "event.daily_paint_wall.choice.0",
+  "text": "先在纸上完成草图",
+  "group": "event:daily_paint_wall",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 920,
+        "text": "先在纸上完成草图",
+        "words": [
+          {
+            "end_time": 1200,
+            "start_time": 920,
+            "text": "先"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "在"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1480,
+            "text": "纸"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1720,
+            "text": "上"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "完"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "成"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2400,
+            "text": "草"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2720,
+            "text": "图"
+          }
+        ]
+      }
+    ],
+    "text": "先在纸上完成草图"
+  }
+}

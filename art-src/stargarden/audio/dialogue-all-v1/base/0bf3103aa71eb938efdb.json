@@ -1,0 +1,166 @@
+{
+  "src": "0bf3103aa71eb938efdb.wav",
+  "duration": 6.58,
+  "gain": 1.616126011263064,
+  "source_sha256": "b989405782ff6a6a719802104b9ddf3ec0c338f5668cc9132888374e93e84dd7",
+  "id": "event.daily_paint_wall.text",
+  "text": "绘画课回来，她想给房间画一张四季图，又担心把墙面弄脏。",
+  "group": "event:daily_paint_wall",
+  "role": "story",
+  "emotion": "温和、自然、像在回忆生活小事",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6280,
+        "start_time": 360,
+        "text": "绘画课回来，她想给房间画一张四季图，又担心把墙面弄脏。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 360,
+            "text": "绘"
+          },
+          {
+            "end_time": 720,
+            "start_time": 680,
+            "text": "画"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 920,
+            "text": "课"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1160,
+            "text": "回"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1360,
+            "text": "来"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1600,
+            "text": "，"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "她"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2040,
+            "text": "想"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2240,
+            "text": "给"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2400,
+            "text": "房"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2600,
+            "text": "间"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2800,
+            "text": "画"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3040,
+            "text": "一"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3200,
+            "text": "张"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3360,
+            "text": "四"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3600,
+            "text": "季"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3920,
+            "text": "图"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 4040,
+            "text": "，"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4560,
+            "text": "又"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4800,
+            "text": "担"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 5000,
+            "text": "心"
+          },
+          {
+            "end_time": 5320,
+            "start_time": 5160,
+            "text": "把"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5320,
+            "text": "墙"
+          },
+          {
+            "end_time": 5840,
+            "start_time": 5600,
+            "text": "面"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5840,
+            "text": "弄"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6080,
+            "text": "脏"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "绘画课回来，她想给房间画一张四季图，又担心把墙面弄脏。"
+  }
+}

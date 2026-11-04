@@ -1,0 +1,95 @@
+{
+  "src": "88c6e81e812f48041871.wav",
+  "duration": 4.4,
+  "gain": 1.3702935570876118,
+  "source_sha256": "29495a3a0ecf1658c9d98de0bb2424ca5c1b55ee2e1585ee4bb09077f51d0b50",
+  "id": "event.independent.choice.0",
+  "text": "郑重地谢谢她，请她决定菜单",
+  "group": "event:independent",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4240,
+        "start_time": 1280,
+        "text": "郑重地谢谢她，请她决定菜单",
+        "words": [
+          {
+            "end_time": 1400,
+            "start_time": 1280,
+            "text": "郑"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1560,
+            "text": "重"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1680,
+            "text": "地"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1920,
+            "text": "谢"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2040,
+            "text": "谢"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2240,
+            "text": "她"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2400,
+            "text": "，"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3000,
+            "text": "请"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3240,
+            "text": "她"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3400,
+            "text": "决"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3640,
+            "text": "定"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3840,
+            "text": "菜"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4040,
+            "text": "单"
+          }
+        ]
+      }
+    ],
+    "text": "郑重地谢谢她，请她决定菜单"
+  }
+}

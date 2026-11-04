@@ -1,0 +1,76 @@
+{
+  "src": "6b0b7229d195236ad33c.wav",
+  "duration": 3.5,
+  "gain": 2.0472471924352154,
+  "source_sha256": "47a8a4266b1603a423eff3b66f6b5424246b710afdc7824f821862a5f39562bc",
+  "id": "event.daily_mountain_cloud.choice.0",
+  "text": "一起找找熟悉的屋顶",
+  "group": "event:daily_mountain_cloud",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3440,
+        "start_time": 1200,
+        "text": "一起找找熟悉的屋顶",
+        "words": [
+          {
+            "end_time": 1400,
+            "start_time": 1200,
+            "text": "一"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "起"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1600,
+            "text": "找"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "找"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2400,
+            "text": "熟"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "悉"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2920,
+            "text": "的"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3120,
+            "text": "屋"
+          },
+          {
+            "end_time": 3440,
+            "start_time": 3400,
+            "text": "顶"
+          }
+        ]
+      }
+    ],
+    "text": "一起找找熟悉的屋顶"
+  }
+}

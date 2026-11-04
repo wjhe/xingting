@@ -1,0 +1,76 @@
+{
+  "src": "3a289f9c7eb91dbbe1e4.wav",
+  "duration": 3.7,
+  "gain": 1.9432278420562739,
+  "source_sha256": "e44fc406d6f8cdf33d8baceb405ca783aa346c4e9650fa4dc4daaca6ec040de3",
+  "id": "event.side_nora_2.choice.1",
+  "text": "为他留下一张问候卡",
+  "group": "event:side_nora_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3640,
+        "start_time": 1960,
+        "text": "为他留下一张问候卡",
+        "words": [
+          {
+            "end_time": 2240,
+            "start_time": 1960,
+            "text": "为"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2240,
+            "text": "他"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2480,
+            "text": "留"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2640,
+            "text": "下"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2760,
+            "text": "一"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2920,
+            "text": "张"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3040,
+            "text": "问"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3360,
+            "text": "候"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3520,
+            "text": "卡"
+          }
+        ]
+      }
+    ],
+    "text": "为他留下一张问候卡"
+  }
+}

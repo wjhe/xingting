@@ -1,0 +1,198 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "8d8f3898-c029-44b6-bee5-fe7e7cd5c578",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“菜单背面多了小小一行字。熟客们发现以后，都特意翻过去读了一遍。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051811780DEB4040F2251EF1E2",
+  "response": {
+    "duration": 7.68,
+    "original_duration": 7.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2920,
+          "start_time": 440,
+          "text": "菜单背面多了小小一行字。",
+          "words": [
+            {
+              "end_time": 720,
+              "start_time": 440,
+              "text": "菜"
+            },
+            {
+              "end_time": 920,
+              "start_time": 720,
+              "text": "单"
+            },
+            {
+              "end_time": 1240,
+              "start_time": 1040,
+              "text": "背"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1240,
+              "text": "面"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1520,
+              "text": "多"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1760,
+              "text": "了"
+            },
+            {
+              "end_time": 2000,
+              "start_time": 1920,
+              "text": "小"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2040,
+              "text": "小"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2240,
+              "text": "一"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2520,
+              "text": "行"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2760,
+              "text": "字"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2920,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7520,
+          "start_time": 3800,
+          "text": "熟客们发现以后，都特意翻过去读了一遍。",
+          "words": [
+            {
+              "end_time": 3840,
+              "start_time": 3800,
+              "text": "熟"
+            },
+            {
+              "end_time": 4160,
+              "start_time": 4080,
+              "text": "客"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4320,
+              "text": "们"
+            },
+            {
+              "end_time": 4760,
+              "start_time": 4600,
+              "text": "发"
+            },
+            {
+              "end_time": 4960,
+              "start_time": 4760,
+              "text": "现"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4960,
+              "text": "以"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5120,
+              "text": "后"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5320,
+              "text": "，"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5560,
+              "text": "都"
+            },
+            {
+              "end_time": 6040,
+              "start_time": 5800,
+              "text": "特"
+            },
+            {
+              "end_time": 6160,
+              "start_time": 6040,
+              "text": "意"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6240,
+              "text": "翻"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6440,
+              "text": "过"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6600,
+              "text": "去"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6920,
+              "text": "读"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7120,
+              "text": "了"
+            },
+            {
+              "end_time": 7360,
+              "start_time": 7240,
+              "text": "一"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7360,
+              "text": "遍"
+            },
+            {
+              "end_time": 7520,
+              "start_time": 7520,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "菜单背面多了小小一行字。熟客们发现以后，都特意翻过去读了一遍。"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "src": "8ee084b60150698b2154.wav",
+  "duration": 3.9,
+  "gain": 1.3832150731618922,
+  "source_sha256": "bab4a743dccd3ce20d35cd90877c73480f380bac47751a7a21a11d12bbca86e8",
+  "id": "event.flowers.choice.0",
+  "text": "为这朵花画一张纪念画",
+  "group": "event:flowers",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3360,
+        "start_time": 480,
+        "text": "为这朵花画一张纪念画",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 480,
+            "text": "为"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 800,
+            "text": "这"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "朵"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1280,
+            "text": "花"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1840,
+            "text": "画"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "一"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "张"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2680,
+            "text": "纪"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2920,
+            "text": "念"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3240,
+            "text": "画"
+          }
+        ]
+      }
+    ],
+    "text": "为这朵花画一张纪念画"
+  }
+}

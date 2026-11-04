@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "4fc9f695-030b-47f3-ba22-79f8c5b65313",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“寄出信，把想念说清楚”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051208E881B257E78E8C1E3451",
+  "response": {
+    "duration": 3.5,
+    "original_duration": 3.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3040,
+          "start_time": 680,
+          "text": "寄出信，把想念说清楚",
+          "words": [
+            {
+              "end_time": 800,
+              "start_time": 680,
+              "text": "寄"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 920,
+              "text": "出"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1240,
+              "text": "信"
+            },
+            {
+              "end_time": 1360,
+              "start_time": 1360,
+              "text": "，"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1680,
+              "text": "把"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1960,
+              "text": "想"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2240,
+              "text": "念"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2480,
+              "text": "说"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2680,
+              "text": "清"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2840,
+              "text": "楚"
+            }
+          ]
+        }
+      ],
+      "text": "寄出信，把想念说清楚"
+    }
+  }
+}

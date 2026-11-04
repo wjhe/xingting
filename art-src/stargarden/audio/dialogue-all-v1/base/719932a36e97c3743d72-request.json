@@ -1,0 +1,81 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "7023913c-48f8-41cc-ad96-4b86d7c02ef6",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“肯定保护自己的判断”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051356812420F5ED046AD31EB7",
+  "response": {
+    "duration": 3.28,
+    "original_duration": 3.28,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 1920,
+          "start_time": 240,
+          "text": "肯定保护自己的判断",
+          "words": [
+            {
+              "end_time": 480,
+              "start_time": 240,
+              "text": "肯"
+            },
+            {
+              "end_time": 680,
+              "start_time": 480,
+              "text": "定"
+            },
+            {
+              "end_time": 880,
+              "start_time": 720,
+              "text": "保"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 880,
+              "text": "护"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1120,
+              "text": "自"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1200,
+              "text": "己"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1320,
+              "text": "的"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1480,
+              "text": "判"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1680,
+              "text": "断"
+            }
+          ]
+        }
+      ],
+      "text": "肯定保护自己的判断"
+    }
+  }
+}

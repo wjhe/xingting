@@ -18,20 +18,27 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageChops, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter
 
 from genimage import API, BASE_URL, KEY_FILE, LOG, MODEL, QUALITY, generate
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "art-src/stargarden/requirements-v2/candidates"
 MASK_DIR = ROOT / "art-src/stargarden/requirements-v2/masks"
+RAW_EDIT_DIR = ROOT / "art-src/stargarden/requirements-v2/raw-edits"
 BASE_ROOM = ROOT / "art-src/stargarden/production-v1/room-portrait_2.png"
 EDIT_API = BASE_URL + "/v1/images/edits"
 SIZE_LANDSCAPE = "1536x1024"
 SIZE_PORTRAIT = "1024x1536"
+NIGHT_COMPOSITE_REGIONS = [
+    (0, 100, 310, 730),
+]
 LOCK = threading.Lock()
 ACTIVE_MODEL = MODEL
 ACTIVE_QUALITY = QUALITY
+ACTIVE_API = API
+ACTIVE_EDIT_API = EDIT_API
+DIRECT_ROOM = False
 
 STYLE = (
     "Original early 1990s Japanese fantasy daughter-raising game cel illustration. "
@@ -55,7 +62,13 @@ ROOM_INVARIANTS = (
     "perspective, same positions and shapes of the window, curtains, writing desk and "
     "chair, bookshelf, table lamp, wardrobe, wall shelf, framed picture, hanging dried "
     "flowers, wooden floor planks and the dusty rose oval rug in the center. Do not "
-    "move, add or remove furniture outside the mask. Keep the center of the room clear. "
+    "move, add or remove furniture. Keep the center of the room clear. "
+    "Every seasonal prop must be a single complete object with its entire silhouette, "
+    "base, rim, handle and cast shadow fully visible and at least 18 pixels away from "
+    "the mask edge. Never crop, truncate, merge or cut an object at the edge of the mask. "
+    "Match the surrounding wall color and lighting naturally and blend all revised "
+    "wall and floor areas seamlessly into the untouched room; no rectangular seam, "
+    "straight transition line or visible edit boundary. "
     "No people. Keep the same 1990s Japanese cel animation style with fine brown "
     "outlines and flat colors. No text, no logo, no watermark."
 )
@@ -112,30 +125,42 @@ ROOMS = {
     "home-room-spring": (
         "Spring version: outside the window, soft pale green new leaves and pink and "
         "white blossoming fruit trees under a clear light blue sky with small white "
-        "clouds. A few cherry-blossom petals drifting near the window. On the desk, a "
-        "small glass jar with fresh spring flowers. Bright fresh morning light.",
-        [(4, 120, 292, 700), (100, 698, 235, 775)],
+        "clouds. A few cherry-blossom petals drifting near the window. On the clear right "
+        "side of the desk, place one complete small clear glass jar with fresh spring "
+        "flowers. The full round foot, glass rim, stems and every flower petal are "
+        "visible; keep the jar separate from the books with a visible soft shadow. "
+        "Bright fresh morning light.",
+        [(0, 45, 360, 760), (45, 620, 440, 900)],
     ),
     "home-room-summer": (
         "Summer version: outside the window, lush deep green trees and a bright saturated "
-        "blue sky with tall white cumulus clouds. A small glass wind chime hanging at the "
-        "window frame, with the curtains only gently lifted by a light breeze and kept in "
-        "the same overall silhouette. A small bowl of cherries on the desk. Strong clear "
-        "sunlight with crisp shadows on the floor.",
-        [(4, 120, 292, 700), (100, 698, 235, 775)],
+        "blue sky with tall white cumulus clouds. One complete small glass wind chime "
+        "hangs inside the window frame, with all top and bottom edges visible and the "
+        "curtains only gently lifted by a light breeze while keeping the same overall "
+        "silhouette. On the clear right side of the desk, place one complete shallow "
+        "ceramic bowl of cherries with its entire rim, body and foot visible. The bowl "
+        "must not touch the books or the mask edge. Strong clear sunlight with crisp "
+        "shadows on the floor.",
+        [(0, 45, 360, 760), (45, 620, 440, 900)],
     ),
     "home-room-autumn": (
         "Autumn version: outside the window, trees in warm orange, amber and red, a few "
-        "falling leaves, a soft golden afternoon sky. On the desk, a small basket with "
-        "apples and a few red maple leaves. Warm golden light slanting across the floor.",
-        [(4, 120, 292, 700), (100, 698, 235, 775)],
+        "falling leaves, a soft golden afternoon sky. On the clear right side of the "
+        "desk, place one complete small woven basket filled with apples, with its entire "
+        "arched handle, rim and base visible. Add only two or three complete red maple "
+        "leaves beside it. Keep the basket separate from the books with a visible soft "
+        "shadow. Warm golden light slanting across the floor.",
+        [(0, 45, 360, 760), (45, 620, 440, 900)],
     ),
     "home-room-winter": (
         "Winter version: outside the window, snow-covered rooftops and trees under a pale "
         "winter sky, gentle falling snow, a little frost at the corners of the window "
-        "glass. A soft knitted cream blanket folded over the desk chair, a steaming mug "
-        "on the desk. Cool bright daylight inside, cozy and warm, not gloomy.",
-        [(4, 120, 292, 700), (100, 698, 235, 775), (4, 740, 150, 1050)],
+        "glass. A soft knitted cream blanket is neatly folded over the back of the desk "
+        "chair, fully visible and not touching the floor. On the clear right side of the "
+        "desk, place one complete steaming ceramic mug with its full handle, rim and "
+        "base clearly visible. Keep it separate from the books. Cool bright daylight "
+        "inside, cozy and warm, not gloomy.",
+        [(0, 45, 360, 760), (45, 620, 440, 900), (0, 680, 200, 1100)],
     ),
     "home-room-night": (
         "Night version: outside the window, a deep navy starry night sky with a crescent "
@@ -143,7 +168,7 @@ ROOMS = {
         "is switched on, casting a warm amber glow over the room. The room is dimmer than "
         "daytime but still clearly readable, about 70 percent of daytime brightness, soft "
         "warm tones, no harsh darkness, no heavy vignette.",
-        [(4, 120, 292, 700), (860, 550, 990, 705)],
+        [(0, 45, 360, 760), (820, 460, 1024, 820)],
     ),
 }
 
@@ -198,25 +223,32 @@ def multipart_body(
     return b"".join(chunks), boundary
 
 
-def request_edit(source: Path, mask: Path, prompt: str, size: str) -> tuple[bytes, str]:
+def request_edit(
+    source: Path,
+    mask: Path | None,
+    prompt: str,
+    size: str,
+) -> tuple[bytes, str]:
     key = KEY_FILE.read_text(encoding="utf-8").strip()
-    body, boundary = multipart_body(
-        {
-            "model": ACTIVE_MODEL,
-            "prompt": prompt,
-            "size": size,
-            "quality": ACTIVE_QUALITY,
-            "n": "1",
-        },
-        [("image", source), ("mask", mask)],
-    )
+    fields = {
+        "model": ACTIVE_MODEL,
+        "prompt": prompt,
+        "size": size,
+        "n": "1",
+    }
+    if ACTIVE_QUALITY:
+        fields["quality"] = ACTIVE_QUALITY
+    files = [("image", source)]
+    if mask is not None:
+        files.append(("mask", mask))
+    body, boundary = multipart_body(fields, files)
     headers = {
         "Authorization": f"Bearer {key}",
         "Content-Type": f"multipart/form-data; boundary={boundary}",
         "Accept": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     }
-    request = urllib.request.Request(EDIT_API, data=body, headers=headers, method="POST")
+    request = urllib.request.Request(ACTIVE_EDIT_API, data=body, headers=headers, method="POST")
     for attempt in range(3):
         try:
             with urllib.request.urlopen(request, timeout=420) as response:
@@ -240,7 +272,7 @@ def request_edit(source: Path, mask: Path, prompt: str, size: str) -> tuple[byte
 
 
 def composite_masked_edit(original: Path, generated: bytes, mask: Path, night: bool) -> bytes:
-    """Copy generated pixels only from the mask; keep every protected pixel exactly."""
+    """Blend the generated room without introducing a visible rectangular seam."""
     with Image.open(original) as opened:
         base = opened.convert("RGB")
     with Image.open(io.BytesIO(generated)) as opened:
@@ -249,18 +281,11 @@ def composite_masked_edit(original: Path, generated: bytes, mask: Path, night: b
         transparency = opened.getchannel("A")
     if edited.size != base.size:
         edited = edited.resize(base.size, Image.Resampling.LANCZOS)
-    editable = transparency.point(lambda value: 255 if value < 128 else 0)
-    # Feather inward while forcing every protected pixel to remain exactly equal
-    # to the source room.
-    feather = ImageChops.multiply(
-        editable.filter(ImageFilter.GaussianBlur(5)),
-        editable,
-    )
-    composed = Image.composite(edited, base, feather)
 
     if night:
-        # Preserve geometry while gently lowering room brightness and adding a warm
-        # localized glow around the existing lamp. This avoids moving furniture.
+        # Keep one continuous nightly lighting pass over the source room, then copy
+        # only the sky and lit lamp from the generated image.
+        composed = base.copy()
         pixels = composed.load()
         for y in range(composed.height):
             for x in range(composed.width):
@@ -276,6 +301,18 @@ def composite_masked_edit(original: Path, generated: bytes, mask: Path, night: b
         glow = glow.filter(ImageFilter.GaussianBlur(95))
         warm = Image.new("RGB", composed.size, (255, 176, 82))
         composed = Image.composite(warm, composed, glow.point(lambda value: value // 2))
+        night_mask = build_mask(NIGHT_COMPOSITE_REGIONS)
+        editable = night_mask.getchannel("A").point(
+            lambda value: 255 if value < 128 else 0
+        )
+        feather = editable.filter(ImageFilter.GaussianBlur(4))
+        composed = Image.composite(edited, composed, feather)
+    else:
+        editable = transparency.point(lambda value: 255 if value < 128 else 0)
+        # A wide soft transition prevents a visible rectangular boundary where the
+        # model's wall color and lighting differ slightly from the source image.
+        feather = editable.filter(ImageFilter.GaussianBlur(48))
+        composed = Image.composite(edited, base, feather)
 
     output = io.BytesIO()
     composed.save(output, format="PNG")
@@ -295,6 +332,7 @@ def run_birthday(task: tuple[str, str, int]) -> str:
         SIZE_LANDSCAPE,
         model=ACTIVE_MODEL,
         quality=ACTIVE_QUALITY,
+        api=ACTIVE_API,
     )
     with Image.open(io.BytesIO(data)) as image:
         image.verify()
@@ -305,7 +343,7 @@ def run_birthday(task: tuple[str, str, int]) -> str:
             {
                 "file": path.relative_to(ROOT).as_posix(),
                 "model": ACTIVE_MODEL,
-                "api": API,
+                "api": ACTIVE_API,
                 "size": SIZE_LANDSCAPE,
                 "quality": ACTIVE_QUALITY,
                 "prompt": prompt,
@@ -325,25 +363,45 @@ def run_room(task: tuple[str, str, int]) -> str:
         with Image.open(path) as image:
             image.verify()
         return f"{path.name} cached"
-    regions = ROOMS[name][1]
-    mask = build_mask(regions)
-    mask_path = MASK_DIR / f"{name}.png"
-    mask_path.parent.mkdir(parents=True, exist_ok=True)
-    mask.save(mask_path)
+    mask_path: Path | None = None
+    if not DIRECT_ROOM:
+        regions = ROOMS[name][1]
+        mask = build_mask(regions)
+        mask_path = MASK_DIR / f"{name}.png"
+        mask_path.parent.mkdir(parents=True, exist_ok=True)
+        mask.save(mask_path)
     prompt = (
         "Use case: lighting-weather\n"
         "Asset type: game room background, 2:3 portrait\n"
-        "Input images: Image 1: exact room edit target; Image 2: transparency mask\n"
-        "Primary request: replace only the environment inside the transparent mask. "
+        + (
+            "Input images: Image 1: exact room edit target and full-image rewrite\n"
+            "Primary request: directly rewrite the complete room image while preserving "
+            "all room geometry. "
+            if DIRECT_ROOM
+            else "Input images: Image 1: exact room edit target; Image 2: transparency mask\n"
+            "Primary request: replace only the environment inside the transparent mask. "
+        )
         + version_prompt
         + "\n"
         + ROOM_INVARIANTS
     )
     started = time.time()
-    raw, response_kind = request_edit(BASE_ROOM, mask_path, prompt, SIZE_PORTRAIT)
+    RAW_EDIT_DIR.mkdir(parents=True, exist_ok=True)
+    raw_name = f"{name}-direct-{variant}.png" if DIRECT_ROOM else f"{name}-{variant}.png"
+    raw_path = RAW_EDIT_DIR / raw_name
+    if raw_path.exists():
+        raw = raw_path.read_bytes()
+        response_kind = "cached"
+    else:
+        raw, response_kind = request_edit(BASE_ROOM, mask_path, prompt, SIZE_PORTRAIT)
+        raw_path.write_bytes(raw)
     with Image.open(io.BytesIO(raw)) as image:
         image.verify()
-    composed = composite_masked_edit(BASE_ROOM, raw, mask_path, name.endswith("night"))
+    composed = (
+        raw
+        if DIRECT_ROOM
+        else composite_masked_edit(BASE_ROOM, raw, mask_path, name.endswith("night"))
+    )
     with LOCK:
         with path.open("xb") as handle:
             handle.write(composed)
@@ -351,46 +409,65 @@ def run_room(task: tuple[str, str, int]) -> str:
             {
                 "file": path.relative_to(ROOT).as_posix(),
                 "model": ACTIVE_MODEL,
-                "api": EDIT_API,
+                "api": ACTIVE_EDIT_API,
                 "size": SIZE_PORTRAIT,
                 "quality": ACTIVE_QUALITY,
                 "prompt": prompt,
                 "source_image": BASE_ROOM.relative_to(ROOT).as_posix(),
-                "mask": mask_path.relative_to(ROOT).as_posix(),
-                "strength": "mask-constrained; service exposes no numeric strength parameter",
-                "postprocess": (
-                    "preserve source outside mask; night-only 80% brightness and local warm lamp glow"
-                    if name.endswith("night")
-                    else "preserve source outside mask"
+                "mask": (
+                    None
+                    if mask_path is None
+                    else mask_path.relative_to(ROOT).as_posix()
                 ),
+                "strength": (
+                    "full-canvas direct edit; no mask"
+                    if DIRECT_ROOM
+                    else "mask-constrained; service exposes no numeric strength parameter"
+                ),
+                "postprocess": (
+                    "direct full-canvas AI output; no compositing"
+                    if DIRECT_ROOM
+                    else (
+                        "continuous 80% night grade; generated sky layered softly"
+                        if name.endswith("night")
+                        else "48px soft seam blend"
+                    )
+                ),
+                "raw_edit": raw_path.relative_to(ROOT).as_posix(),
                 "response_format": response_kind,
                 "time": datetime.datetime.now().isoformat(timespec="seconds"),
                 "batch": "requirements-v2",
                 "variant": variant,
-                "method": "masked-image-edit",
+                "method": "direct-image-edit" if DIRECT_ROOM else "masked-image-edit",
             }
         )
     return f"{path.name} ready ({time.time() - started:.0f}s)"
 
 
-def jobs_for(selected: set[str]) -> list[tuple[str, tuple]]:
+def jobs_for(
+    selected: set[str],
+    variants: tuple[int, ...] = (1, 2),
+) -> list[tuple[str, tuple]]:
     jobs: list[tuple[str, tuple]] = []
     for name, prompt in BIRTHDAYS.items():
         if not selected or name in selected:
-            jobs.extend((name, (name, prompt, variant)) for variant in (1, 2))
+            jobs.extend((name, (name, prompt, variant)) for variant in variants)
     for name in ROOMS:
         if not selected or name in selected:
-            jobs.extend((name, (name, ROOMS[name][0], variant)) for variant in (1, 2))
+            jobs.extend((name, (name, ROOMS[name][0], variant)) for variant in variants)
     return jobs
 
 
 def main() -> int:
-    global ACTIVE_MODEL, ACTIVE_QUALITY, OUT
+    global ACTIVE_API, ACTIVE_EDIT_API, ACTIVE_MODEL, ACTIVE_QUALITY, DIRECT_ROOM, OUT
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", nargs="*", choices=list(BIRTHDAYS) + list(ROOMS))
     parser.add_argument("--workers", type=int, default=2)
     parser.add_argument("--model", default=MODEL)
     parser.add_argument("--quality", default=QUALITY, choices=("low", "medium", "high", "auto"))
+    parser.add_argument("--base-url", default=BASE_URL)
+    parser.add_argument("--direct-room", action="store_true")
+    parser.add_argument("--variant", type=int, choices=(1, 2))
     parser.add_argument(
         "--out",
         type=Path,
@@ -400,14 +477,21 @@ def main() -> int:
     args = parser.parse_args()
     if not BASE_ROOM.exists():
         raise SystemExit(f"Missing room base: {BASE_ROOM}")
+    base_url = args.base_url.rstrip("/")
+    ACTIVE_API = base_url + "/v1/images/generations"
+    ACTIVE_EDIT_API = base_url + "/v1/images/edits"
     ACTIVE_MODEL = args.model
     ACTIVE_QUALITY = args.quality
+    DIRECT_ROOM = args.direct_room
     OUT = args.out.resolve()
     if ROOT not in OUT.parents:
         raise SystemExit("--out must be inside the project root")
     OUT.mkdir(parents=True, exist_ok=True)
     selected = set(args.only or [])
-    jobs = jobs_for(selected)
+    jobs = jobs_for(
+        selected,
+        (args.variant,) if args.variant is not None else (1, 2),
+    )
     unknown = selected - set(BIRTHDAYS) - set(ROOMS)
     if unknown:
         raise SystemExit(f"Unknown jobs: {', '.join(sorted(unknown))}")

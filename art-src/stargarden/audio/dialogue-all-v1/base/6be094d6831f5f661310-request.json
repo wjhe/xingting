@@ -1,0 +1,243 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "a95ba8d1-229c-40bc-8c69-714e71be7865",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：带入情节，清楚而自然。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“邻居的孩子送来一封带着干花的信，邀请她参加庭院茶会。她有些期待，也有些不知所措。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050521411F70181103B82B165EEF",
+  "response": {
+    "duration": 11.3,
+    "original_duration": 11.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 7240,
+          "start_time": 200,
+          "text": "邻居的孩子送来一封带着干花的信，邀请她参加庭院茶会。",
+          "words": [
+            {
+              "end_time": 520,
+              "start_time": 200,
+              "text": "邻"
+            },
+            {
+              "end_time": 760,
+              "start_time": 520,
+              "text": "居"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 760,
+              "text": "的"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 1000,
+              "text": "孩"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1200,
+              "text": "子"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1560,
+              "text": "送"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1800,
+              "text": "来"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2040,
+              "text": "一"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2240,
+              "text": "封"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2520,
+              "text": "带"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2680,
+              "text": "着"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 2920,
+              "text": "干"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3160,
+              "text": "花"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3360,
+              "text": "的"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3520,
+              "text": "信"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3720,
+              "text": "，"
+            },
+            {
+              "end_time": 4800,
+              "start_time": 4560,
+              "text": "邀"
+            },
+            {
+              "end_time": 5040,
+              "start_time": 4800,
+              "text": "请"
+            },
+            {
+              "end_time": 5320,
+              "start_time": 5040,
+              "text": "她"
+            },
+            {
+              "end_time": 5800,
+              "start_time": 5560,
+              "text": "参"
+            },
+            {
+              "end_time": 5960,
+              "start_time": 5800,
+              "text": "加"
+            },
+            {
+              "end_time": 6280,
+              "start_time": 6160,
+              "text": "庭"
+            },
+            {
+              "end_time": 6600,
+              "start_time": 6480,
+              "text": "院"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6800,
+              "text": "茶"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7040,
+              "text": "会"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7240,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 10720,
+          "start_time": 8080,
+          "text": "她有些期待，也有些不知所措。",
+          "words": [
+            {
+              "end_time": 8280,
+              "start_time": 8080,
+              "text": "她"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8280,
+              "text": "有"
+            },
+            {
+              "end_time": 8520,
+              "start_time": 8400,
+              "text": "些"
+            },
+            {
+              "end_time": 8760,
+              "start_time": 8560,
+              "text": "期"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 8760,
+              "text": "待"
+            },
+            {
+              "end_time": 9040,
+              "start_time": 9040,
+              "text": "，"
+            },
+            {
+              "end_time": 9680,
+              "start_time": 9400,
+              "text": "也"
+            },
+            {
+              "end_time": 9840,
+              "start_time": 9680,
+              "text": "有"
+            },
+            {
+              "end_time": 10000,
+              "start_time": 9840,
+              "text": "些"
+            },
+            {
+              "end_time": 10160,
+              "start_time": 10000,
+              "text": "不"
+            },
+            {
+              "end_time": 10320,
+              "start_time": 10160,
+              "text": "知"
+            },
+            {
+              "end_time": 10560,
+              "start_time": 10320,
+              "text": "所"
+            },
+            {
+              "end_time": 10720,
+              "start_time": 10560,
+              "text": "措"
+            },
+            {
+              "end_time": 10720,
+              "start_time": 10720,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "邻居的孩子送来一封带着干花的信，邀请她参加庭院茶会。她有些期待，也有些不知所措。"
+    }
+  }
+}

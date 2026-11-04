@@ -1,0 +1,146 @@
+{
+  "src": "05ca23deb6815bcdf5aa.wav",
+  "duration": 5.338666666666667,
+  "gain": 1.4331235816171435,
+  "source_sha256": "44ae730f310fb0fedced3ed65336b641930d3230093d814d9a2def7dded378ae",
+  "id": "event.side_mira_1.outcome.1",
+  "text": "她们做了两枚书签，一人一枚，也约定有事直接说。",
+  "group": "event:side_mira_1",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5120,
+        "start_time": 200,
+        "text": "她们做了两枚书签，一人一枚，也约定有事直接说。",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 200,
+            "text": "她"
+          },
+          {
+            "end_time": 520,
+            "start_time": 400,
+            "text": "们"
+          },
+          {
+            "end_time": 720,
+            "start_time": 520,
+            "text": "做"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "了"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 880,
+            "text": "两"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1040,
+            "text": "枚"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1240,
+            "text": "书"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1640,
+            "text": "签"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1720,
+            "text": "，"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "一"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "人"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "一"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2800,
+            "text": "枚"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "，"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3400,
+            "text": "也"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3680,
+            "text": "约"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3840,
+            "text": "定"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4120,
+            "text": "有"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4400,
+            "text": "事"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4600,
+            "text": "直"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4720,
+            "text": "接"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4840,
+            "text": "说"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 5120,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她们做了两枚书签，一人一枚，也约定有事直接说。"
+  }
+}

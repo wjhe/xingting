@@ -1,0 +1,76 @@
+{
+  "src": "f07ff96f7e8836572fbf.wav",
+  "duration": 3.7,
+  "gain": 1.7872956847077133,
+  "source_sha256": "d0eb9fb7ddb2b1d3684a1d49158b5f87f8e2341e9449ef73c1ad2a5899a6b990",
+  "id": "event.friendship.choice.0",
+  "text": "陪她写一封真诚的信",
+  "group": "event:friendship",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3080,
+        "start_time": 360,
+        "text": "陪她写一封真诚的信",
+        "words": [
+          {
+            "end_time": 640,
+            "start_time": 360,
+            "text": "陪"
+          },
+          {
+            "end_time": 920,
+            "start_time": 720,
+            "text": "她"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 960,
+            "text": "写"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1240,
+            "text": "一"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "封"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2040,
+            "text": "真"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2320,
+            "text": "诚"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2600,
+            "text": "的"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "信"
+          }
+        ]
+      }
+    ],
+    "text": "陪她写一封真诚的信"
+  }
+}

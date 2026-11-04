@@ -1,0 +1,71 @@
+{
+  "src": "dbc6c86f41afe6976bfa.wav",
+  "duration": 3.08,
+  "gain": 1.4612716780103707,
+  "source_sha256": "eab7e496e30f82e7beaa6bc79569af197f9fb4e8e824dc4567aed886ed4914f3",
+  "id": "event.daily_quiet_trust.choice.0",
+  "text": "陪她看窗外的灯",
+  "group": "event:daily_quiet_trust",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2520,
+        "start_time": 520,
+        "text": "陪她看窗外的灯。",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 520,
+            "text": "陪"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 920,
+            "text": "她"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1200,
+            "text": "看"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "窗"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1840,
+            "text": "外"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "的"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "灯"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2520,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "陪她看窗外的灯。"
+  }
+}

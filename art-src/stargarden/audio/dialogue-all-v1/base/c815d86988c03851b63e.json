@@ -1,0 +1,86 @@
+{
+  "src": "c815d86988c03851b63e.wav",
+  "duration": 3.7,
+  "gain": 1.64219424832082,
+  "source_sha256": "13dbec3b37bc160a53a089adef13efd1d30743310819a1bb5184b333aeb6e753",
+  "id": "event.daily_tired_cup.choice.0",
+  "text": "今晚先睡，练习明天再说",
+  "group": "event:daily_tired_cup",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3280,
+        "start_time": 640,
+        "text": "今晚先睡，练习明天再说",
+        "words": [
+          {
+            "end_time": 920,
+            "start_time": 640,
+            "text": "今"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 920,
+            "text": "晚"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1160,
+            "text": "先"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1360,
+            "text": "睡"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1640,
+            "text": "，"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "练"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "习"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2480,
+            "text": "明"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2640,
+            "text": "天"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2800,
+            "text": "再"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3000,
+            "text": "说"
+          }
+        ]
+      }
+    ],
+    "text": "今晚先睡，练习明天再说"
+  }
+}

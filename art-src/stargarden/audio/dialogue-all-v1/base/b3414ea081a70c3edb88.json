@@ -1,0 +1,187 @@
+{
+  "src": "b3414ea081a70c3edb88.wav",
+  "duration": 7.5,
+  "gain": 1.4616503455405845,
+  "source_sha256": "90228371191239f94d7dfa55088c3b870bcc61996223c4865627009ae809a35c",
+  "id": "event.side_mira_4.outcome.1",
+  "text": "第六格先空着。几天后，一位害羞的新同学放进了自己的第一本书。",
+  "group": "event:side_mira_4",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2120,
+        "start_time": 560,
+        "text": "第六格先空着。",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "第"
+          },
+          {
+            "end_time": 960,
+            "start_time": 800,
+            "text": "六"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1080,
+            "text": "格"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1360,
+            "text": "先"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1600,
+            "text": "空"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1880,
+            "text": "着"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 2120,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 7240,
+        "start_time": 2840,
+        "text": "几天后，一位害羞的新同学放进了自己的第一本书。",
+        "words": [
+          {
+            "end_time": 3040,
+            "start_time": 2840,
+            "text": "几"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3040,
+            "text": "天"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3240,
+            "text": "后"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3520,
+            "text": "，"
+          },
+          {
+            "end_time": 3800,
+            "start_time": 3640,
+            "text": "一"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3800,
+            "text": "位"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4040,
+            "text": "害"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4360,
+            "text": "羞"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4520,
+            "text": "的"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4720,
+            "text": "新"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 4960,
+            "text": "同"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5160,
+            "text": "学"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5560,
+            "text": "放"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5800,
+            "text": "进"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6000,
+            "text": "了"
+          },
+          {
+            "end_time": 6280,
+            "start_time": 6200,
+            "text": "自"
+          },
+          {
+            "end_time": 6400,
+            "start_time": 6280,
+            "text": "己"
+          },
+          {
+            "end_time": 6520,
+            "start_time": 6400,
+            "text": "的"
+          },
+          {
+            "end_time": 6680,
+            "start_time": 6520,
+            "text": "第"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6680,
+            "text": "一"
+          },
+          {
+            "end_time": 7000,
+            "start_time": 6800,
+            "text": "本"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7000,
+            "text": "书"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7240,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "第六格先空着。几天后，一位害羞的新同学放进了自己的第一本书。"
+  }
+}

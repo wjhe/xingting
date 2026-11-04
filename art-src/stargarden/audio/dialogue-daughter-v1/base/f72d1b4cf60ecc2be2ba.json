@@ -1,0 +1,69 @@
+{
+  "src": "f72d1b4cf60ecc2be2ba.wav",
+  "duration": 3.4,
+  "gain": 2.461502376386657,
+  "source_sha256": "335c28c78cd74bc41fd77126c6373f11da617d40ee9d8c727196126dc02b9c75",
+  "id": "dialogue.main_7_2.memory",
+  "text": "这些，我都记得。",
+  "group": "event:main_7_2",
+  "role": "daughter",
+  "emotion": "温柔、怀念，像在回望整段成长",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3080,
+        "start_time": 520,
+        "text": "这些，我都记得。",
+        "words": [
+          {
+            "end_time": 760,
+            "start_time": 520,
+            "text": "这"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 760,
+            "text": "些"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1120,
+            "text": "，"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2040,
+            "text": "我"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "都"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2640,
+            "text": "记"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2880,
+            "text": "得"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3080,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "这些，我都记得。"
+  }
+}

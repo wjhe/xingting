@@ -1,0 +1,81 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "ac63ad44-3032-4447-a8f5-f1878089cf33",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“陪她道歉并重新送茶”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505124627206D8996ED06CED2E8",
+  "response": {
+    "duration": 3.7,
+    "original_duration": 3.7,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3080,
+          "start_time": 160,
+          "text": "陪她道歉并重新送茶",
+          "words": [
+            {
+              "end_time": 400,
+              "start_time": 160,
+              "text": "陪"
+            },
+            {
+              "end_time": 600,
+              "start_time": 480,
+              "text": "她"
+            },
+            {
+              "end_time": 920,
+              "start_time": 720,
+              "text": "道"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 920,
+              "text": "歉"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1600,
+              "text": "并"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2000,
+              "text": "重"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2240,
+              "text": "新"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2640,
+              "text": "送"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2920,
+              "text": "茶"
+            }
+          ]
+        }
+      ],
+      "text": "陪她道歉并重新送茶"
+    }
+  }
+}

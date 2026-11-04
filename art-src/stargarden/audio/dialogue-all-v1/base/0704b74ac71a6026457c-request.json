@@ -1,0 +1,223 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "8e2cd222-03a3-4246-a90e-c76cbfaa59b0",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“老师没有评出谁对，只请她们分别续写结尾。两个人都迫不及待想读对方的故事。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505163777FF628AFE62BEDC6A4B",
+  "response": {
+    "duration": 8.6,
+    "original_duration": 8.6,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 4720,
+          "start_time": 360,
+          "text": "老师没有评出谁对，只请她们分别续写结尾。",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 360,
+              "text": "老"
+            },
+            {
+              "end_time": 800,
+              "start_time": 600,
+              "text": "师"
+            },
+            {
+              "end_time": 880,
+              "start_time": 800,
+              "text": "没"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 880,
+              "text": "有"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 1080,
+              "text": "评"
+            },
+            {
+              "end_time": 1520,
+              "start_time": 1280,
+              "text": "出"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1520,
+              "text": "谁"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 1720,
+              "text": "对"
+            },
+            {
+              "end_time": 2080,
+              "start_time": 2080,
+              "text": "，"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2440,
+              "text": "只"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2680,
+              "text": "请"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2920,
+              "text": "她"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3120,
+              "text": "们"
+            },
+            {
+              "end_time": 3480,
+              "start_time": 3280,
+              "text": "分"
+            },
+            {
+              "end_time": 3720,
+              "start_time": 3480,
+              "text": "别"
+            },
+            {
+              "end_time": 3880,
+              "start_time": 3840,
+              "text": "续"
+            },
+            {
+              "end_time": 4120,
+              "start_time": 4080,
+              "text": "写"
+            },
+            {
+              "end_time": 4440,
+              "start_time": 4320,
+              "text": "结"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4640,
+              "text": "尾"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4720,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 8400,
+          "start_time": 5680,
+          "text": "两个人都迫不及待想读对方的故事。",
+          "words": [
+            {
+              "end_time": 5880,
+              "start_time": 5680,
+              "text": "两"
+            },
+            {
+              "end_time": 6000,
+              "start_time": 5880,
+              "text": "个"
+            },
+            {
+              "end_time": 6160,
+              "start_time": 6000,
+              "text": "人"
+            },
+            {
+              "end_time": 6320,
+              "start_time": 6160,
+              "text": "都"
+            },
+            {
+              "end_time": 6560,
+              "start_time": 6320,
+              "text": "迫"
+            },
+            {
+              "end_time": 6680,
+              "start_time": 6560,
+              "text": "不"
+            },
+            {
+              "end_time": 6880,
+              "start_time": 6680,
+              "text": "及"
+            },
+            {
+              "end_time": 7080,
+              "start_time": 6880,
+              "text": "待"
+            },
+            {
+              "end_time": 7400,
+              "start_time": 7160,
+              "text": "想"
+            },
+            {
+              "end_time": 7600,
+              "start_time": 7440,
+              "text": "读"
+            },
+            {
+              "end_time": 7800,
+              "start_time": 7680,
+              "text": "对"
+            },
+            {
+              "end_time": 7960,
+              "start_time": 7800,
+              "text": "方"
+            },
+            {
+              "end_time": 8120,
+              "start_time": 7960,
+              "text": "的"
+            },
+            {
+              "end_time": 8280,
+              "start_time": 8120,
+              "text": "故"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8280,
+              "text": "事"
+            },
+            {
+              "end_time": 8400,
+              "start_time": 8400,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "老师没有评出谁对，只请她们分别续写结尾。两个人都迫不及待想读对方的故事。"
+    }
+  }
+}

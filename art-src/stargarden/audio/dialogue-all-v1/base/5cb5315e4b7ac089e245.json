@@ -1,0 +1,202 @@
+{
+  "src": "5cb5315e4b7ac089e245.wav",
+  "duration": 8.8,
+  "gain": 1.2204202307425467,
+  "source_sha256": "89102d9979e754c30f2c176d139f716215d315efd3ab1e7dfd47cd18dfc1b4a0",
+  "id": "event.side_rowan_4.outcome.0",
+  "text": "新人听得认真。她第一次站到了教人的位置，声音像当年的罗恩一样耐心。",
+  "group": "event:side_rowan_4",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2040,
+        "start_time": 560,
+        "text": "新人听得认真。",
+        "words": [
+          {
+            "end_time": 760,
+            "start_time": 560,
+            "text": "新"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 840,
+            "text": "人"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "听"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "得"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1600,
+            "text": "认"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1800,
+            "text": "真"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 2040,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8320,
+        "start_time": 2760,
+        "text": "她第一次站到了教人的位置，声音像当年的罗恩一样耐心。",
+        "words": [
+          {
+            "end_time": 3040,
+            "start_time": 2760,
+            "text": "她"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3040,
+            "text": "第"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3200,
+            "text": "一"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "次"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3560,
+            "text": "站"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3840,
+            "text": "到"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 4000,
+            "text": "了"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4240,
+            "text": "教"
+          },
+          {
+            "end_time": 4720,
+            "start_time": 4480,
+            "text": "人"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4720,
+            "text": "的"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4880,
+            "text": "位"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5040,
+            "text": "置"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 5240,
+            "text": "，"
+          },
+          {
+            "end_time": 6080,
+            "start_time": 5840,
+            "text": "声"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6080,
+            "text": "音"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6320,
+            "text": "像"
+          },
+          {
+            "end_time": 6720,
+            "start_time": 6560,
+            "text": "当"
+          },
+          {
+            "end_time": 6880,
+            "start_time": 6720,
+            "text": "年"
+          },
+          {
+            "end_time": 7080,
+            "start_time": 6880,
+            "text": "的"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7080,
+            "text": "罗"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7400,
+            "text": "恩"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7600,
+            "text": "一"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7720,
+            "text": "样"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7880,
+            "text": "耐"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8080,
+            "text": "心"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8320,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "新人听得认真。她第一次站到了教人的位置，声音像当年的罗恩一样耐心。"
+  }
+}

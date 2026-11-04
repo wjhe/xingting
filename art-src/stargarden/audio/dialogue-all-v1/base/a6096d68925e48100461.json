@@ -1,0 +1,91 @@
+{
+  "src": "a6096d68925e48100461.wav",
+  "duration": 4.4,
+  "gain": 1.8380887937763075,
+  "source_sha256": "56d3f2284b93951d7d806afc6c1022a7a50f56eba91dae40f48bd01a905df644",
+  "id": "event.side_nora_1.choice.1",
+  "text": "请诺拉教她记订单的方法",
+  "group": "event:side_nora_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 280,
+        "text": "请诺拉教她记订单的方法。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 280,
+            "text": "请"
+          },
+          {
+            "end_time": 720,
+            "start_time": 640,
+            "text": "诺"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "拉"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "教"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1280,
+            "text": "她"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1520,
+            "text": "记"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1720,
+            "text": "订"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1880,
+            "text": "单"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "的"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2320,
+            "text": "方"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2440,
+            "text": "法"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "请诺拉教她记订单的方法。"
+  }
+}

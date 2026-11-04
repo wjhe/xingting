@@ -1,0 +1,166 @@
+{
+  "src": "07bec2d369e0c9582b69.wav",
+  "duration": 5.303833333333333,
+  "gain": 1.389805558781348,
+  "source_sha256": "001aaa1e77c5b83821aa4d95d55505971751c1b852a9142f91f21df220716a9a",
+  "id": "event.side_mira_3.outcome.1",
+  "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。",
+  "group": "event:side_mira_3",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5080,
+        "start_time": 40,
+        "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。",
+        "words": [
+          {
+            "end_time": 240,
+            "start_time": 40,
+            "text": "得"
+          },
+          {
+            "end_time": 360,
+            "start_time": 240,
+            "text": "知"
+          },
+          {
+            "end_time": 600,
+            "start_time": 520,
+            "text": "米"
+          },
+          {
+            "end_time": 880,
+            "start_time": 760,
+            "text": "拉"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1000,
+            "text": "只"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1120,
+            "text": "是"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1200,
+            "text": "忙"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1360,
+            "text": "着"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1520,
+            "text": "照"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "顾"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1880,
+            "text": "家"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2080,
+            "text": "人"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2360,
+            "text": "，"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2640,
+            "text": "艾"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2920,
+            "text": "莉"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3120,
+            "text": "主"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3240,
+            "text": "动"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3360,
+            "text": "整"
+          },
+          {
+            "end_time": 3600,
+            "start_time": 3480,
+            "text": "理"
+          },
+          {
+            "end_time": 3720,
+            "start_time": 3600,
+            "text": "了"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3800,
+            "text": "课"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 4000,
+            "text": "堂"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4160,
+            "text": "笔"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4360,
+            "text": "记"
+          },
+          {
+            "end_time": 4800,
+            "start_time": 4720,
+            "text": "送"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 4920,
+            "text": "去"
+          },
+          {
+            "end_time": 5080,
+            "start_time": 5080,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "得知米拉只是忙着照顾家人，艾莉主动整理了课堂笔记送去。"
+  }
+}

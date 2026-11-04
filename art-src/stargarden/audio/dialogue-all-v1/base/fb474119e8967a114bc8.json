@@ -1,0 +1,71 @@
+{
+  "src": "fb474119e8967a114bc8.wav",
+  "duration": 3.28,
+  "gain": 0.8876820601077222,
+  "source_sha256": "bd3870a4dbd1f0aaa574a53ea0f3fd8e9e7404a1237cfc28a0e1a4fc237324ba",
+  "id": "event.side_rowan_0.choice.0",
+  "text": "认真完成基础练习",
+  "group": "event:side_rowan_0",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2680,
+        "start_time": 360,
+        "text": "认真完成基础练习",
+        "words": [
+          {
+            "end_time": 640,
+            "start_time": 360,
+            "text": "认"
+          },
+          {
+            "end_time": 840,
+            "start_time": 640,
+            "text": "真"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "完"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1160,
+            "text": "成"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1640,
+            "text": "基"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1840,
+            "text": "础"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2280,
+            "text": "练"
+          },
+          {
+            "end_time": 2680,
+            "start_time": 2520,
+            "text": "习"
+          }
+        ]
+      }
+    ],
+    "text": "认真完成基础练习"
+  }
+}

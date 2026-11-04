@@ -1,0 +1,66 @@
+{
+  "src": "92f2a153aae101840870.wav",
+  "duration": 3.08,
+  "gain": 1.7571635858936345,
+  "source_sha256": "ad59111d57978f9d186644bb6bdc4de112732fc0de7ee2d7b233ca95202715b7",
+  "id": "event.book.choice.1",
+  "text": "鼓励她自己研究",
+  "group": "event:book",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2560,
+        "start_time": 760,
+        "text": "鼓励她自己研究",
+        "words": [
+          {
+            "end_time": 1000,
+            "start_time": 760,
+            "text": "鼓"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1000,
+            "text": "励"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1440,
+            "text": "她"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1640,
+            "text": "自"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "己"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "研"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2320,
+            "text": "究"
+          }
+        ]
+      }
+    ],
+    "text": "鼓励她自己研究"
+  }
+}

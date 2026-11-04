@@ -1,0 +1,96 @@
+{
+  "src": "6d3d70e1502244ee472d.wav",
+  "duration": 3.9,
+  "gain": 0.8806931006134193,
+  "source_sha256": "02d4bae32982c2d7b6c9f9f9fb10405b409fce83898dfce5cc6658d2c369c555",
+  "id": "event.exam.choice.0",
+  "text": "先抱抱她，再一起看看题目",
+  "group": "event:exam",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3240,
+        "start_time": 400,
+        "text": "先抱抱她，再一起看看题目。",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 400,
+            "text": "先"
+          },
+          {
+            "end_time": 960,
+            "start_time": 720,
+            "text": "抱"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1080,
+            "text": "抱"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1320,
+            "text": "她"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1400,
+            "text": "，"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1880,
+            "text": "再"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2040,
+            "text": "一"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "起"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2360,
+            "text": "看"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2560,
+            "text": "看"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2720,
+            "text": "题"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3000,
+            "text": "目"
+          },
+          {
+            "end_time": 3240,
+            "start_time": 3240,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "先抱抱她，再一起看看题目。"
+  }
+}

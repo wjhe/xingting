@@ -15,5 +15,77 @@
       "enable_subtitle": true
     }
   },
-  "status": "submitted"
+  "status": "complete",
+  "provider_log_id": "2026110505115211D5CCD55B02F61BD59D",
+  "response": {
+    "duration": 3.9,
+    "original_duration": 3.9,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3080,
+          "start_time": 440,
+          "text": "一起学会保护借来的东西",
+          "words": [
+            {
+              "end_time": 680,
+              "start_time": 440,
+              "text": "一"
+            },
+            {
+              "end_time": 920,
+              "start_time": 680,
+              "text": "起"
+            },
+            {
+              "end_time": 1160,
+              "start_time": 920,
+              "text": "学"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1160,
+              "text": "会"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1440,
+              "text": "保"
+            },
+            {
+              "end_time": 1840,
+              "start_time": 1640,
+              "text": "护"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2160,
+              "text": "借"
+            },
+            {
+              "end_time": 2640,
+              "start_time": 2400,
+              "text": "来"
+            },
+            {
+              "end_time": 2760,
+              "start_time": 2640,
+              "text": "的"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2760,
+              "text": "东"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 2920,
+              "text": "西"
+            }
+          ]
+        }
+      ],
+      "text": "一起学会保护借来的东西"
+    }
+  }
 }

@@ -1,0 +1,80 @@
+{
+  "src": "cd03f9824431d77f4a7d.wav",
+  "duration": 3.28,
+  "gain": 1.3384977653899754,
+  "source_sha256": "6af585a8d10b138dcf06938dc15349a6ca72095aa827be7895d8e6a0b33bdbe7",
+  "id": "event.side_mira_4.choice.0",
+  "text": "每人挑三本喜欢的书",
+  "group": "event:side_mira_4",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2800,
+        "start_time": 480,
+        "text": "每人挑三本喜欢的书。",
+        "words": [
+          {
+            "end_time": 760,
+            "start_time": 480,
+            "text": "每"
+          },
+          {
+            "end_time": 920,
+            "start_time": 760,
+            "text": "人"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 960,
+            "text": "挑"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "三"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1720,
+            "text": "本"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2080,
+            "text": "喜"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "欢"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "的"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2600,
+            "text": "书"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2800,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "每人挑三本喜欢的书。"
+  }
+}

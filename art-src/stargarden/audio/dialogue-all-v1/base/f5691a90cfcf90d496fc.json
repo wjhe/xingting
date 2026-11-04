@@ -1,0 +1,90 @@
+{
+  "src": "f5691a90cfcf90d496fc.wav",
+  "duration": 3.9,
+  "gain": 0.8546425283829395,
+  "source_sha256": "80c4e15a6f70876266bd6f1d1b37c95691f1eeb0d3111970a3bccf524b416855",
+  "id": "event.side_nora_4.choice.1",
+  "text": "加上一句送给大家的感谢",
+  "group": "event:side_nora_4",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3280,
+        "start_time": 1080,
+        "text": "加上一句送给大家的感谢。",
+        "words": [
+          {
+            "end_time": 1360,
+            "start_time": 1080,
+            "text": "加"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1360,
+            "text": "上"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "一"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1760,
+            "text": "句"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "送"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "给"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2520,
+            "text": "大"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2640,
+            "text": "家"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2760,
+            "text": "的"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2920,
+            "text": "感"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3120,
+            "text": "谢"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3280,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "加上一句送给大家的感谢。"
+  }
+}

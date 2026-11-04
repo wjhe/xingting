@@ -1,0 +1,75 @@
+{
+  "src": "a296c5c680d34a1a2811.wav",
+  "duration": 3.28,
+  "gain": 0.8680941249805205,
+  "source_sha256": "165836837dc0e38b6d1a6421c37d5f7024e0c96a74a84cdb66a02fad8929dd9f",
+  "id": "event.side_nora_4.choice.0",
+  "text": "大方写下自己的名字",
+  "group": "event:side_nora_4",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2040,
+        "start_time": 240,
+        "text": "大方写下自己的名字",
+        "words": [
+          {
+            "end_time": 560,
+            "start_time": 240,
+            "text": "大"
+          },
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "方"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "写"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1080,
+            "text": "下"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "自"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1480,
+            "text": "己"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1560,
+            "text": "的"
+          },
+          {
+            "end_time": 1880,
+            "start_time": 1720,
+            "text": "名"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1880,
+            "text": "字"
+          }
+        ]
+      }
+    ],
+    "text": "大方写下自己的名字"
+  }
+}

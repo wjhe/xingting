@@ -1,0 +1,113 @@
+{
+  "src": "2dcb867de5c55c73e226.wav",
+  "duration": 5.08,
+  "gain": 1.0284617088841297,
+  "source_sha256": "d31a690a104bea723befcd15e271994088c52d40981077882b1829902132bf38",
+  "id": "gift.girl",
+  "text": "是我最喜欢的蜂蜜饼干！谢谢你。",
+  "group": "gift",
+  "role": "gift",
+  "emotion": "开心而亲近，不夸张",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2960,
+        "start_time": 320,
+        "text": "是我最喜欢的蜂蜜饼干！",
+        "words": [
+          {
+            "end_time": 720,
+            "start_time": 320,
+            "text": "是"
+          },
+          {
+            "end_time": 960,
+            "start_time": 720,
+            "text": "我"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 960,
+            "text": "最"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1200,
+            "text": "喜"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1360,
+            "text": "欢"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1520,
+            "text": "的"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "蜂"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2160,
+            "text": "蜜"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2520,
+            "text": "饼"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2760,
+            "text": "干"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2960,
+            "text": "！"
+          }
+        ]
+      },
+      {
+        "end_time": 4560,
+        "start_time": 3920,
+        "text": "谢谢你。",
+        "words": [
+          {
+            "end_time": 4080,
+            "start_time": 3920,
+            "text": "谢"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4120,
+            "text": "谢"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4280,
+            "text": "你"
+          },
+          {
+            "end_time": 4560,
+            "start_time": 4560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "是我最喜欢的蜂蜜饼干！谢谢你。"
+  }
+}

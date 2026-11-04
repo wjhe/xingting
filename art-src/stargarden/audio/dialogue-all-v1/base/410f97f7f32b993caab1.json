@@ -1,0 +1,141 @@
+{
+  "src": "410f97f7f32b993caab1.wav",
+  "duration": 6.4,
+  "gain": 0.8990864779366667,
+  "source_sha256": "d5f3d1201300c1f7f36c895b87a8c7c3b765a58f0889dedb2b09bd0ad0d8ae23",
+  "id": "event.side_mira_0.outcome.0",
+  "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。",
+  "group": "event:side_mira_0",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6000,
+        "start_time": 680,
+        "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 680,
+            "text": "米"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1040,
+            "text": "拉"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1360,
+            "text": "轻"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1600,
+            "text": "声"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1880,
+            "text": "道"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2120,
+            "text": "谢"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2240,
+            "text": "，"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2840,
+            "text": "放"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3120,
+            "text": "学"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3400,
+            "text": "时"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3840,
+            "text": "留"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 4080,
+            "text": "下"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4240,
+            "text": "了"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4400,
+            "text": "另"
+          },
+          {
+            "end_time": 4760,
+            "start_time": 4600,
+            "text": "一"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4760,
+            "text": "支"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 5040,
+            "text": "削"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5240,
+            "text": "好"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5440,
+            "text": "的"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5640,
+            "text": "铅"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5880,
+            "text": "笔"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 6000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "米拉轻声道谢，放学时留下了另一支削好的铅笔。"
+  }
+}

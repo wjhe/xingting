@@ -1,0 +1,243 @@
+{
+  "src": "1a75f69aa0686c62f92b.wav",
+  "duration": 11.1,
+  "gain": 1.3559467681161717,
+  "source_sha256": "a10f8057f3ae81ff4d3f0cb70c6f14f9f58d9b516c42fa3b5da52880562be856",
+  "id": "event.daily_quiet_trust.text",
+  "text": "她端着两杯热水坐到你身边。今晚没有烦恼要问，也没有愿望要讨论，只想在这里待一会儿。",
+  "group": "event:daily_quiet_trust",
+  "role": "story",
+  "emotion": "温和、自然、像在回忆生活小事",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3920,
+        "start_time": 1200,
+        "text": "她端着两杯热水坐到你身边。",
+        "words": [
+          {
+            "end_time": 1520,
+            "start_time": 1200,
+            "text": "她"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1520,
+            "text": "端"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1760,
+            "text": "着"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1960,
+            "text": "两"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2120,
+            "text": "杯"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2320,
+            "text": "热"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2560,
+            "text": "水"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2960,
+            "text": "坐"
+          },
+          {
+            "end_time": 3320,
+            "start_time": 3160,
+            "text": "到"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3320,
+            "text": "你"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "身"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3680,
+            "text": "边"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3920,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 10920,
+        "start_time": 4480,
+        "text": "今晚没有烦恼要问，也没有愿望要讨论，只想在这里待一会儿。",
+        "words": [
+          {
+            "end_time": 4800,
+            "start_time": 4480,
+            "text": "今"
+          },
+          {
+            "end_time": 4960,
+            "start_time": 4800,
+            "text": "晚"
+          },
+          {
+            "end_time": 5200,
+            "start_time": 5080,
+            "text": "没"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5200,
+            "text": "有"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5280,
+            "text": "烦"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5520,
+            "text": "恼"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5760,
+            "text": "要"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6000,
+            "text": "问"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6320,
+            "text": "，"
+          },
+          {
+            "end_time": 7040,
+            "start_time": 6800,
+            "text": "也"
+          },
+          {
+            "end_time": 7160,
+            "start_time": 7040,
+            "text": "没"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7160,
+            "text": "有"
+          },
+          {
+            "end_time": 7520,
+            "start_time": 7240,
+            "text": "愿"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7520,
+            "text": "望"
+          },
+          {
+            "end_time": 7960,
+            "start_time": 7760,
+            "text": "要"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 7960,
+            "text": "讨"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8200,
+            "text": "论"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8440,
+            "text": "，"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9280,
+            "text": "只"
+          },
+          {
+            "end_time": 9680,
+            "start_time": 9480,
+            "text": "想"
+          },
+          {
+            "end_time": 9840,
+            "start_time": 9680,
+            "text": "在"
+          },
+          {
+            "end_time": 9960,
+            "start_time": 9840,
+            "text": "这"
+          },
+          {
+            "end_time": 10080,
+            "start_time": 9960,
+            "text": "里"
+          },
+          {
+            "end_time": 10320,
+            "start_time": 10240,
+            "text": "待"
+          },
+          {
+            "end_time": 10640,
+            "start_time": 10480,
+            "text": "一"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10640,
+            "text": "会"
+          },
+          {
+            "end_time": 10920,
+            "start_time": 10680,
+            "text": "儿"
+          },
+          {
+            "end_time": 10920,
+            "start_time": 10920,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她端着两杯热水坐到你身边。今晚没有烦恼要问，也没有愿望要讨论，只想在这里待一会儿。"
+  }
+}

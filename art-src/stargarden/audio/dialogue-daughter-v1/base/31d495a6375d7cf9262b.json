@@ -1,0 +1,109 @@
+{
+  "src": "31d495a6375d7cf9262b.wav",
+  "duration": 4.8,
+  "gain": 1.3841194670059862,
+  "source_sha256": "6d953388c238be1ad2bd64f845ffc4488f0dd00f817fb43cebbe64e91baa525b",
+  "id": "dialogue.main_6_0.text.0",
+  "text": "如果我想去的地方，这上面没有呢？",
+  "group": "event:main_6_0",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4480,
+        "start_time": 1280,
+        "text": "如果我想去的地方，这上面没有呢？",
+        "words": [
+          {
+            "end_time": 1520,
+            "start_time": 1280,
+            "text": "如"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "果"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "我"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "想"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2160,
+            "text": "去"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "的"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2600,
+            "text": "地"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2720,
+            "text": "方"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2960,
+            "text": "，"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3200,
+            "text": "这"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "上"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3680,
+            "text": "面"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3880,
+            "text": "没"
+          },
+          {
+            "end_time": 4200,
+            "start_time": 4040,
+            "text": "有"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4200,
+            "text": "呢"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4480,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "如果我想去的地方，这上面没有呢？"
+  }
+}

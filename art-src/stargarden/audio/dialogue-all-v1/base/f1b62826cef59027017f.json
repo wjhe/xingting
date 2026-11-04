@@ -1,0 +1,71 @@
+{
+  "src": "f1b62826cef59027017f.wav",
+  "duration": 3.5,
+  "gain": 1.5377675873083325,
+  "source_sha256": "a0de5d3be37fea2f36c69d72039777f96f05c385c5efe19df726cf9589404ee8",
+  "id": "event.daily_sea_shell.choice.1",
+  "text": "告诉她声音的来由",
+  "group": "event:daily_sea_shell",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2880,
+        "start_time": 760,
+        "text": "告诉她声音的来由",
+        "words": [
+          {
+            "end_time": 1000,
+            "start_time": 760,
+            "text": "告"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1000,
+            "text": "诉"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1200,
+            "text": "她"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1720,
+            "text": "声"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "音"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2200,
+            "text": "的"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "来"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2800,
+            "text": "由"
+          }
+        ]
+      }
+    ],
+    "text": "告诉她声音的来由"
+  }
+}

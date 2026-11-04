@@ -1,0 +1,121 @@
+{
+  "src": "361ee05bdaabebe5a148.wav",
+  "duration": 5.3,
+  "gain": 1.5542470683287255,
+  "source_sha256": "6a169b26d3e46e3f16f89fadc73918c2383bf16894f4030df142de44d6d30631",
+  "id": "dialogue.dream.text.0",
+  "text": "长大以后，我一定要成为很厉害的人吗？",
+  "group": "event:dream",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5000,
+        "start_time": 360,
+        "text": "长大以后，我一定要成为很厉害的人吗？",
+        "words": [
+          {
+            "end_time": 640,
+            "start_time": 360,
+            "text": "长"
+          },
+          {
+            "end_time": 960,
+            "start_time": 640,
+            "text": "大"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "以"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "后"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1400,
+            "text": "，"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2080,
+            "text": "我"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2440,
+            "text": "一"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2560,
+            "text": "定"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2760,
+            "text": "要"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3000,
+            "text": "成"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3280,
+            "text": "为"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3560,
+            "text": "很"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3840,
+            "text": "厉"
+          },
+          {
+            "end_time": 4160,
+            "start_time": 4000,
+            "text": "害"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4160,
+            "text": "的"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4400,
+            "text": "人"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4640,
+            "text": "吗"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 5000,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "长大以后，我一定要成为很厉害的人吗？"
+  }
+}

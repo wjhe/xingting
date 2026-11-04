@@ -6,13 +6,14 @@
 
 项目通过 `scripts/genimage.py` 调用用户已有的 OpenAI 兼容图像生成服务：
 
-- 服务地址：`https://api.aigocode.dev`。
-- 文生图端点：`https://api.aigocode.dev/v1/images/generations`。
-- 图生图/遮罩编辑端点：`https://api.aigocode.dev/v1/images/edits`。
-- 脚本当前配置的模型：`gpt-image-2.5-sunburst`。
-- 画质固定为 `quality: high`，不要改为低质量档。
+- 服务地址：`https://deeprouter.top`。
+- 文生图端点：`https://deeprouter.top/v1/images/generations`。
+- 图生图/遮罩编辑端点：`https://deeprouter.top/v1/images/edits`。
+- 脚本当前配置的模型：`gpt-image-2.5-flare`。
+- 默认不传 `quality` 参数，沿用此前已确认的服务默认画质，以保持画风一致。
 - 密钥：从项目根目录 `gpt_image_2_5_key.txt` 读取，以 Bearer 方式鉴权。
-- 请求包含 `model`、`prompt`、`size`、`quality` 和 `n`；`quality` 固定为 `high`，每次请求 `n=1`，多张时逐张调用。
+- 请求默认包含 `model`、`prompt`、`size` 和 `n`；每次请求 `n=1`，多张时逐张调用。
+- 仅在临时风格测试时通过 `--quality` 显式指定其他档位，不应改变默认证风格配置。
 - 响应支持 `b64_json` 或图片 URL。
 
 这是项目配置的第三方图像服务，不是官方 OpenAI 地址。密钥文件已列入 `.gitignore`；不要打印、复制、提交或放入网页。生成记录并非版权或商用授权证明，使用权仍需核对服务商条款。

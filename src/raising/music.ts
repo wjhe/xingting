@@ -24,6 +24,8 @@ export class MusicPlayer {
   private master: GainNode | null = null;
   private duck: GainNode | null = null;
   private voices = new Set<Voice>();
+  private voiceDucked = false;
+  private jingleCount = 0;
 
   private ensure(): AudioContext | null {
     if (this.ctx) return this.ctx;
@@ -40,7 +42,18 @@ export class MusicPlayer {
     // 默认 50% 对应 0.8 倍增益；文件已标准化到约 -20 LUFS
     this.master.gain.setTargetAtTime(Math.min(1, this.volume * 1.6), this.ctx.currentTime, ramp || .001);
   }
+  private updateDuck(ramp = .12): void {
+    if (!this.ctx || !this.duck) return;
+    const target = this.voiceDucked || this.jingleCount > 0 ? DUCK : 1;
+    this.duck.gain.setTargetAtTime(target, this.ctx.currentTime, ramp);
+  }
   setVolume(value: number): void { this.volume = Math.min(1, Math.max(0, value)); this.applyVolume(); }
+  /** Dialogue ducks the music without muting it, then restores the previous music level. */
+  setVoiceDucked(active: boolean): void {
+    if (this.voiceDucked === active) return;
+    this.voiceDucked = active;
+    this.updateDuck();
+  }
   setEnabled(on: boolean): void {
     this.enabled = on;
     if (on) { const ctx = this.ensure(); void ctx?.resume().catch(() => {}); if (this.current) this.start(this.current); }
@@ -103,13 +116,19 @@ export class MusicPlayer {
     const ctx = this.ensure();
     if (!ctx || !this.duck || !this.master) return;
     void ctx.resume().catch(() => {});
-    const now = ctx.currentTime;
-    this.duck.gain.cancelScheduledValues(now);
-    this.duck.gain.setTargetAtTime(DUCK, now, .08);
+    this.jingleCount++;
+    this.updateDuck(.08);
     const el = new Audio(`${ROOT}${id}.mp3`);
     const source = ctx.createMediaElementSource(el);
     source.connect(this.master);
-    const restore = () => { if (this.duck && this.ctx) this.duck.gain.setTargetAtTime(1, this.ctx.currentTime, .4); source.disconnect(); };
+    let restored = false;
+    const restore = () => {
+      if (restored) return;
+      restored = true;
+      this.jingleCount = Math.max(0, this.jingleCount - 1);
+      this.updateDuck(.4);
+      source.disconnect();
+    };
     el.addEventListener('ended', restore);
     el.addEventListener('error', restore);
     void el.play().catch(restore);

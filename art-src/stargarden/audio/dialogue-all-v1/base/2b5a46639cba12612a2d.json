@@ -1,0 +1,228 @@
+{
+  "src": "2b5a46639cba12612a2d.wav",
+  "duration": 11.1,
+  "gain": 1.5593560543485607,
+  "source_sha256": "59f7ae463b50b3be9035cb70411fa945f3fcc6649808542055169a5d721f2927",
+  "id": "event.lost.text",
+  "text": "采蘑菇时，她发现一条没走过的小路。树枝上系着褪色的缎带，像是有人留下的路标。",
+  "group": "event:lost",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5560,
+        "start_time": 1920,
+        "text": "采蘑菇时，她发现一条没走过的小路。",
+        "words": [
+          {
+            "end_time": 2160,
+            "start_time": 1920,
+            "text": "采"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2240,
+            "text": "蘑"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2560,
+            "text": "菇"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2800,
+            "text": "时"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 3120,
+            "text": "，"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3360,
+            "text": "她"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3640,
+            "text": "发"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3760,
+            "text": "现"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3920,
+            "text": "一"
+          },
+          {
+            "end_time": 4360,
+            "start_time": 4120,
+            "text": "条"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4400,
+            "text": "没"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4680,
+            "text": "走"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4880,
+            "text": "过"
+          },
+          {
+            "end_time": 5200,
+            "start_time": 5040,
+            "text": "的"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5200,
+            "text": "小"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5400,
+            "text": "路"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5560,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11040,
+        "start_time": 6440,
+        "text": "树枝上系着褪色的缎带，像是有人留下的路标。",
+        "words": [
+          {
+            "end_time": 6600,
+            "start_time": 6440,
+            "text": "树"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6800,
+            "text": "枝"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 6960,
+            "text": "上"
+          },
+          {
+            "end_time": 7440,
+            "start_time": 7400,
+            "text": "系"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7600,
+            "text": "着"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7800,
+            "text": "褪"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 8000,
+            "text": "色"
+          },
+          {
+            "end_time": 8320,
+            "start_time": 8160,
+            "text": "的"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8360,
+            "text": "缎"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8600,
+            "text": "带"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8680,
+            "text": "，"
+          },
+          {
+            "end_time": 9560,
+            "start_time": 9320,
+            "text": "像"
+          },
+          {
+            "end_time": 9760,
+            "start_time": 9560,
+            "text": "是"
+          },
+          {
+            "end_time": 9920,
+            "start_time": 9760,
+            "text": "有"
+          },
+          {
+            "end_time": 10120,
+            "start_time": 9920,
+            "text": "人"
+          },
+          {
+            "end_time": 10320,
+            "start_time": 10120,
+            "text": "留"
+          },
+          {
+            "end_time": 10440,
+            "start_time": 10320,
+            "text": "下"
+          },
+          {
+            "end_time": 10600,
+            "start_time": 10440,
+            "text": "的"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10600,
+            "text": "路"
+          },
+          {
+            "end_time": 11040,
+            "start_time": 10840,
+            "text": "标"
+          },
+          {
+            "end_time": 11040,
+            "start_time": 11040,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "采蘑菇时，她发现一条没走过的小路。树枝上系着褪色的缎带，像是有人留下的路标。"
+  }
+}

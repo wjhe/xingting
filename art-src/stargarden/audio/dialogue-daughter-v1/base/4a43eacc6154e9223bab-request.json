@@ -1,0 +1,101 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "e2fe1964-118a-472d-97c8-967d7580f3c4",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：自然入戏，像一个正在成长的孩子直接说话，不朗读叙述。以故事中同一个女孩的声音直接说出台词。\n请完整念出以下文本：“原来，天上的星星也有名字。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050538386F15D3140D2BDC1FDBF8",
+  "response": {
+    "duration": 4.18,
+    "original_duration": 4.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3640,
+          "start_time": 240,
+          "text": "原来，天上的星星也有名字。",
+          "words": [
+            {
+              "end_time": 480,
+              "start_time": 240,
+              "text": "原"
+            },
+            {
+              "end_time": 760,
+              "start_time": 480,
+              "text": "来"
+            },
+            {
+              "end_time": 760,
+              "start_time": 760,
+              "text": "，"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1080,
+              "text": "天"
+            },
+            {
+              "end_time": 1680,
+              "start_time": 1480,
+              "text": "上"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1680,
+              "text": "的"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 2000,
+              "text": "星"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2360,
+              "text": "星"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2760,
+              "text": "也"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3040,
+              "text": "有"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3240,
+              "text": "名"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3440,
+              "text": "字"
+            },
+            {
+              "end_time": 3640,
+              "start_time": 3640,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "原来，天上的星星也有名字。"
+    }
+  }
+}

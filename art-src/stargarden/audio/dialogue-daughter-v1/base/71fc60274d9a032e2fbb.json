@@ -1,0 +1,99 @@
+{
+  "src": "71fc60274d9a032e2fbb.wav",
+  "duration": 4.58,
+  "gain": 1.1757197129590544,
+  "source_sha256": "59475e70214da11e345d620a7a736fc5ca0100d56ca52a14c95c656e40d57ad2",
+  "id": "dialogue.main_7_1.text.0",
+  "text": "不管最后做得怎样，你会来吗？",
+  "group": "event:main_7_1",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3560,
+        "start_time": 400,
+        "text": "不管最后做得怎样，你会来吗？",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 400,
+            "text": "不"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "管"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "最"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "后"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1360,
+            "text": "做"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "得"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "怎"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2040,
+            "text": "样"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2280,
+            "text": "，"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2560,
+            "text": "你"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2800,
+            "text": "会"
+          },
+          {
+            "end_time": 3280,
+            "start_time": 3000,
+            "text": "来"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3280,
+            "text": "吗"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3560,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "不管最后做得怎样，你会来吗？"
+  }
+}

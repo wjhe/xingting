@@ -1,0 +1,66 @@
+{
+  "src": "0d2f663d145771a0c25d.wav",
+  "duration": 3.08,
+  "gain": 1.0435668789808916,
+  "source_sha256": "5b23d96c4ed95228e4bc763d3a1ba32f4efca5fcd58ba0c85a4f776748af0658",
+  "id": "event.daily_dance_steps.choice.0",
+  "text": "替她轻轻打拍子",
+  "group": "event:daily_dance_steps",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2040,
+        "start_time": 240,
+        "text": "替她轻轻打拍子",
+        "words": [
+          {
+            "end_time": 400,
+            "start_time": 240,
+            "text": "替"
+          },
+          {
+            "end_time": 680,
+            "start_time": 560,
+            "text": "她"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 880,
+            "text": "轻"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1080,
+            "text": "轻"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1320,
+            "text": "打"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1640,
+            "text": "拍"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1920,
+            "text": "子"
+          }
+        ]
+      }
+    ],
+    "text": "替她轻轻打拍子"
+  }
+}

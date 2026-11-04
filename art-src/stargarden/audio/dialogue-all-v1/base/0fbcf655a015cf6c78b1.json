@@ -1,0 +1,81 @@
+{
+  "src": "0fbcf655a015cf6c78b1.wav",
+  "duration": 3.5,
+  "gain": 0.8653700366619027,
+  "source_sha256": "66515bb3eec390e1e03bab63134a72924ae0b8ded9b5f717b95135f6fc5179bc",
+  "id": "event.side_mira_3.choice.1",
+  "text": "先问问老师她的近况",
+  "group": "event:side_mira_3",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2880,
+        "start_time": 840,
+        "text": "先问问老师她的近况。",
+        "words": [
+          {
+            "end_time": 1200,
+            "start_time": 840,
+            "text": "先"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1200,
+            "text": "问"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1600,
+            "text": "问"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1640,
+            "text": "老"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1840,
+            "text": "师"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2200,
+            "text": "她"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2320,
+            "text": "的"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2520,
+            "text": "近"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2800,
+            "text": "况"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2880,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "先问问老师她的近况。"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "src": "85f804e0a83f06cf7235.wav",
+  "duration": 3.5,
+  "gain": 1.1115332428765263,
+  "source_sha256": "61af9dbb1588f25f105c1095c6834c14b817a152fee4f1b301d3be22ff2ba9e8",
+  "id": "event.side_mira_2.choice.0",
+  "text": "交换理由，听完再回答",
+  "group": "event:side_mira_2",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3120,
+        "start_time": 0,
+        "text": "交换理由，听完再回答",
+        "words": [
+          {
+            "end_time": 40,
+            "start_time": 0,
+            "text": "交"
+          },
+          {
+            "end_time": 320,
+            "start_time": 120,
+            "text": "换"
+          },
+          {
+            "end_time": 680,
+            "start_time": 480,
+            "text": "理"
+          },
+          {
+            "end_time": 880,
+            "start_time": 680,
+            "text": "由"
+          },
+          {
+            "end_time": 880,
+            "start_time": 880,
+            "text": "，"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1760,
+            "text": "听"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2080,
+            "text": "完"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2480,
+            "text": "再"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2720,
+            "text": "回"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2920,
+            "text": "答"
+          }
+        ]
+      }
+    ],
+    "text": "交换理由，听完再回答"
+  }
+}

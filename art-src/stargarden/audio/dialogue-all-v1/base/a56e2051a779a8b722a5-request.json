@@ -1,0 +1,183 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "4bca52b5-0745-42cb-b8df-2da827ac88b6",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温和、自然、像在回忆生活小事。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“古塔墙上有一排陌生刻痕。她想临摹，又担心损伤原来的石壁。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505203950BE381794EB3919ADEB",
+  "response": {
+    "duration": 7.3,
+    "original_duration": 7.3,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2920,
+          "start_time": 360,
+          "text": "古塔墙上有一排陌生刻痕。",
+          "words": [
+            {
+              "end_time": 480,
+              "start_time": 360,
+              "text": "古"
+            },
+            {
+              "end_time": 840,
+              "start_time": 640,
+              "text": "塔"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 920,
+              "text": "墙"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1200,
+              "text": "上"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1480,
+              "text": "有"
+            },
+            {
+              "end_time": 1800,
+              "start_time": 1640,
+              "text": "一"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1800,
+              "text": "排"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 2080,
+              "text": "陌"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2280,
+              "text": "生"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2560,
+              "text": "刻"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2880,
+              "text": "痕"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2920,
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "end_time": 7240,
+          "start_time": 3880,
+          "text": "她想临摹，又担心损伤原来的石壁。",
+          "words": [
+            {
+              "end_time": 4000,
+              "start_time": 3880,
+              "text": "她"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4040,
+              "text": "想"
+            },
+            {
+              "end_time": 4400,
+              "start_time": 4360,
+              "text": "临"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4640,
+              "text": "摹"
+            },
+            {
+              "end_time": 4720,
+              "start_time": 4720,
+              "text": "，"
+            },
+            {
+              "end_time": 5440,
+              "start_time": 5160,
+              "text": "又"
+            },
+            {
+              "end_time": 5640,
+              "start_time": 5440,
+              "text": "担"
+            },
+            {
+              "end_time": 5840,
+              "start_time": 5640,
+              "text": "心"
+            },
+            {
+              "end_time": 6200,
+              "start_time": 5920,
+              "text": "损"
+            },
+            {
+              "end_time": 6360,
+              "start_time": 6200,
+              "text": "伤"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6480,
+              "text": "原"
+            },
+            {
+              "end_time": 6800,
+              "start_time": 6640,
+              "text": "来"
+            },
+            {
+              "end_time": 6960,
+              "start_time": 6800,
+              "text": "的"
+            },
+            {
+              "end_time": 7040,
+              "start_time": 6960,
+              "text": "石"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7200,
+              "text": "壁"
+            },
+            {
+              "end_time": 7240,
+              "start_time": 7240,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "古塔墙上有一排陌生刻痕。她想临摹，又担心损伤原来的石壁。"
+    }
+  }
+}

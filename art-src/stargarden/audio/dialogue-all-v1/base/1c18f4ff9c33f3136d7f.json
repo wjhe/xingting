@@ -1,0 +1,81 @@
+{
+  "src": "1c18f4ff9c33f3136d7f.wav",
+  "duration": 3.7,
+  "gain": 1.5854504617999619,
+  "source_sha256": "0428c032235d3a5ebf6f40ee592dc8e9ca00b5bd631935bffbdb59f851c5e191",
+  "id": "event.daily_dress_mirror.choice.0",
+  "text": "夸她刚才笑起来的样子",
+  "group": "event:daily_dress_mirror",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3480,
+        "start_time": 1680,
+        "text": "夸她刚才笑起来的样子",
+        "words": [
+          {
+            "end_time": 2040,
+            "start_time": 1680,
+            "text": "夸"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2120,
+            "text": "她"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2320,
+            "text": "刚"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "才"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "笑"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2840,
+            "text": "起"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2960,
+            "text": "来"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3080,
+            "text": "的"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3200,
+            "text": "样"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3360,
+            "text": "子"
+          }
+        ]
+      }
+    ],
+    "text": "夸她刚才笑起来的样子"
+  }
+}

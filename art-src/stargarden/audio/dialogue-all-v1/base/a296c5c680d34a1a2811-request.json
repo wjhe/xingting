@@ -1,0 +1,81 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "7dbb5976-fbe5-404b-acc3-6080107b9018",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“大方写下自己的名字”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051325DE52360499F6335C42BB",
+  "response": {
+    "duration": 3.28,
+    "original_duration": 3.28,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 2040,
+          "start_time": 240,
+          "text": "大方写下自己的名字",
+          "words": [
+            {
+              "end_time": 560,
+              "start_time": 240,
+              "text": "大"
+            },
+            {
+              "end_time": 800,
+              "start_time": 560,
+              "text": "方"
+            },
+            {
+              "end_time": 1080,
+              "start_time": 880,
+              "text": "写"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1080,
+              "text": "下"
+            },
+            {
+              "end_time": 1480,
+              "start_time": 1320,
+              "text": "自"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1480,
+              "text": "己"
+            },
+            {
+              "end_time": 1720,
+              "start_time": 1560,
+              "text": "的"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1720,
+              "text": "名"
+            },
+            {
+              "end_time": 2040,
+              "start_time": 1880,
+              "text": "字"
+            }
+          ]
+        }
+      ],
+      "text": "大方写下自己的名字"
+    }
+  }
+}

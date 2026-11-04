@@ -1,0 +1,196 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "668daf6a-202e-4ebb-93ac-6ab8514fe40c",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温和、自然、像在回忆生活小事。以自然、温和的故事讲述口吻演出。\n请完整念出以下文本：“魔法练习用的小灯总不亮，她已经检查了三遍，开始怀疑自己没有天分。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105052011AB228164F73BB51FC39F",
+  "response": {
+    "duration": 7.68,
+    "original_duration": 7.68,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 7160,
+          "start_time": 240,
+          "text": "魔法练习用的小灯总不亮，她已经检查了三遍，开始怀疑自己没有天分。",
+          "words": [
+            {
+              "end_time": 440,
+              "start_time": 240,
+              "text": "魔"
+            },
+            {
+              "end_time": 640,
+              "start_time": 440,
+              "text": "法"
+            },
+            {
+              "end_time": 880,
+              "start_time": 720,
+              "text": "练"
+            },
+            {
+              "end_time": 1000,
+              "start_time": 880,
+              "text": "习"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1080,
+              "text": "用"
+            },
+            {
+              "end_time": 1440,
+              "start_time": 1320,
+              "text": "的"
+            },
+            {
+              "end_time": 1560,
+              "start_time": 1440,
+              "text": "小"
+            },
+            {
+              "end_time": 1760,
+              "start_time": 1560,
+              "text": "灯"
+            },
+            {
+              "end_time": 2120,
+              "start_time": 1880,
+              "text": "总"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2120,
+              "text": "不"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2360,
+              "text": "亮"
+            },
+            {
+              "end_time": 2480,
+              "start_time": 2480,
+              "text": "，"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3200,
+              "text": "她"
+            },
+            {
+              "end_time": 3600,
+              "start_time": 3440,
+              "text": "已"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3600,
+              "text": "经"
+            },
+            {
+              "end_time": 4000,
+              "start_time": 3800,
+              "text": "检"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4000,
+              "text": "查"
+            },
+            {
+              "end_time": 4400,
+              "start_time": 4240,
+              "text": "了"
+            },
+            {
+              "end_time": 4600,
+              "start_time": 4400,
+              "text": "三"
+            },
+            {
+              "end_time": 4840,
+              "start_time": 4600,
+              "text": "遍"
+            },
+            {
+              "end_time": 4840,
+              "start_time": 4840,
+              "text": "，"
+            },
+            {
+              "end_time": 5640,
+              "start_time": 5440,
+              "text": "开"
+            },
+            {
+              "end_time": 5840,
+              "start_time": 5640,
+              "text": "始"
+            },
+            {
+              "end_time": 6080,
+              "start_time": 5880,
+              "text": "怀"
+            },
+            {
+              "end_time": 6240,
+              "start_time": 6080,
+              "text": "疑"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6280,
+              "text": "自"
+            },
+            {
+              "end_time": 6520,
+              "start_time": 6440,
+              "text": "己"
+            },
+            {
+              "end_time": 6640,
+              "start_time": 6520,
+              "text": "没"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6640,
+              "text": "有"
+            },
+            {
+              "end_time": 7000,
+              "start_time": 6760,
+              "text": "天"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7080,
+              "text": "分"
+            },
+            {
+              "end_time": 7160,
+              "start_time": 7160,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "魔法练习用的小灯总不亮，她已经检查了三遍，开始怀疑自己没有天分。"
+    }
+  }
+}

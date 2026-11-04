@@ -1,0 +1,86 @@
+{
+  "src": "42274d73c483ec68fb32.wav",
+  "duration": 3.9,
+  "gain": 1.457085715626577,
+  "source_sha256": "056972f7909503b447209b23534b5dad58404727e9d0f32ba43925baf10089f5",
+  "id": "event.side_mira_1.choice.1",
+  "text": "一起学会保护借来的东西",
+  "group": "event:side_mira_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3080,
+        "start_time": 440,
+        "text": "一起学会保护借来的东西",
+        "words": [
+          {
+            "end_time": 680,
+            "start_time": 440,
+            "text": "一"
+          },
+          {
+            "end_time": 920,
+            "start_time": 680,
+            "text": "起"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 920,
+            "text": "学"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "会"
+          },
+          {
+            "end_time": 1640,
+            "start_time": 1440,
+            "text": "保"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1640,
+            "text": "护"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2160,
+            "text": "借"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2400,
+            "text": "来"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2640,
+            "text": "的"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2760,
+            "text": "东"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2920,
+            "text": "西"
+          }
+        ]
+      }
+    ],
+    "text": "一起学会保护借来的东西"
+  }
+}

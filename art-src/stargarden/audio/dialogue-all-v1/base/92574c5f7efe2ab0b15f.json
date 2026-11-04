@@ -1,0 +1,100 @@
+{
+  "src": "92574c5f7efe2ab0b15f.wav",
+  "duration": 4.4,
+  "gain": 1.5260274921643178,
+  "source_sha256": "0a156e16356fc0bb38f90064d70c3a3977f7876ddcadf168f650b9aaf6571f5f",
+  "id": "event.side_rowan_4.choice.1",
+  "text": "留下木剑，另做一把送给新人",
+  "group": "event:side_rowan_4",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3920,
+        "start_time": 360,
+        "text": "留下木剑，另做一把送给新人。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 360,
+            "text": "留"
+          },
+          {
+            "end_time": 800,
+            "start_time": 600,
+            "text": "下"
+          },
+          {
+            "end_time": 960,
+            "start_time": 880,
+            "text": "木"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1200,
+            "text": "剑"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1320,
+            "text": "，"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1800,
+            "text": "另"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "做"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2440,
+            "text": "一"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2600,
+            "text": "把"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2920,
+            "text": "送"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3160,
+            "text": "给"
+          },
+          {
+            "end_time": 3520,
+            "start_time": 3360,
+            "text": "新"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3640,
+            "text": "人"
+          },
+          {
+            "end_time": 3920,
+            "start_time": 3920,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "留下木剑，另做一把送给新人。"
+  }
+}

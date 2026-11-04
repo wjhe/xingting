@@ -1,0 +1,76 @@
+{
+  "src": "a1e24946f61884074659.wav",
+  "duration": 3.28,
+  "gain": 1.554552872216691,
+  "source_sha256": "ac6ff8e3a33650e3bff358d45c603c12654fd37b47dc01a5bc485b465edbea3e",
+  "id": "event.daily_ruins_mark.choice.0",
+  "text": "用纸笔在旁边记录",
+  "group": "event:daily_ruins_mark",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2640,
+        "start_time": 360,
+        "text": "用纸笔在旁边记录。",
+        "words": [
+          {
+            "end_time": 640,
+            "start_time": 360,
+            "text": "用"
+          },
+          {
+            "end_time": 800,
+            "start_time": 760,
+            "text": "纸"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1080,
+            "text": "笔"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1440,
+            "text": "在"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "旁"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1920,
+            "text": "边"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "记"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2360,
+            "text": "录"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2640,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "用纸笔在旁边记录。"
+  }
+}

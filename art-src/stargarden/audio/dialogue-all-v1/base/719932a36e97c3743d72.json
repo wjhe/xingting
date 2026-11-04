@@ -1,0 +1,76 @@
+{
+  "src": "719932a36e97c3743d72.wav",
+  "duration": 3.28,
+  "gain": 2.491348854731864,
+  "source_sha256": "ae77d7a14d90a4f873af589942aba15ec47ccb2a0dbb7aa5a1c0f1b25674472f",
+  "id": "event.side_rowan_1.choice.0",
+  "text": "肯定保护自己的判断",
+  "group": "event:side_rowan_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 1920,
+        "start_time": 240,
+        "text": "肯定保护自己的判断",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 240,
+            "text": "肯"
+          },
+          {
+            "end_time": 680,
+            "start_time": 480,
+            "text": "定"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "保"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 880,
+            "text": "护"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 1120,
+            "text": "自"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1200,
+            "text": "己"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "的"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1480,
+            "text": "判"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1680,
+            "text": "断"
+          }
+        ]
+      }
+    ],
+    "text": "肯定保护自己的判断"
+  }
+}

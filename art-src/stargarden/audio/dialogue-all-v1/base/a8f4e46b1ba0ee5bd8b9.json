@@ -1,0 +1,96 @@
+{
+  "src": "a8f4e46b1ba0ee5bd8b9.wav",
+  "duration": 4.4,
+  "gain": 2.3482556264880343,
+  "source_sha256": "f210883aeb9d162d7deb8af47a16cf0d28ae92b011aabc2e2079d9ebdffa75df",
+  "id": "event.daily_tired_cup.choice.1",
+  "text": "一起把明天的事情减少一点",
+  "group": "event:daily_tired_cup",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2760,
+        "start_time": 240,
+        "text": "一起把明天的事情减少一点。",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 240,
+            "text": "一"
+          },
+          {
+            "end_time": 720,
+            "start_time": 480,
+            "text": "起"
+          },
+          {
+            "end_time": 920,
+            "start_time": 720,
+            "text": "把"
+          },
+          {
+            "end_time": 1080,
+            "start_time": 920,
+            "text": "明"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1080,
+            "text": "天"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1240,
+            "text": "的"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1400,
+            "text": "事"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1520,
+            "text": "情"
+          },
+          {
+            "end_time": 2120,
+            "start_time": 1840,
+            "text": "减"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2120,
+            "text": "少"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2400,
+            "text": "一"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2560,
+            "text": "点"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2760,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "一起把明天的事情减少一点。"
+  }
+}

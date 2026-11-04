@@ -216,3 +216,26 @@
 .pg-shop-banner{display:block;width:100%;height:120px;object-fit:cover;border-radius:16px 5px 16px 5px;margin:0 0 10px}
 .rb-retreat{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2;animation:op-fade-in .8s ease both}
 @keyframes op-fade-in{from{opacity:0}to{opacity:1}}
+
+/* ---------- 演出中的交锋：与“再看一次交锋”相同布局（2026-11-05） ---------- */
+.replay-battle.rb-full{position:relative;margin-bottom:6px}
+.replay-battle.rb-full .battle-picture{position:relative;inset:auto;height:clamp(190px,27dvh,240px);border-radius:24px 7px 24px 7px}
+.replay-battle.rb-full .battle-fighter{left:-5%;bottom:0;width:66%;height:95%}
+.replay-battle.rb-full .battle-enemy{right:0;bottom:9%;width:47%;height:65%}
+.replay-battle.rb-full .battle-region{z-index:3}
+.replay-battle.rb-full .rb-verdict{top:50%;transform:translateY(-50%) scale(.7);display:flex;flex-direction:column;align-items:center;gap:2px}
+.replay-battle.rb-full[data-fighting=false] .rb-verdict{transform:translateY(-50%) scale(1)}
+.replay-battle.rb-full .rb-verdict small{font:500 15px var(--serif,serif);letter-spacing:2px}
+.replay-battle.rb-full .battle-arena{margin:8px 0 6px}
+.replay-battle.rb-full .rb-log{min-height:0;height:auto;margin:0}
+/* 交锋进行时显示战况记录；打完后换成这一旬的收获 */
+.schedule-replay:has(.rb-full[data-fighting=true]) .replay-outcome{display:none}
+.replay-battle.rb-full[data-fighting=false] .rb-log{display:none}
+/* 出击：攻击方向对方冲一下；受击：闪白并抖动。必须写得比入场动画更具体，否则会被入场动画盖掉 */
+.battle-picture .battle-fighter.lunge{animation:lunge-right .3s ease-out}
+.battle-picture .battle-enemy.lunge{animation:lunge-left .3s ease-out}
+.battle-picture .battle-fighter.struck,.battle-picture .battle-enemy.struck{animation:hit-flash .3s ease}
+@keyframes lunge-right{40%{transform:translateX(14%)}}
+@keyframes lunge-left{40%{transform:translateX(-14%)}}
+@keyframes hit-flash{25%{filter:brightness(1.8);transform:translateX(5px)}60%{transform:translateX(-4px)}}
+@media(prefers-reduced-motion:reduce){.battle-picture .lunge,.battle-picture .struck{animation:none}}

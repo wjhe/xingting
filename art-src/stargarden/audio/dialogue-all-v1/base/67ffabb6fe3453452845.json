@@ -1,0 +1,76 @@
+{
+  "src": "67ffabb6fe3453452845.wav",
+  "duration": 3.28,
+  "gain": 1.6999864459959215,
+  "source_sha256": "7118807cb9d72c2a2499187b8df12fdecfdc1c5a10a44fd64898a36ebbba48d1",
+  "id": "event.book.choice.0",
+  "text": "陪她一起认识星空",
+  "group": "event:book",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3080,
+        "start_time": 640,
+        "text": "陪她一起认识星空。",
+        "words": [
+          {
+            "end_time": 920,
+            "start_time": 640,
+            "text": "陪"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "她"
+          },
+          {
+            "end_time": 1440,
+            "start_time": 1280,
+            "text": "一"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1440,
+            "text": "起"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1920,
+            "text": "认"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "识"
+          },
+          {
+            "end_time": 2760,
+            "start_time": 2680,
+            "text": "星"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 2960,
+            "text": "空"
+          },
+          {
+            "end_time": 3080,
+            "start_time": 3080,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "陪她一起认识星空。"
+  }
+}

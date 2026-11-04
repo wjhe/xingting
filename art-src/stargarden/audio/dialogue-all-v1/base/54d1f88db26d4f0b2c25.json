@@ -1,0 +1,76 @@
+{
+  "src": "54d1f88db26d4f0b2c25.wav",
+  "duration": 3.5,
+  "gain": 0.8809437960590821,
+  "source_sha256": "2ed23c570518ebcd428b4354b07e9e01e189427c8e3ad4664dc72633927e7887",
+  "id": "event.daily_guard_gate.choice.0",
+  "text": "画一张简单的路线图",
+  "group": "event:daily_guard_gate",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2720,
+        "start_time": 760,
+        "text": "画一张简单的路线图",
+        "words": [
+          {
+            "end_time": 1040,
+            "start_time": 760,
+            "text": "画"
+          },
+          {
+            "end_time": 1280,
+            "start_time": 1040,
+            "text": "一"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1280,
+            "text": "张"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1480,
+            "text": "简"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1680,
+            "text": "单"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1800,
+            "text": "的"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2000,
+            "text": "路"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2240,
+            "text": "线"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2600,
+            "text": "图"
+          }
+        ]
+      }
+    ],
+    "text": "画一张简单的路线图"
+  }
+}

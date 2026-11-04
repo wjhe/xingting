@@ -1,0 +1,215 @@
+{
+  "src": "7040abb7b1a457103b1d.wav",
+  "duration": 8.8,
+  "gain": 1.5946704551693873,
+  "source_sha256": "c91d56c0eb9ef0b33e35c4bf468e2f06268b6e23eb1b7e25e267f33925df3519",
+  "id": "event.exam.text",
+  "text": "她把试卷藏在身后，眼睛红红的。“我明明很努力了，为什么还是做不好？”",
+  "group": "event:exam",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4080,
+        "start_time": 200,
+        "text": "她把试卷藏在身后，眼睛红红的。",
+        "words": [
+          {
+            "end_time": 440,
+            "start_time": 200,
+            "text": "她"
+          },
+          {
+            "end_time": 600,
+            "start_time": 440,
+            "text": "把"
+          },
+          {
+            "end_time": 800,
+            "start_time": 720,
+            "text": "试"
+          },
+          {
+            "end_time": 1120,
+            "start_time": 1080,
+            "text": "卷"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1400,
+            "text": "藏"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1600,
+            "text": "在"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1840,
+            "text": "身"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2080,
+            "text": "后"
+          },
+          {
+            "end_time": 2320,
+            "start_time": 2320,
+            "text": "，"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2760,
+            "text": "眼"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3000,
+            "text": "睛"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3280,
+            "text": "红"
+          },
+          {
+            "end_time": 3680,
+            "start_time": 3520,
+            "text": "红"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3680,
+            "text": "的"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 4080,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 8400,
+        "start_time": 4080,
+        "text": "‘我明明很努力了，为什么还是做不好？",
+        "words": [
+          {
+            "end_time": 4080,
+            "start_time": 4080,
+            "text": "‘"
+          },
+          {
+            "end_time": 5240,
+            "start_time": 4960,
+            "text": "我"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5240,
+            "text": "明"
+          },
+          {
+            "end_time": 5680,
+            "start_time": 5560,
+            "text": "明"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5720,
+            "text": "很"
+          },
+          {
+            "end_time": 6160,
+            "start_time": 5960,
+            "text": "努"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6160,
+            "text": "力"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6400,
+            "text": "了"
+          },
+          {
+            "end_time": 6800,
+            "start_time": 6800,
+            "text": "，"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7040,
+            "text": "为"
+          },
+          {
+            "end_time": 7360,
+            "start_time": 7200,
+            "text": "什"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7360,
+            "text": "么"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7480,
+            "text": "还"
+          },
+          {
+            "end_time": 7800,
+            "start_time": 7640,
+            "text": "是"
+          },
+          {
+            "end_time": 8040,
+            "start_time": 7800,
+            "text": "做"
+          },
+          {
+            "end_time": 8160,
+            "start_time": 8040,
+            "text": "不"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8160,
+            "text": "好"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8400,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 8400,
+        "start_time": 8400,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 8400,
+            "start_time": 8400,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "她把试卷藏在身后，眼睛红红的。‘我明明很努力了，为什么还是做不好？’"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "src": "93cd82bd0f58366da528.wav",
+  "duration": 3.9,
+  "gain": 1.6027046205969915,
+  "source_sha256": "e24206278644f0a12cdc6473d490847f195abf55fb312e3bc48e47647b838332",
+  "id": "event.daily_magic_lamp.choice.0",
+  "text": "陪她把步骤从头理一遍",
+  "group": "event:daily_magic_lamp",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3040,
+        "start_time": 560,
+        "text": "陪她把步骤从头理一遍。",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "陪"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 880,
+            "text": "她"
+          },
+          {
+            "end_time": 1240,
+            "start_time": 1040,
+            "text": "把"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "步"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1480,
+            "text": "骤"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1960,
+            "text": "从"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2200,
+            "text": "头"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2560,
+            "text": "理"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2800,
+            "text": "一"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 2920,
+            "text": "遍"
+          },
+          {
+            "end_time": 3040,
+            "start_time": 3040,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "陪她把步骤从头理一遍。"
+  }
+}

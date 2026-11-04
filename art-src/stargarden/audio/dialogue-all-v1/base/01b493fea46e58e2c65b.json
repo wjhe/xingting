@@ -1,0 +1,101 @@
+{
+  "src": "01b493fea46e58e2c65b.wav",
+  "duration": 4.4,
+  "gain": 0.8841036058913153,
+  "source_sha256": "fb066cccd3316c7c69dde5b57ecfb34d5ccf7de3ce133f1f2ecb32a9d146d317",
+  "id": "event.friendship.choice.1",
+  "text": "给她一点时间，自己理清心情",
+  "group": "event:friendship",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3400,
+        "start_time": 520,
+        "text": "给她一点时间，自己理清心情。",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 520,
+            "text": "给"
+          },
+          {
+            "end_time": 1040,
+            "start_time": 840,
+            "text": "她"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1040,
+            "text": "一"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "点"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1320,
+            "text": "时"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "间"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1720,
+            "text": "，"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 2000,
+            "text": "自"
+          },
+          {
+            "end_time": 2360,
+            "start_time": 2200,
+            "text": "己"
+          },
+          {
+            "end_time": 2520,
+            "start_time": 2480,
+            "text": "理"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2720,
+            "text": "清"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3000,
+            "text": "心"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3200,
+            "text": "情"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3400,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "给她一点时间，自己理清心情。"
+  }
+}

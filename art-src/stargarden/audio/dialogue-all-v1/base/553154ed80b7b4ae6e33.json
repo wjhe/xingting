@@ -1,0 +1,187 @@
+{
+  "src": "553154ed80b7b4ae6e33.wav",
+  "duration": 9.8,
+  "gain": 1.6727353605706736,
+  "source_sha256": "8d210c48bf70010ef9468a5725e2756630e346e9425a2c560c2b70bf232cc4d1",
+  "id": "event.side_fern_4.outcome.0",
+  "text": "图上补上了水源、避雨处和回程时间。她们把可靠放在了好看之前。",
+  "group": "event:side_fern_4",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 5280,
+        "start_time": 520,
+        "text": "图上补上了水源、避雨处和回程时间。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 520,
+            "text": "图"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 840,
+            "text": "上"
+          },
+          {
+            "end_time": 1480,
+            "start_time": 1200,
+            "text": "补"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1480,
+            "text": "上"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1720,
+            "text": "了"
+          },
+          {
+            "end_time": 2200,
+            "start_time": 1920,
+            "text": "水"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2200,
+            "text": "源"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2400,
+            "text": "、"
+          },
+          {
+            "end_time": 2920,
+            "start_time": 2840,
+            "text": "避"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3120,
+            "text": "雨"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3400,
+            "text": "处"
+          },
+          {
+            "end_time": 4240,
+            "start_time": 3960,
+            "text": "和"
+          },
+          {
+            "end_time": 4440,
+            "start_time": 4240,
+            "text": "回"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4600,
+            "text": "程"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4840,
+            "text": "时"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5000,
+            "text": "间"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5280,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9200,
+        "start_time": 6000,
+        "text": "她们把可靠放在了好看之前。",
+        "words": [
+          {
+            "end_time": 6200,
+            "start_time": 6000,
+            "text": "她"
+          },
+          {
+            "end_time": 6320,
+            "start_time": 6200,
+            "text": "们"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6320,
+            "text": "把"
+          },
+          {
+            "end_time": 6840,
+            "start_time": 6560,
+            "text": "可"
+          },
+          {
+            "end_time": 7080,
+            "start_time": 6880,
+            "text": "靠"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7520,
+            "text": "放"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7760,
+            "text": "在"
+          },
+          {
+            "end_time": 8240,
+            "start_time": 8000,
+            "text": "了"
+          },
+          {
+            "end_time": 8440,
+            "start_time": 8240,
+            "text": "好"
+          },
+          {
+            "end_time": 8760,
+            "start_time": 8440,
+            "text": "看"
+          },
+          {
+            "end_time": 8960,
+            "start_time": 8760,
+            "text": "之"
+          },
+          {
+            "end_time": 9200,
+            "start_time": 8960,
+            "text": "前"
+          },
+          {
+            "end_time": 9200,
+            "start_time": 9200,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "图上补上了水源、避雨处和回程时间。她们把可靠放在了好看之前。"
+  }
+}

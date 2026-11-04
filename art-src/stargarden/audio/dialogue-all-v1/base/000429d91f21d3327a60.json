@@ -1,0 +1,241 @@
+{
+  "src": "000429d91f21d3327a60.wav",
+  "duration": 11.1,
+  "gain": 1.4719364725021724,
+  "source_sha256": "2f8ec0c1d92c22366905c8e09ff670e6838f4ea4f39938f5f466c0e8f4cacdea",
+  "id": "event.promise.text",
+  "text": "她在庭院里种下了一棵小树，说想看它长成能遮阴的模样。风吹过来，她的声音温柔又坚定。",
+  "group": "event:promise",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6440,
+        "start_time": 120,
+        "text": "她在庭院里种下了一棵小树，说想看它长成能遮阴的模样。",
+        "words": [
+          {
+            "end_time": 360,
+            "start_time": 120,
+            "text": "她"
+          },
+          {
+            "end_time": 520,
+            "start_time": 360,
+            "text": "在"
+          },
+          {
+            "end_time": 640,
+            "start_time": 600,
+            "text": "庭"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 880,
+            "text": "院"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1080,
+            "text": "里"
+          },
+          {
+            "end_time": 1520,
+            "start_time": 1320,
+            "text": "种"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1640,
+            "text": "下"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1800,
+            "text": "了"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 1960,
+            "text": "一"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2080,
+            "text": "棵"
+          },
+          {
+            "end_time": 2480,
+            "start_time": 2280,
+            "text": "小"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2480,
+            "text": "树"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2720,
+            "text": "，"
+          },
+          {
+            "end_time": 3840,
+            "start_time": 3480,
+            "text": "说"
+          },
+          {
+            "end_time": 4040,
+            "start_time": 3840,
+            "text": "想"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4040,
+            "text": "看"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4280,
+            "text": "它"
+          },
+          {
+            "end_time": 4880,
+            "start_time": 4600,
+            "text": "长"
+          },
+          {
+            "end_time": 5040,
+            "start_time": 4880,
+            "text": "成"
+          },
+          {
+            "end_time": 5280,
+            "start_time": 5040,
+            "text": "能"
+          },
+          {
+            "end_time": 5440,
+            "start_time": 5360,
+            "text": "遮"
+          },
+          {
+            "end_time": 5720,
+            "start_time": 5640,
+            "text": "阴"
+          },
+          {
+            "end_time": 6000,
+            "start_time": 5840,
+            "text": "的"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 6000,
+            "text": "模"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6200,
+            "text": "样"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6440,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 11000,
+        "start_time": 7200,
+        "text": "风吹过来，她的声音温柔又坚定。",
+        "words": [
+          {
+            "end_time": 7360,
+            "start_time": 7200,
+            "text": "风"
+          },
+          {
+            "end_time": 7720,
+            "start_time": 7560,
+            "text": "吹"
+          },
+          {
+            "end_time": 8000,
+            "start_time": 7800,
+            "text": "过"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8000,
+            "text": "来"
+          },
+          {
+            "end_time": 8200,
+            "start_time": 8200,
+            "text": "，"
+          },
+          {
+            "end_time": 9000,
+            "start_time": 8880,
+            "text": "她"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 9000,
+            "text": "的"
+          },
+          {
+            "end_time": 9360,
+            "start_time": 9160,
+            "text": "声"
+          },
+          {
+            "end_time": 9560,
+            "start_time": 9360,
+            "text": "音"
+          },
+          {
+            "end_time": 10040,
+            "start_time": 9800,
+            "text": "温"
+          },
+          {
+            "end_time": 10320,
+            "start_time": 10040,
+            "text": "柔"
+          },
+          {
+            "end_time": 10520,
+            "start_time": 10320,
+            "text": "又"
+          },
+          {
+            "end_time": 10680,
+            "start_time": 10520,
+            "text": "坚"
+          },
+          {
+            "end_time": 11000,
+            "start_time": 10800,
+            "text": "定"
+          },
+          {
+            "end_time": 11000,
+            "start_time": 11000,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她在庭院里种下了一棵小树，说想看它长成能遮阴的模样。风吹过来，她的声音温柔又坚定。"
+  }
+}

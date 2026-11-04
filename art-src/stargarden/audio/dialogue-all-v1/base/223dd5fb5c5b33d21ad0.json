@@ -1,0 +1,238 @@
+{
+  "src": "223dd5fb5c5b33d21ad0.wav",
+  "duration": 9.3,
+  "gain": 1.3371908929834704,
+  "source_sha256": "74d47e7285ef0c9fd0e173681ff80430401ed7b8428196fdadca6f4e3b9280c3",
+  "id": "event.dream.text",
+  "text": "睡前，她忽然问你：“长大以后，我一定要成为很厉害的人吗？”窗外的月光落在被子上。",
+  "group": "event:dream",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 6360,
+        "start_time": 320,
+        "text": "睡前，她忽然问你：‘长大以后，我一定要成为很厉害的人吗？",
+        "words": [
+          {
+            "end_time": 560,
+            "start_time": 320,
+            "text": "睡"
+          },
+          {
+            "end_time": 920,
+            "start_time": 560,
+            "text": "前"
+          },
+          {
+            "end_time": 920,
+            "start_time": 920,
+            "text": "，"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "她"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1440,
+            "text": "忽"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1600,
+            "text": "然"
+          },
+          {
+            "end_time": 2040,
+            "start_time": 1760,
+            "text": "问"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2040,
+            "text": "你"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2440,
+            "text": "："
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2440,
+            "text": "‘"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 2960,
+            "text": "长"
+          },
+          {
+            "end_time": 3480,
+            "start_time": 3200,
+            "text": "大"
+          },
+          {
+            "end_time": 3640,
+            "start_time": 3480,
+            "text": "以"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3640,
+            "text": "后"
+          },
+          {
+            "end_time": 3880,
+            "start_time": 3880,
+            "text": "，"
+          },
+          {
+            "end_time": 4400,
+            "start_time": 4120,
+            "text": "我"
+          },
+          {
+            "end_time": 4520,
+            "start_time": 4400,
+            "text": "一"
+          },
+          {
+            "end_time": 4680,
+            "start_time": 4520,
+            "text": "定"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4680,
+            "text": "要"
+          },
+          {
+            "end_time": 5000,
+            "start_time": 4840,
+            "text": "成"
+          },
+          {
+            "end_time": 5160,
+            "start_time": 5000,
+            "text": "为"
+          },
+          {
+            "end_time": 5360,
+            "start_time": 5160,
+            "text": "很"
+          },
+          {
+            "end_time": 5520,
+            "start_time": 5360,
+            "text": "厉"
+          },
+          {
+            "end_time": 5640,
+            "start_time": 5520,
+            "text": "害"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5640,
+            "text": "的"
+          },
+          {
+            "end_time": 6040,
+            "start_time": 5800,
+            "text": "人"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6040,
+            "text": "吗"
+          },
+          {
+            "end_time": 6360,
+            "start_time": 6360,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 9160,
+        "start_time": 6360,
+        "text": "’窗外的月光落在被子上。",
+        "words": [
+          {
+            "end_time": 6360,
+            "start_time": 6360,
+            "text": "’"
+          },
+          {
+            "end_time": 7240,
+            "start_time": 7080,
+            "text": "窗"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7280,
+            "text": "外"
+          },
+          {
+            "end_time": 7640,
+            "start_time": 7480,
+            "text": "的"
+          },
+          {
+            "end_time": 7880,
+            "start_time": 7640,
+            "text": "月"
+          },
+          {
+            "end_time": 8120,
+            "start_time": 7880,
+            "text": "光"
+          },
+          {
+            "end_time": 8400,
+            "start_time": 8200,
+            "text": "落"
+          },
+          {
+            "end_time": 8560,
+            "start_time": 8400,
+            "text": "在"
+          },
+          {
+            "end_time": 8680,
+            "start_time": 8640,
+            "text": "被"
+          },
+          {
+            "end_time": 8920,
+            "start_time": 8800,
+            "text": "子"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 8920,
+            "text": "上"
+          },
+          {
+            "end_time": 9160,
+            "start_time": 9160,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "睡前，她忽然问你：‘长大以后，我一定要成为很厉害的人吗？’窗外的月光落在被子上。"
+  }
+}

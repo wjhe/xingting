@@ -156,33 +156,55 @@ export function storyText(event: StoryEvent, state: GameState): string {
   return text;
 }
 
-/** Stable voice asset IDs for the base event plus any conditional callback appended by storyText. */
+const EVENT_DIALOGUE: Record<string, string[]> = {
+  main_0_0: ['dialogue.main_0_0.text.0'],
+  main_0_1: ['dialogue.main_0_1.text.0'],
+  main_0_2: ['dialogue.main_0_2.text.0'],
+  main_1_1: ['dialogue.main_1_1.text.0'],
+  main_1_2: ['dialogue.main_1_2.text.0'],
+  main_2_0: ['dialogue.main_2_0.text.0'],
+  main_2_2: ['dialogue.main_2_2.text.0'],
+  main_3_0: ['dialogue.main_3_0.text.0'],
+  main_3_2: ['dialogue.main_3_2.text.0'],
+  main_4_0: ['dialogue.main_4_0.text.0'],
+  main_4_2: ['dialogue.main_4_2.text.0'],
+  main_5_0: ['dialogue.main_5_0.text.0'],
+  main_6_0: ['dialogue.main_6_0.text.0'],
+  main_6_1: ['dialogue.main_6_1.text.0'],
+  main_7_0: ['dialogue.main_7_0.text.0'],
+  main_7_1: ['dialogue.main_7_1.text.0'],
+  kitten: ['dialogue.kitten.text.0'],
+  book: ['dialogue.book.text.0'],
+  dream: ['dialogue.dream.text.0'],
+  exam: ['dialogue.exam.text.0'],
+  independent: ['dialogue.independent.text.0'],
+  letter: ['dialogue.letter.text.0'],
+  portrait: ['dialogue.portrait.text.0'],
+};
+
+const OUTCOME_DIALOGUE: Record<string, Record<number, string[]>> = {
+  main_0_2: { 1: ['dialogue.main_0_2.outcome1.0'] },
+  main_3_0: { 0: ['dialogue.main_3_0.outcome0.0'] },
+  sword: { 0: ['dialogue.sword.outcome0.0'] },
+  painting: { 0: ['dialogue.painting.outcome0.0'] },
+  dream: { 0: ['dialogue.dream.outcome0.0'] },
+  flowers: { 1: ['dialogue.flowers.outcome1.0'] },
+  friendship: { 1: ['dialogue.friendship.outcome1.0'] },
+  letter: { 1: ['dialogue.letter.outcome1.0'] },
+};
+
+/** Direct daughter dialogue during the event body; narration is intentionally absent. */
 export function storyVoiceSequence(event: StoryEvent, state: GameState): string[] {
-  const ids = [`event.${event.id}.text`];
-  const callbackFlags = {
-    main_0_1: 'home_key',
-    main_1_0: 'first_exhibition',
-    main_2_0: 'own_voice',
-    main_3_1: 'rain_failure',
-    main_4_0: 'rest_permission',
-    main_4_1: 'own_plan',
-    main_5_0: 'honest_boundary',
-    main_6_0: 'community_key',
-    main_7_0: 'distance_choice',
-  } as const;
-  const callback = callbackFlags[event.id as keyof typeof callbackFlags];
-  if (callback && state.flags.includes(`${callback}:warm`)) ids.push(`event.${event.id}.callback.warm`);
-  else if (callback && state.flags.includes(`${callback}:independent`)) ids.push(`event.${event.id}.callback.independent`);
-  if (event.kind === 'side') {
-    const id = event.id.split('_')[1];
-    if ((state.relations[id] ?? 0) >= 40) ids.push(`side.relationship.${id}`);
-  }
+  const ids = [...(EVENT_DIALOGUE[event.id] ?? [])];
   if (event.id === 'main_7_2') {
-    let mask = 0;
-    if (state.flags.includes('first_exhibition:warm')) mask |= 1;
-    if (state.flags.includes('repaired_page:warm')) mask |= 2;
-    if (state.flags.includes('own_plan:independent')) mask |= 4;
-    if (mask) ids.push(`event.main_7_2.memory.${mask}`);
+    if (['first_exhibition:warm', 'repaired_page:warm', 'own_plan:independent'].some(flag => state.flags.includes(flag))) {
+      ids.push('dialogue.main_7_2.memory');
+    }
   }
   return ids;
+}
+
+/** Direct daughter reply after the player makes a choice. */
+export function storyOutcomeVoiceSequence(eventId: string, choiceIndex: number): string[] {
+  return OUTCOME_DIALOGUE[eventId]?.[choiceIndex] ?? [];
 }

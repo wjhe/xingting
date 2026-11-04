@@ -1,0 +1,81 @@
+{
+  "src": "88e876f234a26aa5b0ad.wav",
+  "duration": 3.5,
+  "gain": 1.2793497756109977,
+  "source_sha256": "58a302b3423d80d1b267350452047133eac159d11903434578fcf505052c7bd5",
+  "id": "event.dream.choice.0",
+  "text": "你快乐，就已经很好了",
+  "group": "event:dream",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3120,
+        "start_time": 160,
+        "text": "你快乐，就已经很好了",
+        "words": [
+          {
+            "end_time": 480,
+            "start_time": 160,
+            "text": "你"
+          },
+          {
+            "end_time": 760,
+            "start_time": 480,
+            "text": "快"
+          },
+          {
+            "end_time": 920,
+            "start_time": 760,
+            "text": "乐"
+          },
+          {
+            "end_time": 920,
+            "start_time": 920,
+            "text": "，"
+          },
+          {
+            "end_time": 1920,
+            "start_time": 1760,
+            "text": "就"
+          },
+          {
+            "end_time": 2240,
+            "start_time": 2040,
+            "text": "已"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2240,
+            "text": "经"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2400,
+            "text": "很"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2560,
+            "text": "好"
+          },
+          {
+            "end_time": 3120,
+            "start_time": 2840,
+            "text": "了"
+          }
+        ]
+      }
+    ],
+    "text": "你快乐，就已经很好了"
+  }
+}

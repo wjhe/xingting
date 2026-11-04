@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "07f286c5-16d3-4df4-939d-a02f29134d7b",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“你快乐，就已经很好了”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105052659D31CB034909BB61EA988",
+  "response": {
+    "duration": 3.5,
+    "original_duration": 3.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3120,
+          "start_time": 160,
+          "text": "你快乐，就已经很好了",
+          "words": [
+            {
+              "end_time": 480,
+              "start_time": 160,
+              "text": "你"
+            },
+            {
+              "end_time": 760,
+              "start_time": 480,
+              "text": "快"
+            },
+            {
+              "end_time": 920,
+              "start_time": 760,
+              "text": "乐"
+            },
+            {
+              "end_time": 920,
+              "start_time": 920,
+              "text": "，"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1760,
+              "text": "就"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2040,
+              "text": "已"
+            },
+            {
+              "end_time": 2400,
+              "start_time": 2240,
+              "text": "经"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2400,
+              "text": "很"
+            },
+            {
+              "end_time": 2840,
+              "start_time": 2560,
+              "text": "好"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2840,
+              "text": "了"
+            }
+          ]
+        }
+      ],
+      "text": "你快乐，就已经很好了"
+    }
+  }
+}

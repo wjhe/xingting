@@ -1,0 +1,91 @@
+{
+  "src": "be49d60b02855380f7e4.wav",
+  "duration": 4.18,
+  "gain": 1.218787466144831,
+  "source_sha256": "f12e782eeab6dd2dfc98fa07bd0c45123c455e8c450eb86dbad77605bc1e03a3",
+  "id": "event.side_mira_1.choice.0",
+  "text": "告诉她书比不上朋友重要",
+  "group": "event:side_mira_1",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3560,
+        "start_time": 880,
+        "text": "告诉她书比不上朋友重要。",
+        "words": [
+          {
+            "end_time": 1120,
+            "start_time": 880,
+            "text": "告"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1120,
+            "text": "诉"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1320,
+            "text": "她"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "书"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2240,
+            "text": "比"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2440,
+            "text": "不"
+          },
+          {
+            "end_time": 2800,
+            "start_time": 2640,
+            "text": "上"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2800,
+            "text": "朋"
+          },
+          {
+            "end_time": 3160,
+            "start_time": 2960,
+            "text": "友"
+          },
+          {
+            "end_time": 3400,
+            "start_time": 3200,
+            "text": "重"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3400,
+            "text": "要"
+          },
+          {
+            "end_time": 3560,
+            "start_time": 3560,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "告诉她书比不上朋友重要。"
+  }
+}

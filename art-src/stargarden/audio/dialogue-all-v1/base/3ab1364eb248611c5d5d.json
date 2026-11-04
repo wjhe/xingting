@@ -1,0 +1,188 @@
+{
+  "src": "3ab1364eb248611c5d5d.wav",
+  "duration": 6.4795,
+  "gain": 1.6236083973272133,
+  "source_sha256": "2e6e5122239cc1a27b22fe38645a11081a1cff53d947a0c8849238a1b556983a",
+  "id": "event.side_fern_3.outcome.1",
+  "text": "她们为能救回的小树支起木架。回程时，菲恩的脚步没有那么急了。",
+  "group": "event:side_fern_3",
+  "role": "result",
+  "emotion": "温柔、有生活感，像故事刚刚发生后的回应",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3000,
+        "start_time": 360,
+        "text": "她们为能救回的小树支起木架。",
+        "words": [
+          {
+            "end_time": 600,
+            "start_time": 360,
+            "text": "她"
+          },
+          {
+            "end_time": 720,
+            "start_time": 600,
+            "text": "们"
+          },
+          {
+            "end_time": 960,
+            "start_time": 720,
+            "text": "为"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 960,
+            "text": "能"
+          },
+          {
+            "end_time": 1320,
+            "start_time": 1160,
+            "text": "救"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1360,
+            "text": "回"
+          },
+          {
+            "end_time": 1680,
+            "start_time": 1560,
+            "text": "的"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "小"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "树"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2240,
+            "text": "支"
+          },
+          {
+            "end_time": 2560,
+            "start_time": 2440,
+            "text": "起"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2680,
+            "text": "木"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 2960,
+            "text": "架"
+          },
+          {
+            "end_time": 3000,
+            "start_time": 3000,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 6440,
+        "start_time": 3640,
+        "text": "回程时，菲恩的脚步没有那么急了。",
+        "words": [
+          {
+            "end_time": 3840,
+            "start_time": 3640,
+            "text": "回"
+          },
+          {
+            "end_time": 4000,
+            "start_time": 3920,
+            "text": "程"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4120,
+            "text": "时"
+          },
+          {
+            "end_time": 4320,
+            "start_time": 4320,
+            "text": "，"
+          },
+          {
+            "end_time": 4640,
+            "start_time": 4560,
+            "text": "菲"
+          },
+          {
+            "end_time": 4920,
+            "start_time": 4880,
+            "text": "恩"
+          },
+          {
+            "end_time": 5200,
+            "start_time": 5040,
+            "text": "的"
+          },
+          {
+            "end_time": 5400,
+            "start_time": 5200,
+            "text": "脚"
+          },
+          {
+            "end_time": 5560,
+            "start_time": 5400,
+            "text": "步"
+          },
+          {
+            "end_time": 5760,
+            "start_time": 5640,
+            "text": "没"
+          },
+          {
+            "end_time": 5800,
+            "start_time": 5760,
+            "text": "有"
+          },
+          {
+            "end_time": 5880,
+            "start_time": 5800,
+            "text": "那"
+          },
+          {
+            "end_time": 5960,
+            "start_time": 5880,
+            "text": "么"
+          },
+          {
+            "end_time": 6200,
+            "start_time": 5960,
+            "text": "急"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6200,
+            "text": "了"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6440,
+            "text": "。"
+          }
+        ]
+      }
+    ],
+    "text": "她们为能救回的小树支起木架。回程时，菲恩的脚步没有那么急了。"
+  }
+}

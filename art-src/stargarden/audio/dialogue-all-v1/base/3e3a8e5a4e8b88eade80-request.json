@@ -1,0 +1,171 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "866e9b9f-de4d-4d28-a649-6ca1a19bf599",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：温柔、有生活感，像故事刚刚发生后的回应。像温柔地讲述刚刚发生的结果。\n请完整念出以下文本：“一次、两次，她终于能看清对手动作，不再只顾闭眼冲上去。”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051834010A17386C96BFDF2017",
+  "response": {
+    "duration": 8.18,
+    "original_duration": 8.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 7680,
+          "start_time": 520,
+          "text": "一次、两次，她终于能看清对手动作，不再只顾闭眼冲上去。",
+          "words": [
+            {
+              "end_time": 800,
+              "start_time": 520,
+              "text": "一"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 800,
+              "text": "次"
+            },
+            {
+              "end_time": 1120,
+              "start_time": 1120,
+              "text": "、"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1400,
+              "text": "两"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1640,
+              "text": "次"
+            },
+            {
+              "end_time": 1960,
+              "start_time": 1960,
+              "text": "，"
+            },
+            {
+              "end_time": 3040,
+              "start_time": 2800,
+              "text": "她"
+            },
+            {
+              "end_time": 3200,
+              "start_time": 3040,
+              "text": "终"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3200,
+              "text": "于"
+            },
+            {
+              "end_time": 3560,
+              "start_time": 3360,
+              "text": "能"
+            },
+            {
+              "end_time": 3760,
+              "start_time": 3560,
+              "text": "看"
+            },
+            {
+              "end_time": 3920,
+              "start_time": 3760,
+              "text": "清"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4040,
+              "text": "对"
+            },
+            {
+              "end_time": 4520,
+              "start_time": 4240,
+              "text": "手"
+            },
+            {
+              "end_time": 4680,
+              "start_time": 4520,
+              "text": "动"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4680,
+              "text": "作"
+            },
+            {
+              "end_time": 4920,
+              "start_time": 4920,
+              "text": "，"
+            },
+            {
+              "end_time": 5520,
+              "start_time": 5320,
+              "text": "不"
+            },
+            {
+              "end_time": 5720,
+              "start_time": 5520,
+              "text": "再"
+            },
+            {
+              "end_time": 5880,
+              "start_time": 5840,
+              "text": "只"
+            },
+            {
+              "end_time": 6160,
+              "start_time": 6080,
+              "text": "顾"
+            },
+            {
+              "end_time": 6440,
+              "start_time": 6360,
+              "text": "闭"
+            },
+            {
+              "end_time": 6760,
+              "start_time": 6600,
+              "text": "眼"
+            },
+            {
+              "end_time": 7280,
+              "start_time": 7040,
+              "text": "冲"
+            },
+            {
+              "end_time": 7480,
+              "start_time": 7280,
+              "text": "上"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7480,
+              "text": "去"
+            },
+            {
+              "end_time": 7680,
+              "start_time": 7680,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "一次、两次，她终于能看清对手动作，不再只顾闭眼冲上去。"
+    }
+  }
+}

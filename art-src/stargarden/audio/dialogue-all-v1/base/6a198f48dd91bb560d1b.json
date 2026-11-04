@@ -1,0 +1,233 @@
+{
+  "src": "6a198f48dd91bb560d1b.wav",
+  "duration": 9.88,
+  "gain": 1.389109325216452,
+  "source_sha256": "86eee8e24275abe3758c0dceae8decba0577ebd1ef938a79d29cbaa75c972eac",
+  "id": "event.letter.text",
+  "text": "城外学院寄来一封介绍信。她看了很久，问你：“如果以后离家很远，你会想我吗？”",
+  "group": "event:letter",
+  "role": "story",
+  "emotion": "带入情节，清楚而自然",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 2840,
+        "start_time": 440,
+        "text": "城外学院寄来一封介绍信。",
+        "words": [
+          {
+            "end_time": 520,
+            "start_time": 440,
+            "text": "城"
+          },
+          {
+            "end_time": 880,
+            "start_time": 720,
+            "text": "外"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 960,
+            "text": "学"
+          },
+          {
+            "end_time": 1360,
+            "start_time": 1200,
+            "text": "院"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1520,
+            "text": "寄"
+          },
+          {
+            "end_time": 1840,
+            "start_time": 1680,
+            "text": "来"
+          },
+          {
+            "end_time": 2000,
+            "start_time": 1840,
+            "text": "一"
+          },
+          {
+            "end_time": 2160,
+            "start_time": 2080,
+            "text": "封"
+          },
+          {
+            "end_time": 2440,
+            "start_time": 2280,
+            "text": "介"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2440,
+            "text": "绍"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2680,
+            "text": "信"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2840,
+            "text": "。"
+          }
+        ]
+      },
+      {
+        "end_time": 9480,
+        "start_time": 3520,
+        "text": "她看了很久，问你：‘如果以后离家很远，你会想我吗？",
+        "words": [
+          {
+            "end_time": 3720,
+            "start_time": 3520,
+            "text": "她"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3720,
+            "text": "看"
+          },
+          {
+            "end_time": 4120,
+            "start_time": 3960,
+            "text": "了"
+          },
+          {
+            "end_time": 4280,
+            "start_time": 4120,
+            "text": "很"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4280,
+            "text": "久"
+          },
+          {
+            "end_time": 4600,
+            "start_time": 4600,
+            "text": "，"
+          },
+          {
+            "end_time": 5120,
+            "start_time": 4840,
+            "text": "问"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5120,
+            "text": "你"
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5480,
+            "text": "："
+          },
+          {
+            "end_time": 5480,
+            "start_time": 5480,
+            "text": "‘"
+          },
+          {
+            "end_time": 6440,
+            "start_time": 6280,
+            "text": "如"
+          },
+          {
+            "end_time": 6560,
+            "start_time": 6440,
+            "text": "果"
+          },
+          {
+            "end_time": 6760,
+            "start_time": 6560,
+            "text": "以"
+          },
+          {
+            "end_time": 6920,
+            "start_time": 6760,
+            "text": "后"
+          },
+          {
+            "end_time": 7200,
+            "start_time": 7000,
+            "text": "离"
+          },
+          {
+            "end_time": 7480,
+            "start_time": 7280,
+            "text": "家"
+          },
+          {
+            "end_time": 7760,
+            "start_time": 7560,
+            "text": "很"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 7760,
+            "text": "远"
+          },
+          {
+            "end_time": 8080,
+            "start_time": 8080,
+            "text": "，"
+          },
+          {
+            "end_time": 8600,
+            "start_time": 8400,
+            "text": "你"
+          },
+          {
+            "end_time": 8800,
+            "start_time": 8600,
+            "text": "会"
+          },
+          {
+            "end_time": 9040,
+            "start_time": 8800,
+            "text": "想"
+          },
+          {
+            "end_time": 9280,
+            "start_time": 9040,
+            "text": "我"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9280,
+            "text": "吗"
+          },
+          {
+            "end_time": 9480,
+            "start_time": 9480,
+            "text": "？"
+          }
+        ]
+      },
+      {
+        "end_time": 9480,
+        "start_time": 9480,
+        "text": "’",
+        "words": [
+          {
+            "end_time": 9480,
+            "start_time": 9480,
+            "text": "’"
+          }
+        ]
+      }
+    ],
+    "text": "城外学院寄来一封介绍信。她看了很久，问你：‘如果以后离家很远，你会想我吗？’"
+  }
+}

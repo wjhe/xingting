@@ -1,0 +1,89 @@
+{
+  "src": "f06e1f0351c94ad6e4f3.wav",
+  "duration": 3.9,
+  "gain": 2.1294338782052793,
+  "source_sha256": "02d742a3fbae85212aa16909af44c9b80b9920c52df06c4ec3e5ec540162cfdf",
+  "id": "dialogue.main_7_0.text.0",
+  "text": "那时候的字，怎么这么小？",
+  "group": "event:main_7_0",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3360,
+        "start_time": 560,
+        "text": "那时候的字，怎么这么小？",
+        "words": [
+          {
+            "end_time": 840,
+            "start_time": 560,
+            "text": "那"
+          },
+          {
+            "end_time": 1000,
+            "start_time": 840,
+            "text": "时"
+          },
+          {
+            "end_time": 1160,
+            "start_time": 1000,
+            "text": "候"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1160,
+            "text": "的"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1400,
+            "text": "字"
+          },
+          {
+            "end_time": 1720,
+            "start_time": 1720,
+            "text": "，"
+          },
+          {
+            "end_time": 2600,
+            "start_time": 2360,
+            "text": "怎"
+          },
+          {
+            "end_time": 2720,
+            "start_time": 2600,
+            "text": "么"
+          },
+          {
+            "end_time": 2880,
+            "start_time": 2720,
+            "text": "这"
+          },
+          {
+            "end_time": 2960,
+            "start_time": 2880,
+            "text": "么"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 2960,
+            "text": "小"
+          },
+          {
+            "end_time": 3360,
+            "start_time": 3360,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "那时候的字，怎么这么小？"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "7bd533b7-2f06-451d-9261-b83c4803b262",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“一起找找熟悉的屋顶”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "2026110505252590E86B471C25AB20824D",
+  "response": {
+    "duration": 3.5,
+    "original_duration": 3.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3440,
+          "start_time": 1200,
+          "text": "一起找找熟悉的屋顶",
+          "words": [
+            {
+              "end_time": 1400,
+              "start_time": 1200,
+              "text": "一"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1400,
+              "text": "起"
+            },
+            {
+              "end_time": 1880,
+              "start_time": 1600,
+              "text": "找"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1920,
+              "text": "找"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2400,
+              "text": "熟"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2680,
+              "text": "悉"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2920,
+              "text": "的"
+            },
+            {
+              "end_time": 3240,
+              "start_time": 3120,
+              "text": "屋"
+            },
+            {
+              "end_time": 3440,
+              "start_time": 3400,
+              "text": "顶"
+            }
+          ]
+        }
+      ],
+      "text": "一起找找熟悉的屋顶"
+    }
+  }
+}

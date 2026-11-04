@@ -1,0 +1,141 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "7284ea68-6456-4a3f-80f5-2e507c929d15",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：自然入戏，像一个正在成长的孩子直接说话，不朗读叙述。以故事中同一个女孩的声音直接说出台词。\n请完整念出以下文本：“以前说喜欢，现在又不喜欢了，是不是很没用？”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050540035EB78958C9E44120CB09",
+  "response": {
+    "duration": 5.5,
+    "original_duration": 5.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 5120,
+          "start_time": 480,
+          "text": "以前说喜欢，现在又不喜欢了，是不是很没用？",
+          "words": [
+            {
+              "end_time": 680,
+              "start_time": 480,
+              "text": "以"
+            },
+            {
+              "end_time": 880,
+              "start_time": 680,
+              "text": "前"
+            },
+            {
+              "end_time": 1200,
+              "start_time": 880,
+              "text": "说"
+            },
+            {
+              "end_time": 1400,
+              "start_time": 1200,
+              "text": "喜"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1400,
+              "text": "欢"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1600,
+              "text": "，"
+            },
+            {
+              "end_time": 2200,
+              "start_time": 2000,
+              "text": "现"
+            },
+            {
+              "end_time": 2320,
+              "start_time": 2200,
+              "text": "在"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2320,
+              "text": "又"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2600,
+              "text": "不"
+            },
+            {
+              "end_time": 2920,
+              "start_time": 2800,
+              "text": "喜"
+            },
+            {
+              "end_time": 3120,
+              "start_time": 2920,
+              "text": "欢"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3120,
+              "text": "了"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3520,
+              "text": "，"
+            },
+            {
+              "end_time": 4240,
+              "start_time": 4040,
+              "text": "是"
+            },
+            {
+              "end_time": 4360,
+              "start_time": 4240,
+              "text": "不"
+            },
+            {
+              "end_time": 4480,
+              "start_time": 4360,
+              "text": "是"
+            },
+            {
+              "end_time": 4640,
+              "start_time": 4480,
+              "text": "很"
+            },
+            {
+              "end_time": 4880,
+              "start_time": 4640,
+              "text": "没"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 4880,
+              "text": "用"
+            },
+            {
+              "end_time": 5120,
+              "start_time": 5120,
+              "text": "？"
+            }
+          ]
+        }
+      ],
+      "text": "以前说喜欢，现在又不喜欢了，是不是很没用？"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "src": "13c055d08dcfafe82b32.wav",
+  "duration": 5.4,
+  "gain": 1.9167330323027227,
+  "source_sha256": "6d022074211dba1783071864111648ad862baf7a8b268b62a45ebf32d79d8cda",
+  "id": "dialogue.main_0_1.text.0",
+  "text": "没有很厉害的愿望，也可以写吗？",
+  "group": "event:main_0_1",
+  "role": "daughter",
+  "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+  "ages": [
+    "child"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 4840,
+        "start_time": 560,
+        "text": "没有很厉害的愿望，也可以写吗？",
+        "words": [
+          {
+            "end_time": 800,
+            "start_time": 560,
+            "text": "没"
+          },
+          {
+            "end_time": 960,
+            "start_time": 800,
+            "text": "有"
+          },
+          {
+            "end_time": 1200,
+            "start_time": 960,
+            "text": "很"
+          },
+          {
+            "end_time": 1400,
+            "start_time": 1200,
+            "text": "厉"
+          },
+          {
+            "end_time": 1560,
+            "start_time": 1400,
+            "text": "害"
+          },
+          {
+            "end_time": 1800,
+            "start_time": 1560,
+            "text": "的"
+          },
+          {
+            "end_time": 1960,
+            "start_time": 1840,
+            "text": "愿"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2160,
+            "text": "望"
+          },
+          {
+            "end_time": 2280,
+            "start_time": 2280,
+            "text": "，"
+          },
+          {
+            "end_time": 3760,
+            "start_time": 3440,
+            "text": "也"
+          },
+          {
+            "end_time": 3960,
+            "start_time": 3760,
+            "text": "可"
+          },
+          {
+            "end_time": 4080,
+            "start_time": 3960,
+            "text": "以"
+          },
+          {
+            "end_time": 4480,
+            "start_time": 4080,
+            "text": "写"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4520,
+            "text": "吗"
+          },
+          {
+            "end_time": 4840,
+            "start_time": 4840,
+            "text": "？"
+          }
+        ]
+      }
+    ],
+    "text": "没有很厉害的愿望，也可以写吗？"
+  }
+}

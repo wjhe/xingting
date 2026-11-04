@@ -1,0 +1,86 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "c9039653-88a4-4eee-b544-d7e63d2d59f8",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：自然入戏，像一个正在成长的孩子直接说话，不朗读叙述。以故事中同一个女孩的声音直接说出台词。\n请完整念出以下文本：“其实画得还不够好……”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "202611050541306DE16160943CA91F8D3B",
+  "response": {
+    "duration": 3.5,
+    "original_duration": 3.5,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3000,
+          "start_time": 480,
+          "text": "其实画得还不够好……",
+          "words": [
+            {
+              "end_time": 800,
+              "start_time": 480,
+              "text": "其"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 800,
+              "text": "实"
+            },
+            {
+              "end_time": 1600,
+              "start_time": 1440,
+              "text": "画"
+            },
+            {
+              "end_time": 1920,
+              "start_time": 1720,
+              "text": "得"
+            },
+            {
+              "end_time": 2280,
+              "start_time": 2040,
+              "text": "还"
+            },
+            {
+              "end_time": 2440,
+              "start_time": 2280,
+              "text": "不"
+            },
+            {
+              "end_time": 2600,
+              "start_time": 2440,
+              "text": "够"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 2600,
+              "text": "好"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 3000,
+              "text": "…"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 3000,
+              "text": "…"
+            }
+          ]
+        }
+      ],
+      "text": "其实画得还不够好……"
+    }
+  }
+}

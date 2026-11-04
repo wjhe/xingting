@@ -66,7 +66,7 @@ export interface OpeningOptions {
   /** 切到第 index 幕时调用（用于切换开场配乐） */
   onBeat?: (index: number) => void;
   /** Called after the player's parent choice is known. */
-  onLine?: (beat: number, line: number, parent: string) => void;
+  onLine?: (beat: number, line: number, parent: string, who: 'narration' | 'girl') => void;
   /** 出现章节卡时调用 */
   onTitle?: () => void;
   /** parent 为“爸爸”或“妈妈” */
@@ -179,7 +179,7 @@ export function playOpening(options: OpeningOptions): void {
     face.hidden = l.who !== 'girl';
     if (l.who === 'girl') face.src = faceAsset(10, l.face);
     type(fill(l.text));
-    onLine?.(beat, line, parent);
+    onLine?.(beat, line, parent, l.who);
   };
   const finish = () => {
     finished = true;

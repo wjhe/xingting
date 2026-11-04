@@ -1,0 +1,609 @@
+{
+  "version": 1,
+  "scope": "只有女儿直接说出的台词；旁白、选项、活动说明和其他角色不配音",
+  "parentVariants": "开场爸爸和妈妈台词分别保存，按玩家称呼选择播放",
+  "count": 51,
+  "ageSemitones": {
+    "child": 1,
+    "teen": 0,
+    "grown": -1
+  },
+  "lines": [
+    {
+      "id": "opening.1.2",
+      "text": "……这里，是哪里？",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.2.1",
+      "text": "我只记得……要找一个，有灯亮着的地方。",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.2.3",
+      "text": "……可以吗？",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.3.1",
+      "text": "好暖和。",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.1",
+      "text": "我……没有名字。",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.10.dad",
+      "text": "爸爸。……从今天起，这里就是我的家了吗？",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，刚确认家人称呼",
+      "ages": [
+        "child"
+      ],
+      "parent": "爸爸",
+      "priority": 0
+    },
+    {
+      "id": "opening.4.10.mom",
+      "text": "妈妈。……从今天起，这里就是我的家了吗？",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，刚确认家人称呼",
+      "ages": [
+        "child"
+      ],
+      "parent": "妈妈",
+      "priority": 0
+    },
+    {
+      "id": "opening.4.2",
+      "text": "你可以，给我一个吗？",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.6",
+      "text": "艾莉……艾莉。",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "opening.4.8",
+      "text": "那，我该怎么称呼你呢？",
+      "group": "opening",
+      "role": "daughter",
+      "emotion": "年幼、自然，符合开场当下的情绪",
+      "ages": [
+        "child"
+      ],
+      "priority": 0
+    },
+    {
+      "id": "ending.gardener.0",
+      "text": "谢谢你，耐心等我长大。",
+      "group": "ending:gardener",
+      "role": "ending",
+      "emotion": "成年后自然、成熟、温柔",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "ending.knight.0",
+      "text": "这一次，换我来保护你。",
+      "group": "ending:knight",
+      "role": "ending",
+      "emotion": "成年后自然、成熟、温柔",
+      "ages": [
+        "grown"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "dialogue.book.text.0",
+      "text": "原来，天上的星星也有名字。",
+      "group": "event:book",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.dream.outcome0.0",
+      "text": "那我也希望你一直快乐。",
+      "group": "event:dream",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.dream.text.0",
+      "text": "长大以后，我一定要成为很厉害的人吗？",
+      "group": "event:dream",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.exam.text.0",
+      "text": "我明明很努力了，为什么还是做不好？",
+      "group": "event:exam",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.flowers.outcome1.0",
+      "text": "明年这里会是一座小花园。",
+      "group": "event:flowers",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.friendship.outcome1.0",
+      "text": "我们聊聊吧。",
+      "group": "event:friendship",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.independent.text.0",
+      "text": "这次的晚餐，我来请。",
+      "group": "event:independent",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.kitten.text.0",
+      "text": "我们可以帮帮它吗？",
+      "group": "event:kitten",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.letter.outcome1.0",
+      "text": "第一封，就从出发那天开始写。",
+      "group": "event:letter",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.letter.text.0",
+      "text": "如果以后离家很远，你会想我吗？",
+      "group": "event:letter",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_0_0.text.0",
+      "text": "如果我弄丢了，还能回来吗？",
+      "group": "event:main_0_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_0_1.text.0",
+      "text": "没有很厉害的愿望，也可以写吗？",
+      "group": "event:main_0_1",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_0_2.outcome1.0",
+      "text": "我想先讲给一个人听。",
+      "group": "event:main_0_2",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_0_2.text.0",
+      "text": "我的东西，好像不值得别人看。",
+      "group": "event:main_0_2",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_1_1.text.0",
+      "text": "以前说喜欢，现在又不喜欢了，是不是很没用？",
+      "group": "event:main_1_1",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_1_2.text.0",
+      "text": "这次，我想自己讲。",
+      "group": "event:main_1_2",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_2_0.text.0",
+      "text": "我是不是学得太慢了？",
+      "group": "event:main_2_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_2_2.text.0",
+      "text": "能帮我戴上吗？",
+      "group": "event:main_2_2",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_3_0.outcome0.0",
+      "text": "我很难过。",
+      "group": "event:main_3_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_3_0.text.0",
+      "text": "没关系。",
+      "group": "event:main_3_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_3_2.text.0",
+      "text": "这次，我想讲失败以后发生的事。",
+      "group": "event:main_3_2",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_4_0.text.0",
+      "text": "我知道你是为我好，但这一次，可以先听我说完吗？",
+      "group": "event:main_4_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_4_2.text.0",
+      "text": "今年可以写我的名字吗？",
+      "group": "event:main_4_2",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_5_0.text.0",
+      "text": "他们不听我的话怎么办？",
+      "group": "event:main_5_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "teen"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_6_0.text.0",
+      "text": "如果我想去的地方，这上面没有呢？",
+      "group": "event:main_6_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_6_1.text.0",
+      "text": "留下会不会显得不够勇敢？",
+      "group": "event:main_6_1",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_7_0.text.0",
+      "text": "那时候的字，怎么这么小？",
+      "group": "event:main_7_0",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_7_1.text.0",
+      "text": "不管最后做得怎样，你会来吗？",
+      "group": "event:main_7_1",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.painting.outcome0.0",
+      "text": "其实画得还不够好……",
+      "group": "event:painting",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.portrait.text.0",
+      "text": "原来，真的长大了好多。",
+      "group": "event:portrait",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.sword.outcome0.0",
+      "text": "我也想保护重要的人。",
+      "group": "event:sword",
+      "role": "daughter",
+      "emotion": "自然入戏，像一个正在成长的孩子直接说话，不朗读叙述",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 10
+    },
+    {
+      "id": "dialogue.main_7_2.memory",
+      "text": "这些，我都记得。",
+      "group": "event:main_7_2",
+      "role": "daughter",
+      "emotion": "温柔、怀念，像在回望整段成长",
+      "ages": [
+        "grown"
+      ],
+      "priority": 12
+    },
+    {
+      "id": "talk.0",
+      "text": "今天路过花店，我看到一朵和你笑起来很像的花。",
+      "group": "talk",
+      "role": "talk",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "talk.1",
+      "text": "长大以后，我想住在能看到星星的地方……最好也有你。",
+      "group": "talk",
+      "role": "talk",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "talk.2",
+      "text": "我有在认真努力哦！不过偶尔，也想和你一起发呆。",
+      "group": "talk",
+      "role": "talk",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "talk.3",
+      "text": "如果愿望可以装进口袋，我想把每一天都带在身上。",
+      "group": "talk",
+      "role": "talk",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "talk.4",
+      "text": "今天也辛苦啦。等我学会做点心，就做给你吃。",
+      "group": "talk",
+      "role": "talk",
+      "emotion": "亲密、自然，像和养育者说悄悄话",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "birthday.girl",
+      "text": "明年也要一起过生日。",
+      "group": "birthday",
+      "role": "birthday",
+      "emotion": "温暖、开心，带着一点期待",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "gift.girl",
+      "text": "是我最喜欢的蜂蜜饼干！谢谢你。",
+      "group": "gift",
+      "role": "gift",
+      "emotion": "开心而亲近，不夸张",
+      "ages": [
+        "child",
+        "teen",
+        "grown"
+      ],
+      "priority": 22
+    }
+  ]
+}

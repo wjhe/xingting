@@ -1,0 +1,71 @@
+{
+  "src": "a2881b93bfc4ff147a35.wav",
+  "duration": 3.28,
+  "gain": 2.3020418758953647,
+  "source_sha256": "2120ad576a9951862fd7897e438fe257d24298cb7e7583cec3222852f3187dac",
+  "id": "event.daily_first_wage.choice.1",
+  "text": "一起记进家庭账本",
+  "group": "event:daily_first_wage",
+  "role": "choice",
+  "emotion": "清楚、平静地读出养育者可以选择的行动",
+  "ages": [
+    "child",
+    "teen",
+    "grown"
+  ],
+  "parent": null,
+  "speaker_id": "zh_female_roumeinvyou_uranus_bigtts",
+  "model": "seed-audio-1.0",
+  "subtitle": {
+    "sentences": [
+      {
+        "end_time": 3200,
+        "start_time": 1120,
+        "text": "一起记进家庭账本",
+        "words": [
+          {
+            "end_time": 1360,
+            "start_time": 1120,
+            "text": "一"
+          },
+          {
+            "end_time": 1600,
+            "start_time": 1360,
+            "text": "起"
+          },
+          {
+            "end_time": 1760,
+            "start_time": 1720,
+            "text": "记"
+          },
+          {
+            "end_time": 2080,
+            "start_time": 2000,
+            "text": "进"
+          },
+          {
+            "end_time": 2400,
+            "start_time": 2240,
+            "text": "家"
+          },
+          {
+            "end_time": 2640,
+            "start_time": 2400,
+            "text": "庭"
+          },
+          {
+            "end_time": 2840,
+            "start_time": 2800,
+            "text": "账"
+          },
+          {
+            "end_time": 3200,
+            "start_time": 3000,
+            "text": "本"
+          }
+        ]
+      }
+    ],
+    "text": "一起记进家庭账本"
+  }
+}

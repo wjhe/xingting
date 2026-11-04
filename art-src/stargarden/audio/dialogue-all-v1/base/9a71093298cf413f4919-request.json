@@ -1,0 +1,96 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "e641001c-4bdb-4367-9ca3-f999cf24d5d4",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“给她时间，再问要不要继续”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105051413329740517C489820B5A7",
+  "response": {
+    "duration": 4.18,
+    "original_duration": 4.18,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3520,
+          "start_time": 320,
+          "text": "给她时间，再问要不要继续",
+          "words": [
+            {
+              "end_time": 600,
+              "start_time": 320,
+              "text": "给"
+            },
+            {
+              "end_time": 760,
+              "start_time": 600,
+              "text": "她"
+            },
+            {
+              "end_time": 1040,
+              "start_time": 840,
+              "text": "时"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1040,
+              "text": "间"
+            },
+            {
+              "end_time": 1280,
+              "start_time": 1280,
+              "text": "，"
+            },
+            {
+              "end_time": 2240,
+              "start_time": 2000,
+              "text": "再"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2240,
+              "text": "问"
+            },
+            {
+              "end_time": 2800,
+              "start_time": 2560,
+              "text": "要"
+            },
+            {
+              "end_time": 3000,
+              "start_time": 2800,
+              "text": "不"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 3000,
+              "text": "要"
+            },
+            {
+              "end_time": 3280,
+              "start_time": 3080,
+              "text": "继"
+            },
+            {
+              "end_time": 3520,
+              "start_time": 3280,
+              "text": "续"
+            }
+          ]
+        }
+      ],
+      "text": "给她时间，再问要不要继续"
+    }
+  }
+}

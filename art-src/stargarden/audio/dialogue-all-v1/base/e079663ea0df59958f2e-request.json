@@ -1,0 +1,91 @@
+{
+  "endpoint": "https://openspeech.bytedance.com/api/v3/tts/create",
+  "request_id": "09f7f367-5e7a-4f72-ad5f-30b4e646d8c2",
+  "request": {
+    "model": "seed-audio-1.0",
+    "text_prompt": "一段中文养成游戏配音，只能有一个人声。使用@音频1的同一个年轻少女音色，保持声音身份一致，不模仿其他人物，不添加内容。表演要求：清楚、平静地读出养育者可以选择的行动。清楚、平静地读出一个可供养育者选择的行动。\n请完整念出以下文本：“把便签留给下一位读者”\n只念这段文本，不读说明。不要音乐、环境声、音效或其他人声。",
+    "references": [
+      {
+        "speaker": "zh_female_roumeinvyou_uranus_bigtts"
+      }
+    ],
+    "audio_config": {
+      "format": "wav",
+      "sample_rate": 24000,
+      "enable_subtitle": true
+    }
+  },
+  "status": "complete",
+  "provider_log_id": "20261105052455ADEB9C1843DDAC202D43",
+  "response": {
+    "duration": 3.7,
+    "original_duration": 3.7,
+    "subtitle": {
+      "sentences": [
+        {
+          "end_time": 3360,
+          "start_time": 840,
+          "text": "把便签留给下一位读者。",
+          "words": [
+            {
+              "end_time": 1160,
+              "start_time": 840,
+              "text": "把"
+            },
+            {
+              "end_time": 1320,
+              "start_time": 1160,
+              "text": "便"
+            },
+            {
+              "end_time": 1640,
+              "start_time": 1560,
+              "text": "签"
+            },
+            {
+              "end_time": 2160,
+              "start_time": 1920,
+              "text": "留"
+            },
+            {
+              "end_time": 2360,
+              "start_time": 2160,
+              "text": "给"
+            },
+            {
+              "end_time": 2560,
+              "start_time": 2360,
+              "text": "下"
+            },
+            {
+              "end_time": 2680,
+              "start_time": 2560,
+              "text": "一"
+            },
+            {
+              "end_time": 2880,
+              "start_time": 2680,
+              "text": "位"
+            },
+            {
+              "end_time": 3080,
+              "start_time": 3000,
+              "text": "读"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3200,
+              "text": "者"
+            },
+            {
+              "end_time": 3360,
+              "start_time": 3360,
+              "text": "。"
+            }
+          ]
+        }
+      ],
+      "text": "把便签留给下一位读者。"
+    }
+  }
+}
