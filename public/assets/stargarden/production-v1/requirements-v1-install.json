@@ -1,10 +1,8 @@
 {
   "source_root": "art-src/stargarden/requirements-v1",
   "skipped": [
-    "birthday-child",
-    "birthday-grown",
-    "birthday-teen",
-    "key-art"
+    "key-art",
+    "requirements-v1 birthday-*"
   ],
   "files": {
     "main-wish": "candidates/main-wish-1.png",
@@ -62,6 +60,18 @@
     "town-place-teahouse": "candidates/town-place-teahouse-1.png",
     "town-place-gate": "candidates/town-place-gate-2.png",
     "town-place-academy": "candidates/town-place-academy-2.png",
+    "birthday-child": "../requirements-v2/candidates/birthday-child-1.png",
+    "birthday-teen": "../requirements-v2/candidates/birthday-teen-2.png",
+    "birthday-grown": "../requirements-v2/candidates/birthday-grown-1.png",
+    "home-room-spring": "../requirements-v2/candidates-direct/home-room-spring-1.png",
+    "home-room-summer": "../requirements-v2/candidates-direct/home-room-summer-2.png",
+    "home-room-autumn": "../requirements-v2/candidates-direct/home-room-autumn-1.png",
+    "home-room-winter": "../requirements-v2/candidates-direct/home-room-winter-2.png",
+    "home-room-night": "../requirements-v2/candidates-direct/home-room-night-1.png",
+    "home-room-spring-night": "../requirements-v2/candidates/home-room-spring-night-1.png",
+    "home-room-summer-night": "../requirements-v2/candidates/home-room-summer-night-2.png",
+    "home-room-autumn-night": "../requirements-v2/candidates/home-room-autumn-night-2.png",
+    "home-room-winter-night": "../requirements-v2/candidates/home-room-winter-night-2.png",
     "npc-mira-child": "shiying-cutouts/npc-mira-child.png",
     "npc-mira-teen": "shiying-cutouts/npc-mira-teen.png",
     "npc-rowan": "shiying-cutouts/npc-rowan.png",

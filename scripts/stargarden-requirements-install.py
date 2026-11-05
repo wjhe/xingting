@@ -39,8 +39,21 @@ PICK = {
 }
 # 只取画面的一部分（左, 上, 右, 下 的比例）：学院两张都混入了另一位长发女孩，只保留右侧建筑
 CROP = {'town-place-academy': (.36, 0, 1, 1)}
-# 不接入：生日图都画了父母与弟妹，和“只有你一位养育者”的设定冲突；主视觉暂无开始界面
-SKIPPED = {'birthday-child', 'birthday-teen', 'birthday-grown', 'key-art'}
+# requirements-v2（2026-11-05 重新生成，见 docs/stargarden/生日与季节房间图片需求.md）：名字 -> 候选编号
+# 生日选 candidates/ 一套；candidates-flare-aigocode/ 发色偏红、卷发更重，与游戏里的艾莉不一致，未采用
+PICK_V2 = {'birthday-child': 1, 'birthday-teen': 2, 'birthday-grown': 1}
+# 四季与夜晚房间（图生图，底图 room-portrait_2.png）：名字 -> (候选文件夹, 编号)
+# 选 candidates-direct：光影随季节变化，季节感最强；地毯偏移 ≤ 4 px、家具轮廓匹配 0.91–0.97。
+# 保守版（delivery/final 等）轮廓更准，但光线几乎不变，且有墙面污渍、贴片窗框等瑕疵。
+ROOMS_V2 = {'home-room-spring': ('candidates-direct', 1), 'home-room-summer': ('candidates-direct', 2),
+            'home-room-autumn': ('candidates-direct', 1), 'home-room-winter': ('candidates-direct', 2),
+            'home-room-night': ('candidates-direct', 1),
+            # 四季夜晚（2026-11-06，底图为当季白天选定图，整张图生图）。夏夜两张都残留白天的窗格阳光，选光影较少的 2 号，待重做
+            'home-room-spring-night': ('candidates', 1), 'home-room-summer-night': ('candidates', 2),
+            'home-room-autumn-night': ('candidates', 2), 'home-room-winter-night': ('candidates', 2)}
+REQ_V2 = os.path.join(ROOT, 'art-src', 'stargarden', 'requirements-v2')
+# 不接入：requirements-v1 的生日图画了父母与弟妹（已由 v2 取代）；主视觉暂无开始界面
+SKIPPED = {'requirements-v1 birthday-*', 'key-art'}
 CUTOUTS = ['npc-mira-child', 'npc-mira-teen', 'npc-rowan', 'npc-nora', 'npc-fern-child', 'npc-fern-teen',
            'battle-hero-teen', 'enemy-forest-2', 'enemy-ruins-2', 'enemy-mountain-2']
 AVATARS = ['npc-mira-child', 'npc-mira-teen', 'npc-rowan', 'npc-nora', 'npc-fern-child', 'npc-fern-teen']
@@ -56,6 +69,12 @@ def main() -> int:
             im = im.crop((int(im.width * l), int(im.height * t), int(im.width * r), int(im.height * b)))
         im.save(os.path.join(OUT, f'{name}.webp'), quality=86, method=6)
         record[name] = f'candidates/{name}-{n}.png'
+    for name, n in PICK_V2.items():
+        Image.open(os.path.join(REQ_V2, 'candidates', f'{name}-{n}.png')).convert('RGB').save(os.path.join(OUT, f'{name}.webp'), quality=86, method=6)
+        record[name] = f'../requirements-v2/candidates/{name}-{n}.png'
+    for name, (folder, n) in ROOMS_V2.items():
+        Image.open(os.path.join(REQ_V2, folder, f'{name}-{n}.png')).convert('RGB').save(os.path.join(OUT, f'{name}.webp'), quality=88, method=6)
+        record[name] = f'../requirements-v2/{folder}/{name}-{n}.png'
     for name in CUTOUTS:
         im = Image.open(os.path.join(REQ, 'shiying-cutouts', f'{name}.png')).convert('RGBA')
         im.save(os.path.join(OUT, f'{name}.webp'), quality=90, method=6)

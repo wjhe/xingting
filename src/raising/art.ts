@@ -5,6 +5,22 @@ export const TOWN_ART = `${ASSET_ROOT}town-${ART_STYLE}.webp`;
 /** 竖构图房间：两侧家具框住画面，中间地毯留给人物站位。主界面、衣橱、事件与演出共用。旧横版 room-cel-v3 保留为素材记录。 */
 export const HOME_ROOM_ART = `${ASSET_ROOT}production-v1/home-room.webp`;
 export const ROOM_ART = HOME_ROOM_ART;
+/** 四季与夜晚房间（同一构图，窗外、光线与少量小物不同）。春 2–4 月、夏 5–7 月、秋 8–10 月、冬 11–1 月 */
+const SEASON_ROOM: Record<string, string> = { 春: 'spring', 夏: 'summer', 秋: 'autumn', 冬: 'winter' };
+let roomSeason = '';
+/** 由界面在每次渲染时告知当前季节；之后所有“房间”画面都用对应季节版本 */
+export function setRoomSeason(season: string): void { roomSeason = season; }
+export function roomArt(night = false): string {
+  const season = SEASON_ROOM[roomSeason];
+  // 夜晚优先用当季夜景（窗外有雪、红叶等），没有季节信息时退回通用夜晚
+  const key = night ? (season ? `${season}-night` : 'night') : season;
+  return key ? `${ASSET_ROOT}production-v1/home-room-${key}.webp` : HOME_ROOM_ART;
+}
+/** 立绘在不同光线下的轻微色调，让人物融进房间的光（Phaser tint，白色为不变） */
+export function roomTint(night = false): number {
+  if (night) return 0xffe2c4;
+  return roomSeason === '秋' ? 0xfff0dc : roomSeason === '夏' ? 0xfffaf0 : 0xffffff;
+}
 
 export const PRODUCTION_ROOT = `${ASSET_ROOT}production-v1/`;
 export const NEW_OUTFITS = ['summer', 'winter', 'festival'];
@@ -34,7 +50,7 @@ export function outfitAsset(age: number, outfit: string): string {
 }
 
 export function sceneAsset(id: string): string {
-  if (id === 'room') return ROOM_ART;
+  if (id === 'room') return roomArt();
   if (id === 'town') return TOWN_ART;
   return `${PRODUCTION_ROOT}${id}.webp`;
 }
@@ -57,6 +73,8 @@ export function activityArt(id: string, age = 10): string {
 export function heroArt(age: number): string { return sceneAsset(age >= 16 ? 'battle-hero-grown' : age >= 14 ? 'battle-hero-teen' : 'battle-hero'); }
 /** 收获祭插画按年龄段 */
 export function festivalArt(age: number): string { return sceneAsset(`festival-${age >= 16 ? 'grown' : age >= 14 ? 'teen' : 'child'}`); }
+/** 生日插画按（新的）年龄段：只有艾莉与一只养育者的手 */
+export function birthdayArt(age: number): string { return sceneAsset(`birthday-${age >= 16 ? 'grown' : age >= 14 ? 'teen' : 'child'}`); }
 /** 探索胜利后的收获插画 */
 export function lootArt(region = 'forest'): string { return sceneAsset(`explore-${['ruins', 'mountain'].includes(region) ? region : 'forest'}-loot`); }
 /** 城里的朋友：米拉与菲恩是同龄人，14 岁起换成少年版本 */

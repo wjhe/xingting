@@ -23,7 +23,9 @@
     "smoke:raising:schedule": "node scripts/stargarden-schedule-smoke.mjs",
     "smoke:raising:opening": "node scripts/stargarden-opening-smoke.mjs",
     "smoke:raising:music": "node scripts/stargarden-music-smoke.mjs",
-    "music:raising": "python scripts/stargarden-music-build.py"
+    "music:raising": "python scripts/stargarden-music-build.py",
+    "sfx:raising:build": "python scripts/stargarden-sfx-ai.py --process-only",
+    "sfx:raising:generate": "python scripts/stargarden-sfx-ai.py --generate"
   },
   "dependencies": {
     "@capacitor/android": "^6.2.2",

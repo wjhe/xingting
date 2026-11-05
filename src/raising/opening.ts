@@ -62,7 +62,7 @@ export interface OpeningOptions {
   host: HTMLElement;
   /** 重看开场时传入现有称呼，跳过选择，结束后不改动存档 */
   fixed?: { parent: string };
-  onSound?: (name: 'click' | 'event' | 'victory') => void;
+  onSound?: (name: 'click' | 'event' | 'victory' | 'op_starfall' | 'op_embers' | 'op_text' | 'op_name') => void;
   /** 切到第 index 幕时调用（用于切换开场配乐） */
   onBeat?: (index: number) => void;
   /** Called after the player's parent choice is known. */
@@ -137,7 +137,8 @@ export function playOpening(options: OpeningOptions): void {
     const effect = video ? undefined : b.effect;
     el.querySelector('.op-fx')!.className = `op-fx ${effect ?? ''}`;
     el.querySelector('.op-fx')!.innerHTML = effect === 'embers' ? Array.from({ length: 14 }, (_, i) => `<i style="--i:${i}"></i>`).join('') : effect === 'starfall' ? '<i></i>' : '';
-    onSound?.('event');
+    // 流星一幕与星光余烬一幕各有专门音效
+    onSound?.(b.effect === 'starfall' ? 'op_starfall' : b.effect === 'embers' ? 'op_embers' : 'event');
     onBeat?.(index);
   };
   const fill = (s: string) => s.split('{parent}').join(parent);
@@ -148,6 +149,7 @@ export function playOpening(options: OpeningOptions): void {
     box.classList.add('typing');
     typing = setInterval(() => {
       shown += 1; text.textContent = full.slice(0, shown);
+      if (shown % 3 === 1 && full[shown - 1]?.trim()) onSound?.('op_text');
       if (shown >= full.length) { clearInterval(typing); typing = undefined; box.classList.remove('typing'); }
     }, 42);
   };
@@ -205,7 +207,7 @@ export function playOpening(options: OpeningOptions): void {
   el.addEventListener('click', e => {
     const target = (e.target as Element).closest<HTMLElement>('[data-op]');
     if (target?.dataset.op === 'skip') { e.stopPropagation(); skip(); return; }
-    if (target?.dataset.op === 'parent') { parent = target.dataset.value!; chosen = true; form.hidden = true; onSound?.('click'); next(); return; }
+    if (target?.dataset.op === 'parent') { parent = target.dataset.value!; chosen = true; form.hidden = true; onSound?.('op_name'); next(); return; }
     if (!form.hidden || finished) return;
     onSound?.('click');
     next();

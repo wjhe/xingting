@@ -1,6 +1,14 @@
 const ROOT = `${import.meta.env.BASE_URL}assets/stargarden/audio/`;
-const FILES = { click:'click', page:'page', place:'place', back:'back', buy:'buy', dress:'dress', event:'event', hit:'hit', hurt:'hurt', victory:'victory' } as const;
-type SoundName = keyof typeof FILES;
+const FILES = { click:'click', page:'page', place:'place', back:'back', buy:'buy', dress:'dress', event:'event', hit:'hit', hurt:'hurt', victory:'victory',
+  // 第一批 AI 音效（docs/stargarden/音效制作记录-v1.md，待试听确认）
+  month_start:'sfx-v1/month_start', plan_remove:'sfx-v1/plan_remove', day_progress:'sfx-v1/day_progress', stat_up:'sfx-v1/stat_up',
+  coin_gain:'sfx-v1/coin_gain', coin_spend:'sfx-v1/coin_spend', stress_down:'sfx-v1/stress_down', stress_warn:'sfx-v1/stress_warn',
+  letter_arrive:'sfx-v1/letter_arrive', choice_pick:'sfx-v1/choice_pick', diary_write:'sfx-v1/diary_write', deny:'sfx-v1/deny',
+  gift_give:'sfx-v1/gift_give', talk_open:'sfx-v1/talk_open',
+  op_starfall:'sfx-v1/op_starfall', op_embers:'sfx-v1/op_embers', op_text:'sfx-v1/op_text', op_name:'sfx-v1/op_name' } as const;
+export type SoundName = keyof typeof FILES;
+/** 频繁出现的声音再轻一点 */
+const QUIET = new Set<string>(['click', 'page', 'day_progress', 'op_text']);
 type Voice = { source: AudioBufferSourceNode; gain: GainNode; factor: number };
 /** Decode once, resume on user gestures, then reuse the context for battle timers. */
 export class GameSound {
@@ -47,7 +55,7 @@ export class GameSound {
     void this.buffer(name).then(buffer=>{
       if(!buffer||!this.enabled||document.hidden||context.state!=='running')return;
       if(this.voices.size>=4){const oldest=this.voices.values().next().value as Voice|undefined;if(oldest)this.stop(oldest);}
-      const source=context.createBufferSource(),gain=context.createGain(),factor=name==='click'||name==='page'?.6:.75;
+      const source=context.createBufferSource(),gain=context.createGain(),factor=QUIET.has(name)?.55:.75;
       source.buffer=buffer;gain.gain.value=this.volume*factor;source.connect(gain);gain.connect(context.destination);
       const voice={source,gain,factor};this.voices.add(voice);
       source.onended=()=>{this.voices.delete(voice);source.disconnect();gain.disconnect();};source.start();

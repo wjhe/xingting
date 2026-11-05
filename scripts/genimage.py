@@ -32,8 +32,10 @@ def generate(
     model: str | None = None,
     quality: str | None = None,
     api: str | None = None,
+    key_file: Path | None = None,
 ) -> bytes:
-    key = KEY_FILE.read_text(encoding='utf-8').strip()
+    key_path = key_file or KEY_FILE
+    key = key_path.read_text(encoding='utf-8').strip()
     selected_model = model or MODEL
     selected_quality = quality if quality is not None else QUALITY
     selected_api = api or API

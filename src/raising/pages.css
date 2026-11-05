@@ -239,3 +239,10 @@
 @keyframes lunge-left{40%{transform:translateX(-14%)}}
 @keyframes hit-flash{25%{filter:brightness(1.8);transform:translateX(5px)}60%{transform:translateX(-4px)}}
 @media(prefers-reduced-motion:reduce){.battle-picture .lunge,.battle-picture .struck{animation:none}}
+/* 生日视频：在演出窗口里播放，自带推镜，不再叠加 CSS 运镜 */
+.replay-scene .replay-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+/* 生日视频：标题缩成右上角小标签，去掉底部渐变，让蛋糕和烛光完整露出 */
+.replay-scene.has-video .replay-caption{top:10px;bottom:auto;left:auto;right:10px;display:flex;align-items:center;gap:6px;padding:4px 12px;border-radius:14px 4px 14px 4px;background:#fffbedd9;box-shadow:0 2px 8px #3c2a1a22}
+.replay-scene.has-video .replay-caption h3{font-size:16px;letter-spacing:1px;margin:0}
+.replay-scene.has-video .replay-caption>.icon{width:18px;height:18px}
+.replay-scene.has-video .replay-status,.replay-scene.has-video .replay-sparkles{display:none}

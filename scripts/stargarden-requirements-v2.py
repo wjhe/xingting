@@ -1,8 +1,9 @@
 """Generate birthday and seasonal room candidates without overwriting prior art.
 
-Birthday images use the project's text-to-image helper. Room images use the
-OpenAI-compatible image-edit endpoint with a mask, then preserve the original
-room outside that mask so furniture geometry cannot drift.
+Birthday images use the project's text-to-image helper. Seasonal day rooms use
+the image-edit endpoint with a mask. Seasonal night rooms use the selected
+daytime room as the single full-canvas edit target, preserving all room geometry
+through a direct AI rewrite.
 """
 from __future__ import annotations
 
@@ -36,6 +37,7 @@ NIGHT_COMPOSITE_REGIONS = [
 LOCK = threading.Lock()
 ACTIVE_MODEL = MODEL
 ACTIVE_QUALITY = QUALITY
+ACTIVE_KEY_FILE = KEY_FILE
 ACTIVE_API = API
 ACTIVE_EDIT_API = EDIT_API
 DIRECT_ROOM = False
@@ -172,6 +174,46 @@ ROOMS = {
     ),
 }
 
+SEASONAL_NIGHT_ROOMS = {
+    "home-room-spring-night": (
+        "Outside: blossoming trees faintly pale pink in the moonlight, a few petals "
+        "drifting. A mild, gentle spring night.",
+        ROOT
+        / "art-src/stargarden/requirements-v2/candidates-direct/home-room-spring-1.png",
+    ),
+    "home-room-summer-night": (
+        "Outside: dark lush trees, a few fireflies glowing near the window, the glass "
+        "wind chime catching the lamplight. The window is slightly open on a warm "
+        "summer night.",
+        ROOT
+        / "art-src/stargarden/requirements-v2/candidates-direct/home-room-summer-2.png",
+    ),
+    "home-room-autumn-night": (
+        "Outside: autumn trees with dark red and orange leaves under the moon, a few "
+        "leaves falling. A crisp, quiet autumn night.",
+        ROOT
+        / "art-src/stargarden/requirements-v2/candidates-direct/home-room-autumn-1.png",
+    ),
+    "home-room-winter-night": (
+        "Outside: snow-covered rooftops and trees glowing softly blue-white in the "
+        "moonlight, gentle falling snow, a little frost at the window corners. The "
+        "steaming mug on the desk. A cozy winter night, warm inside.",
+        ROOT
+        / "art-src/stargarden/requirements-v2/candidates-direct/home-room-winter-2.png",
+    ),
+}
+
+SEASONAL_NIGHT_COMMON = (
+    "Night version of this same room and the same season. Keep every object from the "
+    "input image, including the seasonal items on the desk and chair. Outside the "
+    "window it is now night: a deep navy starry sky with a crescent moon, the same "
+    "seasonal scenery dimly visible in moonlight, and a few warm lights of the distant "
+    "town. The table lamp on the bookshelf is switched on and casts a soft warm amber "
+    "glow across the room and the rug. The room is dimmer than daytime but still "
+    "clearly readable, about 70 percent of daytime brightness, warm cozy tones, no "
+    "harsh darkness, no heavy vignette."
+)
+
 
 def append_log(record: dict) -> None:
     with LOG.open("a", encoding="utf-8") as handle:
@@ -229,7 +271,7 @@ def request_edit(
     prompt: str,
     size: str,
 ) -> tuple[bytes, str]:
-    key = KEY_FILE.read_text(encoding="utf-8").strip()
+    key = ACTIVE_KEY_FILE.read_text(encoding="utf-8").strip()
     fields = {
         "model": ACTIVE_MODEL,
         "prompt": prompt,
@@ -333,6 +375,7 @@ def run_birthday(task: tuple[str, str, int]) -> str:
         model=ACTIVE_MODEL,
         quality=ACTIVE_QUALITY,
         api=ACTIVE_API,
+        key_file=ACTIVE_KEY_FILE,
     )
     with Image.open(io.BytesIO(data)) as image:
         image.verify()
@@ -363,8 +406,13 @@ def run_room(task: tuple[str, str, int]) -> str:
         with Image.open(path) as image:
             image.verify()
         return f"{path.name} cached"
+    seasonal_night = name in SEASONAL_NIGHT_ROOMS
+    source = (
+        SEASONAL_NIGHT_ROOMS[name][1] if seasonal_night else BASE_ROOM
+    )
+    direct_rewrite = DIRECT_ROOM or seasonal_night
     mask_path: Path | None = None
-    if not DIRECT_ROOM:
+    if not direct_rewrite:
         regions = ROOMS[name][1]
         mask = build_mask(regions)
         mask_path = MASK_DIR / f"{name}.png"
@@ -377,7 +425,7 @@ def run_room(task: tuple[str, str, int]) -> str:
             "Input images: Image 1: exact room edit target and full-image rewrite\n"
             "Primary request: directly rewrite the complete room image while preserving "
             "all room geometry. "
-            if DIRECT_ROOM
+            if direct_rewrite
             else "Input images: Image 1: exact room edit target; Image 2: transparency mask\n"
             "Primary request: replace only the environment inside the transparent mask. "
         )
@@ -387,20 +435,24 @@ def run_room(task: tuple[str, str, int]) -> str:
     )
     started = time.time()
     RAW_EDIT_DIR.mkdir(parents=True, exist_ok=True)
-    raw_name = f"{name}-direct-{variant}.png" if DIRECT_ROOM else f"{name}-{variant}.png"
+    raw_name = (
+        f"{name}-direct-{variant}.png"
+        if direct_rewrite
+        else f"{name}-{variant}.png"
+    )
     raw_path = RAW_EDIT_DIR / raw_name
     if raw_path.exists():
         raw = raw_path.read_bytes()
         response_kind = "cached"
     else:
-        raw, response_kind = request_edit(BASE_ROOM, mask_path, prompt, SIZE_PORTRAIT)
+        raw, response_kind = request_edit(source, mask_path, prompt, SIZE_PORTRAIT)
         raw_path.write_bytes(raw)
     with Image.open(io.BytesIO(raw)) as image:
         image.verify()
     composed = (
         raw
-        if DIRECT_ROOM
-        else composite_masked_edit(BASE_ROOM, raw, mask_path, name.endswith("night"))
+        if direct_rewrite
+        else composite_masked_edit(source, raw, mask_path, name.endswith("night"))
     )
     with LOCK:
         with path.open("xb") as handle:
@@ -413,7 +465,7 @@ def run_room(task: tuple[str, str, int]) -> str:
                 "size": SIZE_PORTRAIT,
                 "quality": ACTIVE_QUALITY,
                 "prompt": prompt,
-                "source_image": BASE_ROOM.relative_to(ROOT).as_posix(),
+                "source_image": source.relative_to(ROOT).as_posix(),
                 "mask": (
                     None
                     if mask_path is None
@@ -421,12 +473,12 @@ def run_room(task: tuple[str, str, int]) -> str:
                 ),
                 "strength": (
                     "full-canvas direct edit; no mask"
-                    if DIRECT_ROOM
+                    if direct_rewrite
                     else "mask-constrained; service exposes no numeric strength parameter"
                 ),
                 "postprocess": (
                     "direct full-canvas AI output; no compositing"
-                    if DIRECT_ROOM
+                    if direct_rewrite
                     else (
                         "continuous 80% night grade; generated sky layered softly"
                         if name.endswith("night")
@@ -438,7 +490,9 @@ def run_room(task: tuple[str, str, int]) -> str:
                 "time": datetime.datetime.now().isoformat(timespec="seconds"),
                 "batch": "requirements-v2",
                 "variant": variant,
-                "method": "direct-image-edit" if DIRECT_ROOM else "masked-image-edit",
+                "method": (
+                    "direct-image-edit" if direct_rewrite else "masked-image-edit"
+                ),
             }
         )
     return f"{path.name} ready ({time.time() - started:.0f}s)"
@@ -455,17 +509,32 @@ def jobs_for(
     for name in ROOMS:
         if not selected or name in selected:
             jobs.extend((name, (name, ROOMS[name][0], variant)) for variant in variants)
+    for name, (version_prompt, _) in SEASONAL_NIGHT_ROOMS.items():
+        if not selected or name in selected:
+            prompt = SEASONAL_NIGHT_COMMON + " " + version_prompt
+            jobs.extend((name, (name, prompt, variant)) for variant in variants)
     return jobs
 
 
 def main() -> int:
-    global ACTIVE_API, ACTIVE_EDIT_API, ACTIVE_MODEL, ACTIVE_QUALITY, DIRECT_ROOM, OUT
+    global ACTIVE_API, ACTIVE_EDIT_API, ACTIVE_KEY_FILE, ACTIVE_MODEL
+    global ACTIVE_QUALITY, DIRECT_ROOM, OUT
     parser = argparse.ArgumentParser()
-    parser.add_argument("--only", nargs="*", choices=list(BIRTHDAYS) + list(ROOMS))
+    parser.add_argument(
+        "--only",
+        nargs="*",
+        choices=list(BIRTHDAYS) + list(ROOMS) + list(SEASONAL_NIGHT_ROOMS),
+    )
     parser.add_argument("--workers", type=int, default=2)
     parser.add_argument("--model", default=MODEL)
     parser.add_argument("--quality", default=QUALITY, choices=("low", "medium", "high", "auto"))
     parser.add_argument("--base-url", default=BASE_URL)
+    parser.add_argument(
+        "--key-file",
+        type=Path,
+        default=KEY_FILE,
+        help="Bearer-token file; relative paths resolve from the project root",
+    )
     parser.add_argument("--direct-room", action="store_true")
     parser.add_argument("--variant", type=int, choices=(1, 2))
     parser.add_argument(
@@ -482,6 +551,11 @@ def main() -> int:
     ACTIVE_EDIT_API = base_url + "/v1/images/edits"
     ACTIVE_MODEL = args.model
     ACTIVE_QUALITY = args.quality
+    ACTIVE_KEY_FILE = (
+        args.key_file if args.key_file.is_absolute() else ROOT / args.key_file
+    ).resolve()
+    if not ACTIVE_KEY_FILE.is_file():
+        raise SystemExit(f"Missing key file: {ACTIVE_KEY_FILE}")
     DIRECT_ROOM = args.direct_room
     OUT = args.out.resolve()
     if ROOT not in OUT.parents:
@@ -492,7 +566,7 @@ def main() -> int:
         selected,
         (args.variant,) if args.variant is not None else (1, 2),
     )
-    unknown = selected - set(BIRTHDAYS) - set(ROOMS)
+    unknown = selected - set(BIRTHDAYS) - set(ROOMS) - set(SEASONAL_NIGHT_ROOMS)
     if unknown:
         raise SystemExit(f"Unknown jobs: {', '.join(sorted(unknown))}")
     print(f"{len(jobs)} candidate files", flush=True)

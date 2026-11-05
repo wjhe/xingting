@@ -3,10 +3,10 @@ import { createState, DAUGHTER_NAME, RaisingGame, statChanges, TOTAL_MONTHS } fr
 import { icon } from './icons';
 import { loadMeta, loadState, saveMeta, saveState } from './storage';
 import { createStage } from './stage';
-import { activityArt, festivalArt, heroArt, lootArt, npcAsset, bodyAsset, growthRatio, eventArt, eventExpression, faceAsset, outfitAsset, ROOM_ART, TOWN_ART, sceneAsset, NEW_OUTFITS } from './art';
+import { videoAsset, activityArt, birthdayArt, festivalArt, heroArt, lootArt, npcAsset, bodyAsset, growthRatio, eventArt, eventExpression, faceAsset, outfitAsset, roomArt, setRoomSeason, TOWN_ART, sceneAsset, NEW_OUTFITS } from './art';
 import { STAT_KEYS, type Stat as StatKey, type BattleReplay, type Category, type MonthResult } from './types';
 import { CHAPTERS, PEOPLE, storyOutcomeVoiceSequence, storyText, storyVoiceSequence } from './story';
-import { GameSound } from './sound';
+import { GameSound, type SoundName } from './sound';
 import { DialogueVoice } from './voice';
 import { playOpening } from './opening';
 import { playTimelapse } from './timelapse';
@@ -41,6 +41,9 @@ export function startRaisingGame(root: HTMLElement): void {
   let category: Category = 'learn';
   let journalTab = 'diary';
   let stage: ReturnType<typeof createStage> | null = null;
+  let stageKey = '';
+  /** 本月结算让压力刚达到 75：月度总结出现时播放提醒音 */
+  let stressWarnPending = false;
   let toastTimer: ReturnType<typeof setTimeout>;
   const sound = new GameSound();
   const voicePrefs = (() => {
@@ -100,8 +103,12 @@ export function startRaisingGame(root: HTMLElement): void {
     el.innerHTML = `<div class="home-date"><span class="home-moon">${icon(game.season==='冬'?'moon':'sun')}</span><div><b><span class="date-era">星历 </span>${c.year} 年 · ${c.month} 月</b><small>${game.season}日 · 陪伴的第 ${game.state.month + 1} 个月</small></div></div><span class="gold-pill">${icon('coin')}<b>${game.state.gold.toLocaleString()}</b><small>G</small></span><button class="icon-btn" data-action="settings" aria-label="设置与存档">${icon('settings')}</button>`;
   }
   function render(): void {
+    setRoomSeason(game.season);
     music.play(pageTrack());
-    stage?.destroy(); stage = null;
+    // 年龄、服装、季节都没变时保留原来的舞台（只把画布挪进新的容器），避免关弹窗、送礼后画面重建闪一下
+    const key = `${game.age}|${game.state.outfit}|${game.season}`;
+    const keepStage = page === 'home' && stage && stageKey === key ? main.querySelector<HTMLElement>('#portrait-stage') : null;
+    if (!keepStage) { stage?.destroy(); stage = null; }
     root.querySelector('.game-shell')!.classList.toggle('home-layout', page === 'home');
     header();
     root.querySelector('#nav')!.innerHTML = nav.map(([id, img, title]) => { const current = page === id || (id === 'home' && page === 'schedule'); return `<button class="nav-item ${current ? 'active' : ''}" data-action="nav" data-page="${id}" ${current ? 'aria-current="page"' : ''}>${icon(img)}<span>${title}</span>${id === 'diary' && game.state.pendingEvent ? '<i></i>' : ''}</button>`; }).join('');
@@ -116,7 +123,11 @@ export function startRaisingGame(root: HTMLElement): void {
       const action = s.ended ? 'ending' : s.pendingEvent ? 'event' : filled === 3 ? 'advance' : 'continue-plan';
       actions.innerHTML = `<div class="schedule-confirm"><div class="schedule-confirm-info"><b>本月安排 ${filled}/3</b><span>月末金币约 <strong class="${s.gold+total+40<0?'rose-text':'green-text'}">${(s.gold+total+40).toLocaleString()} G</strong></span></div><button class="primary-button" data-action="${action}" data-slot="${Math.max(0,s.plan.findIndex(id=>!id))}"><span>${s.ended?'查看她的未来':s.pendingEvent?'先回应她的故事':filled===3?'确认日程 · 开始本月':'继续安排日程'}</span>${icon('arrow')}</button></div>`;
     }
-    if (page === 'home') { const parent = main.querySelector<HTMLElement>('#portrait-stage')!; stage = createStage(parent, game.age, game.state.outfit); }
+    if (page === 'home') {
+      const parent = main.querySelector<HTMLElement>('#portrait-stage')!;
+      if (keepStage) parent.replaceWith(keepStage);
+      else { stage = createStage(parent, game.age, game.state.outfit); stageKey = key; }
+    }
   }
   function navigate(target: Page): void { page = target; closeModal(() => {}); render(); main.scrollTo({ top: 0 }); }
   function home(): string {
@@ -185,7 +196,7 @@ export function startRaisingGame(root: HTMLElement): void {
     const s = game.state;
     const owned = (id: string) => !NEW_OUTFITS.includes(id) || s.inventory.includes(`outfit:${id}`);
     const current = OUTFITS.find(o => o.id === s.outfit)!;
-    return `<div class="page-pad pg">${pageTitle('衣橱', `已拥有 ${OUTFITS.filter(o => owned(o.id)).length}/${OUTFITS.length}`)}<div class="pg-wardrobe"><figure class="wardrobe-layers" role="img" aria-label="${escape(s.name)}穿着${current.name}"><img class="wardrobe-room" src="${ROOM_ART}" alt=""><span class="wardrobe-character" style="--grow:${growthRatio(game.age)}"><img src="${bodyAsset(game.age, s.outfit)}" alt=""><img src="${outfitAsset(game.age, s.outfit)}" alt=""></span></figure><div class="pg-wardrobe-caption"><small>今日衣装</small><b>${current.name}</b><p>${current.description}</p></div></div><div class="outfit-list">${[...OUTFITS].sort((a, b) => Number(b.id === s.outfit) - Number(a.id === s.outfit) || Number(owned(b.id)) - Number(owned(a.id))).map(o => `<button class="outfit-card ${s.outfit === o.id ? 'equipped' : ''} ${owned(o.id) ? '' : 'not-owned'}" data-action="${owned(o.id) ? 'wear' : 'shop'}" data-id="${o.id}"><span class="outfit-swatch" style="--swatch:${o.color}">${NEW_OUTFITS.includes(o.id)?`<img src="${bodyAsset(game.age,o.id)}" alt="">`:icon('wardrobe')}</span><span><b>${o.name}</b><small>${o.description}</small></span><em>${s.outfit === o.id ? `${icon('check')} 已穿戴` : owned(o.id) ? '换上' : `去集市 · ${o.price} G`}</em></button>`).join('')}</div><p class="quiet-note">新款购买一次，各年龄适配款一并拥有；买下后可随时换上。</p></div>`;
+    return `<div class="page-pad pg">${pageTitle('衣橱', `已拥有 ${OUTFITS.filter(o => owned(o.id)).length}/${OUTFITS.length}`)}<div class="pg-wardrobe"><figure class="wardrobe-layers" role="img" aria-label="${escape(s.name)}穿着${current.name}"><img class="wardrobe-room" src="${roomArt()}" alt=""><span class="wardrobe-character" style="--grow:${growthRatio(game.age)}"><img src="${bodyAsset(game.age, s.outfit)}" alt=""><img src="${outfitAsset(game.age, s.outfit)}" alt=""></span></figure><div class="pg-wardrobe-caption"><small>今日衣装</small><b>${current.name}</b><p>${current.description}</p></div></div><div class="outfit-list">${[...OUTFITS].sort((a, b) => Number(b.id === s.outfit) - Number(a.id === s.outfit) || Number(owned(b.id)) - Number(owned(a.id))).map(o => `<button class="outfit-card ${s.outfit === o.id ? 'equipped' : ''} ${owned(o.id) ? '' : 'not-owned'}" data-action="${owned(o.id) ? 'wear' : 'shop'}" data-id="${o.id}"><span class="outfit-swatch" style="--swatch:${o.color}">${NEW_OUTFITS.includes(o.id)?`<img src="${bodyAsset(game.age,o.id)}" alt="">`:icon('wardrobe')}</span><span><b>${o.name}</b><small>${o.description}</small></span><em>${s.outfit === o.id ? `${icon('check')} 已穿戴` : owned(o.id) ? '换上' : `去集市 · ${o.price} G`}</em></button>`).join('')}</div><p class="quiet-note">新款购买一次，各年龄适配款一并拥有；买下后可随时换上。</p></div>`;
   }
   function sheet(title: string, subtitle: string, content: string, cls = ''): void {
     dialogueVoice.pause();
@@ -219,22 +230,24 @@ export function startRaisingGame(root: HTMLElement): void {
       const r = results[cursor];
       if (!r) { showResultsSummary(results); return; }
       const activity = cursor < 3 ? ACTIVITIES.find(a => a.name === r.title) : undefined;
-      const art = activity ? activityArt(activity.id, resultsAge) : r.icon === 'trophy' ? festivalArt(resultsAge) : r.icon === 'gift' ? sceneAsset('event-flowers') : ROOM_ART;
+      const art = activity ? activityArt(activity.id, resultsAge) : r.icon === 'trophy' ? festivalArt(resultsAge) : r.icon === 'gift' ? birthdayArt(game.age) : roomArt();
       const date = cursor < 3 ? ['上旬 · 01—10 日', '中旬 · 11—20 日', '下旬 · 21—30 日'][cursor] : '月末 · 成长记事';
       const layered = activity && ['home', 'free'].includes(activity.id);
       const battle = r.battle;
       const region = battle ? battleRegion(battle) : null;
       // 交锋：开场 600ms，之后每回合 450ms（受倍速影响），打完再揭晓结果。
       const fightEnd = battle ? 600 + battle.steps.length * 450 : 0;
-      const revealAt = battle ? fightEnd + 300 : 1700, advanceAt = battle ? fightEnd + 2600 : 4100;
+      // 生日：在窗口里播放 6 秒的生日视频（横版，与窗口比例接近），播完再进入下一项；减少动态效果时仍用静态插画
+      const birthdayVideo = r.icon === 'gift' && !window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ? videoAsset(`vid-birthday-${game.age >= 16 ? 'grown' : game.age >= 14 ? 'teen' : 'child'}`) : null;
+      const revealAt = battle ? fightEnd + 300 : 1700, advanceAt = battle ? fightEnd + 2600 : birthdayVideo ? 7000 : 4100;
       // 与“再看一次交锋”相同的布局：画面不被遮挡，下方是带数字的血条和最近几回合的战况记录
       const scene = battle && region ? `<div class="replay-battle rb-full" data-fighting="true"><div class="battle-picture" style="--battle-bg:url('${sceneAsset(region.bg)}')"><img class="battle-fighter" src="${heroArt(resultsAge)}" alt="${escape(game.state.name)}"><img class="battle-enemy" src="${sceneAsset(battle.enemyArt ?? region.enemy)}" alt="${escape(battle.enemy)}"><span class="battle-region">${date} · ${region.name}</span><div class="rb-verdict" aria-hidden="true"></div></div><div class="battle-arena"><div class="battle-side">${icon('sword')}<b>${escape(game.state.name)}</b><div class="battle-hp"><i class="rb-player"></i></div><small class="rb-player-hp">${battle.playerMaxHp} / ${battle.playerMaxHp}</small></div><span>VS</span><div class="battle-side enemy">${icon(battle.enemyIcon)}<b>${escape(battle.enemy)}</b><div class="battle-hp"><i class="rb-enemy"></i></div><small class="rb-enemy-hp">${battle.enemyMaxHp} / ${battle.enemyMaxHp}</small></div></div><div class="battle-log rb-log" aria-live="polite"><p>遇到了${escape(battle.enemy)}！深呼吸，勇敢地迈出第一步。</p></div></div>` : '';
       const resultVoiceIds = r.icon === 'gift' ? ['birthday.girl'] : [];
-      sheet('时光，一天天向前', `星历 ${1001 + Math.floor((game.state.month - 1) / 12)} 年 ${(game.state.month - 1) % 12 + 1} 月 · 日程进行中`, `<div class="schedule-replay" data-step="${cursor}" data-phase="playing"><div class="replay-track" aria-label="本月进度">${results.map((item, i) => `<span class="${i < cursor ? 'done' : i === cursor ? 'current' : ''}" ${i === cursor ? 'aria-current="step"' : ''}>${i < cursor ? '✓' : i + 1}<small>${i < 3 ? ['上旬','中旬','下旬'][i] : item.icon === 'coin' ? '账本' : item.icon === 'gift' ? '生日' : '庆典'}</small></span>`).join('')}</div>${scene || `<div class="replay-scene"><img class="replay-background" src="${art}" alt="${escape(r.title)}">${layered ? `<div class="replay-person"><img src="${bodyAsset(resultsAge, game.state.outfit)}" alt="${escape(game.state.name)}"><img src="${outfitAsset(resultsAge, game.state.outfit)}" alt=""></div>` : ''}<span class="replay-date">${date}</span><div class="replay-sparkles" aria-hidden="true">✧ <span>✦</span> ✧</div><div class="replay-caption">${icon(r.icon)}<h3>${escape(r.title)}</h3><span class="replay-status">正在${activity ? activity.category === 'rest' ? '享受悠闲时光' : activity.category === 'work' ? '认真工作' : activity.category === 'adventure' ? '探索新的道路' : '努力练习' : '记录这个月的收获'}<i>…</i></span></div></div>`}<div class="replay-days" aria-hidden="true"><i></i></div><div class="replay-outcome" aria-live="polite"><p>${escape(r.text)}</p><div class="replay-rewards">${statChanges(r.gains).map(([k,v],i) => `<span style="--reward-order:${i}">${icon(STAT_INFO[k].icon)}${STAT_INFO[k].name}<b>+${v}</b></span>`).join('')}${r.gold ? `<span class="${r.gold < 0 ? 'cost' : ''}">${icon('coin')}金币<b>${signed(r.gold)}</b></span>` : ''}${r.stress ? `<span class="${r.stress > 0 ? 'cost' : ''}">${icon('leaf')}压力<b>${signed(r.stress)}</b></span>` : ''}${!r.gold && !r.stress && !statChanges(r.gains).length ? '<span>✦ 又珍藏了一份回忆</span>' : ''}</div></div><div class="replay-controls"><button class="outline-button" data-action="result-speed">${resultSpeed}× 速度</button><button class="primary-button" data-action="result-next">下一项 ${icon('arrow')}</button></div><button class="text-btn full-width" data-action="skip-results">跳过演出 · 查看月度总结</button></div>`, 'replay-sheet');
+      sheet('时光，一天天向前', `星历 ${1001 + Math.floor((game.state.month - 1) / 12)} 年 ${(game.state.month - 1) % 12 + 1} 月 · 日程进行中`, `<div class="schedule-replay" data-step="${cursor}" data-phase="playing"><div class="replay-track" aria-label="本月进度">${results.map((item, i) => `<span class="${i < cursor ? 'done' : i === cursor ? 'current' : ''}" ${i === cursor ? 'aria-current="step"' : ''}>${i < cursor ? '✓' : i + 1}<small>${i < 3 ? ['上旬','中旬','下旬'][i] : item.icon === 'coin' ? '账本' : item.icon === 'gift' ? '生日' : '庆典'}</small></span>`).join('')}</div>${scene || `<div class="replay-scene${birthdayVideo ? ' has-video' : ''}">${birthdayVideo ? `<video class="replay-video" src="${birthdayVideo.src}" poster="${birthdayVideo.poster}" muted playsinline autoplay aria-label="${escape(r.title)}"></video>` : `<img class="replay-background" src="${art}" alt="${escape(r.title)}">`}${layered ? `<div class="replay-person"><img src="${bodyAsset(resultsAge, game.state.outfit)}" alt="${escape(game.state.name)}"><img src="${outfitAsset(resultsAge, game.state.outfit)}" alt=""></div>` : ''}<span class="replay-date">${date}</span><div class="replay-sparkles" aria-hidden="true">✧ <span>✦</span> ✧</div><div class="replay-caption">${icon(r.icon)}<h3>${escape(r.title)}</h3><span class="replay-status">正在${activity ? activity.category === 'rest' ? '享受悠闲时光' : activity.category === 'work' ? '认真工作' : activity.category === 'adventure' ? '探索新的道路' : '努力练习' : '记录这个月的收获'}<i>…</i></span></div></div>`}<div class="replay-days" aria-hidden="true"><i></i></div><div class="replay-outcome" aria-live="polite"><p>${escape(r.text)}</p><div class="replay-rewards">${statChanges(r.gains).map(([k,v],i) => `<span style="--reward-order:${i}">${icon(STAT_INFO[k].icon)}${STAT_INFO[k].name}<b>+${v}</b></span>`).join('')}${r.gold ? `<span class="${r.gold < 0 ? 'cost' : ''}">${icon('coin')}金币<b>${signed(r.gold)}</b></span>` : ''}${r.stress ? `<span class="${r.stress > 0 ? 'cost' : ''}">${icon('leaf')}压力<b>${signed(r.stress)}</b></span>` : ''}${!r.gold && !r.stress && !statChanges(r.gains).length ? '<span>✦ 又珍藏了一份回忆</span>' : ''}</div></div><div class="replay-controls"><button class="outline-button" data-action="result-speed">${resultSpeed}× 速度</button><button class="primary-button" data-action="result-next">下一项 ${icon('arrow')}</button></div><button class="text-btn full-width" data-action="skip-results">跳过演出 · 查看月度总结</button></div>`, 'replay-sheet');
       music.play(battle ? 'bgm_battle' : activity?.category === 'adventure' ? 'bgm_explore' : r.icon === 'gift' || r.icon === 'trophy' ? 'bgm_festival' : 'bgm_schedule');
       if (r.icon === 'gift') music.jingle('jingle_birthday');
       if (r.icon === 'trophy') music.jingle('jingle_festival_award');
-      let frame = 0, elapsed = 0, previous = performance.now(), revealed = false, stopped = false, shown = 0;
+      let frame = 0, elapsed = 0, previous = performance.now(), revealed = false, stopped = false, shown = 0, lastTick = 0;
       const drawBattle = (count: number) => {
         if (!battle || count <= shown) return; // 每帧都会调用；只有新回合时才更新，否则战况文字的淡入动画会被反复重置
         for (; shown < count; shown++) {
@@ -268,7 +281,7 @@ export function startRaisingGame(root: HTMLElement): void {
         modalRoot.querySelector('.schedule-replay')?.setAttribute('data-phase', 'complete');
         const status = modalRoot.querySelector('.replay-status');
         if (status) status.textContent = '这段时光，完成了！';
-        sound.play(r.icon === 'trophy' || battle?.victory ? 'victory' : battle ? 'back' : 'event');
+        if (battle || r.icon === 'trophy') sound.play(r.icon === 'trophy' || battle?.victory ? 'victory' : 'back'); else rewardSounds(r);
         if (resultVoiceIds.length) void dialogueVoice.playSequence(resultVoiceIds, resultsAge, voiceParent());
       };
       nextResult = () => { if (!revealed) { elapsed = Math.max(elapsed, revealAt); reveal(); } else { cursor++; play(); } };
@@ -280,6 +293,7 @@ export function startRaisingGame(root: HTMLElement): void {
         const progress = modalRoot.querySelector<HTMLElement>('.replay-days i');
         if (progress) progress.style.width = `${Math.min(100, elapsed / revealAt * 100)}%`;
         if (battle && !revealed) drawBattle(Math.max(0, Math.min(battle.steps.length, Math.floor((elapsed - 600) / 450) + 1)));
+        if (!revealed && !battle && now - lastTick > 600 / resultSpeed) { lastTick = now; sound.play('day_progress'); }
         if (elapsed >= revealAt) reveal();
         if (elapsed >= advanceAt) { cursor++; play(); return; }
         frame = requestAnimationFrame(tick);
@@ -290,6 +304,7 @@ export function startRaisingGame(root: HTMLElement): void {
   }
   function showResultsSummary(results: MonthResult[]): void {
     const firstShow = latestResults !== results || !modalRoot.querySelector('.result-list');
+    if (stressWarnPending) { stressWarnPending = false; setTimeout(() => sound.play('stress_warn'), 700); }
     latestResults = results;
     music.play('bgm_schedule');
     if (firstShow && !modalRoot.querySelector('.result-list')) music.jingle('jingle_month_end');
@@ -297,7 +312,7 @@ export function startRaisingGame(root: HTMLElement): void {
     const total: Partial<Record<StatKey, number>> = {};
     for (const r of results) for (const [k, v] of statChanges(r.gains)) total[k] = (total[k] ?? 0) + v;
     const gold = results.reduce((n, r) => n + r.gold, 0), stress = results.reduce((n, r) => n + r.stress, 0);
-    sheet('又一起长大了一点', '每一份认真，都悄悄留下了痕迹。', `<div class="pg-month-total"><b>本月合计</b><div class="replay-rewards">${statChanges(total).map(([k, v]) => `<span>${icon(STAT_INFO[k].icon)}${STAT_INFO[k].name}<b>+${v}</b></span>`).join('')}${gold ? `<span class="${gold < 0 ? 'cost' : ''}">${icon('coin')}金币<b>${signed(gold)}</b></span>` : ''}${stress ? `<span class="${stress > 0 ? 'cost' : ''}">${icon('leaf')}压力<b>${signed(stress)}</b></span>` : ''}</div></div><div class="result-list pg-summary">${results.map((r, i) => `<article class="result-row" style="--delay:${i * 80}ms"><span class="result-icon">${icon(r.icon)}</span><div>${ACTIVITIES.some(a=>a.name===r.title)?`<img class="result-art" src="${r.battle ? (r.battle.victory ? lootArt(r.battle.region) : sceneAsset('battle-retreat')) : activityArt(ACTIVITIES.find(a=>a.name===r.title)!.id, resultsAge)}" alt="${r.title}">`:r.icon==='trophy'?`<img class="result-art" src="${festivalArt(resultsAge)}" alt="收获祭">`:r.icon==='gift'?`<img class="result-art" src="${sceneAsset('event-flowers')}" alt="生日的花">`:''}<h3>${r.title}<small>${r.gold ? `${signed(r.gold)} G` : ''}</small></h3><p>${r.text}</p><span class="result-gains">${statChanges(r.gains).map(([k, v]) => `<i>${STAT_INFO[k].name} +${v}</i>`).join('')}${r.stress ? `<i>压力 ${signed(r.stress)}</i>` : ''}</span>${r.battle ? `<button class="text-btn battle-review" data-action="battle" data-index="${i}">${icon('sword')} 再看一次交锋 ${icon('chevron')}</button>` : ''}</div></article>`).join('')}</div><button class="primary-button pg-sticky-cta" data-action="after-results"><span>${s.ended ? '看看她的未来' : s.pendingEvent ? '听听她的小故事' : '收藏这段时光'}</span>${icon('arrow')}</button>`);
+    sheet('又一起长大了一点', '每一份认真，都悄悄留下了痕迹。', `<div class="pg-month-total"><b>本月合计</b><div class="replay-rewards">${statChanges(total).map(([k, v]) => `<span>${icon(STAT_INFO[k].icon)}${STAT_INFO[k].name}<b>+${v}</b></span>`).join('')}${gold ? `<span class="${gold < 0 ? 'cost' : ''}">${icon('coin')}金币<b>${signed(gold)}</b></span>` : ''}${stress ? `<span class="${stress > 0 ? 'cost' : ''}">${icon('leaf')}压力<b>${signed(stress)}</b></span>` : ''}</div></div><div class="result-list pg-summary">${results.map((r, i) => `<article class="result-row" style="--delay:${i * 80}ms"><span class="result-icon">${icon(r.icon)}</span><div>${ACTIVITIES.some(a=>a.name===r.title)?`<img class="result-art" src="${r.battle ? (r.battle.victory ? lootArt(r.battle.region) : sceneAsset('battle-retreat')) : activityArt(ACTIVITIES.find(a=>a.name===r.title)!.id, resultsAge)}" alt="${r.title}">`:r.icon==='trophy'?`<img class="result-art" src="${festivalArt(resultsAge)}" alt="收获祭">`:r.icon==='gift'?`<img class="result-art" src="${birthdayArt(game.age)}" alt="生日">`:''}<h3>${r.title}<small>${r.gold ? `${signed(r.gold)} G` : ''}</small></h3><p>${r.text}</p><span class="result-gains">${statChanges(r.gains).map(([k, v]) => `<i>${STAT_INFO[k].name} +${v}</i>`).join('')}${r.stress ? `<i>压力 ${signed(r.stress)}</i>` : ''}</span>${r.battle ? `<button class="text-btn battle-review" data-action="battle" data-index="${i}">${icon('sword')} 再看一次交锋 ${icon('chevron')}</button>` : ''}</div></article>`).join('')}</div><button class="primary-button pg-sticky-cta" data-action="after-results"><span>${s.ended ? '看看她的未来' : s.pendingEvent ? '听听她的小故事' : '收藏这段时光'}</span>${icon('arrow')}</button>`);
   }
   /** 出击方先冲一下，约 0.12 秒后受击方闪白抖动 */
   function strike(fighter: Element | null, enemy: Element | null, daughterAttacks: boolean): void {
@@ -305,6 +320,15 @@ export function startRaisingGame(root: HTMLElement): void {
     const replay = (el: Element | null, cls: string) => { if (!el) return; el.classList.remove('lunge', 'struck'); void (el as HTMLElement).offsetWidth; el.classList.add(cls); };
     replay(attacker, 'lunge');
     setTimeout(() => replay(victim, 'struck'), 120);
+  }
+  /** 演出揭晓时按实际收获依次轻响：能力 → 金币 → 压力下降；什么都没有就用事件提示声 */
+  function rewardSounds(r: MonthResult): void {
+    const queue: SoundName[] = [];
+    if (statChanges(r.gains).length) queue.push('stat_up');
+    if (r.gold) queue.push(r.gold > 0 ? 'coin_gain' : 'coin_spend');
+    if (r.stress < 0) queue.push('stress_down');
+    if (!queue.length) queue.push('event');
+    queue.forEach((name, i) => setTimeout(() => sound.play(name), i * 220));
   }
   function battleRegion(replay: BattleReplay): { bg: string; enemy: string; name: string } {
     return replay.region === 'ruins' ? { bg: 'battle-ruins', enemy: 'enemy-stone', name: '古塔遗迹' } : replay.region === 'mountain' ? { bg: 'battle-mountain', enemy: 'enemy-spirit', name: '星落山脉' } : { bg: 'battle-forest', enemy: 'enemy-wolf', name: '微光森林' };
@@ -342,7 +366,7 @@ export function startRaisingGame(root: HTMLElement): void {
     const npc = /^side_([a-z]+)_/.exec(event.id)?.[1];
     sheet(event.kind==='main'?'星庭手账 · 成长主线':'生活的小小来信', event.kind==='main'?CHAPTERS[Math.min(7,Math.floor((event.dueMonth??0)/12))]!:'有些时刻，想和你一起做决定。', `<div class="story-art ${art==='room'?'layered-story':''}"><img src="${sceneAsset(art)}" alt="${escape(event.title)}">${art==='room'?`<img class="story-person" src="${bodyAsset(game.age,game.state.outfit)}" alt="${escape(game.state.name)}"><img class="story-person story-clothing" src="${outfitAsset(game.age,game.state.outfit)}" alt="">`:''}</div><div class="story-speaker"><img src="${faceAsset(game.age,eventExpression(event.id))}" alt="${escape(game.state.name)}"><span>${escape(game.state.name)}</span>${npc ? `<span class="story-npc"><img src="${npcAsset(npc, game.age)}" alt=""><span>${PEOPLE[npc as keyof typeof PEOPLE]}</span></span>` : ''}</div><div class="event-copy"><small>${event.kind==='main'?'成长主线':event.kind==='side'?'人物故事':'生活记事'}</small><h3>${event.title}</h3><p>${escape(storyText(event,game.state))}</p></div><div class="event-choices">${event.choices.map((c,i)=>`<button class="outline-button" data-action="choose" data-index="${i}" ${(c.outcome.gold??0)+game.state.gold<0?'disabled':''}>${c.label}${(c.outcome.gold??0)<0?`<small>${c.outcome.gold} G</small>`:''}${icon('chevron')}</button>`).join('')}</div>`, 'story-sheet');
     music.play(eventExpression(event.id) === 'sad' ? 'bgm_rain' : 'bgm_story');
-    if (music.enabled) music.jingle('jingle_letter'); else sound.play('event');
+    if (music.enabled) music.jingle('jingle_letter'); else sound.play('letter_arrive');
     void dialogueVoice.playSequence(storyVoiceSequence(event, game.state), game.age, voiceParent());
   }
   function choiceDiff(before: { gold: number; stress: number; bond: number; stats: Record<StatKey, number>; relations: Record<string, number> }): string {
@@ -436,7 +460,7 @@ export function startRaisingGame(root: HTMLElement): void {
     const action = target.dataset.action;
     sound.unlock();
     // 关闭用合书声，切换页面与分页用翻页声，把活动放进旬格用放下书本的声音，其余按钮用轻拍皮革声
-    sound.play(action==='close'?'back':action==='nav'||action==='journal-tab'||action==='category'?'page':action==='select-activity'?'place':'click');
+    sound.play(action==='close'?'back':action==='nav'||action==='journal-tab'||action==='category'?'page':action==='select-activity'?'place':action==='advance'?'month_start':action==='remove-plan'?'plan_remove':action==='choose'?'choice_pick':action==='talk'?'talk_open':'click');
     try {
       switch (action) {
         case 'nav': navigate(target.dataset.page as Page); break;
@@ -449,7 +473,7 @@ export function startRaisingGame(root: HTMLElement): void {
         case 'attributes': showAttributes(); break;
         case 'talk': { const talkId = `talk.${game.state.month % 5}`; const text = game.talk(); persist(); render(); sheet('庭院里的悄悄话', `${escape(game.state.name)} · ${game.state.parent === '家长' ? '只想说给你听' : `想对${escape(game.state.parent)}说`}`, `<div class="talk-portrait"><img src="${faceAsset(game.age,game.state.stress>=75?'tired':game.state.bond>=80?'happy':'calm')}" alt="${escape(game.state.name)}"></div><p class="talk-words">“${escape(text)}”</p><button class="outline-button" data-action="close">我有认真听哦 ${icon('heart')}</button>`); music.play('bgm_night'); void dialogueVoice.play(talkId, game.age, voiceParent()); break; }
         case 'gift': sheet('送她一份小礼物', '每月一次', `<div class="gift-confirm"><p>一小盒蜂蜜饼干，是她最喜欢的点心。</p><div class="replay-rewards"><span class="cost">${icon('coin')}金币<b>−40</b></span><span>${icon('heart')}亲密<b>+7</b></span><span>${icon('leaf')}压力<b>−8</b></span></div><p class="gift-balance">现有金币 ${game.state.gold.toLocaleString()} G</p><div class="replay-controls"><button class="outline-button" data-action="close">再想想</button><button class="primary-button" data-action="confirm-gift">送给她 ${icon('gift')}</button></div></div>`, 'gift-sheet'); break;
-        case 'confirm-gift': { const text = game.gift(); sound.play('buy'); closeModal(); persist(); render(); toast(text); void dialogueVoice.play('gift.girl', game.age, voiceParent()); break; }
+        case 'confirm-gift': { const text = game.gift(); sound.play('gift_give'); closeModal(); persist(); render(); toast(text); void dialogueVoice.play('gift.girl', game.age, voiceParent()); break; }
         case 'continue-plan':
         case 'pick': if (game.state.ended) showEnding(); else if (game.state.pendingEvent) showEvent(); else picker(Number(target.dataset.slot)); break;
         case 'category': category = target.dataset.category as Category; picker(); break;
@@ -458,7 +482,7 @@ export function startRaisingGame(root: HTMLElement): void {
         case 'clear-plan': for (let i = 0; i < 3; i++) game.setPlan(i, null); persist(); render(); break;
         case 'recommend': { const ids = ['farm', game.state.gold >= 0 ? 'literature' : 'home', 'home']; ids.forEach((id, i) => game.setPlan(i, id)); persist(); render(); toast('打工、学习、休息，给成长一点平衡。'); break; }
         case 'repeat': lastPlan.forEach((id, i) => game.setPlan(i, id)); persist(); render(); break;
-        case 'advance': { const issue = game.planIssue(); if (issue) { toast(issue); break; } resultsAge = game.age; lastPlan = [...game.state.plan]; const results = game.advance(); if (game.age !== resultsAge && [14, 16, 17].includes(game.age)) pendingTimelapse = game.age; persist(); render(); main.scrollTo({ top: 0 }); showResults(results); break; }
+        case 'advance': { const issue = game.planIssue(); if (issue) { sound.play('deny'); toast(issue); break; } const stressBefore = game.state.stress; resultsAge = game.age; lastPlan = [...game.state.plan]; const results = game.advance(); stressWarnPending = stressBefore < 75 && game.state.stress >= 75; if (game.age !== resultsAge && [14, 16, 17].includes(game.age)) pendingTimelapse = game.age; persist(); render(); main.scrollTo({ top: 0 }); showResults(results); break; }
         case 'result-next': nextResult?.(); break;
         case 'result-speed': resultSpeed = resultSpeed === 1 ? 2 : resultSpeed === 2 ? 4 : 1; target.textContent = `${resultSpeed}× 速度`; break;
         case 'skip-results': showResultsSummary(latestResults); break;
@@ -467,7 +491,7 @@ export function startRaisingGame(root: HTMLElement): void {
         case 'skip-battle': skipBattle?.(); break;
         case 'back-results': showResultsSummary(latestResults); break;
         case 'event': showEvent(); break;
-        case 'choose': { const eventId = game.state.pendingEvent; const choiceIndex = Number(target.dataset.index); const before = structuredClone({ gold: game.state.gold, stress: game.state.stress, bond: game.state.bond, stats: game.state.stats, relations: game.state.relations }); const result = game.choose(choiceIndex); persist(); render(); sheet('这份心意，好好收到了', '属于你们的故事，已经记进手账。', `<div class="talk-portrait"><img src="${faceAsset(game.age,'happy')}" alt="${escape(game.state.name)}"></div><p class="talk-words">${result}</p>${choiceDiff(before)}<button class="primary-button" data-action="close">收藏这一刻 ${icon('flower')}</button>`); if (eventId) { const dialogue = storyOutcomeVoiceSequence(eventId, choiceIndex); if (dialogue.length) void dialogueVoice.playSequence(dialogue, game.age, voiceParent()); } break; }
+        case 'choose': { const eventId = game.state.pendingEvent; const choiceIndex = Number(target.dataset.index); const before = structuredClone({ gold: game.state.gold, stress: game.state.stress, bond: game.state.bond, stats: game.state.stats, relations: game.state.relations }); const result = game.choose(choiceIndex); persist(); render(); sheet('这份心意，好好收到了', '属于你们的故事，已经记进手账。', `<div class="talk-portrait"><img src="${faceAsset(game.age,'happy')}" alt="${escape(game.state.name)}"></div><p class="talk-words">${result}</p>${choiceDiff(before)}<button class="primary-button" data-action="close">收藏这一刻 ${icon('flower')}</button>`); if (eventId) { const dialogue = storyOutcomeVoiceSequence(eventId, choiceIndex); if (dialogue.length) void dialogueVoice.playSequence(dialogue, game.age, voiceParent()); } setTimeout(() => sound.play('diary_write'), 450); break; }
         case 'location': category = target.dataset.category as Category; page = 'schedule'; render(); picker(game.state.plan.findIndex(id => !id) === -1 ? 0 : game.state.plan.findIndex(id => !id)); break;
         case 'shop': shop(); break;
         case 'buy': sound.play('buy'); toast(game.buy(target.dataset.id!)); persist(); header(); shop(); break;
@@ -488,7 +512,7 @@ export function startRaisingGame(root: HTMLElement): void {
           break;
         }
       }
-    } catch (err) { toast(err instanceof Error ? err.message : '这次操作没有完成，请再试一次。'); }
+    } catch (err) { sound.play('deny'); toast(err instanceof Error ? err.message : '这次操作没有完成，请再试一次。'); }
   });
   root.addEventListener('input', e => {
     const input = (e.target as Element).closest<HTMLInputElement>('[data-volume]');

@@ -192,17 +192,44 @@
 
 ---
 
-## 七、第三批：生日与收获祭（等图）
+## 七、第三批：生日与收获祭（横版 4:3，在演出窗口内播放）
 
-依赖 `美术音乐音效需求.md` 1.6 节的 6 张图：`birthday-child/teen/grown`、`festival-child/teen/grown`。图画好后按下面的模板生成，横版 4:3，每段 5–6 秒。
+> 2026-11-06 用户决定：生日与收获祭视频**放在日程逐项演出的图片窗口里播放**（窗口是横向的），不做全屏。因此保持**横版 4:3**，首帧为原图居中裁成 1365×1024。（11-05 曾短暂改为竖版全屏，已撤回；生日视频实际已按横版生成并接入。）
 
+| 编号 | 首帧原图 | 时长 | 状态 |
+|---|---|---|---|
+| `vid-birthday-child` | `art-src/stargarden/requirements-v2/candidates/birthday-child-1.png` | 6 s | 已接入 |
+| `vid-birthday-teen` | `art-src/stargarden/requirements-v2/candidates/birthday-teen-2.png` | 6 s | 已接入 |
+| `vid-birthday-grown` | `art-src/stargarden/requirements-v2/candidates/birthday-grown-1.png` | 6 s | 已接入 |
+| `vid-festival-child` | `art-src/stargarden/requirements-v1/candidates/festival-child-1.png` | 5–6 s | 待生成 |
+| `vid-festival-teen` | `art-src/stargarden/requirements-v1/candidates/festival-teen-2.png` | 5–6 s | 待生成 |
+| `vid-festival-grown` | `art-src/stargarden/requirements-v1/candidates/festival-grown-1.png` | 5–6 s | 待生成 |
+
+**生日设定约束（与图片相同）**：画面里只有艾莉；养育者最多出现一只手，袖子中性，不出现脸和身体；不出现其他人；只有一支星形蜡烛。
+
+提示词（再接第二节的统一后缀；负面要求另加 `other people, parents, siblings, adult face`）：
+
+`vid-birthday-child`
 ```
-生日：温馨的家中小生日会。蜂蜜蛋糕上的蜡烛火苗轻轻跳动，她闭眼许愿后轻轻吹气，烛光微微摇曳，彩带和小礼物上的丝带轻轻晃动，暖色灯光柔和。动作缓慢，脸和手不变形。镜头缓慢推近。
-
-收获祭：洒满阳光的小城广场庆典。彩旗和花环随风飘动，几片彩纸从空中缓缓飘落，远处的人群保持轻微动作。她站在展台或舞台上露出开心而害羞的笑容，身体只做很小的动作。镜头缓慢推近。
+温馨的家中夜晚，暖色台灯光。十一岁的她闭着眼睛、双手合十许愿，脸上带着害羞的微笑；蛋糕上那一支星形蜡烛的火苗轻轻跳动，光在她脸上微微摇曳。她慢慢睁开眼，轻轻吹向烛火，火苗晃了晃熄灭，升起一缕细细的白烟。画面边缘那只穿燕麦色毛衣袖的手保持不动。镜头极慢推近她的脸。
 ```
 
----
+`vid-birthday-teen`
+```
+温馨的家中夜晚，暖色台灯光。十四岁的她握着餐刀准备切蛋糕，抬头露出开心又有点不好意思的笑容，发梢轻轻晃动；星形蜡烛的火苗轻轻跳动，窗外小城的灯火微微闪烁。画面边缘递礼物的那只手保持不动。她的手只做很小的动作，不要真正切开蛋糕。镜头缓慢推近。
+```
+
+`vid-birthday-grown`
+```
+安静的家中夜晚，暖色台灯光。十七岁的她双手捧着打开的小礼盒，里面的银色钥匙吊坠反射出一点灯光；她低头看了看吊坠，再抬眼望向镜头，眼里有一点湿润，露出感激而温柔的微笑。星形蜡烛的火苗轻轻跳动，窗外初现星光。手指与礼盒不变形。镜头极慢推近。
+```
+
+`vid-festival-*`（三个年龄段同一模板）
+```
+洒满阳光的小城广场收获祭。彩旗和花环随风飘动，几片彩纸从空中缓缓飘落，远处的人群保持轻微动作。她站在展台前张开手臂介绍自己的作品，露出开心而有点害羞的笑容，身体只做很小的动作，发梢和裙摆被风轻轻吹动。镜头缓慢推近。
+```
+
+验收同第二节；生日另查：画面里没有出现第二个人，蜡烛只有一支。
 
 ## 八、交付后由程序接入（供程序侧参考，生成者无需处理）
 
@@ -257,3 +284,18 @@
 - 画面上逐行淡入“春去秋来……”“星历 某年 · 艾莉 某岁”和当年章节名，并播放 `jingle_chapter`，用文字区分是哪一次。点一下可跳过；开启“减少动态效果”时只显示静止封面与文字。
 - 实现：`src/raising/timelapse.ts`，样式在 `opening.css` 末尾；`smoke:raising:schedule` 覆盖 13→14 岁的过场。
 - 已知不足：单看画面只像“季节变化”，“长大”的含义主要靠文字传达。后续可用三个年龄段的房间图（房间里逐渐多出她成长的痕迹）交叉淡化来加强。
+
+### 2026-11-05 生日视频（候选已生成，待选定）
+
+- 使用 `requirements-v2/candidates/` 中已选的三张生日插画作为参考：`birthday-child-1`、`birthday-teen-2`、`birthday-grown-1`。
+- 三张原图均为 1536×1024；生成前居中裁成 1365×1024 的 4:3 参考图，分别保存为 `<视频编号>-input.png`。
+- 交付：`art-src/stargarden/video/vid-birthday-child/vid-birthday-child_1.mp4`、`vid-birthday-teen/vid-birthday-teen_1.mp4`、`vid-birthday-grown/vid-birthday-grown_1.mp4`。每段一个候选。
+- 规格：Seedance 2.5 多模态参考，720p，4:3，1112×834，24 fps，6.04 秒，无音轨。三段费用合计 34.473 元。
+- 抽帧检查：幼年段保持闭眼许愿与合掌；少年段保持持刀姿势并缓慢眨眼；成年段保持双手捧盒与钥匙吊坠，缓慢眨眼。脸、手、蛋糕、蜡烛和礼盒未见明显变形，镜头缓慢推近符合演出需求。
+- 每个目录同时保存实际视频首帧 `<视频编号>-first.png` 和 0–5 秒抽帧图 `<视频编号>-review.png`。候选尚未选定或接入。
+
+### 2026-11-06 生日视频（已接入）
+
+- 选用 `vid-birthday-child_1`、`vid-birthday-teen_1`、`vid-birthday-grown_1`（每段唯一候选，抽帧检查无变形）。
+- 运行文件 `public/assets/stargarden/video/vid-birthday-<child|teen|grown>.mp4`（1112×834，CRF 18，各约 1.1–1.6 MB）与同名封面 webp。
+- 播放：日程逐项演出轮到“生日”一项时，在图片窗口内按她的新年龄段播放（不裁切，`object-fit: cover`）；这一项自动推进时间延长到约 7 秒，让视频播完。标题缩成右上角小标签，去掉底部渐变，蛋糕与烛光完整露出。开启“减少动态效果”时仍显示静态生日插画。
