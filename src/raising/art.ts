@@ -23,7 +23,8 @@ export function roomTint(night = false): number {
 }
 
 export const PRODUCTION_ROOT = `${ASSET_ROOT}production-v1/`;
-export const NEW_OUTFITS = ['summer', 'winter', 'festival'];
+/** 有三个年龄段独立立绘的款式（购买后各年龄通用）；其余为庭院来信的配色款 */
+export const NEW_OUTFITS = ['summer', 'winter', 'festival', 'spring', 'autumn', 'rain', 'sleep'];
 export type Expression = 'calm' | 'happy' | 'shy' | 'sad' | 'angry' | 'tired';
 export function faceAsset(age: number, expression: Expression = 'calm'): string {
   return `${PRODUCTION_ROOT}face-${age>=16?'grown':age>=14?'teen':'child'}-${expression}.webp`;

@@ -127,7 +127,7 @@ export function eligible(event: StoryEvent, state: GameState): boolean {
     state.stress>=(c.minStress??0) && state.stress<=(c.maxStress??100) && state.bond>=(c.minBond??0) &&
     (!c.activities || Object.entries(c.activities).every(([id,count])=>(state.activityCounts[id]??0)>=count)) &&
     (!c.flags || c.flags.every(f=>state.flags.includes(f))) && (!c.notFlags || c.notFlags.every(f=>!state.flags.includes(f))) &&
-    (!c.outfit || state.outfit===c.outfit);
+    (!c.outfit || (state.tryOn?.restore ?? state.outfit)===c.outfit);
 }
 
 export function storyText(event: StoryEvent, state: GameState): string {

@@ -27,6 +27,8 @@ async function playThrough(page, parent) {
     await page.waitForTimeout(120);
   }
   await page.waitForFunction(() => !document.querySelector('.opening'), null, { timeout: 10000 });
+  // 新周目开场结束后会提供“启程礼金”（看视频领取）；不领，直接关掉
+  if (await page.locator('.sheet [data-slot="new_run_bonus"]').count()) await page.locator('.sheet-header [data-action="close"]').click();
 }
 
 try {

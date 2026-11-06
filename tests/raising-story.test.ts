@@ -51,11 +51,14 @@ describe('成长主线、条件事件与新衣装', () => {
     expect(eligible(tired,state)).toBe(false);state.stress=80;expect(eligible(tired,state)).toBe(true);
   });
   it('购买与穿着分开，重复购买不扣款，成长后继续拥有适配款', () => {
-    const g=new RaisingGame(createState());g.buyOutfit('summer');
-    expect(g.state.outfit).toBe('garden');expect(g.state.gold).toBe(380);
-    g.buyOutfit('summer');expect(g.state.gold).toBe(380);g.wear('summer');
-    expect(g.state.outfit).toBe('summer');expect(g.state.gold).toBe(380);
-    g.state.month=72;g.wear('summer');expect(g.state.gold).toBe(380);
+    const price=OUTFITS.find(o=>o.id==='summer')!.price;
+    const g=new RaisingGame(createState());
+    expect(()=>g.buyOutfit('summer')).toThrow();                          // 开局的钱买不起，不会扣成负数
+    g.state.gold=price+400;g.buyOutfit('summer');
+    expect(g.state.outfit).toBe('garden');expect(g.state.gold).toBe(400);
+    g.buyOutfit('summer');expect(g.state.gold).toBe(400);g.wear('summer');
+    expect(g.state.outfit).toBe('summer');expect(g.state.gold).toBe(400);
+    g.state.month=72;g.wear('summer');expect(g.state.gold).toBe(400);
     const before=JSON.stringify(g.state);expect(()=>g.buyOutfit('missing')).toThrow();expect(JSON.stringify(g.state)).toBe(before);
     g.state.gold=0;expect(()=>g.buyOutfit('festival')).toThrow();expect(g.state.inventory).not.toContain('outfit:festival');
     expect(OUTFITS.filter(o=>['summer','winter','festival'].includes(o.id))).toHaveLength(3);

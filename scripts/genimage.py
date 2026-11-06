@@ -10,7 +10,9 @@
 """
 import base64
 import datetime
+import http.client
 import json
+import os
 import sys
 import time
 import urllib.error
@@ -20,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BASE_URL = 'https://deeprouter.top'
 API = BASE_URL + '/v1/images/generations'
-MODEL = 'gpt-image-2.5-flare'
+MODEL = os.environ.get('STARGARDEN_IMAGE_MODEL', 'gpt-image-2.5-flare')
 QUALITY = None
 KEY_FILE = ROOT / 'gpt_image_2_5_key.txt'
 LOG = ROOT / 'art-src' / 'generation_log.jsonl'
@@ -35,7 +37,7 @@ def generate(
     key_file: Path | None = None,
 ) -> bytes:
     key_path = key_file or KEY_FILE
-    key = key_path.read_text(encoding='utf-8').strip()
+    key = os.environ.get('NEW_API_KEY', '').strip() or key_path.read_text(encoding='utf-8').strip()
     selected_model = model or MODEL
     selected_quality = quality if quality is not None else QUALITY
     selected_api = api or API
@@ -68,7 +70,12 @@ def generate(
             # 4xx（提示词被拒、参数错误）重试也没用
             if e.code < 500 or attempt == 2:
                 raise RuntimeError(f'HTTP {e.code}: {msg}') from None
-        except (urllib.error.URLError, TimeoutError) as e:
+        except (
+            urllib.error.URLError,
+            TimeoutError,
+            ConnectionResetError,
+            http.client.RemoteDisconnected,
+        ) as e:
             if attempt == 2:
                 raise RuntimeError(f'网络错误：{e}') from None
         time.sleep(5 * (attempt + 1))

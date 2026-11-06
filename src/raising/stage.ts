@@ -55,7 +55,7 @@ class GardenScene extends Phaser.Scene {
     const shade = document.createElement('canvas'); shade.width = 256; shade.height = 64;
     const shadeContext = shade.getContext('2d')!;
     const glow = shadeContext.createRadialGradient(128, 32, 0, 128, 32, 128);
-    glow.addColorStop(0, 'rgba(62,44,28,.78)'); glow.addColorStop(.3, 'rgba(62,44,28,.5)'); glow.addColorStop(.65, 'rgba(62,44,28,.16)'); glow.addColorStop(1, 'rgba(70,52,34,0)');
+    glow.addColorStop(0, 'rgba(62,44,28,.3)'); glow.addColorStop(.3, 'rgba(62,44,28,.18)'); glow.addColorStop(.65, 'rgba(62,44,28,.06)'); glow.addColorStop(1, 'rgba(70,52,34,0)');
     shadeContext.setTransform(1, 0, 0, .25, 0, 24); shadeContext.fillStyle = glow; shadeContext.fillRect(0, -96, 256, 256);
     this.textures.addCanvas('floor-shadow', shade);
     this.floorShadow = this.add.image(0, 0, 'floor-shadow').setOrigin(.5);
@@ -134,7 +134,7 @@ class GardenScene extends Phaser.Scene {
       for (const layer of [this.body, this.clothing]) layer?.setPosition(width * .5, top).setScale(scale);
       // 阴影宽度随身高变化，长大后影子也跟着变大。
       const figure = this.body.height * scale;
-      this.floorShadow?.setPosition(width * .5, floor - figure * .006).setDisplaySize(figure * .5, figure * .085);
+      this.floorShadow?.setPosition(width * .5, floor - figure * .006).setDisplaySize(figure * .42, figure * .065);
     }
     this.applyDrift();
   }

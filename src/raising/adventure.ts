@@ -2,18 +2,18 @@ import type { Rng } from '../core/rng';
 import type { BattleReplay, Stats } from './types';
 
 /** 每个区域两种对手，交锋时随机遇到其中一种 */
-const ENCOUNTERS = {
+export const ENCOUNTERS = {
   forest: [
-    { name: '林间灰狼', hp: 48, attack: 9, icon: 'tree', reward: 25, art: 'enemy-wolf' },
-    { name: '山野大野猪', hp: 56, attack: 8, icon: 'tree', reward: 28, art: 'enemy-forest-2' },
+    { name: '林间灰狼', hp: 65, attack: 11, icon: 'tree', reward: 25, art: 'enemy-wolf' },
+    { name: '山野大野猪', hp: 65, attack: 11, icon: 'tree', reward: 28, art: 'enemy-forest-2' },
   ],
   ruins: [
-    { name: '古塔石像', hp: 95, attack: 16, icon: 'castle', reward: 50, art: 'enemy-stone' },
-    { name: '空心盔甲守卫', hp: 88, attack: 17, icon: 'castle', reward: 52, art: 'enemy-ruins-2' },
+    { name: '古塔石像', hp: 90, attack: 14, icon: 'castle', reward: 50, art: 'enemy-stone' },
+    { name: '空心盔甲守卫', hp: 90, attack: 14, icon: 'castle', reward: 52, art: 'enemy-ruins-2' },
   ],
   mountain: [
-    { name: '山巅风灵', hp: 170, attack: 24, icon: 'mountain', reward: 90, art: 'enemy-spirit' },
-    { name: '雪羽山鸟', hp: 160, attack: 26, icon: 'mountain', reward: 92, art: 'enemy-mountain-2' },
+    { name: '山巅风灵', hp: 135, attack: 17, icon: 'mountain', reward: 90, art: 'enemy-spirit' },
+    { name: '雪羽山鸟', hp: 135, attack: 17, icon: 'mountain', reward: 92, art: 'enemy-mountain-2' },
   ],
 };
 /** 一次结算交锋，界面仅重播结果；跳过演出不会影响奖励。 */

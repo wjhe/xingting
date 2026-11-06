@@ -1,6 +1,7 @@
 import { createState, deserialize } from './game';
 import { ENDINGS } from './content';
 import type { GameState, MetaState } from './types';
+import { sanitizeLedger } from './ads';
 
 export const SAVE_KEY = 'stargarden_save_v1';
 export const META_KEY = 'stargarden_meta_v1';
@@ -10,7 +11,7 @@ export function loadState(): { state: GameState; corrupted: boolean } {
 }
 export function loadMeta(): MetaState {
   try { const v = JSON.parse(localStorage.getItem(META_KEY) ?? 'null') as MetaState | null;
-    if (v?.version === 1 && Array.isArray(v.endings) && v.endings.every(id => ENDINGS.some(e => e.id === id)) && Number.isInteger(v.runs) && v.runs >= 0) return v;
+    if (v?.version === 1 && Array.isArray(v.endings) && v.endings.every(id => ENDINGS.some(e => e.id === id)) && Number.isInteger(v.runs) && v.runs >= 0) return { ...v, ads: sanitizeLedger(v.ads) };
   } catch { /* 损坏的收藏不影响本局继续。 */ }
   return { version: 1, endings: [], runs: 0 };
 }

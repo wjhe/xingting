@@ -206,7 +206,7 @@
 .pg-volume input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;margin-top:-8px;border-radius:50%;background:#fffbee;border:2px solid #7f9663;box-shadow:0 1px 3px #5b704533}
 .pg-volume input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:#fffbee;border:2px solid #7f9663}
 /* 衣橱预览：脚下柔和投影 */
-.pg-wardrobe .wardrobe-character:before{content:"";position:absolute;left:50%;bottom:-1%;width:calc(34% * var(--grow,1));height:5%;transform:translateX(-50%);border-radius:50%;background:radial-gradient(ellipse at center,rgba(70,52,34,.42),rgba(70,52,34,.18) 45%,transparent 72%)}
+.pg-wardrobe .wardrobe-character:before{content:"";position:absolute;left:50%;bottom:-1%;width:calc(34% * var(--grow,1));height:5%;transform:translateX(-50%);border-radius:50%;background:radial-gradient(ellipse at center,rgba(70,52,34,.2),rgba(70,52,34,.18) 45%,transparent 72%)}
 
 /* ---------- 2026-11 新素材 ---------- */
 .story-npc{display:inline-flex;align-items:center;gap:6px;margin-left:auto;font-size:15px;color:#7a6650}
@@ -246,3 +246,53 @@
 .replay-scene.has-video .replay-caption h3{font-size:16px;letter-spacing:1px;margin:0}
 .replay-scene.has-video .replay-caption>.icon{width:18px;height:18px}
 .replay-scene.has-video .replay-status,.replay-scene.has-video .replay-sparkles{display:none}
+
+/* ---------- 激励视频广告位：次要按钮，不抢“不看广告”的主按钮 ---------- */
+.ad-btn{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;width:100%;min-height:44px;padding:6px 14px;border:1px dashed #b9a56f;border-radius:22px;background:#fff6dc;color:#8a6d2f;font-size:15px;line-height:1.4}
+.ad-btn small{font-size:12px;color:#a69a7c}
+.ad-btn:disabled{opacity:.6;border-style:solid;border-color:#ddd3b0;background:#f6f1e0;color:#9a937a}
+.ad-btn:not(:disabled):active{transform:translateY(1px)}
+.ad-primary{min-height:50px;margin:10px 0;border-style:solid;background:linear-gradient(#ffeeb8,#f7dc8a);color:#6a4f14;font-size:17px}
+.ad-small{min-height:34px;padding:2px 10px;font-size:13px;margin-top:6px;border-radius:17px}
+.gift-confirm .ad-btn{margin-top:10px}
+.ad-row{display:flex;flex-direction:column;gap:8px;margin:10px 0 4px}
+.ad-note{margin:0 0 8px;font-size:12px;line-height:1.6;color:#9a937a;text-align:center}
+.ad-done{display:block;width:100%;padding:10px 0;text-align:center;border-radius:22px;background:#e8efd6;color:#5d7348;font-size:15px}
+.ad-other{margin:10px 0;padding:10px 14px;border-radius:14px;background:#f1eed6;font-size:14px;line-height:1.7;color:#6f6c55}
+.ad-other p{margin:6px 0}
+.ad-other small{display:block;color:#9a937a;font-size:12px}
+.shop-actions{display:flex;flex-direction:column;align-items:stretch;flex-shrink:0;min-width:96px}
+.hero-ad{position:absolute;left:50%;bottom:84px;transform:translateX(-50%);z-index:3;display:flex;align-items:center;min-height:40px;padding:0 16px;border:1px dashed #b9a56f;border-radius:20px;background:#fff6dcf2;box-shadow:0 2px 8px #5b70451c;color:#8a6d2f;font-size:14px;white-space:nowrap}
+
+/* ---------- 衣橱分类与当季标记 ---------- */
+.outfit-tabs{margin:0 0 8px}
+.outfit-tabs>button{font-size:15px;min-height:44px}
+.season-tag{display:inline-block;margin-left:8px;padding:1px 8px;border-radius:10px;background:#e8efd6;color:#5d7348;font-size:12px;font-style:normal;font-weight:400;vertical-align:middle}
+
+/* 配色款缩略图：身体层与衣服叠层上下重合 */
+.outfit-swatch{position:relative}
+.outfit-swatch>img.swatch-layer{position:absolute;left:0;top:0;margin-top:-5px}
+
+/* 广告按钮与上下元素留出间距：结果页里它夹在数值标签和主按钮之间，不能贴着 */
+.ad-btn{margin-bottom:12px}
+.sheet-body>.ad-btn,.sheet-body>.ad-other{margin-top:14px}
+.ad-row .ad-btn{margin:0}
+.shop-actions .ad-btn{margin-bottom:0}
+.sheet-body>.ad-btn+.primary-button,.sheet-body>.ad-other+.primary-button{margin-top:4px}
+#battle-retry:not(:empty){margin:12px 0 4px}
+#battle-retry .ad-btn{margin-bottom:0}
+/* 成年时选择未来；四季收藏沿用手账和集市的配色。 */
+.future-options { display: grid; gap: 12px; margin: 16px 0; }
+.future-option { display: flex; align-items: center; gap: 12px; width: 100%; padding: 16px; border: 1px solid #dfd6c8; border-radius: 14px; background: #fffaf2; color: #514b43; text-align: left; }
+.future-option > svg { flex-shrink: 0; width: 24px; height: 24px; }
+.future-option span { flex: 1; min-width: 0; }
+.future-option b, .future-option small { display: block; }
+.future-option small { margin-top: 6px; line-height: 1.5; color: #797366; }
+.future-option:hover, .future-option:focus-visible { border-color: #9ba78b; background: #f0f3e8; }
+.keepsake-collection { margin: 18px 0; padding: 14px; border: 1px solid #dfd6c8; border-radius: 14px; background: #fffaf2; }
+.keepsake-collection summary { cursor: pointer; font-weight: 600; }
+.keepsake-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.keepsake-grid article { padding: 12px; border-radius: 10px; background: #f1efe5; }
+.keepsake-grid svg { width: 24px; height: 24px; }
+.keepsake-grid b { display: block; font-size: 13px; margin-top: 6px; }
+.keepsake-grid p { font-size: 12px; line-height: 1.6; color: #797366; }

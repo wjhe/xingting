@@ -201,9 +201,9 @@
 | `vid-birthday-child` | `art-src/stargarden/requirements-v2/candidates/birthday-child-1.png` | 6 s | 已接入 |
 | `vid-birthday-teen` | `art-src/stargarden/requirements-v2/candidates/birthday-teen-2.png` | 6 s | 已接入 |
 | `vid-birthday-grown` | `art-src/stargarden/requirements-v2/candidates/birthday-grown-1.png` | 6 s | 已接入 |
-| `vid-festival-child` | `art-src/stargarden/requirements-v1/candidates/festival-child-1.png` | 5–6 s | 待生成 |
-| `vid-festival-teen` | `art-src/stargarden/requirements-v1/candidates/festival-teen-2.png` | 5–6 s | 待生成 |
-| `vid-festival-grown` | `art-src/stargarden/requirements-v1/candidates/festival-grown-1.png` | 5–6 s | 待生成 |
+| `vid-festival-child` | `art-src/stargarden/requirements-v1/candidates/festival-child-1.png` | 6 s | 已接入 |
+| `vid-festival-teen` | `art-src/stargarden/requirements-v1/candidates/festival-teen-2.png` | 6 s | 已接入 |
+| `vid-festival-grown` | `art-src/stargarden/requirements-v1/candidates/festival-grown-1.png` | 6 s | 已接入 |
 
 **生日设定约束（与图片相同）**：画面里只有艾莉；养育者最多出现一只手，袖子中性，不出现脸和身体；不出现其他人；只有一支星形蜡烛。
 
@@ -299,3 +299,10 @@
 - 选用 `vid-birthday-child_1`、`vid-birthday-teen_1`、`vid-birthday-grown_1`（每段唯一候选，抽帧检查无变形）。
 - 运行文件 `public/assets/stargarden/video/vid-birthday-<child|teen|grown>.mp4`（1112×834，CRF 18，各约 1.1–1.6 MB）与同名封面 webp。
 - 播放：日程逐项演出轮到“生日”一项时，在图片窗口内按她的新年龄段播放（不裁切，`object-fit: cover`）；这一项自动推进时间延长到约 7 秒，让视频播完。标题缩成右上角小标签，去掉底部渐变，蛋糕与烛光完整露出。开启“减少动态效果”时仍显示静态生日插画。
+
+### 2026-11-06 收获祭视频（已接入）
+
+- 交付：`art-src/stargarden/video/vid-festival-<child|teen|grown>/vid-festival-*_1.mp4`，每段一个候选，1112×834，24 fps，6.04 秒，无音轨；生成参数与费用记在各目录的 `*-task.json`（未写入 `video_log.jsonl`）。
+- 抽帧检查：镜头缓慢推近，她眨眼、开心又害羞地笑，彩旗飘动；脸部前后一致、无变形。14 岁那段结尾推得较近，接近面部特写。
+- 运行文件 `public/assets/stargarden/video/vid-festival-*.mp4`（CRF 18，各约 2.1–2.5 MB）与封面 webp。
+- 播放：与生日相同，日程演出轮到“收获祭”一项时在图片窗口内播放（按当月年龄段），标题缩成右上角小标签，这一项停留约 7 秒；减少动态效果时显示静态插画。

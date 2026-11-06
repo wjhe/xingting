@@ -95,16 +95,18 @@ assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('stargard
 await tap('close');
 // Buy a real silhouette in the shop, then equip it without charging again.
 await page.evaluate(()=>{const g=window.__stargarden.game;g.state.month=0;g.state.ended=false;g.state.ending=null;g.state.gold=1000;g.state.inventory=[];g.state.outfit='garden';window.__stargarden.navigate('town');});
+const summerPrice=await page.evaluate(async()=>(await import('/src/raising/content.ts')).OUTFITS.find(o=>o.id==='summer').price);
+await page.evaluate(()=>{window.__stargarden.game.state.gold=3000;});
 await tap('shop');await page.locator('[data-action="buy-outfit"][data-id="summer"]').click();
-assert.equal(await page.evaluate(()=>window.__stargarden.game.state.gold),780);
+assert.equal(await page.evaluate(()=>window.__stargarden.game.state.gold),3000-summerPrice);
 assert.equal(await page.locator('[data-action="buy-outfit"][data-id="summer"]').isDisabled(),true);
 await tap('close');await page.locator('#nav [data-page="wardrobe"]').click();
 await page.locator('[data-action="wear"][data-id="summer"]').click();
-assert.equal(await page.evaluate(()=>window.__stargarden.game.state.gold),780);
+assert.equal(await page.evaluate(()=>window.__stargarden.game.state.gold),3000-summerPrice);
 await shot('13-new-summer-wardrobe');
 // All three ages and six wardrobe entries must load aligned, nonempty transparent layers.
 for (const age of [10, 14, 17]) {
-  for (const outfit of ['garden', 'rose', 'sky', 'summer', 'winter', 'festival']) {
+  for (const outfit of ['garden', 'rose', 'sky', 'summer', 'winter', 'festival', 'spring', 'autumn', 'rain', 'sleep']) {
     await page.evaluate(({ age, outfit }) => {
       const g = window.__stargarden.game; g.state.month = (age - 10) * 12; g.state.ended = false; g.state.ending = null; g.state.outfit = outfit;
       window.__stargarden.navigate('wardrobe');
@@ -160,5 +162,5 @@ for (const width of [320, 375, 430]) {
 }
 await page.setViewportSize({ width: 1440, height: 1000 }); await page.locator('#nav [data-page="home"]').click(); await shot('09-desktop');
 assert.deepEqual(errors, []);
-console.log('Stargarden smoke passed: gameplay, autosave, separate music/sound volume, ending, shop purchase/equip, 3 ages × 6 outfits, 18 expressions, 10 CC0 audio decodes, responsive 320/375/390/430/1440.');
+console.log('Stargarden smoke passed: gameplay, autosave, separate music/sound volume, ending, shop purchase/equip, 3 ages × 10 outfits, 18 expressions, 10 CC0 audio decodes, responsive 320/375/390/430/1440.');
 await browser.close();

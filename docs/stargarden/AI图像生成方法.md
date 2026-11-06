@@ -12,6 +12,7 @@
 - 脚本当前配置的模型：`gpt-image-2.5-flare`。
 - 默认不传 `quality` 参数，沿用此前已确认的服务默认画质，以保持画风一致。
 - 密钥：从项目根目录 `gpt_image_2_5_key.txt` 读取，以 Bearer 方式鉴权。
+- 临时测试可通过 `STARGARDEN_IMAGE_MODEL` 覆盖模型；如设置 `NEW_API_KEY` 环境变量，会优先于密钥文件。
 - 请求默认包含 `model`、`prompt`、`size` 和 `n`；每次请求 `n=1`，多张时逐张调用。
 - 仅在临时风格测试时通过 `--quality` 显式指定其他档位，不应改变默认证风格配置。
 - 响应支持 `b64_json` 或图片 URL。

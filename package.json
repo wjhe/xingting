@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit",
     "sim": "tsx scripts/simulate.ts",
     "sim:raising": "tsx scripts/stargarden-simulate.ts",
-    "test:raising": "vitest run tests/raising.test.ts tests/raising-story.test.ts",
+    "test:raising": "vitest run tests/raising.test.ts tests/raising-story.test.ts tests/raising-ads.test.ts tests/raising-balance.test.ts",
     "smoke:raising": "node scripts/stargarden-smoke.mjs",
     "assets:raising": "python scripts/stargarden-assets.py",
     "assets": "python -I scripts/assets.py",
@@ -23,6 +23,7 @@
     "smoke:raising:schedule": "node scripts/stargarden-schedule-smoke.mjs",
     "smoke:raising:opening": "node scripts/stargarden-opening-smoke.mjs",
     "smoke:raising:music": "node scripts/stargarden-music-smoke.mjs",
+    "smoke:raising:ads": "node scripts/stargarden-ads-smoke.mjs",
     "music:raising": "python scripts/stargarden-music-build.py",
     "sfx:raising:build": "python scripts/stargarden-sfx-ai.py --process-only",
     "sfx:raising:generate": "python scripts/stargarden-sfx-ai.py --generate"

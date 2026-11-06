@@ -22,9 +22,9 @@ export const ACTIVITIES: Activity[] = [
   { id: 'free', name: '自由时光', category: 'rest', icon: 'star', description: '不追赶目标，把今天留给她自己的小世界。', gold: 0, stress: -20, gains: {} },
   { id: 'walk', name: '花园散步', category: 'rest', icon: 'flower', description: '看花开，听风来，给心情放个假。', gold: -15, stress: -20, gains: { charm: 3, kindness: 4 } },
   { id: 'vacation', name: '海边度假', category: 'rest', icon: 'sun', description: '带上野餐篮，去看远方的海。', gold: -120, stress: -48, gains: { stamina: 8, grace: 5 } },
-  { id: 'forest', name: '微光森林', category: 'adventure', icon: 'tree', description: '沿着林间小径，寻找萤火与奇遇。', gold: 20, stress: 14, gains: { stamina: 6, combat: 6, kindness: 3 } },
-  { id: 'ruins', name: '古塔遗迹', category: 'adventure', icon: 'castle', description: '残旧的石壁上，刻着失落的知识。', gold: 65, stress: 22, gains: { intellect: 10, combat: 9 }, unlock: { stat: 'combat', value: 100 }, age: 12 },
-  { id: 'mountain', name: '星落山脉', category: 'adventure', icon: 'mountain', description: '越过云层的勇者，才能看见星海。', gold: 120, stress: 27, gains: { stamina: 10, combat: 14 }, unlock: { stat: 'combat', value: 220 }, age: 14 },
+  { id: 'forest', name: '微光森林', category: 'adventure', icon: 'tree', description: '寻找萤火与奇遇。建议武艺 15、体力 40；准备更充分，交锋更从容。', gold: 20, stress: 14, gains: { stamina: 6, combat: 6, kindness: 3 } },
+  { id: 'ruins', name: '古塔遗迹', category: 'adventure', icon: 'castle', description: '石壁上刻着失落的知识。建议武艺 100、体力 40；解锁后也要留意体力。', gold: 65, stress: 22, gains: { intellect: 10, combat: 9 }, unlock: { stat: 'combat', value: 100 }, age: 12 },
+  { id: 'mountain', name: '星落山脉', category: 'adventure', icon: 'mountain', description: '越过云层寻找星海。建议武艺 220、体力 40；智力与气质也能帮助交锋。', gold: 120, stress: 27, gains: { stamina: 10, combat: 14 }, unlock: { stat: 'combat', value: 220 }, age: 14 },
 ];
 
 export const EVENTS: StoryEvent[] = [
@@ -137,16 +137,28 @@ export const ENDINGS: Ending[] = [
 ];
 
 export const SHOP = [
-  { id: 'notebook', name: '星纹笔记本', icon: 'book', price: 100, description: '学习类日程的智力收益 +2。' },
+  { id: 'notebook', name: '星纹笔记本', icon: 'book', price: 100, description: '学习类日程额外获得智力 +1。' },
   { id: 'boots', name: '轻便旅行靴', icon: 'compass', price: 120, description: '探索日程的压力消耗 -5。' },
-  { id: 'ribbon', name: '蔷薇发带', icon: 'flower', price: 90, description: '课程中额外获得魅力 +2。' },
+  { id: 'ribbon', name: '蔷薇发带', icon: 'flower', price: 90, description: '学习类日程额外获得魅力 +1。' },
   { id: 'teaset', name: '白瓷茶具', icon: 'cup', price: 110, description: '休息日程额外减少压力 5。' },
 ];
+/** 每年四份纪念收藏，随季节开放；纯收藏，不增加任何能力或收入。 */
+export const KEEPSAKES = Array.from({ length: 8 }, (_, year) => [
+  { season: 'spring', name: '春日压花册', icon: 'flower', month: 3, text: '把今年春天的第一朵花，轻轻夹在书页里。' },
+  { season: 'summer', name: '海风贝壳盒', icon: 'compass', month: 6, text: '小小的贝壳盒里，藏着一起听过的海风。' },
+  { season: 'autumn', name: '秋日纪念章', icon: 'leaf', month: 9, text: '用一枚小小的纪念章，收藏这个金色的秋天。' },
+  { season: 'winter', name: '冬夜星灯', icon: 'star', month: 11, text: '灯光落在窗边，今年的冬夜有了温柔的颜色。' },
+].map(item => ({ id: `${year}-${item.season}`, name: `${10 + year}岁 · ${item.name}`, icon: item.icon, description: item.text, availableMonth: year * 12 + item.month, price: 300 + year * 100 })) ).flat();
+/** group：衣橱分类（season 四季 / daily 日常 / special 特别）；season：当季款（与游戏月份的季节对应，集市与衣橱会标“当季”） */
 export const OUTFITS = [
-  { id: 'summer', name: '晴日水手裙', color: '#86aebd', description: '短袖水手领、百褶裙与系带草帽。夏日外出款。', price: 220 },
-  { id: 'winter', name: '林间冬日', color: '#879b7c', description: '羊毛披肩、针织衫与格纹长裙。冬季保暖款。', price: 280 },
-  { id: 'festival', name: '花灯舞会', color: '#c58f9b', description: '蕾丝领、泡泡袖与层叠裙摆。节庆正式礼服。', price: 360 },
-  { id: 'garden', name: '庭院来信', color: '#91a18a', description: '最初的绿裙，装着整个春天。', price: 0 },
-  { id: 'rose', name: '蔷薇午后', color: '#c9949e', description: '温柔的玫瑰色，为特别的日子。', price: 160 },
-  { id: 'sky', name: '晴空序曲', color: '#829fb7', description: '把远方的天空，穿在身上。', price: 160 },
+  { id: 'summer', name: '晴日水手裙', color: '#86aebd', description: '短袖水手领、百褶裙与系带草帽。夏日外出款。', price: 800, group: 'season', season: '夏' },
+  { id: 'winter', name: '林间冬日', color: '#879b7c', description: '羊毛披肩、针织衫与格纹长裙。冬季保暖款。', price: 900, group: 'season', season: '冬' },
+  { id: 'spring', name: '春日花信', color: '#e8a597', description: '粉色开襟衫配叶绿色中长裙，提着一篮刚摘的花。春日出游款。', price: 800, group: 'season', season: '春' },
+  { id: 'autumn', name: '枫叶暖秋', color: '#d9a93c', description: '芥黄色长开衫配锈红百褶裙，挎着小皮包，手里是两片红枫叶。', price: 900, group: 'season', season: '秋' },
+  { id: 'festival', name: '花灯舞会', color: '#c58f9b', description: '蕾丝领、泡泡袖与层叠裙摆。节庆正式礼服。', price: 1600, group: 'special' },
+  { id: 'rain', name: '雨后小径', color: '#e9d98a', description: '奶黄色木扣雨衣、蓝色雨靴和一把收起的小伞。雨天也想出门。', price: 700, group: 'daily' },
+  { id: 'sleep', name: '星夜安睡', color: '#b9aec6', description: '绣着小星星的睡衣，肩上搭着玫瑰色开衫。属于夜晚的软绵绵。', price: 600, group: 'daily' },
+  { id: 'garden', name: '庭院来信', color: '#91a18a', description: '最初的绿裙，装着整个春天。', price: 0, group: 'daily' },
+  { id: 'rose', name: '蔷薇午后', color: '#c9949e', description: '温柔的玫瑰色，为特别的日子。', price: 400, group: 'daily' },
+  { id: 'sky', name: '晴空序曲', color: '#829fb7', description: '把远方的天空，穿在身上。', price: 400, group: 'daily' },
 ];

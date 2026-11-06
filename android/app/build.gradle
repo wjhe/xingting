@@ -20,7 +20,7 @@ android {
     namespace "com.wendao.changsheng"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.wendao.changsheng"
+        applicationId "com.xingting.story"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

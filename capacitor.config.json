@@ -1,6 +1,6 @@
 {
-  "appId": "com.wendao.changsheng",
-  "appName": "问道长生",
+  "appId": "com.xingting.story",
+  "appName": "星庭的女儿",
   "webDir": "dist",
   "android": {
     "backgroundColor": "#f1e8d4"
